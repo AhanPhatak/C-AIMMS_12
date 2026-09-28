@@ -71,6 +71,11 @@ JUDGE_ENABLED = os.environ.get("WORKMEM_JUDGE", "0") == "1"
 #   hybrid            : S = FULL conversation (steering), prompt = IterRet evidence
 #                       (attention). Decouples recall (S) from precision (prompt).
 OSAM_MODE = os.environ.get("WORKMEM_OSAM_MODE", "combined")
+# Validate at import so a bad/empty mode fails before the model loads (an empty
+# value usually means a shell variable didn't expand -- don't silently default).
+if OSAM_MODE not in ("combined", "vanilla", "hybrid"):
+    raise SystemExit(f"[FATAL] unknown WORKMEM_OSAM_MODE={OSAM_MODE!r} "
+                     "(expected combined | vanilla | hybrid)")
 
 
 
