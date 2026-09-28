@@ -39,8 +39,10 @@ elif [ -n "${WORKMEM_MAX_SAMPLES:-}" ]; then
     # 4-conversation set). Give it its OWN checkpoint so it never collides with
     # the full run's workmem_iterret_full.jsonl (which resume would otherwise
     # treat as already-done). Not auto-cleared; archive it yourself between runs.
-    export WORKMEM_OUTPUT_FILE="${CAIMMS_OUTPUT_DIR}/workmem_iterret_n${WORKMEM_MAX_SAMPLES}.jsonl"
-    MODE="SUBSET (${WORKMEM_MAX_SAMPLES} sample(s))"
+    # Honour a caller-preset WORKMEM_OUTPUT_FILE (so a mode/judge sweep can name
+    # each run's file); otherwise default to a per-N checkpoint.
+    export WORKMEM_OUTPUT_FILE="${WORKMEM_OUTPUT_FILE:-${CAIMMS_OUTPUT_DIR}/workmem_iterret_n${WORKMEM_MAX_SAMPLES}.jsonl}"
+    MODE="SUBSET (${WORKMEM_MAX_SAMPLES} sample(s)) -> $(basename "${WORKMEM_OUTPUT_FILE}")"
 else
     export WORKMEM_OUTPUT_FILE="${CAIMMS_OUTPUT_DIR}/workmem_iterret_full.jsonl"
     MODE="FULL (10 samples / 1540 questions)"

@@ -603,6 +603,45 @@ def build_answer_prompt(query, system_instruction=None, *,
     return formatted_query
 
 
+def answer_with_modes(session, query, *, s_content, prompt_content,
+                      system_instruction=None, allow_abstention: bool = False,
+                      **gen_kwargs):
+    """Answer with S-content and prompt-content DECOUPLED -- the primitive for the
+    vanilla / hybrid experiments.
+
+      s_content:      list[str] written into the online state S (Phase 1).
+      prompt_content: list[str] placed in the attended prompt context. May differ
+                      from s_content. [] -> the model attends only the question
+                      (S-only). The hybrid experiment is s_content=full context,
+                      prompt_content=IterRet evidence.
+
+    Preserves S across the prompt swap by clearing processed_input_ids as well as
+    past_key_values (see the EVIDENCE_IN_PROMPT=0 note above): otherwise the
+    Phase-2 ingest rebuilds and resets S. past_key_values holds only the attention
+    KV, not S, so dropping it loses the Phase-1 *context* while keeping the state.
+    """
+    # Phase 1: write s_content into S (reset=True clears S first, then writes).
+    populate_osam_from_evidence(session, s_content)
+    # Detach Phase-1 context, KEEP S.
+    session.past_key_values = None
+    session.processed_input_ids = None
+    # Phase-2 prompt context = prompt_content (empty for S-only).
+    session.messages = [{"role": "user", "content": u} for u in prompt_content]
+
+    try:
+        from deltamem.core.delta_impl import set_delta_mem_write_granularity
+        set_delta_mem_write_granularity(session.model, "token")
+    except ImportError:
+        pass
+
+    formatted_query = build_answer_prompt(
+        query, system_instruction, allow_abstention=allow_abstention,
+        evidence_carries_dates=_evidence_carries_dates(session),
+    )
+    gen_kwargs.setdefault("prompt_write_enabled", PHASE2_PROMPT_WRITE)
+    return session.generate_reply(formatted_query, **gen_kwargs)
+
+
 def answer_with_osam(session, query, system_instruction=None, *,
                      allow_abstention: bool = False, **gen_kwargs):
     """Generate an answer with OSAM live. Phase 2 of the two-phase protocol.
@@ -622,8 +661,17 @@ def answer_with_osam(session, query, system_instruction=None, *,
         # the question and reaches the evidence solely through OSAM. Clear
         # messages and past_key_values directly -- do NOT call session.reset(),
         # which also resets the delta-mem state S we just populated.
+        #
+        # processed_input_ids MUST also be cleared. Otherwise the next
+        # _ingest_full_ids sees the question prompt diverge from the Phase-1
+        # evidence prefix (session.py:521) and REBUILDS from scratch, which calls
+        # reset_delta_mem_states and WIPES S -- so "evidence only through S" would
+        # actually answer with an empty S (only the question, via the prefill
+        # write). With it None, _common_prefix_len returns 0 and no reset fires,
+        # so S from Phase 1 genuinely survives into generation.
         session.messages = []
         session.past_key_values = None
+        session.processed_input_ids = None
 
     formatted_query = build_answer_prompt(
         query,

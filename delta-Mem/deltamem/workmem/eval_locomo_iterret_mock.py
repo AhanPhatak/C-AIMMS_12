@@ -13,7 +13,8 @@ from deltamem.eval.locomo_protocol import (
 from deltamem.runtime.session import DeltaMemChatSession
 from deltamem.workmem.iterret_bridge import get_iterret_evidence
 from deltamem.workmem.osam_workmem import (
-    answer_with_osam, populate_osam_from_evidence, maybe_narrow_evidence,
+    answer_with_osam, answer_with_modes, populate_osam_from_evidence, maybe_narrow_evidence,
+    EVIDENCE_IN_PROMPT,
 )
 from deltamem.workmem.evidence_filter import filter_evidence_by_relevance
 from iterret.llm_client import OpenAICompatibleLLMClient
@@ -60,6 +61,16 @@ GRAPH_LLM_CHECK_AFTER = int(os.environ.get("WORKMEM_GRAPH_LLM_CHECK_AFTER", "15"
 # (first-person, relative dates, "twice" vs "2") separate from real misses. One
 # extra LLM call per answered question; robust to judge failures (counts False).
 JUDGE_ENABLED = os.environ.get("WORKMEM_JUDGE", "0") == "1"
+
+# OSAM ablation mode -- what goes into the online state S vs the attended prompt:
+#   combined (default): S = IterRet evidence, prompt = IterRet evidence
+#                       (per OSAM_EVIDENCE_IN_PROMPT). The validated pipeline.
+#   vanilla           : S = FULL conversation, no IterRet used for answering;
+#                       prompt = full context if OSAM_EVIDENCE_IN_PROMPT else none
+#                       (S-only). The "original del-mem" baseline.
+#   hybrid            : S = FULL conversation (steering), prompt = IterRet evidence
+#                       (attention). Decouples recall (S) from precision (prompt).
+OSAM_MODE = os.environ.get("WORKMEM_OSAM_MODE", "combined")
 
 
 
@@ -217,6 +228,13 @@ def main() -> None:
             graph.attach_embedder(bank.backend)
             graph_dates_resolved = bool(getattr(graph, "meta", {}).get("dates_resolved"))
             print(f"[sample {sample_idx}] dates_resolved={graph_dates_resolved}", flush=True)
+            # Full conversation in timeline order (episodic nodes' display text),
+            # for the vanilla / hybrid OSAM modes. Insertion order = build order
+            # = chronological. Uses the same (date-resolved) rendering as evidence.
+            full_context_units = [
+                graph.contents[cid].display_text()
+                for cid, node in graph.contents.items() if node.layer == "episodic"
+            ]
         except Exception as exc:
             print(f"[sample {sample_idx}] Graph build FAILED: {exc}", flush=True)
             with open(OUTPUT_FILE, "a") as cf:
@@ -292,7 +310,11 @@ def main() -> None:
             retrieval_diag["final_evidence_ids"] = [_text_to_id.get(t, "?") for t in evidence]
             retrieval_diag["n_dropped_by_filter"] = len(pre_filter_evidence) - n_ev
 
-            if not evidence:
+            # In vanilla/hybrid the answer's S carries the FULL conversation, so an
+            # empty IterRet result is not a reason to skip -- only skip when the
+            # combined pipeline (which depends entirely on retrieved evidence) has
+            # nothing.
+            if not evidence and OSAM_MODE == "combined":
                 entry = {
                     "sample_idx": sample_idx, "q_idx": q_idx, "question": q_text,
                     "gold_answer": gold_answer_of(question), "category": question.get("category"),
@@ -318,7 +340,8 @@ def main() -> None:
             # per-round, in nodes.py's fail-open fallback (FAIL_OPEN_FALLBACK_TOP_K)
             # -- which only limits evidence from rounds where routing couldn't
             # be trusted, leaving genuinely-vetted multi-round evidence intact.
-            populate_osam_from_evidence(session, evidence)
+            if OSAM_MODE == "combined":
+                populate_osam_from_evidence(session, evidence)
 
             prediction = ""
             # How much OSAM's readout contributed to the output, right at the
@@ -333,7 +356,21 @@ def main() -> None:
                 # type (see its docstring/comments). cat_int is only used
                 # above for the adversarial exclusion and below for score
                 # bucketing.
-                out = answer_with_osam(session, q_text)
+                if OSAM_MODE == "combined":
+                    out = answer_with_osam(session, q_text)
+                elif OSAM_MODE == "vanilla":
+                    # S = full conversation; prompt = full context (if
+                    # EVIDENCE_IN_PROMPT) else none (S-only) -- no IterRet.
+                    out = answer_with_modes(
+                        session, q_text, s_content=full_context_units,
+                        prompt_content=(full_context_units if EVIDENCE_IN_PROMPT else []))
+                elif OSAM_MODE == "hybrid":
+                    # S = full conversation (steering); prompt = IterRet evidence.
+                    out = answer_with_modes(
+                        session, q_text, s_content=full_context_units,
+                        prompt_content=evidence)
+                else:
+                    raise SystemExit(f"[FATAL] unknown WORKMEM_OSAM_MODE={OSAM_MODE!r}")
                 prediction = extract_prediction(out, session)
                 if isinstance(out, dict):
                     osam_contribution = out.get("prompt_output_ratio_stats") or {}
@@ -347,7 +384,7 @@ def main() -> None:
                 "n_evidence_retrieved": n_ev, "prediction": prediction, "score": score, "skipped": False,
                 "retrieval": retrieval_diag,
                 "osam_contribution": osam_contribution,
-                "graph_dates_resolved": graph_dates_resolved,
+                "graph_dates_resolved": graph_dates_resolved, "osam_mode": OSAM_MODE,
             }
             # Optional LLM-judge secondary metric. Uses the graph vLLM; a judge
             # failure must never abort the run (the handoff's earlier 500-abort
