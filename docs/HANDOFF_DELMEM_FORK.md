@@ -102,6 +102,7 @@ Retrieval (`IterRet/iterret/nodes.py`):
 | `ITERRET_CONTENT_KNN_K` | 5 | neighbours pulled per seed node |
 | `ITERRET_CONTENT_KNN_ADD` | 10 | max k-NN nodes added per round (query-RRF ranked) |
 | `ITERRET_EXPAND_MAX_SEEDS` | 8 | expand contiguity/k-NN only from the top-N query-relevant hits |
+| `ITERRET_RESOLVE_DATES` | 1 | resolve relative dates ("yesterday"→"yesterday (7 May, 2023)") in episodic memories on every graph build AND load; `0` = raw text. Ported from upstream (§5) |
 | `DISABLE_TAG_EMBEDDER_FUSION` | unset | reproduce pure-lexical tag ranking |
 | `DISABLE_CONTENT_EMBEDDER_FUSION` | unset | reproduce pure-lexical content ranking |
 
@@ -141,6 +142,19 @@ Diagnostics now written per row (`retrieval.*`): `fallback_topup_total`,
   "5 July 2023"), 9 first-person leaks ("my daughter" vs "Melanie's daughter"),
   plus paraphrase/number-word cases. Only ~8–10 are genuine retrieval/reasoning
   misses. The retrieval stack is better than token-F1 shows.
+- **Relative-date resolution (ported from upstream, 2026-09-28) is the better
+  temporal lever than prompt engineering.** `IterRet/iterret/time_resolution.py`
+  rewrites relative dates in the memory at ingestion ("yesterday" → "yesterday
+  (7 May, 2023)"), using each session's own timestamp; runs on every graph build
+  AND load (`ITERRET_RESOLVE_DATES=1`, default), so existing `graph_cache/` is
+  resolved in memory on load (files untouched). Upstream measured temporal
+  0.502→0.785 (+0.283) from this alone — bigger than our PE temporal gain
+  (0.222→0.433) and far more defensible: it's a data transformation, reads no
+  questions/answers, generalizes to any timestamped dataset. The 4B copies dates
+  well but does arithmetic badly, so do it once in the memory. With dates in the
+  evidence, the temporal PROMPT instruction is unnecessary — prefer this over
+  `OSAM_PROMPT_ENGINEERING=1` for the temporal fix. Not yet re-measured on THIS
+  fork; run the paired 300-Q test (dates on, PE off) to confirm.
 - **The TEMPORAL deficit vs the parallel session is that format gap.** Their
   default prompt includes date-grounding; the fork's headline run does not.
   `OSAM_PROMPT_ENGINEERING=1` targets exactly these buckets. Whether to use it is

@@ -215,6 +215,8 @@ def main() -> None:
             # by embedding similarity instead of keeping everything untouched
             # when the routing LLM's decision can't be trusted.
             graph.attach_embedder(bank.backend)
+            graph_dates_resolved = bool(getattr(graph, "meta", {}).get("dates_resolved"))
+            print(f"[sample {sample_idx}] dates_resolved={graph_dates_resolved}", flush=True)
         except Exception as exc:
             print(f"[sample {sample_idx}] Graph build FAILED: {exc}", flush=True)
             with open(OUTPUT_FILE, "a") as cf:
@@ -296,7 +298,7 @@ def main() -> None:
                     "gold_answer": gold_answer_of(question), "category": question.get("category"),
                     "n_evidence_retrieved": 0, "prediction": "", "score": 0.0,
                     "skipped": True, "reason": "no_relevant_evidence",
-                    "retrieval": retrieval_diag,
+                    "retrieval": retrieval_diag, "graph_dates_resolved": graph_dates_resolved,
                     **({"judge_correct": False} if JUDGE_ENABLED else {}),
                 }
                 with open(OUTPUT_FILE, "a") as cf:
@@ -345,6 +347,7 @@ def main() -> None:
                 "n_evidence_retrieved": n_ev, "prediction": prediction, "score": score, "skipped": False,
                 "retrieval": retrieval_diag,
                 "osam_contribution": osam_contribution,
+                "graph_dates_resolved": graph_dates_resolved,
             }
             # Optional LLM-judge secondary metric. Uses the graph vLLM; a judge
             # failure must never abort the run (the handoff's earlier 500-abort

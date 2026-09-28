@@ -5,6 +5,7 @@ import json
 import sys
 from typing import Iterator, List, Optional, TypedDict
 
+from . import ctc_graph
 from .ctc_graph import CueTagContentGraph
 from .json_utils import parse_json_object
 from .llm_client import LLMClient
@@ -133,6 +134,7 @@ def _abstract_topics(episode_summaries: List[dict], llm: LLMClient, *, max_chars
 
 def build_ctc_graph_from_dialogue(
     turns: List[DialogueTurn], llm: LLMClient, *, max_chars_per_call: int = DEFAULT_MAX_CHARS_PER_CALL,
+    resolve_dates: Optional[bool] = None,
 ) -> CueTagContentGraph:
     """Run all three distillation stages and assemble the CTC graph.
 
@@ -167,5 +169,11 @@ def build_ctc_graph_from_dialogue(
     # them into the cue->tag->content graph, so retrieval (which only traverses
     # cue->tag->content) could never reach them -- pure LLM-call waste on
     # unreachable, redundant summaries of episodes that already exist as nodes.
+
+    # Resolve relative dates against each turn's timestamp, so a freshly built
+    # graph matches a cached one resolved on load (ctc_graph.RESOLVE_DATES /
+    # ITERRET_RESOLVE_DATES). Ported from nitinvetcha/C-AIMMS workmem-vertical.
+    if ctc_graph.RESOLVE_DATES if resolve_dates is None else resolve_dates:
+        graph.resolve_relative_dates()
 
     return graph

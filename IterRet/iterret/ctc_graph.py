@@ -9,6 +9,15 @@ from collections import Counter
 from dataclasses import dataclass, field
 from typing import Dict, Iterable, List, Literal, Optional, Set, Tuple
 
+from .time_resolution import date_only, resolve_relative_time
+
+# Relative dates ("yesterday", "last week") are resolved against each episodic
+# memory's own timestamp whenever a graph is built OR loaded, so every graph the
+# pipeline uses carries them -- including caches built before this existed, whose
+# files on disk are left untouched. ITERRET_RESOLVE_DATES=0 restores the raw text.
+# Ported from nitinvetcha/C-AIMMS workmem-vertical (time_resolution, 2026-09-28).
+RESOLVE_DATES = os.environ.get("ITERRET_RESOLVE_DATES", "1") != "0"
+
 ContentLayer = Literal["episodic", "semantic", "topic"]
 
 _WORD_RE = re.compile(r"[a-z0-9]+")
@@ -123,6 +132,8 @@ class CueTagContentGraph:
         # existing cached graphs need no migration.
         self._df: Optional[Counter] = None
         self._idf: Dict[str, float] = {}
+        # Persisted with the graph. "dates_resolved": resolve_relative_dates() ran.
+        self.meta: Dict[str, object] = {}
 
     # ------------------------------------------------------------------
     # Graph construction
@@ -532,11 +543,36 @@ class CueTagContentGraph:
         scored.sort(key=lambda pair: pair[0], reverse=True)
         return [cid for _, cid in scored[:top_k]]
 
+    def resolve_relative_dates(self) -> int:
+        """Annotate every episodic memory's relative time expressions with the date
+        its own timestamp implies ('yesterday' -> 'yesterday (7 May, 2023)') and
+        shorten the timestamp to its date ('1:56 pm on 8 May, 2023' -> '8 May, 2023').
+
+        Only text and time change; cue/tag links are untouched. Idempotent, so it
+        is safe on graphs already migrated. Returns the number of expressions
+        resolved. Ported from nitinvetcha/C-AIMMS workmem-vertical.
+        """
+        n = 0
+        for node in self.contents.values():
+            if node.layer != "episodic" or not node.time:
+                continue
+            node.text, k = resolve_relative_time(node.text, node.time)
+            node.time = date_only(node.time)
+            n += k
+        # text changed -> drop every text-derived cache (IDF, content embeddings,
+        # and the content-content k-NN neighbours built from them).
+        self._df, self._idf = None, {}
+        self._content_emb = {}
+        self._content_knn = {}
+        self.meta["dates_resolved"] = True
+        return n
+
     # ------------------------------------------------------------------
     # Persistence
     # ------------------------------------------------------------------
     def to_dict(self) -> dict:
         return {
+            "meta": dict(self.meta),
             "cues": {cid: {"tag_set": sorted(c.tag_set)} for cid, c in self.cues.items()},
             "contents": {
                 cid: {
@@ -560,10 +596,14 @@ class CueTagContentGraph:
             json.dump(self.to_dict(), fh, indent=2)
 
     @classmethod
-    def load(cls, path: str) -> "CueTagContentGraph":
+    def load(cls, path: str, *, resolve_dates: Optional[bool] = None) -> "CueTagContentGraph":
+        """``resolve_dates``: None follows ITERRET_RESOLVE_DATES (default on), so a
+        cache built before date resolution existed is resolved in memory on load
+        (its file on disk is left untouched)."""
         with open(path, "r", encoding="utf-8") as fh:
             data = json.load(fh)
         graph = cls()
+        graph.meta = dict(data.get("meta") or {})
         for cid, content in data.get("contents", {}).items():
             graph.add_content(
                 cid,
@@ -574,4 +614,6 @@ class CueTagContentGraph:
             )
         for cue_id, tag, content_id in data.get("links", []):
             graph.link(cue_id, tag, content_id)
+        if (RESOLVE_DATES if resolve_dates is None else resolve_dates) and not graph.meta.get("dates_resolved"):
+            graph.resolve_relative_dates()
         return graph
