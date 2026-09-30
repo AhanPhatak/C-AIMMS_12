@@ -54,6 +54,8 @@ MAX_SAMPLES = int(os.environ["WORKMEM_MAX_SAMPLES"]) if os.environ.get("WORKMEM_
 # GRAPH_LLM_CHECK_AFTER answered questions are almost all fully fail-open, the
 # graph LLM is dead -- bail immediately instead of grinding through the whole set.
 GRAPH_LLM_CHECK_AFTER = int(os.environ.get("WORKMEM_GRAPH_LLM_CHECK_AFTER", "15"))
+# Abort after this many generation failures in a row (e.g. a persistent OOM).
+MAX_CONSECUTIVE_FAILURES = int(os.environ.get("WORKMEM_MAX_CONSECUTIVE_FAILURES", "5"))
 
 # Optional LLM-judge secondary metric (default OFF; token-F1 stays primary). When
 # on, each row also gets a lenient correct/incorrect verdict from the graph LLM
@@ -113,6 +115,11 @@ def load_checkpoint(output_file: str) -> Tuple[Set[Tuple[int, int]], List[dict]]
                 continue
             try:
                 entry = json.loads(line)
+                # Rows from a failed generation (e.g. CUDA OOM) were written as
+                # score 0 with an empty prediction before failures stopped being
+                # checkpointed. Drop them so a resume re-answers the question.
+                if entry.get("prediction") == "" and not entry.get("skipped"):
+                    continue
                 completed.add((entry["sample_idx"], entry["q_idx"]))
                 results.append(entry)
             except (json.JSONDecodeError, KeyError):
@@ -167,6 +174,7 @@ def main() -> None:
     # Graph-LLM health tracking (see GRAPH_LLM_CHECK_AFTER). Counts freshly
     # answered questions this process produced -- not checkpoint-resumed ones.
     graph_health = {"checked": 0, "dead": 0}
+    failures = {"consecutive": 0}
 
     for sample_idx, sample in enumerate(samples):
         if MAX_SAMPLES is not None and sample_idx >= MAX_SAMPLES:
@@ -381,6 +389,19 @@ def main() -> None:
                     osam_contribution = out.get("prompt_output_ratio_stats") or {}
             except Exception as exc:
                 print(f"[sample {sample_idx}.{q_idx}] Generation FAILED: {exc}", flush=True)
+                # Do NOT checkpoint a failed generation: a score-0 row would be
+                # counted as a real answer and skipped on resume. Leave it for
+                # the next run, and abort if failures are persistent (OOM loop).
+                failures["consecutive"] += 1
+                del session
+                torch.cuda.empty_cache()
+                if failures["consecutive"] >= MAX_CONSECUTIVE_FAILURES:
+                    raise SystemExit(
+                        f"[FATAL] {failures['consecutive']} consecutive generation "
+                        "failures -- aborting instead of grinding through them. "
+                        "Fix the cause and re-run; the checkpoint keeps finished rows.")
+                continue
+            failures["consecutive"] = 0
 
             score = score_locomo_prediction(question, prediction)
             entry = {

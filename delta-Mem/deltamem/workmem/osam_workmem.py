@@ -195,9 +195,55 @@ EVIDENCE_IN_PROMPT = os.environ.get("OSAM_EVIDENCE_IN_PROMPT", "1") != "0"
 PROMPT_ENGINEERING = os.environ.get("OSAM_PROMPT_ENGINEERING", "0") == "1"
 
 
+# Chunked Phase-1 ingest for long inputs (vanilla/hybrid write the WHOLE
+# conversation into S). One forward pass over ~10k+ tokens materialises a
+# heads x L x L attention buffer (9+ GiB on conversation 2 -> OOM). Ingesting
+# cumulative message prefixes instead makes each pass attend chunk x L. Chunks
+# break only at message boundaries, so message_mean writes see whole messages,
+# and S/KV carry across passes exactly as they do for the Phase-2 suffix.
+INGEST_CHUNK_TOKENS = int(os.environ.get("OSAM_INGEST_CHUNK_TOKENS", "1024"))
+
+
+def _ingest_messages_chunked(session, chunk_tokens: int):
+    """Ingest session.messages in cumulative prefixes of ~chunk_tokens each.
+
+    Chunk sizes are estimated from each message's own token count (cheap); the
+    chat template is only applied at chunk boundaries. Returns the full ids.
+    """
+    all_messages = session.messages
+    tok = session.tokenizer
+    est = [len(tok(m["content"], add_special_tokens=False)["input_ids"]) + 8
+           for m in all_messages]
+    ends, acc = [], 0
+    for i, n in enumerate(est, start=1):
+        acc += n
+        if acc >= chunk_tokens:
+            ends.append(i)
+            acc = 0
+    if not ends or ends[-1] != len(all_messages):
+        ends.append(len(all_messages))
+
+    ids = None
+    for end in ends:
+        session.messages = all_messages[:end]
+        ids = session._tokenize_messages(session.messages, add_generation_prompt=False)
+        session._ingest_full_ids(ids)
+        # A non-prefix-stable template would make _ingest_full_ids rebuild from
+        # scratch -- which RESETS S and silently drops every earlier chunk.
+        if end != ends[0] and session.last_ingest_stats.get("rebuilt"):
+            raise RuntimeError("chunked Phase-1 ingest rebuilt the session (chat "
+                               "template not prefix-stable) -- S would be wiped")
+    session.messages = all_messages
+    return ids
+
+
 def populate_osam_from_evidence(session, evidence_list, *, reset=True,
-                                write_granularity=None):
-    """Phase 1. evidence_list: list[str], one retrieved unit per string (E_T)."""
+                                write_granularity=None, chunk_tokens=None):
+    """Phase 1. evidence_list: list[str], one retrieved unit per string (E_T).
+
+    chunk_tokens: if set and the input exceeds it, ingest in message-aligned
+    chunks (see INGEST_CHUNK_TOKENS). None keeps the single-pass ingest.
+    """
     if reset:
         reset_delta_mem_states(session.model)
 
@@ -216,7 +262,10 @@ def populate_osam_from_evidence(session, evidence_list, *, reset=True,
     session.messages = [{"role": "user", "content": unit} for unit in evidence_list]
     
     full_ids = session._tokenize_messages(session.messages, add_generation_prompt=False)
-    session._ingest_full_ids(full_ids)
+    if chunk_tokens and full_ids.size(1) > chunk_tokens:
+        full_ids = _ingest_messages_chunked(session, chunk_tokens)
+    else:
+        session._ingest_full_ids(full_ids)
 
     _assert_segment_write_fired(session, full_ids, len(evidence_list), granularity)
     return session.state_stats()
@@ -621,12 +670,20 @@ def answer_with_modes(session, query, *, s_content, prompt_content,
     KV, not S, so dropping it loses the Phase-1 *context* while keeping the state.
     """
     # Phase 1: write s_content into S (reset=True clears S first, then writes).
-    populate_osam_from_evidence(session, s_content)
-    # Detach Phase-1 context, KEEP S.
-    session.past_key_values = None
-    session.processed_input_ids = None
-    # Phase-2 prompt context = prompt_content (empty for S-only).
-    session.messages = [{"role": "user", "content": u} for u in prompt_content]
+    # Chunked, since s_content is the whole conversation in vanilla/hybrid.
+    populate_osam_from_evidence(session, s_content, chunk_tokens=INGEST_CHUNK_TOKENS)
+    if list(prompt_content) == list(s_content):
+        # Prompt == S content (vanilla): keep the Phase-1 KV context and let
+        # Phase 2 ingest only the question suffix -- the same structure as
+        # answer_with_osam. Re-prefilling the whole conversation in one pass
+        # is what OOMs on long conversations.
+        pass
+    else:
+        # Detach Phase-1 context, KEEP S.
+        session.past_key_values = None
+        session.processed_input_ids = None
+        # Phase-2 prompt context = prompt_content (empty for S-only).
+        session.messages = [{"role": "user", "content": u} for u in prompt_content]
 
     try:
         from deltamem.core.delta_impl import set_delta_mem_write_granularity

@@ -43,6 +43,9 @@ for ARM in ${ARMS}; do
     python3 - "${OUT}" "${ARM}" <<'PY'
 import json, sys
 rows = [json.loads(l) for l in open(sys.argv[1]) if l.strip()]
+# drop failed-generation rows (empty prediction), keep the last row per question
+rows = list({(r["sample_idx"], r["q_idx"]): r for r in rows
+             if not (r.get("prediction") == "" and not r.get("skipped"))}.values())
 rows = [r for r in rows if r.get("category") != 5]
 f1 = [r.get("score") or 0.0 for r in rows]
 j = [r["judge_correct"] for r in rows if "judge_correct" in r]
