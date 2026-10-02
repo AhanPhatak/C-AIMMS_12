@@ -1,0 +1,729 @@
+<title>Memory Hypergraph</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,380;9..144,560;9..144,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #E7EAE6;
+    --surface: #F4F1E8;
+    --surface-2: #ECE7D8;
+    --ink: #1B2421;
+    --ink-soft: #565F57;
+    --ink-faint: #8B9189;
+    --line: #C7C0AA;
+    --accent: #B5482F;
+    --accent-ink: #FFFFFF;
+    --topic: #5B6E4F;
+    --episode: #8A6A3C;
+    --fact: #3D5A73;
+    --shadow: rgba(27, 36, 33, 0.10);
+
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body: 'IBM Plex Sans', -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #15190F;
+      --surface: #1E2418;
+      --surface-2: #262C1F;
+      --ink: #E9E7D9;
+      --ink-soft: #AFB39F;
+      --ink-faint: #767C6C;
+      --line: #3A4032;
+      --accent: #E28A63;
+      --accent-ink: #1B1508;
+      --topic: #93B07E;
+      --episode: #D7B173;
+      --fact: #84ACC9;
+      --shadow: rgba(0, 0, 0, 0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #15190F;
+    --surface: #1E2418;
+    --surface-2: #262C1F;
+    --ink: #E9E7D9;
+    --ink-soft: #AFB39F;
+    --ink-faint: #767C6C;
+    --line: #3A4032;
+    --accent: #E28A63;
+    --accent-ink: #1B1508;
+    --topic: #93B07E;
+    --episode: #D7B173;
+    --fact: #84ACC9;
+    --shadow: rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+  ::selection { background: var(--accent); color: var(--accent-ink); }
+
+  .page {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 28px 28px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  /* ---------- header ---------- */
+  .masthead {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 16px;
+  }
+  .eyebrow {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 6px;
+  }
+  .masthead h1 { font-size: 32px; font-weight: 650; font-optical-sizing: auto; }
+  .masthead-meta {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--ink-soft);
+    display: grid;
+    gap: 3px;
+    text-align: right;
+  }
+  .masthead-meta b { color: var(--ink); font-weight: 500; }
+
+  .load-btn {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 9px 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 120ms ease, background 120ms ease;
+  }
+  .load-btn:hover { border-color: var(--accent); }
+  .load-btn:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ---------- legend ---------- */
+  .legend {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-size: 12px;
+    color: var(--ink-soft);
+    flex-wrap: wrap;
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
+  .dot-topic { background: var(--topic); }
+  .dot-episode { background: var(--episode); }
+  .dot-fact { background: var(--fact); }
+  .legend-hint { margin-left: auto; font-style: italic; color: var(--ink-faint); }
+
+  #error-banner {
+    display: none;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 3px;
+    padding: 8px 12px;
+    background: var(--surface);
+  }
+
+  /* ---------- main grid ---------- */
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 18px;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .main-grid { grid-template-columns: 1fr; }
+  }
+
+  .strata {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow-x: auto;
+    padding: 8px 20px 20px;
+  }
+  .connectors { position: absolute; top: 0; left: 0; pointer-events: none; }
+
+  .band { position: relative; padding-top: 18px; }
+  .band-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 10px;
+  }
+  .band-row {
+    display: flex;
+    gap: 14px;
+    min-height: 1px;
+  }
+
+  .card {
+    position: relative;
+    z-index: 2;
+    width: 208px;
+    flex: none;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 10px 12px;
+    cursor: pointer;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    transition: opacity 160ms ease, border-color 160ms ease, transform 120ms ease, box-shadow 160ms ease;
+  }
+  .card:hover { border-color: var(--ink-faint); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .card-eyebrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .card-title {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-meta {
+    margin-top: 8px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-topic .card-eyebrow { color: var(--topic); }
+  .card-episode .card-eyebrow { color: var(--episode); }
+  .card-fact .card-eyebrow { color: var(--fact); }
+  .card-topic.is-selected { border-color: var(--topic); box-shadow: 0 2px 10px var(--shadow); }
+  .card-episode.is-selected { border-color: var(--episode); box-shadow: 0 2px 10px var(--shadow); }
+  .card-fact.is-selected { border-color: var(--fact); box-shadow: 0 2px 10px var(--shadow); }
+
+  .strata.has-selection .card { opacity: 0.32; }
+  .strata.has-selection .card.is-lit { opacity: 1; }
+
+  /* ---------- inspector ---------- */
+  .inspector {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 18px;
+    position: sticky;
+    top: 18px;
+    max-height: calc(100vh - 36px);
+    overflow-y: auto;
+  }
+  .inspector-empty { color: var(--ink-faint); font-style: italic; font-size: 13px; }
+  .inspector-kind {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .inspector h3 { font-size: 19px; font-weight: 560; margin-bottom: 10px; }
+  .inspector-field { margin-bottom: 14px; }
+  .inspector-field-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 4px;
+  }
+  .inspector-field-value { font-size: 13px; line-height: 1.55; }
+  .tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 2px 6px;
+    color: var(--ink-soft);
+  }
+  .source-page {
+    font-size: 12.5px;
+    white-space: pre-line;
+    border-left: 2px solid var(--line);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: var(--ink-soft);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition: none; }
+  }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div>
+      <span class="eyebrow">Conversation core sample</span>
+      <h1>Memory Hypergraph</h1>
+    </div>
+    <div class="masthead-meta" id="meta"></div>
+    <label class="load-btn">
+      Load JSON&hellip;
+      <input type="file" id="file-input" accept="application/json" hidden>
+    </label>
+  </header>
+
+  <div id="error-banner"></div>
+
+  <div class="legend">
+    <span><i class="dot dot-topic"></i>Topic</span>
+    <span><i class="dot dot-episode"></i>Episode</span>
+    <span><i class="dot dot-fact"></i>Fact</span>
+    <span class="legend-hint">Click a card to trace its lineage &middot; click again to clear</span>
+  </div>
+
+  <div class="main-grid">
+    <div class="strata" id="strata">
+      <svg class="connectors" id="connectors"></svg>
+      <section class="band">
+        <h2 class="band-label">Topics</h2>
+        <div class="band-row" id="row-topics"></div>
+      </section>
+      <section class="band">
+        <h2 class="band-label">Episodes</h2>
+        <div class="band-row" id="row-episodes"></div>
+      </section>
+      <section class="band">
+        <h2 class="band-label">Facts</h2>
+        <div class="band-row" id="row-facts"></div>
+      </section>
+    </div>
+
+    <aside class="inspector" id="inspector">
+      <p class="inspector-empty">Select a topic, episode, or fact to inspect it here.</p>
+    </aside>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // Built from data/locomo10.json sample "conv-26" (Caroline/Melanie),
+  // sessions 1-3, via build_locomo_hypergraph.py. See README_HYPERGRAPH.md.
+  var DEFAULT_DATA = {"sample_id": "conv-26", "speakers": ["Caroline", "Melanie"], "sessions_included": ["session_1", "session_2", "session_3"], "num_pages": 29, "topics": [{"id": "2d8afcdf-58f1-4d18-acfe-cf32104dd9c3", "title": "Melanie's Painting - A Woman Paints a Sunset Scene Inspired by Her Own Experience", "summary": "Melanie shares her latest painting featuring a sunset scene inspired by her personal experiences, while discussing her family and journey towards acceptance.", "episode_ids": ["07557552-1306-40d5-941f-8d12dca83ac5", "236c4bbf-09e3-47bc-9ebb-f2f07bc63fdd", "9bae9338-e940-4149-ba58-53e99d41f103", "72220f4f-81b9-45b6-9994-b2e892335600", "3bb80d77-a7c3-412c-8763-e735ef5b50c7"]}, {"id": "b5f36dfa-d430-4edd-b7b8-b4a4cc61016e", "title": "LGBTQ Support Group Experience", "summary": "Caroline shares her positive experience at an LGBTQ support group, highlighting its power and inspiration.", "episode_ids": ["644c0873-619d-4db7-be3a-aa9bf694a859", "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5"]}], "episodes": [{"id": "07557552-1306-40d5-941f-8d12dca83ac5", "subject": "Melanie's update", "summary": "Melanie updates on her current situation and work schedule.", "page_ids": ["5e94fa8f-97b6-401c-956b-e2fbbcfeb86e"], "topic_id": "2d8afcdf-58f1-4d18-acfe-cf32104dd9c3"}, {"id": "644c0873-619d-4db7-be3a-aa9bf694a859", "subject": "LGBTQ Support Group Experience", "summary": "Caroline shared her experience attending an LGBTQ support group, describing it as powerful and inspiring.", "page_ids": ["2c6c25b0-e4a0-4649-bb4f-5f8c48e8beb5"], "topic_id": "b5f36dfa-d430-4edd-b7b8-b4a4cc61016e"}, {"id": "236c4bbf-09e3-47bc-9ebb-f2f07bc63fdd", "subject": "transgender stories inspire", "summary": "Supportive agent appreciates inspiring stories about transgender individuals", "page_ids": ["cd4c9098-3baf-49f0-a8a0-0c7df1188b80"], "topic_id": "2d8afcdf-58f1-4d18-acfe-cf32104dd9c3"}, {"id": "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5", "subject": "Caroline's journey through the support group", "summary": "Caroline shares her newfound confidence and plans for future career paths after joining a support group.", "page_ids": ["b2ec3b6b-2239-4d0c-922f-6dc31f9ca364", "adf0486f-20e4-4a14-b9f6-8f5b5e7b54f9"], "topic_id": "b5f36dfa-d430-4edd-b7b8-b4a4cc61016e"}, {"id": "9bae9338-e940-4149-ba58-53e99d41f103", "subject": "Melanie's Painting", "summary": "A woman paints a sunset scene inspired by her own experience.", "page_ids": ["f76e9d1f-165a-4d93-b92d-1a978f664edd", "57dda006-f1ed-4ab5-a388-eef29258677f"], "topic_id": "2d8afcdf-58f1-4d18-acfe-cf32104dd9c3"}, {"id": "72220f4f-81b9-45b6-9994-b2e892335600", "subject": "Melanie's Self-Care Journey", "summary": "Melanie shares her experiences with painting, taking care of herself, and adopting children.", "page_ids": ["7c7c59f3-449c-40d0-9d65-a017bddd3876", "d829bc2a-5b18-45b4-acfb-82c7f089d260", "797d7c18-be46-48d9-bf8a-576096d2f690", "27e97c82-c1d5-4047-8516-00d1201e2283", "f1aa37f9-0ba3-4e1f-82f8-45d844b84318", "4e1c94fc-2e79-44f8-81d6-48ad47fab09d", "9dc76e89-7121-4e49-8604-f52de783d6cf", "25c0a841-9faa-4e23-9f3e-59586ac4707c", "9310c142-a525-4a00-bda6-31a0a87c93bb"], "topic_id": "2d8afcdf-58f1-4d18-acfe-cf32104dd9c3"}, {"id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7", "subject": "User: Melanie: You're doing something am", "summary": "Melanie and Caroline discuss their families and their journey towards acceptance.", "page_ids": ["47506d47-d990-4b8e-8353-c7740ab93a4f", "778cc4a3-e181-4db7-b9ba-3d1541a25ae7", "50ae4a83-d3a0-4cfa-9518-aa30d401202a", "26a2573f-e08a-4778-b062-f804a1fc000d", "cf8b4465-6947-45b8-85d7-37975116b143", "25d6ef17-c4ef-4eea-ab7c-a5b5febe7bdc", "7760409d-d55f-417d-9787-8029737ebabc", "4228858c-e02d-4905-9a93-4da3480a4a99", "74298d52-400c-4533-bd02-954127c50b2a", "e927cca0-544b-4a10-b692-f6824ff5c5bc", "5a250145-fcab-42c4-af8e-e50e4d0c2c58", "b51365bf-09a4-41da-89b1-605a392e0244", "1d32502c-8ba5-4305-88d6-78a685807449"], "topic_id": "2d8afcdf-58f1-4d18-acfe-cf32104dd9c3"}], "facts": [{"id": "17afc896-0c01-44a1-8da9-97e4c5e67e37", "content": "What's up with you?", "confidence": 0.95, "episode_id": "07557552-1306-40d5-941f-8d12dca83ac5", "keywords": ["what's up with you?"], "temporal": null, "spatial": null, "role": "detail"}, {"id": "ea5fcd5b-0a6e-4932-aa5d-39057afc5d31", "content": "What happened that was so awesome?", "confidence": 0.95, "episode_id": "644c0873-619d-4db7-be3a-aa9bf694a859", "keywords": [], "temporal": null, "spatial": null, "role": "detail"}, {"id": "459eb5ca-88fb-44f1-81eb-850722b2bfff", "content": "The transgender stories were so inspiring!", "confidence": 1.0, "episode_id": "236c4bbf-09e3-47bc-9ebb-f2f07bc63fdd", "keywords": ["transgender stories", "inspiring"], "temporal": null, "spatial": null, "role": "detail"}, {"id": "99274996-f632-417c-a791-86c294c4758a", "content": "What kind of jobs are you thinking of?", "confidence": 0.95, "episode_id": "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5", "keywords": [], "temporal": null, "spatial": null, "role": "detail"}, {"id": "5543b055-d1b4-4690-8dbc-750625cddb66", "content": "I'm keen on counseling or working in mental health - I'd love to support those with similar issues.", "confidence": 0.95, "episode_id": "9bae9338-e940-4149-ba58-53e99d41f103", "keywords": [], "temporal": null, "spatial": null, "role": "detail"}, {"id": "5d880d26-53d0-4332-8e2a-ce5432c7124f", "content": "That's really sweet. Is this your own painting?", "confidence": 0.85, "episode_id": "9bae9338-e940-4149-ba58-53e99d41f103", "keywords": ["painting"], "temporal": null, "spatial": null, "role": "detail"}, {"id": "dd3e1c2c-94f7-4120-b8c5-cd7107b3b01e", "content": "What makes you choose the adoption agency?", "confidence": 0.95, "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600", "keywords": [], "temporal": null, "spatial": null, "role": "detail"}, {"id": "82b717ff-80c7-4544-aa2b-9533be5014c2", "content": "What's your favorite activity to do after painting?", "confidence": 0.85, "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600", "keywords": ["painting"], "temporal": null, "spatial": null, "role": "detail"}, {"id": "4dcb71a7-2885-437c-a45a-0310d54f5270", "content": "What motivates you?", "confidence": 0.98, "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7", "keywords": [], "temporal": null, "spatial": null, "role": "detail"}, {"id": "cd41e8eb-ce76-43e6-affc-e030295f3ee8", "content": "How did you meet?", "confidence": 0.97, "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7", "keywords": [], "temporal": null, "spatial": null, "role": "detail"}, {"id": "b791f808-92ed-4533-bd3b-320f960d9189", "content": "Who supported you?", "confidence": 0.96, "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7", "keywords": [], "temporal": null, "spatial": null, "role": "detail"}], "episode_hyperedges": [{"id": "d3ea8a81-dc49-46e8-89fb-1d263b24cb2f", "topic_id": "b5f36dfa-d430-4edd-b7b8-b4a4cc61016e", "relation": {"644c0873-619d-4db7-be3a-aa9bf694a859": "developing", "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5": "developing"}, "weights": {"644c0873-619d-4db7-be3a-aa9bf694a859": 0.5, "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5": 0.5}, "coherence_score": 0.8}, {"id": "2df76de3-f1e0-4ec7-9d98-bf22b3652978", "topic_id": "2d8afcdf-58f1-4d18-acfe-cf32104dd9c3", "relation": {"07557552-1306-40d5-941f-8d12dca83ac5": "initiating", "236c4bbf-09e3-47bc-9ebb-f2f07bc63fdd": "developing", "9bae9338-e940-4149-ba58-53e99d41f103": "developing", "72220f4f-81b9-45b6-9994-b2e892335600": "developing", "3bb80d77-a7c3-412c-8763-e735ef5b50c7": "developing"}, "weights": {"07557552-1306-40d5-941f-8d12dca83ac5": 0.0, "236c4bbf-09e3-47bc-9ebb-f2f07bc63fdd": 0.0, "9bae9338-e940-4149-ba58-53e99d41f103": 0.0, "72220f4f-81b9-45b6-9994-b2e892335600": 0.0, "3bb80d77-a7c3-412c-8763-e735ef5b50c7": 0.0}, "coherence_score": 0.8}], "fact_hyperedges": [{"id": "41aaf3c2-89f9-46cf-a787-344ffd45f8d0", "episode_id": "07557552-1306-40d5-941f-8d12dca83ac5", "relation": {"17afc896-0c01-44a1-8da9-97e4c5e67e37": "detail"}, "weights": {"17afc896-0c01-44a1-8da9-97e4c5e67e37": 0.5}}, {"id": "9909e450-8952-4f01-8df0-969ff65c01c9", "episode_id": "644c0873-619d-4db7-be3a-aa9bf694a859", "relation": {"ea5fcd5b-0a6e-4932-aa5d-39057afc5d31": "detail"}, "weights": {"ea5fcd5b-0a6e-4932-aa5d-39057afc5d31": 0.5}}, {"id": "729e50a7-48a9-4989-807b-ad32c5498d83", "episode_id": "236c4bbf-09e3-47bc-9ebb-f2f07bc63fdd", "relation": {"459eb5ca-88fb-44f1-81eb-850722b2bfff": "detail"}, "weights": {"459eb5ca-88fb-44f1-81eb-850722b2bfff": 0.5}}, {"id": "91c6af62-1cbb-41d8-9dbc-bca69dd3b397", "episode_id": "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5", "relation": {"99274996-f632-417c-a791-86c294c4758a": "detail"}, "weights": {"99274996-f632-417c-a791-86c294c4758a": 0.5}}, {"id": "2719446f-312e-416c-969f-e1808e10da10", "episode_id": "9bae9338-e940-4149-ba58-53e99d41f103", "relation": {"5543b055-d1b4-4690-8dbc-750625cddb66": "detail", "5d880d26-53d0-4332-8e2a-ce5432c7124f": "detail"}, "weights": {"5543b055-d1b4-4690-8dbc-750625cddb66": 0.5, "5d880d26-53d0-4332-8e2a-ce5432c7124f": 0.5}}, {"id": "f68de839-6a68-4d94-8a01-a031a6c946bb", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600", "relation": {"dd3e1c2c-94f7-4120-b8c5-cd7107b3b01e": "detail", "82b717ff-80c7-4544-aa2b-9533be5014c2": "detail"}, "weights": {"dd3e1c2c-94f7-4120-b8c5-cd7107b3b01e": 0.5, "82b717ff-80c7-4544-aa2b-9533be5014c2": 0.5}}, {"id": "8a3254ff-93ff-4852-9924-bf4a037acfd5", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7", "relation": {"4dcb71a7-2885-437c-a45a-0310d54f5270": "detail", "cd41e8eb-ce76-43e6-affc-e030295f3ee8": "detail", "b791f808-92ed-4533-bd3b-320f960d9189": "detail"}, "weights": {"4dcb71a7-2885-437c-a45a-0310d54f5270": 0.5, "cd41e8eb-ce76-43e6-affc-e030295f3ee8": 0.5, "b791f808-92ed-4533-bd3b-320f960d9189": 0.5}}], "pages": [{"id": "5e94fa8f-97b6-401c-956b-e2fbbcfeb86e", "text": "User: Caroline: Hey Mel! Good to see you! How have you been?\nAgent: Melanie: Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?", "episode_id": "07557552-1306-40d5-941f-8d12dca83ac5"}, {"id": "2c6c25b0-e4a0-4649-bb4f-5f8c48e8beb5", "text": "User: Caroline: I went to a LGBTQ support group yesterday and it was so powerful.\nAgent: Melanie: Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?", "episode_id": "644c0873-619d-4db7-be3a-aa9bf694a859"}, {"id": "cd4c9098-3baf-49f0-a8a0-0c7df1188b80", "text": "User: Caroline: The transgender stories were so inspiring! I was so happy and thankful for all the support.\nAgent: Melanie: Wow, love that painting! So cool you found such a helpful group. What's it done for you?", "episode_id": "236c4bbf-09e3-47bc-9ebb-f2f07bc63fdd"}, {"id": "b2ec3b6b-2239-4d0c-922f-6dc31f9ca364", "text": "User: Caroline: The support group has made me feel accepted and given me courage to embrace myself.\nAgent: Melanie: That's really cool. You've got guts. What now?", "episode_id": "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5"}, {"id": "adf0486f-20e4-4a14-b9f6-8f5b5e7b54f9", "text": "User: Caroline: Gonna continue my edu and check out career options, which is pretty exciting!\nAgent: Melanie: Wow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?", "episode_id": "3a0053c0-d5c6-4f8d-91f7-f2a0590368d5"}, {"id": "f76e9d1f-165a-4d93-b92d-1a978f664edd", "text": "User: Caroline: I'm keen on counseling or working in mental health - I'd love to support those with similar issues.\nAgent: Melanie: You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this.", "episode_id": "9bae9338-e940-4149-ba58-53e99d41f103"}, {"id": "57dda006-f1ed-4ab5-a388-eef29258677f", "text": "User: Caroline: Thanks, Melanie! That's really sweet. Is this your own painting?\nAgent: Melanie: Yeah, I painted that lake sunrise last year! It's special to me.", "episode_id": "9bae9338-e940-4149-ba58-53e99d41f103"}, {"id": "7c7c59f3-449c-40d0-9d65-a017bddd3876", "text": "User: Caroline: Wow, Melanie! The colors really blend nicely. Painting looks like a great outlet for expressing yourself.\nAgent: Melanie: Thanks, Caroline! Painting's a fun way to express my feelings and get creative. It's a great way to relax after a long day.", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "d829bc2a-5b18-45b4-acfb-82c7f089d260", "text": "User: Caroline: Totally agree, Mel. Relaxing and expressing ourselves is key. Well, I'm off to go do some research.\nAgent: Melanie: Yep, Caroline. Taking care of ourselves is vital. I'm off to go swimming with the kids. Talk to you soon!", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "797d7c18-be46-48d9-bf8a-576096d2f690", "text": "User: Melanie: Hey Caroline, since we last chatted, I've had a lot of things happening to me. I ran a charity race for mental health last Saturday – it was really rewarding. Really made me think about taking care of our minds.\nAgent: Caroline: That charity race sounds great, Mel! Making a difference & raising awareness for mental health is super rewarding - I'm really proud of you for taking part!", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "27e97c82-c1d5-4047-8516-00d1201e2283", "text": "User: Melanie: Thanks, Caroline! The event was really thought-provoking. I'm starting to realize that self-care is really important. It's a journey for me, but when I look after myself, I'm able to better look after my family.\nAgent: Caroline: I totally agree, Melanie. Taking care of ourselves is so important - even if it's not always easy. Great that you're prioritizing self-care.", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "f1aa37f9-0ba3-4e1f-82f8-45d844b84318", "text": "User: Melanie: Yeah, it's tough. So I'm carving out some me-time each day - running, reading, or playing my violin - which refreshes me and helps me stay present for my fam!\nAgent: Caroline: That's great, Mel! Taking time for yourself is so important. You're doing an awesome job looking after yourself and your family!", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "4e1c94fc-2e79-44f8-81d6-48ad47fab09d", "text": "User: Melanie: Thanks, Caroline. It's still a work in progress, but I'm doing my best. My kids are so excited about summer break! We're thinking about going camping next month. Any fun plans for the summer?\nAgent: Caroline: Researching adoption agencies — it's been a dream to have a family and give a loving home to kids who need it.", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "9dc76e89-7121-4e49-8604-f52de783d6cf", "text": "User: Melanie: Wow, Caroline! That's awesome! Taking in kids in need - you're so kind. Your future family is gonna be so lucky to have you!\nAgent: Caroline: Thanks, Mel! My goal is to give kids a loving home. I'm truly grateful for all the support I've got from friends and mentors. Now the hard work starts to turn my dream into a reality. And here's one of the adoption agencies I'm looking into. It's a lot to take in, but I'm feeling hopeful and optimistic.", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "25c0a841-9faa-4e23-9f3e-59586ac4707c", "text": "User: Melanie: Wow, that agency looks great! What made you pick it?\nAgent: Caroline: I chose them 'cause they help LGBTQ+ folks with adoption. Their inclusivity and support really spoke to me.", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "9310c142-a525-4a00-bda6-31a0a87c93bb", "text": "User: Melanie: That's great, Caroline! Loving the inclusivity and support. Anything you're excited for in the adoption process?\nAgent: Caroline: I'm thrilled to make a family for kids who need one. It'll be tough as a single parent, but I'm up for the challenge!", "episode_id": "72220f4f-81b9-45b6-9994-b2e892335600"}, {"id": "47506d47-d990-4b8e-8353-c7740ab93a4f", "text": "User: Melanie: You're doing something amazing! Creating a family for those kids is so lovely. You'll be an awesome mom! Good luck!\nAgent: Caroline: Thanks, Melanie! Your kind words really mean a lot. I'll do my best to make sure these kids have a safe and loving home.", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "778cc4a3-e181-4db7-b9ba-3d1541a25ae7", "text": "User: Melanie: No doubts, Caroline. You have such a caring heart - they'll get all the love and stability they need! Excited for this new chapter!\nAgent: Caroline: Hey Melanie! How's it going? I wanted to tell you about my school event last week. It was awesome! I talked about my transgender journey and encouraged students to get involved in the LGBTQ community. It was great to see their reactions. It made me reflect on how far I've come since I started transitioning three years ago.", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "50ae4a83-d3a0-4cfa-9518-aa30d401202a", "text": "User: Melanie: Hey Caroline! Great to hear from you. Sounds like your event was amazing! I'm so proud of you for spreading awareness and getting others involved in the LGBTQ community. You've come a long way since your transition - keep on inspiring people with your strength and courage!\nAgent: Caroline: Thanks, Mel! Your backing really means a lot. I felt super powerful giving my talk. I shared my own journey, the struggles I had and how much I've developed since coming out. It was wonderful to see how the audience related to what I said and how it inspired them to be better allies. Conversations about gender identity and inclusion are so necessary and I'm thankful for being able to give a voice to the trans community.", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "26a2573f-e08a-4778-b062-f804a1fc000d", "text": "User: Melanie: Wow, Caroline, you're doing an awesome job of inspiring others with your journey. It's great to be part of it and see how you're positively affecting so many. Talking about inclusivity and acceptance is crucial, and you're so brave to speak up for the trans community. Keep up the great work!\nAgent: Caroline: Thanks Mel! Your kind words mean a lot. Sharing our experiences isn't always easy, but I feel it's important to help promote understanding and acceptance. I've been blessed with loads of love and support throughout this journey, and I want to pass it on to others. By sharing our stories, we can build a strong, supportive community of hope.", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "cf8b4465-6947-45b8-85d7-37975116b143", "text": "User: Melanie: Yeah, Caroline! It takes courage to talk about our own stories. But it's in these vulnerable moments that we bond and understand each other. We all have our different paths, but if we share them, we show people that they're not alone. Our stories can be so inspiring and encouraging to others who are facing the same challenges. Thank you for using your voice to create love, acceptance, and hope. You're doing amazing!\nAgent: Caroline: Your words mean a lot to me. I'm grateful for the chance to share my story and give others hope. We all have unique paths, and by working together we can build a more inclusive and understanding world. I'm going to keep using my voice to make a change and lift others up. And you're part of that!", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "25d6ef17-c4ef-4eea-ab7c-a5b5febe7bdc", "text": "User: Melanie: Thanks, Caroline, for letting me join your journey. I'm so proud to be part of the difference you're making. Let's keep motivating and helping each other out as we journey through life. We can make a real impact together!\nAgent: Caroline: Yeah Mel, let's spread love and understanding! Thanks for the support and encouragement. We can tackle life's challenges together! We got this!", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "7760409d-d55f-417d-9787-8029737ebabc", "text": "User: Melanie: Yes, Caroline! We can do it. Your courage is inspiring. I want to be couragous for my family- they motivate me and give me love. What motivates you?\nAgent: Caroline: Thanks, Mel! My friends, family and mentors are my rocks – they motivate me and give me the strength to push on. Here's a pic from when we met up last week!", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "4228858c-e02d-4905-9a93-4da3480a4a99", "text": "User: Melanie: Wow, that photo is great! How long have you had such a great support system?\nAgent: Caroline: Yeah, I'm really lucky to have them. They've been there through everything, I've known these friends for 4 years, since I moved from my home country. Their love and help have been so important especially after that tough breakup. I'm super thankful. Who supports you, Mel?", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "74298d52-400c-4533-bd02-954127c50b2a", "text": "User: Melanie: I'm lucky to have my husband and kids; they keep me motivated.\nAgent: Caroline: Wow, what an amazing family pic! How long have you been married?", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "e927cca0-544b-4a10-b692-f6824ff5c5bc", "text": "User: Melanie: 5 years already! Time flies- feels like just yesterday I put this dress on! Thanks, Caroline!\nAgent: Caroline: Congrats, Melanie! You both looked so great on your wedding day! Wishing you many happy years together!", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "5a250145-fcab-42c4-af8e-e50e4d0c2c58", "text": "User: Melanie: Thanks, Caroline! Appreciate your kind words. Looking forward to more happy years. Our family and moments make it all worth it.\nAgent: Caroline: Looks like you had a great day! How was it? You all look so happy!", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "b51365bf-09a4-41da-89b1-605a392e0244", "text": "User: Melanie: It so fun! We played games, ate good food, and just hung out together. Family moments make life awesome.\nAgent: Caroline: Sounds great, Mel! Glad you had a great time. Cherish the moments - they're the best!", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}, {"id": "1d32502c-8ba5-4305-88d6-78a685807449", "text": "User: Melanie: Absolutely, Caroline! I cherish time with family. It's when I really feel alive and happy.\nAgent: Caroline: I 100% agree, Mel. Hanging with loved ones is amazing and brings so much happiness. Those moments really make me thankful. Family is everything.", "episode_id": "3bb80d77-a7c3-412c-8763-e735ef5b50c7"}]};
+
+  var els = {
+    meta: document.getElementById("meta"),
+    strata: document.getElementById("strata"),
+    svg: document.getElementById("connectors"),
+    rowTopics: document.getElementById("row-topics"),
+    rowEpisodes: document.getElementById("row-episodes"),
+    rowFacts: document.getElementById("row-facts"),
+    inspector: document.getElementById("inspector"),
+    fileInput: document.getElementById("file-input"),
+    errorBanner: document.getElementById("error-banner"),
+  };
+
+  var state = {
+    data: null,
+    byId: {},          // node id -> {kind, node}
+    childrenOf: {},     // parent id -> [child id, ...]
+    parentOf: {},        // child id -> parent id
+    selected: null,       // node id or null
+  };
+
+  function truncate(text, n) {
+    if (!text) return "";
+    return text.length > n ? text.slice(0, n - 1).trimEnd() + "…" : text;
+  }
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+
+  // ---------------------------------------------------------------------
+  // build lookup structures + a topic-grouped ordering for episodes/facts
+  // ---------------------------------------------------------------------
+  function indexData(data) {
+    var byId = {};
+    var childrenOf = {};
+    var parentOf = {};
+
+    (data.topics || []).forEach(function (t) { byId[t.id] = { kind: "topic", node: t }; });
+    (data.episodes || []).forEach(function (e) { byId[e.id] = { kind: "episode", node: e }; });
+    (data.facts || []).forEach(function (f) { byId[f.id] = { kind: "fact", node: f }; });
+
+    (data.episode_hyperedges || []).forEach(function (he) {
+      Object.keys(he.relation || {}).forEach(function (episodeId) {
+        parentOf[episodeId] = he.topic_id;
+        (childrenOf[he.topic_id] = childrenOf[he.topic_id] || []).push(episodeId);
+      });
+    });
+    (data.fact_hyperedges || []).forEach(function (he) {
+      Object.keys(he.relation || {}).forEach(function (factId) {
+        parentOf[factId] = he.episode_id;
+        (childrenOf[he.episode_id] = childrenOf[he.episode_id] || []).push(factId);
+      });
+    });
+
+    var topicOrder = {};
+    (data.topics || []).forEach(function (t, i) { topicOrder[t.id] = i; });
+    var episodes = (data.episodes || []).slice().sort(function (a, b) {
+      var ta = topicOrder[parentOf[a.id]], tb = topicOrder[parentOf[b.id]];
+      ta = ta === undefined ? 999 : ta;
+      tb = tb === undefined ? 999 : tb;
+      return ta - tb;
+    });
+    var episodeOrder = {};
+    episodes.forEach(function (e, i) { episodeOrder[e.id] = i; });
+    var facts = (data.facts || []).slice().sort(function (a, b) {
+      var ea = episodeOrder[parentOf[a.id]], eb = episodeOrder[parentOf[b.id]];
+      ea = ea === undefined ? 999 : ea;
+      eb = eb === undefined ? 999 : eb;
+      return ea - eb;
+    });
+
+    return { byId: byId, childrenOf: childrenOf, parentOf: parentOf, episodesOrdered: episodes, factsOrdered: facts };
+  }
+
+  function lineageOf(id) {
+    // returns the set of ids (this node + ancestors + all descendants) to light up
+    var lit = {};
+    lit[id] = true;
+    var p = state.parentOf[id];
+    while (p) { lit[p] = true; p = state.parentOf[p]; }
+    (function descend(nodeId) {
+      (state.childrenOf[nodeId] || []).forEach(function (childId) {
+        lit[childId] = true;
+        descend(childId);
+      });
+    })(id);
+    return lit;
+  }
+
+  // ---------------------------------------------------------------------
+  // rendering
+  // ---------------------------------------------------------------------
+  function renderMeta(data) {
+    els.meta.innerHTML = "";
+    var speakers = (data.speakers || []).join(" & ");
+    var rows = [
+      [speakers, data.sample_id || ""],
+      [(data.sessions_included || []).length + " sessions loaded", data.num_pages + " pages"],
+      [
+        (data.topics || []).length + " topics",
+        (data.episodes || []).length + " episodes, " + (data.facts || []).length + " facts",
+      ],
+    ];
+    rows.forEach(function (pair) {
+      var row = el("div");
+      var b = el("b", null, pair[0]);
+      row.appendChild(b);
+      row.appendChild(document.createTextNode("  ·  " + pair[1]));
+      els.meta.appendChild(row);
+    });
+  }
+
+  function makeCard(kind, node, extraMetaLeft, extraMetaRight, eyebrowExtra) {
+    var card = el("button", "card card-" + kind);
+    card.type = "button";
+    card.dataset.id = node.id;
+    card.dataset.kind = kind;
+
+    var eyebrow = el("div", "card-eyebrow");
+    eyebrow.appendChild(el("span", null, kind));
+    if (eyebrowExtra) eyebrow.appendChild(el("span", null, eyebrowExtra));
+    card.appendChild(eyebrow);
+
+    var title = el("div", "card-title", kind === "topic" ? node.title
+      : kind === "episode" ? node.subject
+      : node.content);
+    card.appendChild(title);
+
+    var meta = el("div", "card-meta");
+    meta.appendChild(el("span", null, extraMetaLeft || ""));
+    meta.appendChild(el("span", null, extraMetaRight || ""));
+    card.appendChild(meta);
+
+    card.addEventListener("click", function () { onSelect(node.id); });
+    return card;
+  }
+
+  function render(data) {
+    var idx = indexData(data);
+    state.data = data;
+    state.byId = idx.byId;
+    state.childrenOf = idx.childrenOf;
+    state.parentOf = idx.parentOf;
+    state.selected = null;
+
+    renderMeta(data);
+
+    els.rowTopics.innerHTML = "";
+    els.rowEpisodes.innerHTML = "";
+    els.rowFacts.innerHTML = "";
+
+    (data.topics || []).forEach(function (t) {
+      var n = (t.episode_ids || []).length;
+      els.rowTopics.appendChild(makeCard("topic", t, n + (n === 1 ? " episode" : " episodes"), "#" + t.id.slice(0, 6)));
+    });
+
+    idx.episodesOrdered.forEach(function (e) {
+      var n = (e.page_ids || []).length;
+      var topicId = idx.parentOf[e.id];
+      var weight = null;
+      (data.episode_hyperedges || []).forEach(function (he) {
+        if (he.topic_id === topicId && he.weights && he.weights[e.id] !== undefined) weight = he.weights[e.id];
+      });
+      var role = null;
+      (data.episode_hyperedges || []).forEach(function (he) {
+        if (he.topic_id === topicId && he.relation && he.relation[e.id]) role = he.relation[e.id];
+      });
+      els.rowEpisodes.appendChild(makeCard(
+        "episode", e,
+        n + (n === 1 ? " page" : " pages"),
+        weight !== null ? "w " + weight.toFixed(2) : "",
+        role
+      ));
+    });
+
+    idx.factsOrdered.forEach(function (f) {
+      els.rowFacts.appendChild(makeCard(
+        "fact", f,
+        "conf " + (f.confidence !== undefined ? f.confidence.toFixed(2) : "?"),
+        "",
+        f.role || null
+      ));
+    });
+
+    clearInspector();
+    requestAnimationFrame(drawConnectors);
+  }
+
+  // ---------------------------------------------------------------------
+  // connector lines
+  // ---------------------------------------------------------------------
+  function svgNS(tag) { return document.createElementNS("http://www.w3.org/2000/svg", tag); }
+
+  function cardCenterTop(cardEl, strataRect) {
+    var r = cardEl.getBoundingClientRect();
+    return {
+      x: r.left - strataRect.left + r.width / 2 + els.strata.scrollLeft,
+      y: r.top - strataRect.top + els.strata.scrollTop,
+    };
+  }
+  function cardCenterBottom(cardEl, strataRect) {
+    var r = cardEl.getBoundingClientRect();
+    return {
+      x: r.left - strataRect.left + r.width / 2 + els.strata.scrollLeft,
+      y: r.bottom - strataRect.top + els.strata.scrollTop,
+    };
+  }
+
+  function drawConnectors() {
+    var strataRect = els.strata.getBoundingClientRect();
+    var w = els.strata.scrollWidth;
+    var h = els.strata.scrollHeight;
+    els.svg.setAttribute("width", w);
+    els.svg.setAttribute("height", h);
+    els.svg.setAttribute("viewBox", "0 0 " + w + " " + h);
+    els.svg.innerHTML = "";
+
+    var lit = state.selected ? lineageOf(state.selected) : null;
+
+    function connect(parentId, childId, hue) {
+      var parentCard = els.strata.querySelector('.card[data-id="' + cssEscape(parentId) + '"]');
+      var childCard = els.strata.querySelector('.card[data-id="' + cssEscape(childId) + '"]');
+      if (!parentCard || !childCard) return;
+      var p1 = cardCenterBottom(parentCard, strataRect);
+      var p2 = cardCenterTop(childCard, strataRect);
+      var midY = (p1.y + p2.y) / 2;
+      var path = svgNS("path");
+      var d = "M " + p1.x + " " + p1.y + " C " + p1.x + " " + midY + ", " + p2.x + " " + midY + ", " + p2.x + " " + p2.y;
+      path.setAttribute("d", d);
+      path.setAttribute("fill", "none");
+      var active = lit && lit[parentId] && lit[childId];
+      path.setAttribute("stroke", active ? "var(--accent)" : "var(--line)");
+      path.setAttribute("stroke-width", active ? 1.6 : 1);
+      path.setAttribute("opacity", lit && !active ? 0.18 : active ? 0.9 : 0.55);
+      els.svg.appendChild(path);
+    }
+
+    (state.data.episode_hyperedges || []).forEach(function (he) {
+      Object.keys(he.relation || {}).forEach(function (episodeId) {
+        connect(he.topic_id, episodeId);
+      });
+    });
+    (state.data.fact_hyperedges || []).forEach(function (he) {
+      Object.keys(he.relation || {}).forEach(function (factId) {
+        connect(he.episode_id, factId);
+      });
+    });
+  }
+
+  function cssEscape(s) {
+    return String(s).replace(/[^a-zA-Z0-9_-]/g, function (c) { return "\\" + c; });
+  }
+
+  // ---------------------------------------------------------------------
+  // selection + inspector
+  // ---------------------------------------------------------------------
+  function onSelect(id) {
+    state.selected = state.selected === id ? null : id;
+    var lit = state.selected ? lineageOf(state.selected) : null;
+
+    els.strata.classList.toggle("has-selection", !!state.selected);
+    els.strata.querySelectorAll(".card").forEach(function (c) {
+      var isLit = lit && lit[c.dataset.id];
+      c.classList.toggle("is-lit", !!isLit);
+      c.classList.toggle("is-selected", c.dataset.id === state.selected);
+    });
+
+    drawConnectors();
+    state.selected ? renderInspector(state.selected) : clearInspector();
+  }
+
+  function clearInspector() {
+    els.inspector.innerHTML = '<p class="inspector-empty">Select a topic, episode, or fact to inspect it here.</p>';
+  }
+
+  function field(label, valueEl) {
+    var wrap = el("div", "inspector-field");
+    wrap.appendChild(el("div", "inspector-field-label", label));
+    var val = el("div", "inspector-field-value");
+    if (typeof valueEl === "string") val.textContent = valueEl;
+    else val.appendChild(valueEl);
+    wrap.appendChild(val);
+    return wrap;
+  }
+
+  function pageTextsFor(pageIds) {
+    var wrap = document.createDocumentFragment();
+    var byId = {};
+    (state.data.pages || []).forEach(function (p) { byId[p.id] = p; });
+    (pageIds || []).forEach(function (pid) {
+      var p = byId[pid];
+      if (!p) return;
+      wrap.appendChild(el("div", "source-page", p.text));
+    });
+    return wrap;
+  }
+
+  function renderInspector(id) {
+    var entry = state.byId[id];
+    if (!entry) { clearInspector(); return; }
+    var kind = entry.kind, node = entry.node;
+    els.inspector.innerHTML = "";
+
+    var kindLabel = el("div", "inspector-kind", kind);
+    kindLabel.style.color = "var(--" + kind + ")";
+    els.inspector.appendChild(kindLabel);
+
+    if (kind === "topic") {
+      els.inspector.appendChild(el("h3", null, node.title));
+      els.inspector.appendChild(field("Summary", node.summary || "—"));
+      els.inspector.appendChild(field("Episodes in this topic", String((node.episode_ids || []).length)));
+    } else if (kind === "episode") {
+      els.inspector.appendChild(el("h3", null, node.subject));
+      els.inspector.appendChild(field("Summary", node.summary || "—"));
+      var srcWrap = document.createElement("div");
+      srcWrap.appendChild(pageTextsFor(node.page_ids));
+      els.inspector.appendChild(field("Source pages (" + (node.page_ids || []).length + ")", srcWrap));
+    } else if (kind === "fact") {
+      els.inspector.appendChild(el("h3", null, node.content));
+      var metaRow = document.createDocumentFragment();
+      var tagWrap = el("div", "tag-row");
+      tagWrap.appendChild(el("span", "tag", "confidence " + (node.confidence !== undefined ? node.confidence.toFixed(2) : "?")));
+      if (node.role) tagWrap.appendChild(el("span", "tag", node.role));
+      if (node.temporal) tagWrap.appendChild(el("span", "tag", "when: " + node.temporal));
+      if (node.spatial) tagWrap.appendChild(el("span", "tag", "where: " + node.spatial));
+      metaRow.appendChild(tagWrap);
+      els.inspector.appendChild(field("Attributes", (function () { var d = document.createElement("div"); d.appendChild(metaRow); return d; })()));
+
+      if (node.keywords && node.keywords.length) {
+        var kwWrap = el("div", "tag-row");
+        node.keywords.forEach(function (k) { kwWrap.appendChild(el("span", "tag", k)); });
+        els.inspector.appendChild(field("Keywords", kwWrap));
+      }
+
+      var parentEpisodeId = state.parentOf[id];
+      var parentEpisode = parentEpisodeId && state.byId[parentEpisodeId] ? state.byId[parentEpisodeId].node : null;
+      if (parentEpisode) {
+        var srcWrap2 = document.createElement("div");
+        srcWrap2.appendChild(pageTextsFor(parentEpisode.page_ids));
+        els.inspector.appendChild(field("Source (from “" + parentEpisode.subject + "”)", srcWrap2));
+      }
+    }
+  }
+
+  // ---------------------------------------------------------------------
+  // load JSON
+  // ---------------------------------------------------------------------
+  function showError(msg) {
+    els.errorBanner.textContent = msg;
+    els.errorBanner.style.display = msg ? "block" : "none";
+  }
+
+  els.fileInput.addEventListener("change", function (evt) {
+    var file = evt.target.files && evt.target.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function () {
+      try {
+        var parsed = JSON.parse(String(reader.result));
+        showError("");
+        render(parsed);
+      } catch (e) {
+        showError("Couldn't parse that file as JSON: " + e.message);
+      }
+    };
+    reader.onerror = function () { showError("Couldn't read that file."); };
+    reader.readAsText(file);
+  });
+
+  window.addEventListener("resize", function () {
+    if (state.data) requestAnimationFrame(drawConnectors);
+  });
+  els.strata.addEventListener("scroll", function () {
+    requestAnimationFrame(drawConnectors);
+  });
+
+  render(DEFAULT_DATA);
+})();
+</script>

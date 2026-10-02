@@ -19,6 +19,12 @@ delta-Mem/data/
 delta-Mem/scripts/
 delta-Mem/.git/
 
+# LoCoMo convenience copy for the hypergraph tooling (fetched via download_assets.sh
+# at delta-Mem/data/ instead; this is a duplicate, not source)
+/data/
+# Generated hypergraph JSON output, not source
+adaptive_memory_structures/hypergraph_output/
+
 # OS / editor cruft
 .DS_Store
 *.bak

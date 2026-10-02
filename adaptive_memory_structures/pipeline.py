@@ -398,7 +398,7 @@ class FluxMemPipeline:
 # ---------------------------------------------------------------------------
 
 def _count_structures(sessions: list[EpisodicSession]) -> dict[str, int]:
-    counts: dict[str, int] = {"linear": 0, "graph": 0, "hierarchical": 0}
+    counts: dict[str, int] = {"linear": 0, "hypergraph": 0, "hierarchical": 0}
     for s in sessions:
         counts[s.structure_type] = counts.get(s.structure_type, 0) + 1
     return counts

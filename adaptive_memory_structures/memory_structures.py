@@ -1,6 +1,6 @@
 """
 FluxMem Memory Structures
-Implements linear, graph, and hierarchical memory organization for MTEM episodic units.
+Implements linear, hierarchical, and hypergraph memory organization for MTEM episodic units.
 Based on: "Choosing How to Remember: Adaptive Memory Structures for LLM Agents"
 """
 
@@ -9,7 +9,6 @@ import time
 import uuid
 from dataclasses import dataclass, field
 from typing import Any
-from collections import defaultdict
 import numpy as np
 
 
@@ -45,13 +44,13 @@ class EpisodicSession:
     pages: list[Page] = field(default_factory=list)
     summary: str = ""
     summary_embedding: np.ndarray | None = None
-    structure_type: str = "linear"              # "linear" | "graph" | "hierarchical"
+    structure_type: str = "linear"              # "linear" | "hierarchical" | "hypergraph"
     created_at: float = field(default_factory=time.time)
     last_access: float = field(default_factory=time.time)
 
     # structure-specific indices (populated by MemoryStructure classes)
-    graph_index: dict[str, Any] = field(default_factory=dict)   # for graph memory
     topic_tree: dict[str, Any] = field(default_factory=dict)    # for hierarchical memory
+    hypergraph: dict[str, Any] = field(default_factory=dict)    # for hypergraph memory
 
     # utility tracking
     access_count: int = 0
@@ -154,30 +153,133 @@ class LinearMemory:
         return [p for _, _, p in scored[:top_k]]
 
 
-class GraphMemory:
+class HypergraphMemory:
     """
-    Entity-relation graph over pages.
-    Nodes  = pages;  edges = shared entity mentions / high embedding similarity.
-    Retrieval: start from highest-similarity node, expand 1-hop neighbours.
+    3-layer hypergraph (topic -> episode -> fact) over pages, modeled on the
+    HyperMem paper. Episodes come from surprise-based segmentation
+    (surprise_episode_segmenter.PageEpisodeSegmenter); topics are LLM-clustered
+    over episodes via streaming match, one session at a time
+    (hypergraph_extraction.build_topics_for_session); facts are LLM-extracted
+    per episode. Retrieval is coarse-to-fine -- topic -> episode -> fact --
+    with hyperedges acting as a hard connectivity filter between layers, over
+    embeddings already updated once via HyperMem's attention-weighted
+    hyperedge propagation formula (hypergraph_embedding.py).
+
+    Heavy imports (torch, the LLM/embedding clients) are deferred into the
+    methods below so importing this module never requires a loaded model.
     """
+
+    def __init__(
+        self,
+        topic_top_k: int = 2,
+        episode_top_k: int = 3,
+        fact_top_k: int = 5,
+        alpha: float = 0.5,
+        topic_match_batch_size: int = 10,
+        gamma: float = 1.5,
+        n_local: int = 4096,
+        n_init: int = 128,
+        min_block_size: int = 8,
+        similarity_refinement: bool = True,
+        embedder: Any = None,
+        llm_client: Any = None,
+    ):
+        self.topic_top_k = topic_top_k
+        self.episode_top_k = episode_top_k
+        self.fact_top_k = fact_top_k
+        self.alpha = alpha
+        self.topic_match_batch_size = topic_match_batch_size
+        self._segmenter_kwargs = dict(
+            gamma=gamma,
+            n_local=n_local,
+            n_init=n_init,
+            min_block_size=min_block_size,
+            similarity_refinement=similarity_refinement,
+        )
+        self._embedder = embedder
+        self._llm_client = llm_client
+
+    def _resolve_embedder(self) -> Any:
+        if self._embedder is not None:
+            return self._embedder
+        from qwen_client import get_client
+        self._embedder = get_client()
+        return self._embedder
+
+    def _resolve_llm_client(self) -> Any:
+        if self._llm_client is not None:
+            return self._llm_client
+        from vllm_llm_client import VLLMClient, vllm_available
+        if vllm_available():
+            self._llm_client = VLLMClient()
+        else:
+            from qwen_client import get_client
+            self._llm_client = get_client()
+        return self._llm_client
 
     def build_index(self, session: EpisodicSession) -> None:
-        """Build adjacency list stored in session.graph_index."""
+        """(Re)build the session's hypergraph, stored in session.hypergraph."""
+        from surprise_episode_segmenter import PageEpisodeSegmenter
+        from hypergraph_extraction import (
+            summarize_episode,
+            extract_facts_for_episode,
+            assign_fact_roles,
+            build_topics_for_session,
+        )
+        from hypergraph_embedding import propagate_fact_embeddings, propagate_episode_embeddings
+        from hypergraph_types import EpisodeNode
+
         pages = session.pages
-        n = len(pages)
-        adj: dict[str, list[str]] = defaultdict(list)
+        if not pages:
+            session.hypergraph = {}
+            return
 
-        for i in range(n):
-            for j in range(i + 1, n):
-                if pages[i].embedding is not None and pages[j].embedding is not None:
-                    sim = float(_cosine(pages[i].embedding, pages[j].embedding))
-                    if sim > 0.6:                   # edge threshold
-                        adj[pages[i].page_id].append(pages[j].page_id)
-                        adj[pages[j].page_id].append(pages[i].page_id)
+        embedder = self._resolve_embedder()
+        llm_client = self._resolve_llm_client()
 
-        session.graph_index = {
-            "adj": dict(adj),
-            "id_to_idx": {p.page_id: idx for idx, p in enumerate(pages)},
+        segmenter = PageEpisodeSegmenter(**self._segmenter_kwargs)
+        model = getattr(embedder, "model", None)
+        tokenizer = getattr(embedder, "tokenizer", None)
+        page_groups = segmenter.segment(pages, model, tokenizer)
+
+        episodes: dict[str, EpisodeNode] = {}
+        facts: dict[str, Any] = {}
+        fact_hyperedges: dict[str, Any] = {}
+        page_to_episode: dict[str, str] = {}
+        episode_order: list[EpisodeNode] = []
+
+        for group in page_groups:
+            subject, summary = summarize_episode(group, llm_client)
+            episode = EpisodeNode(page_ids=[p.page_id for p in group], subject=subject, summary=summary)
+            episode.embedding = embedder.embed(episode.to_text())
+            episodes[episode.id] = episode
+            episode_order.append(episode)
+            for p in group:
+                page_to_episode[p.page_id] = episode.id
+
+            episode_facts = extract_facts_for_episode(group, episode.id, llm_client)
+            for f in episode_facts:
+                f.embedding = embedder.embed(f.to_text())
+                facts[f.id] = f
+            fact_hyperedge = assign_fact_roles(episode_facts, episode.id, summary, llm_client)
+            fact_hyperedges[fact_hyperedge.id] = fact_hyperedge
+
+        topics, episode_hyperedges = build_topics_for_session(
+            episode_order, llm_client, batch_size=self.topic_match_batch_size,
+        )
+        for topic in topics.values():
+            topic.embedding = embedder.embed(topic.to_text())
+
+        propagate_fact_embeddings(facts, fact_hyperedges, alpha=self.alpha)
+        propagate_episode_embeddings(episodes, episode_hyperedges, alpha=self.alpha)
+
+        session.hypergraph = {
+            "topics": topics,
+            "episode_hyperedges": episode_hyperedges,
+            "episodes": episodes,
+            "fact_hyperedges": fact_hyperedges,
+            "facts": facts,
+            "page_to_episode": page_to_episode,
         }
 
     def retrieve(
@@ -189,34 +291,80 @@ class GraphMemory:
         if not session.pages:
             return []
 
-        if not session.graph_index:
+        if not session.hypergraph:
             self.build_index(session)
 
-        pages = session.pages
-        adj = session.graph_index.get("adj", {})
-        id_to_idx = session.graph_index.get("id_to_idx", {})
+        hg = session.hypergraph
+        topics = hg.get("topics", {})
+        episodes = hg.get("episodes", {})
+        facts = hg.get("facts", {})
+        episode_hyperedges = hg.get("episode_hyperedges", {})
+        fact_hyperedges = hg.get("fact_hyperedges", {})
+        id_to_page = {p.page_id: p for p in session.pages}
 
-        # seed node: highest cosine similarity to query
-        sims = []
-        for p in pages:
-            s = float(_cosine(query_emb, p.embedding)) if p.embedding is not None else 0.0
-            sims.append(s)
-        seed_idx = int(np.argmax(sims))
-        seed_page = pages[seed_idx]
+        if not topics:
+            return session.pages[:top_k]
 
-        # collect seed + 1-hop neighbours
-        neighbour_ids = adj.get(seed_page.page_id, [])
-        candidate_ids = {seed_page.page_id} | set(neighbour_ids)
+        # layer 1: topics
+        topic_scored = sorted(
+            topics.values(),
+            key=lambda t: float(_cosine(query_emb, t.embedding)) if t.embedding is not None else 0.0,
+            reverse=True,
+        )
+        selected_topics = {t.id for t in topic_scored[: self.topic_top_k]}
 
-        candidate_pages = [pages[id_to_idx[pid]] for pid in candidate_ids if pid in id_to_idx]
+        # layer 2: episodes, hard-filtered to selected topics via episode hyperedges
+        connected_episode_ids: set[str] = set()
+        for he in episode_hyperedges.values():
+            if he.topic_id in selected_topics:
+                connected_episode_ids.update(he.relation.keys())
+        candidate_episodes = [episodes[eid] for eid in connected_episode_ids if eid in episodes]
+        episode_scored = sorted(
+            candidate_episodes,
+            key=lambda e: float(_cosine(query_emb, e.embedding)) if e.embedding is not None else 0.0,
+            reverse=True,
+        )
+        selected_episodes = {e.id for e in episode_scored[: self.episode_top_k]}
 
-        # re-rank by similarity
-        scored = []
-        for p in candidate_pages:
-            s = float(_cosine(query_emb, p.embedding)) if p.embedding is not None else 0.0
-            scored.append((s, p))
-        scored.sort(key=lambda x: x[0], reverse=True)
-        return [p for _, p in scored[:top_k]]
+        # layer 3: facts, hard-filtered to selected episodes via fact hyperedges
+        connected_fact_ids: set[str] = set()
+        for he in fact_hyperedges.values():
+            if he.episode_id in selected_episodes:
+                connected_fact_ids.update(he.relation.keys())
+        candidate_facts = [facts[fid] for fid in connected_fact_ids if fid in facts]
+        fact_scored = sorted(
+            candidate_facts,
+            key=lambda f: float(_cosine(query_emb, f.embedding)) if f.embedding is not None else 0.0,
+            reverse=True,
+        )
+
+        # map facts -> pages, preserving score order, deduplicating
+        result: list[Page] = []
+        seen: set[str] = set()
+        for f in fact_scored:
+            episode = episodes.get(f.episode_id)
+            if episode is None:
+                continue
+            for pid in episode.page_ids:
+                if pid in seen or pid not in id_to_page:
+                    continue
+                seen.add(pid)
+                result.append(id_to_page[pid])
+                if len(result) >= top_k:
+                    return result
+
+        # backfill from next-best episodes if still short of top_k
+        if len(result) < top_k:
+            for e in episode_scored:
+                for pid in e.page_ids:
+                    if pid in seen or pid not in id_to_page:
+                        continue
+                    seen.add(pid)
+                    result.append(id_to_page[pid])
+                    if len(result) >= top_k:
+                        return result
+
+        return result[:top_k]
 
 
 class HierarchicalMemory:

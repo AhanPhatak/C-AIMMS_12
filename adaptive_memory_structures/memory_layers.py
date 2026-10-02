@@ -17,7 +17,7 @@ from memory_structures import (
     EpisodicSession,
     LTSMEntry,
     LinearMemory,
-    GraphMemory,
+    HypergraphMemory,
     HierarchicalMemory,
     _cosine,
 )
@@ -51,7 +51,7 @@ class DummyEmbedder:
 @runtime_checkable
 class StructureSelector(Protocol):
     def predict(self, features: np.ndarray) -> str:
-        """Return one of: 'linear', 'graph', 'hierarchical'."""
+        """Return one of: 'linear', 'hierarchical', 'hypergraph'."""
         ...
 
 
@@ -60,7 +60,7 @@ class DefaultSelector:
     Fallback round-robin selector (replace with your trained MLP).
     In practice you should pass in the MLP you've already trained.
     """
-    _cycle = ["linear", "graph", "hierarchical"]
+    _cycle = ["linear", "hypergraph", "hierarchical"]
     _idx = 0
 
     def predict(self, features: np.ndarray) -> str:
@@ -142,7 +142,7 @@ class MTEM:
         self.sessions: list[EpisodicSession] = []
 
         self._linear = LinearMemory()
-        self._graph = GraphMemory()
+        self._hypergraph = HypergraphMemory()
         self._hierarchical = HierarchicalMemory()
 
     # ------------------------------------------------------------------
@@ -157,8 +157,8 @@ class MTEM:
 
     def _rebuild_structure_index(self, session: EpisodicSession) -> None:
         """(Re)build structure-specific index after adding pages."""
-        if session.structure_type == "graph":
-            self._graph.build_index(session)
+        if session.structure_type == "hypergraph":
+            self._hypergraph.build_index(session)
         elif session.structure_type == "hierarchical":
             self._hierarchical.build_index(session)
         # linear needs no explicit index
@@ -266,8 +266,8 @@ class MTEM:
         pages_out: list[Page] = []
         for session in top_sessions:
             session.touch()
-            if session.structure_type == "graph":
-                pages = self._graph.retrieve(session, query_emb, top_k=top_k_pages)
+            if session.structure_type == "hypergraph":
+                pages = self._hypergraph.retrieve(session, query_emb, top_k=top_k_pages)
             elif session.structure_type == "hierarchical":
                 pages = self._hierarchical.retrieve(session, query_emb, top_k=top_k_pages)
             else:
