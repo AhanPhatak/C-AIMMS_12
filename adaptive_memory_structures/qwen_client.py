@@ -209,6 +209,18 @@ class QwenClient:
         self._gen_calls   = 0
         self._embed_calls = 0
 
+    @property
+    def model(self) -> Any:
+        """The underlying HF causal LM (None in dry-run mode). Read-only —
+        shared for callers (e.g. the surprise episode segmenter) that need a
+        raw forward pass without loading a second copy of the model."""
+        return self._model
+
+    @property
+    def tokenizer(self) -> Any:
+        """The underlying HF tokenizer (None in dry-run mode)."""
+        return self._tokenizer
+
     @classmethod
     def load(
         cls,

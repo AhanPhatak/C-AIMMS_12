@@ -14,6 +14,26 @@
 # eval loads its own copy plus the Delta-Mem adapter on GPU 1. Both fit inside
 # 24GB with room to spare (~8GB of bf16 weights each), so unlike the 1-GPU
 # smoke variant on the cluster there is no need to cap vLLM's memory hard.
+#
+# Single-GPU co-located mode (for when only one card has room -- this is a
+# shared box): set CAIMMS_SINGLE_GPU=1 to run vLLM and eval on the SAME
+# device instead of requiring two free GPUs, mirroring the cluster's 1-GPU
+# smoke variant (run_smoke_1sample.slurm). Tunable via env vars rather than
+# hardcoded, since what fits depends on who else is on the box right now:
+#   CAIMMS_SINGLE_GPU=1            # opt in (default 0 = unchanged 2-GPU behaviour)
+#   CAIMMS_GPU_INDEX=1             # which device index to co-locate on (default 0)
+#   CAIMMS_VLLM_GPU_MEM_UTIL=0.4   # vLLM's --gpu-memory-utilization (default 0.4
+#                                  # in single-GPU mode, 0.85 in 2-GPU mode) --
+#                                  # this is a fraction of the GPU's TOTAL memory,
+#                                  # not of whatever's currently free, so leave
+#                                  # enough of the remainder for the eval
+#                                  # process's own ~8GB copy + adapter.
+# Example: CAIMMS_SINGLE_GPU=1 CAIMMS_GPU_INDEX=1 bash run_pipeline.sh --smoke
+#
+# On a 24.5GB card this co-location is genuinely tight (~8GB vLLM weights +
+# ~8GB eval weights + KV-cache/activation overhead for both), unlike the
+# cluster variant's 40GB A100 -- it may still OOM depending on what headroom
+# is actually free. Start with --smoke and watch the server log.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -48,11 +68,29 @@ fi
 
 caimms_activate
 
+SINGLE_GPU="${CAIMMS_SINGLE_GPU:-0}"
+GPU_INDEX="${CAIMMS_GPU_INDEX:-0}"
+if [ "${SINGLE_GPU}" = "1" ]; then
+    VLLM_GPU_MEM_UTIL="${CAIMMS_VLLM_GPU_MEM_UTIL:-0.4}"
+    VLLM_DEVICE="${GPU_INDEX}"
+    EVAL_DEVICE="${GPU_INDEX}"
+else
+    VLLM_GPU_MEM_UTIL="${CAIMMS_VLLM_GPU_MEM_UTIL:-0.85}"
+    VLLM_DEVICE=0
+    EVAL_DEVICE=1
+fi
+
 echo "=============================================="
 echo "  C-AIMMS ${MODE}"
 echo "  run  : ${RUN_ID} on $(hostname) at $(date)"
 echo "  out  : ${WORKMEM_OUTPUT_FILE}"
 echo "  logs : ${RUN_LOG}"
+if [ "${SINGLE_GPU}" = "1" ]; then
+    echo "  gpu  : SINGLE-GPU mode -- both vLLM and eval on device ${GPU_INDEX}"
+    echo "         (vLLM --gpu-memory-utilization ${VLLM_GPU_MEM_UTIL})"
+else
+    echo "  gpu  : 2-GPU mode -- vLLM on device ${VLLM_DEVICE}, eval on device ${EVAL_DEVICE}"
+fi
 echo "=============================================="
 
 # ── preflight ─────────────────────────────────────────────────────────────────
@@ -66,15 +104,24 @@ done
 [ "$fail" = "0" ] || { echo "Run download_assets.sh first."; exit 1; }
 
 NGPU="$(nvidia-smi --query-gpu=name --format=csv,noheader | wc -l)"
-[ "${NGPU}" -ge 2 ] || { echo "ERROR: need 2 GPUs, found ${NGPU}."; exit 1; }
+if [ "${SINGLE_GPU}" = "1" ]; then
+    [ "${NGPU}" -ge $((GPU_INDEX + 1)) ] || { echo "ERROR: CAIMMS_GPU_INDEX=${GPU_INDEX} but only ${NGPU} GPU(s) present."; exit 1; }
+else
+    [ "${NGPU}" -ge 2 ] || { echo "ERROR: need 2 GPUs, found ${NGPU}. (Only one free? Set CAIMMS_SINGLE_GPU=1.)"; exit 1; }
+fi
 
 # GPU availability preflight. This box is SHARED -- other users' jobs routinely
 # occupy both cards, and without this check vLLM starts, spends ~30s loading,
 # then dies with a CUDA OOM buried ~90 lines deep in its log behind a useless
 # "Engine core initialization failed. See root cause above."
+# In single-GPU mode only the one device we're actually using is checked --
+# an idle second card isn't relevant when we're not touching it.
 NEED_MIB="${CAIMMS_MIN_FREE_MIB:-12000}"
 BUSY=0
 while read -r idx free; do
+    if [ "${SINGLE_GPU}" = "1" ] && [ "${idx}" != "${GPU_INDEX}" ]; then
+        continue
+    fi
     if [ "${free}" -lt "${NEED_MIB}" ]; then
         echo "GPU ${idx}: only ${free} MiB free (need >= ${NEED_MIB} MiB)"
         BUSY=1
@@ -159,15 +206,15 @@ trap cleanup EXIT INT TERM
 
 cd "${CAIMMS_ROOT}/delta-Mem"
 
-# ── 1. vLLM on GPU 0 ──────────────────────────────────────────────────────────
-echo "[1/3] Starting vLLM on GPU 0 (port ${VLLM_PORT})..."
-CUDA_VISIBLE_DEVICES=0 python3 -m vllm.entrypoints.openai.api_server \
+# ── 1. vLLM ───────────────────────────────────────────────────────────────────
+echo "[1/3] Starting vLLM on GPU ${VLLM_DEVICE} (port ${VLLM_PORT}, util ${VLLM_GPU_MEM_UTIL})..."
+CUDA_VISIBLE_DEVICES=${VLLM_DEVICE} python3 -m vllm.entrypoints.openai.api_server \
     --model "${CAIMMS_MODEL_PATH}" \
     --served-model-name Qwen/Qwen3-4B-Instruct-2507 \
     --port "${VLLM_PORT}" \
     --dtype bfloat16 \
     --max-model-len 8192 \
-    --gpu-memory-utilization 0.85 \
+    --gpu-memory-utilization "${VLLM_GPU_MEM_UTIL}" \
     --enforce-eager \
     --disable-log-requests \
     > "${SERVER_LOG}" 2>&1 &
@@ -210,10 +257,10 @@ if ! printf '%s' "${MODELS_JSON}" | grep -q "Qwen/Qwen3-4B-Instruct-2507"; then
 fi
 echo "      server online (pid ${SERVER_PID}, model verified)."
 
-# ── 3. eval on GPU 1 ──────────────────────────────────────────────────────────
-echo "[3/3] Starting eval on GPU 1..."
+# ── 3. eval ───────────────────────────────────────────────────────────────────
+echo "[3/3] Starting eval on GPU ${EVAL_DEVICE}..."
 set +e
-CUDA_VISIBLE_DEVICES=1 python3 -u -m deltamem.workmem.eval_locomo_iterret_mock 2>&1 | tee -a "${RUN_LOG}"
+CUDA_VISIBLE_DEVICES=${EVAL_DEVICE} python3 -u -m deltamem.workmem.eval_locomo_iterret_mock 2>&1 | tee -a "${RUN_LOG}"
 EVAL_EXIT=${PIPESTATUS[0]}
 set -e
 

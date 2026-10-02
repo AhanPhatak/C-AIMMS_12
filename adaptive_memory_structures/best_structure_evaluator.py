@@ -1,6 +1,6 @@
 import numpy as np
 import json
-from memory_structures import Page, EpisodicSession, LinearMemory, GraphMemory, HierarchicalMemory
+from memory_structures import Page, EpisodicSession, LinearMemory, HypergraphMemory, HierarchicalMemory
 from qwen_client import get_client
 
 class BestStructureEvaluator:
@@ -13,7 +13,7 @@ class BestStructureEvaluator:
 
     def find_best_structure(self, ep: list[Page], persona1: list[str], persona2: list[str]):
         rewards = np.zeros(3)
-        structures = ["linear", "graph", "hierarchical"]
+        structures = ["linear", "hypergraph", "hierarchical"]
         for i in range(3):
             questions = self._generate_queries(persona1, persona2)
             session =  self._build_session_for_structure(ep, structures[i])
@@ -170,8 +170,8 @@ class BestStructureEvaluator:
       session.interaction_intensity = min(1.0, len(pages) * 0.1)
 
     # build the structure-specific index with ALL pages present
-      if structure == "graph":
-          GraphMemory().build_index(session)
+      if structure == "hypergraph":
+          HypergraphMemory().build_index(session)
       elif structure == "hierarchical":
           HierarchicalMemory().build_index(session)
       # linear needs no index
@@ -185,8 +185,8 @@ class BestStructureEvaluator:
     top_k: int = 3,
   ) -> list[Page]:
       """Retrieve pages from a session using its assigned structure."""
-      if session.structure_type == "graph":
-          return GraphMemory().retrieve(session, query_emb, top_k=top_k)
+      if session.structure_type == "hypergraph":
+          return HypergraphMemory().retrieve(session, query_emb, top_k=top_k)
       elif session.structure_type == "hierarchical":
           return HierarchicalMemory().retrieve(session, query_emb, top_k=top_k)
       else:
@@ -195,14 +195,31 @@ class BestStructureEvaluator:
     def _build_memory_layout_string(self, session: "EpisodicSession"):
       stored_memory = ""
       pages = session.pages
-      if session.structure_type == "graph":
-          id_to_num = {p.page_id: i + 1 for i, p in enumerate(pages)}
-          adj = session.graph_index.get("adj", {}) if session.graph_index else {}
-          for i, page in enumerate(session.pages):
-              neighbour_ids = adj.get(page.page_id, [])
-              neighbour_nums = sorted(id_to_num[nid] for nid in neighbour_ids if nid in id_to_num)
-              neighbours_str = ",".join(str(n) for n in neighbour_nums) if neighbour_nums else "(none)"
-              stored_memory += f"[Page {i+1} -> {neighbours_str}] {page.to_text()}"
+      if session.structure_type == "hypergraph":
+          hg = session.hypergraph or {}
+          topics = hg.get("topics", {})
+          episodes = hg.get("episodes", {})
+          facts = hg.get("facts", {})
+          fact_hyperedges = hg.get("fact_hyperedges", {})
+          page_to_episode = hg.get("page_to_episode", {})
+
+          episode_topic_num: dict[str, int] = {}
+          for t_idx, topic in enumerate(topics.values(), start=1):
+              for eid in topic.episode_ids:
+                  episode_topic_num[eid] = t_idx
+          episode_num = {eid: i + 1 for i, eid in enumerate(episodes.keys())}
+          fact_num = {fid: i + 1 for i, fid in enumerate(facts.keys())}
+          episode_fact_ids: dict[str, list[str]] = {}
+          for he in fact_hyperedges.values():
+              episode_fact_ids.setdefault(he.episode_id, []).extend(he.relation.keys())
+
+          for page in pages:
+              eid = page_to_episode.get(page.page_id)
+              t_num = episode_topic_num.get(eid, "-")
+              e_num = episode_num.get(eid, "-")
+              f_nums = sorted(fact_num[fid] for fid in episode_fact_ids.get(eid, []) if fid in fact_num)
+              facts_str = ",".join(str(n) for n in f_nums) if f_nums else "(none)"
+              stored_memory += f"[Topic {t_num} / Episode {e_num} -> facts {facts_str}] {page.to_text()}"
       elif session.structure_type == "hierarchical":
           id_to_num = {p.page_id: i + 1 for i, p in enumerate(pages)}
           clusters = session.topic_tree.get("clusters", []) if session.topic_tree else []
