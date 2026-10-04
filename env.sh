@@ -29,7 +29,9 @@ export CAIMMS_WORKSPACE="${CAIMMS_WORKSPACE:-$(cd "${CAIMMS_ROOT}/.." && pwd)}"
 # Read directly by deltamem/workmem/*.py. Those files fall back to the original
 # Mahamathi absolute paths when these are unset, so they still run bare there.
 export CAIMMS_MODEL_PATH="${CAIMMS_WORKSPACE}/models/Qwen3-4B-Instruct-2507"
-export CAIMMS_ADAPTER_DIR="${CAIMMS_WORKSPACE}/models/delta-mem-adapter"
+# Overridable so a retrained adapter (scripts/train_iterret_osam.sh) can be
+# evaluated through the same scripts: CAIMMS_ADAPTER_DIR=<dir> bash scripts/...
+export CAIMMS_ADAPTER_DIR="${CAIMMS_ADAPTER_DIR:-${CAIMMS_WORKSPACE}/models/delta-mem-adapter}"
 export CAIMMS_DATA_FILE="${CAIMMS_ROOT}/delta-Mem/data/locomo10.json"
 export CAIMMS_OUTPUT_DIR="${CAIMMS_WORKSPACE}/outputs"
 

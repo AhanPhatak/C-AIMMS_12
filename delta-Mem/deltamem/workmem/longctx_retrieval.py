@@ -1,0 +1,95 @@
+"""Document graph + IterRet evidence, shared by the long-context eval
+(eval_longbench_iterret) and the SFT-data builder (build_iterret_sft_data), so
+the evidence delta-mem is TRAINED on is produced by exactly the code path it is
+EVALUATED on.
+"""
+from __future__ import annotations
+
+import threading
+from pathlib import Path
+from typing import List, Tuple
+
+from iterret.ctc_graph import CueTagContentGraph
+from iterret.doc_memory_builder import build_ctc_graph_from_document, chunk_document
+from iterret.experience_bank import EmbeddingBackend, ExperienceBank, build_default_embedding_backend
+
+from deltamem.workmem.evidence_filter import filter_evidence_by_relevance
+from deltamem.workmem.iterret_bridge import get_iterret_evidence
+
+ITERRET_MAX_ITERATIONS = 5
+
+
+class LockedBackend(EmbeddingBackend):
+    """Serialises encode() so one MiniLM model can serve several worker threads."""
+
+    def __init__(self, inner: EmbeddingBackend) -> None:
+        self._inner = inner
+        self._lock = threading.Lock()
+
+    def encode(self, text: str):
+        with self._lock:
+            return self._inner.encode(text)
+
+    def similarity(self, a, b) -> float:
+        return self._inner.similarity(a, b)
+
+    def __getattr__(self, name):
+        return getattr(self._inner, name)
+
+
+def make_backend(thread_safe: bool = False) -> EmbeddingBackend:
+    backend = build_default_embedding_backend()
+    if type(backend).__name__ == "KeywordOverlapEmbeddingBackend":
+        # evidence_filter's cosine assumes float vectors; this backend returns
+        # dicts and the filter then silently no-ops (upstream HANDOFF Sec. 6).
+        raise RuntimeError("sentence-transformers MiniLM unavailable -- refusing to run "
+                           "with the keyword fallback embedder")
+    return LockedBackend(backend) if thread_safe else backend
+
+
+def get_or_build_doc_graph(context: str, key: str, cache_dir: Path, llm) -> Tuple[CueTagContentGraph, List[str], bool]:
+    """Returns (graph, passages in document order, was_cached)."""
+    cache_path = Path(cache_dir) / f"{key}.json"
+    if cache_path.exists():
+        graph = CueTagContentGraph.load(str(cache_path))
+        cached = True
+    else:
+        graph = build_ctc_graph_from_document(chunk_document(context), llm)
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = cache_path.with_suffix(".tmp")
+        graph.save(str(tmp))
+        tmp.replace(cache_path)  # atomic: a killed run never leaves a half-written cache
+        cached = False
+    passages = [node.display_text() for node in graph.contents.values() if node.layer == "episodic"]
+    return graph, passages, cached
+
+
+def retrieve_evidence(question: str, graph: CueTagContentGraph, backend: EmbeddingBackend, llm,
+                      diag: dict | None = None) -> List[str]:
+    """IterRet retrieve/reflect/route (no answer node) + relevance sort -- the
+    same two steps the LoCoMo eval applies before the OSAM write."""
+    graph.attach_embedder(backend)
+    bank = ExperienceBank(backend)  # empty bank, as in the LoCoMo runs
+    diag = diag if diag is not None else {}
+    evidence = get_iterret_evidence(question, graph, bank, llm,
+                                    max_iterations=ITERRET_MAX_ITERATIONS, diag=diag)
+    if evidence:
+        evidence = filter_evidence_by_relevance(question, evidence, backend.encode, threshold=0.30)
+    return evidence
+
+
+def cap_evidence_by_tokens(evidence: List[str], tokenizer, max_tokens: int) -> List[str]:
+    """Keep the most relevant evidence (list is relevance-sorted, best first)
+    until ~max_tokens of chat-formatted write history. Always keeps >= 1 item.
+    Used identically when building training episodes and (optionally) at eval
+    time, so a retrained adapter sees the same evidence budget in both."""
+    if max_tokens <= 0 or not evidence:
+        return evidence
+    kept, used = [], 0
+    for item in evidence:
+        n = len(tokenizer(item, add_special_tokens=False)["input_ids"]) + 6  # chat-template overhead
+        if kept and used + n > max_tokens:
+            break
+        kept.append(item)
+        used += n
+    return kept

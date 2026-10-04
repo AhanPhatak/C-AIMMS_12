@@ -27,7 +27,18 @@ mkdir -p "${CAIMMS_OUTPUT_DIR}"
 SERVER_LOG="${CAIMMS_OUTPUT_DIR}/server_${RUN_ID}.log"
 RUN_LOG="${CAIMMS_OUTPUT_DIR}/run_${RUN_ID}.log"
 
-if [ "${SMOKE}" = "1" ]; then
+# EVAL_MODULE: which python module runs once vLLM is up. Default = the LoCoMo
+# eval. Other modules (deltamem.workmem.eval_longbench_iterret,
+# deltamem.workmem.build_iterret_sft_data) reuse this script's GPU preflight,
+# port guards and vLLM lifecycle; they must name their own WORKMEM_OUTPUT_FILE.
+LOCOMO_MODULE="deltamem.workmem.eval_locomo_iterret_mock"
+EVAL_MODULE="${EVAL_MODULE:-${LOCOMO_MODULE}}"
+
+if [ "${EVAL_MODULE}" != "${LOCOMO_MODULE}" ]; then
+    : "${WORKMEM_OUTPUT_FILE:?set WORKMEM_OUTPUT_FILE when EVAL_MODULE is not the LoCoMo eval}"
+    export WORKMEM_OUTPUT_FILE
+    MODE="${EVAL_MODULE##*.} -> $(basename "${WORKMEM_OUTPUT_FILE}")"
+elif [ "${SMOKE}" = "1" ]; then
     export WORKMEM_MAX_SAMPLES=1
     # Scratch checkpoint, never the real one: rows a smoke test writes would
     # otherwise be picked up by the full run's resume logic and silently skipped.
@@ -215,15 +226,19 @@ echo "      server online (pid ${SERVER_PID}, model verified)."
 # ── 3. eval on GPU 1 ──────────────────────────────────────────────────────────
 echo "[3/3] Starting eval on GPU 1..."
 set +e
-CUDA_VISIBLE_DEVICES=1 python3 -u -m deltamem.workmem.eval_locomo_iterret_mock 2>&1 | tee -a "${RUN_LOG}"
+CUDA_VISIBLE_DEVICES=1 python3 -u -m "${EVAL_MODULE}" 2>&1 | tee -a "${RUN_LOG}"
 EVAL_EXIT=${PIPESTATUS[0]}
 set -e
 
 ROWS="$(wc -l < "${WORKMEM_OUTPUT_FILE}" 2>/dev/null || echo 0)"
-EXPECT=$([ "${SMOKE}" = "1" ] && echo 152 || echo 1540)
+if [ "${EVAL_MODULE}" = "${LOCOMO_MODULE}" ]; then
+    EXPECT=" (expect $([ "${SMOKE}" = "1" ] && echo 152 || echo 1540))"
+else
+    EXPECT=""
+fi
 echo "=============================================="
 echo "  Done at $(date) | exit ${EVAL_EXIT}"
-echo "  Rows written: ${ROWS} (expect ${EXPECT})"
+echo "  Rows written: ${ROWS}${EXPECT}"
 echo "  Results: ${WORKMEM_OUTPUT_FILE}"
 echo "=============================================="
 exit "${EVAL_EXIT}"

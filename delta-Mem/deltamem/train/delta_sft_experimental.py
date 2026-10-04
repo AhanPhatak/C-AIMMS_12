@@ -33,6 +33,7 @@ from deltamem.core.delta import (
     get_delta_mem_partition_regularization,
     get_delta_mem_write_regularization,
     iter_delta_mem_modules,
+    load_delta_mem_adapter,
     load_delta_mem_online_state,
     normalize_delta_heads,
     normalize_memory_readout_mode,
@@ -1809,8 +1810,31 @@ def parse_args() -> argparse.Namespace:
         choices=["all_assistant_turns", "final_assistant_only"],
     )
     parser.add_argument("--rankwise-gates", action=argparse.BooleanOptionalAction, default=True)
+    # Exposed (previously hardcoded) so the WORKMEM `combined` regime -- the SAME
+    # retrieved evidence both written into S and visible in the prompt -- can be
+    # trained: context_ablation_ce's "full_context_plus_state" branch primes S
+    # from the write messages AND attends the full write+read sequence.
+    # Defaults reproduce the released recipe exactly.
+    parser.add_argument(
+        "--memory-loss-mode",
+        default="context_dropout_ce",
+        choices=["context_dropout_ce", "context_ablation_ce"],
+    )
+    parser.add_argument(
+        "--context-ablation-mode",
+        default="mixed",
+        choices=["mixed", "full_context_plus_state", "full_context_no_state", "state_only"],
+    )
+    parser.add_argument("--context-ablation-no-state-prob", type=float, default=0.2)
+    parser.add_argument("--context-ablation-state-only-prob", type=float, default=0.2)
+    parser.add_argument(
+        "--init-adapter-dir",
+        type=Path,
+        default=None,
+        help="Start from an existing Delta-Mem adapter (its config + weights) instead of a fresh init. "
+        "--memory-write-granularity still overrides the loaded config's granularity.",
+    )
     args = parser.parse_args()
-    args.memory_loss_mode = "context_dropout_ce"
     args.num_memory_partitions = 1
     args.num_global_memory_partitions = 0
     args.memory_partition_routing = "soft"
@@ -1825,9 +1849,6 @@ def parse_args() -> argparse.Namespace:
     args.global_memory_gate_bias_init = -2.0
     args.global_memory_read_logit_bias = 0.0
     args.memory_write_proposals_per_message = 2
-    args.context_ablation_mode = "mixed"
-    args.context_ablation_no_state_prob = 0.2
-    args.context_ablation_state_only_prob = 0.2
     args.memory_full_ce_weight = 0.0
     args.memory_full_ce_max_length = 2048
     args.memory_probe_weight = 0.0
@@ -2757,7 +2778,14 @@ def main() -> None:
         memory_write_granularity=args.memory_write_granularity,
         memory_write_proposals_per_message=args.memory_write_proposals_per_message,
     )
+    if args.init_adapter_dir is not None:
+        delta_config = HFDeltaMemConfig.from_pretrained(args.init_adapter_dir)
+        delta_config.memory_write_granularity = args.memory_write_granularity
     replaced = attach_delta_mem(model, delta_config)
+    if args.init_adapter_dir is not None:
+        load_delta_mem_adapter(model, args.init_adapter_dir)
+        if local_rank in (-1, 0):
+            print(f"Initialised Delta-Mem from {args.init_adapter_dir}")
     trainable_names = freeze_non_delta_mem_params(model)
 
     warmup_steps = compute_warmup_steps(
@@ -2827,7 +2855,7 @@ def main() -> None:
         delta_config=delta_config,
         write_sparsity_weight=args.write_sparsity_weight,
         write_sparsity_target=args.write_sparsity_target,
-        memory_loss_mode="context_dropout_ce",
+        memory_loss_mode=args.memory_loss_mode,
         memory_contrast_weight=args.memory_contrast_weight,
         memory_kl_weight=args.memory_kl_weight,
         memory_margin=args.memory_margin,

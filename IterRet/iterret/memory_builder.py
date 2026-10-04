@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from typing import Iterator, List, Optional, TypedDict
 
@@ -44,6 +45,12 @@ that would only contain a single episode.
 
 DEFAULT_MAX_CHARS_PER_CALL = 4000  # conservative for an 8k-token context server
 
+# Reply budget for the semantic-fact call. It returns EVERY fact in a ~4000-char
+# chunk as JSON; under the client's default 256-token cap any longer reply was
+# cut mid-JSON and parse_json_object returned {} silently -- rebuilt graphs kept
+# 8 facts instead of ~200 (upstream HANDOFF Sec. 6, 2026-09-29).
+SEMANTIC_MAX_TOKENS = int(os.environ.get("ITERRET_SEMANTIC_MAX_TOKENS", "1536"))
+
 
 class DialogueTurn(TypedDict, total=False):
     speaker: str
@@ -55,12 +62,13 @@ def _warn(message: str) -> None:
     print(f"[memory-builder] warning: {message}", file=sys.stderr)
 
 
-def _safe_chat(system_prompt: str, user_prompt: str, llm: LLMClient, *, on_error: str) -> dict:
+def _safe_chat(system_prompt: str, user_prompt: str, llm: LLMClient, *, on_error: str,
+               max_tokens: Optional[int] = None) -> dict:
     """chat() + parse_json_object(), but a raised exception (e.g. the
     server rejecting an over-budget request) degrades to {} with a
     printed warning instead of aborting the whole graph build."""
     try:
-        raw = llm.chat(system_prompt, user_prompt)
+        raw = llm.chat(system_prompt, user_prompt, max_tokens=max_tokens)
     except Exception as exc:  # noqa: BLE001 -- deliberately broad: any backend, any failure mode
         _warn(f"{on_error}: {exc}")
         return {}
@@ -102,7 +110,8 @@ def _extract_semantics(episode_summaries: List[dict], llm: LLMClient, *, max_cha
     for chunk in _iter_chunks(episode_summaries, text_key="text", max_chars=max_chars):
         full_text = "\n".join(s["text"] for s in chunk)
         parsed = _safe_chat(_SEMANTIC_EXTRACTION_SYSTEM_PROMPT, full_text, llm,
-                             on_error=f"semantic extraction skipped a {len(chunk)}-episode chunk")
+                             on_error=f"semantic extraction skipped a {len(chunk)}-episode chunk",
+                             max_tokens=SEMANTIC_MAX_TOKENS)
         for item in parsed.get("semantics") or []:
             if not isinstance(item, dict):
                 continue

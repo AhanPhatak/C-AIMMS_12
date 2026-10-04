@@ -654,6 +654,7 @@ def build_answer_prompt(query, system_instruction=None, *,
 
 def answer_with_modes(session, query, *, s_content, prompt_content,
                       system_instruction=None, allow_abstention: bool = False,
+                      formatted_query: str | None = None,
                       **gen_kwargs):
     """Answer with S-content and prompt-content DECOUPLED -- the primitive for the
     vanilla / hybrid experiments.
@@ -691,10 +692,13 @@ def answer_with_modes(session, query, *, s_content, prompt_content,
     except ImportError:
         pass
 
-    formatted_query = build_answer_prompt(
-        query, system_instruction, allow_abstention=allow_abstention,
-        evidence_carries_dates=_evidence_carries_dates(session),
-    )
+    if formatted_query is None:
+        # LoCoMo prompt. Other benchmarks (eval_longbench_iterret) pass their
+        # own official instruction+question block via formatted_query.
+        formatted_query = build_answer_prompt(
+            query, system_instruction, allow_abstention=allow_abstention,
+            evidence_carries_dates=_evidence_carries_dates(session),
+        )
     gen_kwargs.setdefault("prompt_write_enabled", PHASE2_PROMPT_WRITE)
     return session.generate_reply(formatted_query, **gen_kwargs)
 
