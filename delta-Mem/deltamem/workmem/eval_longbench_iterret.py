@@ -22,7 +22,8 @@ Environment (all optional except the paths env.sh already sets):
   LB_SEGMENTATION      fixed (~180-word passages, default) | surprise (EM-LLM
                        surprise boundaries from CAIMMS_MODEL_PATH; events capped
                        at LB_SURPRISE_MAX_WORDS). Knobs: LB_SURPRISE_GAMMA (1.5),
-                       LB_SURPRISE_MIN_BLOCK (64 tokens), LB_SURPRISE_MAX_WORDS (400).
+                       LB_SURPRISE_MIN_BLOCK (64 tokens), LB_SURPRISE_MAX_WORDS (400),
+                       LB_SURPRISE_REFINE (1; 0 = no Stage-2 KV refinement).
 
 Graphs are built in a PRE-PASS before the delta-mem model loads, so the surprise
 model (its own Qwen3-4B copy) and the delta-mem model never share the GPU.
@@ -63,10 +64,14 @@ SEGMENTATION = os.environ.get("LB_SEGMENTATION", "fixed")
 SURPRISE_GAMMA = float(os.environ.get("LB_SURPRISE_GAMMA", "1.5"))
 SURPRISE_MIN_BLOCK = int(os.environ.get("LB_SURPRISE_MIN_BLOCK", "64"))
 SURPRISE_MAX_WORDS = int(os.environ.get("LB_SURPRISE_MAX_WORDS", "400"))
+# Stage-2 KV graph-modularity refinement. 0 = Stage-1 surprise boundaries only
+# (use if the refinement trips over this transformers version's KV-cache format).
+SURPRISE_REFINE = os.environ.get("LB_SURPRISE_REFINE", "1") != "0"
 # One cache per segmentation (the cache is keyed by document only). "fixed"
 # keeps the original location so existing caches are reused.
 _SEG_SUFFIX = ("" if SEGMENTATION == "fixed"
-               else f"_surprise_g{SURPRISE_GAMMA:g}_m{SURPRISE_MIN_BLOCK}_w{SURPRISE_MAX_WORDS}")
+               else f"_surprise_g{SURPRISE_GAMMA:g}_m{SURPRISE_MIN_BLOCK}_w{SURPRISE_MAX_WORDS}"
+                    f"{'' if SURPRISE_REFINE else '_norefine'}")
 GRAPH_CACHE_DIR = Path(os.environ.get(
     "LB_GRAPH_CACHE_DIR", str(Path(OUTPUT_FILE).parent / "lb_graph_cache" / f"{TASK}{_SEG_SUFFIX}")))
 MAX_CONSECUTIVE_FAILURES = int(os.environ.get("WORKMEM_MAX_CONSECUTIVE_FAILURES", "5"))
@@ -143,7 +148,8 @@ def _build_missing_graphs(rows: list, llm) -> None:
     if SEGMENTATION == "surprise":
         from iterret.doc_segmenter import DocumentSurpriseSegmenter
         segmenter = DocumentSurpriseSegmenter(MODEL_PATH, gamma=SURPRISE_GAMMA,
-                                              min_block_size=SURPRISE_MIN_BLOCK, device="cuda:0")
+                                              min_block_size=SURPRISE_MIN_BLOCK,
+                                              similarity_refinement=SURPRISE_REFINE, device="cuda:0")
 
         def segment_fn(text: str):
             return segmenter.segment_document(text, max_words=SURPRISE_MAX_WORDS)
