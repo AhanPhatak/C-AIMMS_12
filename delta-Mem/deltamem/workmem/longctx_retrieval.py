@@ -47,14 +47,28 @@ def make_backend(thread_safe: bool = False) -> EmbeddingBackend:
     return LockedBackend(backend) if thread_safe else backend
 
 
-def get_or_build_doc_graph(context: str, key: str, cache_dir: Path, llm) -> Tuple[CueTagContentGraph, List[str], bool]:
-    """Returns (graph, passages in document order, was_cached)."""
-    cache_path = Path(cache_dir) / f"{key}.json"
+def graph_cache_path(cache_dir: Path, key: str) -> Path:
+    return Path(cache_dir) / f"{key}.json"
+
+
+def get_or_build_doc_graph(context: str, key: str, cache_dir: Path, llm, *,
+                           segment_fn=None, segmentation: str = "fixed",
+                           ) -> Tuple[CueTagContentGraph, List[str], bool]:
+    """Returns (graph, passages in document order, was_cached).
+
+    ``segment_fn(context) -> list[str]`` splits the document into episodic
+    units; default = fixed ~180-word passages (``chunk_document``). The surprise
+    segmenter is passed in here by the eval. Keep one cache dir per
+    segmentation -- the cache is keyed by document only.
+    """
+    cache_path = graph_cache_path(cache_dir, key)
     if cache_path.exists():
         graph = CueTagContentGraph.load(str(cache_path))
         cached = True
     else:
-        graph = build_ctc_graph_from_document(chunk_document(context), llm)
+        spans = segment_fn(context) if segment_fn is not None else chunk_document(context)
+        graph = build_ctc_graph_from_document(spans, llm)
+        graph.meta["segmentation"] = segmentation
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         tmp = cache_path.with_suffix(".tmp")
         graph.save(str(tmp))
