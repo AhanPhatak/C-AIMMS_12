@@ -78,8 +78,15 @@ for f in "${CAIMMS_MODEL_PATH}/config.json" "${CAIMMS_ADAPTER_DIR}/delta_mem_con
 done
 [ "$fail" = "0" ] || { echo "Run download_assets.sh first."; exit 1; }
 
+# Which physical GPUs to use (nvidia-smi indices). On a box with more cards
+# than you own, point these at the free ones: VLLM_GPU=2 EVAL_GPU=3 bash $0
+VLLM_GPU="${VLLM_GPU:-0}"
+EVAL_GPU="${EVAL_GPU:-1}"
+[ "${VLLM_GPU}" != "${EVAL_GPU}" ] || { echo "ERROR: VLLM_GPU and EVAL_GPU must differ."; exit 1; }
 NGPU="$(nvidia-smi --query-gpu=name --format=csv,noheader | wc -l)"
-[ "${NGPU}" -ge 2 ] || { echo "ERROR: need 2 GPUs, found ${NGPU}."; exit 1; }
+for g in "${VLLM_GPU}" "${EVAL_GPU}"; do
+    [ "${g}" -lt "${NGPU}" ] || { echo "ERROR: GPU ${g} does not exist (found ${NGPU})."; exit 1; }
+done
 
 # GPU availability preflight. This box is SHARED -- other users' jobs routinely
 # occupy both cards, and without this check vLLM starts, spends ~30s loading,
@@ -94,28 +101,28 @@ while read -r idx free; do
     else
         echo "GPU ${idx}: ${free} MiB free -- OK"
     fi
-done < <(nvidia-smi --query-gpu=index,memory.free --format=csv,noheader,nounits | tr -d ',')
+done < <(nvidia-smi --id="${VLLM_GPU},${EVAL_GPU}" --query-gpu=index,memory.free --format=csv,noheader,nounits | tr -d ',')
 
 if [ "${BUSY}" = "1" ]; then
     echo
     echo "ERROR: not enough free GPU memory. Who is using the cards:"
-    nvidia-smi --query-compute-apps=pid,process_name,used_memory --format=csv | sed 's/^/    /'
+    nvidia-smi --id="${VLLM_GPU},${EVAL_GPU}" --query-compute-apps=pid,process_name,used_memory --format=csv | sed 's/^/    /'
     echo
-    echo "  These may belong to another user on this shared machine -- check before"
+    echo "  Pick free cards with VLLM_GPU=<i> EVAL_GPU=<j>. These may belong to another user on this shared machine -- check before"
     echo "  killing anything. Wait for them to finish, or run on Mahamathi instead."
     echo "  To override this guard (e.g. you know a smaller footprint will fit):"
     echo "      CAIMMS_MIN_FREE_MIB=4000 bash $0 $*"
     exit 1
 fi
-echo "GPUs:"
-nvidia-smi --query-gpu=index,name,memory.used,memory.total --format=csv,noheader | sed 's/^/  /'
+echo "GPUs (vLLM on ${VLLM_GPU}, eval on ${EVAL_GPU}):"
+nvidia-smi --id="${VLLM_GPU},${EVAL_GPU}" --query-gpu=index,name,memory.used,memory.total --format=csv,noheader | sed 's/^/  /'
 
 # No scheduler on this box means nobody is holding the GPUs for you. If someone
 # else's process is resident, say so rather than OOMing 90 seconds from now.
-OTHER="$(nvidia-smi --query-compute-apps=pid,used_memory --format=csv,noheader | wc -l)"
+OTHER="$(nvidia-smi --id="${VLLM_GPU},${EVAL_GPU}" --query-compute-apps=pid,used_memory --format=csv,noheader | wc -l)"
 if [ "${OTHER}" -gt 0 ]; then
     echo "  NOTE: ${OTHER} compute process(es) already on these GPUs:"
-    nvidia-smi --query-compute-apps=pid,process_name,used_memory --format=csv,noheader | sed 's/^/    /'
+    nvidia-smi --id="${VLLM_GPU},${EVAL_GPU}" --query-compute-apps=pid,process_name,used_memory --format=csv,noheader | sed 's/^/    /'
     echo "  Continuing in 10s -- ctrl-c to abort."
     sleep 10
 fi
@@ -173,8 +180,8 @@ trap cleanup EXIT INT TERM
 cd "${CAIMMS_ROOT}/delta-Mem"
 
 # ── 1. vLLM on GPU 0 ──────────────────────────────────────────────────────────
-echo "[1/3] Starting vLLM on GPU 0 (port ${VLLM_PORT})..."
-CUDA_VISIBLE_DEVICES=0 python3 -m vllm.entrypoints.openai.api_server \
+echo "[1/3] Starting vLLM on GPU ${VLLM_GPU} (port ${VLLM_PORT})..."
+CUDA_VISIBLE_DEVICES="${VLLM_GPU}" python3 -m vllm.entrypoints.openai.api_server \
     --model "${CAIMMS_MODEL_PATH}" \
     --served-model-name Qwen/Qwen3-4B-Instruct-2507 \
     --port "${VLLM_PORT}" \
@@ -224,9 +231,9 @@ fi
 echo "      server online (pid ${SERVER_PID}, model verified)."
 
 # ── 3. eval on GPU 1 ──────────────────────────────────────────────────────────
-echo "[3/3] Starting eval on GPU 1..."
+echo "[3/3] Starting eval on GPU ${EVAL_GPU}..."
 set +e
-CUDA_VISIBLE_DEVICES=1 python3 -u -m "${EVAL_MODULE}" 2>&1 | tee -a "${RUN_LOG}"
+CUDA_VISIBLE_DEVICES="${EVAL_GPU}" python3 -u -m "${EVAL_MODULE}" 2>&1 | tee -a "${RUN_LOG}"
 EVAL_EXIT=${PIPESTATUS[0]}
 set -e
 

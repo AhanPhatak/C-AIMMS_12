@@ -38,6 +38,10 @@ export CAIMMS_OUTPUT_DIR="${CAIMMS_WORKSPACE}/outputs"
 # Port 8000 is not reserved for you on a shared box. Override with
 # VLLM_PORT=8xxx before sourcing if something else is already bound to it.
 export VLLM_PORT="${VLLM_PORT:-8000}"
+
+# Make CUDA_VISIBLE_DEVICES indices match nvidia-smi's (PCI order), so
+# VLLM_GPU / EVAL_GPU / GPU pick the card nvidia-smi showed as free.
+export CUDA_DEVICE_ORDER=PCI_BUS_ID
 export CAIMMS_VLLM_BASE_URL="http://localhost:${VLLM_PORT}/v1"
 
 # IterRet is VENDORED at ${CAIMMS_ROOT}/IterRet -- there is exactly one copy.
