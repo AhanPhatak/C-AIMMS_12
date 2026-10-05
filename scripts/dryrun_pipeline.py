@@ -113,7 +113,7 @@ for qi, q in enumerate(qs):
     stop_reasons.update([diag.get("stop_reason")])
     rows.append({"sample_idx": 0, "q_idx": qi, "question": q_text,
                  "gold_answer": gold_answer_of(q), "category": cat,
-                 "n_evidence_retrieved": len(ev), "prediction": "", "score": 0.0,
+                 "n_evidence_retrieved": len(ev), "prediction": "stub", "score": 0.0,
                  "skipped": False, "retrieval": diag})
 
 check(all(r["retrieval"].get("evidence_ids") is not None for r in rows), "every row carries evidence ids")
@@ -160,7 +160,12 @@ class FakeSession:
         self.last_prompt, self.last_kwargs = text, kw
         return {"assistant": "stub"}
 
-from deltamem.workmem.osam_workmem import answer_with_osam
+from deltamem.workmem.osam_workmem import answer_with_osam, PROMPT_ENGINEERING
+from deltamem.eval.locomo_protocol import OFFICIAL_QA_PROMPT
+# The category-specific block is opt-in (OSAM_PROMPT_ENGINEERING=1); by default
+# the prompt must be LoCoMo's official one, verbatim. Run this script both ways
+# to cover both paths.
+print(f"  prompt: {'ENGINEERED (OSAM_PROMPT_ENGINEERING=1)' if PROMPT_ENGINEERING else 'official LoCoMo (default)'}")
 seen_kinds = collections.Counter()
 for r in rows:
     q_text = r["question"]
@@ -170,6 +175,12 @@ for r in rows:
     kind = ("TEMPORAL" if _needs_temporal_grounding(q_text)
             else "YES/NO" if _is_yes_no_question(q_text) else "NAMED")
     seen_kinds[kind] += 1
+    check(sess.last_kwargs.get("prompt_write_enabled") is PHASE2_PROMPT_WRITE,
+          f"[{kind}] prompt_write_enabled threaded to generate_reply")
+    if not PROMPT_ENGINEERING:
+        check(p == OFFICIAL_QA_PROMPT.format(q_text), f"[{kind}] official LoCoMo prompt, verbatim",
+              q_text[:38])
+        continue
     if kind == "TEMPORAL":
         idx_q, idx_t = p.index("Question:"), p.index("This question asks about timing")
         check(idx_t > idx_q, f"[{kind}] timing directive AFTER the question", q_text[:38])
@@ -180,8 +191,6 @@ for r in rows:
               "yesterday", "last week", "last month", "recently"]
     hit = [b for b in banned if b in p.lower()]
     check(not hit, f"[{kind}] no primed refusal/relative vocabulary", q_text[:38] + (f" got {hit}" if hit else ""))
-    check(sess.last_kwargs.get("prompt_write_enabled") is True,
-          f"[{kind}] prompt_write_enabled threaded to generate_reply")
 print(f"  branch coverage: {dict(seen_kinds)}")
 check(len(seen_kinds) >= 2, "multiple prompt branches exercised")
 
@@ -209,6 +218,13 @@ completed, reloaded_rows = load_checkpoint(str(out_file))
 check(len(reloaded_rows) == len(rows), "checkpoint reload count matches")
 check(len(completed) == len(rows), "checkpoint keys parsed")
 check(all("retrieval" in r for r in reloaded_rows), "retrieval diagnostics survive JSON round-trip")
+# A failed generation (empty prediction, not skipped) must NOT count as done,
+# or a resume would keep its score of 0 instead of re-answering it.
+failed = dict(rows[0], q_idx=10_000, prediction="")
+out_file.write_text("".join(json.dumps(r) + "\n" for r in rows + [failed]))
+completed, _ = load_checkpoint(str(out_file))
+check((0, 10_000) not in completed and len(completed) == len(rows),
+      "failed-generation row is retried on resume, not kept")
 
 print()
 print("=" * 72)
