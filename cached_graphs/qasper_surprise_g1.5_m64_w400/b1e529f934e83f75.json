@@ -1,0 +1,2381 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 6,
+    "n_semantic": 96,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Conventional": {
+      "tag_set": [
+        "Introduction"
+      ]
+    },
+    "automatic speech recognition": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "acoustic model": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "pronunciation model": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "hidden Markov models": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "neural networks": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "end-to-end (E2E) systems": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Definition"
+      ]
+    },
+    "time-delay neural networks": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "convolutional neural networks": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "Connectionist Temporal Classification": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "wav2letter": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Definition"
+      ]
+    },
+    "1D-convolution layers": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "Liptchinsky": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "Gated Linear Units": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "weight normalization": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "dropout": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "ReLU": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Model Architecture Decisions"
+      ]
+    },
+    "batch normalization": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "Jasper": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Definition",
+        "Property"
+      ]
+    },
+    "residual connections": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Model Architecture Decisions",
+        "Property",
+        "Requirement"
+      ]
+    },
+    "Dense Residual (DR)": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "Transformer-XL": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "LibriSpeech": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Dataset",
+        "Model Architecture Decisions",
+        "Result"
+      ]
+    },
+    "2000hr Fisher+Switchboard": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "Wall Street Journal (WSJ)": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Dataset",
+        "Result"
+      ]
+    },
+    "WER": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Model Architecture Decisions"
+      ]
+    },
+    "mel-filterbank features": {
+      "tag_set": [
+        "ASR Model Architecture",
+        "Definition"
+      ]
+    },
+    "20ms windows": {
+      "tag_set": [
+        "ASR Model Architecture"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "Layer norm": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "Batch norm": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "Jasper10x4": {
+      "tag_set": [
+        "Model Architecture Decisions",
+        "Property"
+      ]
+    },
+    "batching": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "padded values": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "sequence mask": {
+      "tag_set": [
+        "Model Architecture Decisions",
+        "Property"
+      ]
+    },
+    "mean and variance": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "time dimension": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "channels": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "Laurent et al. BIBREF19": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "convolution operation": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "weight norm": {
+      "tag_set": [
+        "Model Architecture Decisions",
+        "Problem"
+      ]
+    },
+    "exploding activations": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "Jasper 5x3": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "DenseNet BIBREF15": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "DenseRNet BIBREF16": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "concatenation": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "addition": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "Dense Residual": {
+      "tag_set": [
+        "Decision",
+        "Model Architecture Decisions",
+        "Property"
+      ]
+    },
+    "language model": {
+      "tag_set": [
+        "Model Architecture Decisions",
+        "Usage"
+      ]
+    },
+    "N-gram LMs": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "neural LMs": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "BIBREF20": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Model Architecture Decisions"
+      ]
+    },
+    "automatic speech recognition (ASR) systems": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "hybrid systems": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "time-delay neural networks (TDNN)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Connectionist Temporal Classification (CTC) loss": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Liptchinsky et al.": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Jasper architecture": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ReLU and batch normalization": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Dense Residual (DR) connections": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Jasper model size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Transformer-XL language model": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "LibriSpeech test-clean": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "2000hr Fisher+Switchboard (F+S)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "greedy decoding": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sub-block": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "residual connection": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sub-block architecture": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "fused sub-block operation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Jasper Dense Residual (DR)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "DenseNet": {
+      "tag_set": [
+        "Comparison",
+        "Property"
+      ]
+    },
+    "normalization methods": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "activation functions": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "gated units": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Jasper5x3": {
+      "tag_set": [
+        "Experiment"
+      ]
+    },
+    "layer norm with GAU": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "layer norm with ReLU": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "batch norm with ReLU": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "padding in batching": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "layer norm": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "mean and variance calculation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "masking prior to convolution": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "masking in batch norm": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "masking before convolution and batch norm": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "DenseRNet": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Dense Residual and DenseRNet": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "language model (LM)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "decoding": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "traditional N-gram LMs": {
+      "tag_set": [
+        "Improvement"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "acoustic and word-level N-gram language models": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Transformer-XL LM": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "perplexity": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Figure FIGREF20": {
+      "tag_set": [
+        "Evidence"
+      ]
+    },
+    "NovoGrad": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Stochastic Gradient Descent (SGD) with momentum": {
+      "tag_set": [
+        "Alternative"
+      ]
+    },
+    "memory consumption": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "numerical stability": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "WER on dev-clean LibriSpeech": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "relative improvement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Jasper DR 10x5": {
+      "tag_set": [
+        "Definition",
+        "Model"
+      ]
+    },
+    "Jasper 10x3": {
+      "tag_set": [
+        "Model"
+      ]
+    },
+    "speed perturbation": {
+      "tag_set": [
+        "Training Technique"
+      ]
+    },
+    "random speed perturbation": {
+      "tag_set": [
+        "Training Technique"
+      ]
+    },
+    "NVIDIA DGX-1": {
+      "tag_set": [
+        "Hardware"
+      ]
+    },
+    "OpenSeq2Seq": {
+      "tag_set": [
+        "Software"
+      ]
+    },
+    "source code, training configurations, and pretrained models": {
+      "tag_set": [
+        "Availability"
+      ]
+    },
+    "dropout and weight decay": {
+      "tag_set": [
+        "Regularization"
+      ]
+    },
+    "400 epochs": {
+      "tag_set": [
+        "Property",
+        "Training Duration"
+      ]
+    },
+    "momentum optimizer": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "WSJ0 and WSJ1 datasets": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "80 hours": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Hub5'00 evaluation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Switchboard (SWB) and Callhome (CHM)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Fisher+Switchboard training data": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "SGD with momentum": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Hub5'00 results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "conversational English corpus": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "residual topology": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "effective regularization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "strong optimizer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "scalability": {
+      "tag_set": [
+        "Conclusion"
+      ]
+    },
+    "end-to-end speech recognition": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "SOTA results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "efficient training and inference": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "baseline approach": {
+      "tag_set": [
+        "Conclusion"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nConventional",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Introduction"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "automatic speech recognition (ASR) systems typically consist of several independently learned components: an acoustic model to predict context-dependent sub-phoneme states (senones) from audio, a graph structure to map senones to phonemes, and a pronunciation model to map phonemes to words. Hybrid systems combine hidden Markov models to model state dependencies with neural networks to predict states BIBREF0 , BIBREF1 , BIBREF2 , BIBREF3 . Newer approaches such as end-to-end (E2E) systems reduce the overall complexity of the final system. Our research builds on prior work that has explored using time-delay neural networks (TDNN), other forms of convolutional neural networks, and Connectionist Temporal Classification (CTC) loss BIBREF4 , BIBREF5 , BIBREF6 . We took inspiration from wav2letter BIBREF6 , which uses 1D-convolution layers. Liptchinsky et al. BIBREF7 improved wav2letter by increasing the model depth to 19 convolutional layers and adding Gated Linear Units (GLU) BIBREF8 , weight normalization BIBREF9 and dropout. By building a deeper and larger capacity network, we aim to demonstrate that we can match or outperform non end-to-end models on the LibriSpeech and 2000hr Fisher+Switchboard tasks. Like wav2letter, our architecture, Jasper, uses a stack of 1D-convolution layers, but with ReLU and batch normalization BIBREF10 . We find that ReLU and batch normalization outperform other activation and normalization schemes that we tested for convolutional ASR. As a result, Jasper's architecture contains only 1D convolution, batch normalization, ReLU, and dropout layers \u2013 operators highly optimized for training and inference on GPUs. It is possible to increase the capacity of the Jasper model by stacking these operations. Our largest version uses 54 convolutional layers (333M parameters), while our small model uses 34 (201M parameters). We use residual connections to enable this level of depth. We investigate a number of residual options and propose a new residual connection topology we call Dense Residual (DR). Integrating our best acoustic model with a Transformer-XL BIBREF11 language model allows us to obtain new state-of-the-art (SOTA) results on LibriSpeech BIBREF12 test-clean of 2.95% WER and SOTA results among end-to-end models on LibriSpeech test-other. We show competitive results on Wall Street Journal (WSJ), and 2000hr Fisher+Switchboard (F+S). Using only greedy decoding without a language model we achieve 3.86% WER on LibriSpeech test-clean. This paper makes the following contributions: Jasper Architecture Jasper is a family of end-to-end ASR models that replace acoustic and pronunciation models with a convolutional neural network. Jasper uses mel-filterbank features calculated from 20ms windows",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "ASR Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "with a 10ms overlap, and outputs a probability distribution over characters per frame. Jasper has a block architecture: a Jasper INLINEFORM0 x INLINEFORM1 model has INLINEFORM2 blocks, each with INLINEFORM3 sub-blocks. Each sub-block applies the following operations: a 1D-convolution, batch norm, ReLU, and dropout. All sub-blocks in a block have the same number of output channels. Each block input is connected directly into the last sub-block via a residual connection. The residual connection is first projected through a 1x1 convolution to account for different numbers of input and output channels, then through a batch norm layer. The output of this batch norm layer is added to the output of the batch norm layer in the last sub-block. The result of this sum is passed through the activation function and dropout to produce the output of the sub-block. The sub-block architecture of Jasper was designed to facilitate fast GPU inference. Each sub-block can be fused into a single GPU kernel: dropout is not used at inference-time and is eliminated, batch norm can be fused with the preceding convolution, ReLU clamps the result, and residual summation can be treated as a modified bias term in this fused operation. All Jasper models have four additional convolutional blocks: one pre-processing and three post-processing. See Figure FIGREF7 and Table TABREF8 for details. We also build a variant of Jasper, Jasper Dense Residual (DR). Jasper DR follows DenseNet BIBREF15 and DenseRNet BIBREF16 , but instead of having dense connections within a block, the output of a convolution block is added to the inputs of all the following blocks. While DenseNet and DenseRNet concatenates the outputs of different layers, Jasper DR adds them in the same way that residuals are added in ResNet. As explained below, we find addition to be as effective as concatenation. Normalization and Activation In our study, we evaluate performance of models with: 3 types of normalization: batch norm BIBREF10 , weight norm BIBREF9 , and layer norm BIBREF17 3 types of rectified linear units: ReLU, clipped ReLU (cReLU), and leaky ReLU (lReLU) 2 types of gated units: gated linear units (GLU) BIBREF8 , and gated activation units (GAU) BIBREF18 All experiment results are shown in Table TABREF15 . We first experimented with a smaller Jasper5x3 model to pick the top 3 settings before training on larger Jasper models. We found that layer norm with GAU performed the best on the smaller model.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "Layer norm with ReLU and batch norm with ReLU came second and third in our tests. Using these 3, we conducted further experiments on a larger Jasper10x4. For larger models, we noticed that batch norm with ReLU outperformed other choices. Thus, leading us to decide on batch normalization and ReLU for our architecture. During batching, all sequences are padded to match the longest sequence. These padded values caused issues when using layer norm. We applied a sequence mask to exclude padding values from the mean and variance calculation. Further, we computed mean and variance over both the time dimension and channels similar to the sequence-wise normalization proposed by Laurent et al. BIBREF19 . In addition to masking layer norm, we additionally applied masking prior to the convolution operation, and masking the mean and variance calculation in batch norm. These results are shown in Table TABREF16 . Interestingly, we found that while masking before convolution gives a lower WER, using masks for both convolutions and batch norm results in worse performance. As a final note, we found that training with weight norm was very unstable leading to exploding activations. Residual Connections For models deeper than Jasper 5x3, we observe consistently that residual connections are necessary for training to converge. In addition to the simple residual and dense residual model described above, we investigated DenseNet BIBREF15 and DenseRNet BIBREF16 variants of Jasper. Both connect the outputs of each sub-block to the inputs of following sub-blocks within a block. DenseRNet, similar to Dense Residual, connects the output of each output of each block to the input of all following blocks. DenseNet and DenseRNet combine residual connections using concatenation whereas Residual and Dense Residual use addition. We found that Dense Residual and DenseRNet perform similarly with each performing better on specific subsets of LibriSpeech. We decided to use Dense Residual for subsequent experiments. The main reason is that due to concatenation, the growth factor for DenseNet and DenseRNet requires tuning for deeper models whereas Dense Residual simply just repeats a sub-blocks. Language Model A language model (LM) is a probability distribution over arbitrary symbol sequences INLINEFORM0 such that more likely sequences are assigned high probabilities. LMs are frequently used to condition beam search. During decoding, candidates are evaluated using both acoustic scores and LM scores. Traditional N-gram LMs have been augmented with neural LMs in recent work BIBREF20 , BIBREF21 , BIBREF22 . We",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Architecture Decisions"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "experiment with statistical N-gram language models BIBREF23 and neural Transformer-XL BIBREF11 models. Our best results use acoustic and word-level N-gram language models to generate a candidate list using beam search with a width of 2048. Next, an external Transformer-XL LM rescores the final list. All LMs were trained on datasets independently from acoustic models. We show results with the neural LM in our Results section. We observed a strong correlation between the quality of the neural LM (measured by perplexity) and WER as shown in Figure FIGREF20 . NovoGrad For training, we use either Stochastic Gradient Descent (SGD) with momentum or our own NovoGrad, an optimizer similar to Adam BIBREF14 , except that its second moments are computed per layer instead of per weight. Compared to Adam, it reduces memory consumption and we find it to be more numerically stable. At each step INLINEFORM0 , NovoGrad computes the stochastic gradient INLINEFORM1 following the regular forward-backward pass. Then the second-order moment INLINEFORM2 is computed for each layer INLINEFORM3 similar to ND-Adam BIBREF27 : DISPLAYFORM0 The second-order moment INLINEFORM0 is used to re-scale gradients INLINEFORM1 before calculating the first-order moment INLINEFORM2 : DISPLAYFORM0 If L2-regularization is used, a weight decay INLINEFORM0 is added to the re-scaled gradient (as in AdamW BIBREF28 ): DISPLAYFORM0 Finally, new weights are computed using the learning rate INLINEFORM0 : DISPLAYFORM0 Using NovoGrad instead of SGD with momentum, we decreased the WER on dev-clean LibriSpeech from 4.00% to 3.64%, a relative improvement of 9% for Jasper DR 10x5. We will further analyze NovoGrad in forthcoming work. Results We evaluate Jasper across a number of datasets in various domains. In all experiments, we use dropout and weight decay as regularization. At training time, we use speed perturbation with fixed +/-10% BIBREF29 for LibriSpeech. For WSJ and Hub5'00, we use a random speed perturbation factor between [-10%, 10%] as each utterance is fed into the model. All models have been trained on NVIDIA DGX-1 in mixed precision BIBREF30 using OpenSeq2Seq BIBREF31 . Source code, training configurations, and pretrained models are available. Read Speech We evaluated the performance of Jasper on two read speech datasets: LibriSpeech and Wall Street Journal (WSJ). For LibriSpeech, we trained Jasper DR 10x5 using our NovoGrad optimizer for 400 epochs. We achieve SOTA performance on the test-clean subset and SOTA among end-to-end speech recognition models on test-other. We trained a smaller Jasper 10x3 model with SGD",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "with momentum optimizer for 400 epochs on a combined WSJ dataset (80 hours): LDC93S6A (WSJ0) and LDC94S13A (WSJ1). The results are provided in Table TABREF29 . Conversational Speech We also evaluate the Jasper model's performance on a conversational English corpus. The Hub5 Year 2000 (Hub5'00) evaluation (LDC2002S09, LDC2005S13) is widely used in academia. It is divided into two subsets: Switchboard (SWB) and Callhome (CHM). The training data for both the acoustic and language models consisted of the 2000hr Fisher+Switchboard training data (LDC2004S13, LDC2005S13, LDC97S62). Jasper DR 10x5 was trained using SGD with momentum for 50 epochs. We compare to other models trained using the same data and report Hub5'00 results in Table TABREF31 . We obtain good results for SWB. However, there is work to be done to improve WER on harder tasks such as CHM. Conclusions We have presented a new family of neural architectures for end-to-end speech recognition. Inspired by wav2letter's convolutional approach, we build a deep and scalable model, which requires a well-designed residual topology, effective regularization, and a strong optimizer. As our architecture studies demonstrated, a combination of standard components leads to SOTA results on LibriSpeech and competitive results on other benchmarks. Our Jasper architecture is highly efficient for training and inference, and serves as a good baseline approach on top of which to explore more sophisticated regularization, data augmentation, loss functions, language models, and optimization strategies. We are interested to see if our approach can continue to scale to deeper models and larger datasets.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Conventional ASR systems consist of independently learned components including an acoustic model, a graph structure, and a pronunciation model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Hybrid systems combine hidden Markov models for state dependencies with neural networks for state prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "End-to-end systems reduce the overall complexity of ASR by integrating acoustic and pronunciation modeling into a single neural network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "TDNNs are among the neural network architectures explored in prior work for ASR.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "CTC loss is used in newer ASR approaches to align audio signals with word sequences without explicit alignment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Wav2letter is an end-to-end ASR system that uses 1D-convolution layers to map audio to text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Liptchinsky et al. improved wav2letter by increasing model depth to 19 convolutional layers and adding Gated Linear Units, weight normalization, and dropout.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Jasper is a family of end-to-end ASR models that replace acoustic and pronunciation models with a convolutional neural network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Jasper uses a stack of 1D-convolution layers with ReLU and batch normalization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "ReLU and batch normalization outperform other activation and normalization schemes in Jasper's convolutional layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Dense Residual is a proposed residual connection topology that enables deeper network stacks in Jasper.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "The largest Jasper model has 54 convolutional layers and 333M parameters, while the small model has 34 layers and 201M parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Residual connections are used in Jasper to enable deep network architectures and improve training stability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Integrating Jasper's acoustic model with a Transformer-XL language model achieves state-of-the-art results on LibriSpeech test-clean.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Jasper achieves a 2.95% word error rate (WER) on LibriSpeech test-clean, which is a state-of-the-art result.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Jasper shows competitive performance on the Wall Street Journal speech recognition task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Jasper achieves competitive results on the 2000hr Fisher+Switchboard dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Using only greedy decoding without a language model, Jasper achieves a 3.86% WER on LibriSpeech test-clean.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Jasper uses mel-filterbank features calculated from 20ms audio windows.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Jasper is a block architecture model with a structure consisting of INLINEFORM2 blocks, each containing INLINEFORM3 sub-blocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Each sub-block in Jasper applies a 1D-convolution, batch normalization, ReLU activation, and dropout.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The residual connection in Jasper projects the input through a 1x1 convolution and batch norm before adding it to the output of the last sub-block's batch norm layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The sub-block architecture of Jasper is designed to enable fast GPU inference through kernel fusion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "In fused operations, dropout is eliminated at inference time, batch norm is fused with convolution, ReLU clamps the result, and residual summation is treated as a modified bias term.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Jasper DR is a variant that adds the output of a convolution block to the inputs of all subsequent blocks, similar to residual connections in ResNet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Jasper DR differs from DenseNet by using addition instead of concatenation of layer outputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Jasper models evaluate three types of normalization: batch norm, weight norm, and layer norm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Jasper models evaluate three types of activation functions: ReLU, clipped ReLU (cReLU), and leaky ReLU (lReLU).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Jasper models evaluate two types of gated units: gated linear units (GLU) and gated activation units (GAU).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "A smaller Jasper5x3 model was first experimented with to select the top three configurations before training on larger models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Experiment"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Layer norm with gated activation units (GAU) performed the best on the smaller Jasper5x3 model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Layer norm with ReLU came second in the tests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Batch norm with ReLU came third in the tests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Further experiments were conducted on a larger Jasper10x4 model using the top three configurations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "For larger models, batch norm with ReLU outperformed other normalization and activation combinations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "During batching, all sequences are padded to match the longest sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Padded values caused issues when using layer norm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "A sequence mask was applied to exclude padding values from the mean and variance calculation in layer norm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Mean and variance were computed over both the time dimension and channels, similar to sequence-wise normalization proposed by Laurent et al. (BIBREF19).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "A mask was applied prior to the convolution operation to exclude padded values.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "A mask was applied to the mean and variance calculation in batch norm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Using masks for both convolutions and batch norm resulted in worse performance than masking only before convolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Training with weight norm was very unstable and led to exploding activations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Residual connections are necessary for training to converge in models deeper than Jasper 5x3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "DenseNet connects the output of each sub-block to the input of following sub-blocks within a block and uses concatenation for residual connections.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "DenseRNet connects the output of each sub-block to the input of all following blocks and uses concatenation for residual connections.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Dense Residual connects the output of each sub-block to the input of following sub-blocks and uses addition for residual connections.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Both Dense Residual and DenseRNet perform similarly and each performs better on specific subsets of LibriSpeech.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Dense Residual was selected for subsequent experiments due to its simplicity and consistent performance without requiring tuning of a growth factor.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Decision"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "A language model is a probability distribution over arbitrary symbol sequences such that more likely sequences are assigned high probabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Language models are frequently used to condition beam search during decoding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "During decoding, candidates are evaluated using both acoustic scores and LM scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Traditional N-gram LMs have been augmented with neural LMs in recent work (BIBREF20, BIBREF21, BIBREF22).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Improvement"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "BIBREF23 refers to a statistical N-gram language model used in the experiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "BIBREF11 refers to a neural Transformer-XL language model used in the experiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The best results use acoustic and word-level N-gram language models to generate a candidate list via beam search with a width of 2048.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "An external Transformer-XL language model rescores the final candidate list after generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Perplexity of the neural language model strongly correlates with WER (Word Error Rate).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Figure FIGREF20 shows the strong correlation between neural LM quality (measured by perplexity) and WER.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evidence"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "NovoGrad is an optimizer similar to Adam, with second moments computed per layer instead of per weight.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "NovoGrad is compared to SGD with momentum as an alternative optimizer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Alternative"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "NovoGrad reduces memory consumption compared to Adam.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "NovoGrad is more numerically stable than Adam.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Using NovoGrad instead of SGD with momentum reduces WER on dev-clean LibriSpeech from 4.00% to 3.64%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The use of NovoGrad results in a 9% relative improvement in WER for Jasper DR 10x5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Jasper DR 10x5 achieves SOTA performance on test-clean and SOTA among end-to-end speech recognition models on test-other.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "A smaller Jasper 10x3 model was trained with SGD.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Speed perturbation with fixed +/-10% is used for LibriSpeech training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Technique"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "For WSJ and Hub5'00, a random speed perturbation between [-10%, 10%] is applied to each utterance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Technique"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "All models were trained on NVIDIA DGX-1 using mixed precision.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Hardware"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "All models were trained using OpenSeq2Seq.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Software"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Source code, training configurations, and pretrained models are available for public access.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Availability"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "LibriSpeech is one of the read speech datasets evaluated for Jasper performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "WSJ is one of the read speech datasets evaluated for Jasper performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Dropout and weight decay are used as regularization techniques in all experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Regularization"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Jasper DR 10x5 was trained for 400 epochs using NovoGrad.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Duration"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "A momentum optimizer is a variant of stochastic gradient descent that incorporates a momentum term to accelerate convergence and improve stability during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The Jasper model was trained for 400 epochs on a combined WSJ dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "WSJ0 (LDC93S6A) and WSJ1 (LDC94S13A) are speech datasets from the WSJ corpus used in speech recognition evaluations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The combined WSJ dataset used for training contains 80 hours of speech data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Hub5'00 is a widely used academic benchmark for evaluating speech recognition systems, based on the Switchboard and Callhome corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The Hub5'00 evaluation is divided into two subsets: Switchboard (SWB) and Callhome (CHM).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The 2000-hour Fisher+Switchboard training data includes audio and linguistic data used for training both acoustic and language models in the Jasper model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Jasper DR 10x5 is a deep neural architecture variant of the Jasper model designed for end-to-end speech recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Jasper DR 10x5 was trained using stochastic gradient descent with momentum for 50 epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The Jasper architecture achieved state-of-the-art (SOTA) results on the LibriSpeech benchmark.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "The Jasper model achieved good results on the Switchboard subset of Hub5'00 but requires improvement on the Callhome subset in terms of word error rate (WER).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "A conversational English corpus is a collection of spoken English data from real-life conversations, such as in the Hub5'00 dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "A well-designed residual topology is essential for the Jasper architecture to achieve deep and scalable performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Effective regularization techniques are required in the Jasper architecture to prevent overfitting and improve generalization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "A strong optimizer is necessary for the Jasper architecture to achieve optimal training performance and convergence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The Jasper architecture is designed to scale to deeper models and larger datasets, with potential for future improvements.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "End-to-end speech recognition refers to a system that directly maps raw audio to text without intermediate steps like phoneme or feature extraction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The Jasper architecture achieved state-of-the-art results on LibriSpeech and competitive results on other benchmarks like Hub5'00.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The Jasper architecture is highly efficient for both training and inference processes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The Jasper architecture serves as a strong baseline for further research into advanced regularization, data augmentation, and optimization strategies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1D-convolution layers",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "2000hr Fisher+Switchboard",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "2000hr Fisher+Switchboard (F+S)",
+      "Result",
+      "s17"
+    ],
+    [
+      "20ms windows",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "400 epochs",
+      "Property",
+      "s78"
+    ],
+    [
+      "400 epochs",
+      "Training Duration",
+      "s76"
+    ],
+    [
+      "80 hours",
+      "Property",
+      "s80"
+    ],
+    [
+      "BIBREF11",
+      "Definition",
+      "s55"
+    ],
+    [
+      "BIBREF20",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "BIBREF21",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "BIBREF22",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "BIBREF23",
+      "Definition",
+      "s54"
+    ],
+    [
+      "Batch norm",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "Connectionist Temporal Classification",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "Connectionist Temporal Classification (CTC) loss",
+      "Property",
+      "s5"
+    ],
+    [
+      "Conventional",
+      "Introduction",
+      "e1"
+    ],
+    [
+      "Dense Residual",
+      "Decision",
+      "s49"
+    ],
+    [
+      "Dense Residual",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "Dense Residual",
+      "Property",
+      "s47"
+    ],
+    [
+      "Dense Residual (DR)",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "Dense Residual (DR) connections",
+      "Definition",
+      "s11"
+    ],
+    [
+      "Dense Residual and DenseRNet",
+      "Result",
+      "s48"
+    ],
+    [
+      "DenseNet",
+      "Comparison",
+      "s26"
+    ],
+    [
+      "DenseNet",
+      "Property",
+      "s45"
+    ],
+    [
+      "DenseNet BIBREF15",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "DenseRNet",
+      "Property",
+      "s46"
+    ],
+    [
+      "DenseRNet BIBREF16",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "Figure FIGREF20",
+      "Evidence",
+      "s59"
+    ],
+    [
+      "Fisher+Switchboard training data",
+      "Definition",
+      "s83"
+    ],
+    [
+      "Gated Linear Units",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "Hub5'00 evaluation",
+      "Definition",
+      "s81"
+    ],
+    [
+      "Hub5'00 results",
+      "Result",
+      "s87"
+    ],
+    [
+      "Jasper",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "Jasper",
+      "Definition",
+      "s20"
+    ],
+    [
+      "Jasper",
+      "Property",
+      "s9"
+    ],
+    [
+      "Jasper 10x3",
+      "Model",
+      "s67"
+    ],
+    [
+      "Jasper 5x3",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "Jasper DR 10x5",
+      "Definition",
+      "s84"
+    ],
+    [
+      "Jasper DR 10x5",
+      "Model",
+      "s66"
+    ],
+    [
+      "Jasper Dense Residual (DR)",
+      "Definition",
+      "s25"
+    ],
+    [
+      "Jasper architecture",
+      "Definition",
+      "s8"
+    ],
+    [
+      "Jasper model size",
+      "Property",
+      "s12"
+    ],
+    [
+      "Jasper10x4",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "Jasper10x4",
+      "Property",
+      "s34"
+    ],
+    [
+      "Jasper5x3",
+      "Experiment",
+      "s30"
+    ],
+    [
+      "Laurent et al. BIBREF19",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "Layer norm",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "LibriSpeech",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "LibriSpeech",
+      "Dataset",
+      "s73"
+    ],
+    [
+      "LibriSpeech",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "LibriSpeech",
+      "Result",
+      "s86"
+    ],
+    [
+      "LibriSpeech test-clean",
+      "Result",
+      "s15"
+    ],
+    [
+      "Liptchinsky",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "Liptchinsky et al.",
+      "Result",
+      "s7"
+    ],
+    [
+      "N-gram LMs",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "NVIDIA DGX-1",
+      "Hardware",
+      "s70"
+    ],
+    [
+      "NovoGrad",
+      "Definition",
+      "s60"
+    ],
+    [
+      "OpenSeq2Seq",
+      "Software",
+      "s71"
+    ],
+    [
+      "ReLU",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "ReLU",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "ReLU and batch normalization",
+      "Result",
+      "s10"
+    ],
+    [
+      "SGD with momentum",
+      "Property",
+      "s85"
+    ],
+    [
+      "SOTA results",
+      "Result",
+      "s94"
+    ],
+    [
+      "Stochastic Gradient Descent (SGD) with momentum",
+      "Alternative",
+      "s61"
+    ],
+    [
+      "Switchboard (SWB) and Callhome (CHM)",
+      "Property",
+      "s82"
+    ],
+    [
+      "Transformer-XL",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "Transformer-XL LM",
+      "Process",
+      "s57"
+    ],
+    [
+      "Transformer-XL language model",
+      "Relationship",
+      "s14"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e3"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e5"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e6"
+    ],
+    [
+      "WER",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "WER",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "WER on dev-clean LibriSpeech",
+      "Result",
+      "s64"
+    ],
+    [
+      "WSJ0 and WSJ1 datasets",
+      "Definition",
+      "s79"
+    ],
+    [
+      "Wall Street Journal (WSJ)",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "Wall Street Journal (WSJ)",
+      "Dataset",
+      "s74"
+    ],
+    [
+      "Wall Street Journal (WSJ)",
+      "Result",
+      "s16"
+    ],
+    [
+      "acoustic and word-level N-gram language models",
+      "Property",
+      "s56"
+    ],
+    [
+      "acoustic model",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "activation functions",
+      "Property",
+      "s28"
+    ],
+    [
+      "addition",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "automatic speech recognition",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "automatic speech recognition (ASR) systems",
+      "Definition",
+      "s1"
+    ],
+    [
+      "baseline approach",
+      "Conclusion",
+      "s96"
+    ],
+    [
+      "batch norm with ReLU",
+      "Result",
+      "s33"
+    ],
+    [
+      "batch norm with ReLU",
+      "Result",
+      "s35"
+    ],
+    [
+      "batch normalization",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "batching",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "channels",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "concatenation",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "conversational English corpus",
+      "Definition",
+      "s88"
+    ],
+    [
+      "convolution operation",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "convolutional neural networks",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "decoding",
+      "Method",
+      "s52"
+    ],
+    [
+      "dropout",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "dropout and weight decay",
+      "Regularization",
+      "s75"
+    ],
+    [
+      "effective regularization",
+      "Property",
+      "s90"
+    ],
+    [
+      "efficient training and inference",
+      "Property",
+      "s95"
+    ],
+    [
+      "end-to-end (E2E) systems",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "end-to-end (E2E) systems",
+      "Definition",
+      "s3"
+    ],
+    [
+      "end-to-end speech recognition",
+      "Definition",
+      "s93"
+    ],
+    [
+      "exploding activations",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "fused sub-block operation",
+      "Result",
+      "s24"
+    ],
+    [
+      "gated units",
+      "Property",
+      "s29"
+    ],
+    [
+      "greedy decoding",
+      "Result",
+      "s18"
+    ],
+    [
+      "hidden Markov models",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "hybrid systems",
+      "Definition",
+      "s2"
+    ],
+    [
+      "language model",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "language model",
+      "Usage",
+      "s51"
+    ],
+    [
+      "language model (LM)",
+      "Definition",
+      "s50"
+    ],
+    [
+      "layer norm",
+      "Problem",
+      "s37"
+    ],
+    [
+      "layer norm with GAU",
+      "Result",
+      "s31"
+    ],
+    [
+      "layer norm with ReLU",
+      "Result",
+      "s32"
+    ],
+    [
+      "masking before convolution and batch norm",
+      "Result",
+      "s42"
+    ],
+    [
+      "masking in batch norm",
+      "Method",
+      "s41"
+    ],
+    [
+      "masking prior to convolution",
+      "Method",
+      "s40"
+    ],
+    [
+      "mean and variance",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "mean and variance calculation",
+      "Method",
+      "s39"
+    ],
+    [
+      "mel-filterbank features",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "mel-filterbank features",
+      "Definition",
+      "s19"
+    ],
+    [
+      "memory consumption",
+      "Property",
+      "s62"
+    ],
+    [
+      "momentum optimizer",
+      "Definition",
+      "s77"
+    ],
+    [
+      "neural LMs",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "neural networks",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "normalization methods",
+      "Property",
+      "s27"
+    ],
+    [
+      "numerical stability",
+      "Property",
+      "s63"
+    ],
+    [
+      "padded values",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "padding in batching",
+      "Definition",
+      "s36"
+    ],
+    [
+      "perplexity",
+      "Result",
+      "s58"
+    ],
+    [
+      "pronunciation model",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "random speed perturbation",
+      "Training Technique",
+      "s69"
+    ],
+    [
+      "relative improvement",
+      "Result",
+      "s65"
+    ],
+    [
+      "residual connection",
+      "Definition",
+      "s22"
+    ],
+    [
+      "residual connections",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "residual connections",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "residual connections",
+      "Property",
+      "s13"
+    ],
+    [
+      "residual connections",
+      "Requirement",
+      "s44"
+    ],
+    [
+      "residual topology",
+      "Property",
+      "s89"
+    ],
+    [
+      "scalability",
+      "Conclusion",
+      "s92"
+    ],
+    [
+      "sequence mask",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "sequence mask",
+      "Property",
+      "s38"
+    ],
+    [
+      "source code, training configurations, and pretrained models",
+      "Availability",
+      "s72"
+    ],
+    [
+      "speed perturbation",
+      "Training Technique",
+      "s68"
+    ],
+    [
+      "strong optimizer",
+      "Property",
+      "s91"
+    ],
+    [
+      "sub-block",
+      "Property",
+      "s21"
+    ],
+    [
+      "sub-block architecture",
+      "Purpose",
+      "s23"
+    ],
+    [
+      "time dimension",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "time-delay neural networks",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "time-delay neural networks (TDNN)",
+      "Property",
+      "s4"
+    ],
+    [
+      "traditional N-gram LMs",
+      "Improvement",
+      "s53"
+    ],
+    [
+      "wav2letter",
+      "ASR Model Architecture",
+      "e2"
+    ],
+    [
+      "wav2letter",
+      "Definition",
+      "s6"
+    ],
+    [
+      "weight norm",
+      "Model Architecture Decisions",
+      "e4"
+    ],
+    [
+      "weight norm",
+      "Problem",
+      "s43"
+    ],
+    [
+      "weight normalization",
+      "ASR Model Architecture",
+      "e2"
+    ]
+  ]
+}

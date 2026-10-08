@@ -1,0 +1,2673 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 7,
+    "n_semantic": 77,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "CoNLL": {
+      "tag_set": [
+        "Task 2 Approach"
+      ]
+    },
+    "Task 2": {
+      "tag_set": [
+        "Morphological Reinflection Task",
+        "Multi-task Learning in Morphology",
+        "Task 2 Approach"
+      ]
+    },
+    "approach": {
+      "tag_set": [
+        "Task 2 Approach"
+      ]
+    },
+    "results": {
+      "tag_set": [
+        "Task 2 Approach"
+      ]
+    },
+    "SIGMORPHON 2018": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "universal morphological reinflection": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "CoNLL-SIGMORPHON 2018": {
+      "tag_set": [
+        "Morphological Reinflection Task",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "Track 1": {
+      "tag_set": [
+        "Definition",
+        "MSD Tag Training",
+        "Model Performance Analysis",
+        "Morphological Reinflection Task",
+        "Property",
+        "Result"
+      ]
+    },
+    "Track 2": {
+      "tag_set": [
+        "Definition",
+        "MSD Tag Training",
+        "Model Performance Analysis",
+        "Morphological Reinflection Task",
+        "Property"
+      ]
+    },
+    "word forms": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "lemmas": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "morphosyntactic descriptions (MSD)": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "seq2seq model with attention": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "baseline system": {
+      "tag_set": [
+        "Definition",
+        "Morphological Reinflection Task",
+        "Process",
+        "Property"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "MSD Tag Training",
+        "Model Architecture",
+        "Model Performance Analysis",
+        "Morphological Reinflection Task",
+        "Property"
+      ]
+    },
+    "multi-task learning": {
+      "tag_set": [
+        "Definition",
+        "Morphological Reinflection Task",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "MSD prediction": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Morphological Reinflection Task",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "multilingual training": {
+      "tag_set": [
+        "Definition",
+        "MSD Tag Training",
+        "Model Performance Analysis",
+        "Morphological Reinflection Task",
+        "Process",
+        "Result"
+      ]
+    },
+    "monolingual finetuning": {
+      "tag_set": [
+        "MSD Tag Training",
+        "Model Performance Analysis",
+        "Morphological Reinflection Task",
+        "Process"
+      ]
+    },
+    "70K instances": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "1K instances": {
+      "tag_set": [
+        "Morphological Reinflection Task"
+      ]
+    },
+    "high-resource datasets": {
+      "tag_set": [
+        "Morphological Reinflection Task",
+        "Property"
+      ]
+    },
+    "low-resource datasets": {
+      "tag_set": [
+        "Morphological Reinflection Task",
+        "Property"
+      ]
+    },
+    "49.87 accuracy": {
+      "tag_set": [
+        "Morphological Reinflection Task",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "encoder-decoder": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "character sequences": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "lemma": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Performance Analysis"
+      ]
+    },
+    "word form": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "MSD": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "embedding size": {
+      "tag_set": [
+        "Model Architecture",
+        "Property"
+      ]
+    },
+    "attention mechanism": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "20 epochs": {
+      "tag_set": [
+        "MSD Tag Training",
+        "Model Architecture"
+      ]
+    },
+    "subsample rate 0.3": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "dropout rate 0.3": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "Adam optimiser": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "learning rate 0.001": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "development data": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Performance Analysis"
+      ]
+    },
+    "FIGREF4": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "forward LSTM": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "backwards LSTM": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "auxiliary objective": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture",
+        "Model Performance Analysis"
+      ]
+    },
+    "morpho-syntactic cues": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "MSD tag predictions": {
+      "tag_set": [
+        "Definition",
+        "MSD Tag Training"
+      ]
+    },
+    "context encoding": {
+      "tag_set": [
+        "MSD Tag Training",
+        "Result"
+      ]
+    },
+    "PRO;NOM;SG;1": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "UID15": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "main loss": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "auxiliary loss": {
+      "tag_set": [
+        "MSD Tag Training",
+        "Property"
+      ]
+    },
+    "random groupings": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "two to three languages": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "minibatch": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "source language": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "abstract morpho-syntactic features": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "5 epochs": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "learning rate": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "0.0001": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "baseline": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "90:10 split": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "early stopping": {
+      "tag_set": [
+        "MSD Tag Training",
+        "Process"
+      ]
+    },
+    "50 epochs": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "50 random combinations": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "ensemble": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "majority vote": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "Table TABREF17": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "high resource setting": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "low resource": {
+      "tag_set": [
+        "MSD Tag Training"
+      ]
+    },
+    "multilingual multi-tasking": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "low resource setting": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Observation"
+      ]
+    },
+    "50 models": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "FIGREF23": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "TABREF27": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "11.15%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "7.96%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "2.72%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "de": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "en": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "es": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "sv": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "fr": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "en-sv": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "de-sv": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "monolingual training": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "multi-tasking approach": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Result"
+      ]
+    },
+    "ru": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "fi": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "18.30%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "error analysis": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis"
+      ]
+    },
+    "morpho-syntactic conditioning": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "plan vs plans": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "bomb for job": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "fify for fixing": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "gnderrate for understand": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "inflected form": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "data augmentation": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Suggestion"
+      ]
+    },
+    "autoencoding": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "66.59%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "65.35%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "brown bars": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "pink bars": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "blue bars": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "main task": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "shared decoder": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "multi-task training": {
+      "tag_set": [
+        "Effect",
+        "Model Performance Analysis"
+      ]
+    },
+    "auxiliary task": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "multi-lingual learning": {
+      "tag_set": [
+        "Definition",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "morphological reinflection": {
+      "tag_set": [
+        "Application",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "paradigm completion": {
+      "tag_set": [
+        "Application",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "dependency parsing": {
+      "tag_set": [
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "character-based encoder-decoder": {
+      "tag_set": [
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "wide context window": {
+      "tag_set": [
+        "Feature",
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "parameter sharing": {
+      "tag_set": [
+        "Multi-task Learning in Morphology",
+        "Result"
+      ]
+    },
+    "closely related languages": {
+      "tag_set": [
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "NVIDIA Corporation": {
+      "tag_set": [
+        "Multi-task Learning in Morphology",
+        "Support"
+      ]
+    },
+    "Titan Xp GPU": {
+      "tag_set": [
+        "Multi-task Learning in Morphology"
+      ]
+    },
+    "CoNLL\u2013SIGMORPHON 2018 shared task": {
+      "tag_set": [
+        "Definition",
+        "Event"
+      ]
+    },
+    "morphological (re)inflection from context": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "monolingual fine-tuning": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "multi-task learning with multilingual training": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "overall accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "system": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "LSTM layers": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training schedule": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dropout": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "optimiser": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "evaluation": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "our system": {
+      "tag_set": [
+        "Definition",
+        "Process"
+      ]
+    },
+    "language grouping": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "training data split": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training combinations": {
+      "tag_set": [
+        "Quantity"
+      ]
+    },
+    "ensemble prediction": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "test results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "LSTM encoding": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "auxiliary objective (MSD prediction)": {
+      "tag_set": [
+        "Effect"
+      ]
+    },
+    "en\u2013sv language pairing": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "fr\u2013es and de\u2013sv language pairings": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "low-resource setting": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "es and fi": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "overall improvement": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "incorrect interpretation": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "nonsensical predictions": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "lemma copying": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "MSD prediction accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "correlation with main task": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "French": {
+      "tag_set": [
+        "Exception"
+      ]
+    },
+    "Russian": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "character-based encoder-decoder model": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "auxiliary task of MSD prediction": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "multilingual approach": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "ablation study": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "variance in results": {
+      "tag_set": [
+        "Issue"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nThis paper describes our approach and results for Task 2 of the CoNLL",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Task 2 Approach"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "\u2013SIGMORPHON 2018 shared task on universal morphological reinflection BIBREF0 . The task is to generate an inflected word form given its lemma and the context in which it occurs.\nMorphological (re)inflection from context is of particular relevance to the field of computational linguistics: it is compelling to estimate how well a machine-learned system can capture the morphosyntactic properties of a word given its context, and map those properties to the correct surface form for a given lemma.\nThere are two tracks of Task 2 of CoNLL\u2013SIGMORPHON 2018: in Track 1 the context is given in terms of word forms, lemmas and morphosyntactic descriptions (MSD); in Track 2 only word forms are available. See Table TABREF1 for an example. Task 2 is additionally split in three settings based on data size: high, medium and low, with high-resource datasets consisting of up to 70K instances per language, and low-resource datasets consisting of only about 1K instances.\nThe baseline provided by the shared task organisers is a seq2seq model with attention (similar to the winning system for reinflection in CoNLL\u2013SIGMORPHON 2016, BIBREF1 ), which receives information about context through an embedding of the two words immediately adjacent to the target form. We use this baseline implementation as a starting point and achieve the best overall accuracy of 49.87 on Task 2 by introducing three augmentations to the provided baseline system: (1) We use an LSTM to encode the entire available context; (2) We employ a multi-task learning approach with the auxiliary objective of MSD prediction; and (3) We train the auxiliary component in a multilingual fashion, over sets of two to three languages.\nIn analysing the performance of our system, we found that encoding the full context improves performance considerably for all languages: 11.15 percentage points on average, although it also highly increases the variance in results. Multi-task learning, paired with multilingual training and subsequent monolingual finetuning, scored highest for five out of seven languages, improving accuracy by another 9.86% on average.\nSystem Description\nOur system is a modification of the provided CoNLL\u2013SIGMORPHON 2018 baseline system, so we begin this section with a reiteration of the baseline system architecture, followed by a description of the three augmentations we introduce.\nBaseline\nThe CoNLL\u2013SIGMORPHON 2018 baseline",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Morphological Reinflection Task"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "is described as follows: The system is an encoder-decoder on character sequences. It takes a lemma as input and generates a word form. The process is conditioned on the context of the lemma [...] The baseline treats the lemma, word form and MSD of the previous and following word as context in track 1. In track 2, the baseline only considers the word forms of the previous and next word. [...] The baseline system concatenates embeddings for context word forms, lemmas and MSDs into a context vector. The baseline then computes character embeddings for each character in the input lemma. Each of these is concatenated with a copy of the context vector. The resulting sequence of vectors is encoded using an LSTM encoder. Subsequently, an LSTM decoder generates the characters in the output word form using encoder states and an attention mechanism. To that we add a few details regarding model size and training schedule: the number of LSTM layers is one; embedding size, LSTM layer size and attention layer size is 100; models are trained for 20 epochs; on every epoch, training data is subsampled at a rate of 0.3; LSTM dropout is applied at a rate 0.3; context word forms are randomly dropped at a rate of 0.1; the Adam optimiser is used, with a default learning rate of 0.001; and trained models are evaluated on the development data (the data for the shared task comes already split in train and dev sets). Our system Here we compare and contrast our system to the baseline system. A diagram of our system is shown in Figure FIGREF4 . The idea behind this modification is to provide the encoder with access to all morpho-syntactic cues present in the sentence. In contrast to the baseline, which only encodes the immediately adjacent context of a target word, we encode the entire context. All context word forms, lemmas, and MSD tags (in Track 1) are embedded in their respective high-dimensional spaces as before, and their embeddings are concatenated. However, we now reduce the entire past context to a fixed-size vector by encoding it with a forward LSTM, and we similarly represent the future context by encoding it with a backwards LSTM. We introduce an auxiliary objective that is meant to increase the morpho-syntactic awareness of the encoder and to regularise the learning process\u2014the task is to predict the MSD tag of the target",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "form. MSD tag predictions are conditioned on the context encoding, as described in UID15 . Tags are generated with an LSTM one component at a time, e.g. the tag PRO;NOM;SG;1 is predicted as a sequence of four components, INLINEFORM0 PRO, NOM, SG, 1 INLINEFORM1 . For every training instance, we backpropagate the sum of the main loss and the auxiliary loss without any weighting. As MSD tags are only available in Track 1, this augmentation only applies to this track. The parameters of the entire MSD (auxiliary-task) decoder are shared across languages. Since a grouping of the languages based on language family would have left several languages in single-member groups (e.g. Russian is the sole representative of the Slavic family), we experiment with random groupings of two to three languages. Multilingual training is performed by randomly alternating between languages for every new minibatch. We do not pass any information to the auxiliary decoder as to the source language of the signal it is receiving, as we assume abstract morpho-syntactic features are shared across languages. After 20 epochs of multilingual training, we perform 5 epochs of monolingual finetuning for each language. For this phase, we reduce the learning rate to a tenth of the original learning rate, i.e. 0.0001, to ensure that the models are indeed being finetuned rather than retrained. We keep all hyperparameters the same as in the baseline. Training data is split 90:10 for training and validation. We train our models for 50 epochs, adding early stopping with a tolerance of five epochs of no improvement in the validation loss. We do not subsample from the training data. We train models for 50 different random combinations of two to three languages in Track 1, and 50 monolingual models for each language in Track 2. Instead of picking the single model that performs best on the development set and thus risking to select a model that highly overfits that data, we use an ensemble of the five best models, and make the final prediction for a given target form with a majority vote over the five predictions. Results and Discussion Test results are listed in Table TABREF17 . Our system outperforms the baseline for all settings and languages in Track 1 and for almost all in Track 2\u2014only in the high resource setting is our system not definitively superior to the baseline. Interestingly, our results in the low resource",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "MSD Tag Training"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "setting are often higher for Track 2 than for Track 1, even though contextual information is less explicit in the Track 2 data and the multilingual multi-tasking approach does not apply to this track. We interpret this finding as an indicator that a simpler model with fewer parameters works better in a setting of limited training data. Nevertheless, we focus on the low resource setting in the analysis below due to time limitations. As our Track 1 results are still substantially higher than the baseline results, we consider this analysis valid and insightful. Ablation Study We analyse the incremental effect of the different features in our system, focusing on the low-resource setting in Track 1 and using development data. Encoding the entire context with an LSTM highly increases the variance of the observed results. So we trained fifty models for each language and each architecture. Figure FIGREF23 visualises the means and standard deviations over the trained models. In addition, we visualise the average accuracy for the five best models for each language and architecture, as these are the models we use in the final ensemble prediction. Below we refer to these numbers only. The results indicate that encoding the full context with an LSTM highly enhances the performance of the model, by 11.15% on average. This observation explains the high results we obtain also for Track 2. Adding the auxiliary objective of MSD prediction has a variable effect: for four languages (de, en, es, and sv) the effect is positive, while for the rest it is negative. We consider this to be an issue of insufficient data for the training of the auxiliary component in the low resource setting we are working with. We indeed see results improving drastically with the introduction of multilingual training, with multilingual results being 7.96% higher than monolingual ones on average. We studied the five best models for each language as emerging from the multilingual training (listed in Table TABREF27 ) and found no strong linguistic patterns. The en\u2013sv pairing seems to yield good models for these languages, which could be explained in terms of their common language family and similar morphology. The other natural pairings, however, fr\u2013es, and de\u2013sv, are not so frequent among the best models for these pairs of languages. Finally, monolingual finetuning improves accuracy across the board, as one would expect, by 2.72% on average. The final observation to be made",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "based on this breakdown of results is that the multi-tasking approach paired with multilingual training and subsequent monolingual finetuning outperforms the other architectures for five out of seven languages: de, en, fr, ru and sv. For the other two languages in the dataset, es and fi, the difference between this approach and the approach that emerged as best for them is less than 1%. The overall improvement of the multilingual multi-tasking approach over the baseline is 18.30%. Error analysis Here we study the errors produced by our system on the English test set to better understand the remaining shortcomings of the approach. A small portion of the wrong predictions point to an incorrect interpretation of the morpho-syntactic conditioning of the context, e.g. the system predicted plan instead of plans in the context Our _ include raising private capital. The majority of wrong predictions, however, are nonsensical, like bomb for job, fify for fixing, and gnderrate for understand. This observation suggests that generally the system did not learn to copy the characters of lemma into inflected form, which is all it needs to do in a large number of cases. This issue could be alleviated with simple data augmentation techniques that encourage autoencoding BIBREF2 . MSD prediction Figure FIGREF32 summarises the average MSD-prediction accuracy for the multi-tasking experiments discussed above. Accuracy here is generally higher than on the main task, with the multilingual finetuned setup for Spanish and the monolingual setup for French scoring best: 66.59% and 65.35%, respectively. This observation illustrates the added difficulty of generating the correct surface form even when the morphosyntactic description has been identified correctly. We observe some correlation between these numbers and accuracy on the main task: for de, en, ru and sv, the brown, pink and blue bars here pattern in the same way as the corresponding INLINEFORM0 's in Figure FIGREF23 . One notable exception to this pattern is fr where inflection gains a lot from multilingual training, while MSD prediction suffers greatly. Notice that the magnitude of change is not always the same, however, even when the general direction matches: for ru, for example, multilingual training benefits inflection much more than in benefits MSD prediction, even though the MSD decoder is the only component that is actually shared between languages. This observation illustrates the two-fold effect of multi-task training: an auxiliary task can either inform the main task through the parameters the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "two tasks share, or it can help the main task learning through its regularising effect. Related Work Our system is inspired by previous work on multi-task learning and multi-lingual learning, mainly building on two intuitions: (1) jointly learning related tasks tends to be beneficial BIBREF3 , BIBREF4 , BIBREF5 , BIBREF6 , BIBREF7 ; and (2) jointly learning related languages in an MTL-inspired framework tends to be beneficial BIBREF8 , BIBREF9 , BIBREF10 . In the context of computational morphology, multi-lingual approaches have previously been employed for morphological reinflection BIBREF2 and for paradigm completion BIBREF11 . In both of these cases, however, the available datasets covered more languages, 40 and 21, respectively, which allowed for linguistically-motivated language groupings and for parameter sharing directly on the level of characters. BIBREF10 explore parameter sharing between related languages for dependency parsing, and find that sharing is more beneficial in the case of closely related languages. Conclusions In this paper we described our system for the CoNLL\u2013SIGMORPHON 2018 shared task on Universal Morphological Reinflection, Task 2, which achieved the best performance out of all systems submitted, an overall accuracy of 49.87. We showed in an ablation study that this is due to three core innovations, which extend a character-based encoder-decoder model: (1) a wide context window, encoding the entire available context; (2) multi-task learning with the auxiliary task of MSD prediction, which acts as a regulariser; (3) a multilingual approach, exploiting information across languages. In future work we aim to gain better understanding of the increase in variance of the results introduced by each of our modifications and the reasons for the varying effect of multi-task learning for different languages. Acknowledgements We gratefully acknowledge the support of the NVIDIA Corporation with the donation of the Titan Xp GPU used for this research.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multi-task Learning in Morphology"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "The CoNLL\u2013SIGMORPHON 2018 shared task on universal morphological reinflection involves generating an inflected word form given its lemma and contextual information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Morphological (re)inflection from context refers to the process of estimating how well a machine-learned system can capture a word's morphosyntactic properties from its context and map them to a correct surface form.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Track 1 of Task 2 provides context in terms of word forms, lemmas, and morphosyntactic descriptions (MSD) for morphological reinflection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Track 2 of Task 2 provides only word forms as context for morphological reinflection, without lemmas or morphosyntactic descriptions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "High-resource datasets in Task 2 contain up to 70K instances per language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Low-resource datasets in Task 2 contain approximately 1K instances per language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "The baseline system for Task 2 is a seq2seq model with attention that uses embeddings of the two words adjacent to the target form to receive contextual information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "An LSTM is used to encode the entire available context in the proposed system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Multi-task learning is employed in the system with an auxiliary objective of predicting morphosyntactic descriptions (MSD).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The auxiliary component of the system is trained in a multilingual fashion across sets of two to three languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "After multilingual training, the auxiliary component is fine-tuned monolingually for each individual language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Encoding the full context improves system performance by an average of 11.15 percentage points across all languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Multi-task learning combined with multilingual training and monolingual fine-tuning improves accuracy by an average of 9.86% across five out of seven languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The proposed system achieves the best overall accuracy of 49.87 on Task 2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The system is an encoder-decoder model that operates on character sequences, taking a lemma as input and generating a word form.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The baseline system uses the lemma, word form, and morpho-syntactic decomposition (MSD) of the previous and following words as context in Track 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "In Track 2, the baseline system only considers the word forms of the previous and next words as context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The baseline system concatenates embeddings for context word forms, lemmas, and MSDs into a context vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The baseline system computes character embeddings for each character in the input lemma and concatenates each with a copy of the context vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The resulting sequence of vectors is encoded using an LSTM encoder, and an LSTM decoder generates the output word form using encoder states and an attention mechanism.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The baseline system uses one LSTM layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The embedding size, LSTM layer size, and attention layer size in the baseline system is 100.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The models are trained for 20 epochs with training data subsampled at a rate of 0.3 on each epoch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "LSTM dropout is applied at a rate of 0.3, and context word forms are randomly dropped at a rate of 0.1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The Adam optimiser is used with a default learning rate of 0.001.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Trained models are evaluated on the development data, which is already split into train and dev sets for the shared task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Our system modifies the baseline by providing the encoder with access to all morpho-syntactic cues in the sentence, not just immediate context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "All context word forms, lemmas, and MSD tags (in Track 1) are embedded and concatenated, then reduced to a fixed-size vector using a forward LSTM for past context and a backward LSTM for future context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "An auxiliary objective is introduced to increase the morpho-syntactic awareness of the encoder and to regularize the learning process by predicting the MSD tag of the target word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "MSD tag predictions are conditioned on the context encoding and generated sequentially using an LSTM, with each component of the tag (e.g., PRO;NOM;SG;1) predicted one at a time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The auxiliary loss is added to the main loss during backpropagation without any weighting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The augmentation of auxiliary-task training applies only to Track 1, where MSD tags are available.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Multilingual training is performed by randomly alternating between languages in each minibatch, with no information provided to the auxiliary decoder about the source language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Languages are randomly grouped into sets of two to three, avoiding family-based groupings due to the presence of single-member language families.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "After 20 epochs of multilingual training, each language undergoes 5 epochs of monolingual finetuning with a learning rate reduced to 0.0001.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "Training data is split 90:10 for training and validation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Training includes early stopping with a tolerance of five epochs of no improvement in validation loss.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "50 different random combinations of two to three languages are trained in Track 1, and 50 monolingual models are trained for each language in Track 2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Quantity"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Final predictions are made via majority voting over the five best-performing models in the ensemble.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The system outperforms the baseline for all settings and languages in Track 1 and for almost all in Track 2, except in the high-resource setting where it is not definitively superior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The system shows strong performance in the low-resource setting, indicating robustness in data-scarce conditions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Setting scores for Track 2 are often higher than for Track 1 despite less explicit contextual information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Track 1 results are substantially higher than baseline results, indicating model effectiveness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Encoding the full context with an LSTM increases model performance by an average of 11.15%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Adding the auxiliary objective of MSD prediction has a positive effect for four languages (de, en, es, sv) and a negative effect for the others.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Multilingual training improves performance by an average of 7.96% compared to monolingual training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The en\u2013sv pairing produces good models, which may be due to their shared language family and similar morphology.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The fr\u2013es and de\u2013sv language pairings do not frequently appear among the best-performing models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Monolingual fine-tuning improves accuracy by an average of 2.72% across all languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The performance gains from multilingual training are attributed to the limited training data in the low-resource setting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The multi-tasking approach paired with multilingual training and subsequent monolingual fine-tuning outperforms other architectures for five out of seven languages: de, en, fr, ru, and sv.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "For the languages es and fi, the performance difference between the multi-tasking approach and the best-performing alternative approach is less than 1%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The overall improvement of the multilingual multi-tasking approach over the baseline is 18.30%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Error analysis of the system on the English test set reveals that a small portion of errors stem from incorrect interpretation of morpho-syntactic conditioning, while the majority are nonsensical predictions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The system incorrectly predicted 'plan' instead of 'plans' in the context 'Our _ include raising private capital', indicating a misinterpretation of morpho-syntactic conditioning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Examples of nonsensical predictions include 'bomb' for 'job', 'fify' for 'fixing', and 'gnderrate' for 'understand'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The system generally did not learn to copy the characters of the lemma into inflected forms, which is required in many cases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Simple data augmentation techniques that encourage autoencoding could alleviate the issue of the system failing to copy lemmas into inflected forms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The multilingual fine-tuned setup for Spanish and the monolingual setup for French achieve the highest MSD prediction accuracy at 66.59% and 65.35%, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "There is a general correlation between MSD prediction accuracy and accuracy on the main task for de, en, ru, and sv.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "In French, multilingual training improves inflection significantly, but MSD prediction suffers greatly, which is a notable exception to the general pattern.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Exception"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "In Russian, multilingual training benefits inflection much more than MSD prediction, despite the MSD decoder being the only shared component across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "Multi-task training has a two-fold effect: it can either inform the main task through parameter sharing or negatively impact it depending on the language and task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Multi-task learning involves jointly learning related tasks, which tends to be beneficial due to shared representations and regularization effects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Multi-lingual learning involves jointly learning related languages within a framework inspired by multi-task learning, and has been shown to be beneficial, especially for closely related languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Multi-lingual approaches have been previously used for morphological reinflection in computational morphology.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Multi-lingual approaches have been previously used for paradigm completion in computational morphology.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Parameter sharing between related languages is more beneficial in the case of closely related languages, as demonstrated in dependency parsing studies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The system extends a character-based encoder-decoder model with three core innovations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The system uses a wide context window that encodes the entire available context in the input sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The system includes an auxiliary task of MSD prediction, which acts as a regularizer in multi-task learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The system employs a multilingual approach that exploits information across languages to improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The system was developed for the CoNLL\u2013SIGMORPHON 2018 shared task on Universal Morphological Reinflection, Task 2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Event"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The system achieved an overall accuracy of 49.87 in the CoNLL\u2013SIGMORPHON 2018 shared task, outperforming all other submitted systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "An ablation study showed that the system's performance is due to three core innovations: wide context window, multi-task learning with MSD prediction, and multilingual approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Future work aims to better understand the increase in variance in results introduced by each modification and the varying effectiveness of multi-task learning across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Issue"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The research was supported by the NVIDIA Corporation through the donation of a Titan Xp GPU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Support"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.0001",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "11.15%",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "18.30%",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "1K instances",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "2.72%",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "20 epochs",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "20 epochs",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "49.87 accuracy",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "49.87 accuracy",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "5 epochs",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "50 epochs",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "50 models",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "50 random combinations",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "65.35%",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "66.59%",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "7.96%",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "70K instances",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "90:10 split",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "Adam optimiser",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "CoNLL",
+      "Task 2 Approach",
+      "e1"
+    ],
+    [
+      "CoNLL-SIGMORPHON 2018",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "CoNLL-SIGMORPHON 2018",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "CoNLL\u2013SIGMORPHON 2018 shared task",
+      "Definition",
+      "s1"
+    ],
+    [
+      "CoNLL\u2013SIGMORPHON 2018 shared task",
+      "Event",
+      "s73"
+    ],
+    [
+      "FIGREF23",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "FIGREF4",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "French",
+      "Exception",
+      "s61"
+    ],
+    [
+      "LSTM",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "LSTM",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "LSTM",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "LSTM",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "LSTM",
+      "Property",
+      "s8"
+    ],
+    [
+      "LSTM encoding",
+      "Result",
+      "s44"
+    ],
+    [
+      "LSTM layers",
+      "Property",
+      "s21"
+    ],
+    [
+      "MSD",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "MSD prediction",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "MSD prediction",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "MSD prediction",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "MSD prediction",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "MSD prediction accuracy",
+      "Result",
+      "s59"
+    ],
+    [
+      "MSD tag predictions",
+      "Definition",
+      "s30"
+    ],
+    [
+      "MSD tag predictions",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "NVIDIA Corporation",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "NVIDIA Corporation",
+      "Support",
+      "s77"
+    ],
+    [
+      "PRO;NOM;SG;1",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "Russian",
+      "Observation",
+      "s62"
+    ],
+    [
+      "SIGMORPHON 2018",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "TABREF27",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "Table TABREF17",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "Task 2",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "Task 2",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "Task 2",
+      "Task 2 Approach",
+      "e1"
+    ],
+    [
+      "Titan Xp GPU",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "Track 1",
+      "Definition",
+      "s3"
+    ],
+    [
+      "Track 1",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "Track 1",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "Track 1",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "Track 1",
+      "Property",
+      "s43"
+    ],
+    [
+      "Track 1",
+      "Result",
+      "s32"
+    ],
+    [
+      "Track 2",
+      "Definition",
+      "s4"
+    ],
+    [
+      "Track 2",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "Track 2",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "Track 2",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "Track 2",
+      "Property",
+      "s42"
+    ],
+    [
+      "UID15",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "ablation study",
+      "Method",
+      "s75"
+    ],
+    [
+      "abstract morpho-syntactic features",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "approach",
+      "Task 2 Approach",
+      "e1"
+    ],
+    [
+      "attention mechanism",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "autoencoding",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "auxiliary loss",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "auxiliary loss",
+      "Property",
+      "s31"
+    ],
+    [
+      "auxiliary objective",
+      "Definition",
+      "s29"
+    ],
+    [
+      "auxiliary objective",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "auxiliary objective",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "auxiliary objective (MSD prediction)",
+      "Effect",
+      "s45"
+    ],
+    [
+      "auxiliary task",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "auxiliary task of MSD prediction",
+      "Component",
+      "s71"
+    ],
+    [
+      "backwards LSTM",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "baseline",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "baseline system",
+      "Definition",
+      "s7"
+    ],
+    [
+      "baseline system",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "baseline system",
+      "Process",
+      "s18"
+    ],
+    [
+      "baseline system",
+      "Process",
+      "s19"
+    ],
+    [
+      "baseline system",
+      "Process",
+      "s20"
+    ],
+    [
+      "baseline system",
+      "Property",
+      "s16"
+    ],
+    [
+      "baseline system",
+      "Property",
+      "s17"
+    ],
+    [
+      "blue bars",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "bomb for job",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "brown bars",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "character sequences",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "character-based encoder-decoder",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "character-based encoder-decoder model",
+      "Component",
+      "s69"
+    ],
+    [
+      "closely related languages",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "context encoding",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "context encoding",
+      "Result",
+      "s12"
+    ],
+    [
+      "correlation with main task",
+      "Relationship",
+      "s60"
+    ],
+    [
+      "data augmentation",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "data augmentation",
+      "Suggestion",
+      "s58"
+    ],
+    [
+      "de",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "de",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "de-sv",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "dependency parsing",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "development data",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "development data",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "dropout",
+      "Property",
+      "s24"
+    ],
+    [
+      "dropout rate 0.3",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "early stopping",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "early stopping",
+      "Process",
+      "s37"
+    ],
+    [
+      "embedding size",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "embedding size",
+      "Property",
+      "s22"
+    ],
+    [
+      "en",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "en",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "en-sv",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "encoder-decoder",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "ensemble",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "ensemble prediction",
+      "Method",
+      "s39"
+    ],
+    [
+      "en\u2013sv language pairing",
+      "Observation",
+      "s47"
+    ],
+    [
+      "error analysis",
+      "Definition",
+      "s54"
+    ],
+    [
+      "error analysis",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "es",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "es",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "es and fi",
+      "Result",
+      "s52"
+    ],
+    [
+      "evaluation",
+      "Process",
+      "s26"
+    ],
+    [
+      "fi",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "fify for fixing",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "forward LSTM",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "fr",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "fr",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "fr\u2013es and de\u2013sv language pairings",
+      "Observation",
+      "s48"
+    ],
+    [
+      "gnderrate for understand",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "high resource setting",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "high-resource datasets",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "high-resource datasets",
+      "Property",
+      "s5"
+    ],
+    [
+      "incorrect interpretation",
+      "Cause",
+      "s55"
+    ],
+    [
+      "inflected form",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "language grouping",
+      "Method",
+      "s34"
+    ],
+    [
+      "learning rate",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "learning rate 0.001",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "lemma",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "lemma",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "lemma copying",
+      "Property",
+      "s57"
+    ],
+    [
+      "lemmas",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "low resource",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "low resource setting",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "low resource setting",
+      "Observation",
+      "s41"
+    ],
+    [
+      "low-resource datasets",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "low-resource datasets",
+      "Property",
+      "s6"
+    ],
+    [
+      "low-resource setting",
+      "Cause",
+      "s50"
+    ],
+    [
+      "main loss",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "main task",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "majority vote",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "minibatch",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "monolingual fine-tuning",
+      "Definition",
+      "s11"
+    ],
+    [
+      "monolingual fine-tuning",
+      "Result",
+      "s49"
+    ],
+    [
+      "monolingual finetuning",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "monolingual finetuning",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "monolingual finetuning",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "monolingual finetuning",
+      "Process",
+      "s35"
+    ],
+    [
+      "monolingual training",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "morpho-syntactic conditioning",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "morpho-syntactic cues",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "morphological (re)inflection from context",
+      "Definition",
+      "s2"
+    ],
+    [
+      "morphological reinflection",
+      "Application",
+      "s66"
+    ],
+    [
+      "morphological reinflection",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "morphosyntactic descriptions (MSD)",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "multi-lingual learning",
+      "Definition",
+      "s65"
+    ],
+    [
+      "multi-lingual learning",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "multi-task learning",
+      "Definition",
+      "s64"
+    ],
+    [
+      "multi-task learning",
+      "Definition",
+      "s9"
+    ],
+    [
+      "multi-task learning",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "multi-task learning",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "multi-task learning with multilingual training",
+      "Result",
+      "s13"
+    ],
+    [
+      "multi-task training",
+      "Effect",
+      "s63"
+    ],
+    [
+      "multi-task training",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "multi-tasking approach",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "multi-tasking approach",
+      "Result",
+      "s51"
+    ],
+    [
+      "multilingual approach",
+      "Feature",
+      "s72"
+    ],
+    [
+      "multilingual multi-tasking",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "multilingual training",
+      "Definition",
+      "s10"
+    ],
+    [
+      "multilingual training",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "multilingual training",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "multilingual training",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "multilingual training",
+      "Process",
+      "s33"
+    ],
+    [
+      "multilingual training",
+      "Result",
+      "s46"
+    ],
+    [
+      "nonsensical predictions",
+      "Example",
+      "s56"
+    ],
+    [
+      "optimiser",
+      "Property",
+      "s25"
+    ],
+    [
+      "our system",
+      "Definition",
+      "s27"
+    ],
+    [
+      "our system",
+      "Process",
+      "s28"
+    ],
+    [
+      "overall accuracy",
+      "Result",
+      "s14"
+    ],
+    [
+      "overall accuracy",
+      "Result",
+      "s74"
+    ],
+    [
+      "overall improvement",
+      "Property",
+      "s53"
+    ],
+    [
+      "paradigm completion",
+      "Application",
+      "s67"
+    ],
+    [
+      "paradigm completion",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "parameter sharing",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "parameter sharing",
+      "Result",
+      "s68"
+    ],
+    [
+      "pink bars",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "plan vs plans",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "random groupings",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "results",
+      "Task 2 Approach",
+      "e1"
+    ],
+    [
+      "ru",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "seq2seq model with attention",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "shared decoder",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "source language",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "subsample rate 0.3",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "sv",
+      "Model Performance Analysis",
+      "e5"
+    ],
+    [
+      "sv",
+      "Model Performance Analysis",
+      "e6"
+    ],
+    [
+      "system",
+      "Definition",
+      "s15"
+    ],
+    [
+      "test results",
+      "Result",
+      "s40"
+    ],
+    [
+      "training combinations",
+      "Quantity",
+      "s38"
+    ],
+    [
+      "training data split",
+      "Property",
+      "s36"
+    ],
+    [
+      "training schedule",
+      "Property",
+      "s23"
+    ],
+    [
+      "two to three languages",
+      "MSD Tag Training",
+      "e4"
+    ],
+    [
+      "universal morphological reinflection",
+      "Morphological Reinflection Task",
+      "e2"
+    ],
+    [
+      "variance in results",
+      "Issue",
+      "s76"
+    ],
+    [
+      "wide context window",
+      "Feature",
+      "s70"
+    ],
+    [
+      "wide context window",
+      "Multi-task Learning in Morphology",
+      "e7"
+    ],
+    [
+      "word form",
+      "Model Architecture",
+      "e3"
+    ],
+    [
+      "word forms",
+      "Morphological Reinflection Task",
+      "e2"
+    ]
+  ]
+}

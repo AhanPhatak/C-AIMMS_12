@@ -1,0 +1,5359 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 16,
+    "n_semantic": 174,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Introduction": {
+      "tag_set": [
+        "Introduction"
+      ]
+    },
+    "deep neural network": {
+      "tag_set": [
+        "Definition",
+        "Model Averaging and Distillation",
+        "Neural Network Depth"
+      ]
+    },
+    "recognition tasks": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "increasing depth": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "convolutional neural network": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "visual recognition task": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "long short-term memory": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "Decentralized Training",
+        "Neural Network Depth"
+      ]
+    },
+    "recurrent neural network": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "RNNs": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "large vocabulary": {
+      "tag_set": [
+        "Neural Network Depth"
+      ]
+    },
+    "continuous speech recognition": {
+      "tag_set": [
+        "Speech Recognition Task"
+      ]
+    },
+    "LVCSR": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning",
+        "LSTM Training Method",
+        "Model Averaging and Distillation",
+        "Speech Recognition Task"
+      ]
+    },
+    "task": {
+      "tag_set": [
+        "Speech Recognition Task"
+      ]
+    },
+    "LSTM networks": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "Fully-connected feed-forward deep neural network": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "training neural network": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "deep networks": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "linear classifier probe": {
+      "tag_set": [
+        "Definition",
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "neural network dynamics": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "LSTM vs Feed-Forward Networks"
+      ]
+    },
+    "linear classifier": {
+      "tag_set": [
+        "Deep Network Training"
+      ]
+    },
+    "hidden units": {
+      "tag_set": [
+        "Deep Network Training"
+      ]
+    },
+    "intermediate layer": {
+      "tag_set": [
+        "Deep Network Training"
+      ]
+    },
+    "deeper layers": {
+      "tag_set": [
+        "Deep Network Training"
+      ]
+    },
+    "shallower layers": {
+      "tag_set": [
+        "Deep Network Training"
+      ]
+    },
+    "layer-wise pre-training": {
+      "tag_set": [
+        "Deep Network Training",
+        "LSTM Training Method",
+        "Method",
+        "Property"
+      ]
+    },
+    "Xavier initialization": {
+      "tag_set": [
+        "Deep Network Training",
+        "LSTM Training Method",
+        "Property",
+        "sMBR Training Setup"
+      ]
+    },
+    "multi-GPUs": {
+      "tag_set": [
+        "Deep Network Training"
+      ]
+    },
+    "LVCSR training dataset": {
+      "tag_set": [
+        "Deep Network Training",
+        "Trend"
+      ]
+    },
+    "stochastic gradient descent": {
+      "tag_set": [
+        "Deep Network Training"
+      ]
+    },
+    "asynchronous SGD": {
+      "tag_set": [
+        "Deep Network Training",
+        "Method"
+      ]
+    },
+    "synchronous SGD": {
+      "tag_set": [
+        "Deep Network Training",
+        "Method"
+      ]
+    },
+    "parameter server": {
+      "tag_set": [
+        "Decentralized Training",
+        "Deep Network Training"
+      ]
+    },
+    "data parallelism": {
+      "tag_set": [
+        "Deep Network Training",
+        "Definition",
+        "Parallel Training Methods"
+      ]
+    },
+    "model averaging": {
+      "tag_set": [
+        "Deep Network Training",
+        "Multi-GPU Training Methods",
+        "Relationship",
+        "Speech Recognition Training"
+      ]
+    },
+    "blockwise model-updating filter": {
+      "tag_set": [
+        "Multi-GPU Training Methods"
+      ]
+    },
+    "BMUF": {
+      "tag_set": [
+        "Advantage",
+        "Method",
+        "Multi-GPU Training Methods",
+        "Process",
+        "Relationship",
+        "Speech Recognition Training"
+      ]
+    },
+    "mini-batch SGD": {
+      "tag_set": [
+        "Multi-GPU Training Methods"
+      ]
+    },
+    "moving averaged (MA)": {
+      "tag_set": [
+        "Multi-GPU Training Methods"
+      ]
+    },
+    "SGD": {
+      "tag_set": [
+        "Multi-GPU Training Methods"
+      ]
+    },
+    "empirical cost": {
+      "tag_set": [
+        "Multi-GPU Training Methods"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "Definition",
+        "Multi-GPU Training Methods"
+      ]
+    },
+    "parameter averaging": {
+      "tag_set": [
+        "Multi-GPU Training Methods"
+      ]
+    },
+    "pass learning": {
+      "tag_set": [
+        "Speech Recognition Training"
+      ]
+    },
+    "learning rate schedule": {
+      "tag_set": [
+        "Definition",
+        "Speech Recognition Training"
+      ]
+    },
+    "averaged SGD": {
+      "tag_set": [
+        "Definition",
+        "Speech Recognition Training"
+      ]
+    },
+    "exponential moving average (EMA)": {
+      "tag_set": [
+        "Definition",
+        "Speech Recognition Training"
+      ]
+    },
+    "character error rate (CER)": {
+      "tag_set": [
+        "Metric",
+        "Speech Recognition Training"
+      ]
+    },
+    "frame stacking": {
+      "tag_set": [
+        "Definition",
+        "Result",
+        "Speech Recognition Training"
+      ]
+    },
+    "super frame": {
+      "tag_set": [
+        "Definition",
+        "Speech Recognition Training"
+      ]
+    },
+    "unidirectional LSTM": {
+      "tag_set": [
+        "Model Averaging and Distillation",
+        "Preference",
+        "Speech Recognition Training"
+      ]
+    },
+    "bidirectional LSTM": {
+      "tag_set": [
+        "Model Averaging and Distillation",
+        "Speech Recognition Training"
+      ]
+    },
+    "real-time requirement": {
+      "tag_set": [
+        "Definition",
+        "Speech Recognition Training"
+      ]
+    },
+    "real time factor (RTF)": {
+      "tag_set": [
+        "Speech Recognition Training"
+      ]
+    },
+    "deep LSTM": {
+      "tag_set": [
+        "LSTM Training Method",
+        "Speech Recognition Training"
+      ]
+    },
+    "shallow model": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning",
+        "Speech Recognition Training"
+      ]
+    },
+    "knowledge distillation": {
+      "tag_set": [
+        "Definition",
+        "Result",
+        "Speech Recognition Training"
+      ]
+    },
+    "Shenma voice search dataset": {
+      "tag_set": [
+        "Property",
+        "Speech Recognition Training"
+      ]
+    },
+    "17000 hours": {
+      "tag_set": [
+        "Model Distillation & Transfer",
+        "Speech Recognition Training"
+      ]
+    },
+    "map and navigation task": {
+      "tag_set": [
+        "Speech Recognition Training"
+      ]
+    },
+    "transfer learning": {
+      "tag_set": [
+        "Benefit",
+        "Decentralized Training",
+        "Definition",
+        "Model Distillation & Transfer",
+        "Result",
+        "Speech Recognition Training"
+      ]
+    },
+    "segmental Minimum Bayes-Risk": {
+      "tag_set": [
+        "Definition",
+        "Speech Recognition Training"
+      ]
+    },
+    "sMBR": {
+      "tag_set": [
+        "Decentralized Training",
+        "LSTM Distillation & Transfer Learning",
+        "LSTM Training Method",
+        "Model Distillation & Transfer"
+      ]
+    },
+    "1000 hours": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "7300 hours": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "Section 2": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "Section 3": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "Section 4": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "Section 5": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "vanishing gradients": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "exploding gradients": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "one-layer LSTM": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "two-layers LSTM": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "normalized initialization": {
+      "tag_set": [
+        "LSTM Training Method"
+      ]
+    },
+    "hard targets": {
+      "tag_set": [
+        "Definition",
+        "LSTM Training Method"
+      ]
+    },
+    "soft targets": {
+      "tag_set": [
+        "Definition",
+        "LSTM Training Method"
+      ]
+    },
+    "HMM-GMM system": {
+      "tag_set": [
+        "Benefit",
+        "LSTM Distillation & Transfer Learning",
+        "LSTM Training Method"
+      ]
+    },
+    "softmax layer": {
+      "tag_set": [
+        "Architecture",
+        "LSTM Training Method"
+      ]
+    },
+    "student network": {
+      "tag_set": [
+        "LSTM Training Method",
+        "Relationship"
+      ]
+    },
+    "teacher network": {
+      "tag_set": [
+        "LSTM Training Method",
+        "Relationship"
+      ]
+    },
+    "final alignment": {
+      "tag_set": [
+        "LSTM Training Method",
+        "Result"
+      ]
+    },
+    "deeper network": {
+      "tag_set": [
+        "Property",
+        "Training Optimization"
+      ]
+    },
+    "original network": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "hard target": {
+      "tag_set": [
+        "Decentralized Training",
+        "Training Optimization"
+      ]
+    },
+    "soft target": {
+      "tag_set": [
+        "Decentralized Training",
+        "Property",
+        "Training Optimization",
+        "sMBR Training Setup"
+      ]
+    },
+    "large training dataset": {
+      "tag_set": [
+        "Problem",
+        "Training Optimization"
+      ]
+    },
+    "small part of dataset": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "entire dataset": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "gradient clipping": {
+      "tag_set": [
+        "Training Constraint",
+        "Training Optimization"
+      ]
+    },
+    "cell activations": {
+      "tag_set": [
+        "Property",
+        "Training Optimization"
+      ]
+    },
+    "differential saturation": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "differentials": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "back propagation": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "cross-entropy (CE)": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "sequence discriminative training": {
+      "tag_set": [
+        "Method",
+        "Model Distillation & Transfer",
+        "Requirement",
+        "Training Optimization"
+      ]
+    },
+    "state-level minimum bayes risk (sMBR)": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "maximum mutual information (MMI)": {
+      "tag_set": [
+        "Method",
+        "Training Optimization"
+      ]
+    },
+    "minimum phone error (MPE)": {
+      "tag_set": [
+        "Method",
+        "Training Optimization"
+      ]
+    },
+    "frame-level accuracy": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "sequence-level accuracy": {
+      "tag_set": [
+        "Training Optimization"
+      ]
+    },
+    "parallel training": {
+      "tag_set": [
+        "Method",
+        "Training Optimization"
+      ]
+    },
+    "larger dataset": {
+      "tag_set": [
+        "Cause",
+        "Parallel Training Methods",
+        "Property"
+      ]
+    },
+    "training accuracy": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "multiple GPUs": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "model average method": {
+      "tag_set": [
+        "Parallel Training Methods",
+        "Process",
+        "Result"
+      ]
+    },
+    "block-wise model updating filter (BMUF)": {
+      "tag_set": [
+        "Definition",
+        "Parallel Training Methods"
+      ]
+    },
+    "global-model update": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "block momentum": {
+      "tag_set": [
+        "Parallel Training Methods",
+        "Property"
+      ]
+    },
+    "block learning rate": {
+      "tag_set": [
+        "Parallel Training Methods",
+        "Property"
+      ]
+    },
+    "moving average (MA)": {
+      "tag_set": [
+        "Parallel Training Methods",
+        "Property"
+      ]
+    },
+    "Averaged SGD": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "mini-batch optimization": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "model synchronization": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "linear speedup": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "recognition accuracy degradation": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "training convergence": {
+      "tag_set": [
+        "Parallel Training Methods"
+      ]
+    },
+    "exponential moving average": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "EMA": {
+      "tag_set": [
+        "Model Averaging and Distillation",
+        "Property"
+      ]
+    },
+    "weight decrease": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "exponential updating rate": {
+      "tag_set": [
+        "Model Averaging and Distillation",
+        "Property"
+      ]
+    },
+    "inlineform2": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "inlineform3": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "inlineform0": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "non-interference training": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "real-time streaming": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "Shenma voice search": {
+      "tag_set": [
+        "Definition",
+        "Model Averaging and Distillation",
+        "Model Distillation & Transfer",
+        "Property"
+      ]
+    },
+    "computation": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "RTF": {
+      "tag_set": [
+        "Decentralized Training",
+        "LSTM Distillation & Transfer Learning",
+        "Model Averaging and Distillation",
+        "Model Distillation & Transfer",
+        "Property"
+      ]
+    },
+    "knowledge transfer": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "distillation": {
+      "tag_set": [
+        "Definition",
+        "LSTM Distillation & Transfer Learning",
+        "Model Averaging and Distillation",
+        "Model Distillation & Transfer",
+        "Result"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "9-layers LSTM": {
+      "tag_set": [
+        "Model Averaging and Distillation"
+      ]
+    },
+    "shallow network": {
+      "tag_set": [
+        "Model Averaging and Distillation",
+        "Result"
+      ]
+    },
+    "CER": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning",
+        "Model Distillation & Transfer",
+        "Property",
+        "sMBR Training Setup"
+      ]
+    },
+    "2-layers network": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "9-layers model": {
+      "tag_set": [
+        "Model Distillation & Transfer",
+        "Property",
+        "sMBR Training Setup"
+      ]
+    },
+    "16kHz": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "Amap": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "Mandarin": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "noise": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "babble": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "dialects": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "accents": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "hesitation": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "voice search": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "frame level classification": {
+      "tag_set": [
+        "Model Distillation & Transfer"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "MPI-based HPC cluster": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "8 GPUs": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "non-overlap subset": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "decentralized method": {
+      "tag_set": [
+        "Decentralized Training",
+        "Result"
+      ]
+    },
+    "Mesh AllReduce": {
+      "tag_set": [
+        "Decentralized Training",
+        "Definition"
+      ]
+    },
+    "mesh topology": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "peer to peer communication": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "local models": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM5": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM6": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM7": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "INLINEFORM8": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "Shenma test set": {
+      "tag_set": [
+        "Decentralized Training",
+        "Definition"
+      ]
+    },
+    "9000 samples": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "Amap test set": {
+      "tag_set": [
+        "Decentralized Training",
+        "Definition"
+      ]
+    },
+    "7000 samples": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "real world conditions": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "shallow LSTM": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "map and navigation scenarios": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "layer-wise training": {
+      "tag_set": [
+        "Decentralized Training",
+        "Definition",
+        "sMBR Training Setup"
+      ]
+    },
+    "deeper model": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "shallower model": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "CE": {
+      "tag_set": [
+        "Decentralized Training"
+      ]
+    },
+    "EMA model": {
+      "tag_set": [
+        "Action",
+        "Decentralized Training",
+        "Property"
+      ]
+    },
+    "1000 hours data": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "sMBR training": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "6-layers model": {
+      "tag_set": [
+        "Definition",
+        "sMBR Training Setup"
+      ]
+    },
+    "7-layers model": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "CE model": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "TABREF15": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "TABREF18": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "12.6% decreasing": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "0.73% absolute reduction": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "Shenma model": {
+      "tag_set": [
+        "Definition",
+        "sMBR Training Setup"
+      ]
+    },
+    "Amap voice search": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "sMBR Training Setup"
+      ]
+    },
+    "generic search scenario": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "frame level recognition accuracy": {
+      "tag_set": [
+        "sMBR Training Setup"
+      ]
+    },
+    "deep unidirectional LSTM": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning",
+        "Result"
+      ]
+    },
+    "2-layers model": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning"
+      ]
+    },
+    "generic scenario": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning",
+        "Property"
+      ]
+    },
+    "specific scenario": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning",
+        "Property"
+      ]
+    },
+    "14% training dataset": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning"
+      ]
+    },
+    "Connectionist Temporal Classification": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning"
+      ]
+    },
+    "attention-based neural networks": {
+      "tag_set": [
+        "LSTM Distillation & Transfer Learning"
+      ]
+    },
+    "convolutional neural network (CNN)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "long short-term memory (LSTM) recurrent neural network (RNN)": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "deeper layers in neural networks": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "convergence in deep neural networks": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "deeper network initialized with shallower trained network": {
+      "tag_set": [
+        "Solution"
+      ]
+    },
+    "multi-GPU parallel training": {
+      "tag_set": [
+        "Solution"
+      ]
+    },
+    "mini-batch stochastic gradient descent (SGD)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "model averaging method": {
+      "tag_set": [
+        "Limitation",
+        "Method"
+      ]
+    },
+    "blockwise model-updating filter (BMUF)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "moving averaged (MA) parameters": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "real-time factor (RTF)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "deep LSTM model": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "deep LSTM RNN training framework": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "transfer training": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "deep LSTM training framework": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "vanishing or exploding gradients": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "one-layer LSTM model": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "two-layer LSTM model": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "soft target learning": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training with hard and soft targets": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "initial training with small dataset": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "final training on entire dataset": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "accuracy gap": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "differential saturation check": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "gradients": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "differentials of recurrent layers": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "gradient vanishing": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "cross-entropy (CE) loss": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "state-level minimum Bayes risk (sMBR)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "frame-level training": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "sMBR training phase": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "parallel training with multiple GPUs": {
+      "tag_set": [
+        "Requirement"
+      ]
+    },
+    "moving average model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "model averaging based methods": {
+      "tag_set": [
+        "Preference"
+      ]
+    },
+    "combination of model averaging and moving average": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "moving average method": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "model averaging based approach": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "unidirectional LSTM network": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "deep neural network architecture": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "9-layers unidirectional LSTM model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "2-layer distilled LSTM": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "transfer learning with sMBR": {
+      "tag_set": [
+        "Definition",
+        "Property"
+      ]
+    },
+    "shared knowledge": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "7300 hours labeled data": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training set, validation set, test set": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "speaker-based split": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LSTM RNNs": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "deep LSTM RNNs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "unidirectional LSTM model": {
+      "tag_set": [
+        "Preference"
+      ]
+    },
+    "26-dimensional filter bank": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "2-dimensional pitch feature": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "super frame stacking": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "two LSTM layers": {
+      "tag_set": [
+        "Architecture"
+      ]
+    },
+    "full-connection layer": {
+      "tag_set": [
+        "Architecture"
+      ]
+    },
+    "cross-entropy loss": {
+      "tag_set": [
+        "Loss Function"
+      ]
+    },
+    "GMM-HMM system": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "mini-batched SGD": {
+      "tag_set": [
+        "Training Method"
+      ]
+    },
+    "4 epochs": {
+      "tag_set": [
+        "Training Parameter"
+      ]
+    },
+    "5-gram language model": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "vocabulary size 760000": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "cell activation clipping": {
+      "tag_set": [
+        "Training Constraint"
+      ]
+    },
+    "sMBR loss": {
+      "tag_set": [
+        "Loss Function"
+      ]
+    },
+    "BMUF vs traditional model averaging": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "EMA method": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "training system": {
+      "tag_set": [
+        "Deployment"
+      ]
+    },
+    "GPU": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "traditional model averaging": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "local model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "aggregation phase": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "teacher model": {
+      "tag_set": [
+        "Training method"
+      ]
+    },
+    "sMBR model": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "deep LSTM distillation": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "sMBR training dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "layer-wise trained models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "last layer training": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "6-layers vs 9-layers sMBR models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "averaged CER of sMBR models": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Shenma model performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sMBR trained Shenma model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training datasets for sMBR": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "data usage in sMBR transfer learning": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "deep LSTM parallel training system": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "distillation in LSTM models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "2-layers distilled model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "specific scenario training": {
+      "tag_set": [
+        "Conclusion"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Plan"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Introduction"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "Recently, deep neural network has been widely employed in various recognition tasks. Increasing the depth of neural network is a effective way to improve the performance, and convolutional neural network (CNN) has benefited from it in visual recognition task BIBREF0 . Deeper long short-term memory (LSTM) recurrent neural networks (RNNs) are also applied in large vocabulary",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Neural Network Depth"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "continuous speech recognition (LVCSR) task, because",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech Recognition Task"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "LSTM networks have shown better performance than Fully-connected feed-forward deep neural network BIBREF1 , BIBREF2 , BIBREF3 , BIBREF4 .\nTraining neural network becomes more challenge when it goes deep. A conceptual tool called linear classifier probe is introduced to better understand the dynamics inside a neural network BIBREF5 . The discrim",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "LSTM vs Feed-Forward Networks"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "inating features of linear classifier is the hidden units of a intermediate layer. For deep neural networks, it is observed that deeper layer's accuracy is lower than that of shallower layers. Therefore, the tool shows the difficulty of deep neural model training visually.\nLayer-wise pre-training is a successful method to train very deep neural networks BIBREF6 . The convergence becomes harder with increasing the number of layers, even though the model is initialized with Xavier or its variants BIBREF7 , BIBREF8 . But the deeper network which is initialized with a shallower trained network could converge well.\nThe size of LVCSR training dataset goes larger and training with only one GPU becomes high time consumption inevitably. Therefore, parallel training with multi-GPUs is more suitable for LVCSR system. Mini-batch based stochastic gradient descent (SGD) is the most popular method in neural network training procedure. Asynchronous SGD is a successful effort for parallel training based on it BIBREF9 , BIBREF10 . It can many times speed up the training time without decreasing the accuracy. Besides, synchronous SGD is another effective effort, where the parameter server waits for every works to finish their computation and sent their local models to it, and then it sends updated model back to all workers BIBREF11 . Synchronous SGD converges well in parallel training with data parallelism, and is also easy to implement.\nIn order to further improve the performance of deep neural network with parallel training, several methods are proposed. Model averaging method achieves linear speedup, as the final model is averaged from all parameters of local models in different workers BIBREF12",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Deep Network Training"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": ", BIBREF13 , but the accuracy decreases compared with single GPU training. Moreover, blockwise model-updating filter (BMUF) provides another almost linear speedup approach with multi-GPUs on the basis of model averaging. It can achieve improvement or no-degradation of recognition performance compared with mini-batch SGD on single GPU BIBREF14 .\nMoving averaged (MA) approaches are also proposed for parallel training. It is demonstrated that the moving average of the parameters obtained by SGD performs as well as the parameters that minimize the empirical cost, and moving average parameters can be used as the estimator of them, if the size of training data is large enough BIBREF15 . One",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multi-GPU Training Methods"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "pass learning is then proposed, which is the combination of learning rate schedule and averaged SGD using moving average BIBREF16 . Exponential moving average (EMA) is proposed as a non-interference method BIBREF17 . EMA model is not broadcasted to workers to update their local models, and it is applied as the final model of entire training process. EMA method is utilized with model averaging and BMUF to further decrease the character error rate (CER). It is also easy to implement in existing parallel training systems. Frame stacking can also speed up the training time BIBREF18 . The super frame is stacked by several regular frames, and it contains the information of them. Thus, the network can see multiple frames at a time, as the super frame is new input. Frame stacking can also lead to faster decoding. For streaming voice search service, it needs to display intermediate recognition results while users are still speaking. As a result, the system needs to fulfill high real-time requirement, and we prefer unidirectional LSTM network rather than bidirectional one. High real-time requirement means low real time factor (RTF), but the RTF of deep LSTM model is higher inevitably. The dilemma of recognition accuracy and real-time requirement is an obstacle to the employment of deep LSTM network. Deep model outperforms because it contains more knowledge, but it is also cumbersome. As a result, the knowledge of deep model can be distilled to a shallow model BIBREF19 . It provided a effective way to employ the deep model to the real-time system. In this paper, we explore a entire deep LSTM RNN training framework, and employ it to real-time application. The deep learning systems benefit highly from a large quantity of labeled training data. Our first and basic speech recognition system is trained on 17000 hours of Shenma voice search dataset. It is a generic dataset sampled from diverse aspects of search queries. The requirement of speech recognition system also addressed by specific scenario, such as map and navigation task. The labeled dataset is too expensive, and training a new model with new large dataset from the beginning costs lots of time. Thus, it is natural to think of transferring the knowledge from basic model to new scenario's model. Transfer learning expends less data and less training time than full training. In this paper, we also introduce a novel transfer learning strategy with segmental Minimum Bayes-Risk",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech Recognition Training"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "(sMBR). As a result, transfer training with only 1000 hours data can match equivalent performance for full training with 7300 hours data. Our deep LSTM training framework for LVCSR is presented in Section 2. Section 3 describes how the very deep models does apply in real world applications, and how to transfer the model to another task. The framework is analyzed and discussed in Section 4, and followed by the conclusion in Section 5. Layer-wise Training with Soft Target and Hard Target Gradient-based optimization of deep LSTM network with random initialization get stuck in poor solution easily. Xavier initialization can partially solve this problem BIBREF7 , so this method is the regular initialization method of all training procedure. However, it does not work well when it is utilized to initialize very deep model directly, because of vanishing or exploding gradients. Instead, layer-wise pre-training method is a effective way to train the weights of very deep architecture BIBREF6 , BIBREF20 . In layer-wise pre-training procedure, a one-layer LSTM model is firstly trained with normalized initialization. Sequentially, two-layers LSTM model's first layer is initialized by trained one-layer model, and its second layer is regularly initialized. In this way, a deep architecture is layer-by-layer trained, and it can converge well. In conventional layer-wise pre-training, only parameters of shallower network are transfered to deeper one, and the learning targets are still the alignments generated by HMM-GMM system. The targets are vectors that only one state's probability is one, and the others' are zeros. They are known as hard targets, and they carry limited knowledge as only one state is active. In contrast, the knowledge of shallower network should be also transfered to deeper one. It is obtained by the softmax layer of existing model typically, so each state has a probability rather than only zero or one, and called as soft target. As a result, the deeper network which is student network learns the parameters and knowledge from shallower one which is called teacher network. When training the student network from the teacher network, the final alignment is the combination of hard target and soft target in our layer-wise training phase. The final alignment provides various knowledge which transfered from teacher network and extracted from true labels. If only soft target is learned, student network perform no better than teacher network, but it could outperform teacher network as it also learns true labels. The",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "LSTM Training Method"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "deeper network spends less time to getting the same level of original network than the network trained from the beginning, as a period of low performance is skipped. Therefore, training with hard and soft target is a time saving method. For large training dataset, training with the whole dataset still spends too much time. A network firstly trained with only a small part of dataset could go deeper as well, and so the training time reducing rapidly. When the network is deep enough, it then trained on the entire dataset to get further improvement. There is no gap of accuracy between these two approaches, but latter one saves much time. Differential Saturation Check The objects of conventional saturation check are gradients and the cell activations BIBREF4 . Gradients are clipped to range [-5, 5], while the cell activations clipped to range [-50, 50]. Apart from them, the differentials of recurrent layers is also limited. If the differentials go beyond the range, corresponding back propagation is skipped, while if the gradients and cell activations go beyond the bound, values are set as the boundary values. The differentials which are too large or too small will lead to the gradients easily vanishing, and it demonstrates the failure of this propagation. As a result, the parameters are not updated, and next propagation . Sequence Discriminative Training Cross-entropy (CE) is widely used in speech recognition training system as a frame-wise discriminative training criterion. However, it is not well suited to speech recognition, because speech recognition training is a sequential learning problem. In contrast, sequence discriminative training criterion has shown to further improve performance of neural network first trained with cross-entropy BIBREF21 , BIBREF22 , BIBREF23 . We choose state-level minimum bayes risk (sMBR) BIBREF21 among a number of sequence discriminative criterion is proposed, such as maximum mutual information (MMI) BIBREF24 and minimum phone error (MPE) BIBREF25 . MPE and sMBR are designed to minimize the expected error of different granularity of labels, while CE aims to minimizes expected frame error, and MMI aims to minimizes expected sentence error. State-level information is focused on by sMBR. a frame-level accurate model is firstly trained by CE loss function, and then sMBR loss function is utilized for further training to get sequence-level accuracy. Only a part of training dataset is needed in sMBR training phase on the basis of whole dataset CE training. Parallel Training It is",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Training Optimization"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "demonstrated that training with larger dataset can improve recognition accuracy. However, larger dataset means more training samples and more model parameters. Therefore, parallel training with multiple GPUs is essential, and it makes use of data parallelism BIBREF9 . The entire training data is partitioned into several split without overlapping and they are distributed to different GPUs. Each GPU trains with one split of training dataset locally. All GPUs synchronize their local models with model average method after a mini-batch optimization BIBREF12 , BIBREF13 . Model average method achieves linear speedup in training phase, but the recognition accuracy decreases compared with single GPU training. Block-wise model updating filter (BMUF) is another successful effort in parallel training with linear speedup as well. It can achieve no-degradation of recognition accuracy with multi-GPUs BIBREF14 . In the model average method, aggregated model INLINEFORM0 is computed and broadcasted to GPUs. On the basis of it, BMUF proposed a novel model updating strategy: INLINEFORM1 INLINEFORM2 Where INLINEFORM0 denotes model update, and INLINEFORM1 is the global-model update. There are two parameters in BMUF, block momentum INLINEFORM2 , and block learning rate INLINEFORM3 . Then, the global model is updated as INLINEFORM4 Consequently, INLINEFORM0 is broadcasted to all GPUs to initial their local models, instead of INLINEFORM1 in model average method. Averaged SGD is proposed to further accelerate the convergence speed of SGD. Averaged SGD leverages the moving average (MA) INLINEFORM0 as the estimator of INLINEFORM1 BIBREF15 : INLINEFORM2 Where INLINEFORM0 is computed by model averaging or BMUF. It is shown that INLINEFORM1 can well converge to INLINEFORM2 , with the large enough training dataset in single GPU training. It can be considered as a non-interference strategy that INLINEFORM3 does not participate the main optimization process, and only takes effect after the end of entire optimization. However, for the parallel training implementation, each INLINEFORM4 is computed by model averaging and BMUF with multiple models, and moving average model INLINEFORM5 does not well converge, compared with single GPU training. Model averaging based methods are employed in parallel training of large scale dataset, because of their faster convergence, and especially no-degradation implementation of BMUF. But combination of model averaged based methods and moving average does not match the expectation of further enhance performance and it is presented as INLINEFORM0 The weight of each INLINEFORM0 is equal in moving average method regardless the effect of temporal order. But INLINEFORM1 closer to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Parallel Training Methods"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "the end of training achieve higher accuracy in the model averaging based approach, and thus it should be with more proportion in final INLINEFORM2 . As a result, exponential moving average(EMA) is appropriate, which the weight for each older parameters decrease exponentially, and never reaching zero. After moving average based methods, the EMA parameters are updated recursively as INLINEFORM3 Here INLINEFORM0 represents the degree of weight decrease, and called exponential updating rate. EMA is also a non-interference training strategy that is implemented easily, as the updated model is not broadcasted. Therefore, there is no need to add extra learning rate updating approach, as it can be appended to existing training procedure directly. Deployment There is a high real time requirement in real world application, especially in online voice search system. Shenma voice search is one of the most popular mobile search engines in China, and it is a streaming service that intermediate recognition results displayed while users are still speaking. Unidirectional LSTM network is applied, rather than bidirectional one, because it is well suited to real-time streaming speech recognition. Distillation It is demonstrated that deep neural network architecture can achieve improvement in LVCSR. However, it also leads to much more computation and higher RTF, so that the recognition result can not be displayed in real time. It should be noted that deeper neural network contains more knowledge, but it is also cumbersome. the knowledge is key to improve the performance. If it can be transfered from cumbersome model to a small model, the recognition ability can also be transfered to the small model. Knowledge transferring to small model is called distillation BIBREF19 . The small model can perform as well as cumbersome model, after distilling. It provide a way to utilize high-performance but high RTF model in real time system. The class probability produced by the cumbersome model is regarded as soft target, and the generalization ability of cumbersome model is transfered to small model with it. Distillation is model's knowledge transferring approach, so there is no need to use the hard target, which is different with the layer-wise training method. 9-layers unidirectional LSTM model achieves outstanding performance, but meanwhile it is too computationally expensive to allow deployment in real time recognition system. In order to ensure real-time of the system, the number of layers needs to be reduced. The shallower network can learn the knowledge of deeper network with",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Averaging and Distillation"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "distillation. It is found that RTF of 2-layers network is acceptable, so the knowledge is distilled from 9-layers well-trained model to 2-layers model. Table TABREF16 shows that distillation from 9-layers to 2-layers brings RTF decrease of relative 53%, while CER only increases 5%. The knowledge of deep network is almost transfered with distillation, Distillation brings promising RTF reduction, but only little knowledge of deep network is lost. Moreover, CER of 2-layers distilled LSTM decreases relative 14%, compared with 2-layers regular-trained LSTM. Transfer Learning with sMBR For a certain specific scenario, the model trained with the data recorded from it has better adaptation than the model trained with generic scenario. But it spends too much time training a model from the beginning, if there is a well-trained model for generic scenarios. Moreover, labeling a large quantity of training data in new scenario is both costly and time consuming. If a model transfer trained with smaller dataset can obtained the similar recognition accuracy compared with the model directly trained with larger dataset, it is no doubt that transfer learning is more practical. Since specific scenario is a subset of generic scenario, some knowledge can be shared between them. Besides, generic scenario consists of various conditions, so its model has greater robustness. As a result, not only shared knowledge but also robustness can be transfered from the model of generic scenario to the model of specific one. As the model well trained from generic scenario achieves good performance in frame level classification, sequence discriminative training is required to adapt new model to specific scenario additionally. Moreover, it does not need alignment from HMM-GMM system, and it also saves amount of time to prepare alignment. Training Data A large quantity of labeled data is needed for training a more accurate acoustic model. We collect the 17000 hours labeled data from Shenma voice search, which is one of the most popular mobile search engines in China. The dataset is created from anonymous online users' search queries in Mandarin, and all audio file's sampling rate is 16kHz, recorded by mobile phones. This dataset consists of many different conditions, such as diverse noise even low signal-to-noise, babble, dialects, accents, hesitation and so on. In the Amap, which is one of the most popular web mapping and navigation services in China, users can search locations and navigate to locations they want though voice search. To present the performance",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Distillation & Transfer"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "of transfer learning with sequence discriminative training, the model trained from Shenma voice search which is greneric scenario transfer its knowledge to the model of Amap voice search. 7300 hours labeled data is collected in the similar way of Shenma voice search data collection. Two dataset is divided into training set, validation set and test set separately, and the quantity of them is shown in Table TABREF10 . The three sets are split according to speakers, in order to avoid utterances of same speaker appearing in three sets simultaneously. The test sets of Shenma and Amap voice search are called Shenma Test and Amap Test. Experimental setup LSTM RNNs outperform conventional RNNs for speech recognition system, especially deep LSTM RNNs, because of its long-range dependencies more accurately for temporal sequence conditions BIBREF26 , BIBREF23 . Shenma and Amap voice search is a streaming service that intermediate recognition results displayed while users are still speaking. So as for online recognition in real time, we prefer unidirectional LSTM model rather than bidirectional one. Thus, the training system is unidirectional LSTM-based. A 26-dimensional filter bank and 2-dimensional pitch feature is extracted for each frame, and is concatenated with first and second order difference as the final input of the network. The super frame are stacked by 3 frames without overlapping. The architecture we trained consists of two LSTM layers with sigmoid activation function, followed by a full-connection layer. The out layer is a softmax layer with 11088 hidden markov model (HMM) tied-states as output classes, the loss function is cross-entropy (CE). The performance metric of the system in Mandarin is reported with character error rate (CER). The alignment of frame-level ground truth is obtained by GMM-HMM system. Mini-batched SGD is utilized with momentum trick and the network is trained for a total of 4 epochs. The block learning rate and block momentum of BMUF are set as 1 and 0.9. 5-gram language model is leveraged in decoder, and the vocabulary size is as large as 760000. Differentials of recurrent layers is limited to range [-10000,10000], while gradients are clipped to range [-5, 5] and cell activations clipped to range [-50, 50]. After training with CE loss, sMBR loss is employed to further improve the performance. It has shown that BMUF outperforms traditional model averaging method, and it is utilized at the synchronization phase. After synchronizing with BMUF, EMA method further updates the model",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "in non-interference way. The training system is deployed on the MPI-based HPC cluster where 8 GPUs. Each GPU processes non-overlap subset split from the entire large scale dataset in parallel. Local models from distributed workers synchronize with each other in decentralized way. In the traditional model averaging and BMUF method, a parameter server waits for all workers to send their local models, aggregate them, and send the updated model to all workers. Computing resource of workers is wasted until aggregation of the parameter server done. Decentralized method makes full use of computing resource, and we employ the MPI-based Mesh AllReduce method. It is mesh topology as shown in Figure FIGREF12 . There is no centralized parameter server, and peer to peer communication is used to transmit local models between workers. Local model INLINEFORM0 of INLINEFORM1 -th worker in INLINEFORM2 workers cluster is split to INLINEFORM3 pieces INLINEFORM4 , and send to corresponding worker. In the aggregation phase, INLINEFORM5 -th worker computed INLINEFORM6 splits of model INLINEFORM7 and send updated model INLINEFORM8 back to workers. As a result, all workers participate in aggregation and no computing resource is dissipated. It is significant to promote training efficiency, when the size of neural network model is too large. The EMA model is also updated additionally, but not broadcasting it. Results In order to evaluate our system, several sets of experiments are performed. The Shenma test set including about 9000 samples and Amap test set including about 7000 samples contain various real world conditions. It simulates the majority of user scenarios, and can well evaluates the performance of a trained model. Firstly, we show the results of models trained with EMA method. Secondly, for real world applications, very deep LSTM is distilled to a shallow one, so as for lower RTF. The model of Amap is also needed to train for map and navigation scenarios. The performance of transfer learning from Shenma voice search to Amap voice search is also presented. Layer-wise Training In layer-wise training, the deeper model learns both parameters and knowledge from the shallower model. The deeper model is initialized by the shallower one, and its alignment is the combination of hard target and soft target of shallower one. Two targets have the same weights in our framework. The teacher model is trained with CE. For each layer-wise trained CE model, corresponding sMBR model is also trained, as sMBR could achieve",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Decentralized Training"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "additional improvement. In our framework, 1000 hours data is randomly selected from the total dataset for sMBR training. There is no obvious performance enhancement when the size of sMBR training dataset increases. For very deep unidirectional LSTM initialized with Xavier initialization algorithm, 6-layers model converges well, but there is no further improvement with increasing the number of layers. Therefore, the first 6 layers of 7-layers model is initialized by 6-layers model, and soft target is provided by 6-layers model. Consequently, deeper LSTM is also trained in the same way. It should be noticed that the teacher model of 9-layers model is the 8-layers model trained by sMBR, while the other teacher model is CE model. As shown in Table TABREF15 , the layer-wise trained models always performs better than the models with Xavier initialization, as the model is deep. Therefore, for the last layer training, we choose 8-layers sMBR model as the teacher model instead of CE model. A comparison between 6-layers and 9-layers sMBR models shows that 3 additional layers of layer-wise training brings relative 12.6% decreasing of CER. It is also significant that the averaged CER of sMBR models with different layers decreases absolute 0.73% approximately compared with CE models, so the improvement of sequence discriminative learning is promising. Transfer Learning 2-layers distilled model of Shenma voice search has shown a impressive performance on Shenma Test, and we call it Shenma model. It is trained for generic search scenario, but it has less adaptation for specific scenario like Amap voice search. Training with very large dataset using CE loss is regarded as improvement of frame level recognition accuracy, and sMBR with less dataset further improves accuracy as sequence discriminative training. If robust model of generic scenario is trained, there is no need to train a model with very large dataset, and sequence discriminative training with less dataset is enough. Therefore, on the basis of Shenma model, it is sufficient to train a new Amap model with small dataset using sMBR. As shown in Table TABREF18 , Shenma model presents the worst performance among three methods, since it does not trained for Amap scenario. 2-layers Shenma model further trained with sMBR achieves about 8.1% relative reduction, compared with 2-layers regular-trained Amap model. Both training sMBR datasets contain the same 1000 hours data. As a result, with the Shenma model, only about 14% data usage achieves lower CER, and it",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "sMBR Training Setup"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "leads to great time and cost saving with less labeled data. Besides, transfer learning with sMBR does not use the alignment from the HMM-GMM system, so it also saves huge amount of time. Conclusion We have presented a whole deep unidirectional LSTM parallel training system for LVCSR. The recognition performance improves when the network goes deep. Distillation makes it possible that deep LSTM model transfer its knowledge to shallow model with little loss. The model could be distilled to 2-layers model with very low RTF, so that it can display the immediate recognition results. As a result, its CER decrease relatively 14%, compared with the 2-layers regular trained model. In addition, transfer learning with sMBR is also proposed. If a great model has well trained from generic scenario, only 14% of the size of training dataset is needed to train a more accuracy acoustic model for specific scenario. Our future work includes 1) finding more effective methods to reduce the CER by increasing the number of layers; 2) applying this training framework to Connectionist Temporal Classification (CTC) and attention-based neural networks.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "LSTM Distillation & Transfer Learning"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "A deep neural network is a type of neural network with multiple layers that is widely employed in various recognition tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "CNN has benefited from increasing depth in visual recognition tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Deeper LSTM RNNs are applied in large vocabulary continuous speech recognition (LVCSR) tasks due to better performance compared to fully-connected feed-forward deep neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "A conceptual tool used to understand the dynamics inside deep neural networks by analyzing the hidden units of intermediate layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "It is observed that deeper layers have lower accuracy compared to shallower layers in deep neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Layer-wise pre-training is a successful method for training very deep neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Convergence becomes harder as the number of layers increases, even with initialization using Xavier or its variants.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "A deeper network initialized with a shallower trained network can converge well.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The size of LVCSR training datasets is increasing, leading to high time consumption when training with only one GPU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Trend"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Parallel training with multi-GPUs is more suitable for LVCSR systems due to the growing size of training datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Mini-batch SGD is the most popular method in neural network training procedures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Asynchronous SGD is a successful approach for parallel training based on mini-batch SGD and can speed up training without decreasing accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Synchronous SGD is an effective method where a parameter server waits for all workers to complete computation and updates the model accordingly, converging well in data parallelism and being easy to implement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Model averaging achieves linear speedup by averaging parameters from local models in different workers during parallel training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The accuracy of the model averaging method decreases compared to single GPU training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "BMUF provides an almost linear speedup with multi-GPUs based on model averaging and maintains or improves recognition performance compared to single-GPU mini-batch SGD.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Moving average parameters obtained via SGD perform as well as parameters that minimize the empirical cost, especially when training data size is large.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "A learning rate schedule is a method used in training to adjust the learning rate over time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Averaged SGD refers to a training method that combines stochastic gradient descent with moving average updates to improve model stability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Exponential moving average is a non-interference method that applies a weighted average of past model parameters to stabilize training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The EMA model is not broadcasted to workers for local model updates and is used as the final model at the end of the training process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Model averaging is combined with EMA to further reduce the character error rate (CER).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "BMUF is used in conjunction with EMA and model averaging to reduce the character error rate (CER).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Frame stacking involves combining multiple regular frames into a super frame to provide the network with multi-frame input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "A super frame is a composite of several regular frames and contains the information from them, serving as a new input to the network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Frame stacking can speed up training time and lead to faster decoding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "For streaming voice search, a unidirectional LSTM network is preferred over a bidirectional one due to better real-time performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preference"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Real-time requirement in speech recognition refers to the need to provide intermediate results during user speech, demanding low real-time factor (RTF).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "A low real-time factor (RTF) indicates high real-time performance, which is essential for streaming voice search services.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Deep LSTM models have high real-time factor (RTF), making them unsuitable for real-time applications despite higher recognition accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Knowledge distillation is a technique that transfers knowledge from a deep model to a shallower, more efficient model for real-time use.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "A deep LSTM RNN training framework is explored in the paper and applied to real-time speech recognition systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The basic speech recognition system is trained on 17,000 hours of Shenma voice search dataset, which is diverse and generic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Transfer learning is a method that transfers knowledge from a pre-trained model to a new scenario model, reducing data and training time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "A novel transfer learning strategy based on segmental Minimum Bayes-Risk is introduced in the paper.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "Transfer training with only 1000 hours of data can match the performance of full training with 7300 hours of data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "A deep LSTM training framework for LVCSR is presented in Section 2 of the document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Layer-wise pre-training is an effective method to train the weights of very deep LSTM architectures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Xavier initialization can partially solve the problem of poor solutions in deep LSTM training with random initialization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Vanishing or exploding gradients prevent effective training when Xavier initialization is used directly on very deep models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "In layer-wise pre-training, a one-layer LSTM model is first trained with normalized initialization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "In layer-wise pre-training, the first layer of a two-layer LSTM model is initialized by a trained one-layer model, and its second layer is regularly initialized.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Hard targets are vectors where only one state has a probability of one and all others have zero probabilities, generated by HMM-GMM systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Soft targets are probability vectors from the softmax layer of a model, where each state has a non-zero probability, representing more comprehensive knowledge than hard targets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The student network learns parameters and knowledge from the teacher network during layer-wise training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The teacher network provides knowledge through soft targets and is used to train the student network in a transfer learning setup.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The final alignment in layer-wise training is a combination of hard targets and soft targets, providing diverse knowledge from both the teacher network and true labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "If only soft targets are used, the student network performs no better than the teacher network, but it can outperform the teacher network when it also learns true labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "A deeper network spends less time to reach the same level of performance as an original network trained from the beginning because it skips a period of low performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Training with hard and soft targets is a time-saving method in neural network training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Training a network on a large dataset from the beginning still consumes excessive time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "A network can first be trained on a small part of the dataset to go deeper, leading to rapid reduction in training time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "After reaching a deep level, the network is trained on the entire dataset to achieve further performance improvements.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "There is no difference in accuracy between training from the beginning and training with initial small dataset followed by full dataset training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Differential saturation check limits the differentials of recurrent layers to prevent gradient vanishing during backpropagation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Gradients in conventional saturation check are clipped to the range [-5, 5].",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Cell activations in conventional saturation check are clipped to the range [-50, 50].",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Differentials of recurrent layers are limited; if they exceed a threshold, backpropagation is skipped.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Large or small differentials lead to gradient vanishing, resulting in no parameter updates during propagation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Cross-entropy is widely used in speech recognition training as a frame-wise discriminative criterion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Sequence discriminative training improves neural network performance in sequential learning tasks like speech recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "sMBR is selected as a sequence discriminative training criterion that focuses on state-level information to improve sequence-level accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "MMI is a sequence discriminative criterion designed to minimize expected sentence-level error.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "MPE is a sequence discriminative criterion designed to minimize expected error at different label granularities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "A frame-level accurate model is first trained using the cross-entropy loss function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Only a portion of the training dataset is needed during the sMBR training phase after initial CE training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Parallel training is a technique used to accelerate the training process by training multiple models simultaneously.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Training with a larger dataset improves recognition accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "A larger dataset implies more training samples and more model parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Parallel training with multiple GPUs is essential when using larger datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Data parallelism involves partitioning the entire training dataset into non-overlapping splits and distributing them to different GPUs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The model average method achieves linear speedup in the training phase but results in decreased recognition accuracy compared to single-GPU training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "BMUF is a method for parallel training that achieves linear speedup without degrading recognition accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "In the model average method, the aggregated model is computed and broadcasted to all GPUs after mini-batch optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "BMUF uses a novel model updating strategy where the global model is updated based on block momentum and block learning rate.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "BMUF includes a parameter called block momentum that influences the model update process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "BMUF includes a parameter called block learning rate that controls the update step in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Averaged SGD uses a moving average of the model as an estimator of the final model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The moving average is computed by model averaging or BMUF and serves as an estimator of the final model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The moving average model does not converge well in parallel training compared to single-GPU training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Model averaging based methods are preferred in parallel training of large-scale datasets due to faster convergence and no-degradation of accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preference"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Combining model averaging-based methods with moving average does not achieve the expected performance enhancement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The moving average method assigns equal weights to all model updates, regardless of their temporal order.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "BMUF maintains recognition accuracy during parallel training, unlike the model average method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The end of training achieves higher accuracy in the model averaging based approach, making it suitable for a larger proportion in the final INLINEFORM2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Exponential moving average (EMA) is a method where the weight for each older parameter decreases exponentially and never reaches zero.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "INLINEFORM0 represents the degree of weight decrease in EMA and is called the exponential updating rate.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "EMA is a non-interference training strategy that does not require broadcasting the updated model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "EMA can be directly appended to existing training procedures without requiring additional learning rate updates.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Shenma voice search is one of the most popular mobile search engines in China and operates as a streaming service that displays intermediate recognition results while users are speaking.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Unidirectional LSTM networks are used in real-time streaming speech recognition because they are well suited to real-time applications.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Deep neural network architectures improve LVCSR performance but lead to higher computation and RTF, preventing real-time recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Distillation is a knowledge transfer method that transfers performance from a deep, computationally expensive model to a smaller, more efficient model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The class probabilities from the cumbersome model are used as soft targets to transfer its generalization ability to a smaller model during distillation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "A 9-layer unidirectional LSTM model achieves outstanding performance but is too computationally expensive for real-time deployment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "A shallower network can learn the knowledge of a deeper network, enabling real-time deployment while maintaining performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The RTF (Recognition Time Factor) of a 2-layer network is acceptable after knowledge distillation from a 9-layer model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Knowledge distillation from a 9-layer well-trained model to a 2-layer model reduces RTF by 53% while increasing CER by only 5%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The CER (Character Error Rate) of a 2-layer distilled LSTM increases by only 5% compared to the original 9-layer model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Distillation transfers almost all knowledge from a deep network to a shallow network with minimal loss of deep network knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The CER of the 2-layer distilled LSTM decreases by 14% compared to a 2-layer regularly trained LSTM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Transfer learning with sMBR involves transferring knowledge from a well-trained generic scenario model to a specific scenario model to improve adaptation without full retraining.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "A model trained on data from a specific scenario adapts better to that scenario than a model trained on generic data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "A model trained on a generic scenario has greater robustness due to exposure to diverse conditions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Transfer learning is more practical because it allows a model trained on a smaller dataset to achieve similar recognition accuracy to one trained on a larger dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Shared knowledge between specific and generic scenarios can be transferred from a generic model to a specific one during transfer learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Sequence discriminative training is required to adapt a transferred model to a specific scenario after it performs well in frame-level classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Transfer learning with sMBR eliminates the need for alignment with an HMM-GMM system, saving time and effort in data preparation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "A large quantity of labeled training data is required to train an accurate acoustic model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The Shenma voice search dataset contains 17,000 hours of labeled Mandarin audio data collected from anonymous users via mobile phones.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The dataset includes diverse conditions such as low signal-to-noise ratios, babble, dialects, accents, and hesitation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Amap is a popular web mapping and navigation service in China where users can perform voice searches to locate and navigate to destinations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Transfer learning involves applying knowledge from a source model trained on one task to improve performance on a related target task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Shenma voice search is a streaming service that provides intermediate recognition results while users are still speaking.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Amap voice search is a streaming service that provides intermediate recognition results while users are still speaking.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "7300 hours of labeled data are collected in a manner similar to Shenma voice search data collection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "The dataset is divided into training, validation, and test sets to evaluate model performance and prevent overfitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "The three sets (training, validation, test) are split by speaker to avoid utterances from the same speaker appearing in all three sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "LSTM RNNs outperform conventional RNNs in speech recognition due to their ability to model long-range temporal dependencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Deep LSTM RNNs are particularly effective for speech recognition systems because they better capture temporal sequence conditions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "An unidirectional LSTM model is preferred for real-time online recognition in streaming services over bidirectional models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preference"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "A 26-dimensional filter bank is extracted for each frame as part of the input features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "A 2-dimensional pitch feature is extracted for each frame and concatenated with first and second order differences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "Super frames are stacked by 3 frames without overlapping to form the input sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The model architecture includes two LSTM layers with sigmoid activation functions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Architecture"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "After the two LSTM layers, a full-connection layer is applied in the network architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Architecture"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "The output layer is a softmax layer with 11088 HMM tied-states as output classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Architecture"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "The model uses cross-entropy (CE) loss as its primary loss function during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Loss Function"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "Performance in Mandarin is evaluated using character error rate (CER).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "Frame-level ground truth alignment is obtained using a GMM-HMM system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "Mini-batched stochastic gradient descent (SGD) with momentum is used for training the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Method"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "The model is trained for a total of 4 epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Parameter"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "BMUF (Block Momentum Update with Fusing) is used with block learning rate of 1 and block momentum of 0.9.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "A 5-gram language model is leveraged in the decoder to improve recognition accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "The decoder uses a vocabulary size of 760,000 words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "Gradients are clipped to a range of [-5, 5] during training to prevent instability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Constraint"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "Cell activations are clipped to a range of [-50, 50] to maintain numerical stability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Constraint"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "After training with cross-entropy loss, sMBR loss is applied to further improve model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Loss Function"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "BMUF outperforms traditional model averaging methods, especially during the synchronization phase.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "After synchronizing with BMUF, the EMA (Exponential Moving Average) method is used to further update the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "The training system is deployed on an MPI-based HPC cluster with 8 GPUs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Deployment"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "Each GPU processes a non-overlapping subset of the large-scale dataset in parallel.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "In traditional model averaging and BMUF methods, a parameter server waits for all workers to send local models before aggregating them, leading to wasted computing resources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "The decentralized method fully utilizes computing resources by enabling peer-to-peer communication between workers without a centralized parameter server.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "The MPI-based Mesh AllReduce method is used for model aggregation in a decentralized fashion with mesh topology.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "The local model of the INLINEFORM1-th worker in a cluster of INLINEFORM2 workers is split into INLINEFORM3 pieces and sent to corresponding workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "During aggregation, the INLINEFORM5-th worker computes INLINEFORM6 splits of the model and sends the updated model back to the workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "The EMA model is updated additionally but not broadcasted to other workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "The Shenma test set contains about 9000 samples and simulates various real-world user scenarios.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "The Amap test set includes about 7000 samples and is used to evaluate performance in map and navigation scenarios.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "In layer-wise training, the deeper model learns parameters and knowledge from the shallower model, initialized by the shallower one.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "The teacher model is trained using cross-entropy loss (CE).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training method"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "For each layer-wise trained CE model, a corresponding sMBR model is also trained to achieve better performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "A very deep LSTM is distilled into a shallower one to reduce real-time inference latency (RTF).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "Transfer learning from Shenma voice search to Amap voice search is demonstrated to evaluate model performance in real-world applications.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "The sMBR training dataset is randomly selected from the total dataset with a size of 1000 hours.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "A 6-layer deep unidirectional LSTM initialized with Xavier initialization converges well, but further increasing the number of layers does not improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "The 6-layers model is used as the initialization for the first 6 layers of a 7-layers model and provides soft targets for deeper layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "The teacher model for the 9-layers sMBR model is the 8-layers sMBR model, while other teacher models use the CE model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "Layer-wise trained models perform better than models initialized with Xavier initialization, especially as the model depth increases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "For the last layer training, an 8-layers sMBR model is used as the teacher model instead of a CE model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "Adding 3 additional layers through layer-wise training results in a 12.6% relative decrease in CER for the 9-layers sMBR model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "The averaged CER of sMBR models with different layers decreases by approximately 0.73% compared to CE models, indicating improved sequence discriminative learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s164": {
+      "text": "The Shenma model is a 2-layers distilled model of Shenma voice search trained for generic search scenarios.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s165": {
+      "text": "The Shenma model performs the worst among three methods because it is not trained for the Amap scenario.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s166": {
+      "text": "A 2-layers Shenma model further trained with sMBR achieves about 8.1% relative reduction in CER compared to a 2-layers regularly trained Amap model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s167": {
+      "text": "Both sMBR training datasets contain the same 1000 hours of data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s168": {
+      "text": "Using the Shenma model, only about 14% of the training dataset is needed to achieve lower CER, leading to significant time and cost savings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s169": {
+      "text": "Transfer learning with sMBR does not use HMM-GMM alignment, saving a large amount of time in training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s170": {
+      "text": "A complete deep unidirectional LSTM parallel training system for LVCSR has been presented.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s171": {
+      "text": "Distillation enables deep LSTM models to transfer knowledge to shallow models with minimal performance loss.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s172": {
+      "text": "A 2-layers distilled model can achieve a 14% relative reduction in CER compared to a regular 2-layers trained model, with very low RTF.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s173": {
+      "text": "If a robust model is trained in a generic scenario, only 14% of the training dataset is needed to train a more accurate acoustic model for a specific scenario like Amap voice search.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s174": {
+      "text": "Future work includes finding more effective methods to reduce CER by increasing the number of layers and applying the training framework to CTC and attention-based neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.73% absolute reduction",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "1000 hours",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "1000 hours data",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "12.6% decreasing",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "14% training dataset",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "16kHz",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "17000 hours",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "17000 hours",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "2-dimensional pitch feature",
+      "Property",
+      "s123"
+    ],
+    [
+      "2-layer distilled LSTM",
+      "Result",
+      "s101"
+    ],
+    [
+      "2-layers distilled model",
+      "Result",
+      "s172"
+    ],
+    [
+      "2-layers model",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "2-layers network",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "26-dimensional filter bank",
+      "Property",
+      "s122"
+    ],
+    [
+      "4 epochs",
+      "Training Parameter",
+      "s132"
+    ],
+    [
+      "5-gram language model",
+      "Component",
+      "s134"
+    ],
+    [
+      "6-layers model",
+      "Definition",
+      "s158"
+    ],
+    [
+      "6-layers model",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "6-layers vs 9-layers sMBR models",
+      "Result",
+      "s162"
+    ],
+    [
+      "7-layers model",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "7000 samples",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "7300 hours",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "7300 hours labeled data",
+      "Result",
+      "s116"
+    ],
+    [
+      "8 GPUs",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "9-layers LSTM",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "9-layers model",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "9-layers model",
+      "Property",
+      "s159"
+    ],
+    [
+      "9-layers model",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "9-layers unidirectional LSTM model",
+      "Result",
+      "s95"
+    ],
+    [
+      "9000 samples",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "Amap",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "Amap test set",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "Amap test set",
+      "Definition",
+      "s150"
+    ],
+    [
+      "Amap voice search",
+      "Definition",
+      "s112"
+    ],
+    [
+      "Amap voice search",
+      "Property",
+      "s115"
+    ],
+    [
+      "Amap voice search",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "Averaged SGD",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "BIBREF1",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "BIBREF19",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "BIBREF2",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "BIBREF3",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "BIBREF4",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "BIBREF5",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "BMUF",
+      "Advantage",
+      "s84"
+    ],
+    [
+      "BMUF",
+      "Method",
+      "s133"
+    ],
+    [
+      "BMUF",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "BMUF",
+      "Process",
+      "s75"
+    ],
+    [
+      "BMUF",
+      "Relationship",
+      "s23"
+    ],
+    [
+      "BMUF",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "BMUF vs traditional model averaging",
+      "Comparison",
+      "s139"
+    ],
+    [
+      "CE",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "CE model",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "CER",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "CER",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "CER",
+      "Property",
+      "s99"
+    ],
+    [
+      "CER",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "CNN",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "Connectionist Temporal Classification",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "EMA",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "EMA",
+      "Property",
+      "s88"
+    ],
+    [
+      "EMA",
+      "Property",
+      "s89"
+    ],
+    [
+      "EMA method",
+      "Method",
+      "s140"
+    ],
+    [
+      "EMA model",
+      "Action",
+      "s148"
+    ],
+    [
+      "EMA model",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "EMA model",
+      "Property",
+      "s21"
+    ],
+    [
+      "Fully-connected feed-forward deep neural network",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "GMM-HMM system",
+      "Method",
+      "s130"
+    ],
+    [
+      "GPU",
+      "Property",
+      "s142"
+    ],
+    [
+      "HMM-GMM system",
+      "Benefit",
+      "s108"
+    ],
+    [
+      "HMM-GMM system",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "HMM-GMM system",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "INLINEFORM0",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM1",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM2",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM3",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM4",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM5",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM6",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM7",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "INLINEFORM8",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "Introduction",
+      "Introduction",
+      "e1"
+    ],
+    [
+      "LSTM",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "LSTM",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "LSTM RNNs",
+      "Result",
+      "s119"
+    ],
+    [
+      "LSTM networks",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "LVCSR",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "LVCSR",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "LVCSR",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "LVCSR",
+      "Speech Recognition Task",
+      "e3"
+    ],
+    [
+      "LVCSR training dataset",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "LVCSR training dataset",
+      "Trend",
+      "s9"
+    ],
+    [
+      "MPI-based HPC cluster",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "Mandarin",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "Mesh AllReduce",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "Mesh AllReduce",
+      "Definition",
+      "s145"
+    ],
+    [
+      "RNNs",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "RTF",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "RTF",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "RTF",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "RTF",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "RTF",
+      "Property",
+      "s97"
+    ],
+    [
+      "SGD",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "Section 2",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "Section 3",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "Section 4",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "Section 5",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "Shenma model",
+      "Definition",
+      "s164"
+    ],
+    [
+      "Shenma model",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "Shenma model performance",
+      "Result",
+      "s165"
+    ],
+    [
+      "Shenma test set",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "Shenma test set",
+      "Definition",
+      "s149"
+    ],
+    [
+      "Shenma voice search",
+      "Definition",
+      "s90"
+    ],
+    [
+      "Shenma voice search",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "Shenma voice search",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "Shenma voice search",
+      "Property",
+      "s114"
+    ],
+    [
+      "Shenma voice search dataset",
+      "Property",
+      "s110"
+    ],
+    [
+      "Shenma voice search dataset",
+      "Property",
+      "s33"
+    ],
+    [
+      "Shenma voice search dataset",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "TABREF15",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "TABREF18",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e13"
+    ],
+    [
+      "Xavier initialization",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "Xavier initialization",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "Xavier initialization",
+      "Property",
+      "s39"
+    ],
+    [
+      "Xavier initialization",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "accents",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "accuracy gap",
+      "Result",
+      "s54"
+    ],
+    [
+      "aggregation phase",
+      "Process",
+      "s147"
+    ],
+    [
+      "asynchronous SGD",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "asynchronous SGD",
+      "Method",
+      "s12"
+    ],
+    [
+      "attention-based neural networks",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "averaged CER of sMBR models",
+      "Property",
+      "s163"
+    ],
+    [
+      "averaged SGD",
+      "Definition",
+      "s19"
+    ],
+    [
+      "averaged SGD",
+      "Definition",
+      "s78"
+    ],
+    [
+      "averaged SGD",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "babble",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "back propagation",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "bidirectional LSTM",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "bidirectional LSTM",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "block learning rate",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "block learning rate",
+      "Property",
+      "s77"
+    ],
+    [
+      "block momentum",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "block momentum",
+      "Property",
+      "s76"
+    ],
+    [
+      "block-wise model updating filter (BMUF)",
+      "Definition",
+      "s73"
+    ],
+    [
+      "block-wise model updating filter (BMUF)",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "blockwise model-updating filter",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "blockwise model-updating filter (BMUF)",
+      "Method",
+      "s16"
+    ],
+    [
+      "cell activation clipping",
+      "Training Constraint",
+      "s137"
+    ],
+    [
+      "cell activations",
+      "Property",
+      "s57"
+    ],
+    [
+      "cell activations",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "character error rate (CER)",
+      "Metric",
+      "s129"
+    ],
+    [
+      "character error rate (CER)",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "combination of model averaging and moving average",
+      "Result",
+      "s82"
+    ],
+    [
+      "computation",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "continuous speech recognition",
+      "Speech Recognition Task",
+      "e3"
+    ],
+    [
+      "convergence in deep neural networks",
+      "Problem",
+      "s7"
+    ],
+    [
+      "convolutional neural network",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "convolutional neural network (CNN)",
+      "Property",
+      "s2"
+    ],
+    [
+      "cross-entropy (CE)",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "cross-entropy (CE) loss",
+      "Method",
+      "s60"
+    ],
+    [
+      "cross-entropy loss",
+      "Loss Function",
+      "s128"
+    ],
+    [
+      "data parallelism",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "data parallelism",
+      "Definition",
+      "s71"
+    ],
+    [
+      "data parallelism",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "data usage in sMBR transfer learning",
+      "Result",
+      "s168"
+    ],
+    [
+      "dataset",
+      "Property",
+      "s111"
+    ],
+    [
+      "decentralized method",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "decentralized method",
+      "Result",
+      "s144"
+    ],
+    [
+      "deep LSTM",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "deep LSTM",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "deep LSTM RNN training framework",
+      "Definition",
+      "s32"
+    ],
+    [
+      "deep LSTM RNNs",
+      "Property",
+      "s120"
+    ],
+    [
+      "deep LSTM distillation",
+      "Purpose",
+      "s154"
+    ],
+    [
+      "deep LSTM model",
+      "Problem",
+      "s30"
+    ],
+    [
+      "deep LSTM parallel training system",
+      "Definition",
+      "s170"
+    ],
+    [
+      "deep LSTM training framework",
+      "Definition",
+      "s37"
+    ],
+    [
+      "deep networks",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "deep neural network",
+      "Definition",
+      "s1"
+    ],
+    [
+      "deep neural network",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "deep neural network",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "deep neural network architecture",
+      "Result",
+      "s92"
+    ],
+    [
+      "deep unidirectional LSTM",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "deep unidirectional LSTM",
+      "Result",
+      "s157"
+    ],
+    [
+      "deeper layers",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "deeper layers in neural networks",
+      "Result",
+      "s5"
+    ],
+    [
+      "deeper model",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "deeper network",
+      "Property",
+      "s49"
+    ],
+    [
+      "deeper network",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "deeper network initialized with shallower trained network",
+      "Solution",
+      "s8"
+    ],
+    [
+      "dialects",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "differential saturation",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "differential saturation check",
+      "Definition",
+      "s55"
+    ],
+    [
+      "differentials",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "differentials of recurrent layers",
+      "Property",
+      "s58"
+    ],
+    [
+      "distillation",
+      "Definition",
+      "s93"
+    ],
+    [
+      "distillation",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "distillation",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "distillation",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "distillation",
+      "Result",
+      "s100"
+    ],
+    [
+      "distillation in LSTM models",
+      "Result",
+      "s171"
+    ],
+    [
+      "empirical cost",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "entire dataset",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "exploding gradients",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "exponential moving average",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "exponential moving average (EMA)",
+      "Definition",
+      "s20"
+    ],
+    [
+      "exponential moving average (EMA)",
+      "Definition",
+      "s86"
+    ],
+    [
+      "exponential moving average (EMA)",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "exponential updating rate",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "exponential updating rate",
+      "Property",
+      "s87"
+    ],
+    [
+      "final alignment",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "final alignment",
+      "Result",
+      "s47"
+    ],
+    [
+      "final training on entire dataset",
+      "Procedure",
+      "s53"
+    ],
+    [
+      "frame level classification",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "frame level recognition accuracy",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "frame stacking",
+      "Definition",
+      "s24"
+    ],
+    [
+      "frame stacking",
+      "Result",
+      "s26"
+    ],
+    [
+      "frame stacking",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "frame-level accuracy",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "frame-level training",
+      "Procedure",
+      "s65"
+    ],
+    [
+      "full-connection layer",
+      "Architecture",
+      "s126"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s174"
+    ],
+    [
+      "generic scenario",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "generic scenario",
+      "Property",
+      "s104"
+    ],
+    [
+      "generic search scenario",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "global-model update",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "gradient clipping",
+      "Training Constraint",
+      "s136"
+    ],
+    [
+      "gradient clipping",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "gradient vanishing",
+      "Cause",
+      "s59"
+    ],
+    [
+      "gradients",
+      "Property",
+      "s56"
+    ],
+    [
+      "hard target",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "hard target",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "hard targets",
+      "Definition",
+      "s43"
+    ],
+    [
+      "hard targets",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "hesitation",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "hidden units",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "increasing depth",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "initial training with small dataset",
+      "Method",
+      "s52"
+    ],
+    [
+      "inlineform0",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "inlineform2",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "inlineform3",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "intermediate layer",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "knowledge distillation",
+      "Definition",
+      "s31"
+    ],
+    [
+      "knowledge distillation",
+      "Result",
+      "s98"
+    ],
+    [
+      "knowledge distillation",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "knowledge transfer",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "large training dataset",
+      "Problem",
+      "s51"
+    ],
+    [
+      "large training dataset",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "large vocabulary",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "larger dataset",
+      "Cause",
+      "s69"
+    ],
+    [
+      "larger dataset",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "larger dataset",
+      "Property",
+      "s68"
+    ],
+    [
+      "last layer training",
+      "Definition",
+      "s161"
+    ],
+    [
+      "layer-wise pre-training",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "layer-wise pre-training",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "layer-wise pre-training",
+      "Method",
+      "s6"
+    ],
+    [
+      "layer-wise pre-training",
+      "Property",
+      "s38"
+    ],
+    [
+      "layer-wise trained models",
+      "Result",
+      "s160"
+    ],
+    [
+      "layer-wise training",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "layer-wise training",
+      "Definition",
+      "s151"
+    ],
+    [
+      "layer-wise training",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "learning rate schedule",
+      "Definition",
+      "s18"
+    ],
+    [
+      "learning rate schedule",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "linear classifier",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "linear classifier probe",
+      "Definition",
+      "s4"
+    ],
+    [
+      "linear classifier probe",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "linear speedup",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "local model",
+      "Property",
+      "s146"
+    ],
+    [
+      "local models",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "long short-term memory",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "long short-term memory (LSTM) recurrent neural network (RNN)",
+      "Application",
+      "s3"
+    ],
+    [
+      "map and navigation scenarios",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "map and navigation task",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "maximum mutual information (MMI)",
+      "Method",
+      "s63"
+    ],
+    [
+      "maximum mutual information (MMI)",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "mesh topology",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "mini-batch SGD",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "mini-batch optimization",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "mini-batch stochastic gradient descent (SGD)",
+      "Method",
+      "s11"
+    ],
+    [
+      "mini-batched SGD",
+      "Training Method",
+      "s131"
+    ],
+    [
+      "minimum phone error (MPE)",
+      "Method",
+      "s64"
+    ],
+    [
+      "minimum phone error (MPE)",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "model average method",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "model average method",
+      "Process",
+      "s74"
+    ],
+    [
+      "model average method",
+      "Result",
+      "s72"
+    ],
+    [
+      "model averaging",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "model averaging",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "model averaging",
+      "Relationship",
+      "s22"
+    ],
+    [
+      "model averaging",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "model averaging based approach",
+      "Result",
+      "s85"
+    ],
+    [
+      "model averaging based methods",
+      "Preference",
+      "s81"
+    ],
+    [
+      "model averaging method",
+      "Limitation",
+      "s15"
+    ],
+    [
+      "model averaging method",
+      "Method",
+      "s14"
+    ],
+    [
+      "model synchronization",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "moving average (MA)",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "moving average (MA)",
+      "Property",
+      "s79"
+    ],
+    [
+      "moving average method",
+      "Limitation",
+      "s83"
+    ],
+    [
+      "moving average model",
+      "Result",
+      "s80"
+    ],
+    [
+      "moving averaged (MA)",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "moving averaged (MA) parameters",
+      "Property",
+      "s17"
+    ],
+    [
+      "multi-GPU parallel training",
+      "Solution",
+      "s10"
+    ],
+    [
+      "multi-GPUs",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "multiple GPUs",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "neural network dynamics",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "noise",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "non-interference training",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "non-overlap subset",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "normalized initialization",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "one-layer LSTM",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "one-layer LSTM model",
+      "Process",
+      "s41"
+    ],
+    [
+      "original network",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "parallel training",
+      "Method",
+      "s67"
+    ],
+    [
+      "parallel training",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "parallel training with multiple GPUs",
+      "Requirement",
+      "s70"
+    ],
+    [
+      "parameter averaging",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "parameter server",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "parameter server",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "pass learning",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "peer to peer communication",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "real time factor (RTF)",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "real world conditions",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "real-time factor (RTF)",
+      "Property",
+      "s29"
+    ],
+    [
+      "real-time requirement",
+      "Definition",
+      "s28"
+    ],
+    [
+      "real-time requirement",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "real-time streaming",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "recognition accuracy degradation",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "recognition tasks",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "recurrent neural network",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "sMBR",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "sMBR",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "sMBR",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "sMBR",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "sMBR loss",
+      "Loss Function",
+      "s138"
+    ],
+    [
+      "sMBR model",
+      "Relationship",
+      "s153"
+    ],
+    [
+      "sMBR trained Shenma model",
+      "Result",
+      "s166"
+    ],
+    [
+      "sMBR training",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "sMBR training dataset",
+      "Property",
+      "s156"
+    ],
+    [
+      "sMBR training phase",
+      "Procedure",
+      "s66"
+    ],
+    [
+      "segmental Minimum Bayes-Risk",
+      "Definition",
+      "s35"
+    ],
+    [
+      "segmental Minimum Bayes-Risk",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "sequence discriminative training",
+      "Method",
+      "s61"
+    ],
+    [
+      "sequence discriminative training",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "sequence discriminative training",
+      "Requirement",
+      "s107"
+    ],
+    [
+      "sequence discriminative training",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "sequence-level accuracy",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "shallow LSTM",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "shallow model",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "shallow model",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "shallow network",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "shallow network",
+      "Result",
+      "s96"
+    ],
+    [
+      "shallower layers",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "shallower model",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "shared knowledge",
+      "Relationship",
+      "s106"
+    ],
+    [
+      "small part of dataset",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "soft target",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "soft target",
+      "Property",
+      "s94"
+    ],
+    [
+      "soft target",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "soft target",
+      "sMBR Training Setup",
+      "e15"
+    ],
+    [
+      "soft target learning",
+      "Result",
+      "s48"
+    ],
+    [
+      "soft targets",
+      "Definition",
+      "s44"
+    ],
+    [
+      "soft targets",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "softmax layer",
+      "Architecture",
+      "s127"
+    ],
+    [
+      "softmax layer",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "speaker-based split",
+      "Property",
+      "s118"
+    ],
+    [
+      "specific scenario",
+      "LSTM Distillation & Transfer Learning",
+      "e16"
+    ],
+    [
+      "specific scenario",
+      "Property",
+      "s103"
+    ],
+    [
+      "specific scenario training",
+      "Conclusion",
+      "s173"
+    ],
+    [
+      "state-level minimum Bayes risk (sMBR)",
+      "Method",
+      "s62"
+    ],
+    [
+      "state-level minimum bayes risk (sMBR)",
+      "Training Optimization",
+      "e9"
+    ],
+    [
+      "stochastic gradient descent",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "student network",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "student network",
+      "Relationship",
+      "s45"
+    ],
+    [
+      "super frame",
+      "Definition",
+      "s25"
+    ],
+    [
+      "super frame",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "super frame stacking",
+      "Method",
+      "s124"
+    ],
+    [
+      "synchronous SGD",
+      "Deep Network Training",
+      "e5"
+    ],
+    [
+      "synchronous SGD",
+      "Method",
+      "s13"
+    ],
+    [
+      "task",
+      "Speech Recognition Task",
+      "e3"
+    ],
+    [
+      "teacher model",
+      "Training method",
+      "s152"
+    ],
+    [
+      "teacher network",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "teacher network",
+      "Relationship",
+      "s46"
+    ],
+    [
+      "traditional model averaging",
+      "Cause",
+      "s143"
+    ],
+    [
+      "training accuracy",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "training convergence",
+      "Parallel Training Methods",
+      "e10"
+    ],
+    [
+      "training data",
+      "Definition",
+      "s109"
+    ],
+    [
+      "training data",
+      "Multi-GPU Training Methods",
+      "e6"
+    ],
+    [
+      "training datasets for sMBR",
+      "Property",
+      "s167"
+    ],
+    [
+      "training neural network",
+      "LSTM vs Feed-Forward Networks",
+      "e4"
+    ],
+    [
+      "training set, validation set, test set",
+      "Definition",
+      "s117"
+    ],
+    [
+      "training system",
+      "Deployment",
+      "s141"
+    ],
+    [
+      "training with hard and soft targets",
+      "Method",
+      "s50"
+    ],
+    [
+      "transfer learning",
+      "Benefit",
+      "s105"
+    ],
+    [
+      "transfer learning",
+      "Decentralized Training",
+      "e14"
+    ],
+    [
+      "transfer learning",
+      "Definition",
+      "s113"
+    ],
+    [
+      "transfer learning",
+      "Definition",
+      "s34"
+    ],
+    [
+      "transfer learning",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "transfer learning",
+      "Result",
+      "s155"
+    ],
+    [
+      "transfer learning",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "transfer learning with sMBR",
+      "Definition",
+      "s102"
+    ],
+    [
+      "transfer learning with sMBR",
+      "Property",
+      "s169"
+    ],
+    [
+      "transfer training",
+      "Result",
+      "s36"
+    ],
+    [
+      "two LSTM layers",
+      "Architecture",
+      "s125"
+    ],
+    [
+      "two-layer LSTM model",
+      "Process",
+      "s42"
+    ],
+    [
+      "two-layers LSTM",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "unidirectional LSTM",
+      "Model Averaging and Distillation",
+      "e11"
+    ],
+    [
+      "unidirectional LSTM",
+      "Preference",
+      "s27"
+    ],
+    [
+      "unidirectional LSTM",
+      "Speech Recognition Training",
+      "e7"
+    ],
+    [
+      "unidirectional LSTM model",
+      "Preference",
+      "s121"
+    ],
+    [
+      "unidirectional LSTM network",
+      "Cause",
+      "s91"
+    ],
+    [
+      "vanishing gradients",
+      "LSTM Training Method",
+      "e8"
+    ],
+    [
+      "vanishing or exploding gradients",
+      "Cause",
+      "s40"
+    ],
+    [
+      "visual recognition task",
+      "Neural Network Depth",
+      "e2"
+    ],
+    [
+      "vocabulary size 760000",
+      "Property",
+      "s135"
+    ],
+    [
+      "voice search",
+      "Model Distillation & Transfer",
+      "e12"
+    ],
+    [
+      "weight decrease",
+      "Model Averaging and Distillation",
+      "e11"
+    ]
+  ]
+}

@@ -1,0 +1,5211 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 18,
+    "n_semantic": 163,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "language model pretraining": {
+      "tag_set": [
+        "Definition",
+        "Language Model Summarization"
+      ]
+    },
+    "NLP tasks": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "sentiment analysis": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "question answering": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "natural language inference": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "named entity recognition": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "textual similarity": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "ELMo": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "GPT": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "Bert": {
+      "tag_set": [
+        "Bert Embeddings",
+        "Bert Model Architecture",
+        "Bert Summarization Limitation",
+        "Definition",
+        "Language Model Summarization",
+        "Property"
+      ]
+    },
+    "Transformer": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "masked language modeling": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Language Model Summarization",
+        "Property"
+      ]
+    },
+    "next-sentence prediction": {
+      "tag_set": [
+        "Language Model Summarization",
+        "Property"
+      ]
+    },
+    "fine-tuning": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Bert Model Architecture",
+        "Extractive Summarization",
+        "Language Model Summarization"
+      ]
+    },
+    "sentence-level understanding": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "classification tasks": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "entailment relationship": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "sentence completion": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "text summarization": {
+      "tag_set": [
+        "Definition",
+        "Language Model Summarization"
+      ]
+    },
+    "wide-coverage natural language understanding": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "document condensation": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "abstractive modeling": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "extractive summarization": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Bert Summarization Limitation",
+        "Definition",
+        "Extractive Summarization",
+        "Language Model Summarization",
+        "Property",
+        "Summarization Evaluation",
+        "Summarization Model"
+      ]
+    },
+    "text span": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "encoder-decoder architecture": {
+      "tag_set": [
+        "Language Model Summarization",
+        "Property"
+      ]
+    },
+    "document-level encoder": {
+      "tag_set": [
+        "Definition",
+        "Language Model Summarization"
+      ]
+    },
+    "inter-sentence Transformer layers": {
+      "tag_set": [
+        "Language Model Summarization",
+        "Property"
+      ]
+    },
+    "randomly-initialized Transformer decoder": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "separated optimizers": {
+      "tag_set": [
+        "Language Model Summarization",
+        "Property"
+      ]
+    },
+    "pretrained encoder": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "training schedule": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "two-stage approach": {
+      "tag_set": [
+        "Definition",
+        "Language Model Summarization"
+      ]
+    },
+    "extractive objective": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "abstractive objective": {
+      "tag_set": [
+        "Language Model Summarization"
+      ]
+    },
+    "single-document news summarization": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "abstractive summarization": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Summarization Evaluation"
+      ]
+    },
+    "document encoding": {
+      "tag_set": [
+        "Importance",
+        "Summarization Evaluation"
+      ]
+    },
+    "pretrained language models": {
+      "tag_set": [
+        "Definition",
+        "Summarization Evaluation",
+        "Use"
+      ]
+    },
+    "copying mechanisms": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "reinforcement learning": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Summarization Evaluation"
+      ]
+    },
+    "multiple communicating encoders": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "state-of-the-art results": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF13": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Property",
+        "Summarization Datasets",
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Property",
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Property",
+        "Summarization Evaluation"
+      ]
+    },
+    "word": {
+      "tag_set": [
+        "Word Analysis"
+      ]
+    },
+    "next sentence prediction": {
+      "tag_set": [
+        "Bert Model Architecture"
+      ]
+    },
+    "3,300M words": {
+      "tag_set": [
+        "Bert Model Architecture"
+      ]
+    },
+    "Figure FIGREF2": {
+      "tag_set": [
+        "Bert Model Architecture"
+      ]
+    },
+    "[cls]": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Property"
+      ]
+    },
+    "[sep]": {
+      "tag_set": [
+        "Bert Model Architecture"
+      ]
+    },
+    "token embeddings": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Definition"
+      ]
+    },
+    "segmentation embeddings": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Definition",
+        "Property"
+      ]
+    },
+    "position embeddings": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Definition",
+        "Extractive Summarization"
+      ]
+    },
+    "bidirectional Transformer": {
+      "tag_set": [
+        "Bert Model Architecture"
+      ]
+    },
+    "layer normalization": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Definition"
+      ]
+    },
+    "multi-head attention": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Definition"
+      ]
+    },
+    "SummaRuNNer": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Definition"
+      ]
+    },
+    "Refresh": {
+      "tag_set": [
+        "Bert Model Architecture",
+        "Definition"
+      ]
+    },
+    "sentence classification": {
+      "tag_set": [
+        "Bert Model Architecture"
+      ]
+    },
+    "Recurrent Neural Networks": {
+      "tag_set": [
+        "Bert Model Architecture"
+      ]
+    },
+    "ROUGE metric": {
+      "tag_set": [
+        "Summarization Model"
+      ]
+    },
+    "latent variable inference": {
+      "tag_set": [
+        "Summarization Model"
+      ]
+    },
+    "gold standard labels": {
+      "tag_set": [
+        "Summarization Model"
+      ]
+    },
+    "human summaries": {
+      "tag_set": [
+        "Summarization Model"
+      ]
+    },
+    "selected sentences": {
+      "tag_set": [
+        "Summarization Model"
+      ]
+    },
+    "Latent BIBREF17": {
+      "tag_set": [
+        "Summarization Model"
+      ]
+    },
+    "Sumo B": {
+      "tag_set": [
+        "Summarization Model"
+      ]
+    },
+    "IBREF18": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Definition"
+      ]
+    },
+    "NeuSum": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Definition"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF20": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Property"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Property"
+      ]
+    },
+    "Pointer-generator network (PTgen)": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "Coverage mechanism (Cov)": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "Deep Communicating Agents (DCA)": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Definition"
+      ]
+    },
+    "Deep Reinforced Model (DRM)": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "intra-attention mechanism": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Property"
+      ]
+    },
+    "BottomUp": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Definition",
+        "Property",
+        "Summarization Datasets",
+        "Summarization Evaluation"
+      ]
+    },
+    "TConvS2S": {
+      "tag_set": [
+        "Abstractive Summarization Models",
+        "Result",
+        "Summarization Evaluation"
+      ]
+    },
+    "convolutional neural networks": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "topic distributions": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Abstractive Summarization Models"
+      ]
+    },
+    "masked-language model": {
+      "tag_set": [
+        "Bert Summarization Limitation"
+      ]
+    },
+    "output vectors": {
+      "tag_set": [
+        "Bert Summarization Limitation"
+      ]
+    },
+    "tokens": {
+      "tag_set": [
+        "Bert Summarization Limitation"
+      ]
+    },
+    "sentence-level representations": {
+      "tag_set": [
+        "Bert Summarization Limitation"
+      ]
+    },
+    "segmentation": {
+      "tag_set": [
+        "Bert Summarization Limitation"
+      ]
+    },
+    "embeddings": {
+      "tag_set": [
+        "Bert Embeddings"
+      ]
+    },
+    "sentences": {
+      "tag_set": [
+        "Bert Embeddings",
+        "Extractive Summarization"
+      ]
+    },
+    "sentence-pair inputs": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "summarization": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "Bert architecture": {
+      "tag_set": [
+        "BertSum Architecture",
+        "Property"
+      ]
+    },
+    "BertSum": {
+      "tag_set": [
+        "BertSum Architecture",
+        "Definition",
+        "Extractive Summarization",
+        "Implementation",
+        "Summarization Evaluation",
+        "Tokenization"
+      ]
+    },
+    "[cls] tokens": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "segment embeddings": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "interval segment embeddings": {
+      "tag_set": [
+        "BertSum Architecture",
+        "Property"
+      ]
+    },
+    "E_A": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "E_B": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "sent_i": {
+      "tag_set": [
+        "BertSum Architecture",
+        "Representation Usage"
+      ]
+    },
+    "document representation": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "sent_1": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "sent_2": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "sent_3": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "sent_4": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "sent_5": {
+      "tag_set": [
+        "BertSum Architecture"
+      ]
+    },
+    "Transformer layers": {
+      "tag_set": [
+        "Extractive Summarization",
+        "Property"
+      ]
+    },
+    "self-attention": {
+      "tag_set": [
+        "Extractive Summarization"
+      ]
+    },
+    "Bert model": {
+      "tag_set": [
+        "Extractive Summarization",
+        "Property"
+      ]
+    },
+    "512": {
+      "tag_set": [
+        "Extractive Summarization"
+      ]
+    },
+    "document": {
+      "tag_set": [
+        "Extractive Summarization"
+      ]
+    },
+    "summary": {
+      "tag_set": [
+        "Extractive Summarization"
+      ]
+    },
+    "label": {
+      "tag_set": [
+        "Extractive Summarization"
+      ]
+    },
+    "cls symbol": {
+      "tag_set": [
+        "Extractive Summarization"
+      ]
+    },
+    "top layer": {
+      "tag_set": [
+        "Extractive Summarization"
+      ]
+    },
+    "representation": {
+      "tag_set": [
+        "Representation Usage"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "BertSumAbs": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Summarization Datasets",
+        "Summarization Evaluation"
+      ]
+    },
+    "BertSumExtAbs": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Summarization Datasets",
+        "Summarization Evaluation"
+      ]
+    },
+    "CNN/DailyMail": {
+      "tag_set": [
+        "Dataset",
+        "Model Evaluation",
+        "Summarization Datasets",
+        "Summarization Evaluation",
+        "Summary Model Analysis"
+      ]
+    },
+    "NYT": {
+      "tag_set": [
+        "Dataset",
+        "Summarization Datasets"
+      ]
+    },
+    "XSum": {
+      "tag_set": [
+        "Dataset",
+        "Property",
+        "Summarization Datasets",
+        "Summarization Evaluation",
+        "Summary Model Analysis"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "BIBREF25": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "Stanford CoreNLP": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "BIBREF26": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "BIBREF27": {
+      "tag_set": [
+        "Definition",
+        "Summarization Datasets"
+      ]
+    },
+    "512 tokens": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "800 tokens": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "1093": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "10397": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "110540": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "3452": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "4000": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "50 words": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "abstractive summaries": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "extractive summaries": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "novel bi-grams": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "training set": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "validation set": {
+      "tag_set": [
+        "Summarization Datasets"
+      ]
+    },
+    "ROUGE-1": {
+      "tag_set": [
+        "Definition",
+        "Summarization Evaluation"
+      ]
+    },
+    "ROUGE-2": {
+      "tag_set": [
+        "Definition",
+        "Summarization Evaluation"
+      ]
+    },
+    "ROUGE-L": {
+      "tag_set": [
+        "Definition",
+        "Summarization Evaluation"
+      ]
+    },
+    "extractive Oracle": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "Lead-3": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "TransformerExt": {
+      "tag_set": [
+        "Property",
+        "Summarization Evaluation",
+        "Summary Model Analysis"
+      ]
+    },
+    "6 layers": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "512 hidden size": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "2048 feed-forward size": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "TransformerAbs": {
+      "tag_set": [
+        "Property",
+        "Summarization Evaluation"
+      ]
+    },
+    "768 hidden size": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BertSumExt": {
+      "tag_set": [
+        "Cause",
+        "Definition",
+        "Model Evaluation",
+        "Property",
+        "Result",
+        "Summarization Evaluation",
+        "Summary Model Analysis"
+      ]
+    },
+    "interval embeddings": {
+      "tag_set": [
+        "Result",
+        "Summarization Evaluation"
+      ]
+    },
+    "large version of Bert": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF32": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "SECREF5": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "SECREF6": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "TABREF23": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "NYT dataset": {
+      "tag_set": [
+        "Model Evaluation",
+        "Summary Model Analysis"
+      ]
+    },
+    "XSum dataset": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation",
+        "Property",
+        "Result",
+        "Source"
+      ]
+    },
+    "ROUGE Recall": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "Oracle upper bound": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation"
+      ]
+    },
+    "Lead-3 baseline": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation"
+      ]
+    },
+    "Compress BIBREF27": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation"
+      ]
+    },
+    "Transformer baseline": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "Bert-based models": {
+      "tag_set": [
+        "Model Evaluation",
+        "Result"
+      ]
+    },
+    "learning rates": {
+      "tag_set": [
+        "Analysis",
+        "Model Evaluation"
+      ]
+    },
+    "encoder learning rate": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "decoder learning rate": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "2e-3": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "0.1": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "FIGREF31": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "extractive models": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "abstractive models": {
+      "tag_set": [
+        "Model Evaluation",
+        "Result"
+      ]
+    },
+    "position of extracted sentences": {
+      "tag_set": [
+        "Analysis",
+        "Model Evaluation"
+      ]
+    },
+    "positions 1, 2": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "Oracle summaries": {
+      "tag_set": [
+        "Property",
+        "Summary Model Analysis"
+      ]
+    },
+    "novel n-grams": {
+      "tag_set": [
+        "Definition",
+        "Summary Model Analysis"
+      ]
+    },
+    "BertExtAbs": {
+      "tag_set": [
+        "Cause",
+        "Property",
+        "Summary Model Analysis"
+      ]
+    },
+    "BertAbs": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "automatic evaluation": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "human evaluation": {
+      "tag_set": [
+        "Method",
+        "Summary Model Analysis"
+      ]
+    },
+    "question-answering paradigm": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "Best-Worst Scaling": {
+      "tag_set": [
+        "Method",
+        "Summary Model Analysis"
+      ]
+    },
+    "Amazon Mechanical Turk": {
+      "tag_set": [
+        "Method",
+        "Summary Model Analysis"
+      ]
+    },
+    "20 documents": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "informativeness": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "fluency": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "succinctness": {
+      "tag_set": [
+        "Summary Model Analysis"
+      ]
+    },
+    "BIBREF33": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "TABREF37": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "TABREF38": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "Lead baseline": {
+      "tag_set": [
+        "Definition",
+        "Result",
+        "Summarization Evaluation"
+      ]
+    },
+    "Gold standard": {
+      "tag_set": [
+        "Definition",
+        "Summarization Evaluation"
+      ]
+    },
+    "Google PhD Fellowship": {
+      "tag_set": [
+        "Funding",
+        "Summarization Evaluation"
+      ]
+    },
+    "European Research Council": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "Lapata": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "681760": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "Shashi Narayan": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "p<0.05": {
+      "tag_set": [
+        "Summarization Evaluation"
+      ]
+    },
+    "combination of extractive and abstractive objectives": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "proposed approach": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "recently proposed techniques": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "minimum-requirement model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "model pretraining": {
+      "tag_set": [
+        "Implication"
+      ]
+    },
+    "proposed models": {
+      "tag_set": [
+        "Use"
+      ]
+    },
+    "input vector x_i": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "output vector t_i": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Latent": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Sumo": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "fine-tuning in Bert": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "document [sent_1, sent_2, sent_3, sent_4, sent_5]": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "loss function": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "encoder-decoder mismatch": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "fine-tuning schedule": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "two-stage fine-tuning": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "extractive objectives": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "L=2": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "CNN/DailyMail split": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "NYT split": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "XSum split": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "sentence splitting": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "input truncation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "entity anonymization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "filtering in NYT": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "abstractiveness measure": {
+      "tag_set": [
+        "Metric"
+      ]
+    },
+    "extractive vs abstractive summaries": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "CNN/DailyMail and NYT": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Extractive Summarization": {
+      "tag_set": [
+        "Evaluation",
+        "Oracle Summary",
+        "Redundancy Reduction",
+        "Sentence Selection",
+        "Training"
+      ]
+    },
+    "Abstractive Summarization": {
+      "tag_set": [
+        "Decoding",
+        "Decoding Constraints",
+        "Model Architecture",
+        "Model Behavior",
+        "Regularization",
+        "Training"
+      ]
+    },
+    "CNN/DailyMail dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BertSumExt (without interval embeddings)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "subwords tokenizer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "trigram-blocking": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CNN/DailyMail summaries": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "larger versions of Bert": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "Table TABREF24": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Oracle performance on XSum": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "abstractive Transformer baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Bert summarizers": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Table TABREF27": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Figure FIGREF31": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "TransformerExt summaries": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "BertSumExt summaries": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "QA paradigm": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "CNN/DailyMail and NYT datasets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "HIT": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "QA evaluation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "scoring mechanism (BIBREF33)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "quality-based evaluation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Tables TABREF37 and TABREF38": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "statistical significance (p<0.05)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "pretrained BERT": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Plan"
+      ]
+    },
+    "European Research Council (award number 681760)": {
+      "tag_set": [
+        "Funding"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Language model pretraining has advanced the state of the art in many NLP tasks ranging from sentiment analysis, to question answering, natural language inference, named entity recognition, and textual similarity. State-of-the-art pretrained models include ELMo BIBREF1, GPT BIBREF2, and more recently Bidirectional Encoder Representations from Transformers (Bert; BIBREF0). Bert combines both word and sentence representations in a single very large Transformer BIBREF3; it is pretrained on vast amounts of text, with an unsupervised objective of masked language modeling and next-sentence prediction and can be fine-tuned with various task-specific objectives. In most cases, pretrained language models have been employed as encoders for sentence- and paragraph-level natural language understanding problems BIBREF0 involving various classification tasks (e.g., predicting whether any two sentences are in an entailment relationship; or determining the completion of a sentence among four alternative sentences). In this paper, we examine the influence of language model pretraining on text summarization. Different from previous tasks, summarization requires wide-coverage natural language understanding going beyond the meaning of individual words and sentences. The aim is to condense a document into a shorter version while preserving most of its meaning. Furthermore, under abstractive modeling formulations, the task requires language generation capabilities in order to create summaries containing novel words and phrases not featured in the source text, while extractive summarization is often defined as a binary classification task with labels indicating whether a text span (typically a sentence) should be included in the summary. We explore the potential of Bert for text summarization under a general framework encompassing both extractive and abstractive modeling paradigms. We propose a novel document-level encoder based on Bert which is able to encode a document and obtain representations for its sentences. Our extractive model is built on top of this encoder by stacking several inter-sentence Transformer layers to capture document-level features for extracting sentences. Our abstractive model adopts an encoder-decoder architecture, combining the same pretrained Bert encoder with a randomly-initialized Transformer decoder BIBREF3. We design a new training schedule which separates the optimizers of the encoder and the decoder in order to accommodate the fact that the former is pretrained while the latter must be trained from scratch. Finally, motivated by previous work showing that the combination of extractive and abstractive objectives can help generate better summaries BIBREF4, we present a two-stage approach where the encoder is fine-tuned twice, first with an extractive objective and subsequently on the abstractive",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language Model Summarization"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "summarization task. We evaluate the proposed approach on three single-document news summarization datasets representative of different writing conventions (e.g., important information is concentrated at the beginning of the document or distributed more evenly throughout) and summary styles (e.g., verbose vs. more telegraphic; extractive vs. abstractive). Across datasets, we experimentally show that the proposed models achieve state-of-the-art results under both extractive and abstractive settings. Our contributions in this work are three-fold: a) we highlight the importance of document encoding for the summarization task; a variety of recently proposed techniques aim to enhance summarization performance via copying mechanisms BIBREF5, BIBREF6, BIBREF7, reinforcement learning BIBREF8, BIBREF9, BIBREF10, and multiple communicating encoders BIBREF11. We achieve better results with a minimum-requirement model without using any of these mechanisms; b) we showcase ways to effectively employ pretrained language models in summarization under both extractive and abstractive settings; we would expect any improvements in model pretraining to translate in better summarization in the future; and c) the proposed models can be used as a stepping stone to further improve summarization performance as well as baselines against which new proposals are tested. Background ::: Pretrained Language Models Pretrained language models BIBREF1, BIBREF2, BIBREF0, BIBREF12, BIBREF13 have recently emerged as a key technology for achieving impressive gains in a wide variety of natural language tasks. These models extend the idea",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Summarization Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "of word",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word Analysis"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "embeddings by learning contextual representations from large-scale corpora using a language modeling objective. Bidirectional Encoder Representations from Transformers (Bert; BIBREF0) is a new language representation model which is trained with a masked language modeling and a \u201cnext sentence prediction\u201d task on a corpus of 3,300M words.\nThe general architecture of Bert is shown in the left part of Figure FIGREF2. Input text is first preprocessed by inserting two special tokens. [cls] is appended to the beginning of the text; the output representation of this token is used to aggregate information from the whole sequence (e.g., for classification tasks). And token [sep] is inserted after each sentence as an indicator of sentence boundaries. The modified text is then represented as a sequence of tokens $X=[w_1,w_2,\\cdots ,w_n]$. Each token $w_i$ is assigned three kinds of embeddings: token embeddings indicate the meaning of each token, segmentation embeddings are used to discriminate between two sentences (e.g., during a sentence-pair classification task) and position embeddings indicate the position of each token within the text sequence. These three embeddings are summed to a single input vector $x_i$ and fed to a bidirectional Transformer with multiple layers:\nwhere $h^0=x$ are the input vectors; $\\mathrm {LN}$ is the layer normalization operation BIBREF14; $\\mathrm {MHAtt}$ is the multi-head attention operation BIBREF3; superscript $l$ indicates the depth of the stacked layer. On the top layer, Bert will generate an output vector $t_i$ for each token with rich contextual information.\nPretrained language models are usually used to enhance performance in language understanding tasks. Very recently, there have been attempts to apply pretrained models to various generation problems BIBREF15, BIBREF16. When fine-tuning for a specific task, unlike ELMo whose parameters are usually fixed, parameters in Bert are jointly fine-tuned with additional task-specific parameters.\nBackground ::: Extractive Summarization\nExtractive summarization systems create a summary by identifying (and subsequently concatenating) the most important sentences in a document. Neural models consider extractive summarization as a sentence classification problem: a neural encoder creates sentence representations and a classifier predicts which sentences should be selected as summaries. SummaRuNNer BIBREF7 is one of the earliest neural approaches adopting an encoder based on Recurrent Neural Networks. Refresh BIBREF8 is a reinforcement learning-based system",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Bert Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "trained by globally optimizing the ROUGE metric. More recent work achieves higher performance with more sophisticated model structures. Latent BIBREF17 frames extractive summarization as a latent variable inference problem; instead of maximizing the likelihood of \u201cgold\u201d standard labels, their latent model directly maximizes the likelihood of human summaries given selected sentences. Sumo B",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Summarization Model"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "IBREF18 capitalizes on the notion of structured attention to induce a multi-root dependency tree representation of the document while predicting the output summary. NeuSum BIBREF19 scores and selects sentences jointly and represents the state of the art in extractive summarization.\nBackground ::: Abstractive Summarization\nNeural approaches to abstractive summarization conceptualize the task as a sequence-to-sequence problem, where an encoder maps a sequence of tokens in the source document $\\mathbf {x} = [x_1, ..., x_n]$ to a sequence of continuous representations $\\mathbf {z} = [z_1, ..., z_n]$, and a decoder then generates the target summary $\\mathbf {y} = [y_1, ..., y_m]$ token-by-token, in an auto-regressive manner, hence modeling the conditional probability: $p(y_1, ..., y_m|x_1, ..., x_n)$.\nBIBREF20 and BIBREF21 were among the first to apply the neural encoder-decoder architecture to text summarization. BIBREF6 enhance this model with a pointer-generator network (PTgen) which allows it to copy words from the source text, and a coverage mechanism (Cov) which keeps track of words that have been summarized. BIBREF11 propose an abstractive system where multiple agents (encoders) represent the document together with a hierarchical attention mechanism (over the agents) for decoding. Their Deep Communicating Agents (DCA) model is trained end-to-end with reinforcement learning. BIBREF9 also present a deep reinforced model (DRM) for abstractive summarization which handles the coverage problem with an intra-attention mechanism where the decoder attends over previously generated words. BIBREF4 follow a bottom-up approach (BottomUp); a content selector first determines which phrases in the source document should be part of the summary, and a copy mechanism is applied only to preselected phrases during decoding. BIBREF22 propose an abstractive model which is particularly suited to extreme summarization (i.e., single sentence summaries), based on convolutional neural networks and additionally conditioned on topic distributions (TConvS2S).\nFine-tuning Bert for Summarization ::: Summar",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Abstractive Summarization Models"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "ization Encoder\nAlthough Bert has been used to fine-tune various NLP tasks, its application to summarization is not as straightforward. Since Bert is trained as a masked-language model, the output vectors are grounded to tokens instead of sentences, while in extractive summarization, most models manipulate sentence-level representations. Although segmentation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Bert Summarization Limitation"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "embeddings represent different sentences in Bert, they only apply to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Bert Embeddings"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "sentence-pair inputs, while in summarization we must encode and manipulate multi-sentential inputs. Figure FIGREF2 illustrates our proposed Bert architecture for Summarization (which we call BertSum).\nIn order to represent individual sentences, we insert external [cls] tokens at the start of each sentence, and each [cls] symbol collects features for the sentence preceding it. We also use interval segment embeddings to distinguish multiple sentences within a document. For $sent_i$ we assign segment embedding $E_A$ or $E_B$ depending on whether $i$ is odd or even. For example, for document $[sent_1, sent_2, sent_3, sent_4, sent_5]$, we would assign embeddings $[E_A, E_B, E_A,E_B, E_A]$. This way, document representations are learned hier",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "BertSum Architecture"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "archically where lower Transformer layers represent adjacent sentences, while higher layers, in combination with self-attention, represent multi-sentence discourse.\nPosition embeddings in the original Bert model have a maximum length of 512; we overcome this limitation by adding more position embeddings that are initialized randomly and fine-tuned with other parameters in the encoder.\nFine-tuning Bert for Summarization ::: Extractive Summarization\nLet $d$ denote a document containing sentences $[sent_1, sent_2, \\cdots , sent_m]$, where $sent_i$ is the $i$-th sentence in the document. Extractive summarization can be defined as the task of assigning a label $y_i \\in \\lbrace 0, 1\\rbrace $ to each $sent_i$, indicating whether the sentence should be included in the summary. It is assumed that summary sentences represent the most important content of the document.\nWith BertSum, vector $t_i$ which is the vector of the $i$-th [cls] symbol from the top layer can",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Extractive Summarization"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "be used as the representation for $sent_i$.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Representation Usage"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "Several inter-sentence Transformer layers are then stacked on top of Bert outputs, to capture document-level features for extracting summaries: where $h^0=\\mathrm {PosEmb}(T)$; $T$ denotes the sentence vectors output by BertSum, and function $\\mathrm {PosEmb}$ adds sinusoid positional embeddings BIBREF3 to $T$, indicating the position of each sentence. The final output layer is a sigmoid classifier: where $h^L_i$ is the vector for $sent_i$ from the top layer (the $L$-th layer ) of the Transformer. In experiments, we implemented Transformers with $L=1, 2, 3$ and found that a Transformer with $L=2$ performed best. We name this model BertSumExt. The loss of the model is the binary classification entropy of prediction $\\hat{y}_i$ against gold label $y_i$. Inter-sentence Transformer layers are jointly fine-tuned with BertSum. We use the Adam optimizer with $\\beta _1=0.9$, and $\\beta _2=0.999$). Our learning rate schedule follows BIBREF3 with warming-up ($ \\operatorname{\\operatorname{warmup}}=10,000$): Fine-tuning Bert for Summarization ::: Abstractive Summarization We use a standard encoder-decoder framework for abstractive summarization BIBREF6. The encoder is the pretrained BertSum and the decoder is a 6-layered Transformer initialized randomly. It is conceivable that there is a mismatch between the encoder and the decoder, since the former is pretrained while the latter must be trained from scratch. This can make fine-tuning unstable; for example, the encoder might overfit the data while the decoder underfits, or vice versa. To circumvent this, we design a new fine-tuning schedule which separates the optimizers of the encoder and the decoder. We use two Adam optimizers with $\\beta _1=0.9$ and $\\beta _2=0.999$ for the encoder and the decoder, respectively, each with different warmup-steps and learning rates: where $\\tilde{lr}_{\\mathcal {E}}=2e^{-3}$, and $\\operatorname{\\operatorname{warmup}}_{\\mathcal {E}}=20,000$ for the encoder and $\\tilde{lr}_{\\mathcal {D}}=0.1$, and $\\operatorname{\\operatorname{warmup}}_{\\mathcal {D}}=10,000$ for the decoder. This is based on the assumption that the pretrained encoder should be fine-tuned with a smaller learning rate and smoother decay (so that the encoder can be trained with more accurate gradients when the decoder is becoming stable). In addition, we propose a two-stage fine-tuning approach, where we first fine-tune the encoder on the extractive summarization task (Section SECREF8) and then fine-tune it on the abstractive summarization task (Section SECREF13). Previous work BIBREF4, BIBREF23 suggests that using extractive objectives can boost the performance of abstractive summarization. Also notice that this two-stage approach is conceptually very simple, the model can take advantage of information shared between these two tasks, without fundamentally changing its architecture. We name the default",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "abstractive model BertSumAbs and the two-stage fine-tuned model BertSumExtAbs. Experimental Setup In this section, we describe the summarization datasets used in our experiments and discuss various implementation details. Experimental Setup ::: Summarization Datasets We evaluated our model on three benchmark datasets, namely the CNN/DailyMail news highlights dataset BIBREF24, the New York Times Annotated Corpus (NYT; BIBREF25), and XSum BIBREF22. These datasets represent different summary styles ranging from highlights to very brief one sentence summaries. The summaries also vary with respect to the type of rewriting operations they exemplify (e.g., some showcase more cut and paste operations while others are genuinely abstractive). Table TABREF12 presents statistics on these datasets (test set); example (gold-standard) summaries are provided in the supplementary material. Experimental Setup ::: Summarization Datasets ::: CNN/DailyMail contains news articles and associated highlights, i.e., a few bullet points giving a brief overview of the article. We used the standard splits of BIBREF24 for training, validation, and testing (90,266/1,220/1,093 CNN documents and 196,961/12,148/10,397 DailyMail documents). We did not anonymize entities. We first split sentences with the Stanford CoreNLP toolkit BIBREF26 and pre-processed the dataset following BIBREF6. Input documents were truncated to 512 tokens. Experimental Setup ::: Summarization Datasets ::: NYT contains 110,540 articles with abstractive summaries. Following BIBREF27, we split these into 100,834/9,706 training/test examples, based on the date of publication (the test set contains all articles published from January 1, 2007 onward). We used 4,000 examples from the training as validation set. We also followed their filtering procedure, documents with summaries less than 50 words were removed from the dataset. The filtered test set (NYT50) includes 3,452 examples. Sentences were split with the Stanford CoreNLP toolkit BIBREF26 and pre-processed following BIBREF27. Input documents were truncated to 800 tokens. Experimental Setup ::: Summarization Datasets ::: XSum contains 226,711 news articles accompanied with a one-sentence summary, answering the question \u201cWhat is this article about?\u201d. We used the splits of BIBREF22 for training, validation, and testing (204,045/11,332/11,334) and followed the pre-processing introduced in their work. Input documents were truncated to 512 tokens. Aside from various statistics on the three datasets, Table TABREF12 also reports the proportion of novel bi-grams in gold summaries as a measure of their abstractiveness. We would expect models with extractive biases to perform better on datasets with (mostly) extractive summaries, and abstractive models to perform more rewrite operations on datasets with abstractive summaries. CNN/DailyMail and NYT are somewhat abstractive, while",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Summarization Datasets"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "XSum is highly abstractive. Experimental Setup ::: Implementation Details For both extractive and abstractive settings, we used PyTorch, OpenNMT BIBREF28 and the `bert-base-uncased' version of Bert to implement BertSum. Both source and target texts were tokenized with Bert's subwords tokenizer. Experimental Setup ::: Implementation Details ::: Extractive Summarization All extractive models were trained for 50,000 steps on 3 GPUs (GTX 1080 Ti) with gradient accumulation every two steps. Model checkpoints were saved and evaluated on the validation set every 1,000 steps. We selected the top-3 checkpoints based on the evaluation loss on the validation set, and report the averaged results on the test set. We used a greedy algorithm similar to BIBREF7 to obtain an oracle summary for each document to train extractive models. The algorithm generates an oracle consisting of multiple sentences which maximize the ROUGE-2 score against the gold summary. When predicting summaries for a new document, we first use the model to obtain the score for each sentence. We then rank these sentences by their scores from highest to lowest, and select the top-3 sentences as the summary. During sentence selection we use Trigram Blocking to reduce redundancy BIBREF9. Given summary $S$ and candidate sentence $c$, we skip $c$ if there exists a trigram overlapping between $c$ and $S$. The intuition is similar to Maximal Marginal Relevance (MMR; BIBREF29); we wish to minimize the similarity between the sentence being considered and sentences which have been already selected as part of the summary. Experimental Setup ::: Implementation Details ::: Abstractive Summarization In all abstractive models, we applied dropout (with probability $0.1$) before all linear layers; label smoothing BIBREF30 with smoothing factor $0.1$ was also used. Our Transformer decoder has 768 hidden units and the hidden size for all feed-forward layers is 2,048. All models were trained for 200,000 steps on 4 GPUs (GTX 1080 Ti) with gradient accumulation every five steps. Model checkpoints were saved and evaluated on the validation set every 2,500 steps. We selected the top-3 checkpoints based on their evaluation loss on the validation set, and report the averaged results on the test set. During decoding we used beam search (size 5), and tuned the $\\alpha $ for the length penalty BIBREF31 between $0.6$ and 1 on the validation set; we decode until an end-of-sequence token is emitted and repeated trigrams are blocked BIBREF9. It is worth noting that our decoder applies neither a copy",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "nor a coverage mechanism BIBREF6, despite their popularity in abstractive summarization. This is mainly because we focus on building a minimum-requirements model and these mechanisms may introduce additional hyper-parameters to tune. Thanks to the subwords tokenizer, we also rarely observe issues with out-of-vocabulary words in the output; moreover, trigram-blocking produces diverse summaries managing to reduce repetitions. Results ::: Automatic Evaluation We evaluated summarization quality automatically using ROUGE BIBREF32. We report unigram and bigram overlap (ROUGE-1 and ROUGE-2) as a means of assessing informativeness and the longest common subsequence (ROUGE-L) as a means of assessing fluency. Table TABREF23 summarizes our results on the CNN/DailyMail dataset. The first block in the table includes the results of an extractive Oracle system as an upper bound. We also present the Lead-3 baseline (which simply selects the first three sentences in a document). The second block in the table includes various extractive models trained on the CNN/DailyMail dataset (see Section SECREF5 for an overview). For comparison to our own model, we also implemented a non-pretrained Transformer baseline (TransformerExt) which uses the same architecture as BertSumExt, but with fewer parameters. It is randomly initialized and only trained on the summarization task. TransformerExt has 6 layers, the hidden size is 512, and the feed-forward filter size is 2,048. The model was trained with same settings as in BIBREF3. The third block in Table TABREF23 highlights the performance of several abstractive models on the CNN/DailyMail dataset (see Section SECREF6 for an overview). We also include an abstractive Transformer baseline (TransformerAbs) which has the same decoder as our abstractive BertSum models; the encoder is a 6-layer Transformer with 768 hidden size and 2,048 feed-forward filter size. The fourth block reports results with fine-tuned Bert models: BertSumExt and its two variants (one without interval embeddings, and one with the large version of Bert), BertSumAbs, and BertSumExtAbs. Bert-based models outperform the Lead-3 baseline which is not a strawman; on the CNN/DailyMail corpus it is indeed superior to several extractive BIBREF7, BIBREF8, BIBREF19 and abstractive models BIBREF6. Bert models collectively outperform all previously proposed extractive and abstractive systems, only falling behind the Oracle upper bound. Among Bert variants, BertSumExt performs best which is not entirely surprising; CNN/DailyMail summaries are somewhat extractive and even abstractive models are prone to copying sentences from the source document when trained on this dataset BIBREF6. Perhaps unsurprisingly we observe that larger versions of Bert lead to performance",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Summarization Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "improvements and that interval embeddings bring only slight gains. Table TABREF24 presents results on the NYT dataset. Following the evaluation protocol in BIBREF27, we use limited-length ROUGE Recall, where predicted summaries are truncated to the length of the gold summaries. Again, we report the performance of the Oracle upper bound and Lead-3 baseline. The second block in the table contains previously proposed extractive models as well as our own Transformer baseline. Compress BIBREF27 is an ILP-based model which combines compression and anaphoricity constraints. The third block includes abstractive models from the literature, and our Transformer baseline. Bert-based models are shown in the fourth block. Again, we observe that they outperform previously proposed approaches. On this dataset, abstractive Bert models generally perform better compared to BertSumExt, almost approaching Oracle performance. Table TABREF26 summarizes our results on the XSum dataset. Recall that summaries in this dataset are highly abstractive (see Table TABREF12) consisting of a single sentence conveying the gist of the document. Extractive models here perform poorly as corroborated by the low performance of the Lead baseline (which simply selects the leading sentence from the document), and the Oracle (which selects a single-best sentence in each document) in Table TABREF26. As a result, we do not report results for extractive models on this dataset. The second block in Table TABREF26 presents the results of various abstractive models taken from BIBREF22 and also includes our own abstractive Transformer baseline. In the third block we show the results of our Bert summarizers which again are superior to all previously reported models (by a wide margin). Results ::: Model Analysis ::: Learning Rates Recall that our abstractive model uses separate optimizers for the encoder and decoder. In Table TABREF27 we examine whether the combination of different learning rates ($\\tilde{lr}_{\\mathcal {E}}$ and $\\tilde{lr}_{\\mathcal {D}}$) is indeed beneficial. Specifically, we report model perplexity on the CNN/DailyMail validation set for varying encoder/decoder learning rates. We can see that the model performs best with $\\tilde{lr}_{\\mathcal {E}}=2e-3$ and $\\tilde{lr}_{\\mathcal {D}}=0.1$. Results ::: Model Analysis ::: Position of Extracted Sentences In addition to the evaluation based on ROUGE, we also analyzed in more detail the summaries produced by our model. For the extractive setting, we looked at the position (in the source document) of the sentences which were selected to appear in the summary. Figure FIGREF31 shows the proportion of selected summary sentences which appear in the source document at",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "positions 1, 2, and so on. The analysis was conducted on the CNN/DailyMail dataset for Oracle summaries, and those produced by BertSumExt and the TransformerExt. We can see that Oracle summary sentences are fairly smoothly distributed across documents, while summaries created by TransformerExt mostly concentrate on the first document sentences. BertSumExt outputs are more similar to Oracle summaries, indicating that with the pretrained encoder, the model relies less on shallow position features, and learns deeper document representations. Results ::: Model Analysis ::: Novel N-grams We also analyzed the output of abstractive systems by calculating the proportion of novel n-grams that appear in the summaries but not in the source texts. The results are shown in Figure FIGREF33. In the CNN/DailyMail dataset, the proportion of novel n-grams in automatically generated summaries is much lower compared to reference summaries, but in XSum, this gap is much smaller. We also observe that on CNN/DailyMail, BertExtAbs produces less novel n-ngrams than BertAbs, which is not surprising. BertExtAbs is more biased towards selecting sentences from the source document since it is initially trained as an extractive model. The supplementary material includes examples of system output and additional ablation studies. Results ::: Human Evaluation In addition to automatic evaluation, we also evaluated system output by eliciting human judgments. We report experiments following a question-answering (QA) paradigm BIBREF33, BIBREF8 which quantifies the degree to which summarization models retain key information from the document. Under this paradigm, a set of questions is created based on the gold summary under the assumption that it highlights the most important document content. Participants are then asked to answer these questions by reading system summaries alone without access to the article. The more questions a system can answer, the better it is at summarizing the document as a whole. Moreover, we also assessed the overall quality of the summaries produced by abstractive systems which due to their ability to rewrite content may produce disfluent or ungrammatical output. Specifically, we followed the Best-Worst Scaling BIBREF34 method where participants were presented with the output of two systems (and the original document) and asked to decide which one was better according to the criteria of Informativeness, Fluency, and Succinctness. Both types of evaluation were conducted on the Amazon Mechanical Turk platform. For the CNN/DailyMail and NYT datasets we used the same documents (20 in total) and questions from previous work BIBREF8, BIBREF18. For XSum, we",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Summary Model Analysis"
+      ],
+      "topic_links": []
+    },
+    "e18": {
+      "text": "randomly selected 20 documents (and their questions) from the release of BIBREF22. We elicited 3 responses per HIT. With regard to QA evaluation, we adopted the scoring mechanism from BIBREF33; correct answers were marked with a score of one, partially correct answers with 0.5, and zero otherwise. For quality-based evaluation, the rating of each system was computed as the percentage of times it was chosen as better minus the times it was selected as worse. Ratings thus range from -1 (worst) to 1 (best). Results for extractive and abstractive systems are shown in Tables TABREF37 and TABREF38, respectively. We compared the best performing BertSum model in each setting (extractive or abstractive) against various state-of-the-art systems (whose output is publicly available), the Lead baseline, and the Gold standard as an upper bound. As shown in both tables participants overwhelmingly prefer the output of our model against comparison systems across datasets and evaluation paradigms. All differences between BertSum and comparison models are statistically significant ($p<0.05$), with the exception of TConvS2S (see Table TABREF38; XSum) in the QA evaluation setting. Conclusions In this paper, we showcased how pretrained Bert can be usefully applied in text summarization. We introduced a novel document-level encoder and proposed a general framework for both abstractive and extractive summarization. Experimental results across three datasets show that our model achieves state-of-the-art results across the board under automatic and human-based evaluation protocols. Although we mainly focused on document encoding for summarization, in the future, we would like to take advantage the capabilities of Bert for language generation. Acknowledgments This research is supported by a Google PhD Fellowship to the first author. We gratefully acknowledge the support of the European Research Council (Lapata, award number 681760, \u201cTranslating Multiple Modalities into Text\u201d). We would also like to thank Shashi Narayan for providing us with the XSum dataset.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Summarization Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Language model pretraining is a process that advances state-of-the-art performance in various natural language processing tasks such as sentiment analysis, question answering, and named entity recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Bert is a pretrained language model that combines word and sentence representations using a large Transformer architecture and is trained on vast text corpora with masked language modeling and next-sentence prediction objectives.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Masked language modeling is an unsupervised objective used during the pretraining of Bert to predict missing words in a sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Next-sentence prediction is an unsupervised objective in Bert's pretraining that determines whether a given sentence follows another in a document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Text summarization is the task of condensing a document into a shorter version while preserving most of its meaning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Abstractive summarization involves generating new words and phrases not present in the source text to create a summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Extractive summarization is a binary classification task that determines whether a text span (typically a sentence) should be included in the summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "A document-level encoder based on Bert is proposed to encode entire documents and obtain sentence-level representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Inter-sentence Transformer layers are stacked in the extractive model to capture document-level features for sentence selection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The abstractive model uses an encoder-decoder architecture with a pretrained Bert encoder and a randomly initialized Transformer decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "A new training schedule separates the optimizers of the encoder and decoder to allow the pretrained encoder to remain stable while the decoder is trained from scratch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "A two-stage approach is proposed where the encoder is first fine-tuned with an extractive objective and then with an abstractive objective to improve summary quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Combining extractive and abstractive objectives has been shown to help generate better summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The proposed approach achieves state-of-the-art results on three single-document news summarization datasets under both extractive and abstractive settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Document encoding is highlighted as crucial for the summarization task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Importance"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Techniques such as copying mechanisms, reinforcement learning, and multiple communicating encoders have been proposed to enhance summarization performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "A minimum-requirement model without using copying mechanisms, reinforcement learning, or multiple communicating encoders achieves better results than models relying on these mechanisms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Pretrained language models are a key technology that has enabled significant gains in various natural language tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Improvements in model pretraining are expected to translate into better summarization performance in the future.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Implication"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The proposed models can serve as a stepping stone for further improving summarization performance and as baselines for evaluating new proposals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Bert is a language representation model trained with masked language modeling and a next sentence prediction task on a corpus of 3.3 billion words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The Bert architecture includes a bidirectional Transformer with multiple layers that processes input text after preprocessing with special tokens [cls] and [sep].",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The [cls] token is appended to the beginning of the input text and its output representation is used to aggregate information from the entire sequence, such as for classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Token embeddings represent the meaning of each token in the input sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Segmentation embeddings are used to distinguish between tokens from different sentences, especially in sentence-pair classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Position embeddings indicate the position of each token within the text sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Each token w_i is transformed into an input vector x_i by summing its token, segmentation, and position embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Multi-head attention (MHAtt) is a key operation in the bidirectional Transformer layers of Bert that enables the model to capture contextual relationships between tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Layer normalization (LN) is applied to the output of each layer in the Bert architecture to stabilize training and improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Bert generates an output vector t_i for each token that contains rich contextual information derived from the entire input sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Pretrained language models are used to enhance performance in language understanding tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "SummaRuNNer is one of the earliest neural extractive summarization systems that uses a recurrent neural network-based encoder to classify sentences for selection in a summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Refresh is a reinforcement learning-based extractive summarization system trained to globally optimize the ROUGE metric.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Latent frames extractive summarization as a latent variable inference problem, maximizing the likelihood of human summaries given selected sentences rather than gold-standard labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Sumo is a recent model in extractive summarization that achieves higher performance through more sophisticated model structures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "Unlike ELMo, Bert's parameters are jointly fine-tuned with task-specific parameters during fine-tuning for a specific task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "IBREF18 uses structured attention to create a multi-root dependency tree representation of the document while predicting the output summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "NeuSum BIBREF19 scores and selects sentences jointly and represents the state of the art in extractive summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Neural approaches to abstractive summarization model the task as a sequence-to-sequence problem where an encoder maps source tokens to continuous representations and a decoder generates a summary token-by-token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "BIBREF20 was among the first to apply the neural encoder-decoder architecture to text summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "BIBREF21 was among the first to apply the neural encoder-decoder architecture to text summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "BIBREF6 enhances the encoder-decoder model with a pointer-generator network and a coverage mechanism to allow copying from the source text and track covered words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "BIBREF11 proposes an abstractive system using multiple encoders and a hierarchical attention mechanism for decoding, trained end-to-end with reinforcement learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "DCA is a deep reinforced model for abstractive summarization that uses multiple agents and hierarchical attention, trained with reinforcement learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "BIBREF9 presents a deep reinforced model (DRM) for abstractive summarization that uses an intra-attention mechanism to handle coverage by attending to previously generated words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "BIBREF4 follows a bottom-up approach where a content selector determines which phrases are included in the summary, and a copy mechanism is applied only to preselected phrases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "BIBREF22 proposes an abstractive model for extreme summarization (single sentence summaries) based on convolutional neural networks and conditioned on topic distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Bert is trained as a masked-language model, so its output vectors are grounded to tokens rather than sentences, making it less straightforward for summarization tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Segmentation embeddings in Bert apply only to sentence-pair inputs and are not suitable for multi-sentential summarization inputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "BertSum is a proposed Bert architecture for summarization that inserts [cls] tokens at the start of each sentence and uses interval segment embeddings to distinguish sentences within a document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Interval segment embeddings are used in BertSum to assign E_A or E_B to sentences based on their position (odd or even) to distinguish multiple sentences in a document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "For a document with five sentences, BertSum assigns segment embeddings [E_A, E_B, E_A, E_B, E_A].",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Lower Transformer layers in a model represent adjacent sentences, while higher layers, combined with self-attention, capture multi-sentence discourse.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The original Bert model has a maximum position embedding length of 512.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Position embeddings are added to sentence vectors to indicate the position of each sentence in a document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "BertSum uses the vector of the [cls] token from the top layer of Bert as a representation for each sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Extractive summarization assigns a binary label to each sentence indicating whether it should be included in the summary, based on its importance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "BertSumExt is a model that stacks several inter-sentence Transformer layers on top of BertSum outputs and uses a sigmoid classifier with L=2 layers to predict summary sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The loss function in BertSumExt is the binary classification entropy between predicted labels and gold labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Inter-sentence Transformer layers are jointly fine-tuned with BertSum to capture document-level features for summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Abstractive summarization uses an encoder-decoder framework where the encoder is pretrained BertSum and the decoder is a randomly initialized 6-layered Transformer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "A mismatch between the pretrained encoder and the randomly initialized decoder can lead to unstable fine-tuning, with the encoder overfitting and the decoder underfitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "A separate Adam optimizer is used for the encoder and decoder, with different warmup steps and learning rates: encoder uses lr=2e-3, warmup=20,000; decoder uses lr=0.1, warmup=10,000.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The two-stage fine-tuning approach first trains the encoder on extractive summarization and then fine-tunes it on abstractive summarization to improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Using extractive summarization objectives has been shown to boost the performance of abstractive summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "A Transformer with L=2 layers performs best in the extractive summarization task in BertSumExt.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "BertSumAbs is an abstractive model for text summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "BertSumExtAbs is a two-stage fine-tuned model for text summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "CNN/DailyMail is a benchmark dataset containing news articles and associated highlights, consisting of bullet points that briefly summarize the articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "NYT is a dataset containing 110,540 articles with abstractive summaries, split into training and test sets based on publication dates.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "XSum is a dataset containing 226,711 news articles with one-sentence summaries that answer the question 'What is this article about?'",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The CNN/DailyMail dataset is split into 90,266 training, 1,220 validation, and 1,093 test CNN documents, and 196,961 training, 12,148 validation, and 10,397 test DailyMail documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The NYT dataset is split into 100,834 training and 9,706 test examples, with the test set containing articles published from January 1, 2007 onward.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The XSum dataset is split into 204,045 training, 11,332 validation, and 11,334 test examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Sentences in all datasets were split using the Stanford CoreNLP toolkit.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Input documents in CNN/DailyMail and XSum were truncated to 512 tokens, while those in NYT were truncated to 800 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Entities in the CNN/DailyMail dataset were not anonymized.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Articles in the NYT dataset with summaries less than 50 words were removed, resulting in a filtered test set (NYT50) with 3,452 examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The proportion of novel bi-grams in gold summaries is used as a measure of the abstractiveness of the summaries in the datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Models with extractive biases are expected to perform better on datasets with mostly extractive summaries, while abstractive models perform more rewrite operations on datasets with abstractive summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "CNN/DailyMail and NYT are considered to have somewhat abstractive summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "XSum is highly abstractive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "BertSum was implemented using PyTorch, OpenNMT, and the 'bert-base-uncased' version of BERT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Implementation"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Both source and target texts in BertSum were tokenized using BERT's subwords tokenizer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tokenization"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Extractive models were trained for 50,000 steps on 3 GTX 1080 Ti GPUs with gradient accumulation every two steps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Model checkpoints were evaluated on the validation set every 1,000 steps, and the top-3 checkpoints based on validation loss were selected for test set averaging.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "An oracle summary was generated using a greedy algorithm that maximizes ROUGE-2 score against the gold summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Oracle Summary"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Top-3 sentences with the highest scores are selected as the summary after ranking by sentence scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Sentence Selection"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Trigram blocking is used during sentence selection to reduce redundancy by skipping sentences that share trigrams with already selected sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Redundancy Reduction"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Abstractive models were trained for 200,000 steps on 4 GTX 1080 Ti GPUs with gradient accumulation every five steps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The Transformer decoder in abstractive models has 768 hidden units and feed-forward layers with 2,048 hidden size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Dropout with probability 0.1 is applied before all linear layers, and label smoothing with factor 0.1 is used.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Regularization"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Beam search with beam size 5 is used during decoding, and the length penalty parameter \u03b1 is tuned between 0.6 and 1 on the validation set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Decoding"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Decoding stops when an end-of-sequence token is emitted and repeated trigrams are blocked to prevent redundancy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Decoding Constraints"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The decoder in abstractive models does not apply a copy mechanism.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Behavior"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "ROUGE-1 measures unigram overlap to assess the informativeness of summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "ROUGE-2 measures bigram overlap to assess the informativeness of summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "ROUGE-L measures the longest common subsequence to assess the fluency of summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Bert-based models outperform the Lead-3 baseline and all previously proposed extractive and abstractive systems on the CNN/DailyMail dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The Lead-3 baseline selects the first three sentences of a document as the summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "TransformerExt is a non-pretrained Transformer baseline with 6 layers, 512 hidden size, and 2,048 feed-forward filter size, randomly initialized and trained only on the summarization task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "TransformerAbs has the same decoder as the abstractive BertSum models and uses a 6-layer Transformer encoder with 768 hidden size and 2,048 feed-forward filter size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "BertSumExt performs the best among Bert variants on the CNN/DailyMail dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "BertSumExtAbs is a variant of BertSumExt that combines extractive and abstractive components.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "BertSumExt without interval embeddings is a variant of BertSumExt that omits interval embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "BertSumAbs is an abstractive Bert-based model trained on the CNN/DailyMail dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The subwords tokenizer helps avoid out-of-vocabulary word issues in the output summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Trigram-blocking improves summary diversity by reducing repetitions in generated summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "CNN/DailyMail summaries are somewhat extractive, and even abstractive models tend to copy sentences from the source document when trained on this dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "Larger versions of Bert lead to improved performance on the CNN/DailyMail dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The Oracle upper bound represents the ideal performance of a summarization system by directly selecting the best summary from the source document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Interval embeddings bring only slight gains to the model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Table TABREF24 presents results on the NYT dataset using limited-length ROUGE Recall, where predicted summaries are truncated to the length of the gold summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The evaluation protocol in BIBREF27 involves using limited-length ROUGE Recall with predicted summaries truncated to match the length of the gold summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "The Oracle upper bound represents the performance of the ideal model that selects the single-best sentence in each document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "The Lead-3 baseline selects the top three sentences from the source document to form a summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Compress BIBREF27 is an ILP-based model that combines compression and anaphoricity constraints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Abstractive models outperform previously proposed approaches on the NYT dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Bert-based models perform better than previously reported models on the NYT dataset, almost approaching Oracle performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "The XSum dataset consists of highly abstractive summaries, each a single sentence conveying the gist of the document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The Lead baseline performs poorly on the XSum dataset, as it simply selects the leading sentence from the document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "The Oracle model, which selects the single-best sentence in each document, achieves low performance on the XSum dataset, confirming the poor performance of extractive models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "The abstractive Transformer baseline is a model introduced in the study that performs well on both the NYT and XSum datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "The Bert summarizers outperform all previously reported models by a wide margin on the XSum dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The abstractive model uses separate optimizers for the encoder and decoder, with different learning rates for each component.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The model achieves the best perplexity on the CNN/DailyMail validation set with encoder learning rate $\\tilde{lr}_{\\mathcal{E}}=2e-3$ and decoder learning rate $\\tilde{lr}_{\\mathcal{D}}=0.1$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "In the extractive setting, the position of sentences selected for the summary in the source document is analyzed to understand selection behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "Figure FIGREF31 shows the proportion of selected summary sentences that appear in the source document at specific positions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "Oracle summary sentences are fairly smoothly distributed across documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "Summaries created by TransformerExt mostly concentrate on the first document sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "BertSumExt outputs are more similar to Oracle summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "BertSumExt relies less on shallow position features due to its pretrained encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "BertSumExt learns deeper document representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "Novel n-grams are n-grams that appear in summaries but not in the source texts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "The proportion of novel n-grams in automatically generated summaries is much lower than in reference summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "The gap between novel n-grams in automatic and reference summaries is much smaller in XSum.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "BertExtAbs produces fewer novel n-grams than BertAbs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "BertExtAbs is more biased toward selecting sentences from the source document because it is initially trained as an extractive model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "Human evaluation of summarization models is conducted using a question-answering (QA) paradigm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The QA paradigm quantifies how well summarization models retain key information from the document by having participants answer questions based on summaries alone.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "Best-Worst Scaling is used to assess summary quality by having participants compare two systems on criteria of informativeness, fluency, and succinctness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "Both automatic and human evaluations were conducted on the Amazon Mechanical Turk platform.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "The same documents (20 in total) and questions from previous work were used for human evaluation on CNN/DailyMail and NYT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "A separate set of questions and documents was used for human evaluation on XSum.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "BertSum is a model that uses a pretrained BERT architecture for both extractive and abstractive text summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "Extractive summarization involves selecting and reassembling existing sentences from the original text to form a summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "Abstractive summarization generates new sentences that capture the essence of the original text, not directly copied from it.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "BIBREF22 is a dataset or release containing 20 randomly selected documents and their associated questions used for evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "A HIT (Human Intelligence Task) is a task presented to human evaluators for rating or responding to content, such as summarization outputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "QA evaluation assesses the quality of summaries by measuring how well they answer the associated questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "The scoring mechanism from BIBREF33 assigns a score of 1 for correct answers, 0.5 for partially correct answers, and 0 for incorrect ones.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "Quality-based evaluation computes a system's rating as the percentage of times it is chosen as better minus the times it is chosen as worse.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "The Lead baseline is a standard summarization method used as a comparison point in evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "The Gold standard represents the ideal or optimal summary output, serving as an upper bound in performance evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "Tables TABREF37 and TABREF38 present the results of extractive and abstractive summarization systems, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "TConvS2S showed no statistically significant difference from BertSum in the QA evaluation setting on the XSum dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "All differences between BertSum and comparison models are statistically significant at the p<0.05 level, except for TConvS2S on XSum in QA evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "A document-level encoder is a neural network component that processes entire documents to extract meaningful representations for summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "Pretrained BERT is applied in text summarization to improve performance through contextual understanding and language modeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "Future work includes leveraging BERT's capabilities for language generation beyond summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "The first author received a Google PhD Fellowship to support this research.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "The European Research Council provided funding under award number 681760 for the Lapata project on translating multiple modalities into text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "The XSum dataset was provided by Shashi Narayan and used in the evaluation of summarization models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.1",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "10397",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "1093",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "110540",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "20 documents",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "2048 feed-forward size",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "2e-3",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "3,300M words",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "3452",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "4000",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "50 words",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "512",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "512 hidden size",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "512 tokens",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "6 layers",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "681760",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "768 hidden size",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "800 tokens",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "Abstractive Summarization",
+      "Decoding",
+      "s93"
+    ],
+    [
+      "Abstractive Summarization",
+      "Decoding Constraints",
+      "s94"
+    ],
+    [
+      "Abstractive Summarization",
+      "Model Architecture",
+      "s91"
+    ],
+    [
+      "Abstractive Summarization",
+      "Model Behavior",
+      "s95"
+    ],
+    [
+      "Abstractive Summarization",
+      "Regularization",
+      "s92"
+    ],
+    [
+      "Abstractive Summarization",
+      "Training",
+      "s90"
+    ],
+    [
+      "Amazon Mechanical Turk",
+      "Method",
+      "s142"
+    ],
+    [
+      "Amazon Mechanical Turk",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "BERT",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF0",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF1",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF10",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF11",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF11",
+      "Property",
+      "s43"
+    ],
+    [
+      "BIBREF11",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF12",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF13",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF19",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF19",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BIBREF2",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF20",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF20",
+      "Property",
+      "s40"
+    ],
+    [
+      "BIBREF21",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF21",
+      "Property",
+      "s41"
+    ],
+    [
+      "BIBREF22",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF22",
+      "Definition",
+      "s148"
+    ],
+    [
+      "BIBREF22",
+      "Property",
+      "s47"
+    ],
+    [
+      "BIBREF22",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BIBREF22",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "BIBREF24",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BIBREF25",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BIBREF26",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BIBREF27",
+      "Definition",
+      "s114"
+    ],
+    [
+      "BIBREF27",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BIBREF3",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BIBREF32",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BIBREF33",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "BIBREF4",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF4",
+      "Property",
+      "s46"
+    ],
+    [
+      "BIBREF5",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF6",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF6",
+      "Property",
+      "s42"
+    ],
+    [
+      "BIBREF6",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BIBREF6",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BIBREF6",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF7",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BIBREF7",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF8",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BIBREF8",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "BIBREF9",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "BIBREF9",
+      "Property",
+      "s45"
+    ],
+    [
+      "BIBREF9",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "Bert",
+      "Bert Embeddings",
+      "e8"
+    ],
+    [
+      "Bert",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "Bert",
+      "Bert Summarization Limitation",
+      "e7"
+    ],
+    [
+      "Bert",
+      "Definition",
+      "s2"
+    ],
+    [
+      "Bert",
+      "Definition",
+      "s21"
+    ],
+    [
+      "Bert",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "Bert",
+      "Property",
+      "s48"
+    ],
+    [
+      "Bert architecture",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "Bert architecture",
+      "Property",
+      "s22"
+    ],
+    [
+      "Bert model",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "Bert model",
+      "Property",
+      "s54"
+    ],
+    [
+      "Bert summarizers",
+      "Result",
+      "s124"
+    ],
+    [
+      "Bert-based models",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "Bert-based models",
+      "Result",
+      "s119"
+    ],
+    [
+      "BertAbs",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "BertExtAbs",
+      "Cause",
+      "s138"
+    ],
+    [
+      "BertExtAbs",
+      "Property",
+      "s137"
+    ],
+    [
+      "BertExtAbs",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "BertSum",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "BertSum",
+      "Definition",
+      "s145"
+    ],
+    [
+      "BertSum",
+      "Definition",
+      "s50"
+    ],
+    [
+      "BertSum",
+      "Definition",
+      "s56"
+    ],
+    [
+      "BertSum",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "BertSum",
+      "Implementation",
+      "s83"
+    ],
+    [
+      "BertSum",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "BertSum",
+      "Tokenization",
+      "s84"
+    ],
+    [
+      "BertSumAbs",
+      "Definition",
+      "s67"
+    ],
+    [
+      "BertSumAbs",
+      "Property",
+      "s106"
+    ],
+    [
+      "BertSumAbs",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BertSumAbs",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BertSumExt",
+      "Cause",
+      "s132"
+    ],
+    [
+      "BertSumExt",
+      "Definition",
+      "s58"
+    ],
+    [
+      "BertSumExt",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "BertSumExt",
+      "Property",
+      "s133"
+    ],
+    [
+      "BertSumExt",
+      "Result",
+      "s103"
+    ],
+    [
+      "BertSumExt",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "BertSumExt",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "BertSumExt (without interval embeddings)",
+      "Property",
+      "s105"
+    ],
+    [
+      "BertSumExt summaries",
+      "Property",
+      "s131"
+    ],
+    [
+      "BertSumExtAbs",
+      "Definition",
+      "s68"
+    ],
+    [
+      "BertSumExtAbs",
+      "Property",
+      "s104"
+    ],
+    [
+      "BertSumExtAbs",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "BertSumExtAbs",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "Best-Worst Scaling",
+      "Method",
+      "s141"
+    ],
+    [
+      "Best-Worst Scaling",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "BottomUp",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "CNN/DailyMail",
+      "Dataset",
+      "s69"
+    ],
+    [
+      "CNN/DailyMail",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "CNN/DailyMail",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "CNN/DailyMail",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "CNN/DailyMail",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "CNN/DailyMail and NYT",
+      "Property",
+      "s81"
+    ],
+    [
+      "CNN/DailyMail and NYT datasets",
+      "Property",
+      "s143"
+    ],
+    [
+      "CNN/DailyMail dataset",
+      "Result",
+      "s135"
+    ],
+    [
+      "CNN/DailyMail dataset",
+      "Result",
+      "s99"
+    ],
+    [
+      "CNN/DailyMail split",
+      "Property",
+      "s72"
+    ],
+    [
+      "CNN/DailyMail summaries",
+      "Observation",
+      "s109"
+    ],
+    [
+      "Compress BIBREF27",
+      "Definition",
+      "s117"
+    ],
+    [
+      "Compress BIBREF27",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "Coverage mechanism (Cov)",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "Deep Communicating Agents (DCA)",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "Deep Communicating Agents (DCA)",
+      "Definition",
+      "s44"
+    ],
+    [
+      "Deep Reinforced Model (DRM)",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "ELMo",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "E_A",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "E_B",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "European Research Council",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "European Research Council (award number 681760)",
+      "Funding",
+      "s162"
+    ],
+    [
+      "Extractive Summarization",
+      "Evaluation",
+      "s86"
+    ],
+    [
+      "Extractive Summarization",
+      "Oracle Summary",
+      "s87"
+    ],
+    [
+      "Extractive Summarization",
+      "Redundancy Reduction",
+      "s89"
+    ],
+    [
+      "Extractive Summarization",
+      "Sentence Selection",
+      "s88"
+    ],
+    [
+      "Extractive Summarization",
+      "Training",
+      "s85"
+    ],
+    [
+      "FIGREF31",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "Figure FIGREF2",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "Figure FIGREF31",
+      "Definition",
+      "s128"
+    ],
+    [
+      "GPT",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "Gold standard",
+      "Definition",
+      "s154"
+    ],
+    [
+      "Gold standard",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "Google PhD Fellowship",
+      "Funding",
+      "s161"
+    ],
+    [
+      "Google PhD Fellowship",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "HIT",
+      "Definition",
+      "s149"
+    ],
+    [
+      "IBREF18",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "IBREF18",
+      "Definition",
+      "s37"
+    ],
+    [
+      "L=2",
+      "Result",
+      "s66"
+    ],
+    [
+      "Lapata",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "Latent",
+      "Definition",
+      "s34"
+    ],
+    [
+      "Latent BIBREF17",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "Lead baseline",
+      "Definition",
+      "s153"
+    ],
+    [
+      "Lead baseline",
+      "Result",
+      "s121"
+    ],
+    [
+      "Lead baseline",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "Lead-3",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "Lead-3 baseline",
+      "Definition",
+      "s100"
+    ],
+    [
+      "Lead-3 baseline",
+      "Definition",
+      "s116"
+    ],
+    [
+      "Lead-3 baseline",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "NLP tasks",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "NYT",
+      "Dataset",
+      "s70"
+    ],
+    [
+      "NYT",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "NYT dataset",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "NYT dataset",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "NYT split",
+      "Property",
+      "s73"
+    ],
+    [
+      "NeuSum",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "NeuSum",
+      "Definition",
+      "s38"
+    ],
+    [
+      "Oracle performance on XSum",
+      "Result",
+      "s122"
+    ],
+    [
+      "Oracle summaries",
+      "Property",
+      "s129"
+    ],
+    [
+      "Oracle summaries",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "Oracle upper bound",
+      "Definition",
+      "s111"
+    ],
+    [
+      "Oracle upper bound",
+      "Definition",
+      "s115"
+    ],
+    [
+      "Oracle upper bound",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "Pointer-generator network (PTgen)",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "QA evaluation",
+      "Definition",
+      "s150"
+    ],
+    [
+      "QA paradigm",
+      "Definition",
+      "s140"
+    ],
+    [
+      "ROUGE Recall",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "ROUGE metric",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "ROUGE-1",
+      "Definition",
+      "s96"
+    ],
+    [
+      "ROUGE-1",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "ROUGE-2",
+      "Definition",
+      "s97"
+    ],
+    [
+      "ROUGE-2",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "ROUGE-L",
+      "Definition",
+      "s98"
+    ],
+    [
+      "ROUGE-L",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "Recurrent Neural Networks",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "Refresh",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "Refresh",
+      "Definition",
+      "s33"
+    ],
+    [
+      "SECREF5",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "SECREF6",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "Shashi Narayan",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "Stanford CoreNLP",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "SummaRuNNer",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "SummaRuNNer",
+      "Definition",
+      "s32"
+    ],
+    [
+      "Sumo",
+      "Definition",
+      "s35"
+    ],
+    [
+      "Sumo B",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "TABREF23",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "TABREF37",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "TABREF38",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "TConvS2S",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "TConvS2S",
+      "Result",
+      "s156"
+    ],
+    [
+      "TConvS2S",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "Table TABREF24",
+      "Definition",
+      "s113"
+    ],
+    [
+      "Table TABREF27",
+      "Result",
+      "s126"
+    ],
+    [
+      "Tables TABREF37 and TABREF38",
+      "Result",
+      "s155"
+    ],
+    [
+      "Transformer",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "Transformer baseline",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "Transformer layers",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "Transformer layers",
+      "Property",
+      "s53"
+    ],
+    [
+      "TransformerAbs",
+      "Property",
+      "s102"
+    ],
+    [
+      "TransformerAbs",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "TransformerExt",
+      "Property",
+      "s101"
+    ],
+    [
+      "TransformerExt",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "TransformerExt",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "TransformerExt summaries",
+      "Property",
+      "s130"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e12"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e14"
+    ],
+    [
+      "XSum",
+      "Dataset",
+      "s71"
+    ],
+    [
+      "XSum",
+      "Property",
+      "s82"
+    ],
+    [
+      "XSum",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "XSum",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "XSum",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "XSum dataset",
+      "Definition",
+      "s120"
+    ],
+    [
+      "XSum dataset",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "XSum dataset",
+      "Property",
+      "s144"
+    ],
+    [
+      "XSum dataset",
+      "Result",
+      "s136"
+    ],
+    [
+      "XSum dataset",
+      "Source",
+      "s163"
+    ],
+    [
+      "XSum split",
+      "Property",
+      "s74"
+    ],
+    [
+      "[cls]",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "[cls]",
+      "Property",
+      "s23"
+    ],
+    [
+      "[cls] tokens",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "[sep]",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "abstractive Transformer baseline",
+      "Definition",
+      "s123"
+    ],
+    [
+      "abstractive modeling",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "abstractive models",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "abstractive models",
+      "Result",
+      "s118"
+    ],
+    [
+      "abstractive objective",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "abstractive summaries",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "abstractive summarization",
+      "Definition",
+      "s39"
+    ],
+    [
+      "abstractive summarization",
+      "Definition",
+      "s6"
+    ],
+    [
+      "abstractive summarization",
+      "Definition",
+      "s61"
+    ],
+    [
+      "abstractive summarization",
+      "Property",
+      "s147"
+    ],
+    [
+      "abstractive summarization",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "abstractive summarization",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "abstractiveness measure",
+      "Metric",
+      "s79"
+    ],
+    [
+      "automatic evaluation",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "bidirectional Transformer",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "classification tasks",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "cls symbol",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "combination of extractive and abstractive objectives",
+      "Result",
+      "s13"
+    ],
+    [
+      "convolutional neural networks",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "copying mechanisms",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "decoder learning rate",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "document",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "document [sent_1, sent_2, sent_3, sent_4, sent_5]",
+      "Example",
+      "s52"
+    ],
+    [
+      "document condensation",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "document encoding",
+      "Importance",
+      "s15"
+    ],
+    [
+      "document encoding",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "document representation",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "document-level encoder",
+      "Definition",
+      "s158"
+    ],
+    [
+      "document-level encoder",
+      "Definition",
+      "s8"
+    ],
+    [
+      "document-level encoder",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "embeddings",
+      "Bert Embeddings",
+      "e8"
+    ],
+    [
+      "encoder learning rate",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "encoder-decoder architecture",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "encoder-decoder architecture",
+      "Property",
+      "s10"
+    ],
+    [
+      "encoder-decoder mismatch",
+      "Cause",
+      "s62"
+    ],
+    [
+      "entailment relationship",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "entity anonymization",
+      "Property",
+      "s77"
+    ],
+    [
+      "extractive Oracle",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "extractive models",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "extractive objective",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "extractive objectives",
+      "Result",
+      "s65"
+    ],
+    [
+      "extractive summaries",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "extractive summarization",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "extractive summarization",
+      "Bert Summarization Limitation",
+      "e7"
+    ],
+    [
+      "extractive summarization",
+      "Definition",
+      "s57"
+    ],
+    [
+      "extractive summarization",
+      "Definition",
+      "s7"
+    ],
+    [
+      "extractive summarization",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "extractive summarization",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "extractive summarization",
+      "Property",
+      "s146"
+    ],
+    [
+      "extractive summarization",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "extractive summarization",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "extractive summarization",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "extractive vs abstractive summaries",
+      "Relationship",
+      "s80"
+    ],
+    [
+      "filtering in NYT",
+      "Process",
+      "s78"
+    ],
+    [
+      "fine-tuning",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "fine-tuning",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "fine-tuning",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "fine-tuning",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "fine-tuning in Bert",
+      "Property",
+      "s36"
+    ],
+    [
+      "fine-tuning schedule",
+      "Property",
+      "s63"
+    ],
+    [
+      "fluency",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s160"
+    ],
+    [
+      "gold standard labels",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "human evaluation",
+      "Method",
+      "s139"
+    ],
+    [
+      "human evaluation",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "human summaries",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "informativeness",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "input truncation",
+      "Property",
+      "s76"
+    ],
+    [
+      "input vector x_i",
+      "Definition",
+      "s27"
+    ],
+    [
+      "inter-sentence Transformer layers",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "inter-sentence Transformer layers",
+      "Property",
+      "s60"
+    ],
+    [
+      "inter-sentence Transformer layers",
+      "Property",
+      "s9"
+    ],
+    [
+      "interval embeddings",
+      "Result",
+      "s112"
+    ],
+    [
+      "interval embeddings",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "interval segment embeddings",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "interval segment embeddings",
+      "Property",
+      "s51"
+    ],
+    [
+      "intra-attention mechanism",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "label",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "language model pretraining",
+      "Definition",
+      "s1"
+    ],
+    [
+      "language model pretraining",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "large version of Bert",
+      "Summarization Evaluation",
+      "e15"
+    ],
+    [
+      "larger versions of Bert",
+      "Observation",
+      "s110"
+    ],
+    [
+      "latent variable inference",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "layer normalization",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "layer normalization",
+      "Definition",
+      "s29"
+    ],
+    [
+      "learning rates",
+      "Analysis",
+      "s125"
+    ],
+    [
+      "learning rates",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "loss function",
+      "Property",
+      "s59"
+    ],
+    [
+      "masked language modeling",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "masked language modeling",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "masked language modeling",
+      "Property",
+      "s3"
+    ],
+    [
+      "masked-language model",
+      "Bert Summarization Limitation",
+      "e7"
+    ],
+    [
+      "minimum-requirement model",
+      "Result",
+      "s17"
+    ],
+    [
+      "model pretraining",
+      "Implication",
+      "s19"
+    ],
+    [
+      "multi-head attention",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "multi-head attention",
+      "Definition",
+      "s28"
+    ],
+    [
+      "multiple communicating encoders",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "named entity recognition",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "natural language inference",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "next sentence prediction",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "next-sentence prediction",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "next-sentence prediction",
+      "Property",
+      "s4"
+    ],
+    [
+      "novel bi-grams",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "novel n-grams",
+      "Definition",
+      "s134"
+    ],
+    [
+      "novel n-grams",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "output vector t_i",
+      "Result",
+      "s30"
+    ],
+    [
+      "output vectors",
+      "Bert Summarization Limitation",
+      "e7"
+    ],
+    [
+      "p<0.05",
+      "Summarization Evaluation",
+      "e18"
+    ],
+    [
+      "position embeddings",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "position embeddings",
+      "Definition",
+      "s26"
+    ],
+    [
+      "position embeddings",
+      "Definition",
+      "s55"
+    ],
+    [
+      "position embeddings",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "position of extracted sentences",
+      "Analysis",
+      "s127"
+    ],
+    [
+      "position of extracted sentences",
+      "Model Evaluation",
+      "e16"
+    ],
+    [
+      "positions 1, 2",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "pretrained BERT",
+      "Application",
+      "s159"
+    ],
+    [
+      "pretrained encoder",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "pretrained language models",
+      "Definition",
+      "s18"
+    ],
+    [
+      "pretrained language models",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "pretrained language models",
+      "Use",
+      "s31"
+    ],
+    [
+      "proposed approach",
+      "Result",
+      "s14"
+    ],
+    [
+      "proposed models",
+      "Use",
+      "s20"
+    ],
+    [
+      "quality-based evaluation",
+      "Definition",
+      "s152"
+    ],
+    [
+      "question answering",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "question-answering paradigm",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "randomly-initialized Transformer decoder",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "recently proposed techniques",
+      "Cause",
+      "s16"
+    ],
+    [
+      "reinforcement learning",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "reinforcement learning",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "representation",
+      "Representation Usage",
+      "e11"
+    ],
+    [
+      "scoring mechanism (BIBREF33)",
+      "Definition",
+      "s151"
+    ],
+    [
+      "segment embeddings",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "segmentation",
+      "Bert Summarization Limitation",
+      "e7"
+    ],
+    [
+      "segmentation embeddings",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "segmentation embeddings",
+      "Definition",
+      "s25"
+    ],
+    [
+      "segmentation embeddings",
+      "Property",
+      "s49"
+    ],
+    [
+      "selected sentences",
+      "Summarization Model",
+      "e5"
+    ],
+    [
+      "self-attention",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "sent_1",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "sent_2",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "sent_3",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "sent_4",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "sent_5",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "sent_i",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "sent_i",
+      "Representation Usage",
+      "e11"
+    ],
+    [
+      "sentence classification",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "sentence completion",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "sentence splitting",
+      "Method",
+      "s75"
+    ],
+    [
+      "sentence-level representations",
+      "Bert Summarization Limitation",
+      "e7"
+    ],
+    [
+      "sentence-level understanding",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "sentence-pair inputs",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "sentences",
+      "Bert Embeddings",
+      "e8"
+    ],
+    [
+      "sentences",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "sentiment analysis",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "separated optimizers",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "separated optimizers",
+      "Property",
+      "s11"
+    ],
+    [
+      "single-document news summarization",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "state-of-the-art results",
+      "Summarization Evaluation",
+      "e2"
+    ],
+    [
+      "statistical significance (p<0.05)",
+      "Property",
+      "s157"
+    ],
+    [
+      "subwords tokenizer",
+      "Property",
+      "s107"
+    ],
+    [
+      "succinctness",
+      "Summary Model Analysis",
+      "e17"
+    ],
+    [
+      "summarization",
+      "BertSum Architecture",
+      "e9"
+    ],
+    [
+      "summary",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "test set",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "text span",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "text summarization",
+      "Definition",
+      "s5"
+    ],
+    [
+      "text summarization",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "textual similarity",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "token embeddings",
+      "Bert Model Architecture",
+      "e4"
+    ],
+    [
+      "token embeddings",
+      "Definition",
+      "s24"
+    ],
+    [
+      "tokens",
+      "Bert Summarization Limitation",
+      "e7"
+    ],
+    [
+      "top layer",
+      "Extractive Summarization",
+      "e10"
+    ],
+    [
+      "topic distributions",
+      "Abstractive Summarization Models",
+      "e6"
+    ],
+    [
+      "training schedule",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "training set",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "trigram-blocking",
+      "Property",
+      "s108"
+    ],
+    [
+      "two-stage approach",
+      "Definition",
+      "s12"
+    ],
+    [
+      "two-stage approach",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "two-stage fine-tuning",
+      "Method",
+      "s64"
+    ],
+    [
+      "validation set",
+      "Summarization Datasets",
+      "e13"
+    ],
+    [
+      "wide-coverage natural language understanding",
+      "Language Model Summarization",
+      "e1"
+    ],
+    [
+      "word",
+      "Word Analysis",
+      "e3"
+    ]
+  ]
+}

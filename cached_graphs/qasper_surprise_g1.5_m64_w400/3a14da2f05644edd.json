@@ -1,0 +1,4075 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 12,
+    "n_semantic": 126,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "grapheme-to-phoneme conversion": {
+      "tag_set": [
+        "Definition",
+        "Grapheme-to-Phoneme Setup",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "text-to-speech": {
+      "tag_set": [
+        "Application",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "automatic speech recognition": {
+      "tag_set": [
+        "Application",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "multisource neural machine translation": {
+      "tag_set": [
+        "Method",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "International Phonetic Alphabet": {
+      "tag_set": [
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "orthography": {
+      "tag_set": [
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "IPA": {
+      "tag_set": [
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "high resource languages": {
+      "tag_set": [
+        "Definition",
+        "Language ID Performance",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "low resource languages": {
+      "tag_set": [
+        "Definition",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "weighted finite state transducer": {
+      "tag_set": [
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "wFST": {
+      "tag_set": [
+        "Definition",
+        "Multilingual G2P Evaluation",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "Phoible": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Data Source",
+        "Phoneme and Language Embeddings",
+        "Resource",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "URIEL": {
+      "tag_set": [
+        "Data Source",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "deri2016grapheme": {
+      "tag_set": [
+        "Definition",
+        "Grapheme-to-Phoneme Setup",
+        "Multilingual G2P Evaluation",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "schlippe2014combining": {
+      "tag_set": [
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "jyothilow": {
+      "tag_set": [
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "Phonetisaurus": {
+      "tag_set": [
+        "System",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "kim2012universal": {
+      "tag_set": [
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "recurrent neural networks": {
+      "tag_set": [
+        "Model",
+        "Property",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "undirected graphical model": {
+      "tag_set": [
+        "Model",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "orthographic rules": {
+      "tag_set": [
+        "Language Orthography",
+        "Prediction",
+        "g2p Low-Resource Methods"
+      ]
+    },
+    "phonemic context features": {
+      "tag_set": [
+        "Definition",
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "graphemes": {
+      "tag_set": [
+        "Multilingual G2P Modeling",
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "IPA symbols": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "phonotactic constraints": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "WALS BIBREF6": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "zero-shot neural machine translation": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "encoder and decoder": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "artificial token": {
+      "tag_set": [
+        "Definition",
+        "Function",
+        "Grapheme-to-Phoneme Setup",
+        "Language Orthography",
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "multilingual neural NLP": {
+      "tag_set": [
+        "Definition",
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "g2p system": {
+      "tag_set": [
+        "Inspiration",
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "phoneme-level polyglot language models BIBREF8": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "ostling2017continuous": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup",
+        "Method",
+        "Multilingual G2P Modeling",
+        "Reference"
+      ]
+    },
+    "character-level neural language model": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "language embedding vector": {
+      "tag_set": [
+        "Function",
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "genetic relationships": {
+      "tag_set": [
+        "Multilingual G2P Modeling"
+      ]
+    },
+    "Grapheme-to-Phoneme": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Conversion"
+      ]
+    },
+    "g2p": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Conversion",
+        "g2p Model Setup"
+      ]
+    },
+    "orthographic": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Conversion"
+      ]
+    },
+    "phoneme": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Definition",
+        "Phoneme and Grapheme Representation",
+        "g2p Model Setup"
+      ]
+    },
+    "allophones": {
+      "tag_set": [
+        "Example",
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "Example",
+        "Phoneme and Grapheme Representation",
+        "g2p Model Setup"
+      ]
+    },
+    "Hindi": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "Eastern Armenian": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "writing systems": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation",
+        "Property"
+      ]
+    },
+    "glottographic": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "phonological information": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "the": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "Spanish": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation",
+        "g2p Model Setup"
+      ]
+    },
+    "hora": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "syllabaries": {
+      "tag_set": [
+        "Phoneme and Grapheme Representation"
+      ]
+    },
+    "silent e": {
+      "tag_set": [
+        "Definition",
+        "g2p Model Setup"
+      ]
+    },
+    "cape": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "cap": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "orthographic system": {
+      "tag_set": [
+        "Property",
+        "g2p Model Setup"
+      ]
+    },
+    "Abjads": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "Arabic": {
+      "tag_set": [
+        "Phoneme and Language Embeddings",
+        "g2p Model Setup"
+      ]
+    },
+    "Hebrew": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "grapheme": {
+      "tag_set": [
+        "Multilingual G2P Evaluation",
+        "Phoneme and Language Embeddings",
+        "Relationship",
+        "g2p Model Setup"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup",
+        "g2p Model Setup"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup",
+        "g2p Model Setup"
+      ]
+    },
+    "data-driven g2p": {
+      "tag_set": [
+        "Result",
+        "g2p Model Setup"
+      ]
+    },
+    "sequence-to-sequence model": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "encoder-decoder model": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "attention mechanism": {
+      "tag_set": [
+        "Definition",
+        "g2p Model Setup"
+      ]
+    },
+    "long short-term memory units": {
+      "tag_set": [
+        "Component",
+        "g2p Model Setup"
+      ]
+    },
+    "OpenNMT": {
+      "tag_set": [
+        "Tool",
+        "g2p Model Setup"
+      ]
+    },
+    "bidirectional encoder": {
+      "tag_set": [
+        "Result",
+        "g2p Model Setup"
+      ]
+    },
+    "forward and reverse directions": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "luong2015effective": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "cross-entropy": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "multilingual g2p": {
+      "tag_set": [
+        "Definition",
+        "Language Orthography",
+        "g2p Model Setup"
+      ]
+    },
+    "real": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "German": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Phoneme and Language Embeddings",
+        "g2p Model Setup"
+      ]
+    },
+    "Portuguese": {
+      "tag_set": [
+        "g2p Model Setup"
+      ]
+    },
+    "ISO 639-3 code": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "grapheme sequence": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "English word real": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "johnson2016google": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup",
+        "Reference"
+      ]
+    },
+    "zero-shot NMT": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "source language": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "target language": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "language embedding": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "Carnegie Mellon Pronouncing Dictionary": {
+      "tag_set": [
+        "Definition",
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "multilingual pronunciation corpus": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "Wiktionary": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup",
+        "Multilingual G2P Evaluation",
+        "Source"
+      ]
+    },
+    "spelling\u2013pronunciation pairs": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "IPA transcriptions": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup"
+      ]
+    },
+    "Table TABREF10": {
+      "tag_set": [
+        "Grapheme-to-Phoneme Setup",
+        "Reference"
+      ]
+    },
+    "corpus": {
+      "tag_set": [
+        "Corpus Cleaning"
+      ]
+    },
+    "transcriptions": {
+      "tag_set": [
+        "Corpus Cleaning"
+      ]
+    },
+    "cleaned version": {
+      "tag_set": [
+        "Corpus Cleaning"
+      ]
+    },
+    "web": {
+      "tag_set": [
+        "Corpus Cleaning"
+      ]
+    },
+    "scraped data": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Property"
+      ]
+    },
+    "noisy data": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "phonemic inventories": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "transcription": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "Ansbach": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "Kaninchen": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "cleaning algorithm": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Negative Effect"
+      ]
+    },
+    "suprasegmentals": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Property"
+      ]
+    },
+    "beam width": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Property"
+      ]
+    },
+    "LangID": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "NoLangID": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Language ID Performance",
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "Phoneme Error Rate (PER)": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Definition"
+      ]
+    },
+    "Word Error Rate (WER)": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Definition"
+      ]
+    },
+    "Word Error Rate 100 (WER 100)": {
+      "tag_set": [
+        "Data Cleaning & Evaluation",
+        "Definition"
+      ]
+    },
+    "test corpus": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "error metrics": {
+      "tag_set": [
+        "Data Cleaning & Evaluation"
+      ]
+    },
+    "phoneme similarity": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "hixon2011phonemic": {
+      "tag_set": [
+        "Definition",
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "PER": {
+      "tag_set": [
+        "Language ID Performance",
+        "Multilingual G2P Evaluation",
+        "Property"
+      ]
+    },
+    "Wikipedia IPA Help pages": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "85 languages": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "229 languages": {
+      "tag_set": [
+        "Language ID Performance",
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "23 languages": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "LangID-High": {
+      "tag_set": [
+        "Language ID Performance",
+        "Multilingual G2P Evaluation",
+        "Property",
+        "Training Set"
+      ]
+    },
+    "NoLangID-High": {
+      "tag_set": [
+        "Multilingual G2P Evaluation",
+        "Training Set"
+      ]
+    },
+    "LangID-Adapted": {
+      "tag_set": [
+        "Multilingual G2P Evaluation",
+        "Training Set"
+      ]
+    },
+    "NoLangID-Adapted": {
+      "tag_set": [
+        "Multilingual G2P Evaluation",
+        "Training Set"
+      ]
+    },
+    "LangID-All": {
+      "tag_set": [
+        "Multilingual G2P Evaluation",
+        "Training Set"
+      ]
+    },
+    "NoLangID-All": {
+      "tag_set": [
+        "Multilingual G2P Evaluation",
+        "Training Set"
+      ]
+    },
+    "157 languages": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "311 languages": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "10,000 words": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "10 percent validation": {
+      "tag_set": [
+        "Multilingual G2P Evaluation"
+      ]
+    },
+    "Deri2016grapheme": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "LangID version": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "WER": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "WER 100": {
+      "tag_set": [
+        "Language ID Performance",
+        "Phoneme and Language Embeddings",
+        "Result"
+      ]
+    },
+    "wFST-adaptation": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "monolingual": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "sequence-to-sequence": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "Georgian": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "Greek": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "Table TABREF24": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "Table TABREF26": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "Table TABREF28": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "unseen languages": {
+      "tag_set": [
+        "Definition",
+        "Language ID Performance"
+      ]
+    },
+    "language ID tokens": {
+      "tag_set": [
+        "Definition",
+        "Language ID Performance"
+      ]
+    },
+    "15.4 MB": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "197.5 MB": {
+      "tag_set": [
+        "Language ID Performance"
+      ]
+    },
+    "token": {
+      "tag_set": [
+        "Phoneme and Language Embeddings",
+        "Property"
+      ]
+    },
+    "embedding": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "language ID token": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "Luxembourgish": {
+      "tag_set": [
+        "Phoneme and Language Embeddings",
+        "Property"
+      ]
+    },
+    "Bavarian": {
+      "tag_set": [
+        "Phoneme and Language Embeddings",
+        "Property"
+      ]
+    },
+    "Yiddish": {
+      "tag_set": [
+        "Phoneme and Language Embeddings",
+        "Property"
+      ]
+    },
+    "phoneme embeddings": {
+      "tag_set": [
+        "Definition",
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "phonetically similar": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "WALS": {
+      "tag_set": [
+        "Phoneme and Language Embeddings",
+        "Resource"
+      ]
+    },
+    "typological representation": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "phonemic inventory": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "multilingual model": {
+      "tag_set": [
+        "Phoneme and Language Embeddings",
+        "Property"
+      ]
+    },
+    "source encoder": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "power of embeddings": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "Table TABREF30": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "Table TABREF33": {
+      "tag_set": [
+        "Phoneme and Language Embeddings"
+      ]
+    },
+    "monolingual English g2p": {
+      "tag_set": [
+        "Application",
+        "Language Orthography"
+      ]
+    },
+    "loanwords": {
+      "tag_set": [
+        "Cause",
+        "Language Orthography"
+      ]
+    },
+    "unassimilated spellings": {
+      "tag_set": [
+        "Language Orthography"
+      ]
+    },
+    "etymology": {
+      "tag_set": [
+        "Language Orthography",
+        "Tagging"
+      ]
+    },
+    "language ID": {
+      "tag_set": [
+        "Language Orthography"
+      ]
+    },
+    "orthographic and phonemic similarities": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "shared encoder\u2013decoder": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "weighted finite state transducer (wFST)": {
+      "tag_set": [
+        "Model"
+      ]
+    },
+    "language distance metric": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "phoneme distance metric": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "model combination": {
+      "tag_set": [
+        "Strategy"
+      ]
+    },
+    "phoneme-level voting scheme": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "grapheme-to-IPA mapping": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "phonotactic features": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Google's zero-shot neural machine translation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "one-to-one correspondence": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "multiple graphemes to one phoneme": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "one grapheme to multiple phonemes": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "silent letters": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "phoneme-level polyglot language models": {
+      "tag_set": [
+        "Approach"
+      ]
+    },
+    "language embeddings": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "g2p application": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "abjads": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "grapheme-to-phoneme (g2p)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "complex spelling rules": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "encoder\u2013decoder model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "hyperparameters": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "pronunciation patterns": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "string 'real'": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "English word 'real'": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "deri2016grapheme corpus": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "corpus cleaning": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training and test sets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "data cleaning": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "phoneme replacement": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "German examples in Table TABREF11": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "phoneme in German": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LangID model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NoLangID model": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "system evaluations": {
+      "tag_set": [
+        "Evaluation Metric"
+      ]
+    },
+    "languages": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "contrastive errors": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "multilingual system evaluation": {
+      "tag_set": [
+        "Use Case"
+      ]
+    },
+    "g2p systems": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "high resource results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "adapted results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training corpus": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "validation data": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training words per language": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "adapted set": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LangID version of the system": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "wFST model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LangID models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Deri and Knight": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "LangID-High model size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "monolingual wFST model": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "phonetic similarity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "typological features": {
+      "tag_set": [
+        "Definition"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Accurate grapheme-to-phoneme conversion (g2p) is important for any application that depends on the sometimes inconsistent relationship between spoken and written language. Most prominently, this includes text-to-speech and automatic speech recognition. Most work on g2p has focused on a few languages for which extensive pronunciation data is available BIBREF0 , BIBREF1 , BIBREF2 , BIBREF3 . Most languages lack these resources. However, a low resource language's writing system is likely to be similar to the writing systems of languages that do have sufficient pronunciation data. Therefore g2p may be possible for low resource languages if this high resource data can be properly utilized. We attempt to leverage high resource data by treating g2p as a multisource neural machine translation (NMT) problem. The source sequences for our system are words in the standard orthography in any language. The target sequences are the corresponding representation in the International Phonetic Alphabet (IPA). Our results show that the parameters learned by the shared encoder\u2013decoder are able to exploit the orthographic and phonemic similarities between the various languages in our data. Low Resource g2p Our approach is similar in goal to deri2016grapheme's model for adapting high resource g2p models for low resource languages. They trained weighted finite state transducer (wFST) models on a variety of high resource languages, then transferred those models to low resource languages, using a language distance metric to choose which high resource models to use and a phoneme distance metric to map the high resource language's phonemes to the low resource language's phoneme inventory. These distance metrics are computed based on data from Phoible BIBREF4 and URIEL BIBREF5 . Other low resource g2p systems have used a strategy of combining multiple models. schlippe2014combining trained several data-driven g2p systems on varying quantities of monolingual data and combined their outputs with a phoneme-level voting scheme. This led to improvements over the best-performing single system for small quantities of data in some languages. jyothilow trained recurrent neural networks for small data sets and found that a version of their system that combined the neural network output with the output of the wFST-based Phonetisaurus system BIBREF1 did better than either system alone. A different approach came from kim2012universal, who used supervised learning with an undirected graphical model to induce the grapheme\u2013phoneme mappings for languages written in the Latin alphabet. Given a short text in a language, the model predicts the language's orthographic rules. To create",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "g2p Low-Resource Methods"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "phonemic context features from the short text, the model na\u00efvely maps graphemes to IPA symbols written with the same character, and uses the features of these symbols to learn an approximation of the phonotactic constraints of the language. In their experiments, these phonotactic features proved to be more valuable than geographical and genetic features drawn from WALS BIBREF6 . Multilingual Neural NLP In recent years, neural networks have emerged as a common way to use data from several languages in a single system. Google's zero-shot neural machine translation system BIBREF7 shares an encoder and decoder across all language pairs. In order to facilitate this multi-way translation, they prepend an artificial token to the beginning of each source sentence at both training and translation time. The token identifies what language the sentence should be translated to. This approach has three benefits: it is far more efficient than building a separate model for each language pair; it allows for translation between languages that share no parallel data; and it improves results on low-resource languages by allowing them to implicitly share parameters with high-resource languages. Our g2p system is inspired by this approach, although it differs in that there is only one target \u201clanguage\u201d, IPA, and the artificial tokens identify the language of the source instead of the language of the target. Other work has also made use of multilingually-trained neural networks. Phoneme-level polyglot language models BIBREF8 train a single model on multiple languages and additionally condition on externally constructed typological data about the language. ostling2017continuous used a similar approach, in which a character-level neural language model is trained on a massively multilingual corpus. A language embedding vector is concatenated to the input at each time step. The language embeddings their system learned correlate closely to the genetic relationships between languages. However, neither of these models was applied to g2p.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual G2P Modeling"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "Grapheme-to-Phoneme\ng2p is the problem of converting the orthographic",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Grapheme-to-Phoneme Conversion"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "representation of a word into a phonemic representation. A phoneme is an abstract unit of sound which may have different realizations in different contexts. For example, the English phoneme has two phonetic realizations (or allophones):\nEnglish speakers without linguistic training often struggle to perceive any difference between these sounds. Writing systems usually do not distinguish between allophones: and are both written as INLINEFORM0 p INLINEFORM1 in English. The sounds are written differently in languages where they contrast, such as Hindi and Eastern Armenian.\nMost writing systems in use today are glottographic, meaning that their symbols encode solely phonological information. But despite being glottographic, in few writing systems do graphemes correspond one-to-one with phonemes. There are cases in which multiple graphemes represent a single phoneme, as in the word the in English:\nThere are cases in which a single grapheme represents multiple phonemes, such as syllabaries, in which each symbol represents a syllable.\nIn many languages, there are silent letters, as in the word hora in Spanish:\nThere are more",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Phoneme and Grapheme Representation"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "complicated correspondences, such as the silent e in English that affects the pronunciation of the previous vowel, as seen in the pair of words cape and cap. It is possible for an orthographic system to have any or all of the above phenomena while remaining unambiguous. However, some orthographic systems contain ambiguities. English is well-known for its spelling ambiguities. Abjads, used for Arabic and Hebrew, do not give full representation to vowels. Consequently, g2p is harder than simply replacing each grapheme symbol with a corresponding phoneme symbol. It is the problem of replacing a grapheme sequence INLINEFORM0 with a phoneme sequence INLINEFORM0 where the sequences are not necessarily of the same length. Data-driven g2p is therefore the problem of finding the phoneme sequence that maximizes the likelihood of the grapheme sequence: INLINEFORM0 Data-driven approaches are especially useful for problems in which the rules that govern them are complex and difficult to engineer by hand. g2p for languages with ambiguous orthographies is such a problem. Multilingual g2p, in which the various languages have similar but different and possibly contradictory spelling rules, can be seen as an extreme case of that. Therefore, a data-driven sequence-to-sequence model is a natural choice. Encoder\u2013Decoder Models In order to find the best phoneme sequence, we use a neural encoder\u2013decoder model with attention BIBREF9 . The model consists of two main parts: the encoder compresses each source grapheme sequence INLINEFORM0 into a fixed-length vector. The decoder, conditioned on this fixed-length vector, generates the output phoneme sequence INLINEFORM1 . The encoder and decoder are both implemented as recurrent neural networks, which have the advantage of being able to process sequences of arbitrary length and use long histories efficiently. They are trained jointly to minimize cross-entropy on the training data. We had our best results when using a bidirectional encoder, which consists of two separate encoders which process the input in forward and reverse directions. We used long short-term memory units BIBREF10 for both the encoder and decoder. For the attention mechanism, we used the general global attention architecture described by luong2015effective. We implemented all models with OpenNMT BIBREF11 . Our hyperparameters, which we determined by experimentation, are listed in Table TABREF8 . Training Multilingual Models Presenting pronunciation data in several languages to the network might create problems because different languages have different pronunciation patterns. For example, the string `real' is pronounced differently in English, German, Spanish, and Portuguese.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "g2p Model Setup"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "We solve this problem by prepending each grapheme sequence with an artificial token consisting of the language's ISO 639-3 code enclosed in angle brackets. The English word `real', for example, would be presented to the system as INLINEFORM0 eng INLINEFORM1 r e a l The artificial token is treated simply as an element of the grapheme sequence. This is similar to the approach taken by johnson2016google in their zero-shot NMT system. However, their source-side artificial tokens identify the target language, whereas ours identify the source language. An alternative approach, used by ostling2017continuous, would be to concatenate a language embedding to the input at each time step. They do not evaluate their approach on grapheme-to-phoneme conversion. Data In order to train a neural g2p system, one needs a large quantity of pronunciation data. A standard dataset for g2p is the Carnegie Mellon Pronouncing Dictionary BIBREF12 . However, that is a monolingual English resource, so it is unsuitable for our multilingual task. Instead, we use the multilingual pronunciation corpus collected by deri2016grapheme for all experiments. This corpus consists of spelling\u2013pronunciation pairs extracted from Wiktionary. It is already partitioned into training and test sets. Corpus statistics are presented in Table TABREF10 . In addition to the raw IPA transcriptions extracted from Wiktionary, the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Grapheme-to-Phoneme Setup"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "corpus provides an automatically cleaned version of transcriptions. Cleaning is a necessary step because web",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Corpus Cleaning"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "-scraped data is often noisy and may be transcribed at an inconsistent level of detail. The data cleaning used here attempts to make the transcriptions consistent with the phonemic inventories used in Phoible BIBREF4 . When a transcription contains a phoneme that is not in its language's inventory in Phoible, that phoneme is replaced by the phoneme with the most similar articulatory features that is in the language's inventory. Sometimes this cleaning algorithm works well: in the German examples in Table TABREF11 , the raw German symbols and are both converted to . This is useful because the in Ansbach and the in Kaninchen are instances of the same phoneme, so their phonemic representations should use the same symbol. However, the cleaning algorithm can also have negative effects on the data quality. For example, the phoneme is not present in the Phoible inventory for German, but it is used in several German transcriptions in the corpus. The cleaning algorithm converts to in all German transcriptions, whereas would be a more reasonable guess. The cleaning algorithm also removes most suprasegmentals, even though these are often an important part of a language's phonology. Developing a more sophisticated procedure for cleaning pronunciation data is a direction for future work, but in this paper we use the corpus's provided cleaned transcriptions in order to ease comparison to previous results. Experiments We present experiments with two versions of our sequence-to-sequence model. LangID prepends each training, validation, and test sample with an artificial token identifying the language of the sample. NoLangID omits this token. LangID and NoLangID have identical structure otherwise. To translate the test corpus, we used a beam width of 100. Although this is an unusually wide beam and had negligible performance effects, it was necessary to compute our error metrics. Evaluation We use the following three evaluation metrics: Phoneme Error Rate (PER) is the Levenshtein distance between the predicted phoneme sequences and the gold standard phoneme sequences, divided by the length of the gold standard phoneme sequences. Word Error Rate (WER) is the percentage of words in which the predicted phoneme sequence does not exactly match the gold standard phoneme sequence. Word Error Rate 100 (WER 100) is the percentage of words in the test set for which the correct guess is not in the first 100 guesses of the system. In system evaluations, WER, WER 100, and PER numbers presented for multiple",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Data Cleaning & Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "languages are averaged, weighting each language equally BIBREF13 . It would be interesting to compute error metrics that incorporate phoneme similarity, such as those proposed by hixon2011phonemic. PER weights all phoneme errors the same, even though some errors are more harmful than others: and are usually contrastive, whereas and almost never are. Such statistics would be especially interesting for evaluating a multilingual system, because different languages often map the same grapheme to phonemes that are only subtly different from each other. However, these statistics have not been widely reported for other g2p systems, so we omit them here. Baseline Results on LangID and NoLangID are compared to the system presented by deri2016grapheme, which is identified in our results as wFST. Their results can be divided into two parts: High resource results, computed with wFSTs trained on a combination of Wiktionary pronunciation data and g2p rules extracted from Wikipedia IPA Help pages. They report high resource results for 85 languages. Adapted results, where they apply various mapping strategies in order to adapt high resource models to other languages. The final adapted results they reported include most of the 85 languages with high resource results, as well as the various languages they were able to adapt them for, for a total of 229 languages. This test set omits 23 of the high resource languages that are written in unique scripts or for which language distance metrics could not be computed. Training We train the LangID and NoLangID versions of our model each on three subsets of the Wiktionary data: LangID-High and NoLangID-High: Trained on data from the 85 languages for which BIBREF13 used non-adapted wFST models. LangID-Adapted and NoLangID-Adapted: Trained on data from any of the 229 languages for which they built adapted models. Because many of these languages had no training data at all, the model is actually only trained on data in 157 languages. As is noted above, the Adapted set omits 23 languages which are in the High test set. LangID-All and NoLangID-All: Trained on data in all 311 languages in the Wiktionary training corpus. In order to ease comparison to Deri and Knight's system, we limited our use of the training corpus to 10,000 words per language. We set aside 10 percent of the data in each language for validation, so the maximum number of training words for any language is 9000 for our systems. Adapted Results On",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual G2P Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "the 229 languages for which deri2016grapheme presented their final results, the LangID version of our system outperforms the baseline by a wide margin. The best performance came with the version of our model that was trained on data in all available languages, not just the languages it was tested on. Using a language ID token improves results considerably, but even NoLangID beats the baseline in WER and WER 100. Full results are presented in Table TABREF24 . High Resource Results Having shown that our model exceeds the performance of the wFST-adaptation approach, we next compare it to the baseline models for just high resource languages. The wFST models here are purely monolingual \u2013 they do not use data adaptation because there is sufficient training data for each of them. Full results are presented in Table TABREF26 . We omit models trained on the Adapted languages because they were not trained on high resource languages with unique writing systems, such as Georgian and Greek, and consequently performed very poorly on them. In contrast to the larger-scale Adapted results, in the High Resource experiments none of the sequence-to-sequence approaches equal the performance of the wFST model in WER and PER, although LangID-High does come close. The LangID models do beat wFST in WER 100. A possible explanation is that a monolingual wFST model will never generate phonemes that are not part of the language's inventory. A multilingual model, on the other hand, could potentially generate phonemes from the inventories of any language it has been trained on. Even if LangID-High does not present a more accurate result, it does present a more compact one: LangID-High is 15.4 MB, while the combined wFST high resource models are 197.5 MB. Results on Unseen Languages Finally, we report our models' results on unseen languages in Table TABREF28 . The unseen languages are any that are present in the test corpus but absent from the training data. Deri and Knight did not report results specifically on these languages. Although the NoLangID models sometimes do better on WER 100, even here the LangID models have a slight advantage in WER and PER. This is somewhat surprising because the LangID models have not learned embeddings for the language ID tokens of unseen languages. Perhaps negative associations are also being learned, driving the model towards predicting more common pronunciations for unseen languages. Language ID Tokens Adding a language ID",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language ID Performance"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "token always improves results in cases where an embedding has been learned for that token. The power of these embeddings is demonstrated by what happens when one feeds the same input word to the model with different language tokens, as is seen in Table TABREF30 . Impressively, this even works when the source sequence is in the wrong script for the language, as is seen in the entry for Arabic. Language Embeddings Because these language ID tokens are so useful, it would be good if they could be effectively estimated for unseen languages. ostling2017continuous found that the language vectors their models learned correlated well to genetic relationships, so it would be interesting to see if the embeddings our source encoder learned for the language ID tokens showed anything similar. In a few cases they do (the languages closest to German in the vector space are Luxembourgish, Bavarian, and Yiddish, all close relatives). However, for the most part the structure of these vectors is not interpretable. Therefore, it would be difficult to estimate the embedding for an unseen language, or to \u201cborrow\u201d the language ID token of a similar language. A more promising way forward is to find a model that uses an externally constructed typological representation of the language. Phoneme Embeddings In contrast to the language embeddings, the phoneme embeddings appear to show many regularities (see Table TABREF33 ). This is a sign that our multilingual model learns similar embeddings for phonemes that are written with the same grapheme in different languages. These phonemes tend to be phonetically similar to each other. Perhaps the structure of the phoneme embedding space is what leads to our models' very good performance on WER 100. Even when the model's first predicted pronunciation is not correct, it tends to assign more probability mass to guesses that are more similar to the correct one. Applying some sort of filtering or reranking of the system output might therefore lead to better performance. Future Work Because the language ID token is so beneficial to performance, it would be very interesting to find ways to extend a similar benefit to unseen languages. One possible way to do so is with tokens that identify something other than the language, such as typological features about the language's phonemic inventory. This could enable better sharing of resources among languages. Such typological knowledge is readily available in databases like Phoible and WALS",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Phoneme and Language Embeddings"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "for a wide variety of languages. It would be interesting to explore if any of these features is a good predictor of a language's orthographic rules. It would also be interesting to apply the artificial token approach to other problems besides multilingual g2p. One closely related application is monolingual English g2p. Some of the ambiguity of English spelling is due to the wide variety of loanwords in the language, many of which have unassimilated spellings. Knowing the origins of these loanwords could provide a useful hint for figuring out their pronunciations. The etymology of a word could be tagged in an analogous way to how language ID is tagged in multilingual g2p.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language Orthography"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Grapheme-to-phoneme conversion is the process of converting written characters (graphemes) into their corresponding spoken sounds (phonemes).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Text-to-speech systems rely on accurate grapheme-to-phoneme conversion to convert written text into spoken language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Automatic speech recognition systems depend on accurate grapheme-to-phoneme conversion to map spoken language back to written form.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "High resource languages are those for which extensive pronunciation data is available and widely studied.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Low resource languages lack sufficient pronunciation data for developing accurate grapheme-to-phoneme models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Languages with similar writing systems and phoneme inventories are likely to share orthographic and phonemic similarities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "The approach treats grapheme-to-phoneme conversion as a multisource neural machine translation problem, using words in standard orthography as source sequences and IPA representations as target sequences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The shared encoder\u2013decoder architecture learns parameters that exploit orthographic and phonemic similarities across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "A wFST model is used to transfer high-resource g2p models to low-resource languages based on language and phoneme distance metrics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "A language distance metric is used to select high-resource models for transfer to low-resource languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "A phoneme distance metric maps phonemes from high-resource languages to those of low-resource languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Phoible provides data used to compute language and phoneme distance metrics for model transfer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Source"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "URIEL provides data used to compute language and phoneme distance metrics for model transfer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Source"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Combining multiple g2p models improves performance, especially in low-resource languages with limited data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "A phoneme-level voting scheme combines outputs from multiple g2p models to improve accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Recurrent neural networks are trained for small data sets to perform grapheme-to-phoneme conversion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The Phonetisaurus system is a wFST-based g2p system used in combination with neural network outputs to improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "System"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "An undirected graphical model is used to induce grapheme\u2013phoneme mappings for Latin-script languages based on short text inputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Phonemic context features refer to the characteristics of grapheme-to-IPA symbol mappings used to approximate phonotactic constraints in a language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The model maps graphemes to IPA symbols using the same characters and learns phonotactic constraints from the features of these symbols.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Phonotactic features outperformed geographical and genetic features from WALS in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Multilingual neural NLP involves using neural networks to process data from multiple languages within a single system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Google's system shares an encoder and decoder across all language pairs and prepends an artificial token to identify the target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "The artificial token is prepended to each source sentence to indicate the target language for translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The g2p system is inspired by Google's zero-shot translation approach, but uses a single target language (IPA) and identifies the source language via artificial tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Inspiration"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "A phoneme is an abstract unit of sound that may have different realizations in different contexts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The English phoneme has two phonetic realizations (allophones) that are indistinguishable to untrained speakers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Most writing systems today are glottographic, encoding only phonological information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Few writing systems have a one-to-one correspondence between graphemes and phonemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "In English, multiple graphemes can represent a single phoneme, as in the word 'the'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "In syllabaries, a single symbol represents a syllable, which may correspond to multiple phonemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "In Spanish, the word 'hora' contains a silent letter.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "These models train a single neural model on multiple languages and condition on externally constructed typological data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Ostling's approach trains a character-level neural language model on a multilingual corpus by concatenating language embeddings at each time step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "A language embedding vector is added at each time step to represent the language in a neural language model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The learned language embeddings correlate closely with the genetic relationships between languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Neither the phoneme-level polyglot models nor ostling2017continuous's model was applied to grapheme-to-phoneme conversion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The silent e in English affects the pronunciation of the previous vowel, as seen in the words 'cape' and 'cap'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "An orthographic system can have any or all of the phenomena like silent e while remaining unambiguous.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "English is well-known for its spelling ambiguities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Abjads, used for Arabic and Hebrew, do not give full representation to vowels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Grapheme-to-phoneme conversion is the problem of replacing a grapheme sequence with a phoneme sequence where the sequences are not necessarily of the same length.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Data-driven g2p finds the phoneme sequence that maximizes the likelihood of the grapheme sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Complex and difficult-to-engineer spelling rules make data-driven approaches especially useful for g2p.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Multilingual g2p involves languages with similar but different and possibly contradictory spelling rules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "An encoder\u2013decoder model with attention is used to find the best phoneme sequence by compressing grapheme sequences into fixed-length vectors and generating phoneme sequences from them.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The encoder and decoder in the model are implemented as recurrent neural networks, which can process sequences of arbitrary length and use long histories efficiently.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Using a bidirectional encoder, which processes input in both forward and reverse directions, yielded the best results in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Long short-term memory units are used for both the encoder and decoder in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The general global attention architecture described by Luong (2015) is used in the model for attention.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "All models are implemented using OpenNMT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Hyperparameters are determined by experimentation and are listed in Table TABREF8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Different languages have different pronunciation patterns, which can create problems when presenting pronunciation data to a multilingual model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The string 'real' is pronounced differently in English, German, Spanish, and Portuguese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "An artificial token is a special marker prepended to each grapheme sequence, consisting of the language's ISO 639-3 code enclosed in angle brackets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The English word 'real' is presented as INLINEFORM0 eng INLINEFORM1 r e a l in the system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Johnson2016Google uses artificial tokens to identify the target language in their zero-shot NMT system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Ostling2017Continuous concatenates a language embedding to the input at each time step but does not evaluate their approach on grapheme-to-phoneme conversion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The Carnegie Mellon Pronouncing Dictionary is a monolingual English resource used for pronunciation data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The multilingual pronunciation corpus collected by deri2016grapheme consists of spelling\u2013pronunciation pairs extracted from Wiktionary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The deri2016grapheme corpus extracts spelling\u2013pronunciation pairs from Wiktionary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The corpus provides an automatically cleaned version of IPA transcriptions to remove errors from web-sourced data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The deri2016grapheme corpus is already partitioned into training and test sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Table TABREF10 presents the corpus statistics for the deri2016grapheme dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Scraped data is often noisy and may be transcribed at an inconsistent level of detail.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Data cleaning attempts to make transcriptions consistent with the phonemic inventories used in Phoible BIBREF4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "When a transcription contains a phoneme not in its language's inventory in Phoible, the phoneme is replaced by the one with the most similar articulatory features that is in the inventory.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "In the German examples in Table TABREF11, the raw German symbols and are both converted to .",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The phoneme is not present in the Phoible inventory for German but is used in several German transcriptions in the corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The cleaning algorithm converts to in all German transcriptions, which may be less reasonable than using .",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Negative Effect"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The cleaning algorithm removes most suprasegmentals, even though they are often important in a language's phonology.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "LangID prepends each training, validation, and test sample with an artificial token identifying the language of the sample.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "NoLangID omits the artificial token that identifies the language of the sample.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "A beam width of 100 is used to translate the test corpus, which is unusually wide but had negligible performance effects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "PER is the Levenshtein distance between predicted and gold standard phoneme sequences, divided by the length of the gold standard sequences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "WER is the percentage of words in which the predicted phoneme sequence does not exactly match the gold standard phoneme sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "WER 100 is the percentage of words in the test set for which the correct guess is not in the first 100 system guesses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "System evaluations present WER, WER 100, and PER numbers for multiple models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Metric"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Languages are averaged with equal weighting for each language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Hixon's 2011 phonemic error metrics propose a method for computing error metrics that incorporate phoneme similarity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "PER weights all phoneme errors equally, regardless of their harmfulness or contrastive nature.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Contrastive errors are common in phoneme errors, whereas non-contrastive errors are rare.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Error metrics incorporating phoneme similarity are especially useful for evaluating multilingual systems due to subtle phoneme variations across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use Case"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Phoneme similarity-based statistics have not been widely reported for other g2p systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The system presented by Deri and Knight (2016) is identified in the results as wFST.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "wFST refers to a grapheme-to-phoneme system trained on Wiktionary pronunciation data and Wikipedia IPA Help page rules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "wFST reports high resource results for 85 languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Adapted results include 85 high-resource languages and additional languages adapted from those models, totaling 229 languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The test set omits 23 high-resource languages written in unique scripts or for which language distance metrics could not be computed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "LangID-High is trained on data from the 85 languages using non-adapted wFST models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Set"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "NoLangID-High is trained on data from the 85 languages using non-adapted wFST models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Set"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "LangID-Adapted is trained on data from any of the 229 languages using adapted models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Set"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "NoLangID-Adapted is trained on data from any of the 229 languages using adapted models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Set"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "LangID-All is trained on data from all 311 languages in the Wiktionary training corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Set"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "NoLangID-All is trained on data from all 311 languages in the Wiktionary training corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Set"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The training corpus is limited to 10,000 words per language to ease comparison with Deri and Knight's system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "10 percent of the data in each language is set aside for validation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The maximum number of training words per language is 9000 due to the 10% validation split.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The adapted set omits 23 languages that are present in the high-resource test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The LangID version of the system is a model that uses language ID tokens to improve performance on language identification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "LangID-High is a multilingual model trained on high-resource languages that achieves performance close to wFST in WER and PER, and outperforms wFST in WER 100.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The wFST model is a monolingual model that does not use data adaptation and performs well in WER and PER, especially in high-resource language settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The NoLangID model beats the baseline in WER and WER 100, even without using language ID tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "LangID models outperform baseline models in WER and PER, even on unseen languages, despite not having learned embeddings for language ID tokens of those languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Unseen languages are languages present in the test corpus but absent from the training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Deri and Knight did not report results specifically on unseen languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The LangID-High model is 15.4 MB, while the combined wFST high-resource models are 197.5 MB.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "A monolingual wFST model avoids generating phonemes not part of a language's inventory, which contributes to its strong performance in WER and PER.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "A multilingual model can generate phonemes from any language's inventory it has been trained on, potentially leading to better performance in WER 100.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "A token improves model results when an embedding has been learned for that token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "Language ID tokens are tokens used in a model to identify the language of input text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Language embeddings learned by models show correlations with genetic relationships between languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Luxembourgish is a language closely related to German and appears near it in the language embedding space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Bavarian is a language closely related to German and appears near it in the language embedding space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Yiddish is a language closely related to German and appears near it in the language embedding space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Phoneme embeddings are learned representations of phonemes in a multilingual model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Phoneme embeddings show regularities when the same grapheme is used to represent phonemes across different languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "The structure of phoneme embeddings contributes to the model's strong performance on WER 100.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Phonemes represented by the same grapheme in different languages tend to be phonetically similar.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Typological features are characteristics of a language's phonemic inventory that can be used to describe its structure.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "Phoible is a database that contains typological information about a wide variety of languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "WALS is a database that contains typological information about a wide variety of languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "It would be interesting to explore whether typological features can predict a language's orthographic rules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Prediction"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "The artificial token approach could be applied to monolingual English grapheme-to-phoneme conversion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "Ambiguity in English spelling is partly due to the presence of loanwords with unassimilated spellings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The etymology of a word can be tagged in a manner analogous to how language ID is tagged in multilingual g2p.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tagging"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "10 percent validation",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "10,000 words",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "15.4 MB",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "157 languages",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "197.5 MB",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "229 languages",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "229 languages",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "23 languages",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "311 languages",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "85 languages",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "Abjads",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "Ansbach",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "Arabic",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "Arabic",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "BIBREF12",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "BIBREF4",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "Bavarian",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "Bavarian",
+      "Property",
+      "s114"
+    ],
+    [
+      "Carnegie Mellon Pronouncing Dictionary",
+      "Definition",
+      "s59"
+    ],
+    [
+      "Carnegie Mellon Pronouncing Dictionary",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "Deri and Knight",
+      "Claim",
+      "s106"
+    ],
+    [
+      "Deri2016grapheme",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "Eastern Armenian",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "English",
+      "Example",
+      "s40"
+    ],
+    [
+      "English",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "English",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "English word 'real'",
+      "Example",
+      "s56"
+    ],
+    [
+      "English word real",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "Georgian",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "German",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "German",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "German",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "German examples in Table TABREF11",
+      "Result",
+      "s68"
+    ],
+    [
+      "Google's zero-shot neural machine translation",
+      "Property",
+      "s23"
+    ],
+    [
+      "Grapheme-to-Phoneme",
+      "Grapheme-to-Phoneme Conversion",
+      "e3"
+    ],
+    [
+      "Greek",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "Hebrew",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "Hindi",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "INLINEFORM0",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "INLINEFORM0",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "INLINEFORM1",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "INLINEFORM1",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "IPA",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "IPA symbols",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "IPA transcriptions",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "ISO 639-3 code",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "International Phonetic Alphabet",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "Kaninchen",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "LangID",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "LangID",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "LangID model",
+      "Definition",
+      "s72"
+    ],
+    [
+      "LangID models",
+      "Result",
+      "s104"
+    ],
+    [
+      "LangID version",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "LangID version of the system",
+      "Definition",
+      "s100"
+    ],
+    [
+      "LangID-Adapted",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "LangID-Adapted",
+      "Training Set",
+      "s92"
+    ],
+    [
+      "LangID-All",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "LangID-All",
+      "Training Set",
+      "s94"
+    ],
+    [
+      "LangID-High",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "LangID-High",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "LangID-High",
+      "Property",
+      "s101"
+    ],
+    [
+      "LangID-High",
+      "Training Set",
+      "s90"
+    ],
+    [
+      "LangID-High model size",
+      "Property",
+      "s107"
+    ],
+    [
+      "Luxembourgish",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "Luxembourgish",
+      "Property",
+      "s113"
+    ],
+    [
+      "NoLangID",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "NoLangID",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "NoLangID",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "NoLangID model",
+      "Definition",
+      "s73"
+    ],
+    [
+      "NoLangID model",
+      "Result",
+      "s103"
+    ],
+    [
+      "NoLangID-Adapted",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "NoLangID-Adapted",
+      "Training Set",
+      "s93"
+    ],
+    [
+      "NoLangID-All",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "NoLangID-All",
+      "Training Set",
+      "s95"
+    ],
+    [
+      "NoLangID-High",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "NoLangID-High",
+      "Training Set",
+      "s91"
+    ],
+    [
+      "OpenNMT",
+      "Tool",
+      "s51"
+    ],
+    [
+      "OpenNMT",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "PER",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "PER",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "PER",
+      "Property",
+      "s81"
+    ],
+    [
+      "Phoible",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "Phoible",
+      "Data Source",
+      "s12"
+    ],
+    [
+      "Phoible",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "Phoible",
+      "Resource",
+      "s121"
+    ],
+    [
+      "Phoible",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "Phoneme Error Rate (PER)",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "Phoneme Error Rate (PER)",
+      "Definition",
+      "s75"
+    ],
+    [
+      "Phonetisaurus",
+      "System",
+      "s17"
+    ],
+    [
+      "Phonetisaurus",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "Portuguese",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "Spanish",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "Spanish",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "Table TABREF10",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "Table TABREF10",
+      "Reference",
+      "s64"
+    ],
+    [
+      "Table TABREF24",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "Table TABREF26",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "Table TABREF28",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "Table TABREF30",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "Table TABREF33",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "URIEL",
+      "Data Source",
+      "s13"
+    ],
+    [
+      "URIEL",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "WALS",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "WALS",
+      "Resource",
+      "s122"
+    ],
+    [
+      "WALS BIBREF6",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "WER",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "WER 100",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "WER 100",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "WER 100",
+      "Result",
+      "s118"
+    ],
+    [
+      "Wikipedia IPA Help pages",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "Wiktionary",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "Wiktionary",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "Wiktionary",
+      "Source",
+      "s61"
+    ],
+    [
+      "Word Error Rate (WER)",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "Word Error Rate (WER)",
+      "Definition",
+      "s76"
+    ],
+    [
+      "Word Error Rate 100 (WER 100)",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "Word Error Rate 100 (WER 100)",
+      "Definition",
+      "s77"
+    ],
+    [
+      "Yiddish",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "Yiddish",
+      "Property",
+      "s115"
+    ],
+    [
+      "abjads",
+      "Definition",
+      "s41"
+    ],
+    [
+      "adapted results",
+      "Result",
+      "s88"
+    ],
+    [
+      "adapted set",
+      "Property",
+      "s99"
+    ],
+    [
+      "allophones",
+      "Example",
+      "s27"
+    ],
+    [
+      "allophones",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "artificial token",
+      "Definition",
+      "s55"
+    ],
+    [
+      "artificial token",
+      "Function",
+      "s24"
+    ],
+    [
+      "artificial token",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "artificial token",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "artificial token",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "attention mechanism",
+      "Definition",
+      "s50"
+    ],
+    [
+      "attention mechanism",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "automatic speech recognition",
+      "Application",
+      "s3"
+    ],
+    [
+      "automatic speech recognition",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "beam width",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "beam width",
+      "Property",
+      "s74"
+    ],
+    [
+      "bidirectional encoder",
+      "Result",
+      "s48"
+    ],
+    [
+      "bidirectional encoder",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "cap",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "cape",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "character-level neural language model",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "cleaned version",
+      "Corpus Cleaning",
+      "e7"
+    ],
+    [
+      "cleaning algorithm",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "cleaning algorithm",
+      "Negative Effect",
+      "s70"
+    ],
+    [
+      "complex spelling rules",
+      "Cause",
+      "s44"
+    ],
+    [
+      "contrastive errors",
+      "Property",
+      "s82"
+    ],
+    [
+      "corpus",
+      "Corpus Cleaning",
+      "e7"
+    ],
+    [
+      "corpus cleaning",
+      "Property",
+      "s62"
+    ],
+    [
+      "cross-entropy",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "data cleaning",
+      "Definition",
+      "s66"
+    ],
+    [
+      "data-driven g2p",
+      "Result",
+      "s43"
+    ],
+    [
+      "data-driven g2p",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "deri2016grapheme",
+      "Definition",
+      "s85"
+    ],
+    [
+      "deri2016grapheme",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "deri2016grapheme",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "deri2016grapheme",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "deri2016grapheme corpus",
+      "Definition",
+      "s60"
+    ],
+    [
+      "embedding",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "encoder and decoder",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "encoder-decoder model",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "encoder\u2013decoder model",
+      "Definition",
+      "s46"
+    ],
+    [
+      "error metrics",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "etymology",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "etymology",
+      "Tagging",
+      "s126"
+    ],
+    [
+      "forward and reverse directions",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "g2p",
+      "Grapheme-to-Phoneme Conversion",
+      "e3"
+    ],
+    [
+      "g2p",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "g2p application",
+      "Limitation",
+      "s37"
+    ],
+    [
+      "g2p system",
+      "Inspiration",
+      "s25"
+    ],
+    [
+      "g2p system",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "g2p systems",
+      "Result",
+      "s84"
+    ],
+    [
+      "genetic relationships",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "glottographic",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "grapheme",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "grapheme",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "grapheme",
+      "Relationship",
+      "s117"
+    ],
+    [
+      "grapheme",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "grapheme sequence",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "grapheme-to-IPA mapping",
+      "Property",
+      "s20"
+    ],
+    [
+      "grapheme-to-phoneme (g2p)",
+      "Definition",
+      "s42"
+    ],
+    [
+      "grapheme-to-phoneme conversion",
+      "Definition",
+      "s1"
+    ],
+    [
+      "grapheme-to-phoneme conversion",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "grapheme-to-phoneme conversion",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "graphemes",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "graphemes",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "high resource languages",
+      "Definition",
+      "s4"
+    ],
+    [
+      "high resource languages",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "high resource languages",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "high resource results",
+      "Result",
+      "s87"
+    ],
+    [
+      "hixon2011phonemic",
+      "Definition",
+      "s80"
+    ],
+    [
+      "hixon2011phonemic",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "hora",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "hyperparameters",
+      "Property",
+      "s52"
+    ],
+    [
+      "johnson2016google",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "johnson2016google",
+      "Reference",
+      "s57"
+    ],
+    [
+      "jyothilow",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "kim2012universal",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "language ID",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "language ID token",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "language ID tokens",
+      "Definition",
+      "s111"
+    ],
+    [
+      "language ID tokens",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "language distance metric",
+      "Method",
+      "s10"
+    ],
+    [
+      "language embedding",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "language embedding vector",
+      "Function",
+      "s35"
+    ],
+    [
+      "language embedding vector",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "language embeddings",
+      "Result",
+      "s112"
+    ],
+    [
+      "language embeddings",
+      "Result",
+      "s36"
+    ],
+    [
+      "languages",
+      "Property",
+      "s79"
+    ],
+    [
+      "loanwords",
+      "Cause",
+      "s125"
+    ],
+    [
+      "loanwords",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "long short-term memory units",
+      "Component",
+      "s49"
+    ],
+    [
+      "long short-term memory units",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "low resource languages",
+      "Definition",
+      "s5"
+    ],
+    [
+      "low resource languages",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "luong2015effective",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "model combination",
+      "Strategy",
+      "s14"
+    ],
+    [
+      "monolingual",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "monolingual English g2p",
+      "Application",
+      "s124"
+    ],
+    [
+      "monolingual English g2p",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "monolingual wFST model",
+      "Cause",
+      "s108"
+    ],
+    [
+      "multilingual g2p",
+      "Definition",
+      "s45"
+    ],
+    [
+      "multilingual g2p",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "multilingual g2p",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "multilingual model",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "multilingual model",
+      "Property",
+      "s109"
+    ],
+    [
+      "multilingual neural NLP",
+      "Definition",
+      "s22"
+    ],
+    [
+      "multilingual neural NLP",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "multilingual pronunciation corpus",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "multilingual system evaluation",
+      "Use Case",
+      "s83"
+    ],
+    [
+      "multiple graphemes to one phoneme",
+      "Example",
+      "s30"
+    ],
+    [
+      "multisource neural machine translation",
+      "Method",
+      "s7"
+    ],
+    [
+      "multisource neural machine translation",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "noisy data",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "one grapheme to multiple phonemes",
+      "Example",
+      "s31"
+    ],
+    [
+      "one-to-one correspondence",
+      "Property",
+      "s29"
+    ],
+    [
+      "orthographic",
+      "Grapheme-to-Phoneme Conversion",
+      "e3"
+    ],
+    [
+      "orthographic and phonemic similarities",
+      "Property",
+      "s6"
+    ],
+    [
+      "orthographic rules",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "orthographic rules",
+      "Prediction",
+      "s123"
+    ],
+    [
+      "orthographic rules",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "orthographic system",
+      "Property",
+      "s39"
+    ],
+    [
+      "orthographic system",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "orthography",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "ostling2017continuous",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "ostling2017continuous",
+      "Method",
+      "s34"
+    ],
+    [
+      "ostling2017continuous",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "ostling2017continuous",
+      "Reference",
+      "s58"
+    ],
+    [
+      "phoneme",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "phoneme",
+      "Definition",
+      "s26"
+    ],
+    [
+      "phoneme",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "phoneme",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "phoneme distance metric",
+      "Method",
+      "s11"
+    ],
+    [
+      "phoneme embeddings",
+      "Definition",
+      "s116"
+    ],
+    [
+      "phoneme embeddings",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "phoneme in German",
+      "Property",
+      "s69"
+    ],
+    [
+      "phoneme replacement",
+      "Process",
+      "s67"
+    ],
+    [
+      "phoneme similarity",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "phoneme-level polyglot language models",
+      "Approach",
+      "s33"
+    ],
+    [
+      "phoneme-level polyglot language models BIBREF8",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "phoneme-level voting scheme",
+      "Method",
+      "s15"
+    ],
+    [
+      "phonemic context features",
+      "Definition",
+      "s19"
+    ],
+    [
+      "phonemic context features",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "phonemic inventories",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "phonemic inventory",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "phonetic similarity",
+      "Property",
+      "s119"
+    ],
+    [
+      "phonetically similar",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "phonological information",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "phonotactic constraints",
+      "Multilingual G2P Modeling",
+      "e2"
+    ],
+    [
+      "phonotactic features",
+      "Result",
+      "s21"
+    ],
+    [
+      "power of embeddings",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "pronunciation patterns",
+      "Cause",
+      "s53"
+    ],
+    [
+      "real",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "recurrent neural networks",
+      "Model",
+      "s16"
+    ],
+    [
+      "recurrent neural networks",
+      "Property",
+      "s47"
+    ],
+    [
+      "recurrent neural networks",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "schlippe2014combining",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "scraped data",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "scraped data",
+      "Property",
+      "s65"
+    ],
+    [
+      "sequence-to-sequence",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "sequence-to-sequence model",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "shared encoder\u2013decoder",
+      "Component",
+      "s8"
+    ],
+    [
+      "silent e",
+      "Definition",
+      "s38"
+    ],
+    [
+      "silent e",
+      "g2p Model Setup",
+      "e5"
+    ],
+    [
+      "silent letters",
+      "Example",
+      "s32"
+    ],
+    [
+      "source encoder",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "source language",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "spelling\u2013pronunciation pairs",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "string 'real'",
+      "Example",
+      "s54"
+    ],
+    [
+      "suprasegmentals",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "suprasegmentals",
+      "Property",
+      "s71"
+    ],
+    [
+      "syllabaries",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "system evaluations",
+      "Evaluation Metric",
+      "s78"
+    ],
+    [
+      "target language",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "test corpus",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "test set",
+      "Property",
+      "s89"
+    ],
+    [
+      "text-to-speech",
+      "Application",
+      "s2"
+    ],
+    [
+      "text-to-speech",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "the",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "token",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "token",
+      "Property",
+      "s110"
+    ],
+    [
+      "training and test sets",
+      "Property",
+      "s63"
+    ],
+    [
+      "training corpus",
+      "Property",
+      "s96"
+    ],
+    [
+      "training words per language",
+      "Property",
+      "s98"
+    ],
+    [
+      "transcription",
+      "Data Cleaning & Evaluation",
+      "e8"
+    ],
+    [
+      "transcriptions",
+      "Corpus Cleaning",
+      "e7"
+    ],
+    [
+      "typological features",
+      "Definition",
+      "s120"
+    ],
+    [
+      "typological representation",
+      "Phoneme and Language Embeddings",
+      "e11"
+    ],
+    [
+      "unassimilated spellings",
+      "Language Orthography",
+      "e12"
+    ],
+    [
+      "undirected graphical model",
+      "Model",
+      "s18"
+    ],
+    [
+      "undirected graphical model",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "unseen languages",
+      "Definition",
+      "s105"
+    ],
+    [
+      "unseen languages",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "validation data",
+      "Property",
+      "s97"
+    ],
+    [
+      "wFST",
+      "Definition",
+      "s86"
+    ],
+    [
+      "wFST",
+      "Multilingual G2P Evaluation",
+      "e9"
+    ],
+    [
+      "wFST",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "wFST model",
+      "Property",
+      "s102"
+    ],
+    [
+      "wFST-adaptation",
+      "Language ID Performance",
+      "e10"
+    ],
+    [
+      "web",
+      "Corpus Cleaning",
+      "e7"
+    ],
+    [
+      "weighted finite state transducer",
+      "g2p Low-Resource Methods",
+      "e1"
+    ],
+    [
+      "weighted finite state transducer (wFST)",
+      "Model",
+      "s9"
+    ],
+    [
+      "writing systems",
+      "Phoneme and Grapheme Representation",
+      "e4"
+    ],
+    [
+      "writing systems",
+      "Property",
+      "s28"
+    ],
+    [
+      "zero-shot NMT",
+      "Grapheme-to-Phoneme Setup",
+      "e6"
+    ],
+    [
+      "zero-shot neural machine translation",
+      "Multilingual G2P Modeling",
+      "e2"
+    ]
+  ]
+}

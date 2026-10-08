@@ -1,0 +1,3580 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 12,
+    "n_semantic": 104,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "10": {
+      "tag_set": [
+        "Number Value"
+      ]
+    },
+    "Julio Amador D\u00edaz L\u00f3pez": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "Axel Oehmichen": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "Miguel Molina-Solana": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "Twitter": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News Detection Hypotheses",
+        "Fake News Detection on Twitter",
+        "Fake News Meta-Analysis",
+        "Fake News Metadata",
+        "Fake News on Social Media",
+        "Platform"
+      ]
+    },
+    "Meta-Data": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "j.amador": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "axelfrancois.oehmichen11": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "mmolinas": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "Imperial": {
+      "tag_set": [
+        "Fake News Metadata"
+      ]
+    },
+    "Imperial College London": {
+      "tag_set": [
+        "Fake News Meta-Analysis"
+      ]
+    },
+    "Donald Trump": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News Meta-Analysis",
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "45th president": {
+      "tag_set": [
+        "Fake News Meta-Analysis"
+      ]
+    },
+    "United States of America": {
+      "tag_set": [
+        "Fake News Meta-Analysis"
+      ]
+    },
+    "1.5M tweets": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News Meta-Analysis",
+        "Quantity"
+      ]
+    },
+    "election": {
+      "tag_set": [
+        "Fake News Meta-Analysis"
+      ]
+    },
+    "meta-data": {
+      "tag_set": [
+        "Analysis Method",
+        "Fake News Detection",
+        "Fake News Detection on Twitter",
+        "Fake News Meta-Analysis",
+        "Property"
+      ]
+    },
+    "fake news": {
+      "tag_set": [
+        "Definition",
+        "Fake News Detection in Tweets",
+        "Fake News Detection on Twitter",
+        "Fake News Meta-Analysis",
+        "Fake News Tweet Analysis",
+        "Fake News Viral Tweets",
+        "Fake News on Social Media"
+      ]
+    },
+    "2016 presidential election": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "United States": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "Obama campaign": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "Facebook": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News on Social Media"
+      ]
+    },
+    "Google": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "62%": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "social media": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "deliberately misleading information": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "political decisions": {
+      "tag_set": [
+        "Fake News on Social Media"
+      ]
+    },
+    "Craig Silverman": {
+      "tag_set": [
+        "Fake News Detection",
+        "Person"
+      ]
+    },
+    "US presidential campaign": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "November 8th 2016": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "election day in the United States": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "fake election news stories": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "major news outlet": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "Morris et al.": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "spam": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "retweets": {
+      "tag_set": [
+        "Fake News Detection on Twitter",
+        "Result"
+      ]
+    },
+    "viral tweets": {
+      "tag_set": [
+        "Definition",
+        "Fake News Detection",
+        "Fake News Detection in Tweets",
+        "Fake News Detection on Twitter",
+        "Fake News Tweet Analysis",
+        "Fake News Viral Tweets",
+        "Filtering Criterion"
+      ]
+    },
+    "Rubin et al.": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Fake News Detection on Twitter",
+        "Source"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "Allcot and Gentzkow": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "Conroy et al.": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "polarized political views": {
+      "tag_set": [
+        "Fake News Detection on Twitter",
+        "Property"
+      ]
+    },
+    "serious fabrication": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "large-scale hoaxes": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "jokes taken at face value": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "slanted reporting": {
+      "tag_set": [
+        "Fake News Detection on Twitter"
+      ]
+    },
+    "psychology": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Field of Study"
+      ]
+    },
+    "political science": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Field of Study"
+      ]
+    },
+    "sociology": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Field of Study"
+      ]
+    },
+    "misinformation": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "confirmation bias": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "priming effects": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "Economics": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "fake news sites": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Property"
+      ]
+    },
+    "legitimate organizations": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "short-lived": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "shared articles": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "polarization": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Property",
+        "Research Hypothesis Dimension"
+      ]
+    },
+    "research hypotheses": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "exposure": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Fake News Detection in Tweets",
+        "Research Hypothesis Dimension"
+      ]
+    },
+    "characterization": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Research Hypothesis Dimension"
+      ]
+    },
+    "public API": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "streaming API": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "filter endpoint": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "U.S. presidential election": {
+      "tag_set": [
+        "Data Collection Context",
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "hashtags": {
+      "tag_set": [
+        "Fake News Detection Hypotheses",
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "user handles": {
+      "tag_set": [
+        "Fake News Detection Hypotheses"
+      ]
+    },
+    "MyVote2016": {
+      "tag_set": [
+        "Definition",
+        "Fake News Viral Tweets"
+      ]
+    },
+    "ElectionDay": {
+      "tag_set": [
+        "Definition",
+        "Fake News Viral Tweets"
+      ]
+    },
+    "electionnight": {
+      "tag_set": [
+        "Definition",
+        "Fake News Viral Tweets"
+      ]
+    },
+    "@realDonaldTrump": {
+      "tag_set": [
+        "Entity",
+        "Fake News Viral Tweets"
+      ]
+    },
+    "@HillaryClinton": {
+      "tag_set": [
+        "Entity",
+        "Fake News Viral Tweets"
+      ]
+    },
+    "Nov 8th 2016": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "retweet": {
+      "tag_set": [
+        "Definition",
+        "Fake News Viral Tweets"
+      ]
+    },
+    "Body et al. BIBREF15": {
+      "tag_set": [
+        "Fake News Viral Tweets",
+        "Reference"
+      ]
+    },
+    "spread tweets": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "show one\u2019s role as a listener": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "agree with someone": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "validate thoughts": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "1000 retweets": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "1,785,855 tweets": {
+      "tag_set": [
+        "Fake News Viral Tweets",
+        "Result"
+      ]
+    },
+    "848,196 users": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "1327 viral tweets": {
+      "tag_set": [
+        "Fake News Viral Tweets",
+        "Result"
+      ]
+    },
+    "643 users": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "290,841 retweets": {
+      "tag_set": [
+        "Fake News Viral Tweets",
+        "Result"
+      ]
+    },
+    "manual annotation": {
+      "tag_set": [
+        "Fake News Viral Tweets",
+        "Method"
+      ]
+    },
+    "Kolmogorov-Smirnov test": {
+      "tag_set": [
+        "Fake News Viral Tweets",
+        "Method"
+      ]
+    },
+    "null hypothesis": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "distribution": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "logarithms": {
+      "tag_set": [
+        "Fake News Viral Tweets"
+      ]
+    },
+    "annotated dataset BIBREF8": {
+      "tag_set": [
+        "Fake News Viral Tweets",
+        "Resource"
+      ]
+    },
+    "1327 tweets": {
+      "tag_set": [
+        "Definition",
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "136 fake news tweets": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "non containing fake news": {
+      "tag_set": [
+        "Classification",
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "categorization ambiguity": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "human judgement": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "ground truth": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "TABREF23": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "FIGREF24": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "FIGREF25": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Kolmogorov-Smirnoff test": {
+      "tag_set": [
+        "Fake News Tweet Analysis",
+        "Method"
+      ]
+    },
+    "FIGREF26": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "favourites": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "FIGREF27": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "82 users": {
+      "tag_set": [
+        "Fake News Tweet Analysis",
+        "Result"
+      ]
+    },
+    "34 verified accounts": {
+      "tag_set": [
+        "Fake News Tweet Analysis",
+        "Property"
+      ]
+    },
+    "48 unverified accounts": {
+      "tag_set": [
+        "Fake News Tweet Analysis",
+        "Property"
+      ]
+    },
+    "6 suspended accounts": {
+      "tag_set": [
+        "Fact",
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "3 imitated accounts": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "4 deleted accounts": {
+      "tag_set": [
+        "Fact",
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "FIGREF28": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "unverified accounts": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "friends": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "followers": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "friends/followers ratio": {
+      "tag_set": [
+        "Fake News Detection",
+        "Fake News Tweet Analysis",
+        "Property",
+        "Result"
+      ]
+    },
+    "mentions": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "media elements": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "URLs": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Hillary Clinton": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Figure FIGREF29": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Figure FIGREF30": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Figure FIGREF31": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Figure FIGREF32": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Figure FIGREF33": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Figure FIGREF34": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Figure FIGREF35": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "117 tweets": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "8 tweets": {
+      "tag_set": [
+        "Fake News Tweet Analysis"
+      ]
+    },
+    "Table TABREF44": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "Alcott et al.": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "2016 US presidential election": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "time of exposure": {
+      "tag_set": [
+        "Fake News Detection",
+        "Property"
+      ]
+    },
+    "account deletion": {
+      "tag_set": [
+        "Fake News Detection",
+        "Result"
+      ]
+    },
+    "account suspension": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "lifetime of accounts": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "age of viral content": {
+      "tag_set": [
+        "Fake News Detection"
+      ]
+    },
+    "number of URLs": {
+      "tag_set": [
+        "Fake News Detection",
+        "Property",
+        "Result"
+      ]
+    },
+    "click-through advertising": {
+      "tag_set": [
+        "Cause",
+        "Fake News Detection"
+      ]
+    },
+    "textual sentiment analysis": {
+      "tag_set": [
+        "Fake News Detection",
+        "Method"
+      ]
+    },
+    "Bayesian classifier": {
+      "tag_set": [
+        "Application",
+        "Fake News Detection"
+      ]
+    },
+    "deceitful tweets": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "content of tweets": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "account characteristics": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "tone of content": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "US election": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "social platforms": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "automated tagging": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "blocking tweets": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "dataset": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "predictive power": {
+      "tag_set": [
+        "Fake News Detection in Tweets"
+      ]
+    },
+    "political fake news": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "2016 U.S. presidential election": {
+      "tag_set": [
+        "Event"
+      ]
+    },
+    "followers distribution": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "user verification": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Google and Facebook": {
+      "tag_set": [
+        "Organization"
+      ]
+    },
+    "linguistic approaches": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "network approaches": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "dataset BIBREF8": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Allcot and Gentzkow BIBREF9": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "Computer Science literature on fake news": {
+      "tag_set": [
+        "Context"
+      ]
+    },
+    "psychological biases": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "fake news items": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "definition of fake news": {
+      "tag_set": [
+        "Conceptual Issue"
+      ]
+    },
+    "Twitter's public API": {
+      "tag_set": [
+        "Data Collection Method"
+      ]
+    },
+    "Twitter's terms and conditions": {
+      "tag_set": [
+        "Ethical Note"
+      ]
+    },
+    "filter endpoint of streaming API": {
+      "tag_set": [
+        "Data Collection Method"
+      ]
+    },
+    "hashtags and user handles": {
+      "tag_set": [
+        "Search Terms"
+      ]
+    },
+    "viral tweet": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Twitter's API": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "normalization and logarithmic transformation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "136 tweets": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "categorization is not perfect": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dataset is not ground truth": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "viral tweets containing fake news": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "exposure period": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "number of favourites": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "distribution of favourites": {
+      "tag_set": [
+        "Visualization"
+      ]
+    },
+    "statistical significance of favourites": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "number of hashtags": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "density distribution of hashtags": {
+      "tag_set": [
+        "Visualization"
+      ]
+    },
+    "statistical difference in hashtags": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "3 accounts imitating legitimate ones": {
+      "tag_set": [
+        "Fact"
+      ]
+    },
+    "proportion of verified to unverified accounts": {
+      "tag_set": [
+        "Visualization"
+      ]
+    },
+    "fake news from unverified accounts": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "accounts distributing fake news": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "density distribution of friends": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "number of followers": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "distribution of friends/followers ratio": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "number of mentions": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "mentions in fake news tweets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "media elements in tweets": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "support for Donald Trump": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "support for Hillary Clinton": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "other topics in fake news tweets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "account lifetime": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "content polarization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "fake news detection": {
+      "tag_set": [
+        "Goal"
+      ]
+    },
+    "social media platforms": {
+      "tag_set": [
+        "Prediction"
+      ]
+    },
+    "meta-data analysis": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "replication of experiments": {
+      "tag_set": [
+        "Plan"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "10",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Number Value"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "pt\n1.10pt\n[ Characterizing Political Fake News in Twitter by its Meta-DataJulio Amador D\u00edaz L\u00f3pezAxel Oehmichen Miguel Molina-Solana( j.amador, axelfrancois.oehmichen11, mmolinas@imperial",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Metadata"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": ".ac.uk ) Imperial College London This article presents a preliminary approach towards characterizing political fake news on Twitter through the analysis of their meta-data. In particular, we focus on more than 1.5M tweets collected on the day of the election of Donald Trump as 45th president of the United States of America. We use the meta-data embedded within those tweets in order to look for differences between tweets containing fake news",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Meta-Analysis"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "and tweets not containing them. Specifically, we perform our analysis only on tweets that went viral, by studying proxies for users' exposure to the tweets, by characterizing accounts spreading fake news, and by looking at their polarization. We found significant differences on the distribution of followers, the number of URLs on tweets, and the verification of the users.\n]\nIntroduction\nWhile fake news, understood as deliberately misleading pieces of information, have existed since long ago (e.g. it is not unusual to receive news falsely claiming the death of a celebrity), the term reached the mainstream, particularly so in politics, during the 2016 presidential election in the United States BIBREF0 . Since then, governments and corporations alike (e.g. Google BIBREF1 and Facebook BIBREF2 ) have begun efforts to tackle fake news as they can affect political decisions BIBREF3 . Yet, the ability to define, identify and stop fake news from spreading is limited.\nSince the Obama campaign in 2008, social media has been pervasive in the political arena in the United States. Studies report that up to 62% of American adults receive their news from social media BIBREF4 . The wide use of platforms such as Twitter and Facebook has facilitated the diffusion of fake news by simplifying the process of receiving content with no significant third party filtering,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News on Social Media"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "fact-checking or editorial judgement. Such characteristics make these platforms suitable means for sharing news that, disguised as legit ones, try to confuse readers.\nSuch use and their prominent rise has been confirmed by Craig Silverman, a Canadian journalist who is a prominent figure on fake news BIBREF5 : \u201cIn the final three months of the US presidential campaign, the top-performing fake election news stories on Facebook generated more engagement than the top stories from major news outlet\u201d.\nOur current research hence departs from the assumption that social media is a conduit for fake news and asks the question of whether fake news (as spam was some years ago) can be identified, modelled and eventually blocked. In order to do so, we use a sample of more that 1.5M tweets collected on November 8th 2016 \u2014election day in the United States\u2014 with the goal of identifying features that tweets containing fake news are likely to have. As such, our paper aims to provide a preliminary characterization of fake news in Twitter by looking into meta-data embedded in tweets. Considering meta-data as a relevant factor of analysis is in line with findings reported by Morris et al. BIBREF6 . We argue that understanding differences between tweets containing fake news and regular tweets will allow researchers to design mechanisms",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Detection"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "to block fake news in Twitter. Specifically, our goals are: 1) compare the characteristics of tweets labelled as containing fake news to tweets labelled as not containing them, 2) characterize, through their meta-data, viral tweets containing fake news and the accounts from which they originated, and 3) determine the extent to which tweets containing fake news expressed polarized political views. For our study, we used the number of retweets to single-out those that went viral within our sample. Tweets within that subset (viral tweets hereafter) are varied and relate to different topics. We consider that a tweet contains fake news if its text falls within any of the following categories described by Rubin et al. BIBREF7 (see next section for the details of such categories): serious fabrication, large-scale hoaxes, jokes taken at face value, slanted reporting of real facts and stories where the truth is contentious. The dataset BIBREF8 , manually labelled by an expert, has been publicly released and is available to researchers and interested parties. From our results, the following main observations can be made: Our findings resonate with similar work done on fake news such as the one from Allcot and Gentzkow BIBREF9 . Therefore, even if our study is a preliminary attempt at characterizing fake news on Twitter using only their meta-data, our results provide external validity to previous research. Moreover, our work not only stresses the importance of using meta-data, but also underscores which parameters may be useful to identify fake news on Twitter. The rest of the paper is organized as follows. The next section briefly discusses where this work is located within the literature on fake news and contextualizes the type of fake news we are studying. Then, we present our hypotheses, the data, and the methodology we follow. Finally, we present our findings, conclusions of this study, and future lines of work. Defining Fake news Our research is connected to different strands of academic knowledge related to the phenomenon of fake news. In relation to Computer Science, a recent survey by Conroy and colleagues BIBREF10 identifies two popular approaches to single-out fake news. On the one hand, the authors pointed to linguistic approaches consisting in using text, its linguistic characteristics and machine learning techniques to automatically flag fake news. On the other, these researchers underscored the use of network approaches, which make use of network characteristics and meta-data, to identify fake news.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Detection on Twitter"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "With respect to social sciences, efforts from psychology, political science and sociology, have been dedicated to understand why people consume and/or believe misinformation BIBREF11 , BIBREF12 , BIBREF13 , BIBREF14 . Most of these studies consistently reported that psychological biases such as priming effects and confirmation bias play an important role in people ability to discern misinformation. In relation to the production and distribution of fake news, a recent paper in the field of Economics BIBREF9 found that most fake news sites use names that resemble those of legitimate organizations, and that sites supplying fake news tend to be short-lived. These authors also noticed that fake news items are more likely shared than legitimate articles coming from trusted sources, and they tend to exhibit a larger level of polarization. The conceptual issue of how to define fake news is a serious and unresolved issue. As the focus of our work is not attempting to offer light on this, we will rely on work by other authors to describe what we consider as fake news. In particular, we use the categorization provided by Rubin et al. BIBREF7 . The five categories they described, together with illustrative examples from our dataset, are as follows: Research Hypotheses Previous works on the area (presented in the section above) suggest that there may be important determinants for the adoption and diffusion of fake news. Our hypotheses builds on them and identifies three important dimensions that may help distinguishing fake news from legit information: Taking those three dimensions into account, we propose the following hypotheses about the features that we believe can help to identify tweets containing fake news from those not containing them. They will be later tested over our collected dataset. Exposure. Characterization. Polarization. Data and Methodology For this study, we collected publicly available tweets using Twitter's public API. Given the nature of the data, it is important to emphasize that such tweets are subject to Twitter's terms and conditions which indicate that users consent to the collection, transfer, manipulation, storage, and disclosure of data. Therefore, we do not expect ethical, legal, or social implications from the usage of the tweets. Our data was collected using search terms related to the presidential election held in the United States on November 8th 2016. Particularly, we queried Twitter's streaming API, more precisely the filter endpoint of the streaming API, using the following hashtags and user handles:",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Detection Hypotheses"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "#MyVote2016, #ElectionDay, #electionnight, @realDonaldTrump and @HillaryClinton. The data collection ran for just one day (Nov 8th 2016). One straightforward way of sharing information on Twitter is by using the retweet functionality, which enables a user to share a exact copy of a tweet with his followers. Among the reasons for retweeting, Body et al. BIBREF15 reported the will to: 1) spread tweets to a new audience, 2) to show one\u2019s role as a listener, and 3) to agree with someone or validate the thoughts of others. As indicated, our initial interest is to characterize tweets containing fake news that went viral (as they are the most harmful ones, as they reach a wider audience), and understand how it differs from other viral tweets (that do not contain fake news). For our study, we consider that a tweet went viral if it was retweeted more than 1000 times. Once we have the dataset of viral tweets, we eliminated duplicates (some of the tweets were collected several times because they had several handles) and an expert manually inspected the text field within the tweets to label them as containing fake news, or not containing them (according to the characterization presented before). This annotated dataset BIBREF8 is publicly available and can be freely reused. Finally, we use the following fields within tweets (from the ones returned by Twitter's API) to compare their distributions and look for differences between viral tweets containing fake news and viral tweets not containing fake news: In the following section, we provide graphical descriptions of the distribution of each of the identified attributes for the two sets of tweets (those labelled as containing fake news and those labelled as not containing them). Where appropriate, we normalized and/or took logarithms of the data for better representation. To gain a better understanding of the significance of those differences, we use the Kolmogorov-Smirnov test with the null hypothesis that both distributions are equal. Results The sample collected consisted on 1 785 855 tweets published by 848 196 different users. Within our sample, we identified 1327 tweets that went viral (retweeted more than 1000 times by the 8th of November 2016) produced by 643 users. Such small subset of viral tweets were retweeted on 290 841 occasions in the observed time-window. The 1327 `viral' tweets were manually annotated as containing fake news or not. The annotation was carried out by a single person",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Viral Tweets"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "in order to obtain a consistent annotation throughout the dataset. Out of those 1327 tweets, we identified 136 as potentially containing fake news (according to the categories previously described), and the rest were classified as `non containing fake news'. Note that the categorization is far from being perfect given the ambiguity of fake news themselves and human judgement involved in the process of categorization. Because of this, we do not claim that this dataset can be considered a ground truth. The following results detail characteristics of these tweets along the previously mentioned dimensions. Table TABREF23 reports the actual differences (together with their associated p-values) of the distributions of viral tweets containing fake news and viral tweets not containing them for every variable considered. Exposure Figure FIGREF24 shows that, in contrast to other kinds of viral tweets, those containing fake news were created more recently. As such, Twitter users were exposed to fake news related to the election for a shorter period of time. However, in terms of retweets, Figure FIGREF25 shows no apparent difference between containing fake news or not containing them. That is confirmed by the Kolmogorov-Smirnoff test, which does not discard the hypothesis that the associated distributions are equal. In relation to the number of favourites, users that generated at least a viral tweet containing fake news appear to have, on average, less favourites than users that do not generate them. Figure FIGREF26 shows the distribution of favourites. Despite the apparent visual differences, the difference are not statistically significant. Finally, the number of hashtags used in viral fake news appears to be larger than those in other viral tweets. Figure FIGREF27 shows the density distribution of the number of hashtags used. However, once again, we were not able to find any statistical difference between the average number of hashtags in a viral tweet and the average number of hashtags in viral fake news. Characterization We found that 82 users within our sample were spreading fake news (i.e. they produced at least one tweet which was labelled as fake news). Out of those, 34 had verified accounts, and the rest were unverified. From the 48 unverified accounts, 6 have been suspended by Twitter at the date of writing, 3 tried to imitate legitimate accounts of others, and 4 accounts have been already deleted. Figure FIGREF28 shows the proportion of verified accounts to unverified accounts for viral tweets (containing fake",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Tweet Analysis"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "news vs. not containing fake news). From the chart, it is clear that there is a higher chance of fake news coming from unverified accounts. Turning to friends, accounts distributing fake news appear to have, on average, the same number of friends than those distributing tweets with no fake news. However, the density distribution of friends from the accounts (Figure FIGREF29 ) shows that there is indeed a statistically significant difference in their distributions. If we take into consideration the number of followers, accounts generating viral tweets with fake news do have a very different distribution on this dimension, compared to those accounts generating viral tweets with no fake news (see Figure FIGREF30 ). In fact, such differences are statistically significant. A useful representation for friends and followers is the ratio between friends/followers. Figures FIGREF31 and FIGREF32 show this representation. Notice that accounts spreading viral tweets with fake news have, on average, a larger ratio of friends/followers. The distribution of those accounts not generating fake news is more evenly distributed. With respect to the number of mentions, Figure FIGREF33 shows that viral tweets labelled as containing fake news appear to use mentions to other users less frequently than viral tweets not containing fake news. In other words, tweets containing fake news mostly contain 1 mention, whereas other tweets tend to have two). Such differences are statistically significant. The analysis (Figure FIGREF34 ) of the presence of media in the tweets in our dataset shows that tweets labelled as not containing fake news appear to present more media elements than those labelled as fake news. However, the difference is not statistically significant. On the other hand, Figure FIGREF35 shows that viral tweets containing fake news appear to include more URLs to other sites than viral tweets that do not contain fake news. In fact, the difference between the two distributions is statistically significant (assuming INLINEFORM0 ). Polarization Finally, manual inspection of the text field of those viral tweets labelled as containing fake news shows that 117 of such tweets expressed support for Donald Trump, while only 8 supported Hillary Clinton. The remaining tweets contained fake news related to other topics, not expressing support for any of the candidates. Discussion As a summary, and constrained by our existing dataset, we made the following observations regarding differences between viral tweets labelled as containing fake news and viral tweets labelled as not containing them:",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Tweet Analysis"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "These findings (related to our initial hypothesis in Table TABREF44 ) clearly suggest that there are specific pieces of meta-data about tweets that may allow the identification of fake news. One such parameter is the time of exposure. Viral tweets containing fake news are shorter-lived than those containing other type of content. This notion seems to resonate with our findings showing that a number of accounts spreading fake news have already been deleted or suspended by Twitter by the time of writing. If one considers that researchers using different data have found similar results BIBREF9 , it appears that the lifetime of accounts, together with the age of the questioned viral content could be useful to identify fake news. In the light of this finding, accounts newly created should probably put under higher scrutiny than older ones. This in fact, would be a nice a-priori bias for a Bayesian classifier. Accounts spreading fake news appear to have a larger proportion of friends/followers (i.e. they have, on average, the same number of friends but a smaller number of followers) than those spreading viral content only. Together with the fact that, on average, tweets containing fake news have more URLs than those spreading viral content, it is possible to hypothesize that, both, the ratio of friends/followers of the account producing a viral tweet and number of URLs contained in such a tweet could be useful to single-out fake news in Twitter. Not only that, but our finding related to the number of URLs is in line with intuitions behind the incentives to create fake news commonly found in the literature BIBREF9 (in particular that of obtaining revenue through click-through advertising). Finally, it is interesting to notice that the content of viral fake news was highly polarized. This finding is also in line with those of Alcott et al. BIBREF9 . This feature suggests that textual sentiment analysis of the content of tweets (as most researchers do), together with the above mentioned parameters from meta-data, may prove useful for identifying fake news. Conclusions With the election of Donald Trump as President of the United States, the concept of fake news has become a broadly-known phenomenon that is getting tremendous attention from governments and media companies. We have presented a preliminary study on the meta-data of a publicly available dataset of tweets that became viral during the day of the 2016 US presidential election.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Detection"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "Our aim is to advance the understanding of which features might be characteristic of viral tweets containing fake news in comparison with viral tweets without fake news. We believe that the only way to automatically identify those deceitful tweets (i.e. containing fake news) is by actually understanding and modelling them. Only then, the automation of the processes of tagging and blocking these tweets can be successfully performed. In the same way that spam was fought, we anticipate fake news will suffer a similar evolution, with social platforms implementing tools to deal with them. With most works so far focusing on the actual content of the tweets, ours is a novel attempt from a different, but also complementary, angle. Within the used dataset, we found there are differences around exposure, characteristics of accounts spreading fake news and the tone of the content. Those findings suggest that it is indeed possible to model and automatically detect fake news. We plan to replicate and validate our experiments in an extended sample of tweets (until 4 months after the US election), and tests the predictive power of the features we found relevant within our sample. Author Disclosure Statement No competing financial interest exist.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fake News Detection in Tweets"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Political fake news is defined as deliberately misleading pieces of information, particularly in the context of political discourse.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "The 2016 U.S. presidential election marked a significant rise in the spread of fake news, especially on social media platforms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Event"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Twitter has been a prominent platform for the dissemination of fake news due to the lack of third-party filtering, fact-checking, or editorial judgment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Platform"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "A sample of more than 1.5 million tweets collected on November 8th, 2016, was used in the analysis of political fake news on Twitter.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Quantity"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The study analyzes meta-data embedded in tweets to identify differences between tweets containing fake news and those that do not.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis Method"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The analysis focuses exclusively on tweets that went viral, using proxies for user exposure as a key indicator.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Filtering Criterion"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Tweets containing fake news show significant differences in the distribution of followers compared to non-fake news tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "There are significant differences in the number of URLs present in tweets containing fake news versus those without.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Tweets with fake news are associated with a different pattern of user verification compared to regular tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The study examines the polarization levels of accounts spreading fake news as a characteristic feature.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Craig Silverman, a Canadian journalist, noted that top-performing fake election news stories on Facebook generated more engagement than major news outlets during the final three months of the 2016 U.S. presidential campaign.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Person"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Google and Facebook have initiated efforts to combat the spread of fake news due to its potential impact on political decisions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Organization"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "A tweet contains fake news if its text falls within any of the following categories: serious fabrication, large-scale hoaxes, jokes taken at face value, or slanted reporting of real facts and stories where the truth is contentious.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Viral tweets are those that have a high number of retweets within the study sample, used as a proxy for virality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Meta-data is used to characterize viral tweets containing fake news and the accounts from which they originated.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Tweets containing fake news are found to express polarized political views to a significant extent.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Linguistic approaches to detecting fake news involve analyzing text, linguistic characteristics, and applying machine learning techniques to automatically flag fake content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Network approaches to detecting fake news use network characteristics and meta-data to identify fake content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The dataset BIBREF8 is manually labeled by experts and publicly available for use by researchers and interested parties.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The findings of this study resonate with previous research by Allcot and Gentzkow on fake news, providing external validity to prior work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The study is situated within the Computer Science literature on fake news, which includes two main approaches: linguistic and network-based methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Context"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Psychology has contributed to understanding why people consume and believe misinformation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Field of Study"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Political science has contributed to understanding why people consume and believe misinformation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Field of Study"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Sociology has contributed to understanding why people consume and believe misinformation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Field of Study"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Psychological biases such as priming effects and confirmation bias play an important role in people's ability to discern misinformation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Most fake news sites use names that resemble those of legitimate organizations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Fake news sites tend to be short-lived.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Fake news items are more likely to be shared than legitimate articles from trusted sources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Fake news items tend to exhibit a higher level of polarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The definition of fake news remains a serious and unresolved issue in the literature.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conceptual Issue"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The categorization of fake news used in this study is based on the work of Rubin et al.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Exposure is one of the three dimensions proposed to distinguish fake news from legitimate information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Research Hypothesis Dimension"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Characterization is one of the three dimensions proposed to distinguish fake news from legitimate information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Research Hypothesis Dimension"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Polarization is one of the three dimensions proposed to distinguish fake news from legitimate information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Research Hypothesis Dimension"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Publicly available tweets were collected using Twitter's public API.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Collection Method"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The tweets collected are subject to Twitter's terms and conditions, which indicate user consent for data use.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Ethical Note"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The tweets were collected in relation to the U.S. presidential election held on November 8th, 2016.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Collection Context"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The data was collected using the filter endpoint of Twitter's streaming API.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Collection Method"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The data collection used specific hashtags and user handles related to the 2016 U.S. presidential election.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Search Terms"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "MyVote2016 is a hashtag used to promote voter engagement during the 2016 U.S. election.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "ElectionDay refers to the day when the 2016 U.S. presidential election took place.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Electionnight refers to the night following ElectionDay when results were being reported and social media activity peaked.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "@realDonaldTrump is a Twitter handle associated with former U.S. President Donald Trump.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "@HillaryClinton is a Twitter handle associated with former U.S. President Hillary Clinton.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Retweet is a functionality on Twitter that allows a user to share a copy of a tweet with their followers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Body et al. (BIBREF15) reported that users retweet to spread content to a new audience, show their role as a listener, or validate others' thoughts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Fake news refers to false or misleading information shared on social media platforms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "A viral tweet is defined as a tweet that was retweeted more than 1000 times.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The dataset contains 1,785,855 tweets published by 848,196 different users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "A total of 1327 viral tweets were identified in the dataset, produced by 643 users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The 1327 viral tweets were retweeted a total of 290,841 times during the observation period.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The tweets were manually annotated by a single expert to determine whether they contained fake news or not.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The Kolmogorov-Smirnov test was used to assess whether the distributions of attributes differ significantly between viral tweets with and without fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "An annotated dataset of viral tweets, labeled as containing or not containing fake news, is publicly available and can be freely reused.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The study used fields from tweets retrieved via Twitter's API to analyze differences between viral tweets with and without fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Data distributions were normalized and/or transformed using logarithms to improve visual representation in the analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The dataset consists of 1327 tweets analyzed for the presence of fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Out of 1327 tweets, 136 were identified as potentially containing fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The remaining tweets after identifying 136 with fake news were classified as not containing fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The categorization of tweets as containing or not containing fake news is imperfect due to the ambiguity of fake news and human judgment involved.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The dataset is not considered a ground truth due to the inherent limitations in categorization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Viral tweets that contain fake news are defined as tweets that were widely shared and were labeled as containing false information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "Viral tweets containing fake news were created more recently, leading to a shorter exposure period for users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "There is no apparent difference in the number of retweets between viral tweets containing fake news and those not containing them.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The Kolmogorov-Smirnoff test was used to assess whether the retweet distributions between fake and non-fake viral tweets are statistically different.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Users who generated viral tweets containing fake news have, on average, fewer favourites than those who did not.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Figure FIGREF26 shows the distribution of favourites among users generating viral tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Visualization"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The difference in the number of favourites between users generating fake news and non-fake news tweets is not statistically significant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Viral fake news tweets tend to use a larger number of hashtags compared to other viral tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Figure FIGREF27 shows the density distribution of the number of hashtags used in viral tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Visualization"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "No statistically significant difference was found in the average number of hashtags between viral tweets containing fake news and those not containing them.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "A total of 82 users in the sample were identified as spreading fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Out of the 82 users spreading fake news, 34 had verified accounts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "There were 48 unverified accounts among the 82 users spreading fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Out of the 48 unverified accounts, 6 have been suspended by Twitter as of the date of writing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Fact"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Three of the unverified accounts attempted to imitate legitimate accounts of others.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Fact"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Four of the unverified accounts have already been deleted.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Fact"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Figure FIGREF28 shows the proportion of verified to unverified accounts among users generating viral tweets containing fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Visualization"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "There is a higher chance of fake news coming from unverified accounts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Accounts distributing fake news have, on average, the same number of friends as those distributing tweets with no fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The density distribution of friends from accounts distributing fake news shows a statistically significant difference compared to those not distributing fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Accounts generating viral tweets with fake news have a significantly different distribution of followers compared to those generating viral tweets with no fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Accounts spreading viral tweets with fake news have, on average, a larger friends/followers ratio than those not generating fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The distribution of accounts not generating fake news has a more even friends/followers ratio.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Viral tweets containing fake news use mentions to other users less frequently than viral tweets not containing fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Viral tweets containing fake news mostly contain one mention, whereas other tweets tend to have two mentions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Tweets labelled as not containing fake news present more media elements than those labelled as fake news, though the difference is not statistically significant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Viral tweets containing fake news include more URLs to other sites than viral tweets that do not contain fake news, and this difference is statistically significant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "117 of the viral tweets labelled as containing fake news expressed support for Donald Trump.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Only 8 of the viral tweets labelled as containing fake news expressed support for Hillary Clinton.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The remaining viral tweets containing fake news are related to other topics and do not express support for either Donald Trump or Hillary Clinton.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Viral tweets containing fake news have a shorter lifetime compared to those containing other types of content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "A number of accounts spreading fake news have been deleted or suspended by Twitter by the time of writing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The lifetime of accounts is a useful parameter for identifying fake news, especially when combined with the age of viral content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Accounts spreading fake news have a larger proportion of friends relative to followers compared to accounts spreading viral content only.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Tweets containing fake news have, on average, more URLs than those spreading viral content without fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The incentive to generate revenue through click-through advertising is a common motivation behind the creation of fake news, as supported by literature.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The content of viral fake news is highly polarized.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Textual sentiment analysis of tweet content, combined with metadata features, may be useful for identifying fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "A priori bias in favor of newly created accounts can be incorporated into a Bayesian classifier to improve fake news detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The only way to automatically identify fake news is by understanding and modeling the characteristics of such content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Social platforms are expected to implement tools to combat fake news in a manner similar to how they fought spam.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Prediction"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "A preliminary study on the metadata of viral tweets from the 2016 US presidential election reveals differences in exposure, account characteristics, and content tone between fake and non-fake news.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The study plans to replicate and validate experiments on a larger dataset of tweets extending up to four months after the US election.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1,785,855 tweets",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "1,785,855 tweets",
+      "Result",
+      "s49"
+    ],
+    [
+      "1.5M tweets",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "1.5M tweets",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "1.5M tweets",
+      "Quantity",
+      "s4"
+    ],
+    [
+      "10",
+      "Number Value",
+      "e1"
+    ],
+    [
+      "1000 retweets",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "117 tweets",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "1327 tweets",
+      "Definition",
+      "s57"
+    ],
+    [
+      "1327 tweets",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "1327 viral tweets",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "1327 viral tweets",
+      "Result",
+      "s50"
+    ],
+    [
+      "136 fake news tweets",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "136 tweets",
+      "Result",
+      "s58"
+    ],
+    [
+      "2016 U.S. presidential election",
+      "Event",
+      "s2"
+    ],
+    [
+      "2016 US presidential election",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "2016 presidential election",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "290,841 retweets",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "290,841 retweets",
+      "Result",
+      "s51"
+    ],
+    [
+      "3 accounts imitating legitimate ones",
+      "Fact",
+      "s76"
+    ],
+    [
+      "3 imitated accounts",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "34 verified accounts",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "34 verified accounts",
+      "Property",
+      "s73"
+    ],
+    [
+      "4 deleted accounts",
+      "Fact",
+      "s77"
+    ],
+    [
+      "4 deleted accounts",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "45th president",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "48 unverified accounts",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "48 unverified accounts",
+      "Property",
+      "s74"
+    ],
+    [
+      "6 suspended accounts",
+      "Fact",
+      "s75"
+    ],
+    [
+      "6 suspended accounts",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "62%",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "643 users",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "8 tweets",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "82 users",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "82 users",
+      "Result",
+      "s72"
+    ],
+    [
+      "848,196 users",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "@HillaryClinton",
+      "Entity",
+      "s44"
+    ],
+    [
+      "@HillaryClinton",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "@realDonaldTrump",
+      "Entity",
+      "s43"
+    ],
+    [
+      "@realDonaldTrump",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "Alcott et al.",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "Allcot and Gentzkow",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "Allcot and Gentzkow BIBREF9",
+      "Relationship",
+      "s20"
+    ],
+    [
+      "Axel Oehmichen",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "BIBREF10",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "BIBREF7",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "BIBREF8",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "BIBREF9",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "BIBREF9",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "Bayesian classifier",
+      "Application",
+      "s100"
+    ],
+    [
+      "Bayesian classifier",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "Body et al. BIBREF15",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "Body et al. BIBREF15",
+      "Reference",
+      "s46"
+    ],
+    [
+      "Computer Science literature on fake news",
+      "Context",
+      "s21"
+    ],
+    [
+      "Conroy et al.",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "Craig Silverman",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "Craig Silverman",
+      "Person",
+      "s11"
+    ],
+    [
+      "Donald Trump",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "Donald Trump",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "Donald Trump",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Economics",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "ElectionDay",
+      "Definition",
+      "s41"
+    ],
+    [
+      "ElectionDay",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "FIGREF24",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "FIGREF25",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "FIGREF26",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "FIGREF27",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "FIGREF28",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "Facebook",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "Facebook",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "Figure FIGREF29",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Figure FIGREF30",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Figure FIGREF31",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Figure FIGREF32",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Figure FIGREF33",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Figure FIGREF34",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Figure FIGREF35",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Google",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "Google and Facebook",
+      "Organization",
+      "s12"
+    ],
+    [
+      "Hillary Clinton",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM0",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "Imperial",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "Imperial College London",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "Julio Amador D\u00edaz L\u00f3pez",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "Kolmogorov-Smirnoff test",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "Kolmogorov-Smirnoff test",
+      "Method",
+      "s65"
+    ],
+    [
+      "Kolmogorov-Smirnov test",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "Kolmogorov-Smirnov test",
+      "Method",
+      "s53"
+    ],
+    [
+      "Meta-Data",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "Miguel Molina-Solana",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "Morris et al.",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "MyVote2016",
+      "Definition",
+      "s40"
+    ],
+    [
+      "MyVote2016",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "Nov 8th 2016",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "November 8th 2016",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "November 8th 2016",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "Obama campaign",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "Rubin et al.",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "Rubin et al.",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "Rubin et al.",
+      "Source",
+      "s31"
+    ],
+    [
+      "TABREF23",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "Table TABREF44",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "Twitter",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "Twitter",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "Twitter",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "Twitter",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "Twitter",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "Twitter",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "Twitter",
+      "Platform",
+      "s3"
+    ],
+    [
+      "Twitter's API",
+      "Source",
+      "s55"
+    ],
+    [
+      "Twitter's public API",
+      "Data Collection Method",
+      "s35"
+    ],
+    [
+      "Twitter's terms and conditions",
+      "Ethical Note",
+      "s36"
+    ],
+    [
+      "U.S. presidential election",
+      "Data Collection Context",
+      "s37"
+    ],
+    [
+      "U.S. presidential election",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "URLs",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "US election",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "US presidential campaign",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "United States",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "United States of America",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "account characteristics",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "account deletion",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "account deletion",
+      "Result",
+      "s93"
+    ],
+    [
+      "account lifetime",
+      "Property",
+      "s94"
+    ],
+    [
+      "account suspension",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "accounts distributing fake news",
+      "Property",
+      "s80"
+    ],
+    [
+      "age of viral content",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "agree with someone",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "annotated dataset BIBREF8",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "annotated dataset BIBREF8",
+      "Resource",
+      "s54"
+    ],
+    [
+      "automated tagging",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "axelfrancois.oehmichen11",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "blocking tweets",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "categorization ambiguity",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "categorization is not perfect",
+      "Property",
+      "s60"
+    ],
+    [
+      "characterization",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "characterization",
+      "Research Hypothesis Dimension",
+      "s33"
+    ],
+    [
+      "click-through advertising",
+      "Cause",
+      "s97"
+    ],
+    [
+      "click-through advertising",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "confirmation bias",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "content of tweets",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "content polarization",
+      "Property",
+      "s98"
+    ],
+    [
+      "dataset",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "dataset BIBREF8",
+      "Property",
+      "s19"
+    ],
+    [
+      "dataset is not ground truth",
+      "Claim",
+      "s61"
+    ],
+    [
+      "deceitful tweets",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "definition of fake news",
+      "Conceptual Issue",
+      "s30"
+    ],
+    [
+      "deliberately misleading information",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "density distribution of friends",
+      "Result",
+      "s81"
+    ],
+    [
+      "density distribution of hashtags",
+      "Visualization",
+      "s70"
+    ],
+    [
+      "distribution",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "distribution of favourites",
+      "Visualization",
+      "s67"
+    ],
+    [
+      "distribution of friends/followers ratio",
+      "Property",
+      "s84"
+    ],
+    [
+      "election",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "election day in the United States",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "electionnight",
+      "Definition",
+      "s42"
+    ],
+    [
+      "electionnight",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "exposure",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "exposure",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "exposure",
+      "Research Hypothesis Dimension",
+      "s32"
+    ],
+    [
+      "exposure period",
+      "Result",
+      "s63"
+    ],
+    [
+      "fake election news stories",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "fake news",
+      "Definition",
+      "s13"
+    ],
+    [
+      "fake news",
+      "Definition",
+      "s47"
+    ],
+    [
+      "fake news",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "fake news",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "fake news",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "fake news",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "fake news",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "fake news",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "fake news detection",
+      "Goal",
+      "s101"
+    ],
+    [
+      "fake news from unverified accounts",
+      "Result",
+      "s79"
+    ],
+    [
+      "fake news items",
+      "Property",
+      "s28"
+    ],
+    [
+      "fake news items",
+      "Property",
+      "s29"
+    ],
+    [
+      "fake news sites",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "fake news sites",
+      "Property",
+      "s26"
+    ],
+    [
+      "fake news sites",
+      "Property",
+      "s27"
+    ],
+    [
+      "favourites",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "filter endpoint",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "filter endpoint of streaming API",
+      "Data Collection Method",
+      "s38"
+    ],
+    [
+      "followers",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "followers distribution",
+      "Property",
+      "s7"
+    ],
+    [
+      "friends",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "friends/followers ratio",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "friends/followers ratio",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "friends/followers ratio",
+      "Property",
+      "s95"
+    ],
+    [
+      "friends/followers ratio",
+      "Result",
+      "s83"
+    ],
+    [
+      "ground truth",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "hashtags",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "hashtags",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "hashtags and user handles",
+      "Search Terms",
+      "s39"
+    ],
+    [
+      "human judgement",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "j.amador",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "jokes taken at face value",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "large-scale hoaxes",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "legitimate organizations",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "lifetime of accounts",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "linguistic approaches",
+      "Definition",
+      "s17"
+    ],
+    [
+      "logarithms",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "major news outlet",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "manual annotation",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "manual annotation",
+      "Method",
+      "s52"
+    ],
+    [
+      "media elements",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "media elements in tweets",
+      "Result",
+      "s87"
+    ],
+    [
+      "mentions",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "mentions in fake news tweets",
+      "Property",
+      "s86"
+    ],
+    [
+      "meta-data",
+      "Analysis Method",
+      "s5"
+    ],
+    [
+      "meta-data",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "meta-data",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "meta-data",
+      "Fake News Meta-Analysis",
+      "e3"
+    ],
+    [
+      "meta-data",
+      "Property",
+      "s15"
+    ],
+    [
+      "meta-data analysis",
+      "Method",
+      "s103"
+    ],
+    [
+      "misinformation",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "mmolinas",
+      "Fake News Metadata",
+      "e2"
+    ],
+    [
+      "network approaches",
+      "Definition",
+      "s18"
+    ],
+    [
+      "non containing fake news",
+      "Classification",
+      "s59"
+    ],
+    [
+      "non containing fake news",
+      "Fake News Tweet Analysis",
+      "e9"
+    ],
+    [
+      "normalization and logarithmic transformation",
+      "Method",
+      "s56"
+    ],
+    [
+      "null hypothesis",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "number of URLs",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "number of URLs",
+      "Property",
+      "s8"
+    ],
+    [
+      "number of URLs",
+      "Property",
+      "s96"
+    ],
+    [
+      "number of URLs",
+      "Result",
+      "s88"
+    ],
+    [
+      "number of favourites",
+      "Result",
+      "s66"
+    ],
+    [
+      "number of followers",
+      "Result",
+      "s82"
+    ],
+    [
+      "number of hashtags",
+      "Result",
+      "s69"
+    ],
+    [
+      "number of mentions",
+      "Result",
+      "s85"
+    ],
+    [
+      "other topics in fake news tweets",
+      "Property",
+      "s91"
+    ],
+    [
+      "polarization",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "polarization",
+      "Property",
+      "s10"
+    ],
+    [
+      "polarization",
+      "Research Hypothesis Dimension",
+      "s34"
+    ],
+    [
+      "polarized political views",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "polarized political views",
+      "Property",
+      "s16"
+    ],
+    [
+      "political decisions",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "political fake news",
+      "Definition",
+      "s1"
+    ],
+    [
+      "political science",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "political science",
+      "Field of Study",
+      "s23"
+    ],
+    [
+      "predictive power",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "priming effects",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "proportion of verified to unverified accounts",
+      "Visualization",
+      "s78"
+    ],
+    [
+      "psychological biases",
+      "Cause",
+      "s25"
+    ],
+    [
+      "psychology",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "psychology",
+      "Field of Study",
+      "s22"
+    ],
+    [
+      "public API",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "replication of experiments",
+      "Plan",
+      "s104"
+    ],
+    [
+      "research hypotheses",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "retweet",
+      "Definition",
+      "s45"
+    ],
+    [
+      "retweet",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "retweets",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "retweets",
+      "Result",
+      "s64"
+    ],
+    [
+      "serious fabrication",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "shared articles",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "short-lived",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "show one\u2019s role as a listener",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "slanted reporting",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "social media",
+      "Fake News on Social Media",
+      "e4"
+    ],
+    [
+      "social media platforms",
+      "Prediction",
+      "s102"
+    ],
+    [
+      "social platforms",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "sociology",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "sociology",
+      "Field of Study",
+      "s24"
+    ],
+    [
+      "spam",
+      "Fake News Detection",
+      "e5"
+    ],
+    [
+      "spam",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "spread tweets",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "statistical difference in hashtags",
+      "Property",
+      "s71"
+    ],
+    [
+      "statistical significance of favourites",
+      "Property",
+      "s68"
+    ],
+    [
+      "streaming API",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "support for Donald Trump",
+      "Result",
+      "s89"
+    ],
+    [
+      "support for Hillary Clinton",
+      "Result",
+      "s90"
+    ],
+    [
+      "textual sentiment analysis",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "textual sentiment analysis",
+      "Method",
+      "s99"
+    ],
+    [
+      "time of exposure",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "time of exposure",
+      "Property",
+      "s92"
+    ],
+    [
+      "tone of content",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "unverified accounts",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "user handles",
+      "Fake News Detection Hypotheses",
+      "e7"
+    ],
+    [
+      "user verification",
+      "Property",
+      "s9"
+    ],
+    [
+      "validate thoughts",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "viral tweet",
+      "Definition",
+      "s48"
+    ],
+    [
+      "viral tweets",
+      "Definition",
+      "s14"
+    ],
+    [
+      "viral tweets",
+      "Fake News Detection",
+      "e11"
+    ],
+    [
+      "viral tweets",
+      "Fake News Detection in Tweets",
+      "e12"
+    ],
+    [
+      "viral tweets",
+      "Fake News Detection on Twitter",
+      "e6"
+    ],
+    [
+      "viral tweets",
+      "Fake News Tweet Analysis",
+      "e10"
+    ],
+    [
+      "viral tweets",
+      "Fake News Viral Tweets",
+      "e8"
+    ],
+    [
+      "viral tweets",
+      "Filtering Criterion",
+      "s6"
+    ],
+    [
+      "viral tweets containing fake news",
+      "Definition",
+      "s62"
+    ]
+  ]
+}

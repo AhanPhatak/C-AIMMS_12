@@ -1,0 +1,5820 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 17,
+    "n_semantic": 183,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "cross-domain sentiment classification": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation",
+        "Domain Adaptation Results"
+      ]
+    },
+    "source domain": {
+      "tag_set": [
+        "Cause",
+        "Definition",
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Domain Adaptation Results",
+        "Model Comparison"
+      ]
+    },
+    "target domain": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Domain Adaptation Results"
+      ]
+    },
+    "domain shift": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "domain-invariant features": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Domain Adaptation Results"
+      ]
+    },
+    "pivot features": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation"
+      ]
+    },
+    "unlabeled target data": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Domain Adaptive Learning",
+        "Model Training Setup",
+        "Property",
+        "Resource"
+      ]
+    },
+    "sentiment classifier": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Model Comparison",
+        "Model Feature Adaptation",
+        "Objective"
+      ]
+    },
+    "opinion words": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "tender": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "tasty": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "undercooked": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "thrilling": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "horrible": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "hilarious": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "good": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "DAS": {
+      "tag_set": [
+        "Application",
+        "Definition",
+        "Domain Adaptation",
+        "Domain Adaptation Results",
+        "Domain Adaptive Learning",
+        "Method",
+        "Model Comparison",
+        "Property",
+        "Result",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "semi-supervised learning": {
+      "tag_set": [
+        "Benefit",
+        "Cause",
+        "Definition",
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Domain Adaptation Results",
+        "Domain Adaptive Learning",
+        "Method",
+        "Model Comparison",
+        "Model Feature Adaptation"
+      ]
+    },
+    "representation learning": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "unlabeled data": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Effect",
+        "Model Comparison",
+        "Model Feature Adaptation",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "domain-invariant representation learning": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation"
+      ]
+    },
+    "feature adaptation": {
+      "tag_set": [
+        "Cause",
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Domain Adaptation Results",
+        "Domain Adaptive Learning",
+        "Method",
+        "Model Feature Adaptation",
+        "Property",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "multi-task learning": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Method"
+      ]
+    },
+    "entropy minimization": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Domain Adaptive Learning",
+        "Method",
+        "Model Comparison",
+        "Regularization",
+        "Result",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "self-ensemble bootstrapping": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation",
+        "Domain Adaptation Methods",
+        "Method",
+        "Model Comparison",
+        "Regularization"
+      ]
+    },
+    "label distribution": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Model Comparison"
+      ]
+    },
+    "corpus size": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "pivot words": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation",
+        "Model Feature Adaptation"
+      ]
+    },
+    "excellent": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "terrible": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "structural correspondence learning (SCL)": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Method"
+      ]
+    },
+    "Blitzer et al.": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Domain Adaptation Results"
+      ]
+    },
+    "Yu and Jiang": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "denoising autoencoders": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Method"
+      ]
+    },
+    "deep neural networks (DNN)": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "transferable representations": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "domain discrepancy": {
+      "tag_set": [
+        "Cause",
+        "Domain Adaptation",
+        "Domain Adaptive Learning",
+        "Problem",
+        "Result"
+      ]
+    },
+    "source code": {
+      "tag_set": [
+        "Domain Adaptation"
+      ]
+    },
+    "https://github.com/ruidan/DAS": {
+      "tag_set": [
+        "Domain Adaptation",
+        "Resource"
+      ]
+    },
+    "our method": {
+      "tag_set": [
+        "Method Setup"
+      ]
+    },
+    "we": {
+      "tag_set": [
+        "Method Setup"
+      ]
+    },
+    "formally": {
+      "tag_set": [
+        "Method Setup"
+      ]
+    },
+    "construct": {
+      "tag_set": [
+        "Method Setup"
+      ]
+    },
+    "maximum mean discrepancy (MMD)": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation Methods"
+      ]
+    },
+    "adversarial training": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation Methods"
+      ]
+    },
+    "domain discriminator": {
+      "tag_set": [
+        "Domain Adaptation Methods"
+      ]
+    },
+    "transfer learning": {
+      "tag_set": [
+        "Domain Adaptation Methods"
+      ]
+    },
+    "one-hot vector": {
+      "tag_set": [
+        "Domain Adaptation Methods",
+        "Model Training Setup"
+      ]
+    },
+    "number of classes": {
+      "tag_set": [
+        "Domain Adaptation Methods",
+        "Property"
+      ]
+    },
+    "labeled examples": {
+      "tag_set": [
+        "Domain Adaptation Methods"
+      ]
+    },
+    "unlabeled examples": {
+      "tag_set": [
+        "Domain Adaptation Methods"
+      ]
+    },
+    "unsupervised domain adaptation": {
+      "tag_set": [
+        "Dataset Construction",
+        "Domain Adaptation Methods",
+        "Setting"
+      ]
+    },
+    "small number of labeled target examples": {
+      "tag_set": [
+        "Model Feature Adaptation",
+        "Setting"
+      ]
+    },
+    "Figure FIGREF27": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition",
+        "Feature Adaptation Loss",
+        "Model Comparison",
+        "Model Feature Adaptation",
+        "Property",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition",
+        "Distance Function Setup",
+        "Model Comparison",
+        "Model Feature Adaptation",
+        "Model Training Setup",
+        "Property",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Dataset Setup",
+        "Distance Function Setup",
+        "Feature Adaptation Loss",
+        "Model Comparison",
+        "Model Feature Adaptation",
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Dataset Setup",
+        "Model Feature Adaptation",
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "neural-based feature encoder": {
+      "tag_set": [
+        "Definition",
+        "Model Feature Adaptation"
+      ]
+    },
+    "fully connected layer": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "softmax activation": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "domain-invariant feature representations": {
+      "tag_set": [
+        "Definition",
+        "Model Feature Adaptation"
+      ]
+    },
+    "cross entropy loss": {
+      "tag_set": [
+        "Domain Adaptive Learning",
+        "Model Feature Adaptation",
+        "Property"
+      ]
+    },
+    "labeled source examples": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "pre-trained word embeddings": {
+      "tag_set": [
+        "Model Feature Adaptation",
+        "Result"
+      ]
+    },
+    "Maximum Mean Discrepancy (MMD)": {
+      "tag_set": [
+        "Definition",
+        "Model Feature Adaptation"
+      ]
+    },
+    "adversary training": {
+      "tag_set": [
+        "Model Feature Adaptation",
+        "Reference"
+      ]
+    },
+    "sample means": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "embedding space": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "Section SECREF10": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Dataset Construction",
+        "Domain Adaptation Results",
+        "Model Feature Adaptation"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "BIBREF16": {
+      "tag_set": [
+        "Model Feature Adaptation"
+      ]
+    },
+    "MMD": {
+      "tag_set": [
+        "Definition",
+        "Feature Adaptation Loss",
+        "Model Comparison"
+      ]
+    },
+    "feature adaptation loss": {
+      "tag_set": [
+        "Feature Adaptation Loss",
+        "Formula"
+      ]
+    },
+    "DISPLAYFORM0": {
+      "tag_set": [
+        "Feature Adaptation Loss",
+        "Model Training Setup"
+      ]
+    },
+    "normalization": {
+      "tag_set": [
+        "Feature Adaptation Loss",
+        "Process"
+      ]
+    },
+    "mean representations": {
+      "tag_set": [
+        "Distance Function Setup"
+      ]
+    },
+    "rescaling": {
+      "tag_set": [
+        "Distance Function Setup"
+      ]
+    },
+    "vectors": {
+      "tag_set": [
+        "Distance Function Setup"
+      ]
+    },
+    "sum to 1": {
+      "tag_set": [
+        "Distance Function Setup"
+      ]
+    },
+    "symmetric version": {
+      "tag_set": [
+        "Distance Function Setup"
+      ]
+    },
+    "KL divergence": {
+      "tag_set": [
+        "Distance Function Setup"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Distance Function Setup"
+      ]
+    },
+    "target data": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "label distributions": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "bootstrapping": {
+      "tag_set": [
+        "Domain Adaptive Learning",
+        "Result",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "prediction confidence": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "ensemble predictions": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptive Learning"
+      ]
+    },
+    "training epochs": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "momentum": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "weight ramp-up function": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "minibatch": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "BIBREF18": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Domain Adaptive Learning"
+      ]
+    },
+    "regularization": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition",
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "INLINEFORM5": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM6": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM7": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "INLINEFORM8": {
+      "tag_set": [
+        "Definition",
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM9": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM10": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property",
+        "Result"
+      ]
+    },
+    "INLINEFORM11": {
+      "tag_set": [
+        "Definition",
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "INLINEFORM12": {
+      "tag_set": [
+        "Definition",
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM13": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Gaussian curve": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "bootstrapping loss": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "ensemble prediction": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "CNN Encoder": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "one-layer CNN": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "sentiment classification": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "word embedding": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "embedding matrix": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "vocabulary size": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "embedding dimension": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "convolution layer": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Equation (EQREF11)": {
+      "tag_set": [
+        "Definition",
+        "Model Training Setup"
+      ]
+    },
+    "non-linear activation function": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "convolution operation": {
+      "tag_set": [
+        "Dataset Construction",
+        "Property"
+      ]
+    },
+    "INLINEFORM4-grams": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "hidden vectors INLINEFORM5": {
+      "tag_set": [
+        "Dataset Construction",
+        "Result"
+      ]
+    },
+    "max-over-time pooling": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Amazon benchmark": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "neutral labels": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "McAuley et al. BIBREF24": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Book (BK)": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Electronics (E)": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Beauty (BT)": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Music (M)": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Set 1": {
+      "tag_set": [
+        "Dataset Construction",
+        "Property"
+      ]
+    },
+    "Set 2": {
+      "tag_set": [
+        "Dataset Construction",
+        "Property"
+      ]
+    },
+    "6000 instances": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "balanced class labels": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "original label distribution": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Table TABREF9": {
+      "tag_set": [
+        "Dataset Construction",
+        "Definition",
+        "Property"
+      ]
+    },
+    "transductive setting": {
+      "tag_set": [
+        "Dataset Construction",
+        "Definition"
+      ]
+    },
+    "unlabeled sets": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "real-life sentiment": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "IMDB": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition"
+      ]
+    },
+    "Yelp2014": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition"
+      ]
+    },
+    "Cell Phone": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition"
+      ]
+    },
+    "Baby": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "BIBREF25": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "BIBREF26": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "BIBREF27": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "TABREF9": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "BK": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "GloVe": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "300-dimension": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "840 billion tokens": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "Common Crawl": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "top 10000 most frequent": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "CNN-based encoder": {
+      "tag_set": [
+        "Definition",
+        "Model Comparison"
+      ]
+    },
+    "5 iterations": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "discriminator": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "Model Comparison",
+        "Property"
+      ]
+    },
+    "deep CNNs": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "Gaussian RBF": {
+      "tag_set": [
+        "Model Comparison",
+        "Property"
+      ]
+    },
+    "DAS-EM": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation Results",
+        "Model Comparison",
+        "Result"
+      ]
+    },
+    "DAS-SE": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation Results",
+        "Model Comparison",
+        "Result"
+      ]
+    },
+    "FANN": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation Results",
+        "Method",
+        "Model Comparison",
+        "Property",
+        "Result",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "feature-adaptation neural network": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "small-scale dataset": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "large-scale dataset": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "macro-F1": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "ADAN": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "MDD": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "setting 1": {
+      "tag_set": [
+        "Model Comparison",
+        "Property",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "setting 2": {
+      "tag_set": [
+        "Model Comparison",
+        "Property"
+      ]
+    },
+    "Appendix SECREF7": {
+      "tag_set": [
+        "Model Comparison"
+      ]
+    },
+    "Word-embeddings": {
+      "tag_set": [
+        "Property",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "NaiveNN": {
+      "tag_set": [
+        "Domain Adaptation Results",
+        "Method",
+        "Property",
+        "Result",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "mSDA": {
+      "tag_set": [
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "FIGREF23": {
+      "tag_set": [
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "CNN filters": {
+      "tag_set": [
+        "Definition",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "trigrams": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation Results",
+        "Property",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "Relu activation": {
+      "tag_set": [
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "E BT": {
+      "tag_set": [
+        "Semi-Supervised Learning Analysis",
+        "Task"
+      ]
+    },
+    "positive sentiment": {
+      "tag_set": [
+        "Domain Adaptation Results",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "negative sentiment": {
+      "tag_set": [
+        "Domain Adaptation Results",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "neutral sentiment": {
+      "tag_set": [
+        "Domain Adaptation Results",
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "output layer": {
+      "tag_set": [
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "electronics": {
+      "tag_set": [
+        "Semi-Supervised Learning Analysis"
+      ]
+    },
+    "Amazon Benchmark": {
+      "tag_set": [
+        "Definition",
+        "Domain Adaptation Results",
+        "Experiment",
+        "Method",
+        "Setup"
+      ]
+    },
+    "Book domain (B)": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "DVDs domain (D)": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "Electronics domain (E)": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "Kitchen domain (K)": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "1000 positive reviews": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "1000 negative reviews": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "4000 unlabeled reviews": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "1600 training reviews": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "400 test reviews": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "BIBREF29": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "SECREF8": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "TABREF34": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "domain-invariant trigrams": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "domain-specific trigrams": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "clean": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "scent": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "Table TABREF37": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "Figure FIGREF17": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "Table TABREF38": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "baseline methods": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "CNN filter analysis": {
+      "tag_set": [
+        "Domain Adaptation Results",
+        "Method"
+      ]
+    },
+    "top 10 filters": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "E INLINEFORM0 BT": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "beauty domain": {
+      "tag_set": [
+        "Domain Adaptation Results"
+      ]
+    },
+    "domain adaptation": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "Domain Adaptive Semi-supervised learning framework (DAS)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "distribution difference": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "opinion words in restaurant reviews": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "opinion words in movie reviews": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "small intersection of opinion words": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "existing domain": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "neural network-based solution": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "label distribution and corpus size": {
+      "tag_set": [
+        "Evaluation Factor"
+      ]
+    },
+    "strong baselines": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "label representation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "total number of training documents": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "objective function": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "classification error minimization": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "loss formulation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "bootstrapping in domain adaptation": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "training update": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Algorithm SECREF6": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "INLINEFORM6 and INLINEFORM7": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "feature encoder INLINEFORM0": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "one-layer CNN structure": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "review document INLINEFORM1": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "word embedding BIBREF23": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "embedding matrix INLINEFORM4": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "window of dense word embeddings": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "INLINEFORM0 and INLINEFORM1": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "extracted feature vectors": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "final vector representation INLINEFORM6": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Amazon benchmark BIBREF0": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "removing neutral instances": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "new datasets": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "small-scale datasets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "target domain label distribution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Setting (2)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "class balancing in minibatch": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "hyper-parameter tuning": {
+      "tag_set": [
+        "Strategy"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vocabulary": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "window size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hidden layer size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "activation function": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dropout probability": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "weight norm constraint": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "bootstrapping loss weight ramp-up": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "number of training epochs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "large-scale batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "optimizer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Naive baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "mSDA method": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NaiveNN model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "AuxNN method": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ADAN method": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training procedure": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "image-related models": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "MMD-based method": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "classification accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "DAS-EM and DAS-SE": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "DAS-EM vs DAS-SE": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "real-life sentiment distribution": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "target domain (beauty)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "feature representations": {
+      "tag_set": [
+        "Property"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction In practice, it is often difficult and costly to annotate sufficient training data for diverse application domains on-the-fly. We may have sufficient labeled data in an existing domain (called the source domain), but very few or no labeled data in a new domain (called the target domain). This issue has motivated research on cross-domain sentiment classification, where knowledge in the source domain is transferred to the target domain in order to alleviate the required labeling effort. One key challenge of domain adaptation is that data in the source and target domains are drawn from different distributions. Thus, adaptation performance will decline with an increase in distribution difference. Specifically, in sentiment analysis, reviews of different products have different vocabulary. For instance, restaurants reviews would contain opinion words such as \u201ctender\u201d, \u201ctasty\u201d, or \u201cundercooked\u201d and movie reviews would contain \u201cthrilling\u201d, \u201chorrific\u201d, or \u201chilarious\u201d. The intersection between these two sets of opinion words could be small which makes domain adaptation difficult. Several techniques have been proposed for addressing the problem of domain shifting. The aim is to bridge the source and target domains by learning domain-invariant feature representations so that a classifier trained on a source domain can be adapted to another target domain. In cross-domain sentiment classification, many works BIBREF0 , BIBREF1 , BIBREF2 , BIBREF3 , BIBREF4 utilize a key intuition that domain-specific features could be aligned with the help of domain-invariant features (pivot features). For instance, \u201chilarious\u201d and \u201ctasty\u201d could be aligned as both of them are relevant to \u201cgood\u201d. Despite their promising results, these works share two major limitations. First, they highly depend on the heuristic selection of pivot features, which may be sensitive to different applications. Thus the learned new representations may not effectively reduce the domain difference. Furthermore, these works only utilize the unlabeled target data for representation learning while the sentiment classifier was solely trained on the source domain. There have not been many studies on exploiting unlabeled target data for refining the classifier, even though it may contain beneficial information. How to effectively leverage unlabeled target data still remains an important challenge for domain adaptation. In this work, we argue that the information from unlabeled target data is beneficial for domain adaptation and we propose a novel Domain Adaptive Semi-supervised learning framework (DAS) to better exploit it. Our main intuition is to treat the problem as a semi-supervised learning task by considering target instances",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Domain Adaptation"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "as unlabeled data, assuming the domain distance can be effectively reduced through domain-invariant representation learning. Specifically, the proposed approach jointly performs feature adaptation and semi-supervised learning in a multi-task learning setting. For feature adaptation, it explicitly minimizes the distance between the encoded representations of the two domains. On this basis, two semi-supervised regularizations \u2013 entropy minimization and self-ensemble bootstrapping \u2013 are jointly employed to exploit unlabeled target data for classifier refinement. We evaluate our method rigorously under multiple experimental settings by taking label distribution and corpus size into consideration. The results show that our model is able to obtain significant improvements over strong baselines. We also demonstrate through a series of analysis that the proposed method benefits greatly from incorporating unlabeled target data via semi-supervised learning, which is consistent with our motivation. Our datasets and source code can be obtained from https://github.com/ruidan/DAS. Related Work Domain Adaptation: The majority of feature adaptation methods for sentiment analysis rely on a key intuition that even though certain opinion words are completely distinct for each domain, they can be aligned if they have high correlation with some domain-invariant opinion words (pivot words) such as \u201cexcellent\u201d or \u201cterrible\u201d. Blitzer et al. ( BIBREF0 ) proposed a method based on structural correspondence learning (SCL), which uses pivot feature prediction to induce a projected feature space that works well for both the source and the target domains. The pivot words are selected in a way to cover common domain-invariant opinion words. Subsequent research aims to better align the domain-specific words BIBREF1 , BIBREF5 , BIBREF3 such that the domain discrepancy could be reduced. More recently, Yu and Jiang ( BIBREF4 ) borrow the idea of pivot feature prediction from SCL and extend it to a neural network-based solution with auxiliary tasks. In their experiment, substantial improvement over SCL has been observed due to the use of real-valued word embeddings. Unsupervised representation learning with deep neural networks (DNN) such as denoising autoencoders has also been explored for feature adaptation BIBREF6 , BIBREF7 , BIBREF8 . It has been shown that DNNs could learn transferable representations that disentangle the underlying factors of variation behind data samples. Although the aforementioned methods aim to reduce the domain discrepancy, they do not explicitly minimize the distance between distributions, and some of them highly rely on the selection of pivot features.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Domain Adaptation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "In our method,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Method Setup"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "we formally construct",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Method Setup"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "an objective for this purpose. Similar ideas have been explored in many computer vision problems, where the representations of the underlying domains are encouraged to be similar through explicit objectives BIBREF9 , BIBREF10 , BIBREF11 , BIBREF12 , BIBREF13 such as maximum mean discrepancy (MMD) BIBREF14 . In NLP tasks, Li et al. ( BIBREF15 ) and Chen et al. ( BIBREF16 ) both proposed using adversarial training framework for reducing domain difference. In their model, a sub-network is added as a domain discriminator while deep features are learned to confuse the discriminator. The feature adaptation component in our model shares similar intuition with MMD and adversary training. We will show a detailed comparison with them in our experiments.\nSemi-supervised Learning: We attempt to treat domain adaptation as a semi-supervised learning task by considering the target instances as unlabeled data. Some efforts have been initiated on transfer learning from unlabeled data BIBREF17 , BIBREF18 , BIBREF19 . In our model, we reduce the domain discrepancy by feature adaptation, and thereafter adopt semi-supervised learning techniques to learn from unlabeled data. Primarily motivated by BIBREF20 and BIBREF21 , we employed entropy minimization and self-ensemble bootstrapping as regularizations to incorporate unlabeled data. Our experimental results show that both methods are effective when jointly trained with the feature adaptation objective, which confirms to our motivation.\nNotations and Model Overview\nWe conduct most of our experiments under an unsupervised domain adaptation setting, where we have no labeled data from the target domain. Consider two sets INLINEFORM0 and INLINEFORM1 . INLINEFORM2 is from the source domain with INLINEFORM3 labeled examples, where INLINEFORM4 is a one-hot vector representation of sentiment label and INLINEFORM5 denotes the number of classes. INLINEFORM6 is from the target domain with INLINEFORM7 unlabeled examples. INLINEFORM8 denotes the total number of training documents including both labeled and unlabeled. We aim to learn a sentiment classifier from INLINEFORM13 and INLINEFORM14 such that the classifier would work well on the target domain. We also present some",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Domain Adaptation Methods"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "results under a setting where we assume that a small number of labeled target examples are available (see Figure FIGREF27 ). For the proposed model, we denote INLINEFORM0 parameterized by INLINEFORM1 as a neural-based feature encoder that maps documents from both domains to a shared feature space, and INLINEFORM2 parameterized by INLINEFORM3 as a fully connected layer with softmax activation serving as the sentiment classifier. We aim to learn feature representations that are domain-invariant and at the same time discriminative on both domains, thus we simultaneously consider three factors in our objective: (1) minimize the classification error on the labeled source examples; (2) minimize the domain discrepancy; and (3) leverage unlabeled data via semi-supervised learning. Suppose we already have the encoded features of documents INLINEFORM0 (see Section SECREF10 ), the objective function for purpose (1) is thus the cross entropy loss on the labeled source examples DISPLAYFORM0 where INLINEFORM0 denotes the predicted label distribution. In the following subsections, we will explain how to perform feature adaptation and domain adaptive semi-supervised learning in details for purpose (2) and (3) respectively. Feature Adaptation Unlike prior works BIBREF0 , BIBREF4 , our method does not attempt to align domain-specific words through pivot words. In our preliminary experiments, we found that word embeddings pre-trained on a large corpus are able to adequately capture this information. As we will later show in our experiments, even without adaptation, a naive neural network classifier with pre-trained word embeddings can already achieve reasonably good results. We attempt to explicitly minimize the distance between the source and target feature representations ( INLINEFORM0 and INLINEFORM1 ). A few methods from literature can be applied such as Maximum Mean Discrepancy (MMD) BIBREF14 or adversary training BIBREF15 , BIBREF16 . The main idea of MMD is to estimate the distance between two distributions as the distance between sample means of the projected embeddings in Hilbert space. MMD is implicitly computed through a characteristic kernel, which is used to ensure that the sample mean is injective, leading to the MMD being zero if and only if the distributions are identical. In our implementation, we skip the mapping procedure induced by a characteristic kernel for simplifying the computation and learning. We simply estimate the distribution distance as the distance between the sample means in the current embedding space. Although this approximation cannot preserve all statistical features of the underlying distributions, we find it performs",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Feature Adaptation"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "comparably to MMD on our problem. The following equations formally describe the feature adaptation loss INLINEFORM2 : DISPLAYFORM0 INLINEFORM0 normalization is",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Feature Adaptation Loss"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "applied on the mean representations INLINEFORM1 and INLINEFORM2 , rescaling the vectors such that all entries sum to 1. We adopt a symmetric version of KL divergence BIBREF12 as the distance function. Given",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Distance Function Setup"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "two distribution vectors INLINEFORM3 , INLINEFORM4 . Domain Adaptive Semi-supervised Learning (DAS) We attempt to exploit the information in target data through semi-supervised learning objectives, which are jointly trained with INLINEFORM0 and INLINEFORM1 . Normally, to incorporate target data, we can minimize the cross entropy loss between the true label distributions INLINEFORM2 and the predicted label distributions INLINEFORM3 over target samples. The challenge here is that INLINEFORM4 is unknown, and thus we attempt to estimate it via semi-supervised learning. We use entropy minimization and bootstrapping for this purpose. We will later show in our experiments that both methods are effective, and jointly employing them overall yields the best results. Entropy Minimization: In this method, INLINEFORM0 is estimated as the predicted label distribution INLINEFORM1 , which is a function of INLINEFORM2 and INLINEFORM3 . The loss can thus be written as DISPLAYFORM0 Assume the domain discrepancy can be effectively reduced through feature adaptation, by minimizing the entropy penalty, training of the classifier is influenced by the unlabeled target data and will generally maximize the margins between the target examples and the decision boundaries, increasing the prediction confidence on the target domain. Self-ensemble Bootstrapping: Another way to estimate INLINEFORM0 corresponds to bootstrapping. The idea is to estimate the unknown labels as the predictions of the model learned from the previous round of training. Bootstrapping has been explored for domain adaptation in previous works BIBREF18 , BIBREF19 . However, in their methods, domain discrepancy was not explicitly minimized via feature adaptation. Applying bootstrapping or other semi-supervised learning techniques in this case may worsen the results as the classifier can perform quite bad on the target data. [t] Pseudocode for training DAS INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 INLINEFORM4 = ensembling momentum, INLINEFORM5 INLINEFORM6 = weight ramp-up function INLINEFORM7 INLINEFORM8 INLINEFORM9 each minibatch INLINEFORM10 , INLINEFORM11 , INLINEFORM12 in INLINEFORM0 , INLINEFORM1 , INLINEFORM2 compute loss INLINEFORM3 on INLINEFORM4 compute loss INLINEFORM5 on INLINEFORM6 compute loss INLINEFORM7 on INLINEFORM8 compute loss INLINEFORM9 on INLINEFORM10 INLINEFORM11 update network parameters INLINEFORM0 , for INLINEFORM1 INLINEFORM2 INLINEFORM3 Inspired by the ensembling method proposed in BIBREF21 , we estimate INLINEFORM0 by forming ensemble predictions of labels during training, using the outputs on different training epochs. The loss is formulated as follows: DISPLAYFORM0 where INLINEFORM0 denotes the estimated labels computed on the ensemble predictions from different epochs. The loss is applied on all documents. It serves for bootstrapping",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Domain Adaptive Learning"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "on the unlabeled target data, and it also serves as a regularization that encourages the network predictions to be consistent in different training epochs. INLINEFORM1 is jointly trained with INLINEFORM2 , INLINEFORM3 , and INLINEFORM4 . Algorithm SECREF6 illustrates the overall training process of the proposed domain adaptive semi-supervised learning (DAS) framework. In Algorithm SECREF6 , INLINEFORM0 , INLINEFORM1 , and INLINEFORM2 are weights to balance the effects of INLINEFORM3 , INLINEFORM4 , and INLINEFORM5 respectively. INLINEFORM6 and INLINEFORM7 are constant hyper-parameters. We set INLINEFORM8 as a Gaussian curve to ramp up the weight from 0 to INLINEFORM9 . This is to ensure the ramp-up of the bootstrapping loss component is slow enough in the beginning of the training. After each training epoch, we compute INLINEFORM10 which denotes the predictions made by the network in current epoch, and then the ensemble prediction INLINEFORM11 is updated as a weighted average of the outputs from previous epochs and the current epoch, with recent epochs having larger weight. For generating estimated labels INLINEFORM12 , INLINEFORM13 is converted to a one-hot vector where the entry with the maximum value is set to one and other entries are set to zeros. The self-ensemble bootstrapping is a generalized version of bootstrappings that only use the outputs from the previous round of training BIBREF18 , BIBREF19 . The ensemble prediction is likely to be closer to the correct, unknown labels of the target data. CNN Encoder Implementation We have left the feature encoder INLINEFORM0 unspecified, for which, a few options can be considered. In our implementation, we adopt a one-layer CNN structure from previous works BIBREF22 , BIBREF4 , as it has been demonstrated to work well for sentiment classification tasks. Given a review document INLINEFORM1 consisting of INLINEFORM2 words, we begin by associating each word with a continuous word embedding BIBREF23 INLINEFORM3 from an embedding matrix INLINEFORM4 , where INLINEFORM5 is the vocabulary size and INLINEFORM6 is the embedding dimension. INLINEFORM7 is jointly updated with other network parameters during training. Given a window of dense word embeddings INLINEFORM8 , the convolution layer first concatenates these vectors to form a vector INLINEFORM9 of length INLINEFORM10 and then the output vector is computed by Equation ( EQREF11 ): DISPLAYFORM0 INLINEFORM0 , INLINEFORM1 is the parameter set of the encoder INLINEFORM2 and is shared across all windows of the sequence. INLINEFORM3 is an element-wise non-linear activation function. The convolution",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training Setup"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "operation can capture local contextual dependencies of the input sequence and the extracted feature vectors are similar to INLINEFORM4 -grams. After the convolution operation is applied to the whole sequence, we obtain a list of hidden vectors INLINEFORM5 . A max-over-time pooling layer is applied to obtain the final vector representation INLINEFORM6 of the input document. Datasets and Experimental Settings Existing benchmark datasets such as the Amazon benchmark BIBREF0 typically remove reviews with neutral labels in both domains. This is problematic as the label information of the target domain is not accessible in an unsupervised domain adaptation setting. Furthermore, removing neutral instances may bias the dataset favorably for max-margin-based algorithms like ours, since the resulting dataset has all uncertain labels removed, leaving only high confidence examples. Therefore, we construct new datasets by ourselves. The results on the original Amazon benchmark is qualitatively similar, and we present them in Appendix SECREF6 for completeness since most of previous works reported results on it. Small-scale datasets: Our new dataset was derived from the large-scale Amazon datasets released by McAuley et al. ( BIBREF24 ). It contains four domains: Book (BK), Electronics (E), Beauty (BT), and Music (M). Each domain contains two datasets. Set 1 contains 6000 instances with exactly balanced class labels, and set 2 contains 6000 instances that are randomly sampled from the large dataset, preserving the original label distribution, which we believe better reflects the label distribution in real life. The examples in these two sets do not overlap. Detailed statistics of the generated datasets are given in Table TABREF9 . In all our experiments on the small-scale datasets, we use set 1 of the source domain as the only source with sentiment label information during training, and we evaluate the trained model on set 1 of the target domain. Since we cannot control the label distribution of unlabeled data during training, we consider two different settings: Setting (1): Only set 1 of the target domain is used as the unlabeled set. This tells us how the method performs in a condition when the target domain has a close-to-balanced label distribution. As we also evaluate on set 1 of the target domain, this is also considered as a transductive setting. Setting (2): Set 2 from both the source and target domains are used as unlabeled sets. Since set 2 is directly sampled from millions of reviews, it better reflects real-life sentiment",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Construction"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "distribution. Large-scale datasets: We further conduct experiments on four much larger datasets: IMDB (I), Yelp2014 (Y), Cell Phone (C), and Baby (B). IMDB and Yelp2014 were previously used in BIBREF25 , BIBREF26 . Cell phone and Baby are from the large-scale Amazon dataset BIBREF24 , BIBREF27 . Detailed statistics are summarized in Table TABREF9 . We keep all reviews in the original datasets and consider a transductive setting where all target examples are used for both training (without label information) and evaluation. We perform sampling to balance the classes of labeled source data in each minibatch INLINEFORM3 during training. Selection of Development Set Ideally, the development set should be drawn from the same distribution as the test set. However, under the unsupervised domain adaptation setting, we do not have any labeled target data at training phase which could be used as development set. In all of our experiments, for each pair of domains, we instead sample 1000 examples from the training set of the source domain as development set. We train the network for a fixed number of epochs, and the model with the minimum classification error on this development set is saved for evaluation. This approach works well on most of the problems since the target domain is supposed to behave like the source domain if the domain difference is effectively reduced. Another problem is how to select the values for hyper-parameters. If we tune INLINEFORM0 and INLINEFORM1 directly on the development set from the source domain, most likely both of them will be set to 0, as unlabeled target data is not helpful for improving in-domain accuracy of the source domain. Other neural network models also have the same problem for hyper-parameter tuning. Therefore, our strategy is to use the development set from the target domain to optimize INLINEFORM2 and INLINEFORM3 for one problem (e.g., we only do this on E INLINEFORM4 BK), and fix their values on the other problems. This setting assumes that we have at least two labeled domains such that we can optimize the hyper-parameters, and then we fix them for other new unlabeled domains to transfer to. Training Details and Hyper-parameters We initialize word embeddings using the 300-dimension GloVe vectors supplied by Pennington et al., ( BIBREF28 ), which were trained on 840 billion tokens from the Common Crawl. For each pair of domains, the vocabulary consists of the top 10000 most frequent",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Setup"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "words. For words in the vocabulary but not present in the pre-trained embeddings, we randomly initialize them. We set hyper-parameters of the CNN encoder following previous works BIBREF22 , BIBREF4 without specific tuning on our datasets. The window size is set to 3 and the size of the hidden layer is set to 300. The nonlinear activation function is Relu. For regularization, we also follow their settings and employ dropout with probability set to 0.5 on INLINEFORM0 before feeding it to the output layer INLINEFORM1 , and constrain the INLINEFORM2 -norm of the weight vector INLINEFORM3 , setting its max norm to 3. On the small-scale datasets and the Aamzon benchmark, INLINEFORM0 and INLINEFORM1 are set to 200 and 1, respectively, tuned on the development set of task E INLINEFORM2 BK under setting 1. On the large-scale datasets, INLINEFORM3 and INLINEFORM4 are set to 500 and 0.2, respectively, tuned on I INLINEFORM5 Y. We use a Gaussian curve INLINEFORM6 to ramp up the weight of the bootstrapping loss INLINEFORM7 from 0 to INLINEFORM8 , where INLINEFORM9 denotes the maximum number of training epochs. We train 30 epochs for all experiments. We set INLINEFORM10 to 3 and INLINEFORM11 to 0.5 for all experiments. The batch size is set to 50 on the small-scale datasets and the Amazon benchmark. We increase the batch size to 250 on the large-scale datasets to reduce the number of iterations. RMSProp optimizer with learning rate set to 0.0005 is used for all experiments. Models for Comparison We compare with the following baselines: (1) Naive: A non-domain-adaptive baseline with bag-of-words representations and SVM classifier trained on the source domain. (2) mSDA BIBREF7 : This is the state-of-the-art method based on discrete input features. Top 1000 bag-of-words features are kept as pivot features. We set the number of stacked layers to 3 and the corruption probability to 0.5. (3) NaiveNN: This is a non-domain-adaptive CNN trained on source domain, which is a variant of our model by setting INLINEFORM0 , INLINEFORM1 , and INLINEFORM2 to zeros. (4) AuxNN BIBREF4 : This is a neural model that exploits auxiliary tasks, which has achieved state-of-the-art results on cross-domain sentiment classification. The sentence encoder used in this model is the same as ours. (5) ADAN BIBREF16 : This method exploits adversarial training to reduce representation difference between domains. The original paper uses a simple feedforward network as encoder. For fair comparison,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "we replace it with our CNN-based encoder. We train 5 iterations on the discriminator per iteration on the encoder and sentiment classifier as suggested in their paper. (6) MMD: MMD has been widely used for minimizing domain discrepancy on images. In those works BIBREF9 , BIBREF13 , variants of deep CNNs are used for encoding images and the MMDs of multiple layers are jointly minimized. In NLP, adding more layers of CNNs may not be very helpful and thus those models from image-related tasks can not be directly applied to our problem. To compare with MMD-based method, we train a model that jointly minimize the classification loss INLINEFORM0 on the source domain and MMD between INLINEFORM1 and INLINEFORM2 . For computing MMD, we use a Gaussian RBF which is a common choice for characteristic kernel. In addition to the above baselines, we also show results of different variants of our model. DAS as shown in Algorithm SECREF6 denotes our full model. DAS-EM denotes the model with only entropy minimization for semi-supervised learning (set INLINEFORM0 ). DAS-SE denotes the model with only self-ensemble bootstrapping for semi-supervised learning (set INLINEFORM1 ). FANN (feature-adaptation neural network) denotes the model without semi-supervised learning performed (set both INLINEFORM2 and INLINEFORM3 to zeros). Main Results Figure FIGREF17 shows the comparison of adaptation results (see Appendix SECREF7 for the exact numerical numbers). We report classification accuracy on the small-scale dataset. For the large-scale dataset, macro-F1 is instead used since the label distribution in the test set is extremely unbalanced. Key observations are summarized as follows. (1) Both DAS-EM and DAS-SE perform better in most cases compared with ADAN, MDD, and FANN, in which only feature adaptation is performed. This demonstrates the effectiveness of the proposed domain adaptive semi-supervised learning framework. DAS-EM is more effective than DAS-SE in most cases, and the full model DAS with both techniques jointly employed overall has the best performance. (2) When comparing the two settings on the small-scale dataset, all domain-adaptive methods generally perform better under setting 1. In setting 1, the target examples are balanced in classes, which can provide more diverse opinion-related features. However, when considering unsupervised domain adaptation, we should not presume the label distribution of the unlabeled data. Thus, it is necessary to conduct experiments using datasets that reflect real-life sentiment distribution as what we did on setting2 and the large-scale dataset. Unfortunately, this is ignored by most",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Comparison"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "of previous works. (3) Word-embeddings are very helpful, as we can see even NaiveNN can substantially outperform mSDA on most tasks. To see the effect of semi-supervised learning alone, we also conduct experiments by setting INLINEFORM0 to eliminate the effect of feature adaptation. Both entropy minimization and bootstrapping perform very badly in this setting. Entropy minimization gives almost random predictions with accuracy below 0.4, and the results of bootstrapping are also much lower compared to NaiveNN. This suggests that the feature adaptation component is essential. Without it, the learned target representations are less meaningful and discriminative. Applying semi-supervised learning in this case is likely to worsen the results. Further Analysis In Figure FIGREF23 , we show the change of accuracy with respect to the percentage of unlabeled data used for training on three particular problems under setting 1. The value at INLINEFORM0 denotes the accuracies of NaiveNN which does not utilize any target data. For DAS, we observe a nonlinear increasing trend where the accuracy quickly improves at the beginning, and then gradually stabilizes. For other methods, this trend is less obvious, and adding more unlabeled data sometimes even worsen the results. This finding again suggests that the proposed approach can better exploit the information from unlabeled data. We also conduct experiments under a setting with a small number of labeled target examples available. Figure FIGREF27 shows the change of accuracy with respect to the number of labeled target examples added for training. We can observe that DAS is still more effective under this setting, while the performance differences to other methods gradually decrease with the increasing number of labeled target examples. CNN Filter Analysis In this subsection, we aim to better understand DAS by analyzing sentiment-related CNN filters. To do that, 1) we first select a list of the most related CNN filters for predicting each sentiment label (positive, negative neutral). Those filters can be identified according to the learned weights INLINEFORM0 of the output layer INLINEFORM1 . Higher weight indicates stronger relatedness. 2) Recall that in our implementation, each CNN filter has a window size of 3 with Relu activation. We can thus represent each selected filter as a ranked list of trigrams with highest activation values. We analyze the CNN filters learned by NaiveNN, FANN and DAS respectively on task E INLINEFORM0 BT under setting 1. We focus on E INLINEFORM1 BT for study because electronics and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Semi-Supervised Learning Analysis"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "beauty are very different domains and each of them has a diverse set of domain-specific sentiment expressions. For each method, we identify the top 10 most related filters for each sentiment label, and extract the top trigrams of each selected filter on both source and target domains. Since labeled source examples are used for training, we find the filters learned by the three methods capture similar expressions on the source domain, containing both domain-invariant and domain-specific trigrams. On the target domain, DAS captures more target-specific expressions compared to the other two methods. Due to space limitation, we only present a small subset of positive-sentiment-related filters in Table TABREF34 . The complete results are provided in Appendix SECREF8 . From Table TABREF34 , we can observe that the filters learned by NaiveNN are almost unable to capture target-specific sentiment expressions, while FANN is able to capture limited target-specific words such as \u201cclean\u201d and \u201cscent\u201d. The filters learned by DAS are more domain-adaptive, capturing diverse sentiment expressions in the target domain. Conclusion In this work, we propose DAS, a novel framework that jointly performs feature adaptation and semi-supervised learning. We have demonstrated through multiple experiments that DAS can better leverage unlabeled data, and achieve substantial improvements over baseline methods. We have also shown that feature adaptation is an essential component, without which, semi-supervised learning is not able to function properly. The proposed framework could be potentially adapted to other domain adaptation tasks, which is the focus of our future studies. Results on Amazon Benchmark Most previous works BIBREF0 , BIBREF1 , BIBREF6 , BIBREF7 , BIBREF29 carried out experiments on the Amazon benchmark released by Blitzer et al. ( BIBREF0 ). The dataset contains 4 different domains: Book (B), DVDs (D), Electronics (E), and Kitchen (K). Following their experimental settings, we consider the binary classification task to predict whether a review is positive or negative on the target domain. Each domain consists of 1000 positive and 1000 negative reviews respectively. We also allow 4000 unlabeled reviews to be used for both the source and the target domains, of which the positive and negative reviews are balanced as well, following the settings in previous works. We construct 12 cross-domain sentiment classification tasks and split the labeled data in each domain into a training set of 1600 reviews and a test set of 400 reviews. The classifier is trained on the training set of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Domain Adaptation Results"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "the source domain and is evaluated on the test set of the target domain. The comparison results are shown in Table TABREF37 . Numerical Results of Figure Due to space limitation, we only show results in figures in the paper. All numerical numbers used for plotting Figure FIGREF17 are presented in Table TABREF38 . We can observe that DAS-EM, DAS-SE, and DAS all achieve substantial improvements over baseline methods under different settings. CNN Filter Analysis Full Results As mentioned in Section SECREF36 , we conduct CNN filter analysis on NaiveNN, FANN, and DAS. For each method, we identify the top 10 most related filters for positive, negative, neutral sentiment labels respectively, and then represent each selected filter as a ranked list of trigrams with the highest activation values on it. Table TABREF39 , TABREF40 , TABREF41 in the following pages illustrate the trigrams from the target domain (beauty) captured by the selected filters learned on E INLINEFORM0 BT for each method. We can observe that compared to NaiveNN and FANN, DAS is able to capture a more diverse set of relevant sentiment expressions on the target domain for each sentiment label. This observation is consistent with our motivation. Since NaiveNN, FANN and other baseline methods solely train the sentiment classifier on the source domain, the learned encoder is not able to produce discriminative features on the target domain. DAS addresses this problem by refining the classifier on the target domain with semi-supervised learning, and the overall objective forces the encoder to learn feature representations that are not only domain-invariant but also discriminative on both domains.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Domain Adaptation Results"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Cross-domain sentiment classification is a technique that transfers knowledge from a source domain with labeled data to a target domain with limited or no labeled data to reduce labeling effort.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Domain adaptation addresses the challenge of transferring models from a source domain to a target domain where data distributions differ significantly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Domain-invariant feature representations are learned features that remain consistent across different domains, helping to bridge the distribution gap between source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Pivot features are domain-specific features that are aligned through shared semantic meanings, such as aligning 'hilarious' and 'tasty' with 'good'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Unlabeled target data can provide beneficial information for improving domain adaptation by helping to refine both feature representations and sentiment classifiers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "DAS is a novel framework that treats cross-domain sentiment classification as a semi-supervised learning task by leveraging unlabeled target data to improve both representation learning and classifier refinement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "A significant distribution difference between source and target domains leads to degraded adaptation performance in domain adaptation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Restaurant reviews often contain opinion words such as 'tender', 'tasty', or 'undercooked'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Movie reviews often contain opinion words such as 'thrilling', 'horrific', or 'hilarious'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The limited overlap between opinion words in restaurant and movie reviews makes domain adaptation particularly challenging.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "An existing domain refers to a domain with sufficient labeled data that can serve as a source for training and transferring knowledge to a new domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "A target domain is a new domain with limited or no labeled data, where the goal is to apply knowledge from a source domain for classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Domain-invariant representation learning is a technique that reduces domain distance by learning shared features that remain consistent across different domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The proposed approach jointly performs feature adaptation and semi-supervised learning within a multi-task learning framework.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Feature adaptation explicitly minimizes the distance between encoded representations of the source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Entropy minimization is a semi-supervised regularization used to refine the classifier by exploiting unlabeled target data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Regularization"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Self-ensemble bootstrapping is a semi-supervised regularization technique that leverages unlabeled target data to improve classifier performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Regularization"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Pivot words are domain-invariant opinion words, such as 'excellent' or 'terrible', that are used to align domain-specific features across domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Structural correspondence learning (SCL) is a method that uses pivot feature prediction to induce a projected feature space effective for both source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Yu and Jiang extend the pivot feature prediction idea from SCL to a neural network-based solution with auxiliary tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Denoising autoencoders are used in unsupervised representation learning to learn transferable representations that disentangle underlying data variations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Domain discrepancy refers to the differences in data distributions between source and target domains, which existing methods aim to reduce.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Unlabeled target data are used in semi-supervised learning to refine the classifier and improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "The method is evaluated under multiple experimental settings that consider variations in label distribution and corpus size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Factor"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The proposed model achieves significant improvements over strong baseline methods in experimental evaluations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The proposed method benefits greatly from incorporating unlabeled target data through semi-supervised learning, consistent with the original motivation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The datasets and source code for the proposed method are available at https://github.com/ruidan/DAS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Maximum mean discrepancy (MMD) is a metric used to measure the difference between the feature distributions of two domains in computer vision tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Adversarial training is a framework where a domain discriminator is added to confuse deep feature learning, reducing domain differences in NLP tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Feature adaptation is a component in the model that reduces domain discrepancy by aligning feature distributions between source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Semi-supervised learning treats target domain instances as unlabeled data to improve model performance through the use of both labeled and unlabeled data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Entropy minimization is a regularization technique used in semi-supervised learning to improve model performance by reducing uncertainty in predictions on unlabeled data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Self-ensemble bootstrapping is a regularization method used in semi-supervised learning to enhance model generalization by combining multiple model predictions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Unsupervised domain adaptation is the experimental setting where no labeled data is available from the target domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setting"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The source domain is the domain with labeled data used to train a model for transfer to a target domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The target domain is the domain with unlabeled data where the model is intended to perform well after being trained on the source domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The goal is to learn a sentiment classifier that performs well on the target domain using data from both source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Objective"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Domain discrepancy is reduced through feature adaptation and semi-supervised learning techniques in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Sentiment labels are represented as one-hot vectors in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The number of sentiment classes is denoted by a variable in the model representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The total number of training documents includes both labeled and unlabeled examples from the source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The neural-based feature encoder is parameterized by INLINEFORM1 and maps documents from both domains to a shared feature space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The sentiment classifier is a fully connected layer parameterized by INLINEFORM3 with softmax activation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The objective function simultaneously minimizes classification error on labeled source examples, domain discrepancy, and leverages unlabeled data via semi-supervised learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The cross-entropy loss is applied on labeled source examples to minimize classification error.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Domain discrepancy is minimized by explicitly reducing the distance between source and target feature representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Feature adaptation involves minimizing the distance between source and target feature representations using a symmetric KL divergence based on normalized mean representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "MMD estimates the distance between two distributions as the distance between sample means of projected embeddings in Hilbert space, using a characteristic kernel to ensure injectivity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Adversary training is one of the methods that can be applied to minimize domain discrepancy, alongside MMD.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Pre-trained word embeddings are sufficient to capture domain-specific information without explicit word alignment via pivot words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The feature adaptation loss is formally described as the symmetric KL divergence between normalized mean representations of source and target features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Normalization is applied to the mean representations of source and target features to rescale vectors such that all entries sum to 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Domain Adaptive Semi-supervised Learning (DAS) is a method that exploits target data through semi-supervised learning objectives jointly trained with source data distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The cross entropy loss is minimized between the true label distribution and the predicted label distribution over target samples in DAS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "INLINEFORM4 represents the unknown true label distribution in the target domain, which is estimated via semi-supervised learning methods in DAS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Entropy minimization estimates the target label distribution by using the predicted label distribution derived from the source and target data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Self-ensemble bootstrapping estimates the target label distribution by using predictions from previous training rounds of the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Minimizing domain discrepancy through feature adaptation improves classifier performance on the target domain by increasing prediction confidence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Ensemble predictions are formed during training by combining outputs from different training epochs to estimate target labels in DAS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The loss function in DAS incorporates entropy penalty and bootstrapping, and is applied across all documents to improve label estimation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Bootstrapping has been previously explored in domain adaptation, but earlier methods did not explicitly minimize domain discrepancy via feature adaptation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Network parameters are updated in each minibatch based on the computed losses from cross entropy, entropy penalty, and bootstrapping components.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "INLINEFORM1 is jointly trained with INLINEFORM2, INLINEFORM3, and INLINEFORM4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Algorithm SECREF6 illustrates the overall training process of the proposed domain adaptive semi-supervised learning (DAS) framework.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "INLINEFORM0, INLINEFORM1, and INLINEFORM2 are weights that balance the effects of INLINEFORM3, INLINEFORM4, and INLINEFORM5 respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "INLINEFORM6 and INLINEFORM7 are constant hyper-parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "INLINEFORM8 is set as a Gaussian curve to ramp up the weight from 0 to INLINEFORM9.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "After each training epoch, INLINEFORM10 denotes the predictions made by the network in the current epoch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The ensemble prediction INLINEFORM11 is updated as a weighted average of outputs from previous epochs and the current epoch, with recent epochs having larger weight.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Estimated labels INLINEFORM12 are generated by converting INLINEFORM13 to a one-hot vector where the entry with the maximum value is set to one and others to zero.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Self-ensemble bootstrapping is a generalized version of bootstrapping that uses only outputs from the previous round of training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The ensemble prediction is likely to be closer to the correct, unknown labels of the target data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The feature encoder INLINEFORM0 is left unspecified, with a one-layer CNN structure adopted in the implementation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "A one-layer CNN structure is adopted because it has been demonstrated to work well for sentiment classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Given a review document INLINEFORM1 consisting of INLINEFORM2 words, each word is associated with a continuous word embedding from an embedding matrix.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Each word in a review document is associated with a continuous word embedding BIBREF23 from an embedding matrix INLINEFORM4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The embedding matrix INLINEFORM4 has a vocabulary size of INLINEFORM5 and an embedding dimension of INLINEFORM6.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "INLINEFORM7 is jointly updated with other network parameters during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Given a window of dense word embeddings INLINEFORM8, the convolution layer concatenates them into a vector of length INLINEFORM10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The output vector is computed using Equation (EQREF11).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "INLINEFORM0 and INLINEFORM1 are the parameter set of the encoder INLINEFORM2 and are shared across all windows of the sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "INLINEFORM3 is an element-wise non-linear activation function applied in the convolution layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The convolution operation captures local contextual dependencies of the input sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The extracted feature vectors are similar to INLINEFORM4-grams.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "After applying the convolution operation to the whole sequence, a list of hidden vectors INLINEFORM5 is obtained.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "A max-over-time pooling layer is applied to obtain the final vector representation INLINEFORM6 of the input document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "The Amazon benchmark BIBREF0 typically removes reviews with neutral labels in both domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Removing neutral instances biases the dataset favorably for max-margin-based algorithms by removing uncertain labels and leaving only high-confidence examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "New datasets are constructed by the authors to address the issue of removing neutral labels in unsupervised domain adaptation settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The small-scale datasets consist of four domains: Book (BK), Electronics (E), Beauty (BT), and Music (M).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Set 1 contains 6000 instances with exactly balanced class labels and is used as the source domain during training with sentiment label information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Set 2 contains 6000 instances randomly sampled from the large dataset, preserving the original label distribution and reflecting real-life label distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Setting (1) uses only Set 1 of the target domain as the unlabeled set, which reflects a close-to-balanced label distribution and is considered a transductive setting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Setting (2) uses Set 2 from both source and target domains as unlabeled sets, as Set 2 is sampled from millions of reviews and better reflects real-life sentiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Table TABREF9 provides detailed statistics of the generated datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "IMDB is one of the four large-scale datasets used in the experiments, previously used in BIBREF25 and BIBREF26.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Yelp2014 is one of the four large-scale datasets used in the experiments, previously used in BIBREF25 and BIBREF26.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Cell Phone is one of the four large-scale datasets used in the experiments, derived from the large-scale Amazon dataset (BIBREF24, BIBREF27).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Baby is one of the four large-scale datasets used in the experiments, derived from the large-scale Amazon dataset (BIBREF24, BIBREF27).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Table TABREF9 summarizes the detailed statistics of the four large-scale datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "A transductive setting is used where all target examples are used for both training (without label information) and evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Sampling is performed during training to balance the classes of labeled source data in each minibatch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The development set is sampled from the training set of the source domain, consisting of 1000 examples, due to the lack of labeled target data in unsupervised domain adaptation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Hyper-parameters INLINEFORM0 and INLINEFORM1 are tuned using the development set from the target domain to avoid setting them to zero due to lack of unlabeled target data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Word embeddings are initialized using 300-dimensional GloVe vectors trained on 840 billion tokens from the Common Crawl.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "For each pair of domains, the vocabulary consists of the top 10,000 most frequent words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The window size in the CNN encoder is set to 3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The size of the hidden layer in the CNN encoder is set to 300.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The nonlinear activation function used in the CNN encoder is ReLU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "Dropout with a probability of 0.5 is applied before the output layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The L2-norm of the weight vector is constrained with a maximum norm of 3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "INLINEFORM0 is set to 200 on small-scale datasets and the Amazon benchmark, tuned on the development set of task E under setting 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "INLINEFORM1 is set to 1 on small-scale datasets and the Amazon benchmark.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "INLINEFORM3 is set to 500 on large-scale datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "INLINEFORM4 is set to 0.2 on large-scale datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "A Gaussian curve is used to ramp up the weight of the bootstrapping loss from 0 to a maximum value over the training epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "All experiments are trained for 30 epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "INLINEFORM10 is set to 3 for all experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "INLINEFORM11 is set to 0.5 for all experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "The batch size is set to 50 on small-scale datasets and the Amazon benchmark.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The batch size is increased to 250 on large-scale datasets to reduce the number of iterations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "RMSProp optimizer with a learning rate of 0.0005 is used for all experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "The Naive baseline uses bag-of-words representations and an SVM classifier trained on the source domain without domain adaptation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "mSDA is a state-of-the-art method based on discrete input features, using top 1000 bag-of-words features as pivot features with 3 stacked layers and a corruption probability of 0.5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "NaiveNN is a non-domain-adaptive CNN trained on the source domain, where INLINEFORM0, INLINEFORM1, and INLINEFORM2 are set to zero.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "AuxNN is a neural model that exploits auxiliary tasks and achieves state-of-the-art results on cross-domain sentiment classification, using the same sentence encoder as the proposed model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "ADAN is a method that uses adversarial training to reduce representation differences between domains, originally employing a simple feedforward network as the encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "A CNN-based encoder is used to replace the existing model in the domain adaptive semi-supervised learning framework.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "The model is trained for 5 iterations on the discriminator per iteration on the encoder and sentiment classifier, as suggested in the referenced paper.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "MMD (Maximum Mean Discrepancy) is a method used to minimize domain discrepancy, particularly in image tasks, by jointly minimizing MMDs across multiple layers of deep CNNs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "Variants of deep CNNs used in image tasks are not directly applicable to NLP problems due to the limited benefit of adding more CNN layers in NLP.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "A model is trained that jointly minimizes classification loss on the source domain and MMD between two domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "A Gaussian RBF kernel is used as a common choice for computing MMD in the domain adaptation method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "DAS denotes the full model that jointly employs both entropy minimization and self-ensemble bootstrapping for semi-supervised learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "DAS-EM is a model that includes only entropy minimization for semi-supervised learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "DAS-SE is a model that includes only self-ensemble bootstrapping for semi-supervised learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "FANN (Feature-Adaptation Neural Network) is a model that does not perform semi-supervised learning, with both feature adaptation terms set to zero.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "Classification accuracy is reported on the small-scale dataset, while macro-F1 is used for the large-scale dataset due to extreme label imbalance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "Both DAS-EM and DAS-SE outperform ADAN, MDD, and FANN, which only perform feature adaptation, demonstrating the effectiveness of the proposed domain adaptive semi-supervised learning framework.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "DAS-EM is more effective than DAS-SE in most cases, and the full DAS model, which combines both techniques, achieves the best overall performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "In setting 1, target examples are balanced across classes, providing more diverse opinion-related features and leading to better performance for domain-adaptive methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "Setting 2 reflects real-life sentiment distribution and is used to evaluate unsupervised domain adaptation without assuming balanced label distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "It is necessary to conduct experiments using datasets that reflect real-life sentiment distribution, as most existing methods ignore this aspect.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "Word-embeddings are helpful as NaiveNN can substantially outperform mSDA on most tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "INLINEFORM0 refers to a setting that eliminates the effect of feature adaptation in experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "Entropy minimization gives almost random predictions with accuracy below 0.4 when feature adaptation is removed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "Bootstrapping performs much worse than NaiveNN when feature adaptation is eliminated.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "The feature adaptation component is essential for meaningful and discriminative target representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "Applying semi-supervised learning without feature adaptation is likely to worsen model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "DAS shows a nonlinear increasing trend in accuracy with respect to the percentage of unlabeled data used for training, with rapid improvement at the beginning and gradual stabilization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "NaiveNN achieves baseline accuracy without using any target data in the training process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "Adding more unlabeled data sometimes worsens results for methods other than DAS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "Experiments under a small number of labeled target examples show that DAS remains more effective than other methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setting"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "CNN filters are analyzed based on learned weights from the output layer to identify sentiment-related trigrams.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "Each CNN filter with a window size of 3 is represented as a ranked list of trigrams with highest activation values.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "NaiveNN is used as a baseline model for comparison in CNN filter analysis on task E BT under setting 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "FANN is compared with DAS and NaiveNN in the CNN filter analysis on task E BT under setting 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "DAS is analyzed in CNN filter analysis on task E BT under setting 1 to understand its sentiment prediction mechanisms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "The task E BT is studied for sentiment prediction in the CNN filter analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "DAS is a novel framework that jointly performs feature adaptation and semi-supervised learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "DAS achieves substantial improvements over baseline methods in multiple experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "Feature adaptation is an essential component of DAS, as without it, semi-supervised learning cannot function properly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "The filters learned by NaiveNN are almost unable to capture target-specific sentiment expressions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s164": {
+      "text": "FANN is able to capture limited target-specific words such as 'clean' and 'scent'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s165": {
+      "text": "The filters learned by DAS are more domain-adaptive and capture diverse sentiment expressions in the target domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s166": {
+      "text": "The Amazon benchmark contains four domains: Book, DVDs, Electronics, and Kitchen, each with 1000 positive and 1000 negative reviews.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s167": {
+      "text": "The binary classification task on the Amazon benchmark predicts whether a review is positive or negative on the target domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s168": {
+      "text": "Each domain has 4000 unlabeled reviews, balanced between positive and negative, used for both source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setup"
+      ],
+      "topic_links": []
+    },
+    "s169": {
+      "text": "Twelve cross-domain sentiment classification tasks are constructed by splitting labeled data into training (1600 reviews) and test (400 reviews) sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Experiment"
+      ],
+      "topic_links": []
+    },
+    "s170": {
+      "text": "The proposed DAS framework could be potentially adapted to other domain adaptation tasks in future studies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s171": {
+      "text": "DAS-EM achieves substantial improvements over baseline methods under different settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s172": {
+      "text": "DAS-SE achieves substantial improvements over baseline methods under different settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s173": {
+      "text": "DAS achieves substantial improvements over baseline methods under different settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s174": {
+      "text": "NaiveNN is a baseline method that trains the sentiment classifier solely on the source domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s175": {
+      "text": "FANN is a baseline method that trains the sentiment classifier solely on the source domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s176": {
+      "text": "DAS refines the classifier on the target domain using semi-supervised learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s177": {
+      "text": "The encoder in DAS learns feature representations that are domain-invariant and discriminative on both source and target domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s178": {
+      "text": "CNN filter analysis is conducted on NaiveNN, FANN, and DAS to identify top 10 most related filters for positive, negative, and neutral sentiment labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s179": {
+      "text": "Trigrams are represented as ranked lists of the highest activation values on selected CNN filters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s180": {
+      "text": "DAS captures a more diverse set of relevant sentiment expressions in the beauty domain compared to NaiveNN and FANN.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s181": {
+      "text": "Baseline methods like NaiveNN and FANN fail to produce discriminative features on the target domain because they train solely on the source domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s182": {
+      "text": "DAS uses semi-supervised learning to refine the classifier on the target domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s183": {
+      "text": "DAS learns feature representations that are both domain-invariant and discriminative across domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1000 negative reviews",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "1000 positive reviews",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "1600 training reviews",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "300-dimension",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "400 test reviews",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "4000 unlabeled reviews",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "5 iterations",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "6000 instances",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "840 billion tokens",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "ADAN",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "ADAN method",
+      "Definition",
+      "s127"
+    ],
+    [
+      "Algorithm SECREF6",
+      "Result",
+      "s64"
+    ],
+    [
+      "Amazon Benchmark",
+      "Definition",
+      "s166"
+    ],
+    [
+      "Amazon Benchmark",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "Amazon Benchmark",
+      "Experiment",
+      "s169"
+    ],
+    [
+      "Amazon Benchmark",
+      "Method",
+      "s167"
+    ],
+    [
+      "Amazon Benchmark",
+      "Setup",
+      "s168"
+    ],
+    [
+      "Amazon benchmark",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Amazon benchmark BIBREF0",
+      "Definition",
+      "s87"
+    ],
+    [
+      "Appendix SECREF7",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "AuxNN method",
+      "Definition",
+      "s126"
+    ],
+    [
+      "BIBREF0",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "BIBREF0",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "BIBREF0",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "BIBREF1",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "BIBREF12",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "BIBREF14",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "BIBREF15",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "BIBREF16",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "BIBREF18",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "BIBREF19",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "BIBREF21",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "BIBREF24",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "BIBREF25",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "BIBREF26",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "BIBREF27",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "BIBREF29",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "BIBREF4",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "BIBREF6",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "BIBREF7",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "BK",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "Baby",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "Baby",
+      "Definition",
+      "s99"
+    ],
+    [
+      "Beauty (BT)",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Blitzer et al.",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "Blitzer et al.",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "Book (BK)",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Book domain (B)",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "CNN Encoder",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "CNN filter analysis",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "CNN filter analysis",
+      "Method",
+      "s178"
+    ],
+    [
+      "CNN filters",
+      "Definition",
+      "s154"
+    ],
+    [
+      "CNN filters",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "CNN-based encoder",
+      "Definition",
+      "s128"
+    ],
+    [
+      "CNN-based encoder",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "Cell Phone",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "Cell Phone",
+      "Definition",
+      "s98"
+    ],
+    [
+      "Common Crawl",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "DAS",
+      "Application",
+      "s170"
+    ],
+    [
+      "DAS",
+      "Definition",
+      "s134"
+    ],
+    [
+      "DAS",
+      "Definition",
+      "s160"
+    ],
+    [
+      "DAS",
+      "Definition",
+      "s53"
+    ],
+    [
+      "DAS",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "DAS",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "DAS",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "DAS",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "DAS",
+      "Method",
+      "s158"
+    ],
+    [
+      "DAS",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "DAS",
+      "Property",
+      "s150"
+    ],
+    [
+      "DAS",
+      "Property",
+      "s162"
+    ],
+    [
+      "DAS",
+      "Property",
+      "s176"
+    ],
+    [
+      "DAS",
+      "Result",
+      "s161"
+    ],
+    [
+      "DAS",
+      "Result",
+      "s165"
+    ],
+    [
+      "DAS",
+      "Result",
+      "s173"
+    ],
+    [
+      "DAS",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "DAS-EM",
+      "Definition",
+      "s135"
+    ],
+    [
+      "DAS-EM",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "DAS-EM",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "DAS-EM",
+      "Result",
+      "s171"
+    ],
+    [
+      "DAS-EM and DAS-SE",
+      "Result",
+      "s139"
+    ],
+    [
+      "DAS-EM vs DAS-SE",
+      "Comparison",
+      "s140"
+    ],
+    [
+      "DAS-SE",
+      "Definition",
+      "s136"
+    ],
+    [
+      "DAS-SE",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "DAS-SE",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "DAS-SE",
+      "Result",
+      "s172"
+    ],
+    [
+      "DISPLAYFORM0",
+      "Feature Adaptation Loss",
+      "e7"
+    ],
+    [
+      "DISPLAYFORM0",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "DVDs domain (D)",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "Domain Adaptive Semi-supervised learning framework (DAS)",
+      "Definition",
+      "s6"
+    ],
+    [
+      "E BT",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "E BT",
+      "Task",
+      "s159"
+    ],
+    [
+      "E INLINEFORM0 BT",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "Electronics (E)",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Electronics domain (E)",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "Equation (EQREF11)",
+      "Definition",
+      "s80"
+    ],
+    [
+      "Equation (EQREF11)",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "FANN",
+      "Definition",
+      "s137"
+    ],
+    [
+      "FANN",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "FANN",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "FANN",
+      "Method",
+      "s157"
+    ],
+    [
+      "FANN",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "FANN",
+      "Property",
+      "s175"
+    ],
+    [
+      "FANN",
+      "Result",
+      "s164"
+    ],
+    [
+      "FANN",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "FIGREF23",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "Figure FIGREF17",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "Figure FIGREF27",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "Gaussian RBF",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "Gaussian RBF",
+      "Property",
+      "s133"
+    ],
+    [
+      "Gaussian curve",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "GloVe",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "IMDB",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "IMDB",
+      "Definition",
+      "s96"
+    ],
+    [
+      "INLINEFORM0",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "INLINEFORM0",
+      "Definition",
+      "s145"
+    ],
+    [
+      "INLINEFORM0",
+      "Feature Adaptation Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "INLINEFORM0",
+      "Property",
+      "s112"
+    ],
+    [
+      "INLINEFORM0",
+      "Property",
+      "s65"
+    ],
+    [
+      "INLINEFORM0",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "INLINEFORM0 and INLINEFORM1",
+      "Property",
+      "s81"
+    ],
+    [
+      "INLINEFORM1",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "INLINEFORM1",
+      "Definition",
+      "s63"
+    ],
+    [
+      "INLINEFORM1",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM1",
+      "Property",
+      "s113"
+    ],
+    [
+      "INLINEFORM1",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "INLINEFORM10",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM10",
+      "Property",
+      "s118"
+    ],
+    [
+      "INLINEFORM10",
+      "Result",
+      "s68"
+    ],
+    [
+      "INLINEFORM11",
+      "Definition",
+      "s69"
+    ],
+    [
+      "INLINEFORM11",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM11",
+      "Property",
+      "s119"
+    ],
+    [
+      "INLINEFORM12",
+      "Definition",
+      "s70"
+    ],
+    [
+      "INLINEFORM12",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM13",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM2",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "INLINEFORM2",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "INLINEFORM2",
+      "Feature Adaptation Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM3",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "INLINEFORM3",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "INLINEFORM3",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM3",
+      "Property",
+      "s114"
+    ],
+    [
+      "INLINEFORM3",
+      "Property",
+      "s82"
+    ],
+    [
+      "INLINEFORM4",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "INLINEFORM4",
+      "Definition",
+      "s55"
+    ],
+    [
+      "INLINEFORM4",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM4",
+      "Property",
+      "s115"
+    ],
+    [
+      "INLINEFORM4-grams",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "INLINEFORM5",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM6",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM6 and INLINEFORM7",
+      "Property",
+      "s66"
+    ],
+    [
+      "INLINEFORM7",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM7",
+      "Property",
+      "s78"
+    ],
+    [
+      "INLINEFORM8",
+      "Definition",
+      "s67"
+    ],
+    [
+      "INLINEFORM8",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "INLINEFORM9",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "KL divergence",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "Kitchen domain (K)",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "MDD",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "MMD",
+      "Definition",
+      "s130"
+    ],
+    [
+      "MMD",
+      "Feature Adaptation Loss",
+      "e7"
+    ],
+    [
+      "MMD",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "MMD-based method",
+      "Result",
+      "s132"
+    ],
+    [
+      "Maximum Mean Discrepancy (MMD)",
+      "Definition",
+      "s48"
+    ],
+    [
+      "Maximum Mean Discrepancy (MMD)",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "McAuley et al. BIBREF24",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Music (M)",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Naive baseline",
+      "Definition",
+      "s123"
+    ],
+    [
+      "NaiveNN",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "NaiveNN",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "NaiveNN",
+      "Method",
+      "s156"
+    ],
+    [
+      "NaiveNN",
+      "Property",
+      "s174"
+    ],
+    [
+      "NaiveNN",
+      "Result",
+      "s151"
+    ],
+    [
+      "NaiveNN",
+      "Result",
+      "s163"
+    ],
+    [
+      "NaiveNN",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "NaiveNN model",
+      "Definition",
+      "s125"
+    ],
+    [
+      "Relu activation",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "SECREF8",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "Section SECREF10",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "Set 1",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Set 1",
+      "Property",
+      "s91"
+    ],
+    [
+      "Set 2",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Set 2",
+      "Property",
+      "s92"
+    ],
+    [
+      "Setting (2)",
+      "Result",
+      "s94"
+    ],
+    [
+      "TABREF34",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "TABREF9",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "Table TABREF37",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "Table TABREF38",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "Table TABREF9",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "Table TABREF9",
+      "Definition",
+      "s95"
+    ],
+    [
+      "Table TABREF9",
+      "Property",
+      "s100"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e13"
+    ],
+    [
+      "Word-embeddings",
+      "Property",
+      "s144"
+    ],
+    [
+      "Word-embeddings",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "Yelp2014",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "Yelp2014",
+      "Definition",
+      "s97"
+    ],
+    [
+      "Yu and Jiang",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "activation function",
+      "Property",
+      "s109"
+    ],
+    [
+      "adversarial training",
+      "Definition",
+      "s29"
+    ],
+    [
+      "adversarial training",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "adversary training",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "adversary training",
+      "Reference",
+      "s49"
+    ],
+    [
+      "balanced class labels",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "baseline methods",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s120"
+    ],
+    [
+      "beauty domain",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "bootstrapping",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "bootstrapping",
+      "Result",
+      "s147"
+    ],
+    [
+      "bootstrapping",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "bootstrapping in domain adaptation",
+      "Reference",
+      "s61"
+    ],
+    [
+      "bootstrapping loss",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "bootstrapping loss weight ramp-up",
+      "Property",
+      "s116"
+    ],
+    [
+      "class balancing in minibatch",
+      "Procedure",
+      "s102"
+    ],
+    [
+      "classification accuracy",
+      "Result",
+      "s138"
+    ],
+    [
+      "classification error minimization",
+      "Result",
+      "s45"
+    ],
+    [
+      "clean",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "construct",
+      "Method Setup",
+      "e4"
+    ],
+    [
+      "convolution layer",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "convolution operation",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "convolution operation",
+      "Property",
+      "s83"
+    ],
+    [
+      "corpus size",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "cross entropy loss",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "cross entropy loss",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "cross entropy loss",
+      "Property",
+      "s54"
+    ],
+    [
+      "cross-domain sentiment classification",
+      "Definition",
+      "s1"
+    ],
+    [
+      "cross-domain sentiment classification",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "cross-domain sentiment classification",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "deep CNNs",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "deep neural networks (DNN)",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "denoising autoencoders",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "denoising autoencoders",
+      "Method",
+      "s21"
+    ],
+    [
+      "development set",
+      "Definition",
+      "s103"
+    ],
+    [
+      "discriminator",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "distribution difference",
+      "Cause",
+      "s7"
+    ],
+    [
+      "domain adaptation",
+      "Problem",
+      "s2"
+    ],
+    [
+      "domain discrepancy",
+      "Cause",
+      "s46"
+    ],
+    [
+      "domain discrepancy",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "domain discrepancy",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "domain discrepancy",
+      "Problem",
+      "s22"
+    ],
+    [
+      "domain discrepancy",
+      "Result",
+      "s38"
+    ],
+    [
+      "domain discriminator",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "domain shift",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "domain-invariant feature representations",
+      "Definition",
+      "s3"
+    ],
+    [
+      "domain-invariant feature representations",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "domain-invariant features",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "domain-invariant features",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "domain-invariant representation learning",
+      "Definition",
+      "s13"
+    ],
+    [
+      "domain-invariant representation learning",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "domain-invariant trigrams",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "domain-specific trigrams",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "dropout probability",
+      "Property",
+      "s110"
+    ],
+    [
+      "electronics",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "embedding dimension",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "embedding matrix",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "embedding matrix INLINEFORM4",
+      "Property",
+      "s77"
+    ],
+    [
+      "embedding space",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "encoder",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "encoder",
+      "Property",
+      "s177"
+    ],
+    [
+      "ensemble prediction",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "ensemble prediction",
+      "Property",
+      "s72"
+    ],
+    [
+      "ensemble predictions",
+      "Definition",
+      "s59"
+    ],
+    [
+      "ensemble predictions",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "entropy minimization",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "entropy minimization",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "entropy minimization",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "entropy minimization",
+      "Method",
+      "s32"
+    ],
+    [
+      "entropy minimization",
+      "Method",
+      "s56"
+    ],
+    [
+      "entropy minimization",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "entropy minimization",
+      "Regularization",
+      "s16"
+    ],
+    [
+      "entropy minimization",
+      "Result",
+      "s146"
+    ],
+    [
+      "entropy minimization",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "excellent",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "existing domain",
+      "Definition",
+      "s11"
+    ],
+    [
+      "extracted feature vectors",
+      "Definition",
+      "s84"
+    ],
+    [
+      "feature adaptation",
+      "Cause",
+      "s58"
+    ],
+    [
+      "feature adaptation",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "feature adaptation",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "feature adaptation",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "feature adaptation",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "feature adaptation",
+      "Method",
+      "s15"
+    ],
+    [
+      "feature adaptation",
+      "Method",
+      "s47"
+    ],
+    [
+      "feature adaptation",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "feature adaptation",
+      "Property",
+      "s148"
+    ],
+    [
+      "feature adaptation",
+      "Property",
+      "s30"
+    ],
+    [
+      "feature adaptation",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "feature adaptation loss",
+      "Feature Adaptation Loss",
+      "e7"
+    ],
+    [
+      "feature adaptation loss",
+      "Formula",
+      "s51"
+    ],
+    [
+      "feature encoder INLINEFORM0",
+      "Definition",
+      "s73"
+    ],
+    [
+      "feature representations",
+      "Property",
+      "s183"
+    ],
+    [
+      "feature-adaptation neural network",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "final vector representation INLINEFORM6",
+      "Result",
+      "s86"
+    ],
+    [
+      "formally",
+      "Method Setup",
+      "e4"
+    ],
+    [
+      "fully connected layer",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "good",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "hidden layer size",
+      "Property",
+      "s108"
+    ],
+    [
+      "hidden vectors INLINEFORM5",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "hidden vectors INLINEFORM5",
+      "Result",
+      "s85"
+    ],
+    [
+      "hilarious",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "horrible",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "https://github.com/ruidan/DAS",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "https://github.com/ruidan/DAS",
+      "Resource",
+      "s27"
+    ],
+    [
+      "hyper-parameter tuning",
+      "Strategy",
+      "s104"
+    ],
+    [
+      "image-related models",
+      "Cause",
+      "s131"
+    ],
+    [
+      "label distribution",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "label distribution",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "label distribution and corpus size",
+      "Evaluation Factor",
+      "s24"
+    ],
+    [
+      "label distributions",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "label representation",
+      "Property",
+      "s39"
+    ],
+    [
+      "labeled examples",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "labeled source examples",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "large-scale batch size",
+      "Property",
+      "s121"
+    ],
+    [
+      "large-scale dataset",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "loss formulation",
+      "Result",
+      "s60"
+    ],
+    [
+      "mSDA",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "mSDA method",
+      "Definition",
+      "s124"
+    ],
+    [
+      "macro-F1",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "max-over-time pooling",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "maximum mean discrepancy (MMD)",
+      "Definition",
+      "s28"
+    ],
+    [
+      "maximum mean discrepancy (MMD)",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "mean representations",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "minibatch",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "momentum",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "multi-task learning",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "multi-task learning",
+      "Method",
+      "s14"
+    ],
+    [
+      "negative sentiment",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "negative sentiment",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "negative sentiment",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "neural network-based solution",
+      "Method",
+      "s20"
+    ],
+    [
+      "neural-based feature encoder",
+      "Definition",
+      "s42"
+    ],
+    [
+      "neural-based feature encoder",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "neutral labels",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "neutral sentiment",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "neutral sentiment",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "new datasets",
+      "Definition",
+      "s89"
+    ],
+    [
+      "non-linear activation function",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "normalization",
+      "Feature Adaptation Loss",
+      "e7"
+    ],
+    [
+      "normalization",
+      "Process",
+      "s52"
+    ],
+    [
+      "number of classes",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "number of classes",
+      "Property",
+      "s40"
+    ],
+    [
+      "number of training epochs",
+      "Property",
+      "s117"
+    ],
+    [
+      "objective function",
+      "Property",
+      "s44"
+    ],
+    [
+      "one-hot vector",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "one-hot vector",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "one-layer CNN",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "one-layer CNN structure",
+      "Cause",
+      "s74"
+    ],
+    [
+      "opinion words",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "opinion words in movie reviews",
+      "Example",
+      "s9"
+    ],
+    [
+      "opinion words in restaurant reviews",
+      "Example",
+      "s8"
+    ],
+    [
+      "optimizer",
+      "Property",
+      "s122"
+    ],
+    [
+      "original label distribution",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "our method",
+      "Method Setup",
+      "e3"
+    ],
+    [
+      "output layer",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "pivot features",
+      "Definition",
+      "s4"
+    ],
+    [
+      "pivot features",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "pivot words",
+      "Definition",
+      "s18"
+    ],
+    [
+      "pivot words",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "pivot words",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "positive sentiment",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "positive sentiment",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "positive sentiment",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "pre-trained word embeddings",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "pre-trained word embeddings",
+      "Result",
+      "s50"
+    ],
+    [
+      "prediction confidence",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "real-life sentiment",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "real-life sentiment distribution",
+      "Observation",
+      "s143"
+    ],
+    [
+      "regularization",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "removing neutral instances",
+      "Cause",
+      "s88"
+    ],
+    [
+      "representation learning",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "rescaling",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "review document INLINEFORM1",
+      "Property",
+      "s75"
+    ],
+    [
+      "sample means",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "scent",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "self-ensemble bootstrapping",
+      "Definition",
+      "s71"
+    ],
+    [
+      "self-ensemble bootstrapping",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "self-ensemble bootstrapping",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "self-ensemble bootstrapping",
+      "Method",
+      "s33"
+    ],
+    [
+      "self-ensemble bootstrapping",
+      "Method",
+      "s57"
+    ],
+    [
+      "self-ensemble bootstrapping",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "self-ensemble bootstrapping",
+      "Regularization",
+      "s17"
+    ],
+    [
+      "semi-supervised learning",
+      "Benefit",
+      "s26"
+    ],
+    [
+      "semi-supervised learning",
+      "Cause",
+      "s149"
+    ],
+    [
+      "semi-supervised learning",
+      "Definition",
+      "s31"
+    ],
+    [
+      "semi-supervised learning",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "semi-supervised learning",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "semi-supervised learning",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "semi-supervised learning",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "semi-supervised learning",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "semi-supervised learning",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "semi-supervised learning",
+      "Method",
+      "s182"
+    ],
+    [
+      "semi-supervised learning",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "semi-supervised learning",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "sentiment classification",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "sentiment classifier",
+      "Definition",
+      "s43"
+    ],
+    [
+      "sentiment classifier",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "sentiment classifier",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "sentiment classifier",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "sentiment classifier",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "sentiment classifier",
+      "Objective",
+      "s37"
+    ],
+    [
+      "setting 1",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "setting 1",
+      "Property",
+      "s141"
+    ],
+    [
+      "setting 1",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "setting 2",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "setting 2",
+      "Property",
+      "s142"
+    ],
+    [
+      "small intersection of opinion words",
+      "Problem",
+      "s10"
+    ],
+    [
+      "small number of labeled target examples",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "small number of labeled target examples",
+      "Setting",
+      "s153"
+    ],
+    [
+      "small-scale dataset",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "small-scale datasets",
+      "Property",
+      "s90"
+    ],
+    [
+      "softmax activation",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "source code",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "source domain",
+      "Cause",
+      "s181"
+    ],
+    [
+      "source domain",
+      "Definition",
+      "s35"
+    ],
+    [
+      "source domain",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "source domain",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "source domain",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "source domain",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "strong baselines",
+      "Result",
+      "s25"
+    ],
+    [
+      "structural correspondence learning (SCL)",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "structural correspondence learning (SCL)",
+      "Method",
+      "s19"
+    ],
+    [
+      "sum to 1",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "symmetric version",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "target data",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "target domain",
+      "Definition",
+      "s12"
+    ],
+    [
+      "target domain",
+      "Definition",
+      "s36"
+    ],
+    [
+      "target domain",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "target domain",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "target domain",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "target domain (beauty)",
+      "Result",
+      "s180"
+    ],
+    [
+      "target domain label distribution",
+      "Result",
+      "s93"
+    ],
+    [
+      "tasty",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "tender",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "terrible",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "test set",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "thrilling",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "top 10 filters",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "top 10000 most frequent",
+      "Dataset Setup",
+      "e12"
+    ],
+    [
+      "total number of training documents",
+      "Property",
+      "s41"
+    ],
+    [
+      "training epochs",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "training procedure",
+      "Property",
+      "s129"
+    ],
+    [
+      "training update",
+      "Process",
+      "s62"
+    ],
+    [
+      "transductive setting",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "transductive setting",
+      "Definition",
+      "s101"
+    ],
+    [
+      "transfer learning",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "transferable representations",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "trigrams",
+      "Definition",
+      "s179"
+    ],
+    [
+      "trigrams",
+      "Domain Adaptation Results",
+      "e16"
+    ],
+    [
+      "trigrams",
+      "Domain Adaptation Results",
+      "e17"
+    ],
+    [
+      "trigrams",
+      "Property",
+      "s155"
+    ],
+    [
+      "trigrams",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "undercooked",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "unlabeled data",
+      "Domain Adaptation",
+      "e2"
+    ],
+    [
+      "unlabeled data",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "unlabeled data",
+      "Effect",
+      "s152"
+    ],
+    [
+      "unlabeled data",
+      "Model Comparison",
+      "e14"
+    ],
+    [
+      "unlabeled data",
+      "Model Feature Adaptation",
+      "e6"
+    ],
+    [
+      "unlabeled data",
+      "Semi-Supervised Learning Analysis",
+      "e15"
+    ],
+    [
+      "unlabeled examples",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "unlabeled sets",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "unlabeled target data",
+      "Domain Adaptation",
+      "e1"
+    ],
+    [
+      "unlabeled target data",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "unlabeled target data",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "unlabeled target data",
+      "Property",
+      "s5"
+    ],
+    [
+      "unlabeled target data",
+      "Resource",
+      "s23"
+    ],
+    [
+      "unsupervised domain adaptation",
+      "Dataset Construction",
+      "e11"
+    ],
+    [
+      "unsupervised domain adaptation",
+      "Domain Adaptation Methods",
+      "e5"
+    ],
+    [
+      "unsupervised domain adaptation",
+      "Setting",
+      "s34"
+    ],
+    [
+      "vectors",
+      "Distance Function Setup",
+      "e8"
+    ],
+    [
+      "vocabulary",
+      "Property",
+      "s106"
+    ],
+    [
+      "vocabulary size",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "we",
+      "Method Setup",
+      "e4"
+    ],
+    [
+      "weight norm constraint",
+      "Property",
+      "s111"
+    ],
+    [
+      "weight ramp-up function",
+      "Domain Adaptive Learning",
+      "e9"
+    ],
+    [
+      "window of dense word embeddings",
+      "Definition",
+      "s79"
+    ],
+    [
+      "window size",
+      "Property",
+      "s107"
+    ],
+    [
+      "word embedding",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "word embedding BIBREF23",
+      "Definition",
+      "s76"
+    ],
+    [
+      "word embeddings",
+      "Property",
+      "s105"
+    ]
+  ]
+}

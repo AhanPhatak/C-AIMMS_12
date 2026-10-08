@@ -1,0 +1,1906 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 7,
+    "n_semantic": 56,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "language identification": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "Introduction": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "LID": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "natural language processing": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "machine comprehension": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "parts of speech taggers": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "language models": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "South Africa": {
+      "tag_set": [
+        "Language Identification",
+        "Lexicon Impact in LID"
+      ]
+    },
+    "11 official languages": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "zul": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "xho": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "nbl": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "ssw": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "afr": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "eng": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "nso": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "sot": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "tsn": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "ven": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "tso": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "Nguni languages": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "Sotho languages": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "hierarchical naive Bayesian": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "lexicon based classifier": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "short pieces of text": {
+      "tag_set": [
+        "Language Identification"
+      ]
+    },
+    "DSL 2015": {
+      "tag_set": [
+        "Language Identification Datasets",
+        "Lexicon Impact in LID"
+      ]
+    },
+    "DSL 2017": {
+      "tag_set": [
+        "Language Identification Datasets",
+        "Lexicon Impact in LID",
+        "Result"
+      ]
+    },
+    "JW300 corpus": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "South African languages": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "14 languages": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "18000 training samples": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "1000 testing samples": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "300 languages": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "100 thousand sentences": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "WiLI-2018": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "235 languages": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "1000 paragraphs": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "NCHLT text corpora": {
+      "tag_set": [
+        "Language Identification Datasets",
+        "Property"
+      ]
+    },
+    "3500 training samples": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "600 testing samples": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "character level n-gram": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "shallow naive Bayes": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "SVMs": {
+      "tag_set": [
+        "Application",
+        "Language Identification Datasets"
+      ]
+    },
+    "neural machine translation": {
+      "tag_set": [
+        "Application",
+        "Language Identification Datasets"
+      ]
+    },
+    "Leipzig Corpora Collection": {
+      "tag_set": [
+        "Language Identification Datasets",
+        "Usage"
+      ]
+    },
+    "Universal Declaration of Human Rights": {
+      "tag_set": [
+        "Language Identification Datasets",
+        "Usage"
+      ]
+    },
+    "Tatoeba": {
+      "tag_set": [
+        "Language Identification Datasets",
+        "Usage"
+      ]
+    },
+    "Native Language Identification (NLI)": {
+      "tag_set": [
+        "Language Identification Datasets",
+        "Relationship"
+      ]
+    },
+    "Language Variety Identification (LVI)": {
+      "tag_set": [
+        "Language Identification Datasets"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "NB": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "NB+NB": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "NB+Lex": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "Lex": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "50% training token dropout": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "NCHLT": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Lexicon Impact in LID",
+        "Reference"
+      ]
+    },
+    "BIBREF17": {
+      "tag_set": [
+        "Lexicon Impact in LID",
+        "Reference"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Lexicon Impact in LID",
+        "Reference"
+      ]
+    },
+    "sklearn": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "C++ implementation": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "GPU": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "early 2015 13-inch Retina MacBook Pro": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "2.9 GHz CPU": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "Turbo Boosted to 3.4 GHz": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "8GB RAM": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "un-hashed feature representations": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "data augmentation": {
+      "tag_set": [
+        "Lexicon Impact in LID",
+        "Method"
+      ]
+    },
+    "self-supervised learning": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "deeper language models": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "Africa": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "standardised datasets": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "shared tasks": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "language codes": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "discoverability": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "paywalls": {
+      "tag_set": [
+        "Lexicon Impact in LID"
+      ]
+    },
+    "published research": {
+      "tag_set": [
+        "Research Access"
+      ]
+    },
+    "access": {
+      "tag_set": [
+        "Research Access"
+      ]
+    },
+    "problem": {
+      "tag_set": [
+        "Research Access"
+      ]
+    },
+    "algorithm": {
+      "tag_set": [
+        "Evaluation"
+      ]
+    },
+    "DSL 2017 dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "JW300 parallel corpus": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "WiLI-2018 benchmark dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "shallow naive Bayes classifiers": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "character level n-gram language model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "South African multilingual academic corpus": {
+      "tag_set": [
+        "Development"
+      ]
+    },
+    "existing NLP datasets": {
+      "tag_set": [
+        "Availability"
+      ]
+    },
+    "winning approach in DSL 2017": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "winning approach in DSL 2015": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "FastText classifier": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hierarchical stacked classifiers": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "surnames classification": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "adversarial training": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "bidirectional recurrent neural networks": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "ensembles of recurrent neural networks": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "text features in neural models": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "neural methods in LID": {
+      "tag_set": [
+        "Condition"
+      ]
+    },
+    "LID of short texts and informal styles": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "shallow methods in LID": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "research opportunities in LID": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "support for language codes": {
+      "tag_set": [
+        "Trend"
+      ]
+    },
+    "discoverability of research": {
+      "tag_set": [
+        "Trend"
+      ]
+    },
+    "paywalls in research": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "proposed LID algorithm": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "naive Bayesian classifier": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "hierarchical lexicon-based classifier": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "Nguni family": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Sotho family": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "Classification"
+      ]
+    },
+    "Afrikaans": {
+      "tag_set": [
+        "Classification"
+      ]
+    },
+    "Xitsonga": {
+      "tag_set": [
+        "Classification"
+      ]
+    },
+    "Tshivenda": {
+      "tag_set": [
+        "Classification"
+      ]
+    },
+    "multinomial naive Bayes classifier": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "lexicon-based classifier": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "confidence threshold": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "character (5-6)-gram features": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "LanideNN": {
+      "tag_set": [
+        "Implementation"
+      ]
+    },
+    "NCHLT BIBREF7": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "DSL 2015 BIBREF19": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "DSL 2017 BIBREF1": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "average classification accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "language group classification": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "single NB classifier": {
+      "tag_set": [
+        "Variation"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nAccurate language identification (L",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language Identification"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "ID) is the first step in many natural language processing and machine comprehension pipelines. If the language of a piece of text is known then the appropriate downstream models like parts of speech taggers and language models can be applied as required.\nLID is further also an important step in harvesting scarce language resources. Harvested data can be used to bootstrap more accurate LID models and in doing so continually improve the quality of the harvested data. Availability of data is still one of the big roadblocks for applying data driven approaches like supervised machine learning in developing countries.\nHaving 11 official languages of South Africa has lead to initiatives (discussed in the next section) that have had positive effect on the availability of language resources for research. However, many of the South African languages are still under resourced from the point of view of building data driven models for machine comprehension and process automation.\nTable TABREF2 shows the percentages of first language speakers for each of the official languages of South Africa. These are four conjunctively written Nguni languages (zul, xho, nbl, ssw), Afrikaans (afr) and English (eng), three disjunctively written Sotho languages (nso, sot, tsn), as well as tshiVenda (ven) and Xitsonga (tso). The Nguni languages are similar to each other and harder to distinguish. The same is true of the Sotho languages.\nThis paper presents a hierarchical naive Bayesian and lexicon based classifier for LID of short pieces of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language Identification"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "text of 15-20 characters long. The algorithm is evaluated against recent approaches using existing test sets from previous works on South African languages as well as the Discriminating between Similar Languages (DSL) 2015 and 2017 shared tasks. Section SECREF2 reviews existing works on the topic and summarises the remaining research problems. Section SECREF3 of the paper discusses the proposed algorithm and Section SECREF4 presents comparative results. Related Works The focus of this section is on recently published datasets and LID research applicable to the South African context. An in depth survey of algorithms, features, datasets, shared tasks and evaluation methods may be found in BIBREF0. The datasets for the DSL 2015 & DSL 2017 shared tasks BIBREF1 are often used in LID benchmarks and also available on Kaggle . The DSL datasets, like other LID datasets, consists of text sentences labelled by language. The 2017 dataset, for example, contains 14 languages over 6 language groups with 18000 training samples and 1000 testing samples per language. The recently published JW300 parallel corpus BIBREF2 covers over 300 languages with around 100 thousand parallel sentences per language pair on average. In South Africa, a multilingual corpus of academic texts produced by university students with different mother tongues is being developed BIBREF3. The WiLI-2018 benchmark dataset BIBREF4 for monolingual written natural language identification includes around 1000 paragraphs of 235 languages. A possibly useful link can also be made BIBREF5 between Native Language Identification (NLI) (determining the native language of the author of a text) and Language Variety Identification (LVI) (classification of different varieties of a single language) which opens up more datasets. The Leipzig Corpora Collection BIBREF6, the Universal Declaration of Human Rights and Tatoeba are also often used sources of data. The NCHLT text corpora BIBREF7 is likely a good starting point for a shared LID task dataset for the South African languages BIBREF8. The NCHLT text corpora contains enough data to have 3500 training samples and 600 testing samples of 300+ character sentences per language. Researchers have recently started applying existing algorithms for tasks like neural machine translation in earnest to such South African language datasets BIBREF9. Existing NLP datasets, models and services BIBREF10 are available for South African languages. These include an LID algorithm BIBREF11 that uses a character level n-gram language model. Multiple papers have shown that 'shallow' naive Bayes classifiers BIBREF12, BIBREF8, BIBREF13, BIBREF14, SVMs BIBREF15 and similar models",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language Identification Datasets"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "work very well for doing LID. The DSL 2017 paper BIBREF1, for example, gives an overview of the solutions of all of the teams that competed on the shared task and the winning approach BIBREF16 used an SVM with character n-gram, parts of speech tag features and some other engineered features. The winning approach for DSL 2015 used an ensemble naive Bayes classifier. The fasttext classifier BIBREF17 is perhaps one of the best known efficient 'shallow' text classifiers that have been used for LID . Multiple papers have proposed hierarchical stacked classifiers (including lexicons) that would for example first classify a piece of text by language group and then by exact language BIBREF18, BIBREF19, BIBREF8, BIBREF0. Some work has also been done on classifying surnames between Tshivenda, Xitsonga and Sepedi BIBREF20. Additionally, data augmentation BIBREF21 and adversarial training BIBREF22 approaches are potentially very useful to reduce the requirement for data. Researchers have investigated deeper LID models like bidirectional recurrent neural networks BIBREF23 or ensembles of recurrent neural networks BIBREF24. The latter is reported to achieve 95.12% in the DSL 2015 shared task. In these models text features can include character and word n-grams as well as informative character and word-level features learnt BIBREF25 from the training data. The neural methods seem to work well in tasks where more training data is available. In summary, LID of short texts, informal styles and similar languages remains a difficult problem which is actively being researched. Increased confusion can in general be expected between shorter pieces of text and languages that are more closely related. Shallow methods still seem to work well compared to deeper models for LID. Other remaining research opportunities seem to be data harvesting, building standardised datasets and creating shared tasks for South Africa and Africa. Support for language codes that include more languages seems to be growing and discoverability of research is improving with more survey papers coming out. Paywalls also seem to no longer be a problem; the references used in this paper was either openly published or available as preprint papers. Methodology The proposed LID algorithm builds on the work in BIBREF8 and BIBREF26. We apply a naive Bayesian classifier with character (2, 4 & 6)-grams, word unigram and word bigram features with a hierarchical lexicon based classifier. The naive Bayesian classifier is trained to predict the specific language label of a piece of text, but used to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "first classify text as belonging to either the Nguni family, the Sotho family, English, Afrikaans, Xitsonga or Tshivenda. The scikit-learn multinomial naive Bayes classifier is used for the implementation with an alpha smoothing value of 0.01 and hashed text features. The lexicon based classifier is then used to predict the specific language within a language group. For the South African languages this is done for the Nguni and Sotho groups. If the lexicon prediction of the specific language has high confidence then its result is used as the final label else the naive Bayesian classifier's specific language prediction is used as the final result. The lexicon is built over all the data and therefore includes the vocabulary from both the training and testing sets. The lexicon based classifier is designed to trade higher precision for lower recall. The proposed implementation is considered confident if the number of words from the winning language is at least one more than the number of words considered to be from the language scored in second place. The stacked classifier is tested against three public LID implementations BIBREF17, BIBREF23, BIBREF8. The LID implementation described in BIBREF17 is available on GitHub and is trained and tested according to a post on the fasttext blog. Character (5-6)-gram features with 16 dimensional vectors worked the best. The implementation discussed in BIBREF23 is available from https://github.com/tomkocmi/LanideNN. Following the instructions for an OSX pip install of an old r0.8 release of TensorFlow, the LanideNN code could be executed in Python 3.7.4. Settings were left at their defaults and a learning rate of 0.001 was used followed by a refinement with learning rate of 0.0001. Only one code modification was applied to return the results from a method that previously just printed to screen. The LID algorithm described in BIBREF8 is also available on GitHub. The stacked classifier is also tested against the results reported for four other algorithms BIBREF16, BIBREF26, BIBREF24, BIBREF15. All the comparisons are done using the NCHLT BIBREF7, DSL 2015 BIBREF19 and DSL 2017 BIBREF1 datasets discussed in Section SECREF2. Results and Analysis The average classification accuracy results are summarised in Table TABREF9. The accuracies reported are for classifying a piece of text by its specific language label. Classifying text only by language group or family is a much easier task as reported in BIBREF8. Different variations of the proposed classifier were evaluated. A single NB classifier",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "(NB), a stack of two NB classifiers (NB+NB), a stack of a NB classifier and lexicon (NB+Lex) and a lexicon (Lex) by itself. A lexicon with a 50% training token dropout is also listed to show the impact of the lexicon support on the accuracy. From the results it seems that the DSL 2017 task might be harder than the DSL 2015 and NCHLT tasks. Also, the results for the implementation discussed in BIBREF23 might seem low, but the results reported in that paper is generated on longer pieces of text so lower scores on the shorter pieces of text derived from the NCHLT corpora is expected. The accuracy of the proposed algorithm seems to be dependent on the support of the lexicon. Without a good lexicon a non-stacked naive Bayesian classifier might even perform better. The execution performance of some of the LID implementations are shown in Table TABREF10. Results were generated on an early 2015 13-inch Retina MacBook Pro with a 2.9 GHz CPU (Turbo Boosted to 3.4 GHz) and 8GB RAM. The C++ implementation in BIBREF17 is the fastest. The implementation in BIBREF8 makes use of un-hashed feature representations which causes it to be slower than the proposed sklearn implementation. The execution performance of BIBREF23 might improve by a factor of five to ten when executed on a GPU. Conclusion LID of short texts, informal styles and similar languages remains a difficult problem which is actively being researched. The proposed algorithm was evaluated on three existing datasets and compared to the implementations of three public LID implementations as well as to reported results of four other algorithms. It performed well relative to the other methods beating their results. However, the performance is dependent on the support of the lexicon. We would like to investigate the value of a lexicon in a production system and how to possibly maintain it using self-supervised learning. We are investigating the application of deeper language models some of which have been used in more recent DSL shared tasks. We would also like to investigate data augmentation strategies to reduce the amount of training data that is required. Further research opportunities include data harvesting, building standardised datasets and shared tasks for South Africa as well as the rest of Africa. In general, the support for language codes that include more languages seems to be growing, discoverability of research is improving and paywalls seem",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Lexicon Impact in LID"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "to no longer be a big problem in getting access to published research.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Research Access"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "The algorithm is evaluated against recent approaches using existing test sets from previous works on South African languages and the Discriminating between Similar Languages (DSL) 2015 and 2017 shared tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "The DSL 2017 dataset contains 14 languages over 6 language groups with 18,000 training samples and 1,000 testing samples per language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "The JW300 parallel corpus covers over 300 languages with around 100,000 parallel sentences per language pair on average.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The WiLI-2018 benchmark dataset includes around 1,000 paragraphs of 235 languages for monolingual written natural language identification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The NCHLT text corpora contains enough data to have 3,500 training samples and 600 testing samples of 300+ character sentences per language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Multiple papers have shown that shallow naive Bayes classifiers are used in language identification tasks for South African languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "SVMs are used in language identification tasks for South African languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "An LID algorithm uses a character level n-gram language model to identify languages in text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "A link can be made between Native Language Identification (NLI) and Language Variety Identification (LVI).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The Leipzig Corpora Collection is often used as a source of data in language identification research.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The Universal Declaration of Human Rights is often used as a source of data in language identification research.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Tatoeba is often used as a source of data in language identification research.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "A multilingual corpus of academic texts produced by university students with different mother tongues is being developed in South Africa.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Development"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Existing NLP datasets, models, and services are available for South African languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Availability"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Researchers have recently started applying existing algorithms for neural machine translation to South African language datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The DSL 2017 shared task included an overview of solutions from all competing teams.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The winning approach for DSL 2017 used an SVM with character n-gram, parts of speech tag features, and other engineered features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The winning approach for DSL 2015 used an ensemble of naive Bayes classifiers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "FastText is one of the best-known efficient 'shallow' text classifiers used for language identification (LID).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Hierarchical stacked classifiers, including lexicons, first classify text by language group and then by exact language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Research has been conducted on classifying surnames between Tshivenda, Xitsonga, and Sepedi.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Data augmentation approaches are potentially useful for reducing the requirement for training data in LID.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Adversarial training approaches are potentially useful for reducing the requirement for training data in LID.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Bidirectional recurrent neural networks have been investigated as deeper LID models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Ensembles of recurrent neural networks achieved 95.12% performance in the DSL 2015 shared task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Neural LID models use character and word n-grams as well as features learned from training data at the character and word level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Neural methods work well in LID tasks when more training data is available.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Condition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Language identification of short texts, informal styles, and closely related languages remains a difficult problem.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Shallow methods perform well compared to deeper models for language identification (LID).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Remaining research opportunities include data harvesting, building standardized datasets, and creating shared tasks for South Africa and Africa.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Support for language codes including more languages is growing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Trend"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Discoverability of research is improving due to the increasing number of survey papers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Trend"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Paywalls are no longer a problem, as all references in the paper were either openly published or available as preprints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The proposed LID algorithm builds on the work in BIBREF8 and BIBREF26.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The proposed algorithm uses a naive Bayesian classifier with character (2, 4, 6)-grams, word unigrams, and word bigrams.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The proposed algorithm applies a hierarchical lexicon-based classifier to predict the specific language label of a text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The Nguni family is one of the language groups for which a lexicon-based classifier is used to predict the specific language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The Sotho family is one of the language groups for which a lexicon-based classifier is used to predict the specific language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The proposed stacked classifier can classify text as English when the lexicon-based prediction is confident or when the naive Bayes prediction is used as fallback.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The proposed stacked classifier can classify text as Afrikaans when the lexicon-based prediction is confident or when the naive Bayes prediction is used as fallback.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The proposed stacked classifier can classify text as Xitsonga when the lexicon-based prediction is confident or when the naive Bayes prediction is used as fallback.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The proposed stacked classifier can classify text as Tshivenda when the lexicon-based prediction is confident or when the naive Bayes prediction is used as fallback.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "A multinomial naive Bayes classifier with alpha smoothing value of 0.01 and hashed text features is used for language classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "A lexicon-based classifier is used to predict the specific language within the Nguni and Sotho language groups.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The classifier is considered confident if the number of words from the winning language is at least one more than the number of words from the second-place language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Character (5-6)-gram features with 16-dimensional vectors performed best in the language identification implementation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "LanideNN, available on GitHub, is a language identification implementation that uses TensorFlow with a learning rate of 0.001 and later refined to 0.0001.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Implementation"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The LID implementation described in BIBREF17 is available on GitHub and is trained and tested according to a post on the fasttext blog.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The LID implementation discussed in BIBREF23 is available from https://github.com/tomkocmi/LanideNN.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The LID algorithm described in BIBREF8 is available on GitHub and is used for comparison in the evaluation of the stacked classifier.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The NCHLT BIBREF7 dataset is used for comparing the performance of the stacked classifier against other LID implementations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The DSL 2015 BIBREF19 dataset is used for comparing the performance of the stacked classifier against other LID implementations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The DSL 2017 BIBREF1 dataset is used for comparing the performance of the stacked classifier against other LID implementations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The average classification accuracy results are summarized in Table TABREF9, which reports the performance of the classifier in identifying specific language labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Classifying text only by language group is reported to be easier than classifying by specific language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "A single naive Bayes classifier was evaluated as a variation of the proposed classifier.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Variation"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "100 thousand sentences",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "1000 paragraphs",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "1000 testing samples",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "11 official languages",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "14 languages",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "18000 training samples",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "2.9 GHz CPU",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "235 languages",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "300 languages",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "3500 training samples",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "50% training token dropout",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "600 testing samples",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "8GB RAM",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "Africa",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "Afrikaans",
+      "Classification",
+      "s40"
+    ],
+    [
+      "BIBREF17",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "BIBREF17",
+      "Reference",
+      "s48"
+    ],
+    [
+      "BIBREF23",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "BIBREF23",
+      "Reference",
+      "s49"
+    ],
+    [
+      "BIBREF8",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "BIBREF8",
+      "Reference",
+      "s50"
+    ],
+    [
+      "C++ implementation",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "DSL 2015",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "DSL 2015",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "DSL 2015 BIBREF19",
+      "Dataset",
+      "s52"
+    ],
+    [
+      "DSL 2017",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "DSL 2017",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "DSL 2017",
+      "Result",
+      "s16"
+    ],
+    [
+      "DSL 2017 BIBREF1",
+      "Dataset",
+      "s53"
+    ],
+    [
+      "DSL 2017 dataset",
+      "Property",
+      "s2"
+    ],
+    [
+      "English",
+      "Classification",
+      "s39"
+    ],
+    [
+      "FastText classifier",
+      "Property",
+      "s19"
+    ],
+    [
+      "GPU",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "Introduction",
+      "Language Identification",
+      "e1"
+    ],
+    [
+      "JW300 corpus",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "JW300 parallel corpus",
+      "Property",
+      "s3"
+    ],
+    [
+      "LID",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "LID of short texts and informal styles",
+      "Problem",
+      "s28"
+    ],
+    [
+      "Language Variety Identification (LVI)",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "LanideNN",
+      "Implementation",
+      "s47"
+    ],
+    [
+      "Leipzig Corpora Collection",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "Leipzig Corpora Collection",
+      "Usage",
+      "s10"
+    ],
+    [
+      "Lex",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "NB",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "NB+Lex",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "NB+NB",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "NCHLT",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "NCHLT BIBREF7",
+      "Dataset",
+      "s51"
+    ],
+    [
+      "NCHLT text corpora",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "NCHLT text corpora",
+      "Property",
+      "s5"
+    ],
+    [
+      "Native Language Identification (NLI)",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "Native Language Identification (NLI)",
+      "Relationship",
+      "s9"
+    ],
+    [
+      "Nguni family",
+      "Definition",
+      "s37"
+    ],
+    [
+      "Nguni languages",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "SVMs",
+      "Application",
+      "s7"
+    ],
+    [
+      "SVMs",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "Sotho family",
+      "Definition",
+      "s38"
+    ],
+    [
+      "Sotho languages",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "South Africa",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "South Africa",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "South African languages",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "South African multilingual academic corpus",
+      "Development",
+      "s13"
+    ],
+    [
+      "Tatoeba",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "Tatoeba",
+      "Usage",
+      "s12"
+    ],
+    [
+      "Tshivenda",
+      "Classification",
+      "s42"
+    ],
+    [
+      "Turbo Boosted to 3.4 GHz",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "Universal Declaration of Human Rights",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "Universal Declaration of Human Rights",
+      "Usage",
+      "s11"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e4"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e5"
+    ],
+    [
+      "WiLI-2018",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "WiLI-2018 benchmark dataset",
+      "Property",
+      "s4"
+    ],
+    [
+      "Xitsonga",
+      "Classification",
+      "s41"
+    ],
+    [
+      "access",
+      "Research Access",
+      "e7"
+    ],
+    [
+      "adversarial training",
+      "Method",
+      "s23"
+    ],
+    [
+      "afr",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "algorithm",
+      "Evaluation",
+      "s1"
+    ],
+    [
+      "average classification accuracy",
+      "Result",
+      "s54"
+    ],
+    [
+      "bidirectional recurrent neural networks",
+      "Method",
+      "s24"
+    ],
+    [
+      "character (5-6)-gram features",
+      "Feature",
+      "s46"
+    ],
+    [
+      "character level n-gram",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "character level n-gram language model",
+      "Definition",
+      "s8"
+    ],
+    [
+      "confidence threshold",
+      "Property",
+      "s45"
+    ],
+    [
+      "data augmentation",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "data augmentation",
+      "Method",
+      "s22"
+    ],
+    [
+      "deeper language models",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "discoverability",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "discoverability of research",
+      "Trend",
+      "s32"
+    ],
+    [
+      "early 2015 13-inch Retina MacBook Pro",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "eng",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "ensembles of recurrent neural networks",
+      "Result",
+      "s25"
+    ],
+    [
+      "existing NLP datasets",
+      "Availability",
+      "s14"
+    ],
+    [
+      "hierarchical lexicon-based classifier",
+      "Component",
+      "s36"
+    ],
+    [
+      "hierarchical naive Bayesian",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "hierarchical stacked classifiers",
+      "Definition",
+      "s20"
+    ],
+    [
+      "language codes",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "language group classification",
+      "Result",
+      "s55"
+    ],
+    [
+      "language identification",
+      "Language Identification",
+      "e1"
+    ],
+    [
+      "language models",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "lexicon based classifier",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "lexicon-based classifier",
+      "Method",
+      "s44"
+    ],
+    [
+      "machine comprehension",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "multinomial naive Bayes classifier",
+      "Method",
+      "s43"
+    ],
+    [
+      "naive Bayesian classifier",
+      "Component",
+      "s35"
+    ],
+    [
+      "natural language processing",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "nbl",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "neural machine translation",
+      "Application",
+      "s15"
+    ],
+    [
+      "neural machine translation",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "neural methods in LID",
+      "Condition",
+      "s27"
+    ],
+    [
+      "nso",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "parts of speech taggers",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "paywalls",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "paywalls in research",
+      "Observation",
+      "s33"
+    ],
+    [
+      "problem",
+      "Research Access",
+      "e7"
+    ],
+    [
+      "proposed LID algorithm",
+      "Method",
+      "s34"
+    ],
+    [
+      "published research",
+      "Research Access",
+      "e7"
+    ],
+    [
+      "research opportunities in LID",
+      "Suggestion",
+      "s30"
+    ],
+    [
+      "self-supervised learning",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "shallow methods in LID",
+      "Comparison",
+      "s29"
+    ],
+    [
+      "shallow naive Bayes",
+      "Language Identification Datasets",
+      "e3"
+    ],
+    [
+      "shallow naive Bayes classifiers",
+      "Application",
+      "s6"
+    ],
+    [
+      "shared tasks",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "short pieces of text",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "single NB classifier",
+      "Variation",
+      "s56"
+    ],
+    [
+      "sklearn",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "sot",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "ssw",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "standardised datasets",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "support for language codes",
+      "Trend",
+      "s31"
+    ],
+    [
+      "surnames classification",
+      "Result",
+      "s21"
+    ],
+    [
+      "text features in neural models",
+      "Property",
+      "s26"
+    ],
+    [
+      "tsn",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "tso",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "un-hashed feature representations",
+      "Lexicon Impact in LID",
+      "e6"
+    ],
+    [
+      "ven",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "winning approach in DSL 2015",
+      "Definition",
+      "s18"
+    ],
+    [
+      "winning approach in DSL 2017",
+      "Definition",
+      "s17"
+    ],
+    [
+      "xho",
+      "Language Identification",
+      "e2"
+    ],
+    [
+      "zul",
+      "Language Identification",
+      "e2"
+    ]
+  ]
+}

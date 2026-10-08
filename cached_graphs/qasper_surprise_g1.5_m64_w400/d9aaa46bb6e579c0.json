@@ -1,0 +1,4725 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 140,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Ancient Chinese": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Modern Chinese": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Neural machine translation (NMT)": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Statistical machine translation (SMT)": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Bilingual text alignment": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Lexical-based approaches": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Statistical-based approaches": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Bilingual dictionary": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Polysemous phenomenon": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Monosyllabic words": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Double syllables": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Grammatical order": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Parallel data resource": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "Chinese characters": {
+      "tag_set": [
+        "Ancient to Modern Chinese Translation"
+      ]
+    },
+    "traditional methods": {
+      "tag_set": [
+        "Limitation",
+        "Traditional Methods Limitation"
+      ]
+    },
+    "characteristics": {
+      "tag_set": [
+        "Traditional Methods Limitation"
+      ]
+    },
+    "ancient-modern Chinese text alignment": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "clause level alignment": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "lexical-based information": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "statistical-based information": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "94.2 F1-score": {
+      "tag_set": [
+        "Ancient Chinese Translation",
+        "Clause Alignment Method"
+      ]
+    },
+    "Test set": {
+      "tag_set": [
+        "Ancient Chinese Translation",
+        "Clause Alignment Method",
+        "Evaluation Metrics",
+        "NMT Model Training",
+        "NMT vs SMT Translation",
+        "Property",
+        "Transformer-NMT Model"
+      ]
+    },
+    "longest common subsequence": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Clause Alignment Method",
+        "Evaluation Metrics",
+        "Relationship"
+      ]
+    },
+    "1.24M bilingual sentence pairs": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "translation parallel corpus": {
+      "tag_set": [
+        "Clause Alignment Method",
+        "Property"
+      ]
+    },
+    "large high-quality dataset": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "SMT models": {
+      "tag_set": [
+        "Clause Alignment Method",
+        "NMT Model Training"
+      ]
+    },
+    "NMT models": {
+      "tag_set": [
+        "Clause Alignment Method",
+        "Definition",
+        "NMT Model Training"
+      ]
+    },
+    "dynamic programming": {
+      "tag_set": [
+        "Clause Alignment",
+        "Clause Alignment Method",
+        "Method"
+      ]
+    },
+    "lexicon matching": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "Chinese word segmentation": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "exact matching": {
+      "tag_set": [
+        "Clause Alignment Method",
+        "Property"
+      ]
+    },
+    "dictionary matching": {
+      "tag_set": [
+        "Clause Alignment Method",
+        "Property"
+      ]
+    },
+    "ancient Chinese dictionary": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "stop words": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "bilingual clause pair": {
+      "tag_set": [
+        "Clause Alignment Method"
+      ]
+    },
+    "Inverse Document Frequency (IDF)": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Definition"
+      ]
+    },
+    "lexical matching score": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Definition",
+        "Evaluation Metrics",
+        "Formula",
+        "Property"
+      ]
+    },
+    "exact matching score": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Property"
+      ]
+    },
+    "dictionary matching score": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Formula"
+      ]
+    },
+    "alignment mode": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Definition"
+      ]
+    },
+    "1-2 alignment mode": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Definition"
+      ]
+    },
+    "1-0 alignment mode": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "0-1 alignment mode": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "1-1 alignment mode": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "2-1 alignment mode": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "2-2 alignment mode": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "Dev set": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Evaluation Metrics",
+        "Transformer-NMT Model",
+        "Usage"
+      ]
+    },
+    "Pr n-m": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "length information": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "character correlation": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Evaluation Metrics",
+        "Reference",
+        "Relationship"
+      ]
+    },
+    "FIGREF9": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Ancient Chinese Translation",
+        "Definition"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Property",
+        "Transformer-NMT Model"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Definition",
+        "Result",
+        "Transformer-NMT Model"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Property"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Definition"
+      ]
+    },
+    "INLINEFORM5": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Definition"
+      ]
+    },
+    "INLINEFORM6": {
+      "tag_set": [
+        "Alignment Mode Statistics",
+        "Entity"
+      ]
+    },
+    "INLINEFORM7": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM8": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM9": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM10": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM11": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM12": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM13": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM14": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM15": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "INLINEFORM16": {
+      "tag_set": [
+        "Alignment Mode Statistics"
+      ]
+    },
+    "characters": {
+      "tag_set": [
+        "Character List"
+      ]
+    },
+    "normal distribution": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "mean": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "standard deviation": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "edit distance": {
+      "tag_set": [
+        "Clause Alignment",
+        "Definition"
+      ]
+    },
+    "inlineform3": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "inlineform4": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "inlineform5": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "inlineform6": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "displayform0": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "ancient Chinese": {
+      "tag_set": [
+        "Clause Alignment",
+        "Definition",
+        "Property"
+      ]
+    },
+    "modern Chinese": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "1.7K bilingual articles": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "1000BC-200BC": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "celebrities": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "35K aligned paragraphs": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "517K aligned clauses": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "data augmentation": {
+      "tag_set": [
+        "Clause Alignment",
+        "Method",
+        "Process"
+      ]
+    },
+    "clause pair": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "interpolation factors": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "1-0 alignment": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "0-1 alignment": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "1-1 alignment": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "1-2 alignment": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "2-1 alignment": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "2-2 alignment": {
+      "tag_set": [
+        "Clause Alignment"
+      ]
+    },
+    "sample pair": {
+      "tag_set": [
+        "Sample Pair Example"
+      ]
+    },
+    "example": {
+      "tag_set": [
+        "Sample Pair Example"
+      ]
+    },
+    "suppose": {
+      "tag_set": [
+        "Sample Pair Example"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "hidden state sequence": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "g": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "attended context vector": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "c": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "word embedding": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "i-1": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "encoder hidden states": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "probability distribution": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "RNN-based NMT model": {
+      "tag_set": [
+        "Definition",
+        "NMT vs SMT Translation",
+        "Performance",
+        "Transformer-NMT Model"
+      ]
+    },
+    "Transformer model": {
+      "tag_set": [
+        "Definition",
+        "Transformer-NMT Model"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "NMT vs SMT Translation",
+        "Transformer-NMT Model"
+      ]
+    },
+    "multi-head self-attention": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "query": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "keys": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "values": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "dimension": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "position-wise fully connected feed-forward network": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "encoder stack": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "decoder stack": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "multi-head attention": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "encoder output": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "clause alignment": {
+      "tag_set": [
+        "Process",
+        "Transformer-NMT Model"
+      ]
+    },
+    "bilingual clauses": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "37 articles": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "4K aligned clauses": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "2K clauses": {
+      "tag_set": [
+        "Transformer-NMT Model"
+      ]
+    },
+    "F1-score": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Result",
+        "Transformer-NMT Model"
+      ]
+    },
+    "precision score": {
+      "tag_set": [
+        "Definition",
+        "Evaluation Metrics",
+        "Transformer-NMT Model"
+      ]
+    },
+    "bilingual clause pairs": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "ground truth": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "recall score": {
+      "tag_set": [
+        "Definition",
+        "Evaluation Metrics"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Relationship"
+      ]
+    },
+    "LCS approach": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "hyper-parameters": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "grid search": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Method"
+      ]
+    },
+    "TABREF26": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "TABREF28": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "statistical information score": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Property"
+      ]
+    },
+    "edit distance score": {
+      "tag_set": [
+        "Definition",
+        "Evaluation Metrics"
+      ]
+    },
+    "dictionary term": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Property"
+      ]
+    },
+    "Jieba Chinese text segmentation": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Method"
+      ]
+    },
+    "SMT": {
+      "tag_set": [
+        "Ancient Chinese Translation",
+        "Evaluation Metrics"
+      ]
+    },
+    "Q2": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Question"
+      ]
+    },
+    "unaugmented dataset": {
+      "tag_set": [
+        "NMT Model Training",
+        "Property"
+      ]
+    },
+    "augmented dataset": {
+      "tag_set": [
+        "NMT Model Training",
+        "Property"
+      ]
+    },
+    "0.46M training pairs": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "Moses toolkit": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "KenLM": {
+      "tag_set": [
+        "Definition",
+        "NMT Model Training"
+      ]
+    },
+    "GIZA++": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "RNN-based NMT": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "2-layer RNN": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "1024 LSTM cells": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "bi-directional RNN": {
+      "tag_set": [
+        "Definition",
+        "NMT Model Training"
+      ]
+    },
+    "batch size 128": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "gradient clipping threshold 5.0": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "learning rate 0.001": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "4-layer RNN": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "layer-normalization": {
+      "tag_set": [
+        "NMT Model Training",
+        "Technique"
+      ]
+    },
+    "RNN-dropout": {
+      "tag_set": [
+        "NMT Model Training",
+        "Technique"
+      ]
+    },
+    "learning rate decay": {
+      "tag_set": [
+        "NMT Model Training",
+        "Technique"
+      ]
+    },
+    "target language reversal": {
+      "tag_set": [
+        "NMT Model Training",
+        "Result",
+        "Technique"
+      ]
+    },
+    "residual connection": {
+      "tag_set": [
+        "NMT Model Training",
+        "Result",
+        "Technique"
+      ]
+    },
+    "pre-trained word2vec": {
+      "tag_set": [
+        "NMT Model Training",
+        "Technique"
+      ]
+    },
+    "134M tokens": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "Transformer-NMT": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "Table TABREF32": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "Table TABREF34": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "BLEU": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "brevity penalty": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "multi-bleu.perl": {
+      "tag_set": [
+        "NMT Model Training"
+      ]
+    },
+    "Transformer-based NMT model": {
+      "tag_set": [
+        "NMT vs SMT Translation",
+        "Performance"
+      ]
+    },
+    "SMT model": {
+      "tag_set": [
+        "Definition",
+        "NMT vs SMT Translation"
+      ]
+    },
+    "augmented data": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "unaugmented data": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "48K test pairs": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "BLEU scores": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "human perspective": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "auxiliary words": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "conjunctions": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "function words": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "average length": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "Zhen": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "Chen": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "Gua": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "proper nouns": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "personal pronouns": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "place names": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "ancient-specific appellations": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "Reference:16.47": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "TABREF35": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "FIGREF36": {
+      "tag_set": [
+        "NMT vs SMT Translation"
+      ]
+    },
+    "NMT": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "Transformer": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "1.24M": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "bilingual sentence pairs": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "large scale parallel corpus": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "first large high-quality ancient-modern Chinese dataset": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "27.16 BLEU score": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "4-gram": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "proper noun translation": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "statistical translation": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "neural machine translation": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "Grant No. 61625204": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "Grant Nos. 61836006": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "Grant Nos. 61432014": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "National Natural Science Fund for Distinguished Young Scholar": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "State Key Program of National Science Foundation of China": {
+      "tag_set": [
+        "Ancient Chinese Translation"
+      ]
+    },
+    "neural machine translation (NMT)": {
+      "tag_set": [
+        "Comparison",
+        "Definition"
+      ]
+    },
+    "ancient-modern Chinese translation": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "bilingual text alignment": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "lexical-based approaches": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "statistical-based approaches": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ancient-modern Chinese": {
+      "tag_set": [
+        "Difference"
+      ]
+    },
+    "ancient-modern Chinese text alignment method": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "longest common subsequence based approach": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "proposed alignment approach": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "ancient-modern Chinese dataset": {
+      "tag_set": [
+        "Data Collection",
+        "Definition"
+      ]
+    },
+    "SMT and NMT models": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "clause alignment step": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "1-0, 0-1, 1-1, 1-2, 2-1, 2-2 alignment modes": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "probability Pr(n-m)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "length correlation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "IDF score": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "normalization parameter": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "DISPLAYFORM0": {
+      "tag_set": [
+        "Formula"
+      ]
+    },
+    "recurrence relation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "1-0, 0-1, 1-1, 1-2, 2-1, 2-2": {
+      "tag_set": [
+        "Alignment Modes"
+      ]
+    },
+    "ancient Chinese history records": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "celebrity articles": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "plain and accurate words": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "paragraph alignment": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "35K aligned bilingual paragraphs": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sentence alignment": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "merged adjacent clause pairs": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "attention mechanism": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "GRU cell": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "LSTM cell": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "training set": {
+      "tag_set": [
+        "Size"
+      ]
+    },
+    "split ratios": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "augmented datasets": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "filtering criteria": {
+      "tag_set": [
+        "Condition"
+      ]
+    },
+    "Table TABREF17": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "Figure FIGREF14": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "INLINEFORM1-th hidden state of decoder": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "attended context vector c": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "probability distribution vector of the next word": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "multi-head self-attention mechanism": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "encoder layer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "decoder layer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "clause alignment algorithm": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "evaluation metrics": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Q1": {
+      "tag_set": [
+        "Question"
+      ]
+    },
+    "proposed method": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Test set results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "best setting": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "gradient clipping threshold": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "initial learning rate": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "RNN-based NMT on augmented dataset": {
+      "tag_set": [
+        "Configuration"
+      ]
+    },
+    "ancient corpus": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Transformer-NMT model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "evaluation metric": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "word2vec": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "SMT performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "SMT on augmented dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Data augmentation": {
+      "tag_set": [
+        "Effect"
+      ]
+    },
+    "SMT translation": {
+      "tag_set": [
+        "Deficiency"
+      ]
+    },
+    "Average translation length": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Transformer translation": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "Proper noun translation": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "Translation accuracy of 'Zhen'": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Ancient-modern Chinese clause alignment method": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Parallel corpus": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Ancient-modern Chinese dataset": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "NMT baseline": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "Future work": {
+      "tag_set": [
+        "Plan"
+      ]
+    },
+    "Funding": {
+      "tag_set": [
+        "Support"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nAncient Chinese is the writing language in ancient China. It is a treasure of Chinese culture which brings together the wisdom and ideas of the Chinese nation and chronicles the ancient cultural heritage of China. Learning ancient Chinese not only helps people to understand and inherit the wisdom of the ancients, but also promotes people to absorb and develop Chinese culture.\nHowever, it is difficult for modern people to read ancient Chinese. Firstly, compared with modern Chinese, ancient Chinese is more concise and shorter. The grammatical order of modern Chinese is also quite different from that of ancient Chinese. Secondly, most modern Chinese words are double syllables, while the most of the ancient Chinese words are monosyllabic. Thirdly, there is more than one polysemous phenomenon in ancient Chinese. In addition, manual translation has a high cost. Therefore, it is meaningful and useful to study the automatic translation from ancient Chinese to modern Chinese. Through ancient-modern Chinese translation, the wisdom, talent and accumulated experience of the predecessors can be passed on to more people.\nNeural machine translation (NMT) BIBREF0 , BIBREF1 , BIBREF2 , BIBREF3 , BIBREF4 has achieved remarkable performance on many bilingual translation tasks. It is an end-to-end learning approach for machine translation, with the potential to show great advantages over the statistic machine translation (SMT) systems. However, NMT approach has not been widely applied to the ancient-modern Chinese translation task. One of the main reasons is the limited high-quality parallel data resource.\nThe most popular method of acquiring translation examples is bilingual text alignment BIBREF5 . This kind of method can be classified into two types: lexical-based and statistical-based. The lexical-based approaches BIBREF6 , BIBREF7 focus on lexical information, which utilize the bilingual dictionary BIBREF8 , BIBREF9 or lexical features. Meanwhile, the statistical-based approaches BIBREF10 , BIBREF11 rely on statistical information, such as sentence length ratio in two languages and align mode probability.\nHowever, these methods are designed for other bilingual language pairs that are written in different language characters (e.g. English-French, Chinese-Japanese). The ancient-modern Chinese has some characteristics that are quite different from other language pairs. For example, ancient and modern Chinese are both written in Chinese characters, but ancient Chinese is highly concise and its syntactical structure is different from modern Chinese.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Ancient to Modern Chinese Translation"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "The traditional methods do not take these characteristics into account. In this",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Traditional Methods Limitation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "paper, we propose an effective ancient-modern Chinese text alignment method at the level of clause based on the characteristics of these two languages. The proposed method combines both lexical-based information and statistical-based information, which achieves 94.2 F1-score on Test set. Recently, a simple longest common subsequence based approach for ancient-modern Chinese sentence alignment is proposed in BIBREF12 . Our experiments showed that our proposed alignment approach performs much better than their method. We apply the proposed method to create a large translation parallel corpus which contains INLINEFORM0 1.24M bilingual sentence pairs. To our best knowledge, this is the first large high-quality ancient-modern Chinese dataset. Furthermore, we test SMT models and various NMT models on the created dataset and provide a strong baseline for this task. Overview There are four steps to build the ancient-modern Chinese translation dataset: (i) The parallel corpus crawling and cleaning. (ii) The paragraph alignment. (iii) The clause alignment based on aligned paragraphs. (iv) Augmenting data by merging aligned adjacent clauses. The most critical step is the third step. Clause Alignment In the clause alignment step, we combine both statistical-based and lexical-based information to measure the score for each possible clause alignment between ancient and modern Chinese strings. The dynamic programming is employed to further find overall optimal alignment paragraph by paragraph. According to the characteristics of the ancient and modern Chinese languages, we consider the following factors to measure the alignment score INLINEFORM0 between a bilingual clause pair: Lexical Matching. The lexical matching score is used to calculate the matching coverage of the ancient clause INLINEFORM0 . It contains two parts: exact matching and dictionary matching. An ancient Chinese character usually corresponds to one or more modern Chinese words. In the first part, we carry out Chinese Word segmentation to the modern Chinese clause INLINEFORM1 . Then we match the ancient characters and modern words in the order from left to right. In further matching, the words that have been matched will be deleted from the original clauses. However, some ancient characters do not appear in its corresponding modern Chinese words. An ancient Chinese dictionary is employed to address this issue. We preprocess the ancient Chinese dictionary and remove the stop words. In this dictionary matching step, we retrieve the dictionary definition of each unmatched ancient character and use it to match the remaining modern Chinese words. To reduce the impact of universal word matching, we",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Clause Alignment Method"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "use Inverse Document Frequency (IDF) to weight the matching words. The lexical matching score is calculated as: DISPLAYFORM0 The above equation is used to calculate the matching coverage of the ancient clause INLINEFORM0 . The first term of equation ( EQREF8 ) represents exact matching score. INLINEFORM1 denotes the length of INLINEFORM2 , INLINEFORM3 denotes each ancient character in INLINEFORM4 , and the indicator function INLINEFORM5 indicates whether the character INLINEFORM6 can match the words in the clause INLINEFORM7 . The second term is dictionary matching score. Here INLINEFORM8 and INLINEFORM9 represent the remaining unmatched strings of INLINEFORM10 and INLINEFORM11 , respectively. INLINEFORM12 denotes the INLINEFORM13 -th character in the dictionary definition of the INLINEFORM14 and its IDF score is denoted as INLINEFORM15 . The INLINEFORM16 is a predefined parameter which is used to normalize the IDF score. We tuned the value of this parameter on the Dev set. Statistical Information. Similar to BIBREF11 and BIBREF6 , the statistical information contains alignment mode and length information. There are many alignment modes between ancient and modern Chinese languages. If one ancient Chinese clause aligns two adjacent modern Chinese clauses, we call this alignment as 1-2 alignment mode. We show some examples of different alignment modes in Figure FIGREF9 . In this paper, we only consider 1-0, 0-1, 1-1, 1-2, 2-1 and 2-2 alignment modes which account for INLINEFORM0 of the Dev set. We estimate the probability Pr INLINEFORM1 n-m INLINEFORM2 of each alignment mode n-m on the Dev set. To utilize length information, we make an investigation on length correlation between these two languages. Based on the assumption of BIBREF11 that each character in one language gives rise to a random number of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Alignment Mode Statistics"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "characters in",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Character List"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "the other language and those random variables INLINEFORM3 are independent and identically distributed with a normal distribution, we estimate the mean INLINEFORM4 and standard deviation INLINEFORM5 from the paragraph aligned parallel corpus. Given a clause pair INLINEFORM6 , the statistical information score can be calculated by: DISPLAYFORM0 where INLINEFORM0 denotes the normal distribution probability density function. Edit Distance. Because ancient and modern Chinese are both written in Chinese characters, we also consider using the edit distance. It is a way of quantifying the dissimilarity between two strings by counting the minimum number of operations (insertion, deletion, and substitution) required to transform one string into the other. Here we define the edit distance score as: DISPLAYFORM0 Dynamic Programming. The overall alignment score for each possible clause alignment is as follows: DISPLAYFORM0 Here INLINEFORM0 and INLINEFORM1 are pre-defined interpolation factors. We use dynamic programming to find the overall optimal alignment paragraph by paragraph. Let INLINEFORM2 be total alignment scores of aligning the first to INLINEFORM3 -th ancient Chinese clauses with the first to to INLINEFORM4 -th modern Chinese clauses, and the recurrence then can be described as follows: DISPLAYFORM0 Where INLINEFORM0 denotes concatenate clause INLINEFORM1 to clause INLINEFORM2 . As we discussed above, here we only consider 1-0, 0-1, 1-1, 1-2, 2-1 and 2-2 alignment modes. Ancient-Modern Chinese Dataset Data Collection. To build the large ancient-modern Chinese dataset, we collected 1.7K bilingual ancient-modern Chinese articles from the internet. More specifically, a large part of the ancient Chinese data we used come from ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that era. They used plain and accurate words to express what happened at that time, and thus ensure the generality of the translated materials. Paragraph Alignment. To further ensure the quality of the new dataset, the work of paragraph alignment is manually completed. After data cleaning and manual paragraph alignment, we obtained 35K aligned bilingual paragraphs. Clause Alignment. We applied our clause alignment algorithm on the 35K aligned bilingual paragraphs and obtained 517K aligned bilingual clauses. The reason we use clause alignment algorithm instead of sentence alignment is because we can construct more aligned sentences more flexibly and conveniently. To be specific, we can get multiple additional sentence level bilingual pairs by \u201cdata augmentation\u201d. Data Augmentation. We augmented the data in the following way: Given an aligned clause pair, we merged its adjacent clause pairs",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Clause Alignment"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "as a new sample pair. For example, suppose",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Sample Pair Example"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "we have three adjacent clause level bilingual pairs: ( INLINEFORM0 , INLINEFORM1 ), ( INLINEFORM2 , INLINEFORM3 ), and ( INLINEFORM4 , INLINEFORM5 ). We can get some additional sentence level bilingual pairs, such as: ( INLINEFORM6 , INLINEFORM7 ) and ( INLINEFORM8 , INLINEFORM9 ). Here INLINEFORM10 , INLINEFORM11 , and INLINEFORM12 are adjacent clauses in the original paragraph, and INLINEFORM13 denotes concatenate clause INLINEFORM14 to clause INLINEFORM15 . The advantage of using this data augmentation method is that compared with only using ( INLINEFORM16 , INLINEFORM17 ) as the training data, we can also use ( INLINEFORM18 , INLINEFORM19 ) and ( INLINEFORM20 , INLINEFORM21 ) as the training data, which can provide richer supervision information for the model and make the model learn the align information between the source language and the target language better. After the data augmentation, we filtered the sentences which are longer than 50 or contain more than four clause pairs. Dataset Creation. Finally, we split the dataset into three sets: training (Train), development (Dev) and testing (Test). Note that the unaugmented dataset contains 517K aligned bilingual clause pairs from 35K aligned bilingual paragraphs. To keep all the sentences in different sets come from different articles, we split the 35K aligned bilingual paragraphs into Train, Dev and Test sets following these ratios respectively: 80%, 10%, 10%. Before data augmentation, the unaugmented Train set contains INLINEFORM0 aligned bilingual clause pairs from 28K aligned bilingual paragraphs. Then we augmented the Train, Dev and Test sets respectively. Note that the augmented Train, Dev and Test sets also contain the unaugmented data. The statistical information of the three data sets is shown in Table TABREF17 . We show some examples of data in Figure FIGREF14 . RNN-based NMT model We first briefly introduce the RNN based Neural Machine Translation (RNN-based NMT) model. The RNN-based NMT with attention mechanism BIBREF0 has achieved remarkable performance on many translation tasks. It consists of encoder and decoder part. We firstly introduce the encoder part. The input word sequence of source language are individually mapped into a INLINEFORM0 -dimensional vector space INLINEFORM1 . Then a bi-directional RNN BIBREF15 with GRU BIBREF16 or LSTM BIBREF17 cell converts these vectors into a sequences of hidden states INLINEFORM2 . For the decoder part, another RNN is used to generate target sequence INLINEFORM0 . The attention mechanism BIBREF0 , BIBREF18 is employed to allow the decoder",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "to refer back to the hidden state sequence and focus on a particular segment. The INLINEFORM1 -th hidden state INLINEFORM2 of decoder part is calculated as: DISPLAYFORM0 Here g INLINEFORM0 is a linear combination of attended context vector c INLINEFORM1 and INLINEFORM2 is the word embedding of (i-1)-th target word: DISPLAYFORM0 The attended context vector c INLINEFORM0 is computed as a weighted sum of the hidden states of the encoder: DISPLAYFORM0 The probability distribution vector of the next word INLINEFORM0 is generated according to the following: DISPLAYFORM0 We take this model as the basic RNN-based NMT model in the following experiments. Transformer-NMT Recently, the Transformer model BIBREF4 has made remarkable progress in machine translation. This model contains a multi-head self-attention encoder and a multi-head self-attention decoder. As proposed by BIBREF4 , an attention function maps a query and a set of key-value pairs to an output, where the queries INLINEFORM0 , keys INLINEFORM1 , and values INLINEFORM2 are all vectors. The input consists of queries and keys of dimension INLINEFORM3 , and values of dimension INLINEFORM4 . The attention function is given by: DISPLAYFORM0 Multi-head attention mechanism projects queries, keys and values to INLINEFORM0 different representation subspaces and calculates corresponding attention. The attention function outputs are concatenated and projected again before giving the final output. Multi-head attention allows the model to attend to multiple features at different positions. The encoder is composed of a stack of INLINEFORM0 identical layers. Each layer has two sub-layers: multi-head self-attention mechanism and position-wise fully connected feed-forward network. Similarly, the decoder is also composed of a stack of INLINEFORM1 identical layers. In addition to the two sub-layers in each encoder layer, the decoder contains a third sub-layer which performs multi-head attention over the output of the encoder stack (see more details in BIBREF4 ). Experiments Our experiments revolve around the following questions: Q1: As we consider three factors for clause alignment, do all these factors help? How does our method compare with previous methods? Q2: How does the NMT and SMT models perform on this new dataset we build? Clause Alignment Results (Q1) In order to evaluate our clause alignment algorithm, we manually aligned bilingual clauses from 37 bilingual ancient-modern Chinese articles, and finally got 4K aligned bilingual clauses as the Test set and 2K clauses as the Dev set. Metrics. We used F1-score and precision score as the evaluation metrics. Suppose that we get",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Transformer-NMT Model"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "INLINEFORM0 bilingual clause pairs after running the algorithm on the Test set, and there are INLINEFORM1 bilingual clause pairs of these INLINEFORM2 pairs are in the ground truth of the Test set, the precision score is defined as INLINEFORM3 (the algorithm gives INLINEFORM4 outputs, INLINEFORM5 of which are correct). And suppose that the ground truth of the Test set contains INLINEFORM6 bilingual clause pairs, the recall score is INLINEFORM7 (there are INLINEFORM8 ground truth samples, INLINEFORM9 of which are output by the algorithm), then the F1-score is INLINEFORM10 . Baselines. Since the related work BIBREF10 , BIBREF11 can be seen as the ablation cases of our method (only statistical score INLINEFORM0 with dynamic programming), we compared the full proposed method with its variants on the Test set for ablation study. In addition, we also compared our method with the longest common subsequence (LCS) based approach proposed by BIBREF12 . To the best of our knowledge, BIBREF12 is the latest related work which are designed for Ancient-Modern Chinese alignment. Hyper-parameters. For the proposed method, we estimated INLINEFORM0 and INLINEFORM1 on all aligned paragraphs. The probability Pr INLINEFORM2 n-m INLINEFORM3 of each alignment mode n-m was estimated on the Dev set. For the hyper-parameters INLINEFORM4 , INLINEFORM5 and INLINEFORM6 , the grid search was applied to tune them on the Dev set. In order to show the effect of hyper-parameters INLINEFORM7 , INLINEFORM8 , and INLINEFORM9 , we reported the results of various hyper-parameters on the Dev set in Table TABREF26 . Based on the results of grid search on the Dev set, we set INLINEFORM10 , INLINEFORM11 , and INLINEFORM12 in the following experiment. The Jieba Chinese text segmentation is employed for modern Chinese word segmentation. Results. The results on the Test set are shown in Table TABREF28 , the abbreviation w/o means removing a particular part from the setting. From the results, we can see that the lexical matching score is the most important among these three factors, and statistical information score is more important than edit distance score. Moreover, the dictionary term in lexical matching score significantly improves the performance. From these results, we obtain the best setting that involves all these three factors. We used this setting for dataset creation. Furthermore, the proposed method performs much better than LCS BIBREF12 . Translation Results (Q2) In this experiment, we analyzed and compared the performance of the SMT and various",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Evaluation Metrics"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "NMT models on our built dataset. To verify the effectiveness of our data augmented method. We trained the NMT and SMT models on both unaugmented dataset (including 0.46M training pairs) and augmented dataset, and test all the models on the same Test set which is augmented. The models to be tested and their configurations are as follows: SMT. The state-of-art Moses toolkit BIBREF19 was used to train SMT model. We used KenLM BIBREF20 to train a 5-gram language model, and the GIZA++ toolkit to align the data. RNN-based NMT. The basic RNN-based NMT model is based on BIBREF0 which is introduced above. Both the encoder and decoder used 2-layer RNN with 1024 LSTM cells, and the encoder is a bi-directional RNN. The batch size, threshold of element-wise gradient clipping and initial learning rate of Adam optimizer BIBREF21 were set to 128, 5.0 and 0.001. When trained the model on augmented dataset, we used 4-layer RNN. Several techniques were investigated to train the model, including layer-normalization BIBREF22 , RNN-dropout BIBREF23 , and learning rate decay BIBREF1 . The hyper-parameters were chosen empirically and adjusted in the Dev set. Furthermore, we tested the basic NMT model with several techniques, such as target language reversal BIBREF24 (reversing the order of the words in all target sentences, but not source sentences), residual connection BIBREF25 and pre-trained word2vec BIBREF26 . For word embedding pre-training, we collected an external ancient corpus which contains INLINEFORM0 134M tokens. Transformer-NMT. We also trained the Transformer model BIBREF4 which is a strong baseline of NMT on both augmented and unaugmented parallel corpus. The training configuration of the Transformer model is shown in Table TABREF32 . The hyper-parameters are set based on the settings in the paper BIBREF4 and the sizes of our training sets. For the evaluation, we used the average of 1 to 4 gram BLEUs multiplied by a brevity penalty BIBREF27 which computed by multi-bleu.perl in Moses as metrics. The results are reported in Table TABREF34 . For RNN-based NMT, we can see that target language reversal, residual connection, and word2vec can further improve the performance of the basic RNN-based NMT model. However, we find that word2vec and reversal tricks seem no obvious improvement when trained the RNN-based NMT and Transformer models on augmented parallel corpus. For SMT, it performs better than NMT models when they were trained on the unaugmented dataset. Nevertheless, when trained on the augmented",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NMT Model Training"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "dataset, both the RNN-based NMT model and Transformer based NMT model outperform the SMT model. In addition, as with other translation tasks BIBREF4 , the Transformer also performs better than RNN-based NMT. Because the Test set contains both augmented and unaugmented data, it is not surprising that the RNN-based NMT model and Transformer based NMT model trained on unaugmented data would perform poorly. In order to further verify the effect of data augmentation, we report the test results of the models on only unaugmented test data (including 48K test pairs) in Table TABREF35 . From the results, it can be seen that the data augmentation can still improve the models. Analysis The generated samples of various models are shown in Figure FIGREF36 . Besides BLEU scores, we analyze these examples from a human perspective and draw some conclusions. At the same time, we design different metrics and evaluate on the whole Test set to support our conclusions as follows: On the one hand, we further compare the translation results from the perspective of people. We find that although the original meaning can be basically translated by SMT, its translation results are less smooth when compared with the other two NMT models (RNN-based NMT and Transformer). For example, the translations of SMT are usually lack of auxiliary words, conjunctions and function words, which is not consistent with human translation habits. To further confirm this conclusion, the average length of the translation results of the three models are measured (RNN-based NMT:17.12, SMT:15.50, Transformer:16.78, Reference:16.47). We can see that the average length of the SMT outputs is shortest, and the length gaps between the SMT outputs and the references are largest. Meanwhile, the average length of the sentences translated by Transformer is closest to the average length of references. These results indirectly verify our point of view, and show that the NMT models perform better than SMT in this task. On the other hand, there still exists some problems to be solved. We observe that translating proper nouns and personal pronouns (such as names, place names and ancient-specific appellations) is very difficult for all of these models. For instance, the ancient Chinese appellation `Zhen' should be translated into `Wo' in modern Chinese. Unfortunately, we calculate the accurate rate of some special words (such as `Zhen',`Chen' and `Gua'), and find that this rate is very low (the accurate rate of translating `Zhen' are: RNN-based",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NMT vs SMT Translation"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "NMT:0.14, SMT:0.16, Transformer:0.05). We will focus on this issue in the future. Conclusion and Future Work We propose an effective ancient-modern Chinese clause alignment method which achieves 94.2 F1-score on Test set. Based on it, we build a large scale parallel corpus which contains INLINEFORM0 1.24M bilingual sentence pairs. To our best knowledge, this is the first large high-quality ancient-modern Chinese dataset. In addition, we test the performance of the SMT and various NMT models on our built dataset and provide a strong NMT baseline for this task which achieves 27.16 BLEU score (4-gram). We further analyze the performance of the SMT and various NMT models and summarize some specific problems that machine translation models will encounter when translating ancient Chinese. For the future work, firstly, we are going to expand the dataset using the proposed method continually. Secondly, we will focus on solving the problem of proper noun translation and improve the translation system according to the features of ancient Chinese translation. Finally, we plan to introduce some techniques of statistical translation into neural machine translation to improve the performance. This work is supported by National Natural Science Fund for Distinguished Young Scholar (Grant No. 61625204) and partially supported by the State Key Program of National Science Foundation of China (Grant Nos. 61836006 and 61432014).",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Ancient Chinese Translation"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Ancient Chinese is the writing language used in ancient China, serving as a treasure of Chinese culture that preserves the wisdom and ideas of the Chinese nation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Ancient Chinese is more concise and shorter compared to modern Chinese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Ancient Chinese has a different grammatical order from modern Chinese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Most ancient Chinese words are monosyllabic, while most modern Chinese words are double syllabic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Ancient Chinese exhibits a high degree of polysemy, with many words having multiple meanings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Neural machine translation is an end-to-end learning approach for machine translation that has shown remarkable performance in various bilingual translation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "NMT has greater potential than statistic machine translation (SMT) systems in machine translation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "NMT has not been widely applied to ancient-modern Chinese translation due to the lack of high-quality parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Bilingual text alignment is a method used to acquire translation examples by matching corresponding segments in two languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Lexical-based approaches for bilingual alignment use bilingual dictionaries or lexical features to identify word-level correspondences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Statistical-based approaches for bilingual alignment rely on statistical information such as sentence length ratios and alignment mode probabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Ancient and modern Chinese are both written in Chinese characters, but ancient Chinese is highly concise and has a different syntactic structure from modern Chinese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Difference"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Traditional methods for bilingual alignment do not account for the unique characteristics of ancient-modern Chinese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "An effective clause-level alignment method for ancient and modern Chinese texts that combines lexical and statistical information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The proposed alignment method achieves a 94.2 F1-score on the test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "A simple longest common subsequence-based method for ancient-modern Chinese sentence alignment was recently proposed in BIBREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The proposed alignment method outperforms the longest common subsequence-based approach in experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "A large translation parallel corpus containing 1.24 million bilingual sentence pairs is created using the proposed alignment method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The created dataset is the first large-scale, high-quality ancient-modern Chinese dataset to our knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "SMT and various NMT models are tested on the created dataset to establish a strong baseline for the task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The clause alignment step involves combining statistical and lexical information to compute alignment scores between ancient and modern Chinese clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The lexical matching score measures the coverage of ancient clause matches with modern Chinese words through exact and dictionary-based matching.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Exact matching involves segmenting modern Chinese clauses and matching ancient characters to modern words in left-to-right order, with matched words removed from the original clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Dictionary matching retrieves definitions of unmatched ancient characters and uses them to match remaining modern Chinese words, after preprocessing the ancient dictionary to remove stop words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Dynamic programming is used to find the optimal paragraph-level alignment after computing clause-level scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Aligned adjacent clauses are merged to augment the dataset during the data creation process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "IDF is used to weight matching words in lexical matching score calculation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The lexical matching score is calculated using the equation that includes an exact matching score and a dictionary matching score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The first term in equation (EQREF8) represents the exact matching score between characters in an ancient clause and modern clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "An alignment mode refers to how an ancient Chinese clause aligns with one or more modern Chinese clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "A 1-2 alignment mode occurs when one ancient Chinese clause aligns with two adjacent modern Chinese clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The paper only considers these six alignment modes, which account for a significant portion of the Dev set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The probability of each alignment mode n-m is estimated on the Dev set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Length correlation refers to the relationship between the length of characters in ancient and modern Chinese texts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The second term in the lexical matching score equation represents the dictionary matching score based on unmatched strings and IDF-weighted dictionary character definitions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The IDF score of a character in a dictionary definition is used to weight its contribution to the dictionary matching score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "A predefined parameter is used to normalize the IDF score in the dictionary matching score calculation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The value of the normalization parameter is tuned on the Dev set to optimize performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "BIBREF11 provides the assumption that each character in one language generates a random number of characters in the other language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The random variables INLINEFORM3 are independent and identically distributed with a normal distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The mean INLINEFORM4 is estimated from the paragraph-aligned parallel corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The standard deviation INLINEFORM5 is estimated from the paragraph-aligned parallel corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "A clause pair INLINEFORM6 is used to calculate the statistical information score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The statistical information score is calculated using the normal distribution probability density function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Edit distance is a measure of dissimilarity between two strings by counting the minimum number of operations (insertion, deletion, substitution) required to transform one string into the other.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The edit distance score is defined as the minimum number of operations required to transform one string into another.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Dynamic programming is used to find the overall optimal alignment paragraph by paragraph.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "INLINEFORM2 denotes the total alignment scores of aligning the first to INLINEFORM3-th ancient Chinese clauses with the first to INLINEFORM4-th modern Chinese clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The recurrence relation for alignment scores is defined as the sum of alignment scores from previous steps with concatenation of clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Only the alignment modes 1-0, 0-1, 1-1, 1-2, 2-1, and 2-2 are considered in the alignment process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Alignment Modes"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "A large ancient-modern Chinese dataset consisting of 1.7K bilingual articles is collected from the internet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Collection"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "A significant portion of the ancient Chinese data comes from history records of dynasties between 1000BC and 200BC.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Ancient Chinese articles by celebrities from that era are also part of the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Ancient Chinese texts use plain and accurate language to ensure the generality of translated materials.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Paragraph alignment is manually completed to ensure the quality of the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "After data cleaning and manual alignment, 35K aligned bilingual paragraphs are obtained.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Clause alignment is applied to the 35K aligned bilingual paragraphs to obtain 517K aligned bilingual clauses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Clause alignment is preferred over sentence alignment because it allows more flexible and convenient construction of aligned sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Data augmentation is performed by merging adjacent clause pairs into new sample pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Given an aligned clause pair, adjacent clause pairs are merged to generate new sample pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "INLINEFORM0 refers to a bilingual clause pair in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The input word sequence of the source language is mapped into an INLINEFORM0-dimensional vector space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "A bi-directional RNN with GRU or LSTM cell converts the input vectors into a sequence of hidden states called INLINEFORM2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The RNN-based Neural Machine Translation model consists of an encoder and a decoder part with an attention mechanism.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The attention mechanism allows the decoder to focus on relevant parts of the source sequence during translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The encoder maps source language word sequences into a vector space and processes them through a bi-directional RNN to produce hidden states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The decoder generates the target sequence using another RNN.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "A bi-directional RNN processes input sequences in both forward and backward directions to capture contextual information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "A GRU cell is used as a type of cell in the bi-directional RNN of the encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "An LSTM cell is used as an alternative cell type in the bi-directional RNN of the encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The unaugmented dataset contains 517K aligned bilingual clause pairs from 35K aligned bilingual paragraphs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Data augmentation generates additional sentence-level bilingual pairs from adjacent clause-level pairs to enrich training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The unaugmented training set initially contains INLINEFORM0 aligned bilingual clause pairs from 28K aligned bilingual paragraphs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Size"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The 35K aligned bilingual paragraphs are split into training, development, and testing sets in the ratio of 80%, 10%, and 10% respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The augmented training, development, and testing sets include both the original unaugmented data and newly generated augmented pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Sentences longer than 50 tokens or containing more than four clause pairs are filtered out during data processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Condition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Table TABREF17 shows the statistical information of the three datasets: training, development, and testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Figure FIGREF14 provides examples of the data in the augmented bilingual dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The INLINEFORM1-th hidden state of the decoder is calculated as a linear combination of the attended context vector and the word embedding of the (i-1)-th target word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The attended context vector c is computed as a weighted sum of the hidden states of the encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The probability distribution vector of the next word is generated based on the attention function and the current hidden state.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The Transformer model is a machine translation model that uses multi-head self-attention mechanisms in both encoder and decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The multi-head self-attention mechanism projects queries, keys, and values into different subspaces and computes attention across multiple positions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Each encoder layer consists of two sub-layers: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Each decoder layer consists of two sub-layers from the encoder and an additional third sub-layer that performs multi-head attention over the encoder's output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The clause alignment algorithm was manually applied to 37 bilingual ancient-modern Chinese articles, resulting in 4K aligned clauses for testing and 2K for development.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "F1-score and precision score are used as evaluation metrics for the clause alignment algorithm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The first experimental question investigates whether all three factors in clause alignment are helpful and how the method compares to previous approaches.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Question"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The second experimental question evaluates the performance of NMT and SMT models on a newly built dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Question"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The precision score is defined as the ratio of correct outputs to the total outputs generated by the algorithm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The recall score is defined as the ratio of ground truth samples that are output by the algorithm to the total number of ground truth samples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "BIBREF10 can be seen as an ablation case of the proposed method, using only statistical score with dynamic programming.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "BIBREF11 is another ablation case of the proposed method, focusing on statistical score with dynamic programming.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "BIBREF12 proposes a longest common subsequence (LCS)-based approach for Ancient-Modern Chinese alignment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The lexical matching score is the most important factor among the three considered factors in the method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The statistical information score is more important than the edit distance score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The inclusion of a dictionary term in the lexical matching score significantly improves performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Grid search was applied to tune hyper-parameters INLINEFORM4, INLINEFORM5, and INLINEFORM6 on the Dev set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Jieba Chinese text segmentation is employed for modern Chinese word segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The proposed method performs much better than the LCS-based approach by BIBREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The results on the Test set are shown in Table TABREF28, with 'w/o' indicating removal of a particular component from the setting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The best setting involves all three factors: lexical matching, statistical information, and edit distance scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "NMT models are neural machine translation models trained on both unaugmented and augmented datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The augmented dataset includes 0.46M training pairs and is used to train both NMT and SMT models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The SMT model is trained using the state-of-the-art Moses toolkit and employs GIZA++ for data alignment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "KenLM is used to train a 5-gram language model for the SMT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The RNN-based NMT model uses a 2-layer RNN with 1024 LSTM cells in both encoder and decoder, with the encoder being bi-directional.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The batch size for the RNN-based NMT model is set to 128.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The threshold for element-wise gradient clipping in the RNN-based NMT model is 5.0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The initial learning rate of the Adam optimizer for the RNN-based NMT model is 0.001.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "When trained on the augmented dataset, the RNN-based NMT model uses a 4-layer RNN.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Configuration"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Layer-normalization is one of the techniques investigated to improve the RNN-based NMT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Technique"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "RNN-dropout is one of the techniques investigated to train the RNN-based NMT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Technique"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Learning rate decay is one of the techniques used to train the RNN-based NMT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Technique"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Target language reversal involves reversing the order of words in target sentences but not source sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Technique"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Residual connection is one of the techniques tested in the RNN-based NMT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Technique"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Pre-trained word2vec is used to enhance the RNN-based NMT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Technique"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "An external ancient corpus containing 134M tokens is used for word embedding pre-training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "The Transformer-NMT model is a strong baseline for NMT trained on both augmented and unaugmented parallel corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "The evaluation metric used is the average of 1 to 4-gram BLEUs multiplied by a brevity penalty computed by multi-bleu.perl in Moses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "Target language reversal improves the performance of the basic RNN-based NMT model but shows no obvious improvement when trained on the augmented parallel corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "Residual connection improves the performance of the basic RNN-based NMT model but shows no significant improvement on the augmented parallel corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "Word2vec shows no obvious improvement in performance when trained on the augmented parallel corpus for both RNN-based NMT and Transformer models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "SMT performs better than NMT models when trained on the unaugmented dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "SMT's performance on the augmented dataset is not explicitly stated, but it is implied to be less effective than on the unaugmented dataset compared to NMT models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The RNN-based NMT model outperforms the SMT model in translation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "The Transformer-based NMT model outperforms both the SMT model and the RNN-based NMT model in translation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "The Test set contains both augmented and unaugmented data pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "Data augmentation improves the performance of both RNN-based and Transformer-based NMT models even when trained on unaugmented data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "SMT translations lack auxiliary words, conjunctions, and function words, which are inconsistent with human translation habits.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Deficiency"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The average length of SMT translations (15.50) is shorter than that of RNN-based NMT (17.12) and Transformer (16.78), with the largest gap from the reference (16.47).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "The Transformer model produces translations with average length closest to the reference, indicating smoother and more natural output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "All models struggle with translating proper nouns and personal pronouns, such as ancient Chinese appellations like 'Zhen'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "The translation accuracy of 'Zhen' is 0.14 for RNN-based NMT, 0.16 for SMT, and 0.05 for Transformer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "An effective method for aligning ancient and modern Chinese clauses is proposed, achieving a 94.2 F1-score on the Test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "A large-scale parallel corpus containing 1.24 million bilingual sentence pairs is built based on the alignment method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "This is the first large, high-quality ancient-modern Chinese dataset to be publicly available.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "The proposed NMT baseline achieves a 27.16 BLEU score (4-gram) on the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "The future work includes expanding the dataset, improving proper noun translation, and integrating statistical translation techniques into neural machine translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "This work is supported by National Natural Science Fund for Distinguished Young Scholar (Grant No. 61625204) and State Key Program of National Science Foundation of China (Grant Nos. 61836006 and 61432014).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Support"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0-1 alignment",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "0-1 alignment mode",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "0.46M training pairs",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "1-0 alignment",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "1-0 alignment mode",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "1-0, 0-1, 1-1, 1-2, 2-1, 2-2",
+      "Alignment Modes",
+      "s50"
+    ],
+    [
+      "1-0, 0-1, 1-1, 1-2, 2-1, 2-2 alignment modes",
+      "Property",
+      "s32"
+    ],
+    [
+      "1-1 alignment",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "1-1 alignment mode",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "1-2 alignment",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "1-2 alignment mode",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "1-2 alignment mode",
+      "Definition",
+      "s31"
+    ],
+    [
+      "1.24M",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "1.24M bilingual sentence pairs",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "1.7K bilingual articles",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "1000BC-200BC",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "1024 LSTM cells",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "134M tokens",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "2-1 alignment",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "2-1 alignment mode",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "2-2 alignment",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "2-2 alignment mode",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "2-layer RNN",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "27.16 BLEU score",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "2K clauses",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "35K aligned bilingual paragraphs",
+      "Result",
+      "s56"
+    ],
+    [
+      "35K aligned paragraphs",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "37 articles",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "4-gram",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "4-layer RNN",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "48K test pairs",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "4K aligned clauses",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "517K aligned clauses",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "94.2 F1-score",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "94.2 F1-score",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "Ancient Chinese",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Ancient-modern Chinese clause alignment method",
+      "Definition",
+      "s135"
+    ],
+    [
+      "Ancient-modern Chinese dataset",
+      "Claim",
+      "s137"
+    ],
+    [
+      "Average translation length",
+      "Result",
+      "s131"
+    ],
+    [
+      "BIBREF10",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "BIBREF10",
+      "Relationship",
+      "s92"
+    ],
+    [
+      "BIBREF11",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "BIBREF11",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "BIBREF11",
+      "Reference",
+      "s39"
+    ],
+    [
+      "BIBREF11",
+      "Relationship",
+      "s93"
+    ],
+    [
+      "BIBREF12",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "BIBREF12",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "BIBREF12",
+      "Relationship",
+      "s94"
+    ],
+    [
+      "BIBREF4",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "BIBREF4",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "BLEU",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "BLEU scores",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "Bilingual dictionary",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Bilingual text alignment",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Chen",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "Chinese characters",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Chinese word segmentation",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "DISPLAYFORM0",
+      "Formula",
+      "s44"
+    ],
+    [
+      "Data augmentation",
+      "Effect",
+      "s129"
+    ],
+    [
+      "Dev set",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "Dev set",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "Dev set",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "Dev set",
+      "Usage",
+      "s38"
+    ],
+    [
+      "Double syllables",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "F1-score",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "F1-score",
+      "Result",
+      "s15"
+    ],
+    [
+      "F1-score",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "FIGREF36",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "FIGREF9",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "Figure FIGREF14",
+      "Reference",
+      "s78"
+    ],
+    [
+      "Funding",
+      "Support",
+      "s140"
+    ],
+    [
+      "Future work",
+      "Plan",
+      "s139"
+    ],
+    [
+      "GIZA++",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "GRU cell",
+      "Component",
+      "s69"
+    ],
+    [
+      "Grammatical order",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Grant No. 61625204",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "Grant Nos. 61432014",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "Grant Nos. 61836006",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "Gua",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "IDF score",
+      "Property",
+      "s36"
+    ],
+    [
+      "INLINEFORM0",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM0",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "INLINEFORM0",
+      "Definition",
+      "s61"
+    ],
+    [
+      "INLINEFORM1",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM1",
+      "Property",
+      "s62"
+    ],
+    [
+      "INLINEFORM1",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "INLINEFORM1-th hidden state of decoder",
+      "Definition",
+      "s79"
+    ],
+    [
+      "INLINEFORM10",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM11",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM12",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM13",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM14",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM15",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM16",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM2",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM2",
+      "Definition",
+      "s48"
+    ],
+    [
+      "INLINEFORM2",
+      "Result",
+      "s63"
+    ],
+    [
+      "INLINEFORM2",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "INLINEFORM3",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM3",
+      "Property",
+      "s40"
+    ],
+    [
+      "INLINEFORM4",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM4",
+      "Definition",
+      "s41"
+    ],
+    [
+      "INLINEFORM5",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM5",
+      "Definition",
+      "s42"
+    ],
+    [
+      "INLINEFORM6",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM6",
+      "Entity",
+      "s43"
+    ],
+    [
+      "INLINEFORM7",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM8",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "INLINEFORM9",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "Inverse Document Frequency (IDF)",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "Inverse Document Frequency (IDF)",
+      "Definition",
+      "s27"
+    ],
+    [
+      "Jieba Chinese text segmentation",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "Jieba Chinese text segmentation",
+      "Method",
+      "s99"
+    ],
+    [
+      "KenLM",
+      "Definition",
+      "s106"
+    ],
+    [
+      "KenLM",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "LCS approach",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "LSTM cell",
+      "Component",
+      "s70"
+    ],
+    [
+      "Lexical-based approaches",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Modern Chinese",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Monosyllabic words",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Moses toolkit",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "NMT",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "NMT baseline",
+      "Performance",
+      "s138"
+    ],
+    [
+      "NMT models",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "NMT models",
+      "Definition",
+      "s103"
+    ],
+    [
+      "NMT models",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "National Natural Science Fund for Distinguished Young Scholar",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "Neural machine translation (NMT)",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Parallel corpus",
+      "Property",
+      "s136"
+    ],
+    [
+      "Parallel data resource",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Polysemous phenomenon",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Pr n-m",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "Proper noun translation",
+      "Problem",
+      "s133"
+    ],
+    [
+      "Q1",
+      "Question",
+      "s88"
+    ],
+    [
+      "Q2",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "Q2",
+      "Question",
+      "s89"
+    ],
+    [
+      "RNN-based NMT",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "RNN-based NMT model",
+      "Definition",
+      "s107"
+    ],
+    [
+      "RNN-based NMT model",
+      "Definition",
+      "s64"
+    ],
+    [
+      "RNN-based NMT model",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "RNN-based NMT model",
+      "Performance",
+      "s126"
+    ],
+    [
+      "RNN-based NMT model",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "RNN-based NMT on augmented dataset",
+      "Configuration",
+      "s111"
+    ],
+    [
+      "RNN-dropout",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "RNN-dropout",
+      "Technique",
+      "s113"
+    ],
+    [
+      "Reference:16.47",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "SMT",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "SMT",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "SMT and NMT models",
+      "Application",
+      "s20"
+    ],
+    [
+      "SMT model",
+      "Definition",
+      "s105"
+    ],
+    [
+      "SMT model",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "SMT models",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "SMT models",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "SMT on augmented dataset",
+      "Result",
+      "s125"
+    ],
+    [
+      "SMT performance",
+      "Result",
+      "s124"
+    ],
+    [
+      "SMT translation",
+      "Deficiency",
+      "s130"
+    ],
+    [
+      "State Key Program of National Science Foundation of China",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "Statistical machine translation (SMT)",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "Statistical-based approaches",
+      "Ancient to Modern Chinese Translation",
+      "e1"
+    ],
+    [
+      "TABREF26",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "TABREF28",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "TABREF35",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "Table TABREF17",
+      "Reference",
+      "s77"
+    ],
+    [
+      "Table TABREF32",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "Table TABREF34",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "Test set",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "Test set",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "Test set",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "Test set",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "Test set",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "Test set",
+      "Property",
+      "s128"
+    ],
+    [
+      "Test set",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "Test set results",
+      "Result",
+      "s101"
+    ],
+    [
+      "Transformer",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "Transformer model",
+      "Definition",
+      "s82"
+    ],
+    [
+      "Transformer model",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "Transformer translation",
+      "Performance",
+      "s132"
+    ],
+    [
+      "Transformer-NMT",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "Transformer-NMT model",
+      "Definition",
+      "s119"
+    ],
+    [
+      "Transformer-based NMT model",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "Transformer-based NMT model",
+      "Performance",
+      "s127"
+    ],
+    [
+      "Translation accuracy of 'Zhen'",
+      "Result",
+      "s134"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e8"
+    ],
+    [
+      "Zhen",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "alignment mode",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "alignment mode",
+      "Definition",
+      "s30"
+    ],
+    [
+      "ancient Chinese",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "ancient Chinese",
+      "Definition",
+      "s1"
+    ],
+    [
+      "ancient Chinese",
+      "Property",
+      "s2"
+    ],
+    [
+      "ancient Chinese",
+      "Property",
+      "s3"
+    ],
+    [
+      "ancient Chinese",
+      "Property",
+      "s4"
+    ],
+    [
+      "ancient Chinese",
+      "Property",
+      "s5"
+    ],
+    [
+      "ancient Chinese dictionary",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "ancient Chinese history records",
+      "Source",
+      "s52"
+    ],
+    [
+      "ancient corpus",
+      "Property",
+      "s118"
+    ],
+    [
+      "ancient-modern Chinese",
+      "Difference",
+      "s12"
+    ],
+    [
+      "ancient-modern Chinese dataset",
+      "Data Collection",
+      "s51"
+    ],
+    [
+      "ancient-modern Chinese dataset",
+      "Definition",
+      "s19"
+    ],
+    [
+      "ancient-modern Chinese text alignment",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "ancient-modern Chinese text alignment method",
+      "Definition",
+      "s14"
+    ],
+    [
+      "ancient-modern Chinese translation",
+      "Problem",
+      "s8"
+    ],
+    [
+      "ancient-specific appellations",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "attended context vector",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "attended context vector c",
+      "Definition",
+      "s80"
+    ],
+    [
+      "attention mechanism",
+      "Property",
+      "s65"
+    ],
+    [
+      "augmented data",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "augmented dataset",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "augmented dataset",
+      "Property",
+      "s104"
+    ],
+    [
+      "augmented datasets",
+      "Composition",
+      "s75"
+    ],
+    [
+      "auxiliary words",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "average length",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s108"
+    ],
+    [
+      "batch size 128",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "best setting",
+      "Result",
+      "s102"
+    ],
+    [
+      "bi-directional RNN",
+      "Definition",
+      "s68"
+    ],
+    [
+      "bi-directional RNN",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "bilingual clause pair",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "bilingual clause pairs",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "bilingual clauses",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "bilingual sentence pairs",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "bilingual text alignment",
+      "Definition",
+      "s9"
+    ],
+    [
+      "brevity penalty",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "c",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "celebrities",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "celebrity articles",
+      "Source",
+      "s53"
+    ],
+    [
+      "character correlation",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "characteristics",
+      "Traditional Methods Limitation",
+      "e2"
+    ],
+    [
+      "characters",
+      "Character List",
+      "e5"
+    ],
+    [
+      "clause alignment",
+      "Process",
+      "s57"
+    ],
+    [
+      "clause alignment",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "clause alignment algorithm",
+      "Result",
+      "s86"
+    ],
+    [
+      "clause alignment step",
+      "Process",
+      "s21"
+    ],
+    [
+      "clause level alignment",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "clause pair",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "conjunctions",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "data augmentation",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "data augmentation",
+      "Method",
+      "s59"
+    ],
+    [
+      "data augmentation",
+      "Method",
+      "s72"
+    ],
+    [
+      "data augmentation",
+      "Process",
+      "s26"
+    ],
+    [
+      "decoder",
+      "Component",
+      "s67"
+    ],
+    [
+      "decoder layer",
+      "Property",
+      "s85"
+    ],
+    [
+      "decoder stack",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "dictionary matching",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "dictionary matching",
+      "Property",
+      "s24"
+    ],
+    [
+      "dictionary matching score",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "dictionary matching score",
+      "Formula",
+      "s35"
+    ],
+    [
+      "dictionary term",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "dictionary term",
+      "Property",
+      "s97"
+    ],
+    [
+      "dimension",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "displayform0",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "dynamic programming",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "dynamic programming",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "dynamic programming",
+      "Method",
+      "s25"
+    ],
+    [
+      "dynamic programming",
+      "Method",
+      "s47"
+    ],
+    [
+      "edit distance",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "edit distance",
+      "Definition",
+      "s45"
+    ],
+    [
+      "edit distance score",
+      "Definition",
+      "s46"
+    ],
+    [
+      "edit distance score",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "encoder",
+      "Component",
+      "s66"
+    ],
+    [
+      "encoder hidden states",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "encoder layer",
+      "Property",
+      "s84"
+    ],
+    [
+      "encoder output",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "encoder stack",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "evaluation metric",
+      "Definition",
+      "s120"
+    ],
+    [
+      "evaluation metrics",
+      "Property",
+      "s87"
+    ],
+    [
+      "exact matching",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "exact matching",
+      "Property",
+      "s23"
+    ],
+    [
+      "exact matching score",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "exact matching score",
+      "Property",
+      "s29"
+    ],
+    [
+      "example",
+      "Sample Pair Example",
+      "e7"
+    ],
+    [
+      "filtering criteria",
+      "Condition",
+      "s76"
+    ],
+    [
+      "first large high-quality ancient-modern Chinese dataset",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "function words",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "g",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "gradient clipping threshold",
+      "Property",
+      "s109"
+    ],
+    [
+      "gradient clipping threshold 5.0",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "grid search",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "grid search",
+      "Method",
+      "s98"
+    ],
+    [
+      "ground truth",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "hidden state sequence",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "human perspective",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "hyper-parameters",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "i-1",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "initial learning rate",
+      "Property",
+      "s110"
+    ],
+    [
+      "inlineform3",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "inlineform4",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "inlineform5",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "inlineform6",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "interpolation factors",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "keys",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "large high-quality dataset",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "large scale parallel corpus",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "layer-normalization",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "layer-normalization",
+      "Technique",
+      "s112"
+    ],
+    [
+      "learning rate 0.001",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "learning rate decay",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "learning rate decay",
+      "Technique",
+      "s114"
+    ],
+    [
+      "length correlation",
+      "Definition",
+      "s34"
+    ],
+    [
+      "length information",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "lexical matching score",
+      "Alignment Mode Statistics",
+      "e4"
+    ],
+    [
+      "lexical matching score",
+      "Definition",
+      "s22"
+    ],
+    [
+      "lexical matching score",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "lexical matching score",
+      "Formula",
+      "s28"
+    ],
+    [
+      "lexical matching score",
+      "Property",
+      "s95"
+    ],
+    [
+      "lexical-based approaches",
+      "Definition",
+      "s10"
+    ],
+    [
+      "lexical-based information",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "lexicon matching",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "longest common subsequence",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "longest common subsequence based approach",
+      "Cause",
+      "s16"
+    ],
+    [
+      "mean",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "merged adjacent clause pairs",
+      "Process",
+      "s60"
+    ],
+    [
+      "modern Chinese",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "multi-bleu.perl",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "multi-head attention",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "multi-head self-attention",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "multi-head self-attention mechanism",
+      "Definition",
+      "s83"
+    ],
+    [
+      "neural machine translation",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "neural machine translation (NMT)",
+      "Comparison",
+      "s7"
+    ],
+    [
+      "neural machine translation (NMT)",
+      "Definition",
+      "s6"
+    ],
+    [
+      "normal distribution",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "normalization parameter",
+      "Definition",
+      "s37"
+    ],
+    [
+      "paragraph alignment",
+      "Process",
+      "s55"
+    ],
+    [
+      "personal pronouns",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "place names",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "plain and accurate words",
+      "Property",
+      "s54"
+    ],
+    [
+      "position-wise fully connected feed-forward network",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "pre-trained word2vec",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "pre-trained word2vec",
+      "Technique",
+      "s117"
+    ],
+    [
+      "precision score",
+      "Definition",
+      "s90"
+    ],
+    [
+      "precision score",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "precision score",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "probability Pr(n-m)",
+      "Result",
+      "s33"
+    ],
+    [
+      "probability distribution",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "probability distribution vector of the next word",
+      "Definition",
+      "s81"
+    ],
+    [
+      "proper noun translation",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "proper nouns",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "proposed alignment approach",
+      "Result",
+      "s17"
+    ],
+    [
+      "proposed method",
+      "Result",
+      "s100"
+    ],
+    [
+      "query",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "recall score",
+      "Definition",
+      "s91"
+    ],
+    [
+      "recall score",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "recurrence relation",
+      "Property",
+      "s49"
+    ],
+    [
+      "residual connection",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "residual connection",
+      "Result",
+      "s122"
+    ],
+    [
+      "residual connection",
+      "Technique",
+      "s116"
+    ],
+    [
+      "sample pair",
+      "Sample Pair Example",
+      "e7"
+    ],
+    [
+      "sentence alignment",
+      "Comparison",
+      "s58"
+    ],
+    [
+      "split ratios",
+      "Property",
+      "s74"
+    ],
+    [
+      "standard deviation",
+      "Clause Alignment",
+      "e6"
+    ],
+    [
+      "statistical information score",
+      "Evaluation Metrics",
+      "e10"
+    ],
+    [
+      "statistical information score",
+      "Property",
+      "s96"
+    ],
+    [
+      "statistical translation",
+      "Ancient Chinese Translation",
+      "e13"
+    ],
+    [
+      "statistical-based approaches",
+      "Definition",
+      "s11"
+    ],
+    [
+      "statistical-based information",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "stop words",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "suppose",
+      "Sample Pair Example",
+      "e7"
+    ],
+    [
+      "target language reversal",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "target language reversal",
+      "Result",
+      "s121"
+    ],
+    [
+      "target language reversal",
+      "Technique",
+      "s115"
+    ],
+    [
+      "traditional methods",
+      "Limitation",
+      "s13"
+    ],
+    [
+      "traditional methods",
+      "Traditional Methods Limitation",
+      "e2"
+    ],
+    [
+      "training set",
+      "Size",
+      "s73"
+    ],
+    [
+      "translation parallel corpus",
+      "Clause Alignment Method",
+      "e3"
+    ],
+    [
+      "translation parallel corpus",
+      "Property",
+      "s18"
+    ],
+    [
+      "unaugmented data",
+      "NMT vs SMT Translation",
+      "e12"
+    ],
+    [
+      "unaugmented dataset",
+      "NMT Model Training",
+      "e11"
+    ],
+    [
+      "unaugmented dataset",
+      "Property",
+      "s71"
+    ],
+    [
+      "values",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "word embedding",
+      "Transformer-NMT Model",
+      "e9"
+    ],
+    [
+      "word2vec",
+      "Result",
+      "s123"
+    ]
+  ]
+}

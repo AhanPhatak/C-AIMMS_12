@@ -1,0 +1,4910 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 14,
+    "n_semantic": 148,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Neural Machine": {
+      "tag_set": [
+        "Neural Machine Introduction"
+      ]
+    },
+    "Introduction": {
+      "tag_set": [
+        "Neural Machine Introduction"
+      ]
+    },
+    "Translation": {
+      "tag_set": [
+        "Translation"
+      ]
+    },
+    "NMT": {
+      "tag_set": [
+        "Multilingual NMT Extension",
+        "Multilingual NMT Framework"
+      ]
+    },
+    "SMT": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "attention mechanism": {
+      "tag_set": [
+        "Absence",
+        "Attention Mechanism in NMT",
+        "Definition",
+        "Limitation",
+        "Multilingual NMT",
+        "Multilingual NMT Approach",
+        "Multilingual NMT Attention",
+        "Multilingual NMT Extension",
+        "Property",
+        "Result"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "Multilingual NMT Extension",
+        "Multilingual NMT Framework",
+        "NMT Preprocessing",
+        "Property"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Function",
+        "Multilingual NMT Extension",
+        "Multilingual NMT Framework",
+        "NMT Preprocessing",
+        "Property"
+      ]
+    },
+    "context vector": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Definition",
+        "Multilingual NMT Attention",
+        "Multilingual NMT Extension",
+        "Multilingual NMT Framework"
+      ]
+    },
+    "end-to-end training": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "parallel corpora": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "multilingual scenarios": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "common semantic space": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "multiple encoders": {
+      "tag_set": [
+        "Multilingual NMT Approach",
+        "Multilingual NMT Extension"
+      ]
+    },
+    "multiple decoders": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "language pairs": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "training parameters": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "unified approach": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Extension",
+        "Property"
+      ]
+    },
+    "encoder-decoder architecture": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Extension"
+      ]
+    },
+    "feedforward layers": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "target word prediction": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Multilingual NMT Extension"
+      ]
+    },
+    "multilinguality": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "attention-based NMT": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Framework"
+      ]
+    },
+    "bidirectional recurrent encoder": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Framework"
+      ]
+    },
+    "forward and backward directions": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "fixed-length context vectors": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "recurrent unit": {
+      "tag_set": [
+        "Multilingual NMT Framework",
+        "Property"
+      ]
+    },
+    "RNN": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "GRU": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "word embedding matrix": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "annotation vector": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Framework"
+      ]
+    },
+    "source sentence": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "target vocabulary": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "target word": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Multilingual NMT Framework"
+      ]
+    },
+    "hidden state": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "multilingual NMT framework": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "zero-resourced translation": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Framework"
+      ]
+    },
+    "under-resourced translation": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Framework",
+        "Multilingual NMT Performance",
+        "NMT Training Setup"
+      ]
+    },
+    "multi-task NMT": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "Creative Commons Attribution 4.0 International License": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "http://creativecommons.org/licenses/by/4.0/": {
+      "tag_set": [
+        "Multilingual NMT Framework"
+      ]
+    },
+    "annotation vectors": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "relevance scores": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Result"
+      ]
+    },
+    "attention weights": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "feedforward network": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "learnable layer": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "out-of-vocabulary (OOV) words": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Problem"
+      ]
+    },
+    "rare words": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Multilingual NMT Attention",
+        "Multilingual NMT Performance",
+        "Problem"
+      ]
+    },
+    "word alignment": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "subword units": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Method"
+      ]
+    },
+    "universal encoder": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Multilingual NMT Approach"
+      ]
+    },
+    "multilingual NMT": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Challenge",
+        "Definition",
+        "Property",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "neural machine translation (NMT)": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "Property"
+      ]
+    },
+    "source states": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "backpropagation": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "segmenting rare words": {
+      "tag_set": [
+        "Attention Mechanism in NMT"
+      ]
+    },
+    "named entities": {
+      "tag_set": [
+        "Attention Mechanism in NMT",
+        "NMT Training Setup"
+      ]
+    },
+    "encoder-decoder": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "shared embedding space": {
+      "tag_set": [
+        "Multilingual NMT",
+        "Property"
+      ]
+    },
+    "Luong2016": {
+      "tag_set": [
+        "Multilingual NMT",
+        "Result"
+      ]
+    },
+    "multi-task learning": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "translation": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "parsing": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "image captioning": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Approach",
+        "Comparison",
+        "Multilingual NMT",
+        "Multilingual NMT Attention"
+      ]
+    },
+    "one-to-many NMT": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "Firat2016": {
+      "tag_set": [
+        "Approach",
+        "Multilingual NMT"
+      ]
+    },
+    "many-to-many translation": {
+      "tag_set": [
+        "Capability",
+        "Multilingual NMT",
+        "Multilingual NMT Approach"
+      ]
+    },
+    "affine transformation": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "hidden layer": {
+      "tag_set": [
+        "Multilingual NMT"
+      ]
+    },
+    "architecture modification": {
+      "tag_set": [
+        "Multilingual NMT",
+        "Requirement"
+      ]
+    },
+    "Zoph2016": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Approach"
+      ]
+    },
+    "multi-source attention": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "parallel data": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "Multilingual NMT Approach"
+      ]
+    },
+    "single target language": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "non-linear layer": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "concatenation of hidden states": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "LSTM variant": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "common semantic": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "universal decoder": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "language-mixed vocabularies": {
+      "tag_set": [
+        "Multilingual NMT Approach",
+        "Property"
+      ]
+    },
+    "word coding": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "embedding space": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "surface form": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "semantic similarity": {
+      "tag_set": [
+        "Multilingual NMT Approach"
+      ]
+    },
+    "source sentences": {
+      "tag_set": [
+        "Multilingual NMT Approach",
+        "Multilingual NMT Performance"
+      ]
+    },
+    "target language": {
+      "tag_set": [
+        "Future Work Improvements",
+        "Multilingual NMT Approach",
+        "Multilingual NMT Performance"
+      ]
+    },
+    "multi-target translation": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Attention"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Comparison",
+        "Multilingual NMT Attention"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Comparison",
+        "Multilingual NMT Attention"
+      ]
+    },
+    "one decoder": {
+      "tag_set": [
+        "Multilingual NMT Attention"
+      ]
+    },
+    "multiple source languages": {
+      "tag_set": [
+        "Multilingual NMT Attention"
+      ]
+    },
+    "multiple target languages": {
+      "tag_set": [
+        "Multilingual NMT Attention"
+      ]
+    },
+    "vocabulary size": {
+      "tag_set": [
+        "Multilingual NMT Attention"
+      ]
+    },
+    "ambiguity level": {
+      "tag_set": [
+        "Multilingual NMT Attention"
+      ]
+    },
+    "target forcing": {
+      "tag_set": [
+        "Definition",
+        "Method",
+        "Multilingual NMT Attention",
+        "NMT Preprocessing",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "special symbol": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Attention"
+      ]
+    },
+    "German": {
+      "tag_set": [
+        "Multilingual NMT Attention",
+        "Multilingual NMT Performance"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "Multilingual NMT Attention",
+        "Multilingual NMT Performance"
+      ]
+    },
+    "@de@": {
+      "tag_set": [
+        "Multilingual NMT Attention"
+      ]
+    },
+    "language-specific coding": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Attention",
+        "NMT Preprocessing",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "recurrent units": {
+      "tag_set": [
+        "NMT Preprocessing",
+        "Property"
+      ]
+    },
+    "target-forced sentence": {
+      "tag_set": [
+        "Definition",
+        "NMT Preprocessing"
+      ]
+    },
+    "multilingual attention-based NMT": {
+      "tag_set": [
+        "Future Work",
+        "Method",
+        "Multilingual NMT Performance",
+        "NMT Preprocessing"
+      ]
+    },
+    "shared encoder and decoder": {
+      "tag_set": [
+        "NMT Preprocessing",
+        "Structure"
+      ]
+    },
+    "universal encoder and decoder": {
+      "tag_set": [
+        "Concept",
+        "Definition",
+        "NMT Preprocessing"
+      ]
+    },
+    "flexibility": {
+      "tag_set": [
+        "NMT Preprocessing",
+        "Property"
+      ]
+    },
+    "WIT3's TED corpus": {
+      "tag_set": [
+        "NMT Preprocessing",
+        "Training Data"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "NMT Preprocessing"
+      ]
+    },
+    "TED corpus": {
+      "tag_set": [
+        "NMT Preprocessing",
+        "Property"
+      ]
+    },
+    "EPPS": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "NMT Preprocessing"
+      ]
+    },
+    "News Commentary": {
+      "tag_set": [
+        "NMT Preprocessing"
+      ]
+    },
+    "CommonCrawl": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "NMT Preprocessing"
+      ]
+    },
+    "3 million sentences": {
+      "tag_set": [
+        "NMT Preprocessing",
+        "Quantity"
+      ]
+    },
+    "Nematus": {
+      "tag_set": [
+        "Framework",
+        "NMT Preprocessing"
+      ]
+    },
+    "Sennrich2016a": {
+      "tag_set": [
+        "NMT Preprocessing",
+        "Reference"
+      ]
+    },
+    "Byte-Pair": {
+      "tag_set": [
+        "NMT Preprocessing"
+      ]
+    },
+    "BPE merging operations": {
+      "tag_set": [
+        "Multilingual NMT Performance",
+        "NMT Training Setup",
+        "Property"
+      ]
+    },
+    "39500": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "source and target data": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "50-word length": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "minibatch shuffling": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "40,000 most frequent words": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "subword translation": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "1024-cell GRU layer": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "1000-dimensional embeddings": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "dropout 0.2": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "dropout 0.1": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "Adadelta optimization": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "minibatch size 80": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "gradient rescaling": {
+      "tag_set": [
+        "NMT Training Setup",
+        "Process"
+      ]
+    },
+    "seven days training": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "early-stopping condition": {
+      "tag_set": [
+        "NMT Training Setup",
+        "Process"
+      ]
+    },
+    "BLEU evaluation": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "beam search": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "beam size 12": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "English-German": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "monolingual data": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "NMT Training Setup",
+        "Property"
+      ]
+    },
+    "mix-source approach": {
+      "tag_set": [
+        "Definition",
+        "NMT Training Setup"
+      ]
+    },
+    "rare word types": {
+      "tag_set": [
+        "NMT Training Setup"
+      ]
+    },
+    "French-German parallel corpus": {
+      "tag_set": [
+        "NMT Training Setup",
+        "Process"
+      ]
+    },
+    "multilinguality in NMT": {
+      "tag_set": [
+        "Goal",
+        "NMT Training Setup"
+      ]
+    },
+    "mix-source": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "Result"
+      ]
+    },
+    "mix-multi-source": {
+      "tag_set": [
+        "Definition",
+        "Mix-Source NMT Performance",
+        "Result"
+      ]
+    },
+    "BLEU": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "Result"
+      ]
+    },
+    "tst2013": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "tst2014": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "TED English-German": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "French data": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "German data": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "2.6 BLEU points": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "2.1 BLEU points": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "2.2 BLEU points": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "1.6 BLEU points": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "shared space": {
+      "tag_set": [
+        "Definition",
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Mix-Source NMT Performance",
+        "Property"
+      ]
+    },
+    "t-SNE": {
+      "tag_set": [
+        "Method",
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "NC": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "sennrich2016b": {
+      "tag_set": [
+        "Method",
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "gulcehre2015": {
+      "tag_set": [
+        "Method",
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "RNN-based language model": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "shallow fusion": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "deep fusion": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "hyperparameters": {
+      "tag_set": [
+        "Mix-Source NMT Performance"
+      ]
+    },
+    "baseline NMT": {
+      "tag_set": [
+        "Definition",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "small parallel data": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "four millions sentences": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "twenty thousands sentences": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "0.5% parallel data": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "BLEU improvement": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "1.52 BLEU": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "1.06 BLEU": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "bridge strategy": {
+      "tag_set": [
+        "Definition",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "German-French translation": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "German-English corpora": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "English-French corpora": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "English-English data": {
+      "tag_set": [
+        "Property",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "universal strategy": {
+      "tag_set": [
+        "Definition",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "French-French data": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "direct system": {
+      "tag_set": [
+        "Definition",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "pivot system": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Performance",
+        "Zero-Resourced Translation"
+      ]
+    },
+    "German to English": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "English to French": {
+      "tag_set": [
+        "Zero-Resourced Translation"
+      ]
+    },
+    "French": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "NMT system": {
+      "tag_set": [
+        "Definition",
+        "Future Work Improvements",
+        "Multilingual NMT Performance"
+      ]
+    },
+    "bridge system": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "universal system": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "target forcing mechanism": {
+      "tag_set": [
+        "Definition",
+        "Multilingual NMT Performance"
+      ]
+    },
+    "BLEU points": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "training corpus": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "direct translating connections": {
+      "tag_set": [
+        "Claim",
+        "Multilingual NMT Performance"
+      ]
+    },
+    "wrong language": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "unbalanced training": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "free parameters": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "parallel corpus": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "Table TABREF23": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "Table TABREF24": {
+      "tag_set": [
+        "Multilingual NMT Performance"
+      ]
+    },
+    "balancing data": {
+      "tag_set": [
+        "Future Work Improvements"
+      ]
+    },
+    "detailed analyses": {
+      "tag_set": [
+        "Future Work Improvements"
+      ]
+    },
+    "various strategies": {
+      "tag_set": [
+        "Future Work Improvements"
+      ]
+    },
+    "framework universarity": {
+      "tag_set": [
+        "Future Work Improvements"
+      ]
+    },
+    "Neural Machine Translation (NMT)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "phrase-based Statistical Machine Translation (SMT)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "decoder hidden state": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "shared word embedding matrix": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "relevance": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "alignment model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "soft alignment": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "copying rare target words": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "subword NMT": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "multiple encoders and decoders": {
+      "tag_set": [
+        "Architecture"
+      ]
+    },
+    "shared attention mechanism": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "multi-source attention-based NMT": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "encoder output combination": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "non-linear layer on concatenation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "variant of LSTM with gate values": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "combined hidden states": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "semantic similarity in embedding space": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "multi-source approach BIBREF10": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "single encoder": {
+      "tag_set": [
+        "Advantage"
+      ]
+    },
+    "independent of recurrent unit": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "@de@Obama; @en@Obama": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "@de@Projektion; @en@projection": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "@en@car; @en@automobile": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "@de@Flussufer; @en@bank": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "ambiguity in translation": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "network complexity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training time": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Figure FIGREF8": {
+      "tag_set": [
+        "Illustration"
+      ]
+    },
+    "low-resourced scenarios": {
+      "tag_set": [
+        "Benefit"
+      ]
+    },
+    "well-resourced language pairs": {
+      "tag_set": [
+        "Benefit"
+      ]
+    },
+    "WMT organizers' corpus": {
+      "tag_set": [
+        "Training Data"
+      ]
+    },
+    "subword segmentation": {
+      "tag_set": [
+        "Preprocessing Step"
+      ]
+    },
+    "sentence pairs exceeding 50-word length": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "short-list vocabularies": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "GRU layer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "embeddings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dropout probability": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "optimization method": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "minibatch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training duration": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "model selection": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "translation candidates": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "source-side representation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "rare word translation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "translation ambiguity": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "mix-source method": {
+      "tag_set": [
+        "Advantage"
+      ]
+    },
+    "EPPS+NC+CommonCrawl": {
+      "tag_set": [
+        "Data"
+      ]
+    },
+    "mix-multi-source strategy": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "corpus magnitude and unbalancing": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "adaptation training": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "NMT for zero-resourced translation": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "German to French translation": {
+      "tag_set": [
+        "Task"
+      ]
+    },
+    "English INLINEFORM2 German NMT system": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "bridge and universal systems": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BLEU score difference": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training corpus balancing": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "number of free parameters": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "under-resourced translation task": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "data imbalance": {
+      "tag_set": [
+        "Issue"
+      ]
+    },
+    "target language forcing strength": {
+      "tag_set": [
+        "Problem"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nNeural Machine",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Neural Machine Introduction"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "Translation (",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "NMT) has shown its effectiveness in translation tasks when NMT systems perform best in recent machine translation campaigns BIBREF0 , BIBREF1 . Compared to phrase-based Statistical Machine Translation (SMT) which is basically an ensemble of different features trained and tuned separately, NMT directly modeling the translation relationship between source and target sentences. Unlike SMT, NMT does not require much linguistic information and large monolingual data to achieve good performances. An NMT consists of an encoder which recursively reads and represents the whole source sentence into a context vector and a recurrent decoder which takes the context vector and its previous state to predict the next target word. It is then trained in an end-to-end fashion to learn parameters which maximizes the likelihood between the outputs and the references. Recently, attention-based NMT has been featured in most state-of-the-art systems. First introduced by BIBREF2 , attention mechanism is integrated in decoder side as feedforward layers. It allows the NMT to decide which source words should take part in the predicting process of the next target words. It helps to improve NMTs significantly. Nevertheless, since the attention mechanism is specific to a particular source sentence and the considering target word, it is also specific to particular language pairs. Some recent work has focused on extending the NMT framework to multilingual scenarios. By training such network using parallel corpora in number of different languages, NMT could benefit from additional information embedded in a common semantic space across languages. Basically, the proposed NMT are required to employ multiple encoders or multiple decoders to deal with multilinguality. Furthermore, in order to avoid the tight dependency of the attention mechanism to specific language pairs, they also need to modify their architecture to combine either the encoders or the attention layers. These modifications are specific to the purpose of the tasks as well. Thus, those multilingual NMTs are more complicated, much more free parameters to learn and more difficult to perform standard trainings compared to the original NMT. In this paper, we introduce a unified approach to seamlessly extend the original NMT to multilingual settings. Our approach allows us to integrate any language in any side of the encoder-decoder architecture with only one encoder and one decoder for all the languages involved. Moreover, it is not necessary to do any network modification to enable attention mechanism in our NMT systems. We then apply our proprosed framework in two",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual NMT Extension"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "demanding scenarios: under-resourced translation and zero-resourced translation. The results show that bringing multilinguality to NMT helps to improve individual translations. With some insightful analyses of the results, we set our goal toward a fully multilingual NMT framework. The paper starts with a detailed introduction to attention-based NMT. In Section SECREF3 , related work about multi-task NMT is reviewed. Section SECREF5 describes our proposed approach and thorough comparisons to the related work. It is followed by a section of evaluating our systems in two aforementioned scenarios, in which different strategies have been employed under a unified approach (Section SECREF4 ). Finally, the paper ends with conclusion and future work. This work is licenced under a Creative Commons Attribution 4.0 International License. License details: http://creativecommons.org/licenses/by/4.0/ Neural Machine Translation: Background An NMT system consists of an encoder which automatically learns the characteristics of a source sentence into fix-length context vectors and a decoder that recursively combines the produced context vectors with the previous target word to generate the most probable word from a target vocabulary. More specifically, a bidirectional recurrent encoder reads every words INLINEFORM0 of a source sentence INLINEFORM1 and encodes a representation INLINEFORM2 of the sentence into a fixed-length vector INLINEFORM3 concatinated from those of the forward and backward directions: INLINEFORM4 Here INLINEFORM0 is the one-hot vector of the word INLINEFORM1 and INLINEFORM2 is the word embedding matrix which is shared across the source words. INLINEFORM3 is the recurrent unit computing the current hidden state of the encoder based on the previous hidden state. INLINEFORM4 is then called an annotation vector, which encodes the source sentence up to the time INLINEFORM5 from both forward and backward directions. Recurrent units in NMT can be a simple recurrent neural network unit (RNN), a Long Short-Term Memory unit (LSTM) BIBREF3 or a Gated Recurrent Unit (GRU) BIBREF4 Similar to the encoder, the recurrent decoder generates one target word INLINEFORM0 to form a translated target sentence INLINEFORM1 in the end. At the time INLINEFORM2 , it takes the previous hidden state of the decoder INLINEFORM3 , the previous embedded word representation INLINEFORM4 and a time-specific context vector INLINEFORM5 as inputs to calculate the current hidden state INLINEFORM6 : INLINEFORM7 Again, INLINEFORM0 is the recurrent activation function of the decoder and INLINEFORM1 is the shared word embedding matrix of the target sentences. The context vector INLINEFORM2 is calculated based on the annotation vectors from the encoder.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual NMT Framework"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "Before feeding the annotation vectors into the decoder, an attention mechanism is set up in between, in order to choose which annotation vectors should contribute to the predicting decision of the next target word. Intuitively, a relevance between the previous target word and the annotation vectors can be used to form some attention scenario. There exists several ways to calculate the relevance as shown in BIBREF5 , but what we describe here follows the proposed method of BIBREF2 DISPLAYFORM0 In BIBREF2 , this attention mechanism, originally called alignment model, has been employed as a simple feedforward network with the first layer is a learnable layer via INLINEFORM0 , INLINEFORM1 and INLINEFORM2 . The relevance scores INLINEFORM3 are then normalized into attention weights INLINEFORM4 and the context vector INLINEFORM5 is calculated as the weighted sum of all annotation vectors INLINEFORM6 . Depending on how much attention the target word at time INLINEFORM7 put on the source states INLINEFORM8 , a soft alignment is learned. By being employed this way, word alignment is not a latent variable but a parametrized function, making the alignment model differentiable. Thus, it could be trained together with the whole architecture using backpropagation. One of the most severe problems of NMT is handling of the rare words, which are not in the short lists of the vocabularies, i.e. out-of-vocabulary (OOV) words, or do not appear in the training set at all. In BIBREF6 , the rare target words are copied from their aligned source words after the translation. This heuristic works well with OOV words and named entities but unable to translate unseen words. In BIBREF7 , their proposed NMT models have been shown to not only be effective on reducing vocabulary sizes but also have the ability to generate unseen words. This is achieved by segmenting the rare words into subword units and translating them. The state-of-the-art translation systems essentially employ subword NMT BIBREF7 . Universal Encoder and Decoder for Multilingual Neural Machine Translation While the majority of previous research has focused on improving the performance of NMT on individual language pairs with individual NMT systems, recent work has started investigating potential ways to conduct the translation involved in multiple languages using a single NMT system. The possible reason explaining these efforts lies on the unique architecture of NMT. Unlike SMT, NMT consists of separated neural networks for the source and target sides, or the encoder",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Attention Mechanism in NMT"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "and decoder, respectively. This allows these components to map a sentence in any language to a representation in an embedding space which is believed to share common semantics among the source languages involved. From that shared space, the decoder, with some implicit or explicit relevant constraints, could transform the representation into a concrete sentence in any desired language. In this section, we review some related work on this matter. We then describe a unified approach toward an universal attention-based NMT scheme. Our approach does not require any architecture modification and it can be trained to learn a minimal number of parameters compared to the other work. Related Work By extending the solution of sequence-to-sequence modeling using encoder-decoder architectures to multi-task learning, Luong2016 managed to achieve better performance on some INLINEFORM0 tasks such as translation, parsing and image captioning compared to individual tasks. Specifically in translation, the work utilizes multiple encoders to translate from multiple languages, and multiple decoders to translate to multiple languages. In this view of multilingual translation, each language in source or target side is modeled by one encoder or decoder, depending on the side of the translation. Due to the natural diversity between two tasks in that multi-task learning scenario, e.g. translation and parsing, it could not feature the attention mechanism although it has proven its effectiveness in NMT. There exists two directions which proposed for multilingual translation scenarios where they leverage the attention mechanism. The first one is indicated in the work from BIBREF8 , where it introduce an one-to-many multilingual NMT system to translates from one source language into multiple target languages. Having one source language, the attention mechanism is then handed over to the corresponding decoder. The objective function is changed to adapt to multilingual settings. In testing time, the parameters specific to a desired language pair are used to perform the translation. Firat2016 proposed another approach which genuinely delivers attention-based NMT to multilingual translation. As in BIBREF9 , their approach utilizes one encoder per source language and one decoder per target language for many-to-many translation tasks. Instead of a quadratic number of independent attention layers, however, one single attention mechanism is integrated into their NMT, performing an affine transformation between the hidden layer of INLINEFORM0 source languages and that one of INLINEFORM1 target languages. It is required to change their architecture to accomodate such a complicated shared attention mechanism. In a separate effort",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual NMT"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "to achieve multilingual NMT, the work of Zoph2016 leverages available parallel data from other language pairs to help reducing possible ambiguities in the translation process into a single target language. They employed the multi-source attention-based NMT in a way that only one attention mechanism is required despite having multiple encoders. To achieve this, the outputs of the encoders were combined before feeding to the attention layer. They implemented two types of encoder combination; One is adding a non-linear layer on the concatenation of the encoders' hidden states. The other is using a variant of LSTM taking the respective gate values from the individual LSTM units of the encoders. As a result, the combined hidden states contain information from both encoders , thus encode the common semantic of the two source languages. Universal Encoder and Decoder Inspired by the multi-source NMT as additional parallel data in several languages are expected to benefit single translations, we aim to develop a NMT-based approach toward an universal framework to perform multilingual translation. Our solution features two treatments: 1) Coding the words in different languages as different words in the language-mixed vocabularies and 2) Forcing the NMT to translating a representation of source sentences into the sentences in a desired target language. Language-specific Coding. When the encoder of a NMT system considers words across languages as different words, with a well-chosen architecture, it is expected to be able to learn a good representation of the source words in an embedding space in which words carrying similar meaning would have a closer distance to each others than those are semantically different. This should hold true when the words have the same or similar surface form, such as (@de@Obama; @en@Obama) or (@de@Projektion; @en@projection). This should also hold true when the words have the same or similar meaning across languages, such as (@en@car; @en@automobile) or (@de@Flussufer; @en@bank). Our encoder then acts similarly to the one of multi-source approach BIBREF10 , collecting additional information from other sources for better translations, but with a much simpler embedding function. Unlike them, we need only one encoder, so we could reduce the number of parameters to learn. Furthermore, we neither need to change the network architecture nor depend on which recurrent unit (GRU, LSTM or simple RNN) is currently using in the encoder. We could apply the same trick to the target sentences and thus enable many-to-many translation capability of our NMT",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual NMT Approach"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "system. Similar to the multi-target translation BIBREF8 , we exploit further the correlation in semantics of those target sentences across different languages. The main difference between our approach and the work of BIBREF8 is that we need only one decoder for all target languages. Given one encoder for multiple source languages and one decoder for multiple target languages, it is trivial to incorporate the attention mechanism as in the case of a regular NMT for single language translation. In training, the attention layers were directed to learn relevant alignments between words in specific language pair and forward the produced context vector to the decoder. Now we rely totally on the network to learn good alignments between source and target sides. In fact, giving more information, our system are able to form nice alignments. In comparison to other research that could perform complete multi-task learning, e.g. the work from BIBREF9 or the approach proposed by BIBREF11 , our method is able to accommodate the attention layers seemlessly and easily. It also draws a clear distinction from those works in term of the complexity of the whole network: considerably less parameters to learn, thus reduces overfitting, with a conventional attention mechanism and a standard training procedure. Target Forcing. While language-specific coding allows us to implement a multilingual attention-based NMT, there are two issues we have to consider before training the network. The first is that the number of rare words would increase in proportion with the number of languages involved. This might be solved by applying a rare word treatment method with appropriate awareness of the vocabularies' size. The second one is more problematic: Ambiguity level in the translation process definitely increases due to the additional introduction of words having the same or similar meaning across languages at both source and target sides. We deal with the problem by explicitly forcing the attention and translation to the direction that we prefer, expecting the information would limit the ambiguity to the scope of one language instead of all target languages. We realize this idea by adding at the beginning and at the end of every source sentences a special symbol indicating the language they would be translated into. For example, in a multilingual NMT, when a source sentence is German and the target language is English, the original sentence (already language-specific coded) is: @de@darum @de@geht @de@es @de@in @de@meinem @de@Vortrag Now when we force",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual NMT Attention"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "it to be translated into English, the target-forced sentence becomes: <E> @de@darum @de@geht @de@es @de@in @de@meinem @de@Vortrag <E> Due to the nature of recurrent units used in the encoder and decoder, in training, those starting symbols encourage the network learning the translation of following target words in a particular language pair. In testing time, information of the target language we provided help to limit the translated candidates, hence forming the translation in the desired language. Figure FIGREF8 illustrates the essence of our approach. With two steps in the preprocessing phase, namely language-specific coding and target forcing, we are able to employ multilingual attention-based NMT without any special treatment in training such a standard architecture. Our encoder and attention-enable decoder can be seen as a shared encoder and decoder across languages, or an universal encoder and decoder. The flexibitily of our approach allow us to integrate any language into source or target side. As we will see in Section SECREF4 , it has proven to be extremely helpful not only in low-resourced scenarios but also in translation of well-resourced language pairs as it provides a novel way to make use of large monolingual corpora in NMT. Evaluation In this section, we describe the evaluation of our proposed approach in comparisons with the strong baselines using NMT in two scenarios: the translation of an under-resource language pair and the translation of a language pair that does not exist any paralled data at all. Experimental Settings Training Data. We choose WIT3's TED corpus BIBREF12 as the basis of our experiments since it might be the only high-quality parallel data of many low-resourced language pairs. TED is also multilingual in a sense that it includes numbers of talks which are commonly translated into many languages. In addition, we use a much larger corpus provided freely by WMT organizers when we evaluate the impact of our approach in a real machine translation campaign. It includes the paralled corpus extracted from the digital corpus of European Parliament (EPPS), the News Commentary (NC) and the web-crawled parallel data (CommonCrawl). While the number of sentences in popular TED corpora varies from 13 thousands to 17 thousands, the total number of sentences in those larger corpus is approximately 3 million sentences. Neural Machine Translation Setup. All experiments have been conducted using NMT framework Nematus, Following the work of Sennrich2016a, subword segmentation is handled in the prepocessing phase using Byte-Pair",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NMT Preprocessing"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "Encoding (BPE). Excepts stated clearly in some experiments, we set the number of BPE merging operations at 39500 on the joint of source and target data. When training all NMT systems, we take out the sentence pairs exceeding 50-word length and shuffle them inside every minibatch. Our short-list vocabularies contain 40,000 most frequent words while the others are considered as rare words and applied the subword translation. We use an 1024-cell GRU layer and 1000-dimensional embeddings with dropout at every layer with the probability of 0.2 in the embedding and hidden layers and 0.1 in the input and ourput layers. We trained our systems using gradient descent optimization with Adadelta BIBREF13 on minibatches of size 80 and the gradient is rescaled whenever its norm exceed 1.0. All the trainings last approximately seven days if the early-stopping condition could not be reached. At a certain time, an external evaluation script on BLEU BIBREF14 is conducted on a development set to decide the early-stopping condition. This evaluation script has also being used to choose the model archiving the best BLEU on the development set instead of the maximal loglikelihood between the translations and target sentences while training. In translation, the framework produces INLINEFORM0 -best candidates and we then use a beam search with the beam size of 12 to get the best translation. Under-resourced Translation First, we consider the translation for an under-resourced pair of languages. Here a small portion of the large parallel corpus for English-German is used as a simulation for the scenario where we do not have much parallel data: Translating texts in English to German. We perform language-specific coding in both source and target sides. By accommodating the German monolingual data as an additional input (German INLINEFORM0 German), which we called the mix-source approach, we could enrich the training data in a simple, natural way. Given this under-resourced situation, it could help our NMT obtain a better representation of the source side, hence, able to learn the translation relationship better. Including monolingual data in this way might also improve the translation of some rare word types such as named entities. Furthermore, as the ultimate goal of our work, we would like to investigate the advantages of multilinguality in NMT. We incorporate a similar portion of French-German parallel corpus into the English-German one. As discussed in Section SECREF5 , it is expected to help reducing the ambiguity in translation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NMT Training Setup"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "between one language pair since it utilizes the semantic context provided by the other source language. We name this mix-multi-source. Table TABREF16 summarizes the performance of our systems measured in BLEU on two test sets, tst2013 and tst2014. Compared to the baseline NMT system which is solely trained on TED English-German data, our mix-source system achieves a considerable improvement of 2.6 BLEU points on tst2013 and 2.1 BLEU points on and tst2014 . Adding French data to the source side and their corresponding German data to the target side in our mix-multi-source system also help to gain 2.2 and 1.6 BLEU points more on tst2013 tst2014, respectively. We observe a better improvement from our mix-source system compared to our mix-multi-source system. We speculate the reason that the mix-source encoder utilize the same information shared in two languages while the mix-multi-source receives and processes similar information in the other language but not necessarily the same. We might validate this hypothesis by comparing two systems trained on a common English-German-French corpus of TED. We put it in our future work's plan. As we expected Figure FIGREF19 shows how different words in different languages can be close in the shared space after being learned to translate into a common language. We extract the word embeddings from the encoder of the mix-multi-source (En,Fr INLINEFORM0 De,De) after training, remove the language-specific codes (@en@ and @fr@)and project the word vectors to the 2D space using t-SNE BIBREF15 . Using large monolingual data in NMT. A standard NMT system employs parallel data only. While good parallel corpora are limited in number, getting monolingual data of an arbitrary language is trivial. To make use of German monolingual corpus in an English INLINEFORM0 German NMT system, sennrich2016b built a separate German INLINEFORM1 English NMT using the same parallel corpus, then they used that system to translate the German monolingual corpus back to English, forming a synthesis parallel data. gulcehre2015 trained another RNN-based language model to score the monolingual corpus and integrate it to the NMT system through shallow or deep fusion. Both methods requires to train separate systems with possibly different hyperparameters for each. Conversely, by applying mix-source method to the big monolingual data, we need to train only one network. We mix the TED parallel corpus and the substantial monolingual corpus (EPPS+NC+CommonCrawl) and train a mix-source NMT system from those data. The first result is not encouraging when",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Mix-Source NMT Performance"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "its performance is even worse than the baseline NMT which is trained on the small parallel data only. Not using the same information in the source side, as we discussed in case of mix-multi-source strategy, could explain the degrading in performance of such a system. But we believe that the magnitude and unbalancing of the corpus are the main reasons. The data contains nearly four millions sentences but only around twenty thousands of them (0.5%) are the genuine parallel data. As a quick attempt, after we get the model with that big data, we continue training on the real parallel corpus for some more epochs. When this adaptation is applied, our system brings an improvement of +1.52 BLEU on tst2013 and +1.06 BLEU on tst2014 (Table TABREF21 ). Zero-resourced Translation Among low-resourced scenarios, zero-resourced translation task stands in an extreme level. A zero-resourced translation task is one of the most difficult situation when there is no parallel data between the translating language pair. To the best of our knowledge, there have been yet existed a published work about using NMT for zero-resourced translation tasks up to now. In this section, we extend our strategies using the proposed multilingual NMT approach as first attempts to this extreme situation. We employ language-specific coding and target forcing in a strategy called bridge. Unlike the strategies used in under-resourced translation task, bridge is an entire many-to-many multilingual NMT. Simulating a zero-resourced German INLINEFORM0 French translation task given the available German-English and English-French parallel corpora, after applying language-specific coding and target forcing for each corpus, we mix those data with an English-English data as a \u201cbridge\u201d creating some connection between German and French. We also propose a variant of this strategy that we incorporate French-French data. And we call it universal. We evaluate bridge and universal systems on two German INLINEFORM0 French test sets. They are compared to a direct system, which is an NMT trained on German INLINEFORM1 French data, and to a pivot system, which essentially consists of two separate NMTs trained to translate from German to English and English to French. The direct system should not exist in a real zero-resourced situation. We refer it as the perfect system for comparison purpose only. In case of the pivot system, to generate a translated text in French from a German sentence, we first translate it to English, then the output sentence is fed",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Zero-Resourced Translation"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "to the English INLINEFORM2 German NMT system to obtain the French translation. Since there are more than two languages involved in those systems, we increase the number of BPE merging operations proportionally in order to reduce the number of rare words in such systems. We do not expect our proposed systems to perform well with this primitive way of building direct translating connections since this is essentially a difficult task. We report the performance of those systems in Table TABREF23 . Unsupprisingly, both bridge and universal systems perform worse than the pivot one. We consider two possible reasons: Our target forcing mechanism is moderately primitive. Since the process is applied after language-specific coding, the target forcing symbol is the same for all source sentences in every languages. Thus, the forcing strength might not be enough to guide the decision of the next words. Once the very first word is translated into a word in wrong language, the following words tend to be translated into that wrong language again. Table TABREF24 shows some statistics of the translated words and sentences in wrong language. Balancing of the training corpus. Although it is not severe as in the case of mix-source system for large monolingual data, the limited number of sentences in target language can affect the training. The difference of 1.07 BLEU points between bridge and universal might explain this assumption as we added more target data (French) in universal strategy, thus reducing the unbalance in training. Those issues would be addressed in our following future work toward the multilingual attention-based NMT. Conclusion and Future Work In this paper, we present our first attempts in building a multilingual Neural Machine Translation framework. By treating words in different languages as different words and force the attention and translation to the direction of desired target language, we are able to employ attention-enable NMT toward a multilingual translation system. Our proposed approach alleviates the need of complicated architecture re-designing when accommodating attention mechanism. In addition, the number of free parameters to learn in our network does not go beyond that magnitute of a single NMT system. With its universality, our approach has shown its effectiveness in an under-resourced translation task with considerable improvements. In addition, the approach has achieved interesting and promising results when applied in the translation task that there is no direct parallel corpus between source and target languages. Nevertheless, there are issues",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual NMT Performance"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "that we can continue working on to address in future work. A more balancing data would be helpful for this framework. The mechanism of forcing the NMT system to the right target language could be improved. We could conduct more detailed analyses of the various strategies under the framework to show its universarity.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Future Work Improvements"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Neural Machine Translation is a method that directly models the translation relationship between source and target sentences without requiring extensive linguistic information or large monolingual datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Phrase-based Statistical Machine Translation is an ensemble method that trains and tunes different features separately, relying on linguistic features and parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "The encoder in an NMT system recursively processes the source sentence to generate a context vector representing the entire input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The decoder in an NMT system takes the context vector and its previous state to predict the next target word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The attention mechanism, first introduced in BIBREF2, allows the decoder to determine which source words are most relevant for predicting the next target word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The integration of the attention mechanism significantly improves the performance of NMT systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Multilingual NMT extends the NMT framework to support multiple languages by training on parallel corpora across different language pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Multilingual NMT typically requires multiple encoders or decoders to handle different languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The attention mechanism is specific to particular source-target language pairs and may not generalize well across different language combinations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Multilingual NMT systems are more complex, have significantly more free parameters, and are more difficult to train compared to standard NMT systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The proposed unified approach seamlessly extends original NMT to multilingual settings using a single encoder and decoder for all languages involved.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "The unified approach does not require any network modifications to enable the attention mechanism in multilingual NMT systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "An NMT system consists of an encoder that learns source sentence characteristics into fixed-length context vectors and a decoder that generates target words based on these vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The encoder uses a bidirectional recurrent unit to process each word of a source sentence and produces a fixed-length vector by concatenating forward and backward direction representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The decoder recursively generates target words by combining the previous hidden state, previous word embedding, and a time-specific context vector to compute the current hidden state.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "A bidirectional recurrent encoder processes source words in both forward and backward directions to produce a comprehensive representation of the sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "A context vector is a fixed-length vector derived from the encoder's annotation vectors, representing the source sentence up to a specific point in time from both forward and backward directions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Recurrent units in NMT can be a simple RNN, an LSTM, or a GRU, each computing the current hidden state based on the previous hidden state.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "An annotation vector encodes the source sentence up to a given time step from both forward and backward directions using the encoder's bidirectional processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The decoder's hidden state at a given time step is computed using the previous hidden state, the previous word embedding, and a time-specific context vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The same word embedding matrix is shared across both source and target sentences in the NMT system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Attention-based NMT involves the use of context vectors derived from encoder annotation vectors to improve the decoder's ability to generate accurate target words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "An attention mechanism is set up between annotation vectors and the decoder to select which annotation vectors contribute to the prediction of the next target word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Relevance between the previous target word and annotation vectors is used to form an attention scenario for selecting contributing vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The alignment model is a simple feedforward network with a learnable first layer that computes relevance scores between target words and source states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Relevance scores are normalized into attention weights that determine how much each annotation vector contributes to the context vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The context vector is calculated as the weighted sum of all annotation vectors, where the weights are derived from attention scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Soft alignment is learned based on how much the target word at a given time attends to the source states, making alignment a parametrized and differentiable function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "One of the severe problems in NMT is handling rare or out-of-vocabulary words that are not in the training vocabulary or have never appeared in the training set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "In BIBREF6, rare target words are copied from their aligned source words to handle out-of-vocabulary words, especially named entities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "In BIBREF7, rare words are segmented into subword units to enable translation of unseen words, allowing the model to generate novel vocabulary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "State-of-the-art translation systems use subword NMT to improve handling of rare and out-of-vocabulary words by segmenting them into smaller units.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "A universal encoder and decoder architecture enables multilingual neural machine translation by using a single NMT system for multiple language pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Concept"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "NMT consists of separated neural networks for source and target sides, which enables the development of universal models for multiple languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "An encoder-decoder architecture maps a sentence in any language to a representation in an embedding space that is believed to share common semantics among source languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The embedding space in multilingual NMT is believed to share common semantics across source languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The decoder transforms a shared representation into a concrete sentence in any desired target language using implicit or explicit constraints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Luong2016 achieved better performance on translation, parsing, and image captioning tasks using multi-task learning with sequence-to-sequence encoder-decoder models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Luong2016 uses one encoder per source language and one decoder per target language for multilingual translation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Architecture"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The multilingual translation approach by Luong2016 does not incorporate the attention mechanism despite its effectiveness in standard NMT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Absence"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "BIBREF8 proposes a one-to-many multilingual NMT system that translates from one source language to multiple target languages using attention in the decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Firat2016 implements a many-to-many multilingual NMT system with one encoder per source language and one decoder per target language, using a single shared attention mechanism.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Firat2016's approach integrates a single attention mechanism that performs an affine transformation between hidden layers of source and target languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Firat2016's shared attention mechanism requires architectural changes to accommodate the complexity of the shared attention layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Zoph2016 leverages parallel data from other language pairs to reduce ambiguities in multilingual NMT translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Multi-source attention-based NMT uses only one attention mechanism despite having multiple encoders.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The outputs of encoders are combined before feeding into the attention layer to enable shared semantic understanding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "One method of encoder combination involves adding a non-linear layer to the concatenation of encoders' hidden states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Another encoder combination method uses a variant of LSTM that takes gate values from individual LSTM units of the encoders.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The combined hidden states contain information from both encoders, encoding the common semantic of the two source languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The universal NMT framework uses language-mixed vocabularies and forces translation of source sentence representations into target language sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Words in different languages are coded as distinct words in a shared, language-mixed vocabulary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Words with similar meanings or surface forms are expected to be closer in the embedding space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The proposed encoder behaves similarly to the multi-source approach BIBREF10 by collecting information from other sources for better translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The approach uses only one encoder, reducing the number of parameters to learn and simplifying the architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The method does not depend on the specific recurrent unit (GRU, LSTM, or RNN) used in the encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The framework enables many-to-many translation by applying the same trick to both source and target sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Capability"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Words with the same surface form across languages, such as @de@Obama and @en@Obama, are treated as semantically similar.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Words with similar surface forms, such as @de@Projektion and @en@projection, are considered semantically similar.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Words with similar meanings in the same language, such as @en@car and @en@automobile, are semantically close in the embedding space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Words with similar meanings across languages, such as @de@Flussufer and @en@bank, are treated as semantically similar.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Multi-target translation involves exploiting the semantic correlation between target sentences across different languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The approach in BIBREF8 uses multiple decoders for different target languages, whereas the proposed method uses only one decoder for all target languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The system employs a single decoder that supports translation into multiple target languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The system uses a single encoder that supports multiple source languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The attention mechanism learns alignments between source and target words, enabling effective translation across language pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The number of rare words increases with the number of languages, which can be mitigated by applying rare word treatment methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Translation ambiguity increases due to words with similar meanings across languages appearing in both source and target sides.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Target forcing is implemented by adding special symbols at the beginning and end of source sentences to indicate the target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "A special symbol is added to source sentences to indicate the target language, helping to guide attention and translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The proposed method has considerably fewer parameters than other multi-task learning approaches, reducing overfitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The method differs from BIBREF9's complete multi-task learning approach in terms of network simplicity and parameter efficiency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The proposed method contrasts with the approach in BIBREF11 by enabling seamless integration of attention layers with reduced network complexity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The target-forced sentence is a sentence where the target language is enforced during training to guide the network in learning the translation of following target words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Recurrent units used in the encoder and decoder have a nature that encourages the network to learn the translation of following target words in a particular language pair during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "During testing, information provided about the target language helps limit the translated candidates, resulting in a translation in the desired language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Figure FIGREF8 illustrates the essence of the proposed approach involving target forcing and language-specific coding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Illustration"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Language-specific coding is a preprocessing step that enables the model to adapt to the characteristics of a specific language during translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Target forcing is a preprocessing step that forces the model to generate translations in a specific target language during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Multilingual attention-based neural machine translation can be employed without special training treatment using language-specific coding and target forcing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The encoder and attention-enabled decoder are structured as a shared encoder and decoder across languages, or an universal encoder and decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Structure"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The approach is flexible enough to integrate any language into either the source or target side of translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The approach has proven to be extremely helpful in low-resourced language translation scenarios.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The approach is also beneficial in translating well-resourced language pairs by enabling the use of large monolingual corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "WIT3's TED corpus is used as the basis for experiments due to being the only high-quality parallel data available for many low-resourced language pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Data"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The TED corpus includes multilingual talks commonly translated into many languages and contains between 13,000 and 17,000 sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "A larger corpus from WMT organizers, including data from the European Parliament (EPPS), News Commentary (NC), and CommonCrawl, is used for evaluating the impact of the approach in real machine translation campaigns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Data"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The total number of sentences in the larger WMT corpus is approximately 3 million.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Quantity"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "All experiments are conducted using the NMT framework Nematus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Framework"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Subword segmentation is handled during the preprocessing phase using Byte-Pair Encoding (BPE).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preprocessing Step"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The preprocessing method for subword segmentation follows the work of Sennrich2016a.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The number of BPE merging operations is set to 39500 on the joint of source and target data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Sentence pairs longer than 50 words are removed during training and shuffled within each minibatch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The short-list vocabulary contains the 40,000 most frequent words, with the rest treated as rare words and handled via subword translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "A 1024-cell GRU layer is used in the model architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The model uses 1000-dimensional embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Dropout is applied with a probability of 0.2 in the embedding and hidden layers, and 0.1 in the input and output layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Gradient descent with Adadelta is used for optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Training is conducted on minibatches of size 80.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The gradient is rescaled whenever its norm exceeds 1.0 during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "All trainings last approximately seven days if early-stopping is not reached.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Early stopping is determined by an external evaluation script on BLEU using a development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The model with the best BLEU score on the development set is selected, not the one with maximal log-likelihood.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The framework produces inline-formatted best candidates, followed by beam search with a beam size of 12 to generate the final translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Under-resourced translation refers to the scenario where a small portion of a large parallel corpus (e.g., English-German) is used to simulate limited parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The mix-source approach involves using German monolingual data as an additional input (German \u2192 German) to enrich training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Including monolingual data helps the NMT model obtain a better representation of the source side, improving translation accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The inclusion of monolingual data improves the translation of rare word types such as named entities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The ultimate goal is to investigate the advantages of multilinguality in neural machine translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "A similar portion of the French-German parallel corpus is incorporated into the English-German training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "Incorporating French-German data is expected to reduce ambiguity in translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Mix-multi-source is a system that utilizes semantic context from multiple source languages and corresponding target languages to improve translation performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "The mix-source system achieves a 2.6 BLEU point improvement on tst2013 and a 2.1 BLEU point improvement on tst2014 compared to a baseline NMT system trained solely on TED English-German data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The mix-source system shows better improvement than the mix-multi-source system, suggesting that shared semantic information across two languages is more effective than information from multiple languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Adding French data to the source and German data to the target side in the mix-multi-source system improves performance by 2.2 BLEU points on tst2013 and 1.6 BLEU points on tst2014.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "t-SNE is used to project word embeddings from the mix-multi-source system into a 2D space for visualization of semantic similarity across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Word embeddings from the mix-multi-source system are extracted from the encoder and projected to 2D space after removing language-specific codes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Monolingual data is readily available for any language and can be used to enhance NMT systems without requiring parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Sennrich et al. (2016) created a synthesis parallel dataset by translating monolingual German data into English using a separate German-to-English NMT system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Gulcehre et al. (2015) trained a language model to score monolingual data and integrated it into an NMT system via shallow or deep fusion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The mix-source method allows training a single NMT system using both parallel and monolingual data, avoiding the need to train multiple separate systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "A substantial monolingual corpus composed of EPPS, NC, and CommonCrawl is used in training a mix-source NMT system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "After training, words from different languages are found to be close in a shared semantic space when translated into a common language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "The baseline NMT is trained solely on small parallel data and serves as a reference point for performance comparison.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The mix-multi-source strategy involves using different source information to improve translation performance, but not using the same source information leads to performance degradation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The main reasons for the performance degradation in the system are the magnitude and unbalancing of the corpus, where only 0.5% of the four million sentences are genuine parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "After continuing training on the real parallel corpus for additional epochs, the system improves by +1.52 BLEU on tst2013 and +1.06 BLEU on tst2014.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "Zero-resourced translation is a challenging scenario where no parallel data exists between the source and target language pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "To the best of known literature, no published work has yet used NMT for zero-resourced translation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The bridge strategy uses language-specific coding and target forcing in a many-to-many multilingual NMT to simulate zero-resourced translation between German and French using German-English and English-French corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The universal strategy is a variant of the bridge strategy that incorporates French-French data to strengthen the connection between German and French.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "The direct system is an NMT trained on German-to-French data and is considered a non-realistic 'perfect' system for comparison in zero-resourced translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "The pivot system consists of two separate NMTs: one translating from German to English and another from English to French, used to generate French translations from German input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "English-English data is used as a 'bridge' to connect German and French corpora in the bridge strategy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "The bridge and universal strategies are evaluated on German-to-French translation tasks using two test sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "The English INLINEFORM2 German NMT system is a neural machine translation system that translates English to German using a multilingual framework.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "The number of BPE merging operations is increased proportionally when more than two languages are involved to reduce the number of rare words in the system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "The target forcing mechanism is a method that guides the NMT system to translate into the desired target language by applying a forcing symbol after language-specific coding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "Both bridge and universal systems perform worse than the pivot system in multilingual translation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The bridge and universal systems differ by 1.07 BLEU points, which is attributed to the addition of more French target data in the universal strategy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "The limited number of target language sentences in the training corpus can affect model training, especially in under-resourced translation scenarios.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "Future work will focus on improving the multilingual attention-based NMT framework to address data imbalance and enhance target language forcing mechanisms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future Work"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "The proposed systems are not expected to perform well with primitive direct translating connections due to the difficulty of the task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "The proposed approach enables the use of attention mechanisms in multilingual translation without requiring complex architectural redesign.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "The number of free parameters in the proposed multilingual NMT system does not exceed that of a single NMT system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "The proposed approach shows considerable improvements in under-resourced translation tasks where direct parallel corpora are lacking.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "Data imbalance in the training corpus is a problem that affects the performance of the multilingual translation framework.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Issue"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "The target forcing strength may be insufficient because the forcing symbol is applied uniformly across all source sentences, leading to incorrect language translation propagation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.5% parallel data",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "1.06 BLEU",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "1.52 BLEU",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "1.6 BLEU points",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "1000-dimensional embeddings",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "1024-cell GRU layer",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "2.1 BLEU points",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "2.2 BLEU points",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "2.6 BLEU points",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "3 million sentences",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "3 million sentences",
+      "Quantity",
+      "s88"
+    ],
+    [
+      "39500",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "40,000 most frequent words",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "50-word length",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "@de@",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "@de@Flussufer; @en@bank",
+      "Example",
+      "s61"
+    ],
+    [
+      "@de@Obama; @en@Obama",
+      "Example",
+      "s58"
+    ],
+    [
+      "@de@Projektion; @en@projection",
+      "Example",
+      "s59"
+    ],
+    [
+      "@en@car; @en@automobile",
+      "Example",
+      "s60"
+    ],
+    [
+      "Adadelta optimization",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF0",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "BIBREF1",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "BIBREF11",
+      "Comparison",
+      "s73"
+    ],
+    [
+      "BIBREF11",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "BIBREF12",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "BIBREF2",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "BIBREF8",
+      "Approach",
+      "s41"
+    ],
+    [
+      "BIBREF8",
+      "Comparison",
+      "s63"
+    ],
+    [
+      "BIBREF8",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "BIBREF8",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "BIBREF9",
+      "Comparison",
+      "s72"
+    ],
+    [
+      "BIBREF9",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "BLEU",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "BLEU",
+      "Result",
+      "s113"
+    ],
+    [
+      "BLEU evaluation",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "BLEU improvement",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "BLEU points",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "BLEU score difference",
+      "Result",
+      "s140"
+    ],
+    [
+      "BPE merging operations",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "BPE merging operations",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "BPE merging operations",
+      "Property",
+      "s137"
+    ],
+    [
+      "BPE merging operations",
+      "Property",
+      "s92"
+    ],
+    [
+      "Byte-Pair",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "CommonCrawl",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "CommonCrawl",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "Creative Commons Attribution 4.0 International License",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "EPPS",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "EPPS",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "EPPS+NC+CommonCrawl",
+      "Data",
+      "s122"
+    ],
+    [
+      "English",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "English",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "English INLINEFORM2 German NMT system",
+      "Definition",
+      "s136"
+    ],
+    [
+      "English to French",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "English-English data",
+      "Property",
+      "s134"
+    ],
+    [
+      "English-English data",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "English-French corpora",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "English-German",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "Figure FIGREF8",
+      "Illustration",
+      "s77"
+    ],
+    [
+      "Firat2016",
+      "Approach",
+      "s42"
+    ],
+    [
+      "Firat2016",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "French",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "French data",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "French-French data",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "French-German parallel corpus",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "French-German parallel corpus",
+      "Process",
+      "s110"
+    ],
+    [
+      "GRU",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "GRU layer",
+      "Property",
+      "s95"
+    ],
+    [
+      "German",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "German",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "German data",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "German to English",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "German to French translation",
+      "Task",
+      "s135"
+    ],
+    [
+      "German-English corpora",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "German-French translation",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "Introduction",
+      "Neural Machine Introduction",
+      "e1"
+    ],
+    [
+      "LSTM",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "LSTM variant",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "Luong2016",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "Luong2016",
+      "Result",
+      "s38"
+    ],
+    [
+      "NC",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "NMT",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "NMT",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "NMT for zero-resourced translation",
+      "Claim",
+      "s129"
+    ],
+    [
+      "NMT system",
+      "Definition",
+      "s13"
+    ],
+    [
+      "NMT system",
+      "Future Work Improvements",
+      "e14"
+    ],
+    [
+      "NMT system",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "Nematus",
+      "Framework",
+      "s89"
+    ],
+    [
+      "Nematus",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "Neural Machine",
+      "Neural Machine Introduction",
+      "e1"
+    ],
+    [
+      "Neural Machine Translation (NMT)",
+      "Definition",
+      "s1"
+    ],
+    [
+      "News Commentary",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "RNN",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "RNN-based language model",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "SMT",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "Sennrich2016a",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "Sennrich2016a",
+      "Reference",
+      "s91"
+    ],
+    [
+      "TED English-German",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "TED corpus",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "TED corpus",
+      "Property",
+      "s86"
+    ],
+    [
+      "Table TABREF23",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "Table TABREF24",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "Translation",
+      "Translation",
+      "e2"
+    ],
+    [
+      "WIT3's TED corpus",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "WIT3's TED corpus",
+      "Training Data",
+      "s85"
+    ],
+    [
+      "WMT organizers' corpus",
+      "Training Data",
+      "s87"
+    ],
+    [
+      "Zoph2016",
+      "Definition",
+      "s45"
+    ],
+    [
+      "Zoph2016",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "adaptation training",
+      "Result",
+      "s127"
+    ],
+    [
+      "affine transformation",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "alignment model",
+      "Definition",
+      "s25"
+    ],
+    [
+      "ambiguity in translation",
+      "Problem",
+      "s68"
+    ],
+    [
+      "ambiguity level",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "annotation vector",
+      "Definition",
+      "s19"
+    ],
+    [
+      "annotation vector",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "annotation vectors",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "architecture modification",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "architecture modification",
+      "Requirement",
+      "s44"
+    ],
+    [
+      "attention mechanism",
+      "Absence",
+      "s40"
+    ],
+    [
+      "attention mechanism",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "attention mechanism",
+      "Definition",
+      "s23"
+    ],
+    [
+      "attention mechanism",
+      "Definition",
+      "s5"
+    ],
+    [
+      "attention mechanism",
+      "Limitation",
+      "s9"
+    ],
+    [
+      "attention mechanism",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "attention mechanism",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "attention mechanism",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "attention mechanism",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "attention mechanism",
+      "Property",
+      "s144"
+    ],
+    [
+      "attention mechanism",
+      "Result",
+      "s6"
+    ],
+    [
+      "attention mechanism",
+      "Result",
+      "s66"
+    ],
+    [
+      "attention weights",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "attention-based NMT",
+      "Definition",
+      "s22"
+    ],
+    [
+      "attention-based NMT",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "backpropagation",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "balancing data",
+      "Future Work Improvements",
+      "e14"
+    ],
+    [
+      "baseline NMT",
+      "Definition",
+      "s124"
+    ],
+    [
+      "baseline NMT",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "beam search",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "beam size 12",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "bidirectional recurrent encoder",
+      "Definition",
+      "s16"
+    ],
+    [
+      "bidirectional recurrent encoder",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "bridge and universal systems",
+      "Result",
+      "s139"
+    ],
+    [
+      "bridge strategy",
+      "Definition",
+      "s130"
+    ],
+    [
+      "bridge strategy",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "bridge system",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "combined hidden states",
+      "Result",
+      "s50"
+    ],
+    [
+      "common semantic",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "common semantic space",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "concatenation of hidden states",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "context vector",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "context vector",
+      "Definition",
+      "s17"
+    ],
+    [
+      "context vector",
+      "Definition",
+      "s27"
+    ],
+    [
+      "context vector",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "context vector",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "context vector",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "copying rare target words",
+      "Method",
+      "s30"
+    ],
+    [
+      "corpus magnitude and unbalancing",
+      "Cause",
+      "s126"
+    ],
+    [
+      "data imbalance",
+      "Issue",
+      "s147"
+    ],
+    [
+      "decoder",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "decoder",
+      "Function",
+      "s37"
+    ],
+    [
+      "decoder",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "decoder",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "decoder",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "decoder",
+      "Property",
+      "s15"
+    ],
+    [
+      "decoder",
+      "Property",
+      "s4"
+    ],
+    [
+      "decoder",
+      "Property",
+      "s64"
+    ],
+    [
+      "decoder hidden state",
+      "Property",
+      "s20"
+    ],
+    [
+      "deep fusion",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "detailed analyses",
+      "Future Work Improvements",
+      "e14"
+    ],
+    [
+      "development set",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "direct system",
+      "Definition",
+      "s132"
+    ],
+    [
+      "direct system",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "direct translating connections",
+      "Claim",
+      "s143"
+    ],
+    [
+      "direct translating connections",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "dropout 0.1",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "dropout 0.2",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "dropout probability",
+      "Property",
+      "s97"
+    ],
+    [
+      "early-stopping condition",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "early-stopping condition",
+      "Process",
+      "s102"
+    ],
+    [
+      "embedding space",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "embeddings",
+      "Property",
+      "s96"
+    ],
+    [
+      "encoder",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "encoder",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "encoder",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "encoder",
+      "Property",
+      "s14"
+    ],
+    [
+      "encoder",
+      "Property",
+      "s3"
+    ],
+    [
+      "encoder",
+      "Property",
+      "s65"
+    ],
+    [
+      "encoder output combination",
+      "Result",
+      "s47"
+    ],
+    [
+      "encoder-decoder",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "encoder-decoder architecture",
+      "Definition",
+      "s35"
+    ],
+    [
+      "encoder-decoder architecture",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "end-to-end training",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "feedforward layers",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "feedforward network",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "fixed-length context vectors",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "flexibility",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "flexibility",
+      "Property",
+      "s82"
+    ],
+    [
+      "forward and backward directions",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "four millions sentences",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "framework universarity",
+      "Future Work Improvements",
+      "e14"
+    ],
+    [
+      "free parameters",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "gradient rescaling",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "gradient rescaling",
+      "Process",
+      "s100"
+    ],
+    [
+      "gulcehre2015",
+      "Method",
+      "s120"
+    ],
+    [
+      "gulcehre2015",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "hidden layer",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "hidden state",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "hyperparameters",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "image captioning",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "independent of recurrent unit",
+      "Property",
+      "s56"
+    ],
+    [
+      "language pairs",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "language-mixed vocabularies",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "language-mixed vocabularies",
+      "Property",
+      "s52"
+    ],
+    [
+      "language-specific coding",
+      "Definition",
+      "s78"
+    ],
+    [
+      "language-specific coding",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "language-specific coding",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "language-specific coding",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "learnable layer",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "low-resourced scenarios",
+      "Benefit",
+      "s83"
+    ],
+    [
+      "many-to-many translation",
+      "Capability",
+      "s57"
+    ],
+    [
+      "many-to-many translation",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "many-to-many translation",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "minibatch shuffling",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "minibatch size",
+      "Property",
+      "s99"
+    ],
+    [
+      "minibatch size 80",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "mix-multi-source",
+      "Definition",
+      "s112"
+    ],
+    [
+      "mix-multi-source",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "mix-multi-source",
+      "Result",
+      "s115"
+    ],
+    [
+      "mix-multi-source strategy",
+      "Definition",
+      "s125"
+    ],
+    [
+      "mix-source",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "mix-source",
+      "Result",
+      "s114"
+    ],
+    [
+      "mix-source approach",
+      "Definition",
+      "s106"
+    ],
+    [
+      "mix-source approach",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "mix-source method",
+      "Advantage",
+      "s121"
+    ],
+    [
+      "model selection",
+      "Process",
+      "s103"
+    ],
+    [
+      "monolingual data",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "monolingual data",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "monolingual data",
+      "Property",
+      "s118"
+    ],
+    [
+      "multi-source approach BIBREF10",
+      "Comparison",
+      "s54"
+    ],
+    [
+      "multi-source attention",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "multi-source attention-based NMT",
+      "Property",
+      "s46"
+    ],
+    [
+      "multi-target translation",
+      "Definition",
+      "s62"
+    ],
+    [
+      "multi-target translation",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "multi-task NMT",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "multi-task learning",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "multilingual NMT",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "multilingual NMT",
+      "Challenge",
+      "s10"
+    ],
+    [
+      "multilingual NMT",
+      "Definition",
+      "s7"
+    ],
+    [
+      "multilingual NMT",
+      "Property",
+      "s8"
+    ],
+    [
+      "multilingual NMT",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "multilingual NMT framework",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "multilingual attention-based NMT",
+      "Future Work",
+      "s142"
+    ],
+    [
+      "multilingual attention-based NMT",
+      "Method",
+      "s80"
+    ],
+    [
+      "multilingual attention-based NMT",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "multilingual attention-based NMT",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "multilingual scenarios",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "multilinguality",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "multilinguality in NMT",
+      "Goal",
+      "s109"
+    ],
+    [
+      "multilinguality in NMT",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "multiple decoders",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "multiple encoders",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "multiple encoders",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "multiple encoders and decoders",
+      "Architecture",
+      "s39"
+    ],
+    [
+      "multiple source languages",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "multiple target languages",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "named entities",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "named entities",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "network complexity",
+      "Property",
+      "s71"
+    ],
+    [
+      "neural machine translation (NMT)",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "neural machine translation (NMT)",
+      "Property",
+      "s34"
+    ],
+    [
+      "non-linear layer",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "non-linear layer on concatenation",
+      "Definition",
+      "s48"
+    ],
+    [
+      "number of free parameters",
+      "Property",
+      "s145"
+    ],
+    [
+      "one decoder",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "one-to-many NMT",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "optimization method",
+      "Property",
+      "s98"
+    ],
+    [
+      "out-of-vocabulary (OOV) words",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "out-of-vocabulary (OOV) words",
+      "Problem",
+      "s29"
+    ],
+    [
+      "parallel corpora",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "parallel corpus",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "parallel data",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "parallel data",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "parsing",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "phrase-based Statistical Machine Translation (SMT)",
+      "Definition",
+      "s2"
+    ],
+    [
+      "pivot system",
+      "Definition",
+      "s133"
+    ],
+    [
+      "pivot system",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "pivot system",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "rare word translation",
+      "Result",
+      "s108"
+    ],
+    [
+      "rare word types",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "rare words",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "rare words",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "rare words",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "rare words",
+      "Problem",
+      "s67"
+    ],
+    [
+      "recurrent unit",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "recurrent unit",
+      "Property",
+      "s18"
+    ],
+    [
+      "recurrent units",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "recurrent units",
+      "Property",
+      "s75"
+    ],
+    [
+      "relevance",
+      "Property",
+      "s24"
+    ],
+    [
+      "relevance scores",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "relevance scores",
+      "Result",
+      "s26"
+    ],
+    [
+      "segmenting rare words",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "semantic similarity",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "semantic similarity in embedding space",
+      "Result",
+      "s53"
+    ],
+    [
+      "sennrich2016b",
+      "Method",
+      "s119"
+    ],
+    [
+      "sennrich2016b",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "sentence pairs exceeding 50-word length",
+      "Process",
+      "s93"
+    ],
+    [
+      "seven days training",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "shallow fusion",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "shared attention mechanism",
+      "Property",
+      "s43"
+    ],
+    [
+      "shared embedding space",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "shared embedding space",
+      "Property",
+      "s36"
+    ],
+    [
+      "shared encoder and decoder",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "shared encoder and decoder",
+      "Structure",
+      "s81"
+    ],
+    [
+      "shared space",
+      "Definition",
+      "s123"
+    ],
+    [
+      "shared space",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "shared word embedding matrix",
+      "Property",
+      "s21"
+    ],
+    [
+      "short-list vocabularies",
+      "Definition",
+      "s94"
+    ],
+    [
+      "single encoder",
+      "Advantage",
+      "s55"
+    ],
+    [
+      "single target language",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "small parallel data",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "soft alignment",
+      "Property",
+      "s28"
+    ],
+    [
+      "source and target data",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "source sentence",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "source sentences",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "source sentences",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "source states",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "source-side representation",
+      "Result",
+      "s107"
+    ],
+    [
+      "special symbol",
+      "Definition",
+      "s70"
+    ],
+    [
+      "special symbol",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "subword NMT",
+      "Definition",
+      "s32"
+    ],
+    [
+      "subword segmentation",
+      "Preprocessing Step",
+      "s90"
+    ],
+    [
+      "subword translation",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "subword units",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "subword units",
+      "Method",
+      "s31"
+    ],
+    [
+      "surface form",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "t-SNE",
+      "Method",
+      "s116"
+    ],
+    [
+      "t-SNE",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "target forcing",
+      "Definition",
+      "s79"
+    ],
+    [
+      "target forcing",
+      "Method",
+      "s69"
+    ],
+    [
+      "target forcing",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "target forcing",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "target forcing",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "target forcing mechanism",
+      "Definition",
+      "s138"
+    ],
+    [
+      "target forcing mechanism",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "target language",
+      "Future Work Improvements",
+      "e14"
+    ],
+    [
+      "target language",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "target language",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "target language forcing strength",
+      "Problem",
+      "s148"
+    ],
+    [
+      "target vocabulary",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "target word",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "target word",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "target word prediction",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "target-forced sentence",
+      "Definition",
+      "s74"
+    ],
+    [
+      "target-forced sentence",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "training corpus",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "training corpus balancing",
+      "Cause",
+      "s141"
+    ],
+    [
+      "training duration",
+      "Result",
+      "s101"
+    ],
+    [
+      "training parameters",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "training time",
+      "Result",
+      "s76"
+    ],
+    [
+      "translation",
+      "Multilingual NMT",
+      "e6"
+    ],
+    [
+      "translation ambiguity",
+      "Result",
+      "s111"
+    ],
+    [
+      "translation candidates",
+      "Process",
+      "s104"
+    ],
+    [
+      "tst2013",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "tst2013",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "tst2014",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "tst2014",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "twenty thousands sentences",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "unbalanced training",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "under-resourced translation",
+      "Definition",
+      "s105"
+    ],
+    [
+      "under-resourced translation",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "under-resourced translation",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "under-resourced translation",
+      "NMT Training Setup",
+      "e10"
+    ],
+    [
+      "under-resourced translation task",
+      "Result",
+      "s146"
+    ],
+    [
+      "unified approach",
+      "Definition",
+      "s11"
+    ],
+    [
+      "unified approach",
+      "Multilingual NMT Extension",
+      "e3"
+    ],
+    [
+      "unified approach",
+      "Property",
+      "s12"
+    ],
+    [
+      "universal decoder",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "universal encoder",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "universal encoder",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "universal encoder and decoder",
+      "Concept",
+      "s33"
+    ],
+    [
+      "universal encoder and decoder",
+      "Definition",
+      "s51"
+    ],
+    [
+      "universal encoder and decoder",
+      "NMT Preprocessing",
+      "e9"
+    ],
+    [
+      "universal strategy",
+      "Definition",
+      "s131"
+    ],
+    [
+      "universal strategy",
+      "Zero-Resourced Translation",
+      "e12"
+    ],
+    [
+      "universal system",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "variant of LSTM with gate values",
+      "Definition",
+      "s49"
+    ],
+    [
+      "various strategies",
+      "Future Work Improvements",
+      "e14"
+    ],
+    [
+      "vocabulary size",
+      "Multilingual NMT Attention",
+      "e8"
+    ],
+    [
+      "well-resourced language pairs",
+      "Benefit",
+      "s84"
+    ],
+    [
+      "word alignment",
+      "Attention Mechanism in NMT",
+      "e5"
+    ],
+    [
+      "word coding",
+      "Multilingual NMT Approach",
+      "e7"
+    ],
+    [
+      "word embedding matrix",
+      "Multilingual NMT Framework",
+      "e4"
+    ],
+    [
+      "word embeddings",
+      "Mix-Source NMT Performance",
+      "e11"
+    ],
+    [
+      "word embeddings",
+      "Property",
+      "s117"
+    ],
+    [
+      "wrong language",
+      "Multilingual NMT Performance",
+      "e13"
+    ],
+    [
+      "zero-resourced translation",
+      "Definition",
+      "s128"
+    ],
+    [
+      "zero-resourced translation",
+      "Multilingual NMT Framework",
+      "e4"
+    ]
+  ]
+}

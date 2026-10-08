@@ -1,0 +1,4056 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 105,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "hashtag": {
+      "tag_set": [
+        "Definition",
+        "Function",
+        "Hashtag Segmentation",
+        "Information Content",
+        "Language Extension",
+        "Use"
+      ]
+    },
+    "#": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "alphanumeric": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "underscore": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Twitter": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Instagram": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "search": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "trending topics": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "emotion": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "sentiment": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "sarcasm": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "named entities": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "event names": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "abbreviation": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "non-standard spelling": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "lion head": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "lionhead": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "iloveu4eva": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "12,594 hashtags": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "1,108 hashtags": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "multi-step annotation": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "pairwise ranking": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Language Extension"
+      ]
+    },
+    "neural architectures": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Method"
+      ]
+    },
+    "corpus-based features": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "linguistic features": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Model Architecture",
+        "Model Ranking Loss",
+        "Pairwise Ranking Model",
+        "Property"
+      ]
+    },
+    "thesaurus based features": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "multi-task learning": {
+      "tag_set": [
+        "Approach",
+        "Hashtag Segmentation",
+        "Procedure"
+      ]
+    },
+    "single- vs. multi-token classification": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "24.6% error reduction": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "SemEval 2017": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "sentiment analysis": {
+      "tag_set": [
+        "Downstream Application",
+        "Hashtag Segmentation"
+      ]
+    },
+    "state-of-the-art sentiment analysis": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "word boundary detection": {
+      "tag_set": [
+        "Definition",
+        "Hashtag Segmentation"
+      ]
+    },
+    "ranking with language model": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "maximum entropy": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "CRF models": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "sliding window": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "linear regression model": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "lexical features": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Pairwise Ranking Model"
+      ]
+    },
+    "bigram features": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "compound splitting": {
+      "tag_set": [
+        "Definition",
+        "Hashtag Segmentation"
+      ]
+    },
+    "German": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Finnish": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "word segmentation": {
+      "tag_set": [
+        "Definition",
+        "Hashtag Segmentation"
+      ]
+    },
+    "Chinese": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Microsoft Word Breaker": {
+      "tag_set": [
+        "Cause",
+        "Hashtag Segmentation",
+        "Method",
+        "Pairwise Ranking Model"
+      ]
+    },
+    "beam search algorithm": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Method"
+      ]
+    },
+    "n-gram language model": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Property"
+      ]
+    },
+    "Twitter data": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Training Data"
+      ]
+    },
+    "URL segmentation": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "state-of-the-art approach": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Result"
+      ]
+    },
+    "evaluation": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "section": {
+      "tag_set": [
+        "Section Reference"
+      ]
+    },
+    "results": {
+      "tag_set": [
+        "Section Reference"
+      ]
+    },
+    "\u00a7": {
+      "tag_set": [
+        "Section Reference"
+      ]
+    },
+    "SECREF46": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Method"
+      ]
+    },
+    "pairwise ranking method": {
+      "tag_set": [
+        "Pairwise Ranking Method",
+        "Proposed Method"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Model",
+        "Result"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Model",
+        "Training Objective"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Model",
+        "Training Objective"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Model",
+        "Property"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Model"
+      ]
+    },
+    "INLINEFORM5": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Model"
+      ]
+    },
+    "INLINEFORM6": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Pairwise Ranking Model"
+      ]
+    },
+    "INLINEFORM7": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "TABLE TABREF9": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "Levenshtein distance": {
+      "tag_set": [
+        "Pairwise Ranking Model",
+        "Property"
+      ]
+    },
+    "SECREF2": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "SECREF23": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "BIBREF25": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "Good-Turing": {
+      "tag_set": [
+        "Pairwise Ranking Model"
+      ]
+    },
+    "Kneser-Ney smoothing": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Ranking Loss",
+        "Pairwise Ranking Model",
+        "Property"
+      ]
+    },
+    "INLINEFORM8": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "MSE": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "DISPLAYFORM0": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Training Objective"
+      ]
+    },
+    "BIBREF26": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "cohen1998learning": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "BIBREF27": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "preference ranking": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "segmentation": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "FIGREF11": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "SECREF15": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "SECREF17": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "BIBREF28": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "Margin Ranking Loss": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "MR": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "ngram probabilities": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "Good-Turing smoothing": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Architecture and Experiments",
+        "Model Ranking Loss",
+        "Property"
+      ]
+    },
+    "adaptive gating value": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture",
+        "Model Ranking Loss"
+      ]
+    },
+    "binary classification task": {
+      "tag_set": [
+        "Definition",
+        "Model Ranking Loss"
+      ]
+    },
+    "single-word hashtags": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "multi-word hashtags": {
+      "tag_set": [
+        "Model Ranking Loss",
+        "Property"
+      ]
+    },
+    "feature vectors": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "feedforward networks": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "shared parameters": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "ranking layer": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "training samples": {
+      "tag_set": [
+        "Model Ranking Loss"
+      ]
+    },
+    "pairwise ranker": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture"
+      ]
+    },
+    "Binary Cross Entropy Error": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "multi-word hashtag": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "training examples": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "feedforward network": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "summation with padding": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "multi-column networks": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "Google Web 1TB corpus": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "Gigaword corpus": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "1.1 billion English tweets": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "SRILM": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Architecture and Experiments"
+      ]
+    },
+    "KenLM": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "Wikipedia titles": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "camel case": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "ends with a number": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "all letters as consonants": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "Word Breaker model": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "PyTorch framework": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "multi-task pairwise ranking model": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "input layer": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "three hidden layers": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "eight nodes": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "hyperbolic tangent activation": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "linear output node": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "auxiliary classifier": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture and Experiments"
+      ]
+    },
+    "one hidden layer": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "sigmoid activation": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "Adam algorithm": {
+      "tag_set": [
+        "Model Architecture and Experiments",
+        "Property"
+      ]
+    },
+    "dropout 0.5": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "learning rate 0.01": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "learning rate 0.05": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "100 epochs": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "Word Breaker": {
+      "tag_set": [
+        "Definition",
+        "Hashtag Segmentation",
+        "Model Architecture and Experiments"
+      ]
+    },
+    "1.1 billion tweets": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "STAN INLINEFORM0": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture and Experiments"
+      ]
+    },
+    "1,108 unique English hashtags": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "1,268 randomly selected tweets": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "Stanford Sentiment Analysis Dataset": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "STAN INLINEFORM1": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture and Experiments"
+      ]
+    },
+    "12,594 unique English hashtags": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "Viterbi model": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "book corpus": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "GATE Hashtag Tokenizer": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "maximum entropy classifier": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture and Experiments"
+      ]
+    },
+    "beam search": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "Twitter ngram language model": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "pairwise": {
+      "tag_set": [
+        "Model Architecture and Experiments"
+      ]
+    },
+    "linear ranker": {
+      "tag_set": [
+        "Definition",
+        "Hashtag Segmentation"
+      ]
+    },
+    "perceptron": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "hinge loss": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Property"
+      ]
+    },
+    "STAN INLINEFORM2": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "A@1": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "A@2": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "F INLINEFORM2": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "MRR": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "segmentation-level": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "multi-token hashtag": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "2,518 manually segmented hashtags": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "MSE+multitask": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "MR and MSE": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "16.5% error reduction": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "SOTA BIBREF14": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Single-token hashtags": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Twitter-specific language model": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "4-gram language model": {
+      "tag_set": [
+        "Hashtag Segmentation",
+        "Property"
+      ]
+    },
+    "476 million tweets": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "2009": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "#BTVbrownSMB": {
+      "tag_set": [
+        "Example",
+        "Hashtag Segmentation"
+      ]
+    },
+    "Social Media Breakfast (SMB)": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Burlington, Vermont (BTV)": {
+      "tag_set": [
+        "Hashtag Segmentation"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "English hashtags": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Ohio Supercomputer Center": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "NVIDIA": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Alan Ritter": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Quanze Chen": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Wang Ling": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Pravar Mahajan": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Dushyanta Dhyani": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Sarah Flanagan": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Kaushik Mani": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Aswathnarayan Radhakrishnan": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "NSF": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "IIS-1822754": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "IIS-1755898": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "DARPA": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "ARO": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "W911NF-17-C-0095": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Figure-Eight": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "CrowdFlower": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "AI for Everyone Award": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Criteo Faculty Research Award": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "Wei Xu": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "word shape rules": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "candidate segmentation": {
+      "tag_set": [
+        "Language Extension"
+      ]
+    },
+    "hashtag segmentation": {
+      "tag_set": [
+        "Challenge",
+        "Definition"
+      ]
+    },
+    "lion head vs. lionhead": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "named entities and event names": {
+      "tag_set": [
+        "Challenge"
+      ]
+    },
+    "short hashtags": {
+      "tag_set": [
+        "Design Purpose"
+      ]
+    },
+    "abbreviations and non-standard spelling": {
+      "tag_set": [
+        "Characteristic"
+      ]
+    },
+    "dataset": {
+      "tag_set": [
+        "Contribution"
+      ]
+    },
+    "segmentation task": {
+      "tag_set": [
+        "Problem Formulation"
+      ]
+    },
+    "sentiment analysis performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "gazeteer and rule-based approaches": {
+      "tag_set": [
+        "Background"
+      ]
+    },
+    "ranking with language model and other features": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "BansalBV15": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "maximum entropy and CRF models": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Binomial and word length distribution based ranking": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "pairwise ranking strategy": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "multi-task pairwise neural ranking": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "gold scoring function": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "feature vector": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training objective": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "greedy algorithm": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Margin Ranking (MR) Loss": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "INLINEFORM5 and INLINEFORM6": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training process": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "ngram probabilities with Good-Turing smoothing": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "modified Kneser-Ney smoothing": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "gold labels": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "dropout": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "learning rate": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training epochs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "existing methods": {
+      "tag_set": [
+        "List"
+      ]
+    },
+    "STAN INLINEFORM2 dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "evaluation metrics": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "segmentation-level accuracy": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "token-level F-score": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "results on STAN INLINEFORM0 and STAN INLINEFORM1": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "MSE+multitask model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "error reduction": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "single-token hashtags": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "top-1 prediction": {
+      "tag_set": [
+        "Challenge"
+      ]
+    },
+    "improved Word Breaker": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "pairwise ranking models (MSE)": {
+      "tag_set": [
+        "Analysis"
+      ]
+    },
+    "hashtags": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "token-level F score": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "pairwise neural ranker": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "language models": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "2010 tweets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "2019 hashtags": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "HashtagMaster": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BiLSTM+Lex model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sentiment analysis in Twitter": {
+      "tag_set": [
+        "Evaluation"
+      ]
+    },
+    "sentiment analysis shared task": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "tweet sentiment prediction": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sentiment words only in hashtags": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "entire test set": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "automatic hashtag segmentation": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "emotion analysis": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "sarcasm and irony detection": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "hashtag annotation": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "pre-training representations": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "pairwise neural ranking model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "larger curated dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "language independence": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "word-shape rules": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "hashtag segmenter": {
+      "tag_set": [
+        "Result"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction A hashtag is a keyphrase represented as a sequence of alphanumeric characters plus underscore, preceded by the # symbol. Hashtags play a central role in online communication by providing a tool to categorize the millions of posts generated daily on Twitter, Instagram, etc. They are useful in search, tracking content about a certain topic BIBREF0 , BIBREF1 , or discovering emerging trends BIBREF2 . Hashtags often carry very important information, such as emotion BIBREF3 , sentiment BIBREF4 , sarcasm BIBREF5 , and named entities BIBREF6 , BIBREF7 . However, inferring the semantics of hashtags is non-trivial since many hashtags contain multiple tokens joined together, which frequently leads to multiple potential interpretations (e.g., lion head vs. lionhead). Table TABREF3 shows several examples of single- and multi-token hashtags. While most hashtags represent a mix of standard tokens, named entities and event names are prevalent and pose challenges to both human and automatic comprehension, as these are more likely to be rare tokens. Hashtags also tend to be shorter to allow fast typing, to attract attention or to satisfy length limitations imposed by some social media platforms. Thus, they tend to contain a large number of abbreviations or non-standard spelling variations (e.g., #iloveu4eva) BIBREF8 , BIBREF9 , which hinders their understanding. The goal of our study is to build efficient methods for automatically splitting a hashtag into a meaningful word sequence. Our contributions are: Our new dataset includes segmentation for 12,594 unique hashtags and their associated tweets annotated in a multi-step process for higher quality than the previous dataset of 1,108 hashtags BIBREF10 . We frame the segmentation task as a pairwise ranking problem, given a set of candidate segmentations. We build several neural architectures using this problem formulation which use corpus-based, linguistic and thesaurus based features. We further propose a multi-task learning approach which jointly learns segment ranking and single- vs. multi-token hashtag classification. The latter leads to an error reduction of 24.6% over the current state-of-the-art. Finally, we demonstrate the utility of our method by using hashtag segmentation in the downstream task of sentiment analysis. Feeding the automatically segmented hashtags to a state-of-the-art sentiment analysis method on the SemEval 2017 benchmark dataset results in a 2.6% increase in the official metric for the task. Background and Preliminaries Current approaches for hashtag segmentation can be broadly divided into three categories: (a) gazeteer and rule based BIBREF11 , BIBREF12 , BIBREF13 ,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Hashtag Segmentation"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "(b) word boundary detection BIBREF14 , BIBREF15 , and (c) ranking with language model and other features BIBREF16 , BIBREF10 , BIBREF0 , BIBREF17 , BIBREF18 . Hashtag segmentation approaches draw upon work on compound splitting for languages such as German or Finnish BIBREF19 and word segmentation BIBREF20 for languages with no spaces between words such as Chinese BIBREF21 , BIBREF22 . Similar to our work, BIBREF10 BansalBV15 extract an initial set of candidate segmentations using a sliding window, then rerank them using a linear regression model trained on lexical, bigram and other corpus-based features. The current state-of-the-art approach BIBREF14 , BIBREF15 uses maximum entropy and CRF models with a combination of language model and hand-crafted features to predict if each character in the hashtag is the beginning of a new word. Generating Candidate Segmentations. Microsoft Word Breaker BIBREF16 is, among the existing methods, a strong baseline for hashtag segmentation, as reported in BIBREF14 and BIBREF10 . It employs a beam search algorithm to extract INLINEFORM0 best segmentations as ranked by the n-gram language model probability: INLINEFORM1 where INLINEFORM0 is the word sequence of segmentation INLINEFORM1 and INLINEFORM2 is the window size. More sophisticated ranking strategies, such as Binomial and word length distribution based ranking, did not lead to a further improvement in performance BIBREF16 . The original Word Breaker was designed for segmenting URLs using language models trained on web data. In this paper, we reimplemented and tailored this approach to segmenting hashtags by using a language model specifically trained on Twitter data (implementation details in \u00a7 SECREF26 ). The performance of this method itself is competitive with state-of-the-art methods (evaluation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Hashtag Segmentation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "results in \u00a7",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Section Reference"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "SECREF46 ). Our proposed pairwise ranking method will effectively take the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Pairwise Ranking Method"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "top INLINEFORM3 segmentations generated by this baseline as candidates for reranking. However, in prior work, the ranking scores of each segmentation were calculated independently, ignoring the relative order among the top INLINEFORM0 candidate segmentations. To address this limitation, we utilize a pairwise ranking strategy for the first time for this task and propose neural architectures to model this. Multi-task Pairwise Neural Ranking We propose a multi-task pairwise neural ranking approach to better incorporate and distinguish the relative order between the candidate segmentations of a given hashtag. Our model adapts to address single- and multi-token hashtags differently via a multi-task learning strategy without requiring additional annotations. In this section, we describe the task setup and three variants of pairwise neural ranking models (Figure FIGREF11 ). Segmentation as Pairwise Ranking The goal of hashtag segmentation is to divide a given hashtag INLINEFORM0 into a sequence of meaningful words INLINEFORM1 . For a hashtag of INLINEFORM2 characters, there are a total of INLINEFORM3 possible segmentations but only one, or occasionally two, of them ( INLINEFORM4 ) are considered correct (Table TABREF9 ). We transform this task into a pairwise ranking problem: given INLINEFORM0 candidate segmentations { INLINEFORM1 }, we rank them by comparing each with the rest in a pairwise manner. More specifically, we train a model to predict a real number INLINEFORM2 for any two candidate segmentations INLINEFORM3 and INLINEFORM4 of hashtag INLINEFORM5 , which indicates INLINEFORM6 is a better segmentation than INLINEFORM7 if positive, and vice versa. To quantify the quality of a segmentation in training, we define a gold scoring function INLINEFORM8 based on the similarities with the ground-truth segmentation INLINEFORM9 : INLINEFORM10 We use the Levenshtein distance (minimum number of single-character edits) in this paper, although it is possible to use other similarity measurements as alternatives. We use the top INLINEFORM0 segmentations generated by Microsoft Word Breaker (\u00a7 SECREF2 ) as initial candidates. Pairwise Neural Ranking Model For an input candidate segmentation pair INLINEFORM0 , we concatenate their feature vectors INLINEFORM1 and INLINEFORM2 , and feed them into a feedforward network which emits a comparison score INLINEFORM3 . The feature vector INLINEFORM4 or INLINEFORM5 consists of language model probabilities using Good-Turing BIBREF23 and modified Kneser-Ney smoothing BIBREF24 , BIBREF25 , lexical and linguistic features (more details in \u00a7 SECREF23 ). For training, we use all the possible pairs INLINEFORM6 of the INLINEFORM7 candidates as the input and their gold",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Pairwise Ranking Model"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "scores INLINEFORM8 as the target. The training objective is to minimize the Mean Squared Error (MSE): DISPLAYFORM0 where INLINEFORM0 is the number of training examples. To aggregate the pairwise comparisons, we follow a greedy algorithm proposed by BIBREF26 cohen1998learning and used for preference ranking BIBREF27 . For each segmentation INLINEFORM0 in the candidate set INLINEFORM1 , we calculate a single",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Training Objective"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "score INLINEFORM2 , and find the segmentation INLINEFORM3 corresponding to the highest score. We repeat the same procedure after removing INLINEFORM4 from INLINEFORM5 , and continue until INLINEFORM6 reduces to an empty set. Figure FIGREF11 (a) shows the architecture of this model. Margin Ranking (MR) Loss As an alternative to the pairwise ranker (\u00a7 SECREF15 ), we propose a pairwise model which learns from candidate pairs INLINEFORM0 but ranks each individual candidate directly rather than relatively. We define a new scoring function INLINEFORM1 which assigns a higher score to the better candidate, i.e., INLINEFORM2 , if INLINEFORM3 is a better candidate than INLINEFORM4 and vice-versa. Instead of concatenating the features vectors INLINEFORM5 and INLINEFORM6 , we feed them separately into two identical feedforward networks with shared parameters. During testing, we use only one of the networks to rank the candidates based on the INLINEFORM7 scores. For training, we add a ranking layer on top of the networks to measure the violations in the ranking order and minimize the Margin Ranking Loss (MR): DISPLAYFORM0 where INLINEFORM0 is the number of training samples. The architecture of this model is presented in Figure FIGREF11 (b). Adaptive Multi-task Learning Both models in \u00a7 SECREF15 and \u00a7 SECREF17 treat all the hashtags uniformly. However, different features address different types of hashtags. By design, the linguistic features capture named entities and multi-word hashtags that exhibit word shape patterns, such as camel case. The ngram probabilities with Good-Turing smoothing gravitate towards multi-word segmentations with known words, as its estimate for unseen ngrams depends on the fraction of ngrams seen once which can be very low BIBREF28 . The modified Kneser-Ney smoothing is more likely to favor segmentations that contain rare words, and single-word segmentations in particular. Please refer to \u00a7 SECREF46 for a more detailed quantitative and qualitative analysis. To leverage this intuition, we introduce a binary classification task to help the model differentiate single-word from multi-word hashtags. The binary classifier takes hashtag features INLINEFORM0 as the input and outputs INLINEFORM1 , which represents the probability of INLINEFORM2 being a multi-word hashtag. INLINEFORM3 is used as an adaptive gating value in our multi-task learning setup. The gold labels for this task are obtained at no extra cost by simply verifying whether the ground-truth segmentation has multiple words. We train the pairwise segmentation ranker and the binary single- vs. multi-token hashtag classifier jointly, by minimizing INLINEFORM4 for the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Ranking Loss"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "pairwise ranker and the Binary Cross Entropy Error ( INLINEFORM5 ) for the classifier: DISPLAYFORM0 where INLINEFORM0 is the adaptive gating value, INLINEFORM1 indicates if INLINEFORM2 is actually a multi-word hashtag and INLINEFORM3 is the number of training examples. INLINEFORM4 and INLINEFORM5 are the weights for each loss. For our experiments, we apply equal weights. More specifically, we divide the segmentation feature vector INLINEFORM0 into two subsets: (a) INLINEFORM1 with modified Kneser-Ney smoothing features, and (b) INLINEFORM2 with Good-Turing smoothing and linguistic features. For an input candidate segmentation pair INLINEFORM3 , we construct two pairwise vectors INLINEFORM4 and INLINEFORM5 by concatenation, then combine them based on the adaptive gating value INLINEFORM6 before feeding them into the feedforward network INLINEFORM7 for pairwise ranking: DISPLAYFORM0 We use summation with padding, as we find this simple ensemble method achieves similar performance in our experiments as the more complex multi-column networks BIBREF29 . Figure FIGREF11 (c) shows the architecture of this model. An analogue multi-task formulation can also be used for the Margin Ranking loss as: DISPLAYFORM0 Features We use a combination of corpus-based and linguistic features to rank the segmentations. For a candidate segmentation INLINEFORM0 , its feature vector INLINEFORM1 includes the number of words in the candidate, the length of each word, the proportion of words in an English dictionary or Urban Dictionary BIBREF30 , ngram counts from Google Web 1TB corpus BIBREF31 , and ngram probabilities from trigram language models trained on the Gigaword corpus BIBREF32 and 1.1 billion English tweets from 2010, respectively. We train two language models on each corpus: one with Good-Turing smoothing using SRILM BIBREF33 and the other with modified Kneser-Ney smoothing using KenLM BIBREF34 . We also add boolean features, such as if the candidate is a named-entity present in the list of Wikipedia titles, and if the candidate segmentation INLINEFORM2 and its corresponding hashtag INLINEFORM3 satisfy certain word-shapes (more details in appendix SECREF61 ). Similarly, for hashtag INLINEFORM0 , we extract the feature vector INLINEFORM1 consisting of hashtag length, ngram count of the hashtag in Google 1TB corpus BIBREF31 , and boolean features indicating if the hashtag is in an English dictionary or Urban Dictionary, is a named-entity, is in camel case, ends with a number, and has all the letters as consonants. We also include features of the best-ranked candidate by the Word Breaker model. Implementation Details We use the PyTorch framework to implement",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "our multi-task pairwise ranking model. The pairwise ranker consists of an input layer, three hidden layers with eight nodes in each layer and hyperbolic tangent ( INLINEFORM0 ) activation, and a single linear output node. The auxiliary classifier consists of an input layer, one hidden layer with eight nodes and one output node with sigmoid activation. We use the Adam algorithm BIBREF35 for optimization and apply a dropout of 0.5 to prevent overfitting. We set the learning rate to 0.01 and 0.05 for the pairwise ranker and auxiliary classifier respectively. For each experiment, we report results obtained after 100 epochs. For the baseline model used to extract the INLINEFORM0 initial candidates, we reimplementated the Word Breaker BIBREF16 as described in \u00a7 SECREF2 and adapted it to use a language model trained on 1.1 billion tweets with Good-Turing smoothing using SRILM BIBREF33 to give a better performance in segmenting hashtags (\u00a7 SECREF46 ). For all our experiments, we set INLINEFORM1 . Hashtag Segmentation Data We use two datasets for experiments (Table TABREF29 ): (a) STAN INLINEFORM0 , created by BIBREF10 BansalBV15, which consists of 1,108 unique English hashtags from 1,268 randomly selected tweets in the Stanford Sentiment Analysis Dataset BIBREF36 along with their crowdsourced segmentations and our additional corrections; and (b) STAN INLINEFORM1 , our new expert curated dataset, which includes all 12,594 unique English hashtags and their associated tweets from the same Stanford dataset. Experiments In this section, we present experimental results that compare our proposed method with the other state-of-the-art approaches on hashtag segmentation datasets. The next section will show experiments of applying hashtag segmentation to the popular task of sentiment analysis. Existing Methods We compare our pairwise neural ranker with the following baseline and state-of-the-art approaches: The original hashtag as a single token; A rule-based segmenter, which employs a set of word-shape rules with an English dictionary BIBREF13 ; A Viterbi model which uses word frequencies from a book corpus BIBREF0 ; The specially developed GATE Hashtag Tokenizer from the open source toolkit, which combines dictionaries and gazetteers in a Viterbi-like algorithm BIBREF11 ; A maximum entropy classifier (MaxEnt) trained on the STAN INLINEFORM0 training dataset. It predicts whether a space should be inserted at each position in the hashtag and is the current state-of-the-art BIBREF14 ; Our reimplementation of the Word Breaker algorithm which uses beam search and a Twitter ngram language model BIBREF16 ; A pairwise",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Architecture and Experiments"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "linear ranker which we implemented for comparison purposes with the same features as our neural model, but using perceptron as the underlying classifier BIBREF38 and minimizing the hinge loss between INLINEFORM0 and a scoring function similar to INLINEFORM1 . It is trained on the STAN INLINEFORM2 dataset. Evaluation Metrics We evaluate the performance by the top INLINEFORM0 ( INLINEFORM1 ) accuracy (A@1, A@2), average token-level F INLINEFORM2 score (F INLINEFORM3 @1), and mean reciprocal rank (MRR). In particular, the accuracy and MRR are calculated at the segmentation-level, which means that an output segmentation is considered correct if and only if it fully matches the human segmentation. Average token-level F INLINEFORM4 score accounts for partially correct segmentation in the multi-token hashtag cases. Results Tables TABREF32 and TABREF33 show the results on the STAN INLINEFORM0 and STAN INLINEFORM1 datasets, respectively. All of our pairwise neural rankers are trained on the 2,518 manually segmented hashtags in the training set of STAN INLINEFORM2 and perform favorably against other state-of-the-art approaches. Our best model (MSE+multitask) that utilizes different features adaptively via a multi-task learning procedure is shown to perform better than simply combining all the features together (MR and MSE). We highlight the 24.6% error reduction on STAN INLINEFORM3 and 16.5% on STAN INLINEFORM4 of our approach over the previous SOTA BIBREF14 on the Multi-token hashtags, and the importance of having a separate evaluation of multi-word cases as it is trivial to obtain 100% accuracy for Single-token hashtags. While our hashtag segmentation model is achieving a very high accuracy@2, to be practically useful, it remains a challenge to get the top one predication exactly correct. Some hashtags are very difficult to interpret, e.g., #BTVbrownSMB refers to the Social Media Breakfast (SMB) in Burlington, Vermont (BTV). The improved Word Breaker with our addition of a Twitter-specific language model is a very strong baseline, which echos the findings of the original Word Breaker paper BIBREF16 that having a large in-domain language model is extremely helpful for word segmentation tasks. It is worth noting that the other state-of-the-art system BIBREF14 also utilized a 4-gram language model trained on 476 million tweets from 2009. Analysis and Discussion To empirically illustrate the effectiveness of different features on different types of hashtags, we show the results for models using individual feature sets in pairwise ranking models (MSE) in Table TABREF45 . Language models with modified Kneser-Ney smoothing perform best on single-token",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Hashtag Segmentation"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "hashtags, while Good-Turing and Linguistic features work best on multi-token hashtags, confirming our intuition about their usefulness in a multi-task learning approach. Table TABREF47 shows a qualitative analysis with the first column ( INLINEFORM0 INLINEFORM1 INLINEFORM2 ) indicating which features lead to correct or wrong segmentations, their count in our data and illustrative examples with human segmentation. As expected, longer hashtags with more than three tokens pose greater challenges and the segmentation-level accuracy of our best model (MSE+multitask) drops to 82.1%. For many error cases, our model predicts a close-to-correct segmentation, e.g., #youbrownknowyoubrownupttoobrownearly, #iseebrownlondoniseebrownfrance, which is also reflected by the higher token-level F INLINEFORM0 scores across hashtags with different lengths (Figure FIGREF51 ). Since our approach heavily relies on building a Twitter language model, we experimented with its sizes and show the results in Figure FIGREF52 . Our approach can perform well even with access to a smaller amount of tweets. The drop in F INLINEFORM0 score for our pairwise neural ranker is only 1.4% and 3.9% when using the language models trained on 10% and 1% of the total 1.1 billion tweets, respectively. Language use in Twitter changes with time BIBREF9 . Our pairwise ranker uses language models trained on the tweets from the year 2010. We tested our approach on a set of 500 random English hashtags posted in tweets from the year 2019 and show the results in Table TABREF55 . With a segmentation-level accuracy of 94.6% and average token-level F INLINEFORM0 score of 95.6%, our approach performs favorably on 2019 hashtags. Extrinsic Evaluation: Twitter Sentiment Analysis We attempt to demonstrate the effectiveness of our hashtag segmentation system by studying its impact on the task of sentiment analysis in Twitter BIBREF39 , BIBREF40 , BIBREF41 . We use our best model (MSE+multitask), under the name HashtagMaster, in the following experiments. Experimental Setup We compare the performance of the BiLSTM+Lex BIBREF42 sentiment analysis model under three configurations: (a) tweets with hashtags removed, (b) tweets with hashtags as single tokens excluding the # symbol, and (c) tweets with hashtags as segmented by our system, HashtagMaster. BiLSTM+Lex is a state-of-the-art open source system for predicting tweet-level sentiment BIBREF43 . It learns a context-sensitive sentiment intensity score by leveraging a Twitter-based sentiment lexicon BIBREF44 . We use the same settings as described by BIBREF42 teng-vo-zhang:2016:EMNLP2016 to train the model. We use the dataset from the Sentiment Analysis in Twitter shared task",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "(subtask A) at SemEval 2017 BIBREF41 . Given a tweet, the goal is to predict whether it expresses POSITIVE, NEGATIVE or NEUTRAL sentiment. The training and development sets consist of 49,669 tweets and we use 40,000 for training and the rest for development. There are a total of 12,284 tweets containing 12,128 hashtags in the SemEval 2017 test set, and our hashtag segmenter ended up splitting 6,975 of those hashtags present in 3,384 tweets. Results and Analysis In Table TABREF59 , we report the results based on the 3,384 tweets where HashtagMaster predicted a split, as for the rest of tweets in the test set, the hashtag segmenter would neither improve nor worsen the sentiment prediction. Our hashtag segmenter successfully improved the sentiment analysis performance by 2% on average recall and F INLINEFORM0 comparing to having hashtags unsegmented. This improvement is seemingly small but decidedly important for tweets where sentiment-related information is embedded in multi-word hashtags and sentiment prediction would be incorrect based only on the text (see Table TABREF60 for examples). In fact, 2,605 out of the 3,384 tweets have multi-word hashtags that contain words in the Twitter-based sentiment lexicon BIBREF44 and 125 tweets contain sentiment words only in the hashtags but not in the rest of the tweet. On the entire test set of 12,284 tweets, the increase in the average recall is 0.5%. Other Related Work Automatic hashtag segmentation can improve the performance of many applications besides sentiment analysis, such as text classification BIBREF13 , named entity linking BIBREF10 and modeling user interests for recommendations BIBREF45 . It can also help in collecting data of higher volume and quality by providing a more nuanced interpretation of its content, as shown for emotion analysis BIBREF46 , sarcasm and irony detection BIBREF11 , BIBREF47 . Better semantic analysis of hashtags can also potentially be applied to hashtag annotation BIBREF48 , to improve distant supervision labels in training classifiers for tasks such as sarcasm BIBREF5 , sentiment BIBREF4 , emotions BIBREF3 ; and, more generally, as labels for pre-training representations of words BIBREF49 , sentences BIBREF50 , and images BIBREF51 . Conclusion We proposed a new pairwise neural ranking model for hashtag segmention and showed significant performance improvements over the state-of-the-art. We also constructed a larger and more curated dataset for analyzing and benchmarking hashtag segmentation methods. We demonstrated that hashtag segmentation helps with downstream tasks such as sentiment analysis.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "Although we focused on English hashtags, our pairwise ranking approach is language-independent and we intend to extend our toolkit to languages other than English as future work. Acknowledgments We thank Ohio Supercomputer Center BIBREF52 for computing resources and the NVIDIA for providing GPU hardware. We thank Alan Ritter, Quanze Chen, Wang Ling, Pravar Mahajan, and Dushyanta Dhyani for valuable discussions. We also thank the annotators: Sarah Flanagan, Kaushik Mani, and Aswathnarayan Radhakrishnan. This material is based in part on research sponsored by the NSF under grants IIS-1822754 and IIS-1755898, DARPA through the ARO under agreement number W911NF-17-C-0095, through a Figure-Eight (CrowdFlower) AI for Everyone Award and a Criteo Faculty Research Award to Wei Xu. The views and conclusions contained in this publication are those of the authors and should not be interpreted as representing official policies or endorsements of the U.S. Government. Word-shape rules Our model uses the following word shape rules as boolean features. If the candidate segmentation INLINEFORM0 and its corresponding hashtag INLINEFORM1 satisfies a word shape rule, then the boolean feature is set to True.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language Extension"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "A hashtag is a keyphrase represented as a sequence of alphanumeric characters plus underscore, preceded by the # symbol.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Hashtags play a central role in online communication by providing a tool to categorize the millions of posts generated daily on Twitter, Instagram, etc.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Hashtags are useful in search, tracking content about a certain topic, or discovering emerging trends.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Hashtags often carry important information such as emotion, sentiment, sarcasm, and named entities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Information Content"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Inferring the semantics of hashtags is non-trivial due to multiple tokens joined together, which can lead to multiple potential interpretations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The phrase 'lion head' and 'lionhead' illustrates how multi-token hashtags can have multiple interpretations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Named entities and event names in hashtags are prevalent and pose challenges to both human and automatic comprehension due to their rarity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Hashtags tend to be shorter to allow fast typing, attract attention, or satisfy length limitations imposed by social media platforms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Design Purpose"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Hashtags often contain a large number of abbreviations or non-standard spelling variations, such as #iloveu4eva.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Characteristic"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The new dataset includes segmentation for 12,594 unique hashtags and their associated tweets, annotated through a multi-step process for higher quality than the previous dataset of 1,108 hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contribution"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The hashtag segmentation task is framed as a pairwise ranking problem given a set of candidate segmentations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem Formulation"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Several neural architectures are built using the pairwise ranking formulation and incorporate corpus-based, linguistic, and thesaurus-based features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "A multi-task learning approach jointly learns segment ranking and single- vs. multi-token hashtag classification, leading to a 24.6% error reduction over the state-of-the-art.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The utility of the hashtag segmentation method is demonstrated in downstream sentiment analysis on the SemEval 2017 benchmark dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Downstream Application"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Feeding automatically segmented hashtags to a state-of-the-art sentiment analysis method results in a 2.6% increase in the official metric on the SemEval 2017 dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Current approaches for hashtag segmentation are broadly divided into three categories: gazeteer and rule-based methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Background"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Word boundary detection involves identifying where one word ends and another begins in a sequence of characters, such as in hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Ranking with language models and other features involves using a language model combined with lexical, bigram, and corpus-based features to predict word boundaries in hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Compound splitting refers to the process of breaking down compound words into their constituent parts, as applied in languages like German or Finnish.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Word segmentation is the process of dividing a string of characters into individual words, especially in languages without spaces, such as Chinese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "BansalBV15 proposes a method that uses a sliding window to generate candidate segmentations and reranks them using a linear regression model trained on lexical, bigram, and corpus-based features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Maximum entropy and Conditional Random Field (CRF) models are used to predict whether each character in a hashtag is the beginning of a new word, combining language model and hand-crafted features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Microsoft Word Breaker is a baseline method for hashtag segmentation that uses a beam search algorithm to generate the best segmentations based on n-gram language model probabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "A beam search algorithm is used in Microsoft Word Breaker to extract the best word segmentations by maintaining a set of top candidates based on language model scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "An n-gram language model assigns probabilities to sequences of characters to guide word segmentation decisions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "A language model specifically trained on Twitter data is used in the reimplemented Word Breaker for hashtag segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Data"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Binomial and word length distribution based ranking strategies were tested but did not improve performance over baseline methods in hashtag segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The current state-of-the-art approach for hashtag segmentation uses maximum entropy and CRF models with language model and hand-crafted features to predict word boundaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "A pairwise ranking method is proposed to improve the accuracy of hashtag segmentation by comparing candidate segmentations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Proposed Method"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "A pairwise ranking strategy is proposed to model the relative order among candidate segmentations of a hashtag by comparing each pair of segmentations and predicting a score indicating which one is better.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "A multi-task pairwise neural ranking approach is proposed to incorporate and distinguish the relative order between candidate segmentations, adapting to single- and multi-token hashtags through multi-task learning without additional annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Hashtag segmentation involves dividing a given hashtag into a sequence of meaningful words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The Levenshtein distance, defined as the minimum number of single-character edits, is used to measure similarity between segmentations in the gold scoring function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "A gold scoring function is defined to quantify the quality of a segmentation by measuring its similarity to the ground-truth segmentation using the Levenshtein distance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The feature vector of a candidate segmentation includes language model probabilities from Good-Turing and modified Kneser-Ney smoothing, as well as lexical and linguistic features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The training objective is to minimize the Mean Squared Error (MSE) between predicted and gold scores for all pairwise comparisons of candidate segmentations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "A greedy algorithm, inspired by cohen1998learning and used for preference ranking, is followed to aggregate pairwise comparison scores into a single ranking for each segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The top segmentations generated by Microsoft Word Breaker are used as initial candidate segmentations for the pairwise ranking model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Margin Ranking (MR) Loss is a training objective that measures violations in the ranking order of candidate pairs and minimizes the difference between the scores of better and worse candidates.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The scoring function INLINEFORM1 assigns a higher score to INLINEFORM2 if it is a better candidate than INLINEFORM4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The segmentation INLINEFORM3 corresponding to the highest score is selected for evaluation in the scoring procedure.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The feature vectors INLINEFORM5 and INLINEFORM6 are fed separately into two identical feedforward networks with shared parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "During training, a ranking layer is added on top of the feedforward networks to measure ranking violations and minimize the Margin Ranking Loss (MR).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The adaptive gating value INLINEFORM3 is used in the multi-task learning setup to dynamically control the contribution of different tasks based on the input features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "A binary classification task is introduced to differentiate between single-word and multi-word hashtags by predicting the probability that a hashtag is multi-word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Linguistic features capture named entities and multi-word hashtags that exhibit word shape patterns, such as camel case.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Ngram probabilities with Good-Turing smoothing gravitate towards multi-word segmentations with known words due to their low estimate for unseen ngrams.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Modified Kneser-Ney smoothing is more likely to favor segmentations that contain rare words, especially single-word segmentations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Gold labels for the binary classification task are derived by checking whether the ground-truth segmentation contains multiple words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The pairwise segmentation ranker and the binary classifier are trained jointly by minimizing a combined loss function INLINEFORM4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The pairwise ranker consists of an input layer, three hidden layers with eight nodes each using hyperbolic tangent activation, and a single linear output node.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The auxiliary classifier consists of an input layer, one hidden layer with eight nodes, and one output node with sigmoid activation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The Adam algorithm is used for optimization in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "A dropout rate of 0.5 is applied to prevent overfitting in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The learning rate is set to 0.01 for the pairwise ranker and 0.05 for the auxiliary classifier.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Results are reported after 100 epochs of training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Word Breaker is a baseline method reimplemented with beam search and a Twitter n-gram language model trained on 1.1 billion tweets with Good-Turing smoothing using SRILM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "STAN INLINEFORM0 is a dataset of 1,108 unique English hashtags from 1,268 randomly selected tweets in the Stanford Sentiment Analysis Dataset, including crowdsourced segmentations and corrections.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "STAN INLINEFORM1 is an expert-curated dataset containing all 12,594 unique English hashtags and their associated tweets from the Stanford Sentiment Analysis Dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The existing methods compared include the original hashtag as a single token, a rule-based segmenter, a Viterbi model, the GATE Hashtag Tokenizer, a maximum entropy classifier, and a reimplementation of Word Breaker.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "List"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The maximum entropy classifier predicts whether a space should be inserted at each position in a hashtag and is considered the current state-of-the-art method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Good-Turing smoothing is applied to a language model trained on 1.1 billion tweets using SRILM to improve hashtag segmentation performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "A linear ranker is implemented using a perceptron classifier with hinge loss minimization and features identical to those of the neural model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The linear ranker minimizes the hinge loss between the predicted scoring function and the ground truth INLINEFORM1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The linear ranker is trained on the STAN INLINEFORM2 dataset, which contains 2,518 manually segmented hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Performance is evaluated using top-1 and top-2 accuracy (A@1, A@2), average token-level F-score (F@1), and mean reciprocal rank (MRR).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Accuracy and MRR are calculated at the segmentation level, requiring full exact match between predicted and human segmentations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The average token-level F-score accounts for partially correct segmentations in multi-token hashtag cases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Tables TABREF32 and TABREF33 show that all pairwise neural rankers perform favorably against state-of-the-art approaches on the STAN INLINEFORM0 and STAN INLINEFORM1 datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The best-performing model, MSE+multitask, outperforms simply combining all features (MR and MSE) by using adaptive feature selection via multi-task learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The approach reduces error by 24.6% on STAN INLINEFORM3 and 16.5% on STAN INLINEFORM4 compared to the previous SOTA method BIBREF14 for multi-token hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "It is trivial to achieve 100% accuracy on single-token hashtags, highlighting the importance of separate evaluation for multi-word cases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Despite high accuracy@2, achieving exact top-1 prediction remains a practical challenge for the hashtag segmentation model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The hashtag #BTVbrownSMB refers to the Social Media Breakfast (SMB) in Burlington, Vermont (BTV).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The improved Word Breaker uses a Twitter-specific language model and serves as a strong baseline for word segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Language models with modified Kneser-Ney smoothing perform best on single-token hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The state-of-the-art system BIBREF14 used a 4-gram language model trained on 476 million tweets from 2009.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Results for models using individual feature sets in pairwise ranking models (MSE) are shown in Table TABREF45 to illustrate feature effectiveness across hashtag types.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Hashtags perform better with multi-token features, as confirmed by Good-Turing and Linguistic features in a multi-task learning approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The MSE+multitask model achieves a segmentation-level accuracy of 82.1% for longer hashtags with more than three tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The best model (MSE+multitask) achieves 94.6% segmentation-level accuracy on 2019 English hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The average token-level F score for hashtags is 95.6% when segmented by the HashtagMaster system on 2019 data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The pairwise neural ranker experiences only a 1.4% drop in F score when using a language model trained on 10% of tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The pairwise neural ranker shows a 3.9% drop in F score when using a language model trained on 1% of the total 1.1 billion tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The performance of the pairwise ranker is influenced by the size and training data of the language models used.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The pairwise ranker uses language models trained on tweets from the year 2010.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "The approach performs well on 500 randomly selected English hashtags posted in 2019, achieving 94.6% segmentation-level accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "HashtagMaster is the name given to the best model (MSE+multitask) used in sentiment analysis experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "BiLSTM+Lex is a state-of-the-art open-source sentiment analysis system that uses a Twitter-based sentiment lexicon to predict tweet-level sentiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The effectiveness of the hashtag segmentation system is evaluated through its impact on sentiment analysis tasks in Twitter.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The experiments use a dataset from the Sentiment Analysis in Twitter shared task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Hashtag segmentation improves sentiment analysis performance by 2% on average recall and F1 score for tweets with multi-word hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "2,605 out of 3,384 tweets contain multi-word hashtags that include words from the Twitter-based sentiment lexicon.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "125 tweets contain sentiment-related words exclusively in hashtags, not in the rest of the tweet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "On the full test set of 12,284 tweets, hashtag segmentation increases average recall by 0.5%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Automatic hashtag segmentation can improve text classification, named entity linking, and user interest modeling for recommendations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Hashtag segmentation enhances emotion analysis by providing a more nuanced interpretation of content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Hashtag segmentation aids in detecting sarcasm and irony by improving contextual understanding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Better semantic analysis of hashtags can improve hashtag annotation and distant supervision for training classifiers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Hashtag segmentation can be used as labels for pre-training word, sentence, and image representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "A new pairwise neural ranking model was proposed for hashtag segmentation, outperforming state-of-the-art methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "A larger and more curated dataset was constructed to benchmark and analyze hashtag segmentation methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The pairwise ranking model is language-independent and can be extended to non-English languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The model uses word-shape rules as boolean features to determine valid hashtag segmentations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The hashtag segmenter splits 6,975 hashtags across 3,384 tweets, with no impact on sentiment prediction for the remaining tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "#",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "#BTVbrownSMB",
+      "Example",
+      "s74"
+    ],
+    [
+      "#BTVbrownSMB",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "1,108 hashtags",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "1,108 unique English hashtags",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "1,268 randomly selected tweets",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "1.1 billion English tweets",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "1.1 billion tweets",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "100 epochs",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "12,594 hashtags",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "12,594 unique English hashtags",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "16.5% error reduction",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "2,518 manually segmented hashtags",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "2009",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "2010 tweets",
+      "Property",
+      "s86"
+    ],
+    [
+      "2019 hashtags",
+      "Result",
+      "s87"
+    ],
+    [
+      "24.6% error reduction",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "24.6% error reduction",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "4-gram language model",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "4-gram language model",
+      "Property",
+      "s77"
+    ],
+    [
+      "476 million tweets",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "A@1",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "A@2",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "AI for Everyone Award",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "ARO",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Adam algorithm",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "Adam algorithm",
+      "Property",
+      "s53"
+    ],
+    [
+      "Alan Ritter",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Aswathnarayan Radhakrishnan",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "BIBREF23",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "BIBREF24",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "BIBREF25",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "BIBREF26",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "BIBREF27",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "BIBREF28",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "BansalBV15",
+      "Reference",
+      "s21"
+    ],
+    [
+      "BiLSTM+Lex model",
+      "Definition",
+      "s89"
+    ],
+    [
+      "Binary Cross Entropy Error",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "Binomial and word length distribution based ranking",
+      "Method",
+      "s27"
+    ],
+    [
+      "Burlington, Vermont (BTV)",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "CRF models",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "Chinese",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "Criteo Faculty Research Award",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "CrowdFlower",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "DARPA",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "DISPLAYFORM0",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "DISPLAYFORM0",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "Dushyanta Dhyani",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "English hashtags",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "F INLINEFORM2",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "FIGREF11",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "Figure-Eight",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Finnish",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "GATE Hashtag Tokenizer",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "German",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "Gigaword corpus",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "Good-Turing",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "Good-Turing smoothing",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "Good-Turing smoothing",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "Good-Turing smoothing",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "Good-Turing smoothing",
+      "Property",
+      "s62"
+    ],
+    [
+      "Google Web 1TB corpus",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "HashtagMaster",
+      "Definition",
+      "s88"
+    ],
+    [
+      "IIS-1755898",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "IIS-1822754",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM0",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM0",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM1",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM1",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM2",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM2",
+      "Property",
+      "s40"
+    ],
+    [
+      "INLINEFORM3",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM3",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM3",
+      "Result",
+      "s41"
+    ],
+    [
+      "INLINEFORM4",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM4",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM5",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM5",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM5 and INLINEFORM6",
+      "Property",
+      "s42"
+    ],
+    [
+      "INLINEFORM6",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "INLINEFORM6",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM7",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "INLINEFORM8",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "Instagram",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "Kaushik Mani",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "KenLM",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "Kneser-Ney smoothing",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "Kneser-Ney smoothing",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "Kneser-Ney smoothing",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "Kneser-Ney smoothing",
+      "Property",
+      "s76"
+    ],
+    [
+      "Levenshtein distance",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "Levenshtein distance",
+      "Property",
+      "s33"
+    ],
+    [
+      "MR",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "MR and MSE",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "MRR",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "MSE",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "MSE+multitask",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "MSE+multitask model",
+      "Result",
+      "s70"
+    ],
+    [
+      "MSE+multitask model",
+      "Result",
+      "s80"
+    ],
+    [
+      "Margin Ranking (MR) Loss",
+      "Definition",
+      "s39"
+    ],
+    [
+      "Margin Ranking Loss",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "Microsoft Word Breaker",
+      "Cause",
+      "s38"
+    ],
+    [
+      "Microsoft Word Breaker",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "Microsoft Word Breaker",
+      "Method",
+      "s23"
+    ],
+    [
+      "Microsoft Word Breaker",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "NSF",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "NVIDIA",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Ohio Supercomputer Center",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Pravar Mahajan",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "PyTorch framework",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "Quanze Chen",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "SECREF15",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "SECREF17",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "SECREF2",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "SECREF23",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "SECREF46",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "SECREF46",
+      "Pairwise Ranking Method",
+      "e4"
+    ],
+    [
+      "SOTA BIBREF14",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "SRILM",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "SRILM",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "STAN INLINEFORM0",
+      "Definition",
+      "s58"
+    ],
+    [
+      "STAN INLINEFORM0",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "STAN INLINEFORM1",
+      "Definition",
+      "s59"
+    ],
+    [
+      "STAN INLINEFORM1",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "STAN INLINEFORM2",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "STAN INLINEFORM2 dataset",
+      "Property",
+      "s65"
+    ],
+    [
+      "Sarah Flanagan",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "SemEval 2017",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "Single-token hashtags",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "Social Media Breakfast (SMB)",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "Stanford Sentiment Analysis Dataset",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "TABLE TABREF9",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "Twitter",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "Twitter data",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "Twitter data",
+      "Training Data",
+      "s26"
+    ],
+    [
+      "Twitter ngram language model",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "Twitter-specific language model",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "URL segmentation",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e11"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e12"
+    ],
+    [
+      "Viterbi model",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "W911NF-17-C-0095",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Wang Ling",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Wei Xu",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "Wikipedia titles",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "Word Breaker",
+      "Definition",
+      "s57"
+    ],
+    [
+      "Word Breaker",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "Word Breaker",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "Word Breaker model",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "abbreviation",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "abbreviations and non-standard spelling",
+      "Characteristic",
+      "s9"
+    ],
+    [
+      "adaptive gating value",
+      "Definition",
+      "s44"
+    ],
+    [
+      "adaptive gating value",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "adaptive gating value",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "all letters as consonants",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "alphanumeric",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "automatic hashtag segmentation",
+      "Application",
+      "s96"
+    ],
+    [
+      "auxiliary classifier",
+      "Definition",
+      "s52"
+    ],
+    [
+      "auxiliary classifier",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "beam search",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "beam search algorithm",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "beam search algorithm",
+      "Method",
+      "s24"
+    ],
+    [
+      "bigram features",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "binary classification task",
+      "Definition",
+      "s45"
+    ],
+    [
+      "binary classification task",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "book corpus",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "camel case",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "candidate segmentation",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "cohen1998learning",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "compound splitting",
+      "Definition",
+      "s19"
+    ],
+    [
+      "compound splitting",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "corpus-based features",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "dataset",
+      "Contribution",
+      "s10"
+    ],
+    [
+      "dropout",
+      "Property",
+      "s54"
+    ],
+    [
+      "dropout 0.5",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "eight nodes",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "emotion",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "emotion analysis",
+      "Application",
+      "s97"
+    ],
+    [
+      "ends with a number",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "entire test set",
+      "Result",
+      "s95"
+    ],
+    [
+      "error reduction",
+      "Result",
+      "s71"
+    ],
+    [
+      "evaluation",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "evaluation metrics",
+      "Definition",
+      "s66"
+    ],
+    [
+      "event names",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "existing methods",
+      "List",
+      "s60"
+    ],
+    [
+      "feature vector",
+      "Property",
+      "s35"
+    ],
+    [
+      "feature vectors",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "feedforward network",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "feedforward networks",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "gazeteer and rule-based approaches",
+      "Background",
+      "s16"
+    ],
+    [
+      "gold labels",
+      "Definition",
+      "s49"
+    ],
+    [
+      "gold scoring function",
+      "Definition",
+      "s34"
+    ],
+    [
+      "greedy algorithm",
+      "Method",
+      "s37"
+    ],
+    [
+      "hashtag",
+      "Definition",
+      "s1"
+    ],
+    [
+      "hashtag",
+      "Function",
+      "s2"
+    ],
+    [
+      "hashtag",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "hashtag",
+      "Information Content",
+      "s4"
+    ],
+    [
+      "hashtag",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "hashtag",
+      "Use",
+      "s3"
+    ],
+    [
+      "hashtag annotation",
+      "Application",
+      "s99"
+    ],
+    [
+      "hashtag segmentation",
+      "Challenge",
+      "s5"
+    ],
+    [
+      "hashtag segmentation",
+      "Definition",
+      "s32"
+    ],
+    [
+      "hashtag segmenter",
+      "Result",
+      "s105"
+    ],
+    [
+      "hashtags",
+      "Property",
+      "s79"
+    ],
+    [
+      "hinge loss",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "hinge loss",
+      "Property",
+      "s64"
+    ],
+    [
+      "hyperbolic tangent activation",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "iloveu4eva",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "improved Word Breaker",
+      "Definition",
+      "s75"
+    ],
+    [
+      "input layer",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "language independence",
+      "Property",
+      "s103"
+    ],
+    [
+      "language models",
+      "Cause",
+      "s85"
+    ],
+    [
+      "larger curated dataset",
+      "Definition",
+      "s102"
+    ],
+    [
+      "learning rate",
+      "Property",
+      "s55"
+    ],
+    [
+      "learning rate 0.01",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "learning rate 0.05",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "lexical features",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "lexical features",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "linear output node",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "linear ranker",
+      "Definition",
+      "s63"
+    ],
+    [
+      "linear ranker",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "linear regression model",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "linguistic features",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "linguistic features",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "linguistic features",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "linguistic features",
+      "Pairwise Ranking Model",
+      "e5"
+    ],
+    [
+      "linguistic features",
+      "Property",
+      "s46"
+    ],
+    [
+      "lion head",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "lion head vs. lionhead",
+      "Example",
+      "s6"
+    ],
+    [
+      "lionhead",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "maximum entropy",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "maximum entropy and CRF models",
+      "Method",
+      "s22"
+    ],
+    [
+      "maximum entropy classifier",
+      "Definition",
+      "s61"
+    ],
+    [
+      "maximum entropy classifier",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "modified Kneser-Ney smoothing",
+      "Property",
+      "s48"
+    ],
+    [
+      "multi-column networks",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "multi-step annotation",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "multi-task learning",
+      "Approach",
+      "s13"
+    ],
+    [
+      "multi-task learning",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "multi-task learning",
+      "Procedure",
+      "s50"
+    ],
+    [
+      "multi-task pairwise neural ranking",
+      "Definition",
+      "s31"
+    ],
+    [
+      "multi-task pairwise ranking model",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "multi-token hashtag",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "multi-word hashtag",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "multi-word hashtags",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "multi-word hashtags",
+      "Property",
+      "s93"
+    ],
+    [
+      "n-gram language model",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "n-gram language model",
+      "Property",
+      "s25"
+    ],
+    [
+      "named entities",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "named entities and event names",
+      "Challenge",
+      "s7"
+    ],
+    [
+      "neural architectures",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "neural architectures",
+      "Method",
+      "s12"
+    ],
+    [
+      "ngram probabilities",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "ngram probabilities with Good-Turing smoothing",
+      "Property",
+      "s47"
+    ],
+    [
+      "non-standard spelling",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "one hidden layer",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "pairwise",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "pairwise neural ranker",
+      "Property",
+      "s83"
+    ],
+    [
+      "pairwise neural ranker",
+      "Property",
+      "s84"
+    ],
+    [
+      "pairwise neural ranking model",
+      "Definition",
+      "s101"
+    ],
+    [
+      "pairwise ranker",
+      "Definition",
+      "s51"
+    ],
+    [
+      "pairwise ranker",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "pairwise ranking",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "pairwise ranking",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "pairwise ranking method",
+      "Pairwise Ranking Method",
+      "e4"
+    ],
+    [
+      "pairwise ranking method",
+      "Proposed Method",
+      "s29"
+    ],
+    [
+      "pairwise ranking models (MSE)",
+      "Analysis",
+      "s78"
+    ],
+    [
+      "pairwise ranking strategy",
+      "Definition",
+      "s30"
+    ],
+    [
+      "perceptron",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "pre-training representations",
+      "Application",
+      "s100"
+    ],
+    [
+      "preference ranking",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "ranking layer",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "ranking with language model",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "ranking with language model and other features",
+      "Method",
+      "s18"
+    ],
+    [
+      "results",
+      "Section Reference",
+      "e3"
+    ],
+    [
+      "results on STAN INLINEFORM0 and STAN INLINEFORM1",
+      "Result",
+      "s69"
+    ],
+    [
+      "sarcasm",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "sarcasm and irony detection",
+      "Application",
+      "s98"
+    ],
+    [
+      "search",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "section",
+      "Section Reference",
+      "e3"
+    ],
+    [
+      "segmentation",
+      "Training Objective",
+      "e6"
+    ],
+    [
+      "segmentation task",
+      "Problem Formulation",
+      "s11"
+    ],
+    [
+      "segmentation-level",
+      "Hashtag Segmentation",
+      "e10"
+    ],
+    [
+      "segmentation-level accuracy",
+      "Definition",
+      "s67"
+    ],
+    [
+      "segmentation-level accuracy",
+      "Result",
+      "s81"
+    ],
+    [
+      "sentiment",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "sentiment analysis",
+      "Downstream Application",
+      "s14"
+    ],
+    [
+      "sentiment analysis",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "sentiment analysis in Twitter",
+      "Evaluation",
+      "s90"
+    ],
+    [
+      "sentiment analysis performance",
+      "Result",
+      "s15"
+    ],
+    [
+      "sentiment analysis shared task",
+      "Reference",
+      "s91"
+    ],
+    [
+      "sentiment words only in hashtags",
+      "Property",
+      "s94"
+    ],
+    [
+      "shared parameters",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "short hashtags",
+      "Design Purpose",
+      "s8"
+    ],
+    [
+      "sigmoid activation",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "single- vs. multi-token classification",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "single-token hashtags",
+      "Property",
+      "s72"
+    ],
+    [
+      "single-word hashtags",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "sliding window",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "state-of-the-art approach",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "state-of-the-art approach",
+      "Result",
+      "s28"
+    ],
+    [
+      "state-of-the-art sentiment analysis",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "summation with padding",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "thesaurus based features",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "three hidden layers",
+      "Model Architecture and Experiments",
+      "e9"
+    ],
+    [
+      "token-level F score",
+      "Result",
+      "s82"
+    ],
+    [
+      "token-level F-score",
+      "Definition",
+      "s68"
+    ],
+    [
+      "top-1 prediction",
+      "Challenge",
+      "s73"
+    ],
+    [
+      "training epochs",
+      "Property",
+      "s56"
+    ],
+    [
+      "training examples",
+      "Model Architecture",
+      "e8"
+    ],
+    [
+      "training objective",
+      "Result",
+      "s36"
+    ],
+    [
+      "training process",
+      "Procedure",
+      "s43"
+    ],
+    [
+      "training samples",
+      "Model Ranking Loss",
+      "e7"
+    ],
+    [
+      "trending topics",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "tweet sentiment prediction",
+      "Result",
+      "s92"
+    ],
+    [
+      "underscore",
+      "Hashtag Segmentation",
+      "e1"
+    ],
+    [
+      "word boundary detection",
+      "Definition",
+      "s17"
+    ],
+    [
+      "word boundary detection",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "word segmentation",
+      "Definition",
+      "s20"
+    ],
+    [
+      "word segmentation",
+      "Hashtag Segmentation",
+      "e2"
+    ],
+    [
+      "word shape rules",
+      "Language Extension",
+      "e13"
+    ],
+    [
+      "word-shape rules",
+      "Definition",
+      "s104"
+    ],
+    [
+      "\u00a7",
+      "Section Reference",
+      "e3"
+    ]
+  ]
+}

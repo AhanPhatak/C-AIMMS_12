@@ -1,0 +1,4302 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 11,
+    "n_semantic": 119,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Long short term memory": {
+      "tag_set": [
+        "LSTM Gating Structure"
+      ]
+    },
+    "LSTM units": {
+      "tag_set": [
+        "LSTM Gating Structure"
+      ]
+    },
+    "sequence modeling": {
+      "tag_set": [
+        "LSTM Gating Structure"
+      ]
+    },
+    "language modeling": {
+      "tag_set": [
+        "Application",
+        "LSTM Gating Structure",
+        "PRU Architecture",
+        "Pyramidal & Grouped Linear Transformation",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "gating structure": {
+      "tag_set": [
+        "LSTM Gating Structure",
+        "Property"
+      ]
+    },
+    "articulated gating": {
+      "tag_set": [
+        "LSTM Gating Structure"
+      ]
+    },
+    "LSTMs": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "gating mechanisms": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "input vectors": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "context vectors": {
+      "tag_set": [
+        "Nonlinear Transformation",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "linear transformations": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "convolutions": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "dimension increase": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "parameters": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "generalizability": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "subsampling": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "pyramidal fusion": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "pyramidal transformation": {
+      "tag_set": [
+        "Definition",
+        "PRU Architecture",
+        "PRU Performance Analysis",
+        "Pyramidal & Grouped Linear Transformation",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "PRU": {
+      "tag_set": [
+        "Benefit",
+        "Cause",
+        "Compatibility",
+        "Definition",
+        "Mechanism",
+        "PRU Model Performance",
+        "PRU Performance Analysis",
+        "Performance",
+        "Property",
+        "Pyramidal Recurrent Unit",
+        "Relationship",
+        "Result"
+      ]
+    },
+    "input vector": {
+      "tag_set": [
+        "Nonlinear Transformation",
+        "PRU Architecture",
+        "Property",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "linear transformation": {
+      "tag_set": [
+        "Definition",
+        "Nonlinear Transformation",
+        "Pyramidal & Grouped Linear Transformation",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "GLT": {
+      "tag_set": [
+        "Definition",
+        "PRU Architecture",
+        "Property"
+      ]
+    },
+    "PRUs": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "perplexity": {
+      "tag_set": [
+        "PRU Architecture",
+        "PRU Model Performance",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit",
+        "Result"
+      ]
+    },
+    "Penn Treebank": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "WikiText2": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "PRU Architecture",
+        "PRU Model Performance",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "grouped linear transformation": {
+      "tag_set": [
+        "Cause",
+        "PRU Architecture",
+        "PRU Performance Analysis"
+      ]
+    },
+    "sub-sampling": {
+      "tag_set": [
+        "Method",
+        "PRU Architecture"
+      ]
+    },
+    "gradient flow": {
+      "tag_set": [
+        "PRU Architecture",
+        "PRU Model Performance",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "residual analog": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "PRU Architecture"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "FIGREF1": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "PRU Architecture"
+      ]
+    },
+    "FIGREF2": {
+      "tag_set": [
+        "PRU Architecture"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "PRU Architecture",
+        "PRU Model Performance",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Comparison",
+        "PRU Architecture",
+        "PRU Model Performance",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Comparison",
+        "PRU Architecture",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "PRU Architecture",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "PRU Architecture",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM5": {
+      "tag_set": [
+        "PRU Architecture",
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM6": {
+      "tag_set": [
+        "PRU Architecture",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM7": {
+      "tag_set": [
+        "PRU Architecture",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM8": {
+      "tag_set": [
+        "PRU Architecture",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "INLINEFORM9": {
+      "tag_set": [
+        "PRU Architecture",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "15-20% fewer parameters": {
+      "tag_set": [
+        "PRU Architecture",
+        "PRU Model Performance"
+      ]
+    },
+    "contextual information": {
+      "tag_set": [
+        "PRU Architecture",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "kernel-based approach": {
+      "tag_set": [
+        "Property",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "sub-sampled": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "pyramidal levels": {
+      "tag_set": [
+        "Hyperparameter",
+        "Model Performance Comparison",
+        "PRU Model Performance",
+        "PRU Performance Analysis",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "stride": {
+      "tag_set": [
+        "PRU Performance Analysis",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "kernel": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "grouped linear transformation (GLT)": {
+      "tag_set": [
+        "Definition",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "context vector": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "input vector embedding": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "contextualized vector": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "variational dropout": {
+      "tag_set": [
+        "Method",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "weight dropout": {
+      "tag_set": [
+        "Method",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "recurrent unit": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "NLP applications": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "word embedding": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "time steps": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "over-fitting": {
+      "tag_set": [
+        "Cause",
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "recurrent connections": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "high dimensional space": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "output vector": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "smaller groups": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "linear interactions": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "concatenated output": {
+      "tag_set": [
+        "Pyramidal & Grouped Linear Transformation"
+      ]
+    },
+    "INLINEFORM10": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "GLTs": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Pyramidal Recurrent Unit": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Penn Treebank (PTB)": {
+      "tag_set": [
+        "Dataset",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "WikiText2 (WT-2)": {
+      "tag_set": [
+        "Dataset",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "AWD-LSTM": {
+      "tag_set": [
+        "Model",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "3-layers": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "embedding size of 400": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "18M parameters": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "66M parameters": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "22M parameters": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "24M parameters": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "PTB dataset": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Property"
+      ]
+    },
+    "WT-2 dataset": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Property"
+      ]
+    },
+    "19M model size": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "1000 hidden layer size": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "1200 hidden layer size": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "1400 hidden layer size": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "average pooling": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "standard dropout": {
+      "tag_set": [
+        "Method",
+        "Model Performance Comparison"
+      ]
+    },
+    "advanced dropout": {
+      "tag_set": [
+        "Method",
+        "Model Performance Comparison"
+      ]
+    },
+    "AWD-PRU": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "word-level perplexity": {
+      "tag_set": [
+        "Metric",
+        "Model Performance Comparison"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "TABREF23": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "SECREF39": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "RAN BIBREF7": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "QRNN": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "BIBREF33": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "BIBREF31": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "16 points": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "1M parameters": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "6M less parameters": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "1.58 points": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "dynamic evaluation": {
+      "tag_set": [
+        "PRU Model Performance",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "PTB test set": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "62.42": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "55.23": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "66.29": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "58.79": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "entropy": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "3687 contexts": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "FIGREF32": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "FIGREF33": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "pyramidal transform": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "embedding layer": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "part of speech": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "pyramid level 1": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "pyramid level 2": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "variance": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "saliency analysis": {
+      "tag_set": [
+        "Method",
+        "PRU Model Performance"
+      ]
+    },
+    "gradients": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "back-propagation": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "heatmaps": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "southeast": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "cost": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "face": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "introduced": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "PTB": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "WT-2": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "groups": {
+      "tag_set": [
+        "Hyperparameter",
+        "PRU Model Performance"
+      ]
+    },
+    "500 epochs": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "750 epochs": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "600 embedding": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "600 hidden": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "FIGREF35": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "TABREF34": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "BIBREF34": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "BIBREF35": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "BIBREF36": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "BIBREF37": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "ablation studies": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "SECREF19": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "dropouts": {
+      "tag_set": [
+        "PRU Model Performance"
+      ]
+    },
+    "15%": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "14%": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "77%": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "12%": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "11%": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "2%": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "1 point": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "recurrent unit parameters": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "residual connections": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "sub-sampling kernel": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "size of 3": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "skip": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "convolution": {
+      "tag_set": [
+        "PRU Performance Analysis",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "avg. pool": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "max pool": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "normal distribution": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "INLINEFORM4 activation function": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "TABLE TABREF23": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "TABLE TABREF43": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "TABLE TABREF45": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "EQREF12": {
+      "tag_set": [
+        "PRU Performance Analysis"
+      ]
+    },
+    "averaging method": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "LSTM gating structure": {
+      "tag_set": [
+        "Property",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "max pooling": {
+      "tag_set": [
+        "Effect",
+        "Pyramidal Recurrent Unit",
+        "Result"
+      ]
+    },
+    "higher dimensional representations": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "word embedding subspace": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "machine translation": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "question answering": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "mixture of softmax": {
+      "tag_set": [
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "NSF (IIS 1616112, III 1703166)": {
+      "tag_set": [
+        "Funding",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Allen Distinguished Investigator Award": {
+      "tag_set": [
+        "Funding",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Allen Institute for AI": {
+      "tag_set": [
+        "Funding",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Google": {
+      "tag_set": [
+        "Funding",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Amazon": {
+      "tag_set": [
+        "Funding",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Bloomberg": {
+      "tag_set": [
+        "Funding",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Aaron Jaech": {
+      "tag_set": [
+        "Acknowledgment",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Hannah Rashkin": {
+      "tag_set": [
+        "Acknowledgment",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Mandar Joshi": {
+      "tag_set": [
+        "Acknowledgment",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Aniruddha Kembhavi": {
+      "tag_set": [
+        "Acknowledgment",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "anonymous reviewers": {
+      "tag_set": [
+        "Acknowledgment",
+        "Pyramidal Recurrent Unit"
+      ]
+    },
+    "Long short term memory (LSTM) units": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "input and context vectors": {
+      "tag_set": [
+        "Property",
+        "Relationship"
+      ]
+    },
+    "non-linear transformations": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "increasing input and context dimensions": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "Figure FIGREF1": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "semantics of input and context vectors": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "Pyramidal Recurrent Unit (PRU)": {
+      "tag_set": [
+        "Definition",
+        "Property"
+      ]
+    },
+    "pyramidal transformation (PT)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "pyramidal fusion structure": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Pyramidal Recurrent Units (PRUs)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "parameter efficiency": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "sub-sampling in computer vision": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "residual connection": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "number of parameters": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "GLT process": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "GLT effectiveness": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "GLT output": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "PRU cell": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "PRU model": {
+      "tag_set": [
+        "Configuration"
+      ]
+    },
+    "state-of-the-art methods": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training strategy": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "PRU performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "PRU vs LSTM": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "PRU representation learning": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LSTM overfitting": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "advanced dropout performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "fine-tuning": {
+      "tag_set": [
+        "Effect"
+      ]
+    },
+    "PRU vs RAN": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "ablation experiments": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "gradient coverage": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ablation study": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "increase in pyramidal levels": {
+      "tag_set": [
+        "Effect"
+      ]
+    },
+    "PRU with INLINEFORM4 at INLINEFORM5": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "PRU with fixed INLINEFORM0 and variable INLINEFORM1": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "PRU with INLINEFORM4 and INLINEFORM5": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "PRUs at higher value of INLINEFORM6": {
+      "tag_set": [
+        "Benefit"
+      ]
+    },
+    "pyramidal transformation of input vectors": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "residual connections in PRU": {
+      "tag_set": [
+        "Requirement"
+      ]
+    },
+    "grouped linear transformation of context vectors": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "pyramidal transformation for context vectors": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sub-sampling kernel INLINEFORM0": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "convolution method for sub-sampling": {
+      "tag_set": [
+        "Training"
+      ]
+    },
+    "average pooling method": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "skipping method": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "richer word representations": {
+      "tag_set": [
+        "Benefit"
+      ]
+    },
+    "convolution-based sub-sampling method": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "INLINEFORM0 function": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Plan"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nLong short term memory (LSTM) units BIBREF1 are popular for many sequence modeling tasks and are used extensively in language modeling. A key to their success is their articulated gating structure, which allows for more",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "LSTM Gating Structure"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "control over the information passed along the recurrence. However, despite the sophistication of the gating mechanisms employed in LSTMs and similar recurrent units, the input and context vectors are treated with simple linear transformations prior to gating. Non-linear transformations such as convolutions BIBREF2 have been used, but these have not achieved the performance of well regularized LSTMs for language modeling BIBREF3 .\nA natural way to improve the expressiveness of linear transformations is to increase the number of dimensions of the input and context vectors, but this comes with a significant increase in the number of parameters which may limit generalizability. An example is shown in Figure FIGREF1 , where LSTMs performance decreases with the increase in dimensions of the input and context vectors. Moreover, the semantics of the input and context vectors are different, suggesting that each may benefit from specialized treatment.\nGuided by these insights, we introduce a new recurrent unit, the Pyramidal Recurrent Unit (PRU), which is based on the LSTM gating structure. Figure FIGREF2 provides an overview of the PRU. At the heart of the PRU is the pyramidal transformation (PT), which uses subsampling to effect multiple views of the input vector. The subsampled representations are combined in a pyramidal fusion structure, resulting in richer interactions between the individual dimensions",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Pyramidal Recurrent Unit"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "of the input vector than is possible with a linear transformation. Context vectors, which have already undergone",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Nonlinear Transformation"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "this transformation in the previous cell, are modified with a grouped linear transformation (GLT) which allows the network to learn latent representations in high dimensional space with fewer parameters and better generalizability (see Figure FIGREF1 ). We show that PRUs can better model contextual information and demonstrate performance gains on the task of language modeling. The PRU improves the perplexity of the current state-of-the-art language model BIBREF0 by up to 1.3 points, reaching perplexities of 56.56 and 64.53 on the Penn Treebank and WikiText2 datasets while learning 15-20% fewer parameters. Replacing an LSTM with a PRU results in improvements in perplexity across a variety of experimental settings. We provide detailed ablations which motivate the design of the PRU architecture, as well as detailed analysis of the effect of the PRU on other components of the language model. Related work Multiple methods, including a variety of gating structures and transformations, have been proposed to improve the performance of recurrent neural networks (RNNs). We first describe these approaches and then provide an overview of recent work in language modeling. Pyramidal Recurrent Units We introduce Pyramidal Recurrent Units (PRUs), a new RNN architecture which improves modeling of context by allowing for higher dimensional vector representations while learning fewer parameters. Figure FIGREF2 provides an overview of PRU. We first elaborate on the details of the pyramidal transformation and the grouped linear transformation. We then describe our recurrent unit, PRU. Pyramidal transformation for input The basic transformation in many recurrent units is a linear transformation INLINEFORM0 defined as: DISPLAYFORM0 where INLINEFORM0 are learned weights that linearly map INLINEFORM1 to INLINEFORM2 . To simplify notation, we omit the biases. Motivated by successful applications of sub-sampling in computer vision (e.g., BIBREF22 , BIBREF23 , BIBREF9 , BIBREF24 ), we subsample input vector INLINEFORM0 into INLINEFORM1 pyramidal levels to achieve representation of the input vector at multiple scales. This sub-sampling operation produces INLINEFORM2 vectors, represented as INLINEFORM3 , where INLINEFORM4 is the sampling rate and INLINEFORM5 . We learn scale-specific transformations INLINEFORM6 for each INLINEFORM7 . The transformed subsamples are concatenated to produce the pyramidal analog to INLINEFORM8 , here denoted as INLINEFORM9 : DISPLAYFORM0 where INLINEFORM0 indicates concatenation. We note that pyramidal transformation with INLINEFORM1 is the same as the linear transformation. To improve gradient flow inside the recurrent unit, we combine the input and output using an element-wise sum (when dimension matches) to produce residual analog",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "PRU Architecture"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "of pyramidal transformation, as shown in Figure FIGREF2 BIBREF25 . We sub-sample the input vector INLINEFORM0 into INLINEFORM1 pyramidal levels using the kernel-based approach BIBREF8 , BIBREF9 . Let us assume that we have a kernel INLINEFORM2 with INLINEFORM3 elements. Then, the input vector INLINEFORM4 can be sub-sampled as: DISPLAYFORM0 where INLINEFORM0 represents the stride and INLINEFORM1 . The number of parameters learned by the linear transformation and the pyramidal transformation with INLINEFORM0 pyramidal levels to map INLINEFORM1 to INLINEFORM2 are INLINEFORM3 and INLINEFORM4 respectively. Thus, pyramidal transformation reduces the parameters of a linear transformation by a factor of INLINEFORM5 . For example, the pyramidal transformation (with INLINEFORM6 and INLINEFORM7 ) learns INLINEFORM8 fewer parameters than the linear transformation. Grouped linear transformation for context Many RNN architectures apply linear transformations to both the input and context vector. However, this may not be ideal due to the differing semantics of each vector. In many NLP applications including language modeling, the input vector is a dense word embedding which is shared across all contexts for a given word in a dataset. In contrast, the context vector is highly contextualized by the current sequence. The differences between the input and context vector motivate their separate treatment in the PRU architecture. The weights learned using the linear transformation (Eq. EQREF9 ) are reused over multiple time steps, which makes them prone to over-fitting BIBREF26 . To combat over-fitting, various methods, such as variational dropout BIBREF26 and weight dropout BIBREF0 , have been proposed to regularize these recurrent connections. To further improve generalization abilities while simultaneously enabling the recurrent unit to learn representations at very high dimensional space, we propose to use grouped linear transformation (GLT) instead of standard linear transformation for recurrent connections BIBREF27 . While pyramidal and linear transformations can be applied to transform context vectors, our experimental results in Section SECREF39 suggests that GLTs are more effective. The linear transformation INLINEFORM0 maps INLINEFORM1 linearly to INLINEFORM2 . Grouped linear transformations break the linear interactions by factoring the linear transformation into two steps. First, a GLT splits the input vector INLINEFORM3 into INLINEFORM4 smaller groups such that INLINEFORM5 . Second, a linear transformation INLINEFORM6 is applied to map INLINEFORM7 linearly to INLINEFORM8 , for each INLINEFORM9 . The INLINEFORM10 resultant output vectors INLINEFORM11 are concatenated to produce the final output vector INLINEFORM12 . DISPLAYFORM0 GLTs learn representations at low dimensionality. Therefore, a GLT",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Pyramidal & Grouped Linear Transformation"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "requires INLINEFORM0 fewer parameters than the linear transformation. We note that GLTs are subset of linear transformations. In a linear transformation, each neuron receives an input from each element in the input vector while in a GLT, each neuron receives an input from a subset of the input vector. Therefore, GLT is the same as a linear transformation when INLINEFORM1 . Pyramidal Recurrent Unit We extend the basic gating architecture of LSTM with the pyramidal and grouped linear transformations outlined above to produce the Pyramidal Recurrent Unit (PRU), whose improved sequence modeling capacity is evidenced in Section SECREF4 . At time INLINEFORM0 , the PRU combines the input vector INLINEFORM1 and the previous context vector (or previous hidden state vector) INLINEFORM2 using the following transformation function as: DISPLAYFORM0 where INLINEFORM0 indexes the various gates in the LSTM model, and INLINEFORM1 and INLINEFORM2 represents the pyramidal and grouped linear transformations defined in Eqns. EQREF10 and EQREF15 , respectively. We will now incorporate INLINEFORM0 into LSTM gating architecture to produce PRU. At time INLINEFORM1 , a PRU cell takes INLINEFORM2 , INLINEFORM3 , and INLINEFORM4 as inputs to produce forget INLINEFORM5 , input INLINEFORM6 , output INLINEFORM7 , and content INLINEFORM8 gate signals. The inputs are combined with these gate signals to produce context vector INLINEFORM9 and cell state INLINEFORM10 . Mathematically, the PRU with the LSTM gating architecture can be defined as: DISPLAYFORM0 where INLINEFORM0 represents the element-wise multiplication operation, and INLINEFORM1 and INLINEFORM2 are the sigmoid and hyperbolic tangent activation functions. We note that LSTM is a special case of PRU when INLINEFORM3 = INLINEFORM4 =1. Experiments To showcase the effectiveness of the PRU, we evaluate the performance on two standard datasets for word-level language modeling and compare with state-of-the-art methods. Additionally, we provide a detailed examination of the PRU and its behavior on the language modeling tasks. Set-up Following recent works, we compare on two widely used datasets, the Penn Treebank (PTB) BIBREF28 as prepared by BIBREF29 and WikiText2 (WT-2) BIBREF20 . For both datasets, we follow the same training, validation, and test splits as in BIBREF0 . We extend the language model, AWD-LSTM BIBREF0 , by replacing LSTM layers with PRU. Our model uses 3-layers of PRU with an embedding size of 400. The number of parameters learned by state-of-the-art methods vary from 18M to 66M with majority of the methods learning about 22M to 24M parameters on",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Pyramidal Recurrent Unit"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "the PTB dataset. For a fair comparison with state-of-the-art methods, we fix the model size to 19M and vary the value of INLINEFORM0 and hidden layer sizes so that total number of learned parameters is similar across different configurations. We use 1000, 1200, and 1400 as hidden layer sizes for values of INLINEFORM1 =1,2, and 4, respectively. We use the same settings for the WT-2 dataset. We set the number of pyramidal levels INLINEFORM2 to two in our experiments and use average pooling for sub-sampling. These values are selected based on our ablation experiments on the validation set (Section SECREF39 ). We measure the performance of our models in terms of word-level perplexity. We follow the same training strategy as in BIBREF0 . To understand the effect of regularization methods on the performance of PRUs, we perform experiments under two different settings: (1) Standard dropout: We use a standard dropout BIBREF12 with probability of 0.5 after embedding layer, the output between LSTM layers, and the output of final LSTM layer. (2) Advanced dropout: We use the same dropout techniques with the same dropout values as in BIBREF0 . We call this model as AWD-PRU. Results Table TABREF23 compares the performance of the PRU with state-of-the-art methods. We can see that the PRU achieves the best performance with fewer parameters. PRUs achieve either the same or better performance than LSTMs. In particular, the performance of PRUs improves with the increasing value of INLINEFORM0 . At INLINEFORM1 , PRUs outperform LSTMs by about 4 points on the PTB dataset and by about 3 points on the WT-2 dataset. This is explained in part by the regularization effect of the grouped linear transformation (Figure FIGREF1 ). With grouped linear and pyramidal transformations, PRUs learn rich representations at very high dimensional space while learning fewer parameters. On the other hand, LSTMs overfit to the training data at such high dimensions and learn INLINEFORM2 to INLINEFORM3 more parameters than PRUs. With the advanced dropouts, the performance of PRUs improves by about 4 points on the PTB dataset and 7 points on the WT-2 dataset. This further improves with finetuning on the PTB (about 2 points) and WT-2 (about 1 point) datasets. For similar number of parameters, the PRU with standard dropout outperforms most of the state-of-the-art methods by large margin on the PTB dataset (e.g. RAN BIBREF7 by 16 points with 4M less parameters, QRNN",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Comparison"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "BIBREF33 by 16 points with 1M more parameters, and NAS BIBREF31 by 1.58 points with 6M less parameters). With advanced dropouts, the PRU delivers the best performance. On both datasets, the PRU improves the perplexity by about 1 point while learning 15-20% fewer parameters. PRU is a drop-in replacement for LSTM, therefore, it can improve language models with modern inference techniques such as dynamic evaluation BIBREF21 . When we evaluate PRU-based language models (only with standard dropout) with dynamic evaluation on the PTB test set, the perplexity of PRU ( INLINEFORM0 ) improves from 62.42 to 55.23 while the perplexity of an LSTM ( INLINEFORM1 ) with similar settings improves from 66.29 to 58.79; suggesting that modern inference techniques are equally applicable to PRU-based language models. Analysis It is shown above that the PRU can learn representations at higher dimensionality with more generalization power, resulting in performance gains for language modeling. A closer analysis of the impact of the PRU in a language modeling system reveals several factors that help explain how the PRU achieves these gains. As exemplified in Table TABREF34 , the PRU tends toward more confident decisions, placing more of the probability mass on the top next-word prediction than the LSTM. To quantify this effect, we calculate the entropy of the next-token distribution for both the PRU and the LSTM using 3687 contexts from the PTB validation set. Figure FIGREF32 shows a histogram of the entropies of the distribution, where bins of size 0.23 are used to effect categories. We see that the PRU more often produces lower entropy distributions corresponding to higher confidences for next-token choices. This is evidenced by the mass of the red PRU curve lying in the lower entropy ranges compared to the blue LSTM's curve. The PRU can produce confident decisions in part because more information is encoded in the higher dimensional context vectors. The PRU has the ability to model individual words at different resolutions through the pyramidal transform; which provides multiple paths for the gradient to the embedding layer (similar to multi-task learning) and improves the flow of information. When considering the embeddings by part of speech, we find that the pyramid level 1 embeddings exhibit higher variance than the LSTM across all POS categories (Figure FIGREF33 ), and that pyramid level 2 embeddings show extremely low variance. We hypothesize that the LSTM must encode both coarse group similarities and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "PRU Model Performance"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "individual word differences into the same vector space, reducing the space between individual words of the same category. The PRU can rely on the subsampled embeddings to account for coarse-grained group similarities, allowing for finer individual word distinctions in the embedding layer. This hypothesis is strengthened by the entropy results described above: a model which can make finer distinctions between individual words can more confidently assign probability mass. A model that cannot make these distinctions, such as the LSTM, must spread its probability mass across a larger class of similar words. Saliency analysis using gradients help identify relevant words in a test sequence that contribute to the prediction BIBREF34 , BIBREF35 , BIBREF36 . These approaches compute the relevance as the squared norm of the gradients obtained through back-propagation. Table TABREF34 visualizes the heatmaps for different sequences. PRUs, in general, give more relevance to contextual words than LSTMs, such as southeast (sample 1), cost (sample 2), face (sample 4), and introduced (sample 5), which help in making more confident decisions. Furthermore, when gradients during back-propagation are visualized BIBREF37 (Table TABREF34 ), we find that PRUs have better gradient coverage than LSTMs, suggesting PRUs use more features than LSTMs that contributes to the decision. This also suggests that PRUs update more parameters at each iteration which results in faster training. Language model in BIBREF0 takes 500 and 750 epochs to converge with PRU and LSTM as a recurrent unit, respectively. Ablation studies In this section, we provide a systematic analysis of our design choices. Our training methodology is the same as described in Section SECREF19 with the standard dropouts. For a thorough understanding of our design choices, we use a language model with a single layer of PRU and fix the size of embedding and hidden layers to 600. The word-level perplexities are reported on the validation sets of the PTB and the WT-2 datasets. The two hyper-parameters that control the trade-off between performance and number of parameters in PRUs are the number of pyramidal levels INLINEFORM0 and groups INLINEFORM1 . Figure FIGREF35 provides a trade-off between perplexity and recurrent unit (RU) parameters. Variable INLINEFORM0 and fixed INLINEFORM1 : When we increase the number of pyramidal levels INLINEFORM2 at a fixed value of INLINEFORM3 , the performance of the PRU drops by about 1 to 4 points while reducing the total number of recurrent unit parameters by up to 15%. We",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "PRU Model Performance"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "note that the PRU with INLINEFORM4 at INLINEFORM5 delivers similar performance as the LSTM while learning about 15% fewer recurrent unit parameters. Fixed INLINEFORM0 and variable INLINEFORM1 : When we vary the value of INLINEFORM2 at fixed number of pyramidal levels INLINEFORM3 , the total number of recurrent unit parameters decreases significantly with a minimal impact on the perplexity. For example, PRUs with INLINEFORM4 and INLINEFORM5 learns 77% fewer recurrent unit parameters while its perplexity (lower is better) increases by about 12% in comparison to LSTMs. Moreover, the decrease in number of parameters at higher value of INLINEFORM6 enables PRUs to learn the representations in high dimensional space with better generalizability (Table TABREF23 ). Table TABREF43 shows the impact of different transformations of the input vector INLINEFORM0 and the context vector INLINEFORM1 . We make following observations: (1) Using the pyramidal transformation for the input vectors improves the perplexity by about 1 point on both the PTB and WT-2 datasets while reducing the number of recurrent unit parameters by about 14% (see R1 and R4). We note that the performance of the PRU drops by up to 1 point when residual connections are not used (R4 and R6). (2) Using the grouped linear transformation for context vectors reduces the total number of recurrent unit parameters by about 75% while the performance drops by about 11% (see R3 and R4). When we use the pyramidal transformation instead of the linear transformation, the performance drops by up to 2% while there is no significant drop in the number of parameters (R4 and R5). We set sub-sampling kernel INLINEFORM0 (Eq. EQREF12 ) with stride INLINEFORM1 and size of 3 ( INLINEFORM2 ) in four different ways: (1) Skip: We skip every other element in the input vector. (2) Convolution: We initialize the elements of INLINEFORM3 randomly from normal distribution and learn them during training the model. We limit the output values between -1 and 1 using INLINEFORM4 activation function to make training stable. (3) Avg. pool: We initialize the elements of INLINEFORM5 to INLINEFORM6 . (4) Max pool: We select the maximum value in the kernel window INLINEFORM7 . Table TABREF45 compares the performance of the PRU with different sampling methods. Average pooling performs the best while skipping give comparable performance. Both of these methods enable the network to learn richer word representations while representing the input vector in different forms, thus delivering",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "PRU Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "higher performance. Surprisingly, a convolution-based sub-sampling method does not perform as well as the averaging method. The INLINEFORM0 function used after convolution limits the range of output values which are further limited by the LSTM gating structure, thereby impeding in the flow of information inside the cell. Max pooling forces the network to learn representations from high magnitude elements, thus distinguishing features between elements vanishes, resulting in poor performance. Conclusion We introduce the Pyramidal Recurrent Unit, which better model contextual information by admitting higher dimensional representations with good generalizability. When applied to the task of language modeling, PRUs improve perplexity across several settings, including recent state-of-the-art systems. Our analysis shows that the PRU improves the flow of gradient and expand the word embedding subspace, resulting in more confident decisions. Here we have shown improvements for language modeling. In future, we plan to study the performance of PRUs on different tasks, including machine translation and question answering. In addition, we will study the performance of the PRU on language modeling with more recent inference techniques, such as dynamic evaluation and mixture of softmax. Acknowledgments This research was supported by NSF (IIS 1616112, III 1703166), Allen Distinguished Investigator Award, and gifts from Allen Institute for AI, Google, Amazon, and Bloomberg. We are grateful to Aaron Jaech, Hannah Rashkin, Mandar Joshi, Aniruddha Kembhavi, and anonymous reviewers for their helpful comments.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Pyramidal Recurrent Unit"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "LSTM units are popular recurrent neural network units used in sequence modeling tasks, particularly in language modeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "The gating structure of LSTMs allows for controlled flow of information through recurrence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Input and context vectors in LSTMs are initially transformed linearly before gating.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Convolutions have been used as non-linear transformations in recurrent units but have not outperformed well-regularized LSTMs in language modeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Increasing the dimensions of input and context vectors improves expressiveness but increases the number of parameters, potentially limiting generalizability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Performance of LSTMs decreases as the dimensions of input and context vectors increase.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "The semantics of input and context vectors are different, suggesting they may benefit from specialized treatment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The PRU is a new recurrent unit based on the LSTM gating structure, designed to improve expressiveness through pyramidal transformations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The pyramidal transformation uses subsampling to create multiple views of the input vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The pyramidal fusion structure combines subsampled representations to enable richer interactions among input vector dimensions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "A grouped linear transformation (GLT) is a method that allows a network to learn latent representations in high-dimensional space with fewer parameters and better generalizability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Pyramidal Recurrent Units (PRUs) are a new RNN architecture designed to improve the modeling of contextual information by enabling higher-dimensional vector representations while learning fewer parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Replacing an LSTM with a PRU results in improvements in perplexity across various experimental settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The PRU improves the perplexity of the state-of-the-art language model BIBREF0 by up to 1.3 points, reaching 56.56 on Penn Treebank and 64.53 on WikiText2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The PRU learns 15-20% fewer parameters compared to the current state-of-the-art language model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The pyramidal transformation subsamples an input vector into multiple levels to achieve representation at different scales, with scale-specific transformations applied to each level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The use of sub-sampling in computer vision, such as in BIBREF22, BIBREF23, BIBREF9, and BIBREF24, motivates the application of pyramidal transformation in recurrent units.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The PRU uses an element-wise sum of input and output (when dimensions match) to improve gradient flow within the recurrent unit.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "PRUs demonstrate performance gains in the task of language modeling by better capturing contextual information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Pyramidal transformation is a method that sub-samples an input vector into multiple pyramidal levels using a kernel-based approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The kernel-based approach is used to sub-sample the input vector into pyramidal levels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The input vector is sub-sampled into INLINEFORM1 pyramidal levels using a kernel-based approach with a stride defined by INLINEFORM0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The pyramidal transformation reduces the number of parameters of a linear transformation by a factor of INLINEFORM5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "A linear transformation maps an input vector INLINEFORM1 linearly to an output vector INLINEFORM2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Grouped linear transformation (GLT) splits an input vector into smaller groups and applies a linear transformation to each group separately.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "A GLT first splits the input vector into INLINEFORM4 smaller groups and then applies a linear transformation to each group to produce output vectors, which are concatenated to form the final output vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The reuse of weights in linear transformations over multiple time steps makes them prone to over-fitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Variational dropout is a method proposed to regularize recurrent connections and combat over-fitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Weight dropout is another method proposed to regularize recurrent connections and reduce over-fitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Experimental results suggest that grouped linear transformations are more effective than standard linear transformations for recurrent connections in the PRU architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The input vector is a dense word embedding shared across contexts, while the context vector is highly contextualized by the current sequence, motivating their separate treatment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "GLTs learn representations at low dimensionality and produce a final output vector by concatenating the outputs of individual group transformations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "A GLT is a type of linear transformation where each neuron receives input from a subset of the input vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "A linear transformation is a model where each neuron receives an input from every element in the input vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "GLT is equivalent to a linear transformation when INLINEFORM1 holds true.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The Pyramidal Recurrent Unit (PRU) extends the LSTM gating architecture by incorporating pyramidal and grouped linear transformations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The PRU demonstrates improved sequence modeling capacity as shown in Section SECREF4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "At time INLINEFORM1, a PRU cell takes inputs INLINEFORM2, INLINEFORM3, and INLINEFORM4 to produce forget, input, output, and content gate signals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "LSTM is a special case of PRU when INLINEFORM3 equals INLINEFORM4 equals 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The Penn Treebank (PTB) is one of the standard datasets used for word-level language modeling in the evaluation of PRU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "WikiText2 is another standard dataset used for evaluating the performance of PRU in word-level language modeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The AWD-LSTM model is extended by replacing LSTM layers with PRU layers in the language modeling setup.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The PRU model used in the experiments consists of three layers with an embedding size of 400.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Configuration"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "State-of-the-art language modeling methods learn between 18M and 66M parameters, with most learning around 22M to 24M parameters on the datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The PTB dataset uses a model size of 19M parameters with varying hidden layer sizes and INLINEFORM0 values to maintain similar total parameter counts across configurations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The value of INLINEFORM1 is set to 1, 2, and 4, corresponding to hidden layer sizes of 1000, 1200, and 1400, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The same experimental settings as the PTB dataset are applied to the WT-2 dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The number of pyramidal levels INLINEFORM2 is set to two in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Average pooling is used for sub-sampling in the models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Model performance is measured in terms of word-level perplexity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The training strategy follows that of BIBREF0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Standard dropout with probability 0.5 is applied after the embedding layer, between LSTM layers, and at the final LSTM layer output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Advanced dropout uses the same techniques and values as in BIBREF0 and is referred to as AWD-PRU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The PRU achieves the best performance with fewer parameters compared to state-of-the-art methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "PRUs achieve either the same or better performance than LSTMs, with improvements of about 4 points on PTB and 3 points on WT-2 at INLINEFORM1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The regularization effect of grouped linear transformation contributes to the improved performance of PRUs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "PRUs learn rich representations in high-dimensional spaces while using fewer parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "LSTMs overfit to the training data at high dimensions and learn more parameters than PRUs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "With advanced dropout, PRUs improve by about 4 points on PTB and 7 points on WT-2 datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Fine-tuning on PTB improves PRU performance by about 2 points, and on WT-2 by about 1 point.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The PRU outperforms RAN by 16 points on the PTB dataset with 4M fewer parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The values of INLINEFORM2 and other hyperparameters are selected based on ablation experiments on the validation set (Section SECREF39).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "PRU is a drop-in replacement for LSTM that improves language model performance with advanced dropouts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The PRU improves perplexity by about 1 point while learning 15-20% fewer parameters on both datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The PRU tends to produce more confident next-word predictions by placing more probability mass on the top prediction compared to LSTM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The PRU generates lower entropy next-token distributions, indicating higher confidence in predictions compared to LSTM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The PRU models individual words at different resolutions through a pyramidal transform, providing multiple paths for gradient flow to the embedding layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Mechanism"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Pyramid level 1 embeddings in the PRU show higher variance across all part-of-speech categories than LSTM embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Pyramid level 2 embeddings in the PRU show extremely low variance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The PRU achieves better generalization and performance due to higher-dimensional context vectors that encode more information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The PRU is compatible with modern inference techniques such as dynamic evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Compatibility"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "On the PTB test set, the PRU's perplexity improves from 62.42 to 55.23 with dynamic evaluation, while LSTM's perplexity improves from 66.29 to 58.79.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "A PRU is a recurrent unit that reduces the space between individual words of the same category by leveraging subsampled embeddings to capture coarse-grained group similarities while enabling finer individual word distinctions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "PRUs assign higher relevance to contextual words compared to LSTMs, as shown in saliency analysis using gradient norms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "PRUs exhibit better gradient coverage during back-propagation than LSTMs, indicating they utilize more features and update more parameters per iteration.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "The improved gradient coverage in PRUs leads to faster training due to more extensive parameter updates.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "A language model using PRUs converges in 500 epochs, compared to 750 epochs for an LSTM-based model on the same task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The number of pyramidal levels in a PRU controls the trade-off between performance and the number of recurrent unit parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Hyperparameter"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The number of groups in a PRU influences the balance between model performance and parameter count.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Hyperparameter"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Word-level perplexity on the PTB and WT-2 validation sets is used to evaluate the performance of PRUs with a single layer and fixed embedding and hidden layer size of 600.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Saliency analysis using gradients computes word relevance as the squared norm of back-propagated gradients to identify contributing words in a test sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "PRUs demonstrate superior gradient coverage compared to LSTMs, suggesting they leverage a broader set of features in decision-making.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "An ablation study is conducted to systematically analyze the impact of design choices in PRUs, including the number of pyramidal levels and groups.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Increasing the number of pyramidal levels in a PRU at a fixed group size leads to a drop in performance by 1 to 4 points and reduces recurrent unit parameters by up to 15%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The PRU with INLINEFORM4 at INLINEFORM5 delivers similar performance to LSTM while learning 15% fewer recurrent unit parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "When the value of INLINEFORM2 is varied at a fixed number of pyramidal levels INLINEFORM3, the total number of recurrent unit parameters decreases significantly with minimal impact on perplexity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "PRUs with INLINEFORM4 and INLINEFORM5 learn 77% fewer recurrent unit parameters compared to LSTMs, with a 12% increase in perplexity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "At higher values of INLINEFORM6, PRUs can learn representations in high-dimensional space with better generalizability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Using pyramidal transformation for input vectors improves perplexity by about 1 point on both PTB and WT-2 datasets and reduces recurrent unit parameters by about 14%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The performance of PRU drops by up to 1 point when residual connections are not used.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Using grouped linear transformation for context vectors reduces the total number of recurrent unit parameters by about 75% with a 11% drop in performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Replacing linear transformation with pyramidal transformation for context vectors causes a performance drop of up to 2% with no significant drop in parameter count.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The sub-sampling kernel INLINEFORM0 is set with stride INLINEFORM1 and size of 3 (INLINEFORM2) in four different ways: skip, convolution, average pool, and max pool.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "In the convolution method, elements of INLINEFORM3 are initialized randomly from a normal distribution and learned during training, with output values limited between -1 and 1 using INLINEFORM4 activation function for training stability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Average pooling performs the best among the sub-sampling methods in terms of PRU performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The skipping method provides performance comparable to average pooling in the PRU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Both average pooling and skipping enable the network to learn richer word representations by representing the input vector in different forms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "A convolution-based sub-sampling method does not perform as well as the averaging method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The INLINEFORM0 function used after convolution limits the range of output values.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The LSTM gating structure further limits the range of output values.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "Max pooling forces the network to learn representations from high magnitude elements.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Max pooling causes the distinction between features to vanish, resulting in poor performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The Pyramidal Recurrent Unit is a unit that better models contextual information by admitting higher dimensional representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The PRU has good generalizability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "When applied to language modeling, PRUs improve perplexity across several settings, including recent state-of-the-art systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The PRU improves the flow of gradients and expands the word embedding subspace, resulting in more confident decisions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Mechanism"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Future work includes studying the performance of PRUs on machine translation and question answering.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Future work includes studying the performance of PRUs on language modeling with more recent inference techniques such as dynamic evaluation and mixture of softmax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "This research was supported by NSF grants IIS 1616112 and III 1703166.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "This research was supported by the Allen Distinguished Investigator Award.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "This research received gifts from the Allen Institute for AI.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "This research received gifts from Google.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "This research received gifts from Amazon.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "This research received gifts from Bloomberg.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Aaron Jaech provided helpful comments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgment"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Hannah Rashkin provided helpful comments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgment"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Mandar Joshi provided helpful comments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgment"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Aniruddha Kembhavi provided helpful comments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgment"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Anonymous reviewers provided helpful comments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgment"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1 point",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "1.58 points",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "1000 hidden layer size",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "11%",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "12%",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "1200 hidden layer size",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "14%",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "1400 hidden layer size",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "15%",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "15-20% fewer parameters",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "15-20% fewer parameters",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "16 points",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "18M parameters",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "19M model size",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "1M parameters",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "2%",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "22M parameters",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "24M parameters",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "3-layers",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "3687 contexts",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "500 epochs",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "55.23",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "58.79",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "600 embedding",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "600 hidden",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "62.42",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "66.29",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "66M parameters",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "6M less parameters",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "750 epochs",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "77%",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "AWD-LSTM",
+      "Model",
+      "s42"
+    ],
+    [
+      "AWD-LSTM",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "AWD-PRU",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "Aaron Jaech",
+      "Acknowledgment",
+      "s115"
+    ],
+    [
+      "Aaron Jaech",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "Allen Distinguished Investigator Award",
+      "Funding",
+      "s110"
+    ],
+    [
+      "Allen Distinguished Investigator Award",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "Allen Institute for AI",
+      "Funding",
+      "s111"
+    ],
+    [
+      "Allen Institute for AI",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "Amazon",
+      "Funding",
+      "s113"
+    ],
+    [
+      "Amazon",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "Aniruddha Kembhavi",
+      "Acknowledgment",
+      "s118"
+    ],
+    [
+      "Aniruddha Kembhavi",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "BIBREF0",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "BIBREF0",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "BIBREF12",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "BIBREF22",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "BIBREF23",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "BIBREF24",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "BIBREF31",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "BIBREF33",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "BIBREF34",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "BIBREF35",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "BIBREF36",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "BIBREF37",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "BIBREF9",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "Bloomberg",
+      "Funding",
+      "s114"
+    ],
+    [
+      "Bloomberg",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "EQREF12",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "FIGREF1",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "FIGREF1",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "FIGREF2",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "FIGREF32",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "FIGREF33",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "FIGREF35",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "Figure FIGREF1",
+      "Result",
+      "s6"
+    ],
+    [
+      "GLT",
+      "Definition",
+      "s33"
+    ],
+    [
+      "GLT",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "GLT",
+      "Property",
+      "s35"
+    ],
+    [
+      "GLT effectiveness",
+      "Result",
+      "s30"
+    ],
+    [
+      "GLT output",
+      "Property",
+      "s32"
+    ],
+    [
+      "GLT process",
+      "Procedure",
+      "s26"
+    ],
+    [
+      "GLTs",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "Google",
+      "Funding",
+      "s112"
+    ],
+    [
+      "Google",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "Hannah Rashkin",
+      "Acknowledgment",
+      "s116"
+    ],
+    [
+      "Hannah Rashkin",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "INLINEFORM0",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM0",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "INLINEFORM0",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM0",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "INLINEFORM0",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM0 function",
+      "Property",
+      "s99"
+    ],
+    [
+      "INLINEFORM1",
+      "Definition",
+      "s46"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "INLINEFORM1",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM1",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "INLINEFORM1",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM1",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM10",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM2",
+      "Definition",
+      "s48"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "INLINEFORM2",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM2",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM2",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM3",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "INLINEFORM3",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM3",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM3",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM4",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM4",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM4",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM4 activation function",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM5",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM5",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "INLINEFORM5",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM6",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM6",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM7",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM7",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM8",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM8",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "INLINEFORM9",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "INLINEFORM9",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "LSTM",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "LSTM",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "LSTM",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "LSTM",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "LSTM",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "LSTM gating structure",
+      "Property",
+      "s100"
+    ],
+    [
+      "LSTM gating structure",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "LSTM overfitting",
+      "Problem",
+      "s58"
+    ],
+    [
+      "LSTM units",
+      "LSTM Gating Structure",
+      "e1"
+    ],
+    [
+      "LSTMs",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "Long short term memory",
+      "LSTM Gating Structure",
+      "e1"
+    ],
+    [
+      "Long short term memory (LSTM) units",
+      "Definition",
+      "s1"
+    ],
+    [
+      "Mandar Joshi",
+      "Acknowledgment",
+      "s117"
+    ],
+    [
+      "Mandar Joshi",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "NLP applications",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "NSF (IIS 1616112, III 1703166)",
+      "Funding",
+      "s109"
+    ],
+    [
+      "NSF (IIS 1616112, III 1703166)",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "PRU",
+      "Benefit",
+      "s70"
+    ],
+    [
+      "PRU",
+      "Cause",
+      "s76"
+    ],
+    [
+      "PRU",
+      "Compatibility",
+      "s71"
+    ],
+    [
+      "PRU",
+      "Definition",
+      "s63"
+    ],
+    [
+      "PRU",
+      "Definition",
+      "s73"
+    ],
+    [
+      "PRU",
+      "Mechanism",
+      "s106"
+    ],
+    [
+      "PRU",
+      "Mechanism",
+      "s67"
+    ],
+    [
+      "PRU",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "PRU",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "PRU",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "PRU",
+      "Performance",
+      "s72"
+    ],
+    [
+      "PRU",
+      "Performance",
+      "s77"
+    ],
+    [
+      "PRU",
+      "Property",
+      "s65"
+    ],
+    [
+      "PRU",
+      "Property",
+      "s66"
+    ],
+    [
+      "PRU",
+      "Property",
+      "s74"
+    ],
+    [
+      "PRU",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "PRU",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "PRU",
+      "Relationship",
+      "s39"
+    ],
+    [
+      "PRU",
+      "Result",
+      "s105"
+    ],
+    [
+      "PRU",
+      "Result",
+      "s13"
+    ],
+    [
+      "PRU",
+      "Result",
+      "s37"
+    ],
+    [
+      "PRU",
+      "Result",
+      "s64"
+    ],
+    [
+      "PRU",
+      "Result",
+      "s68"
+    ],
+    [
+      "PRU",
+      "Result",
+      "s69"
+    ],
+    [
+      "PRU",
+      "Result",
+      "s75"
+    ],
+    [
+      "PRU cell",
+      "Process",
+      "s38"
+    ],
+    [
+      "PRU model",
+      "Configuration",
+      "s43"
+    ],
+    [
+      "PRU performance",
+      "Result",
+      "s54"
+    ],
+    [
+      "PRU representation learning",
+      "Property",
+      "s57"
+    ],
+    [
+      "PRU vs LSTM",
+      "Comparison",
+      "s55"
+    ],
+    [
+      "PRU vs RAN",
+      "Comparison",
+      "s61"
+    ],
+    [
+      "PRU with INLINEFORM4 and INLINEFORM5",
+      "Result",
+      "s87"
+    ],
+    [
+      "PRU with INLINEFORM4 at INLINEFORM5",
+      "Performance",
+      "s85"
+    ],
+    [
+      "PRU with fixed INLINEFORM0 and variable INLINEFORM1",
+      "Property",
+      "s86"
+    ],
+    [
+      "PRUs",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "PRUs at higher value of INLINEFORM6",
+      "Benefit",
+      "s88"
+    ],
+    [
+      "PTB",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "PTB dataset",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "PTB dataset",
+      "Property",
+      "s45"
+    ],
+    [
+      "PTB test set",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "Penn Treebank",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "Penn Treebank (PTB)",
+      "Dataset",
+      "s40"
+    ],
+    [
+      "Penn Treebank (PTB)",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "Pyramidal Recurrent Unit",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "Pyramidal Recurrent Unit",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "Pyramidal Recurrent Unit (PRU)",
+      "Definition",
+      "s103"
+    ],
+    [
+      "Pyramidal Recurrent Unit (PRU)",
+      "Definition",
+      "s36"
+    ],
+    [
+      "Pyramidal Recurrent Unit (PRU)",
+      "Definition",
+      "s8"
+    ],
+    [
+      "Pyramidal Recurrent Unit (PRU)",
+      "Property",
+      "s104"
+    ],
+    [
+      "Pyramidal Recurrent Units (PRUs)",
+      "Definition",
+      "s12"
+    ],
+    [
+      "QRNN",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "RAN BIBREF7",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "SECREF19",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "SECREF39",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "TABLE TABREF23",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "TABLE TABREF43",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "TABLE TABREF45",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "TABREF23",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "TABREF34",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "WT-2",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "WT-2 dataset",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "WT-2 dataset",
+      "Property",
+      "s47"
+    ],
+    [
+      "WikiText2",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "WikiText2 (WT-2)",
+      "Dataset",
+      "s41"
+    ],
+    [
+      "WikiText2 (WT-2)",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "ablation experiments",
+      "Method",
+      "s62"
+    ],
+    [
+      "ablation studies",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "ablation study",
+      "Method",
+      "s83"
+    ],
+    [
+      "advanced dropout",
+      "Method",
+      "s53"
+    ],
+    [
+      "advanced dropout",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "advanced dropout performance",
+      "Result",
+      "s59"
+    ],
+    [
+      "anonymous reviewers",
+      "Acknowledgment",
+      "s119"
+    ],
+    [
+      "anonymous reviewers",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "articulated gating",
+      "LSTM Gating Structure",
+      "e1"
+    ],
+    [
+      "average pooling",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "average pooling method",
+      "Performance",
+      "s95"
+    ],
+    [
+      "averaging method",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "avg. pool",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "back-propagation",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "concatenated output",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "context vector",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "context vectors",
+      "Nonlinear Transformation",
+      "e3"
+    ],
+    [
+      "context vectors",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "contextual information",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "contextual information",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "contextualized vector",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "convolution",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "convolution",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "convolution method for sub-sampling",
+      "Training",
+      "s94"
+    ],
+    [
+      "convolution-based sub-sampling method",
+      "Performance",
+      "s98"
+    ],
+    [
+      "convolutions",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "cost",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "dimension increase",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "dropouts",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "dynamic evaluation",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "dynamic evaluation",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "embedding layer",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "embedding size of 400",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "entropy",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "entropy",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "face",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "fine-tuning",
+      "Effect",
+      "s60"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s107"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s108"
+    ],
+    [
+      "gating mechanisms",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "gating structure",
+      "LSTM Gating Structure",
+      "e1"
+    ],
+    [
+      "gating structure",
+      "Property",
+      "s2"
+    ],
+    [
+      "generalizability",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "gradient coverage",
+      "Property",
+      "s82"
+    ],
+    [
+      "gradient flow",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "gradient flow",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "gradient flow",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "gradients",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "grouped linear transformation",
+      "Cause",
+      "s56"
+    ],
+    [
+      "grouped linear transformation",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "grouped linear transformation",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "grouped linear transformation (GLT)",
+      "Definition",
+      "s11"
+    ],
+    [
+      "grouped linear transformation (GLT)",
+      "Definition",
+      "s25"
+    ],
+    [
+      "grouped linear transformation (GLT)",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "grouped linear transformation of context vectors",
+      "Result",
+      "s91"
+    ],
+    [
+      "groups",
+      "Hyperparameter",
+      "s79"
+    ],
+    [
+      "groups",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "heatmaps",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "high dimensional space",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "higher dimensional representations",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "increase in pyramidal levels",
+      "Effect",
+      "s84"
+    ],
+    [
+      "increasing input and context dimensions",
+      "Cause",
+      "s5"
+    ],
+    [
+      "input and context vectors",
+      "Property",
+      "s3"
+    ],
+    [
+      "input and context vectors",
+      "Relationship",
+      "s31"
+    ],
+    [
+      "input vector",
+      "Nonlinear Transformation",
+      "e3"
+    ],
+    [
+      "input vector",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "input vector",
+      "Property",
+      "s22"
+    ],
+    [
+      "input vector",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "input vector embedding",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "input vectors",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "introduced",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "kernel",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "kernel-based approach",
+      "Property",
+      "s21"
+    ],
+    [
+      "kernel-based approach",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "language modeling",
+      "Application",
+      "s19"
+    ],
+    [
+      "language modeling",
+      "LSTM Gating Structure",
+      "e1"
+    ],
+    [
+      "language modeling",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "language modeling",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "language modeling",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "language modeling",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "linear interactions",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "linear transformation",
+      "Definition",
+      "s24"
+    ],
+    [
+      "linear transformation",
+      "Definition",
+      "s34"
+    ],
+    [
+      "linear transformation",
+      "Nonlinear Transformation",
+      "e3"
+    ],
+    [
+      "linear transformation",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "linear transformation",
+      "Pyramidal Recurrent Unit",
+      "e6"
+    ],
+    [
+      "linear transformations",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "machine translation",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "max pool",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "max pooling",
+      "Effect",
+      "s101"
+    ],
+    [
+      "max pooling",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "max pooling",
+      "Result",
+      "s102"
+    ],
+    [
+      "mixture of softmax",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "non-linear transformations",
+      "Example",
+      "s4"
+    ],
+    [
+      "normal distribution",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "number of parameters",
+      "Result",
+      "s23"
+    ],
+    [
+      "output vector",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "over-fitting",
+      "Cause",
+      "s27"
+    ],
+    [
+      "over-fitting",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "parameter efficiency",
+      "Property",
+      "s15"
+    ],
+    [
+      "parameters",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "parameters",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "part of speech",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "perplexity",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "perplexity",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "perplexity",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "perplexity",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "perplexity",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "perplexity",
+      "Result",
+      "s14"
+    ],
+    [
+      "perplexity",
+      "Result",
+      "s80"
+    ],
+    [
+      "pyramid level 1",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "pyramid level 2",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "pyramidal fusion",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "pyramidal fusion structure",
+      "Property",
+      "s10"
+    ],
+    [
+      "pyramidal levels",
+      "Hyperparameter",
+      "s78"
+    ],
+    [
+      "pyramidal levels",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "pyramidal levels",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "pyramidal levels",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "pyramidal levels",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "pyramidal transform",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "pyramidal transformation",
+      "Definition",
+      "s16"
+    ],
+    [
+      "pyramidal transformation",
+      "Definition",
+      "s20"
+    ],
+    [
+      "pyramidal transformation",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "pyramidal transformation",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "pyramidal transformation",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "pyramidal transformation",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "pyramidal transformation (PT)",
+      "Definition",
+      "s9"
+    ],
+    [
+      "pyramidal transformation for context vectors",
+      "Result",
+      "s92"
+    ],
+    [
+      "pyramidal transformation of input vectors",
+      "Performance",
+      "s89"
+    ],
+    [
+      "question answering",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "recurrent connections",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "recurrent unit",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "recurrent unit parameters",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "residual analog",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "residual connection",
+      "Property",
+      "s18"
+    ],
+    [
+      "residual connections",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "residual connections in PRU",
+      "Requirement",
+      "s90"
+    ],
+    [
+      "richer word representations",
+      "Benefit",
+      "s97"
+    ],
+    [
+      "saliency analysis",
+      "Method",
+      "s81"
+    ],
+    [
+      "saliency analysis",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "semantics of input and context vectors",
+      "Claim",
+      "s7"
+    ],
+    [
+      "sequence modeling",
+      "LSTM Gating Structure",
+      "e1"
+    ],
+    [
+      "size of 3",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "skip",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "skipping method",
+      "Performance",
+      "s96"
+    ],
+    [
+      "smaller groups",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "southeast",
+      "PRU Model Performance",
+      "e9"
+    ],
+    [
+      "standard dropout",
+      "Method",
+      "s52"
+    ],
+    [
+      "standard dropout",
+      "Model Performance Comparison",
+      "e7"
+    ],
+    [
+      "state-of-the-art methods",
+      "Property",
+      "s44"
+    ],
+    [
+      "stride",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "stride",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "sub-sampled",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "sub-sampling",
+      "Method",
+      "s49"
+    ],
+    [
+      "sub-sampling",
+      "PRU Architecture",
+      "e4"
+    ],
+    [
+      "sub-sampling in computer vision",
+      "Cause",
+      "s17"
+    ],
+    [
+      "sub-sampling kernel",
+      "PRU Performance Analysis",
+      "e10"
+    ],
+    [
+      "sub-sampling kernel INLINEFORM0",
+      "Method",
+      "s93"
+    ],
+    [
+      "subsampling",
+      "Pyramidal Recurrent Unit",
+      "e2"
+    ],
+    [
+      "time steps",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "training strategy",
+      "Property",
+      "s51"
+    ],
+    [
+      "variance",
+      "PRU Model Performance",
+      "e8"
+    ],
+    [
+      "variational dropout",
+      "Method",
+      "s28"
+    ],
+    [
+      "variational dropout",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "weight dropout",
+      "Method",
+      "s29"
+    ],
+    [
+      "weight dropout",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "word embedding",
+      "Pyramidal & Grouped Linear Transformation",
+      "e5"
+    ],
+    [
+      "word embedding subspace",
+      "Pyramidal Recurrent Unit",
+      "e11"
+    ],
+    [
+      "word-level perplexity",
+      "Metric",
+      "s50"
+    ],
+    [
+      "word-level perplexity",
+      "Model Performance Comparison",
+      "e7"
+    ]
+  ]
+}

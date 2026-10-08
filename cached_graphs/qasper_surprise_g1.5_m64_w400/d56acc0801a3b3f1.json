@@ -1,0 +1,4714 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 131,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "humans": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "unstructured text": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "machines": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "comprehend": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "context document": {
+      "tag_set": [
+        "Cloze Question Task",
+        "Cloze Questions Dataset",
+        "Dataset Properties"
+      ]
+    },
+    "cloze-style questions": {
+      "tag_set": [
+        "Cloze Questions Dataset",
+        "Definition"
+      ]
+    },
+    "missing word": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "sentence": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "text corpus": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "deep-learning techniques": {
+      "tag_set": [
+        "Cloze Questions Dataset",
+        "Result"
+      ]
+    },
+    "data-hungry": {
+      "tag_set": [
+        "Cloze Questions Dataset"
+      ]
+    },
+    "large-scale datasets": {
+      "tag_set": [
+        "Cloze Questions Dataset",
+        "Property"
+      ]
+    },
+    "Google DeepMind": {
+      "tag_set": [
+        "Dataset Introduction",
+        "Dataset Properties"
+      ]
+    },
+    "Facebook AI": {
+      "tag_set": [
+        "Dataset Introduction"
+      ]
+    },
+    "CNN/Daily Mail dataset": {
+      "tag_set": [
+        "Dataset Introduction",
+        "Definition"
+      ]
+    },
+    "Children's Book Test (CBT)": {
+      "tag_set": [
+        "Dataset Introduction",
+        "Definition"
+      ]
+    },
+    "BookTest": {
+      "tag_set": [
+        "Dataset Construction",
+        "Dataset Introduction",
+        "Definition",
+        "Model Training Optimization",
+        "Model Training Setup"
+      ]
+    },
+    "One Billion Word corpus": {
+      "tag_set": [
+        "Dataset Introduction"
+      ]
+    },
+    "Jozefowicz": {
+      "tag_set": [
+        "Dataset Introduction"
+      ]
+    },
+    "LSTM models": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Dataset Introduction"
+      ]
+    },
+    "perplexity": {
+      "tag_set": [
+        "Dataset Introduction"
+      ]
+    },
+    "text comprehension": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Dataset Introduction",
+        "Task"
+      ]
+    },
+    "model training": {
+      "tag_set": [
+        "Dataset Introduction"
+      ]
+    },
+    "prediction error": {
+      "tag_set": [
+        "Dataset Introduction"
+      ]
+    },
+    "named-entity version of CBT": {
+      "tag_set": [
+        "Dataset Introduction",
+        "Result"
+      ]
+    },
+    "human baseline": {
+      "tag_set": [
+        "Dataset Introduction",
+        "Result"
+      ]
+    },
+    "reader's comprehension": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "cloze-style question": {
+      "tag_set": [
+        "Cloze Question Task",
+        "Dataset Construction",
+        "Dataset Properties",
+        "Definition"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "Cloze Question Task",
+        "Dataset Construction",
+        "Dataset Evaluation"
+      ]
+    },
+    "question": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "document": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "possible answers": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "ground-truth answer": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "vocabulary": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "CBT": {
+      "tag_set": [
+        "Cloze Question Task",
+        "Dataset Comparison",
+        "Dataset Evaluation",
+        "Definition",
+        "Model Training Setup"
+      ]
+    },
+    "CNN/Daily Mail": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "answer appears in document": {
+      "tag_set": [
+        "Cloze Question Task"
+      ]
+    },
+    "This": {
+      "tag_set": [
+        "Exploitation Method"
+      ]
+    },
+    "exploited": {
+      "tag_set": [
+        "Exploitation Method"
+      ]
+    },
+    "MCTest": {
+      "tag_set": [
+        "Dataset Properties"
+      ]
+    },
+    "Facebook": {
+      "tag_set": [
+        "Dataset Properties",
+        "Model Training Optimization"
+      ]
+    },
+    "online news articles": {
+      "tag_set": [
+        "Dataset Properties"
+      ]
+    },
+    "summary sentence": {
+      "tag_set": [
+        "Dataset Properties"
+      ]
+    },
+    "named entities": {
+      "tag_set": [
+        "Dataset Properties",
+        "Model Training Setup"
+      ]
+    },
+    "anonymous tokens": {
+      "tag_set": [
+        "Dataset Properties",
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "batch shuffling": {
+      "tag_set": [
+        "Dataset Properties"
+      ]
+    },
+    "question answering": {
+      "tag_set": [
+        "Dataset Properties"
+      ]
+    },
+    "document-question-answer triples": {
+      "tag_set": [
+        "Dataset Properties",
+        "Definition"
+      ]
+    },
+    "pre-trained word embedding vectors": {
+      "tag_set": [
+        "Dataset Properties"
+      ]
+    },
+    "Chen et al": {
+      "tag_set": [
+        "Dataset Properties"
+      ]
+    },
+    "REF5": {
+      "tag_set": [
+        "Claim",
+        "Dataset Comparison"
+      ]
+    },
+    "17%": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Evaluation",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "Project Gutenberg": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "20 sentences": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Dataset Construction"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "LAMBADA": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "common-sense questions": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "BIBREF20": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "SQuAD": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "Wikipedia": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "Gigaword": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "news articles": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "factoid questions": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "multi-word answer": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "CNN/DM": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "copyright-free books": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "Story Cloze Test": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Property",
+        "Result"
+      ]
+    },
+    "WikiReading": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "WikiData": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Property"
+      ]
+    },
+    "Hillary Clinton": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "Chicago": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "date of birth": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "49,255": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "3,744": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "130,000": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "two orders of magnitude": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "20 properties": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "Hermann et al.": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "Memory Networks": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "psr model": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Model Evaluation"
+      ]
+    },
+    "AS Reader": {
+      "tag_set": [
+        "Dataset Comparison",
+        "Influence",
+        "Model Training Optimization",
+        "Model Training Setup"
+      ]
+    },
+    "hierarchical structure": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "two-way attention": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "information retrieval": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "deep-learning": {
+      "tag_set": [
+        "Dataset Comparison"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF13": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Mercer": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "CBT NE": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "CN datasets": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "project Gutenberg": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "3555 books": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "10507 books": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "108 books": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Stanford POS tagger": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "Stanford NER": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "gap tag (XXXXX)": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "validation dataset": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Training Setup"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Dataset Construction",
+        "Model Training Setup"
+      ]
+    },
+    "non-overlapping sets": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "BookTest corpus": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "CBT data": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "CNN dataset": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "DM dataset": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Dataset Evaluation",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "bidirectional GRU": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation"
+      ]
+    },
+    "contextual embedding": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation"
+      ]
+    },
+    "question embedding": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation"
+      ]
+    },
+    "attention": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "softmax": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "vector embeddings": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "look-up matrix": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation",
+        "Model Training Setup"
+      ]
+    },
+    "FIGREF21": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "answer word": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "unique words": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "DM": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "GRU": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "vocabulary size": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "embeddings": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "context encoder": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "ensemble": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "psr": {
+      "tag_set": [
+        "Model Training Optimization",
+        "Model Training Setup"
+      ]
+    },
+    "Tesla K40 GPU": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "TABREF25": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "training setup": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "hyperparameters": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "validation data": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "test data": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "common nouns": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "convergence time": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "unlimited data": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "Never-Ending Language Learning": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "Carnegie Mellon University": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "training speed": {
+      "tag_set": [
+        "Model Training Optimization",
+        "Property"
+      ]
+    },
+    "model performance": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "regularization": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "dropout": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "Chen et al.": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "Children's Book Test": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "230k examples": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "CBT NE+CN": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "human performance": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "small human study": {
+      "tag_set": [
+        "Model Training Optimization"
+      ]
+    },
+    "validation datasets": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "test datasets": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "named entity questions": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "common noun questions": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "psr ensemble": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "10 non-native English speakers": {
+      "tag_set": [
+        "Dataset Evaluation",
+        "Property"
+      ]
+    },
+    "research laboratory": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "Table TABREF28": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "92% accuracy": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "96% accuracy": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "human baselines": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "text-comprehension systems": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "BookTest dataset": {
+      "tag_set": [
+        "Dataset Evaluation",
+        "Definition",
+        "Differentiation",
+        "Variants"
+      ]
+    },
+    "model architecture": {
+      "tag_set": [
+        "Dataset Evaluation"
+      ]
+    },
+    "stochastic gradient descent": {
+      "tag_set": [
+        "Method",
+        "Model Training Setup"
+      ]
+    },
+    "ADAM update rule": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "learning rates": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "negative log-likelihood": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "random uniform interval": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "GRU networks": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "random orthogonal matrices": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "zero biases": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "gradient clipping": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "batch size 32": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "batch size 256": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "batch size 128": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "memory constraints": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "GPU": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "epoch": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "randomly shuffled": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "pre-fetched batches": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "document length": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "20k BookTest validation set": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "hyperparameter space": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "67 models": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Table TABREF29": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Theano": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Blocks": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "ensembles": {
+      "tag_set": [
+        "Method",
+        "Model Training Setup"
+      ]
+    },
+    "averaging predictions": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "greedy ensemble": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "validation performance": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "10 models": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "5 models": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "BookTest methodology": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "model trained on BookTest": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "human study": {
+      "tag_set": [
+        "Action",
+        "Result"
+      ]
+    },
+    "Microsoft's MCTest": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Google DeepMind's method": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Facebook's method": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "summary sentence in online news articles": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "named entities in dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "context-dependent question answering": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "real application scenario": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "Children's Book Test (BIBREF2)": {
+      "tag_set": [
+        "Source",
+        "Structure"
+      ]
+    },
+    "NE and CN": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LAMBADA dataset (BIBREF19)": {
+      "tag_set": [
+        "Comparison",
+        "Limitation",
+        "Purpose"
+      ]
+    },
+    "SQuAD dataset (BIBREF20)": {
+      "tag_set": [
+        "Type"
+      ]
+    },
+    "Who-did-What dataset (BIBREF21)": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "WikiReading dataset": {
+      "tag_set": [
+        "Definition",
+        "Limitation",
+        "Property"
+      ]
+    },
+    "new dataset": {
+      "tag_set": [
+        "Advantage",
+        "Purpose"
+      ]
+    },
+    "Hermann et al. BIBREF1": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Memory Networks BIBREF2": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "psr model BIBREF4": {
+      "tag_set": [
+        "Relation"
+      ]
+    },
+    "two-way context-query attention mechanism": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "machine learning tasks": {
+      "tag_set": [
+        "Improvement Method"
+      ]
+    },
+    "state-of-the-art models (BIBREF6, BIBREF7, BIBREF8, BIBREF11)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Mercer's statement": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "CBT dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "BookTest creation procedure": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Stanford POS tagger and Stanford NER": {
+      "tag_set": [
+        "Tool"
+      ]
+    },
+    "BookTest training dataset": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "BookTest dataset size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "BookTest validation dataset": {
+      "tag_set": [
+        "Composition",
+        "Dataset"
+      ]
+    },
+    "BookTest test sets": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "book sets used for dataset generation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "books used in CBT validation and test sets": {
+      "tag_set": [
+        "Action"
+      ]
+    },
+    "PSR model": {
+      "tag_set": [
+        "Cause",
+        "Definition",
+        "Influence",
+        "Property",
+        "Result"
+      ]
+    },
+    "attention calculation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "attention normalization": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "answer selection": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "out-of-vocabulary words": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "context encoder GRU initialization": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "model ensemble": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "psr model accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "psr trained on BookTest": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "model architecture improvements": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "dataset inflation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training convergence time": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "data abundance": {
+      "tag_set": [
+        "Discussion"
+      ]
+    },
+    "challenges with large data": {
+      "tag_set": [
+        "Discussion"
+      ]
+    },
+    "unlimited data generation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "dropout regularization": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "domain generalization": {
+      "tag_set": [
+        "Challenge"
+      ]
+    },
+    "BookTest to Children's Book Test transfer": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "data augmentation": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "AS Reader performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "validation and test datasets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "50 named entity and 50 common noun validation questions": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "human study results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "original human baselines": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "machine vs human answerability": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "system accuracy over 92%": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "system accuracy over 96%": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "more training data": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "small datasets": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "training details": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "best learning rate": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training objective": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "initial weights in word-embedding matrix": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "GRU network weights": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "GRU network biases": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch sizes": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch size increase from 32 to 128": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "batch size above 128": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "epoch shuffling": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "prefetching": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "pre-trained word embeddings": {
+      "tag_set": [
+        "Absence"
+      ]
+    },
+    "text pre-processing": {
+      "tag_set": [
+        "Absence"
+      ]
+    },
+    "model evaluation": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "training stopping condition": {
+      "tag_set": [
+        "Criterion"
+      ]
+    },
+    "hyperparameter exploration": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "parameter space region": {
+      "tag_set": [
+        "Summary"
+      ]
+    },
+    "model implementation": {
+      "tag_set": [
+        "Tool"
+      ]
+    },
+    "greedy ensemble algorithm": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "final ensemble size": {
+      "tag_set": [
+        "Result"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nSince humans amass more and more generally available data in the form of unstructured text it would be very useful to teach machines to read and comprehend such data and then use this understanding to answer our questions. A significant amount of research has recently focused on answering one particular kind of questions the answer to which depends on understanding a context document. These are cloze-style questions BIBREF0 which require the reader to fill in a missing word in a sentence. An important advantage of such questions is that they can be generated automatically from a suitable text corpus which allows us to produce a practically unlimited amount of them. That opens the task to notoriously data-hungry deep-learning techniques which now seem to outperform all alternative approaches.\nTwo such large-scale datasets",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Cloze Questions Dataset"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "have recently been proposed by researchers from Google DeepMind and Facebook AI: the CNN/Daily Mail dataset BIBREF1 and the Children's Book Test (CBT) BIBREF2 respectively. These have attracted a lot of attention from the research community BIBREF3 , BIBREF4 , BIBREF5 , BIBREF6 , BIBREF7 , BIBREF8 , BIBREF9 , BIBREF10 , BIBREF11 , BIBREF12 with a new state-of-the-art model coming out every few weeks.\nHowever if our goal is a production-level system actually capable of helping humans, we want the model to use all available resources as efficiently as possible. Given that\nwe believe that if the community is striving to bring the performance as far as possible, it should move its work to larger data.\nThis thinking goes in line with recent developments in the area of language modelling. For a long time models were being compared on several \"standard\" datasets with publications often presenting minuscule improvements in performance. Then the large-scale One Billion Word corpus dataset appeared BIBREF15 and it allowed Jozefowicz et al. to train much larger LSTM models BIBREF16 that almost halved the state-of-the-art perplexity on this dataset.\nWe think it is time to make a similar step in the area of text comprehension. Hence we are introducing the BookTest, a new dataset very similar to the Children's Book test but more than 60 times larger to enable training larger models even in the domain of text comprehension. Furthermore the methodology used to create our data can later be used to create even larger datasets when the need arises thanks to further technological progress.\nWe show that if we evaluate a model trained on the new dataset on the now standard Children's Book Test dataset, we see an improvement in accuracy much larger than other research groups achieved by enhancing the model architecture itself (while still using the original CBT training data). By training on the new dataset, we reduce the prediction error by almost one third. On the named-entity version of CBT this brings the ensemble of our models to the level of human baseline as reported by Facebook BIBREF2 . However in the final section we show in our own human study that there is still room for improvement on the CBT beyond the performance of our model.\nTask Description",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Introduction"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "A natural way of testing a reader's comprehension of a text is to ask her a question the answer to which can be deduced from the text. Hence the task we are trying to solve consists of answering a cloze-style question, the answer to which depends on the understanding of a context document provided with the question. The model is also provided with a set of possible answers from which the correct one is to be selected. This can be formalized as follows:\nThe training data consist of tuples INLINEFORM0 , where INLINEFORM1 is a question, INLINEFORM2 is a document that contains the answer to question INLINEFORM3 , INLINEFORM4 is a set of possible answers and INLINEFORM5 is the ground-truth answer. Both INLINEFORM6 and INLINEFORM7 are sequences of words from vocabulary INLINEFORM8 . We also assume that all possible answers are words from the vocabulary, that is INLINEFORM9 . In the CBT and CNN/Daily Mail datasets it is also true that the ground-truth answer INLINEFORM10 appears in the document.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Cloze Question Task"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "This is exploited by",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Exploitation Method"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "many machine learning models BIBREF2 , BIBREF4 , BIBREF6 , BIBREF7 , BIBREF8 , BIBREF10 , BIBREF11 , BIBREF12 , however some do not explicitly depend on this property BIBREF1 , BIBREF3 , BIBREF5 , BIBREF9\nCurrent Landscape\nWe will now briefly review what datasets for text comprehension have been published up to date and look at models which have been recently applied to solving the task we have just described.\nDatasets\nA crucial condition for applying deep-learning techniques is to have a huge amount of data available for training. For question answering this specifically means having a large number of document-question-answer triples available. While there is an unlimited amount of text available, coming up with relevant questions and the corresponding answers can be extremely labour-intensive if done by human annotators. There were efforts to provide such human-generated datasets, e.g. Microsoft's MCTest BIBREF17 , however their scale is not suitable for deep learning without pre-training on other data BIBREF18 (such as using pre-trained word embedding vectors).\nGoogle DeepMind managed to avoid this scale issue with their way of generating document-question-answer triples automatically, closely followed by Facebook with a similar method. Let us now briefly introduce the two resulting datasets whose properties are summarized in Table TABREF8 .\nThese two datasets BIBREF1 exploit a useful feature of online news articles \u2013 many articles include a short summarizing sentence near the top of the page. Since all information in the summary sentence is also presented in the article body, we get a nice cloze-style question about the article contents by removing a word from the short summary.\nThe dataset's authors also replaced all named entities in the dataset by anonymous tokens which are further shuffled for each new batch. This forces the model to rely solely on information from the context document, not being able to transfer any meaning of the named entities between documents.\nThis restricts the task to one specific aspect of context-dependent question answering which may be useful however it moves the task further from the real application scenario, where we would like the model to use all information available to answer questions. Furthermore Chen et al. BIB",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Properties"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "REF5 have suggested that this can make about 17% of the questions unanswerable even by humans. They also claim that more than a half of the question sentences are mere paraphrases or exact matches of a single sentence from the context document. This raises a question to what extent the dataset can test deeper understanding of the articles.\nThe Children's Book Test BIBREF2 uses a different source - books freely available thanks to Project Gutenberg. Since no summary is available, each example consists of a context document formed from 20 consecutive sentences from the story together with a question formed from the subsequent sentence.\nThe dataset comes in four flavours depending on what type of word is omitted from the question sentence. Based on human evaluation done in BIBREF2 it seems that NE and CN are more context dependent than the other two types \u2013 prepositions and verbs. Therefore we (and all of the recent publications) focus only on these two word types.\nSeveral new datasets related to the (now almost standard) ones above emerged recently. We will now briefly present them and explain how the dataset we are introducing in this article differs from them.\nThe LAMBADA dataset BIBREF19 is designed to measure progress in understanding common-sense questions about short stories that can be easily answered by humans but cannot be answered by current standard machine-learning models (e.g. plain LSTM language models). This dataset is useful for measuring the gap between humans and machine learning algorithms. However, by contrast to our BookTest dataset, it will not allow us to track progress towards the performance of the baseline systems or on examples where machine learning may show super-human performance. Also LAMBADA is just a diagnostic dataset and does not provide ready-to-use question-answering training data, just a plain-text corpus which may moreover include copyrighted books making its use potentially problematic for some purposes. We are providing ready training data consisting of copyright-free books only.\nThe SQuAD dataset BIBREF20 based on Wikipedia and the Who-did-What dataset BIBREF21 based on Gigaword news articles are factoid question-answering datasets where a multi-word answer should be extracted from a context document. This is in contrast to the previous datasets, including CNN/DM, CBT, LAMBADA and our",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Comparison"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "new dataset, which require only single-word answers. Both these datasets however provide less than 130,000 training questions, two orders of magnitude less than our dataset does. The Story Cloze Test BIBREF22 provides a crowd-sourced corpus of 49,255 commonsense stories for training and 3,744 testing stories with right and wrong endings. Hence the dataset is again rather small. Similarly to LAMBADA, the Story Cloze Test was designed to be easily answerable by humans. In the WikiReading BIBREF23 dataset the context document is formed from a Wikipedia article and the question-answer pair is taken from the corresponding WikiData page. For each entity (e.g. Hillary Clinton), WikiData contain a number of property-value pairs (e.g. place of birth: Chicago) which form the datasets's question-answer pairs. The dataset is certainly relevant to the community, however the questions are of very limited variety with only 20 properties (and hence unique questions) covering INLINEFORM0 of the dataset. Furthermore many of the frequent properties are mentioned at a set spot within the article (e.g. the date of birth is almost always in brackets behind the name of a person) which may make the task easier for machines. We are trying to provide a more varied dataset. Although there are several datasets related to task we are aiming to solve, they differ sufficiently for our dataset to bring new value to the community. Its biggest advantage is its size which can furthermore be easily upscaled without expensive human annotation. Finally while we are emphasizing the differences, models could certainly benefit from as diverse a collection of datasets as possible. Machine Learning Models A first major work applying deep-learning techniques to text comprehension was Hermann et al. BIBREF1 . This work was followed by the application of Memory Networks to the same task BIBREF2 . Later three models emerged around the same time BIBREF3 , BIBREF4 , BIBREF5 including our psr model BIBREF4 . The AS Reader inspired several subsequent models that use it as a sub-component in a diverse ensemble BIBREF8 ; extend it with a hierarchical structure BIBREF6 , BIBREF24 , BIBREF7 ; compute attention over the context document for every word in the query BIBREF10 or use two-way context-query attention mechanism for every word in the context and the query BIBREF11 that is similar in its spirit to models recently proposed in different domains, e.g. BIBREF25 in information retrieval. Other neural approaches to text comprehension are explored",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Comparison"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "in BIBREF9 , BIBREF12 . Possible Directions for Improvements Accuracy in any machine learning tasks can be enhanced either by improving a machine learning model or by using more in-domain training data. Current state of the art models BIBREF6 , BIBREF7 , BIBREF8 , BIBREF11 improve over AS Reader's accuracy on CBT NE and CN datasets by 1-2 percent absolute. This suggests that with current techniques there is only limited room for improvement on the algorithmic side. The other possibility to improve performance is simply to use more training data. The importance of training data was highlighted by the frequently quoted Mercer's statement that \u201cThere is no data like more data.\u201d The observation that having more data is often more important than having better algorithms has been frequently stressed since then BIBREF13 , BIBREF14 . As a step in the direction of exploiting the potential of more data in the domain of text comprehension, we created a new dataset called BookTest similar to, but much larger than the widely used CBT and CNN/DM datasets. BookTest Similarly to the CBT, our BookTest dataset is derived from books available through project Gutenberg. We used 3555 copyright-free books to extract CN examples and 10507 books for NE examples, for comparison the CBT dataset was extracted from just 108 books. When creating our dataset we follow the same procedure as was used to create the CBT dataset BIBREF2 . That is, we detect whether each sentence contains either a named entity or a common noun that already appeared in one of the preceding twenty sentences. This word is then replaced by a gap tag (XXXXX) in this sentence which is hence turned into a cloze-style question. The preceding 20 sentences are used as the context document. For common noun and named entity detection we use the Stanford POS tagger BIBREF27 and Stanford NER BIBREF28 . The training dataset consists of the original CBT NE and CN data extended with new NE and CN examples. The new BookTest dataset hence contains INLINEFORM0 training examples and INLINEFORM1 tokens. The validation dataset consists of INLINEFORM0 NE and INLINEFORM1 CN questions. We have one test set for NE and one for CN, each containing INLINEFORM2 examples. The training, validation and test sets were generated from non-overlapping sets of books. When generating the dataset we removed all editions of books used to create CBT validation and test sets from",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Construction"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "our training dataset. Therefore the models trained on the BookTest corpus can be evaluated on the original CBT data and they can be compared with recent text-comprehension models utilizing this dataset BIBREF2 , BIBREF4 , BIBREF5 , BIBREF6 , BIBREF7 , BIBREF8 , BIBREF9 , BIBREF10 , BIBREF11 . Baselines We will now use our psr model to evaluate the performance gain from increasing the dataset size. AS Reader In BIBREF4 we introduced the psr , which at the time of publication significantly outperformed all other architectures on the CNN, DM and CBT datasets. This model is built to leverage the fact that the answer is a single word from the context document. Similarly to many other models it uses attention over the document \u2013 intuitively a measure of how relevant each word is to answering the question. However while most previous models used this attention as weights to calculate a blended representation of the answer word, we simply sum the attention across all occurrences of each unique words and then simply select the word with the highest sum as the final answer. While simple, this trick seems both to improve accuracy and to speed-up training. It was adopted by many subsequent models BIBREF8 , BIBREF6 , BIBREF7 , BIBREF10 , BIBREF11 , BIBREF24 . Let us now describe the model in more detail. Figure FIGREF21 may help you in understanding the following paragraphs. The words from the document and the question are first converted into vector embeddings using a look-up matrix INLINEFORM0 . The document is then read by a bidirectional GRU network BIBREF29 . A concatenation of the hidden states of the forward and backward GRUs at each word is then used as a contextual embedding of this word, intuitively representing the context in which the word is appearing. We can also understand it as representing the set of questions to which this word may be an answer. Similarly the question is read by a bidirectional GRU but in this case only the final hidden states are concatenated to form the question embedding. The attention over each word in the context is then calculated as the dot product of its contextual embedding with the question embedding. This attention is then normalized by the softmax function and summed across all occurrences of each answer candidate. The candidate with most accumulated attention is selected as the final answer. For a",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "more detailed description of the model including equations check BIBREF4 . More details about the training setup and model hyperparameters can be found in the Appendix. During our past experiments on the CNN, DM and CBT datasets BIBREF4 each unique word from the training, validation and test datasets had its row in the look-up matrix INLINEFORM0 . However as we radically increased the dataset size, this would result in an extremely large number of model parameters so we decided to limit the vocabulary size to INLINEFORM1 most frequent words. For each example, each unique out-of-vocabulary word is now mapped on one of 1000 anonymous tokens which are randomly initialized and untrained. Fixing the embeddings of these anonymous tags proved to significantly improve the performance. While mostly using the original AS Reader model, we have also tried introducing a minor tweak in some instances of the model. We tried initializing the context encoder GRU's hidden state by letting the encoder read the question first before proceeding to read the context document. Intuitively this allows the encoder to know in advance what to look for when reading over the context document. Including models of this kind in the ensemble helped to improve the performance. Results Table TABREF25 shows the accuracy of the psr and other architectures on the CBT validation and test data. The last two rows show the performance of the psr trained on the BookTest dataset; all the other models have been trained on the original CBT training data. If we take the best psr ensemble trained on CBT as a baseline, improving the model architecture as in BIBREF6 , BIBREF7 , BIBREF8 , BIBREF9 , BIBREF10 , BIBREF11 , continuing to use the original CBT training data, lead to improvements of INLINEFORM0 and INLINEFORM1 absolute on named entities and common nouns respectively. By contrast, inflating the training dataset provided a boost of INLINEFORM2 while using the same model. The ensemble of our models even exceeded the human baseline provided by Facebook BIBREF2 on the Common Noun dataset. Our model takes approximately two weeks to converge when trained on the BookTest dataset on a single Nvidia Tesla K40 GPU. Discussion Embracing the abundance of data may mean focusing on other aspects of system design than with smaller data. Here are some of the challenges that we need to face in this situation. Firstly, since the amount of data is practically",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training Setup"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "unlimited \u2013 we could even generate them on the fly resulting in continuous learning similar to the Never-Ending Language Learning by Carnegie Mellon University BIBREF30 \u2013 it is now the speed of training that determines how much data the model is able to see. Since more training data significantly help the model performance, focusing on speeding up the algorithm may be more important than ever before. This may for instance influence the decision whether to use regularization such as dropout which does seem to somewhat improve the model performance, however usually at a cost of slowing down training. Thanks to its simplicity, the psr seems to be training fast - for example around seven times faster than the models proposed by Chen et al. BIBREF5 . Hence the psr may be particularly suitable for training on large datasets. The second challenge is how to generalize the performance gains from large data to a specific target domain. While there are huge amounts of natural language data in general, it may not be the case in the domain where we may want to ultimately apply our model. Hence we are usually not facing a scenario of simply using a larger amount of the same training data, but rather extending training to a related domain of data, hoping that some of what the model learns on the new data will still help it on the original task. This is highlighted by our observations from applying a model trained on the BookTest to Children's Book Test test data. If we move model training from joint CBT NE+CN training data to a subset of the BookTest of the same size (230k examples), we see a drop in accuracy of around 10% on the CBT test datasets. Hence even though the Children's Book Test and BookTest datasets are almost as close as two disjoint datasets can get, the transfer is still very imperfect . Rightly choosing data to augment the in-domain training data is certainly a problem worth exploring in future work. Our results show that given enough data the AS Reader was able to exceed the human performance on CBT CN reported by Facebook. However we hypothesized that the system is still not achieving its full potential so we decided to examine the room for improvement in our own small human study. Human Study After adding more data we have the performance on the CBT",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training Optimization"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "validation and test datasets soaring. However is there still potential for much further growth beyond the results we have observed? We decided to explore the remaining space for improvement on the CBT by testing humans on a random subset of 50 named entity and 50 common noun validation questions that the psr ensemble could not answer correctly. These questions were answered by 10 non-native English speakers from our research laboratory, each on a disjoint subset of questions.. Participants had unlimited time to answer the questions and were told that these questions were not correctly answered by a machine, providing additional motivation to prove they are better than computers. The results of the human study are summarized in Table TABREF28 . They show that a majority of questions that our system could not answer so far are in fact answerable. This suggests that 1) the original human baselines might have been underestimated, however, it might also be the case that there are some examples that can be answered by machines and not by humans; 2) there is still space for improvement. A system that would answer correctly every time when either our ensemble or human answered correctly would achieve accuracy over 92% percent on both validation and test NE datasets and over 96% on both CN datasets. Hence it still makes sense to use CBT dataset to study further improvements of text-comprehension systems. Conclusion Few ways of improving model performance are as solidly established as using more training data. Yet we believe this principle has been somewhat neglected by recent research in text comprehension. While there is a practically unlimited amount of data available in this field, most research was performed on unnecessarily small datasets. As a gentle reminder to the community we have shown that simply infusing a model with more data can yield performance improvements of up to INLINEFORM0 where several attempts to improve the model architecture on the same training data have given gains of at most INLINEFORM1 compared to our best ensemble result. Yes, experiments on small datasets certainly can bring useful insights. However we believe that the community should also embrace the real-world scenario of data abundance. The BookTest dataset we are proposing gives the reading-comprehension community an opportunity to make a step in that direction. Training Details The training details are similar to those in BIBREF4 however we are including them here for completeness. To",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "train the model we used stochastic gradient descent with the ADAM update rule BIBREF32 and learning rates of INLINEFORM0 , INLINEFORM1 and INLINEFORM2 . The best learning rate in our experiments was INLINEFORM3 . We minimized negative log-likelihood as the training objective. The initial weights in the word-embedding matrix were drawn randomly uniformly from the interval INLINEFORM0 . Weights in the GRU networks were initialized by random orthogonal matrices BIBREF34 and biases were initialized to zero. We also used a gradient clipping BIBREF33 threshold of 10 and batches of sizes between 32 or 256. Increasing the batch from 32 to 128 seems to significantly improve performance on the large dataset - something we did not observe on the original CBT data. Increasing the batch size much above 128 is currently difficult due to memory constraints of the GPU. During training we randomly shuffled all examples at the beginning of each epoch. To speed up training, we always pre-fetched 10 batches worth of examples and sorted them according to document length. Hence each batch contained documents of roughly the same length. We also did not use pre-trained word embeddings. We did not perform any text pre-processing since the datasets were already tokenized. During training we evaluated the model performance every 12 hours and at the end of each epoch and stopped training when the error on the 20k BookTest validation set started increasing. We explored the hyperparameter space by training 67 different models The region of the parameter space that we explored together with the parameters of the model with best validation accuracy are summarized in Table TABREF29 . Our model was implemented using Theano BIBREF31 and Blocks BIBREF35 . The ensembles were formed by simply averaging the predictions from the constituent single models. These single models were selected using the following algorithm. We started with the best performing model according to validation performance. Then in each step we tried adding the best performing model that had not been previously tried. We kept it in the ensemble if it did improve its validation performance and discarded it otherwise. This way we gradually tried each model once. We call the resulting model a greedy ensemble. We used the INLINEFORM0 BookTest validation dataset for this procedure. The algorithm was offered 10 models and selected 5 of them for the final ensemble.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training Setup"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Cloze-style questions are a type of question that requires the reader to fill in a missing word in a sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "The CNN/Daily Mail dataset is a large-scale dataset proposed by Google DeepMind for text comprehension tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "The Children's Book Test (CBT) is a dataset used to evaluate text comprehension models, originally proposed by Facebook AI.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "BookTest is a new dataset introduced that is more than 60 times larger than the Children's Book Test and designed for training larger text comprehension models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Large-scale datasets such as BookTest enable the training of larger models and support the application of data-hungry deep-learning techniques in text comprehension.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Text comprehension involves understanding context documents to answer questions, such as cloze-style questions, which require filling in missing words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Deep-learning techniques have outperformed all alternative approaches in answering cloze-style questions when trained on large-scale datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The methodology used to create BookTest can be applied to generate even larger datasets in the future as technological progress continues.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "A model trained on the BookTest dataset shows a reduction in prediction error by almost one third when evaluated on the Children's Book Test.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "On the named-entity version of the Children's Book Test, the ensemble of models trained on BookTest reaches the performance level of the human baseline reported by Facebook.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "A human study conducted by the authors shows that there is still room for improvement in performance on the Children's Book Test beyond the current model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "A cloze-style question is a question where the answer can be deduced from a given context document by removing a specific word or phrase.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Document-question-answer triples are sets of data consisting of a document, a question, and the corresponding answer that can be derived from the document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Microsoft's MCTest is a human-generated dataset for text comprehension that lacks sufficient scale for deep learning without pre-training on other data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Google DeepMind generates document-question-answer triples automatically by leveraging the summarizing sentences in online news articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Facebook uses a similar automatic method to Google DeepMind for generating document-question-answer triples from online news articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Many online news articles include a short summarizing sentence at the top that contains all information also present in the article body, enabling cloze-style questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "All named entities in the dataset are replaced with anonymous tokens and shuffled per batch to prevent models from relying on entity-specific knowledge across documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Context-dependent question answering is a task where the model must derive answers solely from the provided context document without relying on external knowledge or named entities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The restriction to context-dependent question answering without named entity use moves the task away from real-world applications where full information availability is expected.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "REF5 suggest that 17% of questions in the dataset are unanswerable even by humans.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "More than half of the question sentences in the dataset are paraphrases or exact matches of a single sentence from the context document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The Children's Book Test uses books freely available through Project Gutenberg as its source material.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Each example in the Children's Book Test consists of 20 consecutive sentences from a story as context and a question formed from the subsequent sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Structure"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The BookTest dataset comes in four flavors depending on the type of word omitted from the question sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Variants"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "NE and CN word types are more context-dependent than prepositions and verbs in the BookTest dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Human evaluation in BIBREF2 indicates that NE and CN are more context-dependent than other word types.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The LAMBADA dataset measures progress in understanding common-sense questions about short stories that are answerable by humans but not by standard machine-learning models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "LAMBADA does not provide ready-to-use training data and only offers a plain-text corpus that may include copyrighted books.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Unlike the BookTest dataset, LAMBADA does not allow tracking of baseline system performance or super-human machine learning performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "SQuAD is a factoid question-answering dataset based on Wikipedia where multi-word answers are extracted from context documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Type"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The Who-did-What dataset is based on Gigaword news articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The dataset introduced in the article differs from SQuAD, Who-did-What, CNN/DM, CBT, and LAMBADA by providing copyright-free training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Differentiation"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The Story Cloze Test provides a crowd-sourced corpus of 49,255 commonsense stories for training and 3,744 testing stories with right and wrong endings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The Story Cloze Test dataset is relatively small compared to other datasets, with less than 130,000 training questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The WikiReading dataset forms context documents from Wikipedia articles and uses question-answer pairs from corresponding WikiData pages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "WikiData contains property-value pairs for each entity, such as 'place of birth: Chicago' for Hillary Clinton.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The WikiReading dataset has limited question variety, with only 20 properties and thus 20 unique questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Many frequent properties in the WikiReading dataset are mentioned at a fixed location in the article, such as the date of birth in brackets after a person's name.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The new dataset offers greater size and scalability without requiring expensive human annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The new dataset is designed to provide more varied questions compared to existing datasets like Story Cloze Test and WikiReading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Hermann et al. introduced one of the first major works applying deep-learning techniques to text comprehension.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Memory Networks were applied to the text comprehension task following Hermann et al.'s work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The psr model was one of the three models developed around the same time as other neural approaches to text comprehension.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relation"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The AS Reader inspired several subsequent models that incorporate it as a sub-component or extend its structure.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Influence"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "A two-way context-query attention mechanism computes attention over every word in the context and the query, similar to mechanisms in information retrieval.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Accuracy in machine learning tasks can be enhanced by either improving the model or using more in-domain training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Improvement Method"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "These models improve AS Reader's accuracy on CBT NE and CN datasets by 1-2 percent absolute.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Mercer's statement is that 'There is no data like more data,' emphasizing the importance of training data over algorithmic improvements.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "BookTest is a new dataset similar to but larger than CBT and CNN/DM, created from 3555 books for CN examples and 10507 books for NE examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The CBT dataset was extracted from just 108 books, significantly fewer than the books used for BookTest.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "BookTest is created by detecting named entities or common nouns in sentences that have appeared in the preceding 20 sentences, replacing them with a gap tag (XXXXX) to form cloze-style questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The Stanford POS tagger and Stanford NER are used for detecting common nouns and named entities in the BookTest dataset creation process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The training dataset consists of the original CBT NE and CN data extended with new NE and CN examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The BookTest dataset contains INLINEFORM0 training examples and INLINEFORM1 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The validation dataset consists of INLINEFORM0 NE and INLINEFORM1 CN questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "BookTest has one test set for NE and one for CN, each containing INLINEFORM2 examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The training, validation, and test sets of BookTest were generated from non-overlapping sets of books.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "All editions of books used to create CBT validation and test sets were removed when generating the BookTest dataset to avoid overlap.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The PSR model is a text comprehension model that selects the answer word from the context document by summing attention scores across all occurrences of each unique word and selecting the word with the highest sum.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The PSR model uses attention over the document to measure the relevance of each word to answering the question.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The PSR model significantly outperformed all other architectures on the CNN, DM, and CBT datasets at the time of its publication.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The PSR model improves accuracy and speeds up training by summing attention scores across occurrences of each unique word instead of blending them into a single representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "A bidirectional GRU network is used to process the document, where the hidden states of the forward and backward passes are concatenated to form a contextual embedding for each word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "A contextual embedding represents the context in which a word appears and can be interpreted as the set of questions to which that word may be an answer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The question embedding is formed by concatenating the final hidden states of a bidirectional GRU that processes the question.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Attention over each word in the context is calculated as the dot product between its contextual embedding and the question embedding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The attention scores are normalized using the softmax function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The candidate word with the highest accumulated attention score is selected as the final answer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The PSR model's approach was adopted by many subsequent models, including those referenced in BIBREF8, BIBREF6, BIBREF7, BIBREF10, BIBREF11, and BIBREF24.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Influence"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The look-up matrix contains a row for each unique word in the training, validation, and test datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The vocabulary size was limited to the most frequent words to avoid an extremely large number of model parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Each unique out-of-vocabulary word is mapped to one of 1000 anonymous tokens that are randomly initialized and untrained.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The embeddings of the anonymous tokens are fixed during training, which significantly improves model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The context encoder GRU's hidden state is initialized by having the encoder first read the question before reading the context document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Including models with the tweaked GRU initialization in the ensemble improved overall model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Results in Table TABREF25 show the accuracy of the psr and other architectures on the CBT validation and test data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The last two rows of Table TABREF25 show the performance of the psr trained on the BookTest dataset, while other models were trained on the original CBT training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Improving the psr model architecture (as in BIBREF6 to BIBREF11) with the original CBT training data led to improvements of INLINEFORM0 in named entities and INLINEFORM1 in common nouns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Inflating the training dataset provided a boost of INLINEFORM2 in performance while using the same model architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The ensemble of models exceeded the human baseline provided by Facebook (BIBREF2) on the Common Noun dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The model takes approximately two weeks to converge when trained on the BookTest dataset using a single Nvidia Tesla K40 GPU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Embracing large-scale data shifts focus in system design away from model complexity and toward other design aspects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Discussion"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "One major challenge with large-scale data is the need to manage computational complexity and model scalability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Discussion"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Unlimited data generation refers to the ability to create training data on the fly, enabling continuous learning similar to the Never-Ending Language Learning approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The speed of training determines how much data a model can effectively see, making faster algorithms increasingly important for performance improvements.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Dropout regularization can improve model performance but typically slows down training, creating a trade-off in optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The PSR model trains approximately seven times faster than the models proposed by Chen et al., making it well-suited for large-scale dataset training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Generalizing performance gains from large-scale data to a specific target domain remains a significant challenge due to domain shifts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Moving a model trained on BookTest CBT NE+CN data to a subset of BookTest of the same size results in a 10% drop in accuracy on the CBT test datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Selecting appropriate data for augmentation to extend in-domain training is a critical and underexplored problem in model development.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The AS Reader achieved human-level performance on CBT CN tasks reported by Facebook when given sufficient training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "A small human study was conducted to evaluate the potential for further performance improvement beyond the current AS Reader performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The validation and test datasets show soaring performance trends.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "CBT is a dataset used to evaluate text-comprehension systems, specifically through testing humans on named entity and common noun questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "A subset of 50 named entity and 50 common noun validation questions were tested on which the PSR ensemble could not answer correctly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Ten non-native English speakers from the research laboratory answered a disjoint subset of the validation questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The human study showed that a majority of questions previously unanswerable by the PSR ensemble are actually answerable by humans.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The original human baselines may have been underestimated, suggesting that human performance could be higher than previously thought.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "There may be some examples where machines can answer correctly but humans cannot.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "A system that answers correctly whenever either the ensemble or human answers correctly would achieve over 92% accuracy on validation and test named entity datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Such a system would achieve over 96% accuracy on both common noun validation and test datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "Using more training data is a well-established method for improving model performance in text comprehension.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Recent research in text comprehension has often relied on unnecessarily small datasets despite the abundance of available data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The BookTest dataset is proposed to enable the reading-comprehension community to leverage real-world data abundance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The training details are similar to those in BIBREF4, with additional inclusion for completeness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The model used stochastic gradient descent with the ADAM update rule.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The ADAM update rule was used in the stochastic gradient descent optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The model used learning rates of INLINEFORM0, INLINEFORM1, and INLINEFORM2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The best learning rate in the experiments was INLINEFORM3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The training objective was negative log-likelihood.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The initial weights in the word-embedding matrix were drawn uniformly from the interval INLINEFORM0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Weights in the GRU networks were initialized using random orthogonal matrices.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Biases in the GRU networks were initialized to zero.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "A gradient clipping threshold of 10 was used during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Batch sizes used during training were between 32 and 256.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Increasing the batch size from 32 to 128 significantly improved performance on the large dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Batch sizes much above 128 are difficult to use due to GPU memory constraints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "All examples were randomly shuffled at the beginning of each epoch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Ten batches of examples were pre-fetched and sorted by document length to ensure roughly equal batch lengths.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "No pre-trained word embeddings were used in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Absence"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "No text pre-processing was performed since the datasets were already tokenized.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Absence"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "Model performance was evaluated every 12 hours and at the end of each epoch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "Training stopped when the error on the 20k BookTest validation set started increasing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Criterion"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The hyperparameter space was explored by training 67 different models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The region of the parameter space explored, along with the best-performing model's parameters, is summarized in Table TABREF29.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Summary"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "The model was implemented using Theano and Blocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "Ensembles were formed by averaging predictions from constituent single models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "The greedy ensemble algorithm started with the best-performing model and iteratively added the best-performing model not yet included, keeping it only if it improved validation performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The algorithm selected 5 models out of 10 offered for the final ensemble.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The INLINEFORM0 BookTest validation dataset was used to select models for the ensemble.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "10 models",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "10 non-native English speakers",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "10 non-native English speakers",
+      "Property",
+      "s97"
+    ],
+    [
+      "10507 books",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "108 books",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "130,000",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "17%",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "20 properties",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "20 sentences",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "20 sentences",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "20k BookTest validation set",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "230k examples",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "3,744",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "3555 books",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "49,255",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "5 models",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "50 named entity and 50 common noun validation questions",
+      "Property",
+      "s96"
+    ],
+    [
+      "67 models",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "92% accuracy",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "96% accuracy",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "ADAM update rule",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "ADAM update rule",
+      "Property",
+      "s108"
+    ],
+    [
+      "AS Reader",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "AS Reader",
+      "Influence",
+      "s45"
+    ],
+    [
+      "AS Reader",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "AS Reader",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "AS Reader performance",
+      "Result",
+      "s92"
+    ],
+    [
+      "BIBREF10",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF10",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF11",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF11",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF11",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF12",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF13",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF14",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF19",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "BIBREF2",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "BIBREF2",
+      "Evaluation",
+      "s27"
+    ],
+    [
+      "BIBREF2",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF2",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF20",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "BIBREF21",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "BIBREF24",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF4",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "BIBREF4",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF4",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF5",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF6",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF6",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF6",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF7",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF7",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF7",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF8",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF8",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF8",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BIBREF9",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BIBREF9",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BIBREF9",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "Blocks",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "BookTest",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "BookTest",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "BookTest",
+      "Definition",
+      "s4"
+    ],
+    [
+      "BookTest",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "BookTest",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "BookTest corpus",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "BookTest creation procedure",
+      "Method",
+      "s52"
+    ],
+    [
+      "BookTest dataset",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "BookTest dataset",
+      "Definition",
+      "s105"
+    ],
+    [
+      "BookTest dataset",
+      "Definition",
+      "s50"
+    ],
+    [
+      "BookTest dataset",
+      "Differentiation",
+      "s33"
+    ],
+    [
+      "BookTest dataset",
+      "Variants",
+      "s25"
+    ],
+    [
+      "BookTest dataset size",
+      "Property",
+      "s55"
+    ],
+    [
+      "BookTest methodology",
+      "Property",
+      "s8"
+    ],
+    [
+      "BookTest test sets",
+      "Composition",
+      "s57"
+    ],
+    [
+      "BookTest to Children's Book Test transfer",
+      "Result",
+      "s90"
+    ],
+    [
+      "BookTest training dataset",
+      "Composition",
+      "s54"
+    ],
+    [
+      "BookTest validation dataset",
+      "Composition",
+      "s56"
+    ],
+    [
+      "BookTest validation dataset",
+      "Dataset",
+      "s131"
+    ],
+    [
+      "CBT",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "CBT",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "CBT",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "CBT",
+      "Definition",
+      "s95"
+    ],
+    [
+      "CBT",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "CBT NE",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "CBT NE+CN",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "CBT data",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "CBT dataset",
+      "Property",
+      "s51"
+    ],
+    [
+      "CN datasets",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "CNN",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "CNN dataset",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "CNN/DM",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "CNN/Daily Mail",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "CNN/Daily Mail dataset",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "CNN/Daily Mail dataset",
+      "Definition",
+      "s2"
+    ],
+    [
+      "Carnegie Mellon University",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "Chen et al",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "Chen et al.",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "Chicago",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "Children's Book Test",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "Children's Book Test (BIBREF2)",
+      "Source",
+      "s23"
+    ],
+    [
+      "Children's Book Test (BIBREF2)",
+      "Structure",
+      "s24"
+    ],
+    [
+      "Children's Book Test (CBT)",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "Children's Book Test (CBT)",
+      "Definition",
+      "s3"
+    ],
+    [
+      "DM",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "DM dataset",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "FIGREF21",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "Facebook",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "Facebook",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "Facebook AI",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "Facebook's method",
+      "Method",
+      "s16"
+    ],
+    [
+      "GPU",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "GRU",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "GRU network biases",
+      "Property",
+      "s114"
+    ],
+    [
+      "GRU network weights",
+      "Property",
+      "s113"
+    ],
+    [
+      "GRU networks",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "Gigaword",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "Google DeepMind",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "Google DeepMind",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "Google DeepMind's method",
+      "Method",
+      "s15"
+    ],
+    [
+      "Hermann et al.",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "Hermann et al. BIBREF1",
+      "Definition",
+      "s42"
+    ],
+    [
+      "Hillary Clinton",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "INLINEFORM0",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "INLINEFORM1",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "INLINEFORM2",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "INLINEFORM3",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "Jozefowicz",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "LAMBADA",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "LAMBADA",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "LAMBADA dataset (BIBREF19)",
+      "Comparison",
+      "s30"
+    ],
+    [
+      "LAMBADA dataset (BIBREF19)",
+      "Limitation",
+      "s29"
+    ],
+    [
+      "LAMBADA dataset (BIBREF19)",
+      "Purpose",
+      "s28"
+    ],
+    [
+      "LSTM models",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "LSTM models",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "MCTest",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "Memory Networks",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "Memory Networks BIBREF2",
+      "Application",
+      "s43"
+    ],
+    [
+      "Mercer",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "Mercer's statement",
+      "Definition",
+      "s49"
+    ],
+    [
+      "Microsoft's MCTest",
+      "Property",
+      "s14"
+    ],
+    [
+      "NE and CN",
+      "Property",
+      "s26"
+    ],
+    [
+      "Never-Ending Language Learning",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "One Billion Word corpus",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "PSR model",
+      "Cause",
+      "s63"
+    ],
+    [
+      "PSR model",
+      "Definition",
+      "s60"
+    ],
+    [
+      "PSR model",
+      "Influence",
+      "s70"
+    ],
+    [
+      "PSR model",
+      "Property",
+      "s61"
+    ],
+    [
+      "PSR model",
+      "Property",
+      "s88"
+    ],
+    [
+      "PSR model",
+      "Result",
+      "s62"
+    ],
+    [
+      "Project Gutenberg",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "REF5",
+      "Claim",
+      "s21"
+    ],
+    [
+      "REF5",
+      "Claim",
+      "s22"
+    ],
+    [
+      "REF5",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "SQuAD",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "SQuAD dataset (BIBREF20)",
+      "Type",
+      "s31"
+    ],
+    [
+      "Stanford NER",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "Stanford POS tagger",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "Stanford POS tagger and Stanford NER",
+      "Tool",
+      "s53"
+    ],
+    [
+      "Story Cloze Test",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "Story Cloze Test",
+      "Property",
+      "s34"
+    ],
+    [
+      "Story Cloze Test",
+      "Result",
+      "s35"
+    ],
+    [
+      "TABREF25",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "Table TABREF28",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "Table TABREF29",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "Tesla K40 GPU",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "Theano",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "This",
+      "Exploitation Method",
+      "e4"
+    ],
+    [
+      "Who-did-What dataset (BIBREF21)",
+      "Source",
+      "s32"
+    ],
+    [
+      "WikiData",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "WikiData",
+      "Property",
+      "s37"
+    ],
+    [
+      "WikiReading",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "WikiReading dataset",
+      "Definition",
+      "s36"
+    ],
+    [
+      "WikiReading dataset",
+      "Limitation",
+      "s38"
+    ],
+    [
+      "WikiReading dataset",
+      "Property",
+      "s39"
+    ],
+    [
+      "Wikipedia",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "anonymous tokens",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "anonymous tokens",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "anonymous tokens",
+      "Property",
+      "s74"
+    ],
+    [
+      "answer appears in document",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "answer selection",
+      "Process",
+      "s69"
+    ],
+    [
+      "answer word",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "attention",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "attention calculation",
+      "Property",
+      "s67"
+    ],
+    [
+      "attention normalization",
+      "Method",
+      "s68"
+    ],
+    [
+      "averaging predictions",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "batch shuffling",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "batch size 128",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "batch size 256",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "batch size 32",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "batch size above 128",
+      "Limitation",
+      "s118"
+    ],
+    [
+      "batch size increase from 32 to 128",
+      "Result",
+      "s117"
+    ],
+    [
+      "batch sizes",
+      "Property",
+      "s116"
+    ],
+    [
+      "best learning rate",
+      "Result",
+      "s110"
+    ],
+    [
+      "bidirectional GRU",
+      "Definition",
+      "s64"
+    ],
+    [
+      "bidirectional GRU",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "book sets used for dataset generation",
+      "Property",
+      "s58"
+    ],
+    [
+      "books used in CBT validation and test sets",
+      "Action",
+      "s59"
+    ],
+    [
+      "challenges with large data",
+      "Discussion",
+      "s84"
+    ],
+    [
+      "cloze-style question",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "cloze-style question",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "cloze-style question",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "cloze-style question",
+      "Definition",
+      "s12"
+    ],
+    [
+      "cloze-style questions",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "cloze-style questions",
+      "Definition",
+      "s1"
+    ],
+    [
+      "common noun questions",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "common nouns",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "common-sense questions",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "comprehend",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "context document",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "context document",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "context document",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "context encoder",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "context encoder GRU initialization",
+      "Definition",
+      "s75"
+    ],
+    [
+      "context-dependent question answering",
+      "Definition",
+      "s19"
+    ],
+    [
+      "contextual embedding",
+      "Definition",
+      "s65"
+    ],
+    [
+      "contextual embedding",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "convergence time",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "copyright-free books",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "data abundance",
+      "Discussion",
+      "s83"
+    ],
+    [
+      "data augmentation",
+      "Problem",
+      "s91"
+    ],
+    [
+      "data-hungry",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "dataset inflation",
+      "Result",
+      "s80"
+    ],
+    [
+      "date of birth",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "deep-learning",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "deep-learning techniques",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "deep-learning techniques",
+      "Result",
+      "s7"
+    ],
+    [
+      "document",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "document length",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "document-question-answer triples",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "document-question-answer triples",
+      "Definition",
+      "s13"
+    ],
+    [
+      "domain generalization",
+      "Challenge",
+      "s89"
+    ],
+    [
+      "dropout",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "dropout regularization",
+      "Cause",
+      "s87"
+    ],
+    [
+      "embeddings",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "ensemble",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "ensembles",
+      "Method",
+      "s128"
+    ],
+    [
+      "ensembles",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "epoch",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "epoch shuffling",
+      "Procedure",
+      "s119"
+    ],
+    [
+      "exploited",
+      "Exploitation Method",
+      "e4"
+    ],
+    [
+      "factoid questions",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "final ensemble size",
+      "Result",
+      "s130"
+    ],
+    [
+      "gap tag (XXXXX)",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "gradient clipping",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "gradient clipping",
+      "Property",
+      "s115"
+    ],
+    [
+      "greedy ensemble",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "greedy ensemble algorithm",
+      "Procedure",
+      "s129"
+    ],
+    [
+      "ground-truth answer",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "hierarchical structure",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "human baseline",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "human baseline",
+      "Result",
+      "s81"
+    ],
+    [
+      "human baselines",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "human performance",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "human study",
+      "Action",
+      "s93"
+    ],
+    [
+      "human study",
+      "Result",
+      "s11"
+    ],
+    [
+      "human study results",
+      "Result",
+      "s98"
+    ],
+    [
+      "humans",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "hyperparameter exploration",
+      "Procedure",
+      "s125"
+    ],
+    [
+      "hyperparameter space",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "hyperparameters",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "information retrieval",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "initial weights in word-embedding matrix",
+      "Property",
+      "s112"
+    ],
+    [
+      "large-scale datasets",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "large-scale datasets",
+      "Property",
+      "s5"
+    ],
+    [
+      "learning rates",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "learning rates",
+      "Property",
+      "s109"
+    ],
+    [
+      "look-up matrix",
+      "Definition",
+      "s71"
+    ],
+    [
+      "look-up matrix",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "look-up matrix",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "machine learning tasks",
+      "Improvement Method",
+      "s47"
+    ],
+    [
+      "machine vs human answerability",
+      "Claim",
+      "s100"
+    ],
+    [
+      "machines",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "memory constraints",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "missing word",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "model architecture",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "model architecture improvements",
+      "Result",
+      "s79"
+    ],
+    [
+      "model ensemble",
+      "Result",
+      "s76"
+    ],
+    [
+      "model evaluation",
+      "Procedure",
+      "s123"
+    ],
+    [
+      "model implementation",
+      "Tool",
+      "s127"
+    ],
+    [
+      "model performance",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "model trained on BookTest",
+      "Result",
+      "s9"
+    ],
+    [
+      "model training",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "more training data",
+      "Definition",
+      "s103"
+    ],
+    [
+      "multi-word answer",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "named entities",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "named entities",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "named entities in dataset",
+      "Property",
+      "s18"
+    ],
+    [
+      "named entity questions",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "named-entity version of CBT",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "named-entity version of CBT",
+      "Result",
+      "s10"
+    ],
+    [
+      "negative log-likelihood",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "new dataset",
+      "Advantage",
+      "s40"
+    ],
+    [
+      "new dataset",
+      "Purpose",
+      "s41"
+    ],
+    [
+      "news articles",
+      "Dataset Comparison",
+      "e6"
+    ],
+    [
+      "non-overlapping sets",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "online news articles",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "original human baselines",
+      "Claim",
+      "s99"
+    ],
+    [
+      "out-of-vocabulary words",
+      "Property",
+      "s73"
+    ],
+    [
+      "parameter space region",
+      "Summary",
+      "s126"
+    ],
+    [
+      "perplexity",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "possible answers",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "pre-fetched batches",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "pre-trained word embedding vectors",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "pre-trained word embeddings",
+      "Absence",
+      "s121"
+    ],
+    [
+      "prediction error",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "prefetching",
+      "Procedure",
+      "s120"
+    ],
+    [
+      "project Gutenberg",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "psr",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "psr",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "psr ensemble",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "psr model",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "psr model",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "psr model BIBREF4",
+      "Relation",
+      "s44"
+    ],
+    [
+      "psr model accuracy",
+      "Result",
+      "s77"
+    ],
+    [
+      "psr trained on BookTest",
+      "Result",
+      "s78"
+    ],
+    [
+      "question",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "question answering",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "question embedding",
+      "Definition",
+      "s66"
+    ],
+    [
+      "question embedding",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "random orthogonal matrices",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "random uniform interval",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "randomly shuffled",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "reader's comprehension",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "real application scenario",
+      "Cause",
+      "s20"
+    ],
+    [
+      "regularization",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "research laboratory",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "sentence",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "small datasets",
+      "Claim",
+      "s104"
+    ],
+    [
+      "small human study",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "softmax",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "state-of-the-art models (BIBREF6, BIBREF7, BIBREF8, BIBREF11)",
+      "Result",
+      "s48"
+    ],
+    [
+      "stochastic gradient descent",
+      "Method",
+      "s107"
+    ],
+    [
+      "stochastic gradient descent",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "summary sentence",
+      "Dataset Properties",
+      "e5"
+    ],
+    [
+      "summary sentence in online news articles",
+      "Property",
+      "s17"
+    ],
+    [
+      "system accuracy over 92%",
+      "Result",
+      "s101"
+    ],
+    [
+      "system accuracy over 96%",
+      "Result",
+      "s102"
+    ],
+    [
+      "test data",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "test datasets",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "test set",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "text comprehension",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "text comprehension",
+      "Dataset Introduction",
+      "e2"
+    ],
+    [
+      "text comprehension",
+      "Task",
+      "s6"
+    ],
+    [
+      "text corpus",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "text pre-processing",
+      "Absence",
+      "s122"
+    ],
+    [
+      "text-comprehension systems",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "training convergence time",
+      "Property",
+      "s82"
+    ],
+    [
+      "training data",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "training data",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "training data",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "training details",
+      "Property",
+      "s106"
+    ],
+    [
+      "training objective",
+      "Definition",
+      "s111"
+    ],
+    [
+      "training setup",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "training speed",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "training speed",
+      "Property",
+      "s86"
+    ],
+    [
+      "training stopping condition",
+      "Criterion",
+      "s124"
+    ],
+    [
+      "two orders of magnitude",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "two-way attention",
+      "Dataset Comparison",
+      "e7"
+    ],
+    [
+      "two-way context-query attention mechanism",
+      "Feature",
+      "s46"
+    ],
+    [
+      "unique words",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "unlimited data",
+      "Model Training Optimization",
+      "e11"
+    ],
+    [
+      "unlimited data generation",
+      "Definition",
+      "s85"
+    ],
+    [
+      "unstructured text",
+      "Cloze Questions Dataset",
+      "e1"
+    ],
+    [
+      "validation and test datasets",
+      "Property",
+      "s94"
+    ],
+    [
+      "validation data",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "validation dataset",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "validation datasets",
+      "Dataset Evaluation",
+      "e12"
+    ],
+    [
+      "validation performance",
+      "Model Training Setup",
+      "e13"
+    ],
+    [
+      "vector embeddings",
+      "Model Evaluation",
+      "e9"
+    ],
+    [
+      "vocabulary",
+      "Cloze Question Task",
+      "e3"
+    ],
+    [
+      "vocabulary size",
+      "Model Training Setup",
+      "e10"
+    ],
+    [
+      "vocabulary size",
+      "Property",
+      "s72"
+    ],
+    [
+      "zero biases",
+      "Model Training Setup",
+      "e13"
+    ]
+  ]
+}

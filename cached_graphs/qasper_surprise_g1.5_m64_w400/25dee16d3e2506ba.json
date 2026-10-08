@@ -1,0 +1,3597 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 11,
+    "n_semantic": 83,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "emotion detection": {
+      "tag_set": [
+        "Definition",
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "natural language processing": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "NLP": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "DeepMoji": {
+      "tag_set": [
+        "Emotion Detection in Dialogues",
+        "Property"
+      ]
+    },
+    "CARER": {
+      "tag_set": [
+        "Emotion Detection in Dialogues",
+        "Property"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "BERT Model Architecture",
+        "BERT Pre-training Tasks",
+        "Dataset Characteristics",
+        "Definition",
+        "Emotion Detection in Dialogues",
+        "Emotion Prediction in Dialogues",
+        "FriendsBERT Model Performance",
+        "Limitation",
+        "Model Pre-training Strategies",
+        "Property"
+      ]
+    },
+    "FriendsBERT": {
+      "tag_set": [
+        "Definition",
+        "Emotion Detection in Dialogues",
+        "Experiment Setup and Results",
+        "Model Pre-training Strategies",
+        "Property",
+        "Result"
+      ]
+    },
+    "ChatBERT": {
+      "tag_set": [
+        "Definition",
+        "Emotion Detection in Dialogues",
+        "Emotion Recognition Fine-tuning",
+        "Experiment Setup and Results",
+        "Model Pre-training Strategies",
+        "Pre-training Dataset"
+      ]
+    },
+    "EmotionLines": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "Friends TV sitcom": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "Facebook messenger": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "Amazon Mechanical Turk": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "Ekman's six basic emotions": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "neutral": {
+      "tag_set": [
+        "Emotion Detection in Dialogues",
+        "Experiment Setup and Results"
+      ]
+    },
+    "non-neutral": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "single utterance": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "dialogue emotion recognition": {
+      "tag_set": [
+        "Emotion Detection in Dialogues",
+        "Result"
+      ]
+    },
+    "contextualized affect representations": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "transfer learning": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "sarcasm": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "rare words": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "consecutive utterances": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "five annotators": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "seven emotions": {
+      "tag_set": [
+        "Emotion Detection in Dialogues"
+      ]
+    },
+    "1,000 dialogues": {
+      "tag_set": [
+        "Emotion Detection in Dialogues",
+        "Emotion Prediction in Dialogues",
+        "Experiment Setup and Results"
+      ]
+    },
+    "Friends": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Definition",
+        "Experiment Setup and Results",
+        "FriendsBERT Model Performance",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "EmotionPush": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Definition",
+        "Experiment Setup and Results",
+        "FriendsBERT Model Performance",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "speech-based dataset": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "TV sitcom": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "dialogues": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "main characters": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "personality": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "speaker": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "anonymous mechanism": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "typo": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "hyperlink": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "emoji": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "chat-based data": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "emotion prediction": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Joy": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Sadness": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Anger": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Neutral": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "EmotionX 2019": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Section SECREF13": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Section SECREF26": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "model description": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "B": {
+      "tag_set": [
+        "Incomplete Input"
+      ]
+    },
+    "transformer encoder": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "self-attention": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "multi-head self-attention": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "token-level": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "sentence-level": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "input sequence": {
+      "tag_set": [
+        "BERT Model Architecture",
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "maximum length 512": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "[SEP]": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "[CLS]": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "d_model": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "d_k": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "d_v": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "1024": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "768": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "GLUE benchmark": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "fine-tuning": {
+      "tag_set": [
+        "BERT Model Architecture",
+        "Method"
+      ]
+    },
+    "classification layer": {
+      "tag_set": [
+        "BERT Model Architecture",
+        "Model Architecture"
+      ]
+    },
+    "W^Q": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "W^K": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "W^V": {
+      "tag_set": [
+        "BERT Model Architecture"
+      ]
+    },
+    "Masked LM": {
+      "tag_set": [
+        "BERT Pre-training Tasks",
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "Next Sentence Prediction": {
+      "tag_set": [
+        "BERT Pre-training Tasks",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "15%": {
+      "tag_set": [
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "unidirectional": {
+      "tag_set": [
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "bidirectional": {
+      "tag_set": [
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "cloze test": {
+      "tag_set": [
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "masked tokens": {
+      "tag_set": [
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "contextual representations": {
+      "tag_set": [
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "50%": {
+      "tag_set": [
+        "BERT Pre-training Tasks",
+        "Data Split"
+      ]
+    },
+    "sentence B": {
+      "tag_set": [
+        "BERT Pre-training Tasks",
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "sentence A": {
+      "tag_set": [
+        "BERT Pre-training Tasks",
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "BERT Pre-training Tasks"
+      ]
+    },
+    "NSP task": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "dialogue-like conversation": {
+      "tag_set": [
+        "Cause",
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "emotion changing": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "continuous utterances": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "contextual emotion recognition": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "Friends dataset": {
+      "tag_set": [
+        "Attribute",
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "EmotionPush dataset": {
+      "tag_set": [
+        "Application",
+        "Attribute",
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "unbalanced emotion labels": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "causal utterance modeling": {
+      "tag_set": [
+        "Definition",
+        "Emotion Prediction in Dialogues",
+        "Experiment Setup and Results",
+        "FriendsBERT Model Performance",
+        "Method"
+      ]
+    },
+    "utterance sequence": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "x_t": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "X^(i)": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "first utterance": {
+      "tag_set": [
+        "Emotion Prediction in Dialogues"
+      ]
+    },
+    "causal utterance": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Rachel": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Monica": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Phoebe": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Joey": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Chandler": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Ross": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "83.4%": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "personality tokenization": {
+      "tag_set": [
+        "Method",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "says tokens": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "six main characters": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "informal chats": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "slang": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "acronym": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "organization_80": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "person_01": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "time_12": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "repeated typing": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "purposed capitalization": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "D:": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    ":( ": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "<3": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Masked language model": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "emorynlp": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "3,107 scenes": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "61,309 utterances": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "pre-training tasks": {
+      "tag_set": [
+        "Method",
+        "Model Pre-training Strategies"
+      ]
+    },
+    "overfitting": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "domain bias": {
+      "tag_set": [
+        "Model Pre-training Strategies"
+      ]
+    },
+    "Twitter dataset": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "emotion wheel": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "Twitter streaming API": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "#anger": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "#joy": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "#cry": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "#sad": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "Table TABREF17": {
+      "tag_set": [
+        "Data Summary",
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "emotion classification dataset": {
+      "tag_set": [
+        "Dataset Composition",
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "BERT construction": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "[CLS] token": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "embedding vector": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "H": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "K": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "NLL loss function": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "DISPLAY_FORM22": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "DISPLAY_FORM23": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning"
+      ]
+    },
+    "weighted balanced warming": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning",
+        "Loss Adjustment"
+      ]
+    },
+    "micro F1-score": {
+      "tag_set": [
+        "Emotion Recognition Fine-tuning",
+        "Evaluation Metric",
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "EmotionX challenge": {
+      "tag_set": [
+        "Definition",
+        "Experiment Setup and Results"
+      ]
+    },
+    "800 training dialogues": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "200 validation dialogues": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "anger": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "joy": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "sadness": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "four emotions": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "weighted loss mechanism": {
+      "tag_set": [
+        "Cause",
+        "Experiment Setup and Results"
+      ]
+    },
+    "TextCNN": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "C-TextCNN": {
+      "tag_set": [
+        "Experiment Setup and Results",
+        "Result"
+      ]
+    },
+    "bag-of-words (BOW)": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "TFIDF": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "Logistic Regression (LR)": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "Random Forest (RF)": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "GloVe": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "TextCNN with GloVe": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "Precision (P.)": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "Recall (R.)": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "F1-measure (F1)": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "0.81 F1 score": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "F1 improvement": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "Table TABREF18": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "Table TABREF25": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "Table TABREF19": {
+      "tag_set": [
+        "Experiment Setup and Results"
+      ]
+    },
+    "weighted loss": {
+      "tag_set": [
+        "Definition",
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "single sentence BERT": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "FriendsBERT-base": {
+      "tag_set": [
+        "FriendsBERT Model Performance",
+        "Result"
+      ]
+    },
+    "FriendsBERT-large": {
+      "tag_set": [
+        "FriendsBERT Model Performance",
+        "Result"
+      ]
+    },
+    "0.85": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "0.86": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "81.5%": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "88.5%": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "EmotionLines dataset": {
+      "tag_set": [
+        "Definition",
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "top 920 training dialogues": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "sentence-level context": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "small sample labels": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "large sample labels": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "model pre-training": {
+      "tag_set": [
+        "FriendsBERT Model Performance",
+        "Method"
+      ]
+    },
+    "text domain bias": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "conditional probabilistic constraint": {
+      "tag_set": [
+        "FriendsBERT Model Performance",
+        "Future work"
+      ]
+    },
+    "P(Emo_B | hat{Emo}_A)": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "personality embedding": {
+      "tag_set": [
+        "FriendsBERT Model Performance",
+        "Future work"
+      ]
+    },
+    "word embedding": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "sentence embedding": {
+      "tag_set": [
+        "FriendsBERT Model Performance"
+      ]
+    },
+    "emotion classifier": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "Friends subset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "EmotionPush subset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "annotation process": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "non-neutral annotation": {
+      "tag_set": [
+        "Rule"
+      ]
+    },
+    "emotion labels in EmotionX 2019": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "FriendsBERT and ChatBERT": {
+      "tag_set": [
+        "Definition",
+        "Method"
+      ]
+    },
+    "NSP pre-training task": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "emotional information": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "dataset size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "emotion label imbalance": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "sentence representation $x_t$": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Rachel, Monica, Phoebe, Joey, Chandler, Ross": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "personal characteristics": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "name entities": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "informal expressions": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "hyperlinks, empty utterance, name entities": {
+      "tag_set": [
+        "Processing"
+      ]
+    },
+    "overfitting and domain bias": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "Twitter emotion dataset": {
+      "tag_set": [
+        "Collection Method"
+      ]
+    },
+    "emotion hashtags": {
+      "tag_set": [
+        "Labeling Method"
+      ]
+    },
+    "tweet processing rules": {
+      "tag_set": [
+        "Processing Procedure"
+      ]
+    },
+    "[CLS] embedding vector": {
+      "tag_set": [
+        "Model Representation"
+      ]
+    },
+    "emotion prediction probabilities": {
+      "tag_set": [
+        "Computation Method"
+      ]
+    },
+    "Negative Log Likelihood (NLL) loss": {
+      "tag_set": [
+        "Loss Function"
+      ]
+    },
+    "emotion label weights": {
+      "tag_set": [
+        "Weight Computation"
+      ]
+    },
+    "minor emotions": {
+      "tag_set": [
+        "Training Objective"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dataset split": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "emotion evaluation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "emotion distribution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "hyperparameters": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "baseline embedding methods": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "baseline classification models": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BOW and TFIDF": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "causal utterance modeling performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "FriendsBERT-base-s": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Testing dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "specific model pre-training": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "input sentence limitation": {
+      "tag_set": [
+        "Future work"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Emotion detection has long been a topic of interest to scholars in natural language processing (NLP) domain. Researchers aim to recognize the emotion behind the text and distribute similar ones into the same group. Establishing an emotion classifier can not only understand each user's feeling but also be extended to various application, for example, the motivation behind a user's interests BIBREF0. Based on releasing of large text corpus on social media and the emotion categories proposed by BIBREF1, BIBREF2, numerous models have provided and achieved fabulous precision so far. For example, DeepMoji BIBREF3 which utilized transfer learning concept to enhance emotions and sarcasm understanding behind the target sentence. CARER BIBREF4 learned contextualized affect representations to make itself more sensitive to rare words and the scenario behind the texts. As methods become mature, text-based emotion detecting applications can be extended from a single utterance to a dialogue contributed by a series of utterances. Table TABREF2 illustrates the difference between single utterance and dialogue emotion recognition. The same utterances in Table TABREF2, even the same person said the same sentence, the emotion it convey may be various, which may depend on different background of the conversation, tone of speaking or personality. Therefore, for emotion detection, the information from preceding utterances in a conversation is relatively critical. In SocialNLP 2019 EmotionX, the challenge is to recognize emotions for all utterances in EmotionLines dataset, a dataset consists of dialogues. According to the needs for considering context at the same time, we develop two classification models, inspired by bidirectional encoder representations from transformers (BERT) BIBREF5, FriendsBERT and ChatBERT. In this paper, we introduce our approaches including causal utterance modeling, model pre-training, and fine-turning. Dataset EmotionLines BIBREF6 is a dialogue dataset composed of two subsets, Friends and EmotionPush, according to the source of the dialogues. The former comes from the scripts of the Friends TV sitcom. The other is made up of Facebook messenger chats. Each subset includes $1,000$ English dialogues, and each dialogue can be further divided into a few consecutive utterances. All the utterances are annotated by five annotators on a crowd-sourcing platform (Amazon Mechanical Turk), and the labeling work is only based on the textual content. Annotator votes for one of the seven emotions, namely Ekman\u2019s six basic emotions BIBREF1, plus the neutral. If none of the emotion gets more than three votes, the utterance will be marked as \u201cnon-neutral\u201d. For the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Detection in Dialogues"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "datasets, there are properties worth additional mentioning. Although Friends and EmotionPush share the same data format, they are quite different in nature. Friends is a speech-based dataset which is annotated dialogues from the TV sitcom. It means most of the utterances are generated by the a few main characters. The personality of a character often affects the way of speaking, and therefore \u201cwho is the speaker\" might provide extra clues for emotion prediction. In contrast, EmotionPush does not have this trait due to the anonymous mechanism. In addition, features such as typo, hyperlink, and emoji that only appear in chat-based data will need some domain-specific techniques to process. Incidentally, the objective of the challenge is to predict the emotion for each utterance. Just, according to EmotionX 2019 specification, there are only four emotions be selected as our label candidates, which are Joy, Sadness, Anger, and Neutral. These emotions will be considered during performance evaluation. The technical detail will also be introduced and discussed in following Section SECREF13 and Section SECREF26. Model Description For this challenge, we adapt BERT which is proposed by BIBREF5 to help understand the context at the same time. Techn",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Characteristics"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "ically, B",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Incomplete Input"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "ERT, designed on end-to-end architecture, is a deep pre-trained transformer encoder that dynamically provides language representation and BERT already achieved multiple state-of-the-art results on GLUE benchmark BIBREF7 and many tasks. A quick recap for BERT's architecture and its pre-training tasks will be illustrated in the following subsections. Model Description ::: Model Architecture BERT, the Bidirectional Encoder Representations from Transformers, consists of several transformer encoder layers that enable the model to extract very deep language features on both token-level and sentence-level. Each transformer encoder contains multi-head self-attention layers that provide ability to learn multiple attention feature of each word from their bidirectional context. The transformer and its self-attention mechanism are proposed by BIBREF8. This self-attention mechanism can be interpreted as a key-value mapping given query. By given the embedding vector for token input, the query ($Q$), key ($K$) and value ($V$) are produced by the projection from each three parameter matrices where $W^Q \\in \\mathbb {R}^{d_{{\\rm model}} \\times d_{k}}, W^K \\in \\mathbb {R}^{d_{\\rm model} \\times d_{k}}$ and $W^V \\in \\mathbb {R}^{d_{\\rm model} \\times d_{v}}$. The self-attention BIBREF8 is formally represented as: The $ d_k = d_v = d_{\\rm model} = 1024$ in BERT large version and 768 in BERT base version. Once model can extract attention feature, we can extend one self-attention into multi-head self-attention, this extension makes sub-space features can be extracted in same time by this multi-head configuration. Overall, the multi-attention mechanism is adopt for each transformer encoder, and several of encoder layer will be stacked together to form a deep transformer encoder. For the model input, BERT allow us take one sentence as input sequence or two sentences together as one input sequence, and the maximum length of input sequence is 512. The way that BERT was designed is for giving model the sentence-level and token-level understanding. In two sentences case, a special token ([SEP]) will be inserted between two sentences. In addition, the first input token is also a special token ([CLS]), and its corresponding ouput will be vector place for classification during fine-tuning. The outputs of the last encoder layer corresponding to each input token can be treated as word representations for each token, and the word representation of the first token ([CLS]) will be consider as classification (output) representation for further fine-tuning tasks. In BERT, this vector is denoted as $C \\in \\mathbb {R}^{d_{\\rm model}} $, and a classification layer is denoted as $ W",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "BERT Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "\\in \\mathbb {R}^{K \\times d_{\\rm model}}$, where $K$ is number of classification labels. Finally, the prediction $P$ of BERT is represented as $P = {\\rm softmax}(CW^T)$. Model Description ::: Pre-training Tasks In pre-training, intead of using unidirectional language models, BERT developed two pre-training tasks: (1) Masked LM (cloze test) and (2) Next Sentence Prediction. At the first pre-training task, bidirectional language modeling can be done at this cloze-like pre-training. In detail, 15% tokens of input sequence will be masked at random and model need to predict those masked tokens. The encoder will try to learn contextual representations from every given tokens due to masking tokens at random. Model will not know which part of the input is going to be masked, so that the information of each masked tokens should be inferred by remaining tokens. At Next Sentence Prediction, two sentences concatenated together will be considered as model input. In order to give model a good nature language understanding, knowing relationship between sentence is one of important abilities. When generating input sequences, 50% of time the sentence B is actually followed by sentence A",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "BERT Pre-training Tasks"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": ", and rest 50% of the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Data Split"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "time the sentence B will be picked randomly from dataset, and model need to predict if the sentence B is next sentence of sentence A. That is, the attention information will be shared between sentences. Such sentence-level understanding may have difficulties to be learned at first pre-training task (Masked LM), therefore, the pre-training task (NSP) is developed as second training goal to capture the cross sentence relationship. In this competition, limited by the size of dataset and the challenge in contextual emotion recognition, we consider BERT with both two pre-training tasks can give a good starting point to extract emotion changing during dialogue-like conversation. Especially the second pre-training task, it might be more important for dialogue-like conversation where the emotion may various by the context of continuous utterances. That is, given a set of continues conversations, the emotion of current utterance might be influenced by previous utterance. By this assumption and with supporting from the experiment results of BERT, we can take sentence A as one-sentence context and consider sentence B as the target sentence for emotion prediction. The detail will be described in Section SECREF4. Methodology The main goal of the present work is to predict the emotion of utterance within the dialogue. Following are four major difficulties we concern about: The emotion of the utterances depends not only on the text but also on the interaction happened earlier. The source of the two datasets are different. Friends is speech-based dialogues and EmotionPush is chat-based dialogues. It makes datasets possess different characteristics. There are only $1,000$ dialogues in both training datasets which are not large enough for the stability of training a complex neural-based model. The prediction targets (emotion labels) are highly unbalanced. The proposed approach is summarized in Figure FIGREF3, which aims to overcome these challenges. The framework could be separated into three steps and described as follow: Methodology ::: Causal Utterance Modeling Given a dialogue $D^{(i)}$ which includes sequence of utterances denoted as $D^{(i)}=(u^{(i)}_{1}, u^{(i)}_{2}, ..., u^{(i)}_{n})$, where $i$ is the index in dataset and $n$ is the number of utterances in the given dialogue. In order to conserve the emotional information of both utterance and conversation, we rearrange each two consecutive utterances $u_{t}, u_{t-1}$ into a single sentence representation $x_{t}$ as The corresponding sentence representation corpus $X^{(i)}$ are denoted as $X^{(i)}=(x^{(i)}_{1}, x^{(i)}_{2}, ..., x^{(i)}_{n})$. Note that the first utterance within a conversation does not have its",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Prediction in Dialogues"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "causal utterance (previous sentence), therefore, the causal utterance will be set as [None]. A practical example of sentence representation is shown in Table TABREF11. Since the characteristics of two datasets are not identical, we customize different causal utterance modeling strategies to refine the information in text. For Friends, there are two specific properties. The first one is that most dialogues are surrounding with the six main characters, including Rachel, Monica, Phoebe, Joey, Chandler, and Ross. The utterance ratio of given by the six roles is up to $83.4\\%$. Second, the personal characteristics of the six characters are very clear. Each leading role has its own emotion undulated rule. To make use of these features, we introduce the personality tokenization which help learning the personality of the six characters. Personality tokenization concatenate the speaker and says tokens before the input utterance if the speaker is one of the six characters. The example is shown in Table TABREF12. For EmotionPush, the text are informal chats which including like slang, acronym, typo, hyperlink, and emoji. Another characteristic is that the specific name entities are tokenized with random index. (e.g. \u201corganization_80\u201d, \u201cperson_01\u201d, and \u201ctime_12\u201d). We consider some of these informal text are related to expressing emotion such as repeated typing, purposed capitalization, and emoji (e.g. \u201c:D\u201d, \u201c:(\u201d, and \u201c<3\u201d)). Therefore, we keep most informal expressions but only process hyperlinks, empty utterance, and name entities by unifying the tokens. Methodology ::: Model Pre-training Since the size of both datasets are not large enough for complex neural-based model training as well as BERT model is only pre-train on formal text datasets, the issues of overfitting and domain bias are important considerations for design the pre-training process. To avoid our model overfitting on the training data and increase the understanding of informal text, we adapted BERT and derived two models, namely FriendsBERT and ChatBERT, with different pre-training tasks before the formal training process for Friends and EmotionPush dataset, respectively. The pre-training strategies are described below. For pre-training FriendsBERT, we collect the completed scripts of all ten seasons of Friends TV shows from emorynlp which includes 3,107 scenes within 61,309 utterances. All the utterances are followed the preprocessing methods mentions above to compose the corpus for Masked language model pre-training task. The consequent utterances in the same scenes are considered as the consequent sentences to pre-train the Next Sentence Prediction task. In the pre-training process, the training loss",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Pre-training Strategies"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "is the sum of the mean likelihood of two pre-train tasks. For pre-training ChatBERT, we pre-train our model on the Twitter dataset, since the text and writing style on Twitter are close to the chat text where both may involved with many informal words or emoticons as well. The Twitter emotion dataset, 8 basic emotions from emotion wheel BIBREF1, was collected by twitter streaming API with specific emotion-related hashtags, such as #anger, #joy, #cry, #sad and etc. The hashtags in tweets are treated as emotion label for model fine-tuning. The tweets were fine-grined processing followed the rules in BIBREF9, BIBREF4, including duplicate tweets removing, the emotion hashtags must appearing in the last position of a tweet, and etc. The statis of tweets were summarized in Table TABREF17. Each tweet and corresponding emotion label composes an emotion classification dataset for pre-training. Methodology ::: Fine-tuning Since our emotion recognition task is treated as a sequence-level classification task, the model would be fine-tuned on the processed training data. Following the BERT construction, we take the first embedding vector which corresponds to the special token [CLS] from the final hidden state of the Transformer encoder. This vector represents the embedding vector of the corresponding conversation utterances which is denoted as $\\mathbf {C} \\in \\mathbb {R}^{H}$, where $H$ is the embedding size. A dense neural layer is treated as a classification layer which consists of parameters $\\mathbf {W} \\in \\mathbb {R}^{K\\times H}$ and $\\mathbf {b} \\in \\mathbb {R}^{K}$, where $K$ is the number of emotion class. The emotion prediction probabilities $\\mathbf {P} \\in \\mathbb {R}^{K}$ are computed by a softmax activation function as All the parameters in BERT and the classification layer would be fine-turned together to minimize the Negative Log Likelihood (NLL) loss function, as Equation (DISPLAY_FORM22), based on the ground truth emotion label $c$. In order to tackle the problem of highly unbalanced emotion labels, we apply weighted balanced warming on NLL loss function, as Equation (DISPLAY_FORM23), in the first epoch of fine-tuning procedure. where $\\mathbf {w}$ are the weights of corresponding emotion label $c$ which are computed and normalize by the frequency as By adding the weighted balanced warming on NLL loss, the model could learn to predict the minor emotions (e.g. anger and sadness) earlier and make the training process more stable. Since the major evaluation metrics micro F1-score is effect by the number of each label, we only apply the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Recognition Fine-tuning"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "weighted balanced warming in first epoch to optimize the performance. Experiments Since the EmotionX challenge only provided the gold labels in training data, we pick the best performance model (weights) to predict the testing data. In this section, we present the experiment and evaluation results. Experiments ::: Experimental Setup The EmotionX challenge consists of $1,000$ dialogues for both Friends and EmotionPush. In all of our experiments, each dataset is separated into top 800 dialogues for training and last 200 dialogues for validation. Since the EmotionX challenge considers only the four emotions (anger, joy, neutral, and sadness) in the evaluation stage, we ignore all the data point corresponding to other emotions directly. The details of emotions distribution are shown in Table TABREF18. The hyperparameters and training setup of our models (FriendsBERT and ChatBERT) are shown in Table TABREF25. Some common and easily implemented methods are selected as the baselines embedding methods and classification models. The baseline embedding methods are including bag-of-words (BOW), term frequency\u2013inverse document frequency (TFIDF), and neural-based word embedding. The classification models are including Logistic Regression (LR), Random Forest (RF), TextCNN BIBREF10 with initial word embedding as GloVe BIBREF11, and our proposed model. All the experiment results are based on the best performances of validation results. Experiments ::: Performance The experiment results of validation on Friends are shown in Table TABREF19. The proposed model and baselines are evaluated based on the Precision (P.), Recall (R.), and F1-measure (F1). For the traditional baselines, namely BOW and TFIDF, we observe that they achieve surprising high F1 scores around $0.81$, however, the scores for Anger and Sadness are lower. This explains that traditional approaches tend to predict the labels with large sample size, such as Joy and Neutral, but fail to take of scarce samples even when an ensemble random forest classifier is adopted. In order to prevent the unbalanced learning, we choose the weighted loss mechanism for both TextCNN and causal modeling TextCNN (C-TextCNN), these models suffer less than the traditional baselines and achieve a slightly balance performance, where there are around 15% and 7% improvement on Anger and Sadness, respectively. We following adopt the casual utterance modeling to original TextCNN, mapping previous utterance as well as target utterance into model. The causal utterance modeling improve the C-TextCNN over TextCNN for 6%, 2% and 1% on Anger, Joy and overall F1 score. Motivated from these preliminary experiments, the proposed FriendsBERT also",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Experiment Setup and Results"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "adopt the ideas of both weighted loss and causal utterance modeling. As compared to the original BERT, single sentence BERT (FriendsBERT-base-s), the proposed FriendsBERT-base improve 1% for Joy and overall F1, and 2% for Sadness. For the final validation performance, our proposed approach achieves the highest scores, which are $0.85$ and $0.86$ for FriendsBERT-base and FriendsBERT-large, respectively. Overall, the proposed FriendsBERT successfully captures the sentence-level context-awarded information and outperforms all the baselines, which not only achieves high performance on large sample labels, but also on small sample labels. The similar settings are also adapted to EmotionPush dataset for the final evaluation. Experiments ::: Evaluation Results The testing dataset consists of 240 dialogues including $3,296$ and $3,536$ utterances in Friends and EmotionPush respectively. We re-train our FriendsBERT and ChatBERT with top 920 training dialogues and predict the evaluation results using the model performing the best validation results. The results are shown in Table TABREF29 and Table TABREF30. The present method achieves $81.5\\%$ and $88.5\\%$ micro F1-score on the testing dataset of Friends and EmotionPush, respectively. Conclusion and Future work In the present work, we propose FriendsBERT and ChatBERT for the multi-utterance emotion recognition task on EmotionLines dataset. The proposed models are adapted from BERT BIBREF5 with three main improvement during the model training procedure, which are the causal utterance modeling mechanism, specific model pre-training, and adapt weighted loss. The causal utterance modeling takes the advantages of the sentence-level context information during model inference. The specific model pre-training helps to against the bias in different text domain. The weighted loss avoids our model to only predict on large size sample. The effectiveness and generalizability of the proposed methods are demonstrated from the experiments. In future work, we consider to include the conditional probabilistic constraint $P ({\\rm Emo}_{B} | \\hat{\\rm Emo}_{A})$. Model should predict the emotion based on a certain understanding about context emotions. This might be more reasonable for guiding model than just predicting emotion of ${\\rm Sentence}_B$ directly. In addition, due to the limitation of BERT input format, ambiguous number of input sentences is now becoming an important design requirement for our future work. Also, personality embedding development will be another future work of the emotion recognition. The personality embedding will be considered as sentence embedding injected into word embedding, and it seems this additional information can contribute some improvement potentially.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "FriendsBERT Model Performance"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Emotion detection is the process of recognizing the emotional state behind text in natural language processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "An emotion classifier helps understand individual user feelings and can be extended to various applications such as analyzing motivations behind user interests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "DeepMoji uses transfer learning to improve the understanding of emotions and sarcasm in text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "CARER learns contextualized affect representations to be more sensitive to rare words and the contextual scenario of texts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Emotion in a dialogue can vary even for the same utterance due to context, tone, or personality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "EmotionLines is a dialogue dataset composed of two subsets: Friends (TV sitcom scripts) and EmotionPush (Facebook messenger chats).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "The Friends subset consists of dialogues from the TV sitcom and features character-specific personalities that influence speech patterns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The EmotionPush subset consists of anonymous Facebook messenger chats and lacks character-specific personality traits.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Utterances in EmotionLines are annotated by five annotators on Amazon Mechanical Turk, who vote for one of seven emotions, including Ekman\u2019s six basic emotions and neutral.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "If no emotion receives more than three votes, the utterance is labeled as 'non-neutral'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Rule"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Only four emotions are used for evaluation: Joy, Sadness, Anger, and Neutral.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "FriendsBERT and ChatBERT are two classification models inspired by BERT, designed to handle context in dialogue emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Causal utterance modeling is one of the approaches used to capture the context from preceding utterances in a conversation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Model pre-training is a technique used to improve the contextual understanding of emotion detection models before fine-tuning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Fine-tuning is the process of adapting a pre-trained model to the specific task of emotion detection on the EmotionLines dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "BERT is a bidirectional encoder representation model that enables contextual understanding of text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The NSP (Next Sentence Prediction) pre-training task is designed to capture cross-sentence relationships by predicting whether sentence B is the next sentence following sentence A.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "BERT is trained with two pre-training tasks: Masked Language Modeling (MLM) and Next Sentence Prediction (NSP), to enable sentence-level understanding and contextual relationships.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "In dialogue-like conversations, the emotion of a current utterance may be influenced by the context of previous utterances, making the NSP task particularly important for emotion modeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The proposed methodology conserves emotional information from both individual utterances and the overall conversation by combining consecutive utterances into sentence representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Causal utterance modeling involves rearranging two consecutive utterances $u_t$ and $u_{t-1}$ into a single sentence representation $x_t$ to capture emotional context and dependencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Both training datasets contain only 1,000 dialogues, which limits the stability and performance of training complex neural models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The emotion labels in the datasets are highly unbalanced, posing a challenge for accurate emotion prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "The Friends dataset consists of speech-based dialogues and differs in characteristics from chat-based dialogues.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The EmotionPush dataset consists of chat-based dialogues and has different characteristics compared to speech-based dialogues.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The sentence representation $x_t$ is formed by combining two consecutive utterances $u_t$ and $u_{t-1}$ to preserve emotional context in a single sentence form.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Friends is a TV show dataset featuring dialogues among six main characters: Rachel, Monica, Phoebe, Joey, Chandler, and Ross.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The six main characters in Friends account for 83.4% of all utterances in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Each of the six main characters in Friends has distinct emotional patterns or rules that influence their dialogue style.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Personality tokenization involves concatenating the speaker and 'says' tokens before the input utterance when the speaker is one of the six main characters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "EmotionPush is a dataset consisting of informal chats that include slang, acronyms, typos, hyperlinks, and emojis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "In EmotionPush, specific name entities are tokenized using random indices such as 'organization_80', 'person_01', and 'time_12'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Repeated typing, purposeful capitalization, and emojis like ':D', ':(', and '<3' in EmotionPush are used to express emotions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "In EmotionPush, hyperlinks, empty utterances, and name entities are processed by unifying their tokens to standardize input representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Processing"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "FriendsBERT is a model derived from BERT, specifically adapted for the Friends dataset using masked language modeling and next sentence prediction tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "ChatBERT is a model derived from BERT, specifically adapted for the EmotionPush dataset with customized pre-training tasks to handle informal text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "FriendsBERT is pre-trained using masked language modeling and next sentence prediction tasks on 61,309 utterances from 3,107 scenes of Friends TV episodes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Due to the small size of the datasets and the informal nature of the text, overfitting and domain bias are significant concerns in model training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "BERT is primarily pre-trained on formal text datasets, making it less effective for handling informal or domain-specific text like that in Friends and EmotionPush.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "ChatBERT is pre-trained on the Twitter dataset because the text and writing style on Twitter closely resemble chat text, which often includes informal words or emoticons.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Pre-training Dataset"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The Twitter emotion dataset is collected using the Twitter streaming API with emotion-related hashtags such as #anger, #joy, #cry, and #sad.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Collection Method"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Emotion hashtags in tweets are treated as emotion labels for model fine-tuning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Labeling Method"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Tweets are fine-grained processed following rules including duplicate removal and requiring emotion hashtags to appear at the end of a tweet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Processing Procedure"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The statistics of tweets are summarized in Table TABREF17.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Summary"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Each tweet and its corresponding emotion label form an emotion classification dataset for pre-training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset Composition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The [CLS] token's embedding vector from the final hidden state of the Transformer encoder represents the embedding of the conversation utterance and is denoted as $\\mathbf{C} \\in \\mathbb{R}^H$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Representation"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "A dense neural layer with parameters $\\mathbf{W} \\in \\mathbb{R}^{K\\times H}$ and $\\mathbf{b} \\in \\mathbb{R}^K$ is used as the classification layer, where $K$ is the number of emotion classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Emotion prediction probabilities $\\mathbf{P} \\in \\mathbb{R}^K$ are computed using a softmax activation function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Computation Method"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "All parameters in BERT and the classification layer are fine-tuned together to minimize the Negative Log Likelihood (NLL) loss function based on the ground truth emotion label $c$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Loss Function"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Weighted balanced warming is applied to the NLL loss function in the first epoch to address highly unbalanced emotion labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Loss Adjustment"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The weights for emotion labels are computed and normalized based on label frequency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Weight Computation"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Adding weighted balanced warming helps the model learn to predict minor emotions like anger and sadness earlier, improving training stability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Objective"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The micro F1-score is affected by the number of instances per label, so the weighted balancing is applied to ensure fair evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Metric"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The EmotionX challenge consists of 1,000 dialogues for both Friends and EmotionPush.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The EmotionX challenge provides gold labels only in the training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Each dataset is split into the top 800 dialogues for training and the last 200 dialogues for validation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The EmotionX challenge evaluates only four emotions: anger, joy, neutral, and sadness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The distribution of emotions is detailed in Table TABREF18.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The hyperparameters and training setup for FriendsBERT and ChatBERT are shown in Table TABREF25.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Baseline embedding methods include bag-of-words (BOW), term frequency\u2013inverse document frequency (TFIDF), and neural-based word embedding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Baseline classification models include Logistic Regression (LR), Random Forest (RF), TextCNN with GloVe embeddings, and the proposed model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Traditional baselines BOW and TFIDF achieve high F1 scores around 0.81 but perform poorly on Anger and Sadness due to unbalanced sample sizes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The weighted loss mechanism is used to prevent unbalanced learning in TextCNN and Causal TextCNN models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Causal TextCNN achieves a 15% improvement on Anger and 7% on Sadness compared to traditional baselines.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Causal utterance modeling maps both previous and target utterances into the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Causal utterance modeling improves C-TextCNN by 6% on Anger, 2% on Joy, and 1% on overall F1 score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "FriendsBERT is the proposed model motivated by preliminary experiments on C-TextCNN and causal modeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "FriendsBERT-base-s improves 1% in Joy and overall F1, and 2% in Sadness compared to original BERT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "FriendsBERT-base achieves a validation score of 0.85 on the final evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "FriendsBERT-large achieves a validation score of 0.86 on the final evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "FriendsBERT successfully captures sentence-level context-awarded information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "FriendsBERT outperforms all baselines on both large and small sample labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The similar settings are adapted to the EmotionPush dataset for final evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The testing dataset consists of 240 dialogues with 3,296 utterances in Friends and 3,536 in EmotionPush.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "FriendsBERT and ChatBERT are re-trained using the top 920 training dialogues.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "FriendsBERT achieves an 81.5% micro F1-score on the Friends testing dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "FriendsBERT achieves an 88.5% micro F1-score on the EmotionPush testing dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Causal utterance modeling leverages sentence-level context information during model inference.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Specific model pre-training helps mitigate bias across different text domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Weighted loss prevents the model from over-predicting on large-sized sample labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Future work includes incorporating the conditional probabilistic constraint P(Emo_B | \u00camo_A).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future work"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Due to BERT's input format limitations, handling an ambiguous number of input sentences is a future design requirement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future work"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Personality embedding will be developed as a sentence-level embedding injected into word embeddings to improve emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future work"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "#anger",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "#cry",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "#joy",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "#sad",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "0.81 F1 score",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "0.85",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "0.86",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "1,000 dialogues",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "1,000 dialogues",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "1,000 dialogues",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "1024",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "15%",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "200 validation dialogues",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "3,107 scenes",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "50%",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "50%",
+      "Data Split",
+      "e6"
+    ],
+    [
+      "61,309 utterances",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "768",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "800 training dialogues",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "81.5%",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "83.4%",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "88.5%",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      ":( ",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "<3",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "Amazon Mechanical Turk",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "Anger",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "B",
+      "Incomplete Input",
+      "e3"
+    ],
+    [
+      "BERT",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "BERT",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "BERT",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "BERT",
+      "Definition",
+      "s16"
+    ],
+    [
+      "BERT",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "BERT",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "BERT",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "BERT",
+      "Limitation",
+      "s39"
+    ],
+    [
+      "BERT",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "BERT",
+      "Property",
+      "s18"
+    ],
+    [
+      "BERT construction",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "BIBREF1",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "BIBREF4",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "BIBREF5",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "BIBREF9",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "BOW and TFIDF",
+      "Result",
+      "s62"
+    ],
+    [
+      "C-TextCNN",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "C-TextCNN",
+      "Result",
+      "s64"
+    ],
+    [
+      "CARER",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "CARER",
+      "Property",
+      "s4"
+    ],
+    [
+      "Chandler",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "ChatBERT",
+      "Definition",
+      "s36"
+    ],
+    [
+      "ChatBERT",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "ChatBERT",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "ChatBERT",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "ChatBERT",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "ChatBERT",
+      "Pre-training Dataset",
+      "s40"
+    ],
+    [
+      "D:",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "DISPLAY_FORM22",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "DISPLAY_FORM23",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "DeepMoji",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "DeepMoji",
+      "Property",
+      "s3"
+    ],
+    [
+      "Ekman's six basic emotions",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "EmotionLines",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "EmotionLines dataset",
+      "Definition",
+      "s6"
+    ],
+    [
+      "EmotionLines dataset",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "EmotionPush",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "EmotionPush",
+      "Definition",
+      "s31"
+    ],
+    [
+      "EmotionPush",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "EmotionPush",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "EmotionPush",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "EmotionPush dataset",
+      "Application",
+      "s73"
+    ],
+    [
+      "EmotionPush dataset",
+      "Attribute",
+      "s25"
+    ],
+    [
+      "EmotionPush dataset",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "EmotionPush subset",
+      "Property",
+      "s8"
+    ],
+    [
+      "EmotionX 2019",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "EmotionX challenge",
+      "Definition",
+      "s54"
+    ],
+    [
+      "EmotionX challenge",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "F1 improvement",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "F1-measure (F1)",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Facebook messenger",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "Friends",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "Friends",
+      "Definition",
+      "s27"
+    ],
+    [
+      "Friends",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Friends",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "Friends",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "Friends TV sitcom",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "Friends dataset",
+      "Attribute",
+      "s24"
+    ],
+    [
+      "Friends dataset",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "Friends subset",
+      "Property",
+      "s7"
+    ],
+    [
+      "FriendsBERT",
+      "Definition",
+      "s35"
+    ],
+    [
+      "FriendsBERT",
+      "Definition",
+      "s67"
+    ],
+    [
+      "FriendsBERT",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "FriendsBERT",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "FriendsBERT",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "FriendsBERT",
+      "Property",
+      "s71"
+    ],
+    [
+      "FriendsBERT",
+      "Result",
+      "s72"
+    ],
+    [
+      "FriendsBERT",
+      "Result",
+      "s76"
+    ],
+    [
+      "FriendsBERT",
+      "Result",
+      "s77"
+    ],
+    [
+      "FriendsBERT and ChatBERT",
+      "Definition",
+      "s12"
+    ],
+    [
+      "FriendsBERT and ChatBERT",
+      "Method",
+      "s75"
+    ],
+    [
+      "FriendsBERT-base",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "FriendsBERT-base",
+      "Result",
+      "s69"
+    ],
+    [
+      "FriendsBERT-base-s",
+      "Result",
+      "s68"
+    ],
+    [
+      "FriendsBERT-large",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "FriendsBERT-large",
+      "Result",
+      "s70"
+    ],
+    [
+      "GLUE benchmark",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "GloVe",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "H",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "Joey",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "Joy",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "K",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "Logistic Regression (LR)",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Masked LM",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "Masked LM",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "Masked language model",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "Monica",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "NLL loss function",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "NLP",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "NSP pre-training task",
+      "Definition",
+      "s17"
+    ],
+    [
+      "NSP task",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "Negative Log Likelihood (NLL) loss",
+      "Loss Function",
+      "s49"
+    ],
+    [
+      "Neutral",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "Next Sentence Prediction",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "Next Sentence Prediction",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "P(Emo_B | hat{Emo}_A)",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "Phoebe",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "Precision (P.)",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Rachel",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "Rachel, Monica, Phoebe, Joey, Chandler, Ross",
+      "Property",
+      "s28"
+    ],
+    [
+      "Random Forest (RF)",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Recall (R.)",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Ross",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "Sadness",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "Section SECREF13",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "Section SECREF26",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "TFIDF",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "TV sitcom",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "Table TABREF17",
+      "Data Summary",
+      "s44"
+    ],
+    [
+      "Table TABREF17",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "Table TABREF18",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Table TABREF19",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Table TABREF25",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Testing dataset",
+      "Property",
+      "s74"
+    ],
+    [
+      "TextCNN",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "TextCNN with GloVe",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "Twitter dataset",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "Twitter emotion dataset",
+      "Collection Method",
+      "s41"
+    ],
+    [
+      "Twitter streaming API",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "W^K",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "W^Q",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "W^V",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "X^(i)",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "[CLS]",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "[CLS] embedding vector",
+      "Model Representation",
+      "s46"
+    ],
+    [
+      "[CLS] token",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "[SEP]",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "acronym",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "anger",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "annotation process",
+      "Method",
+      "s9"
+    ],
+    [
+      "anonymous mechanism",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "bag-of-words (BOW)",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "baseline classification models",
+      "Definition",
+      "s61"
+    ],
+    [
+      "baseline embedding methods",
+      "Definition",
+      "s60"
+    ],
+    [
+      "bidirectional",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "causal utterance",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "causal utterance modeling",
+      "Definition",
+      "s21"
+    ],
+    [
+      "causal utterance modeling",
+      "Definition",
+      "s65"
+    ],
+    [
+      "causal utterance modeling",
+      "Definition",
+      "s78"
+    ],
+    [
+      "causal utterance modeling",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "causal utterance modeling",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "causal utterance modeling",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "causal utterance modeling",
+      "Method",
+      "s13"
+    ],
+    [
+      "causal utterance modeling performance",
+      "Result",
+      "s66"
+    ],
+    [
+      "chat-based data",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "classification layer",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "classification layer",
+      "Model Architecture",
+      "s47"
+    ],
+    [
+      "cloze test",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "conditional probabilistic constraint",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "conditional probabilistic constraint",
+      "Future work",
+      "s81"
+    ],
+    [
+      "consecutive utterances",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "contextual emotion recognition",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "contextual representations",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "contextualized affect representations",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "continuous utterances",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "d_k",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "d_model",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "d_v",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "dataset size",
+      "Property",
+      "s22"
+    ],
+    [
+      "dataset split",
+      "Property",
+      "s56"
+    ],
+    [
+      "dialogue emotion recognition",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "dialogue emotion recognition",
+      "Result",
+      "s5"
+    ],
+    [
+      "dialogue-like conversation",
+      "Cause",
+      "s19"
+    ],
+    [
+      "dialogue-like conversation",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "dialogues",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "domain bias",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "embedding vector",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "emoji",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "emoji",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "emorynlp",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "emotion changing",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "emotion classification dataset",
+      "Dataset Composition",
+      "s45"
+    ],
+    [
+      "emotion classification dataset",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "emotion classifier",
+      "Purpose",
+      "s2"
+    ],
+    [
+      "emotion detection",
+      "Definition",
+      "s1"
+    ],
+    [
+      "emotion detection",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "emotion distribution",
+      "Result",
+      "s58"
+    ],
+    [
+      "emotion evaluation",
+      "Definition",
+      "s57"
+    ],
+    [
+      "emotion hashtags",
+      "Labeling Method",
+      "s42"
+    ],
+    [
+      "emotion label imbalance",
+      "Problem",
+      "s23"
+    ],
+    [
+      "emotion label weights",
+      "Weight Computation",
+      "s51"
+    ],
+    [
+      "emotion labels in EmotionX 2019",
+      "Property",
+      "s11"
+    ],
+    [
+      "emotion prediction",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "emotion prediction probabilities",
+      "Computation Method",
+      "s48"
+    ],
+    [
+      "emotion wheel",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "emotional information",
+      "Result",
+      "s20"
+    ],
+    [
+      "encoder",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "fine-tuning",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "fine-tuning",
+      "Method",
+      "s15"
+    ],
+    [
+      "first utterance",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "five annotators",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "four emotions",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "hyperlink",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "hyperlink",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "hyperlinks, empty utterance, name entities",
+      "Processing",
+      "s34"
+    ],
+    [
+      "hyperparameters",
+      "Property",
+      "s59"
+    ],
+    [
+      "informal chats",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "informal expressions",
+      "Cause",
+      "s33"
+    ],
+    [
+      "input sentence limitation",
+      "Future work",
+      "s82"
+    ],
+    [
+      "input sequence",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "input sequence",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "joy",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "large sample labels",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "main characters",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "masked tokens",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "maximum length 512",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "micro F1-score",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "micro F1-score",
+      "Evaluation Metric",
+      "s53"
+    ],
+    [
+      "micro F1-score",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "minor emotions",
+      "Training Objective",
+      "s52"
+    ],
+    [
+      "model description",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "model pre-training",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "model pre-training",
+      "Method",
+      "s14"
+    ],
+    [
+      "multi-head self-attention",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "name entities",
+      "Property",
+      "s32"
+    ],
+    [
+      "natural language processing",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "neutral",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "neutral",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "non-neutral",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "non-neutral annotation",
+      "Rule",
+      "s10"
+    ],
+    [
+      "organization_80",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "overfitting",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "overfitting and domain bias",
+      "Problem",
+      "s38"
+    ],
+    [
+      "person_01",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "personal characteristics",
+      "Definition",
+      "s29"
+    ],
+    [
+      "personality",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "personality embedding",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "personality embedding",
+      "Future work",
+      "s83"
+    ],
+    [
+      "personality tokenization",
+      "Method",
+      "s30"
+    ],
+    [
+      "personality tokenization",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "pre-training tasks",
+      "Method",
+      "s37"
+    ],
+    [
+      "pre-training tasks",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "purposed capitalization",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "rare words",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "repeated typing",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "sadness",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "sarcasm",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "says tokens",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "self-attention",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "sentence A",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "sentence A",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "sentence B",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "sentence B",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "sentence embedding",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "sentence representation $x_t$",
+      "Definition",
+      "s26"
+    ],
+    [
+      "sentence-level",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "sentence-level context",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "seven emotions",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "single sentence BERT",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "single utterance",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "six main characters",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "slang",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "small sample labels",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "speaker",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "speaker",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "specific model pre-training",
+      "Definition",
+      "s79"
+    ],
+    [
+      "speech-based dataset",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "text domain bias",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "time_12",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "token-level",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "top 920 training dialogues",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "training data",
+      "Property",
+      "s55"
+    ],
+    [
+      "transfer learning",
+      "Emotion Detection in Dialogues",
+      "e1"
+    ],
+    [
+      "transformer encoder",
+      "BERT Model Architecture",
+      "e4"
+    ],
+    [
+      "tweet processing rules",
+      "Processing Procedure",
+      "s43"
+    ],
+    [
+      "typo",
+      "Dataset Characteristics",
+      "e2"
+    ],
+    [
+      "typo",
+      "Model Pre-training Strategies",
+      "e8"
+    ],
+    [
+      "unbalanced emotion labels",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "unidirectional",
+      "BERT Pre-training Tasks",
+      "e5"
+    ],
+    [
+      "utterance sequence",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ],
+    [
+      "weighted balanced warming",
+      "Emotion Recognition Fine-tuning",
+      "e9"
+    ],
+    [
+      "weighted balanced warming",
+      "Loss Adjustment",
+      "s50"
+    ],
+    [
+      "weighted loss",
+      "Definition",
+      "s80"
+    ],
+    [
+      "weighted loss",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "weighted loss mechanism",
+      "Cause",
+      "s63"
+    ],
+    [
+      "weighted loss mechanism",
+      "Experiment Setup and Results",
+      "e10"
+    ],
+    [
+      "word embedding",
+      "FriendsBERT Model Performance",
+      "e11"
+    ],
+    [
+      "x_t",
+      "Emotion Prediction in Dialogues",
+      "e7"
+    ]
+  ]
+}

@@ -1,0 +1,5381 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 14,
+    "n_semantic": 159,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "multi-document summarization": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "concept map": {
+      "tag_set": [
+        "Concept Map Construction",
+        "Concept Map Summarization",
+        "Dataset Creation",
+        "Definition"
+      ]
+    },
+    "labeled graph": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "nodes": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "edges": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "relationships": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "user behavior": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "keywords": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "phrases": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "information seeking": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "1972": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "education": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "writing assistance": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "information repositories": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "document collection": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "table of contents": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "gold-standard corpora": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "manual annotation": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "automatic preprocessing": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "scalable crowdsourcing": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "expert annotations": {
+      "tag_set": [
+        "Concept Map Summarization",
+        "Corpus Annotation Method",
+        "Cost"
+      ]
+    },
+    "30 topics": {
+      "tag_set": [
+        "Concept Map Summarization",
+        "Corpus Analysis",
+        "Corpus Annotation Method",
+        "Property"
+      ]
+    },
+    "15 times larger": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "40 source documents": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "educational topics": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Dataset Creation"
+      ]
+    },
+    "crowdworkers": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "low-context importance annotation": {
+      "tag_set": [
+        "Concept Map Analysis",
+        "Dataset Creation",
+        "Definition",
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "document cluster": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "crowdsourcing scheme": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Dataset Creation",
+        "Result"
+      ]
+    },
+    "focused summarization": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "MDS": {
+      "tag_set": [
+        "Concept-map MDS",
+        "Dataset Creation"
+      ]
+    },
+    "reference summaries": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "evaluation protocol": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "baseline": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "permissive license": {
+      "tag_set": [
+        "Dataset Creation"
+      ]
+    },
+    "Concept-map-based MDS": {
+      "tag_set": [
+        "Concept-map MDS"
+      ]
+    },
+    "related documents": {
+      "tag_set": [
+        "Concept-map MDS"
+      ]
+    },
+    "set of documents": {
+      "tag_set": [
+        "Concept-map MDS"
+      ]
+    },
+    "summary": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "related work": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "single documents": {
+      "tag_set": [
+        "Concept Map Summarization",
+        "Corpus for Concept Maps"
+      ]
+    },
+    "document clusters": {
+      "tag_set": [
+        "Concept Map Analysis",
+        "Concept Map Summarization"
+      ]
+    },
+    "syntactic structures": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "propositionally coherent": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "extractive summarization": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "Villalon.2012": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "Valerio.2006": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "traditional summarization": {
+      "tag_set": [
+        "Concept Map Summarization",
+        "Related Task"
+      ]
+    },
+    "keyphrase extraction": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "proposition graphs": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "AMR": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "DUC competition": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "TAC competition": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "Nakano.2010": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "large-cluster dataset": {
+      "tag_set": [
+        "Concept Map Summarization"
+      ]
+    },
+    "corpus": {
+      "tag_set": [
+        "Concept Map Analysis",
+        "Corpus for Concept Maps",
+        "Property"
+      ]
+    },
+    "web pages": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "BIBREF26": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "BIBREF27": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "heterogeneous documents": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "large clusters": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "benchmark": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "student essays": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "BIBREF28": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "two orders of magnitude": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "Freebase": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "BIBREF29": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "ontologies": {
+      "tag_set": [
+        "Contrast",
+        "Corpus for Concept Maps"
+      ]
+    },
+    "open label paradigm": {
+      "tag_set": [
+        "Corpus for Concept Maps",
+        "Property"
+      ]
+    },
+    "human interpretable": {
+      "tag_set": [
+        "Corpus for Concept Maps"
+      ]
+    },
+    "machine-readable": {
+      "tag_set": [
+        "Text Summarization"
+      ]
+    },
+    "automatically construct": {
+      "tag_set": [
+        "Text Summarization"
+      ]
+    },
+    "text": {
+      "tag_set": [
+        "Text Summarization"
+      ]
+    },
+    "extract information": {
+      "tag_set": [
+        "Text Summarization"
+      ]
+    },
+    "summarize": {
+      "tag_set": [
+        "Text Summarization"
+      ]
+    },
+    "Lloret.2013": {
+      "tag_set": [
+        "Definition",
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "10 documents": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "10 summary sentences": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "$0.05 reward": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "poor work quality": {
+      "tag_set": [
+        "Result",
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "subjectiveness": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "single propositions": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "document cluster topic": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "5-point Likert-scale": {
+      "tag_set": [
+        "Definition",
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "average score": {
+      "tag_set": [
+        "Result",
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "wisdom of the crowd": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "five propositions": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "pairwise comparisons": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "FIGREF4": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "BIBREF30": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "BIBREF31": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "BIBREF32": {
+      "tag_set": [
+        "Task Design for Summary Annotation"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "TAC2008": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Property"
+      ]
+    },
+    "58 peer summaries": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "importance estimates": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "manual responsiveness scores": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "ROUGE-2": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "Pyramid scores": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "DIP corpus": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Definition"
+      ]
+    },
+    "49 clusters": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "100 web pages": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "bullying": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "homeschooling": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "drugs": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "concept map annotations": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "2288 sentences": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "69k sentences": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "Open Information Extraction": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Definition"
+      ]
+    },
+    "FAFSA": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Proposition Filtering"
+      ]
+    },
+    "bad credit history": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Proposition Filtering"
+      ]
+    },
+    "federal loans": {
+      "tag_set": [
+        "Corpus Annotation Method",
+        "Proposition Filtering"
+      ]
+    },
+    "propositions": {
+      "tag_set": [
+        "Concept Map Analysis",
+        "Corpus Annotation Method"
+      ]
+    },
+    "relations between concepts": {
+      "tag_set": [
+        "Corpus Annotation Method"
+      ]
+    },
+    "Open IE 4": {
+      "tag_set": [
+        "Definition",
+        "Proposition Filtering"
+      ]
+    },
+    "4137 tuples": {
+      "tag_set": [
+        "Proposition Filtering",
+        "Result"
+      ]
+    },
+    "gold-standard corpus": {
+      "tag_set": [
+        "Goal",
+        "Proposition Filtering"
+      ]
+    },
+    "confidence filtering": {
+      "tag_set": [
+        "Method",
+        "Proposition Filtering"
+      ]
+    },
+    "500 tuples": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "filter threshold": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "98.7%": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "2850 propositions": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "85k total": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "linear SVM": {
+      "tag_set": [
+        "Method",
+        "Proposition Filtering"
+      ]
+    },
+    "extraction confidence": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "argument length": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "relation length": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "part-of-speech tags": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "class weights": {
+      "tag_set": [
+        "Method",
+        "Proposition Filtering"
+      ]
+    },
+    "false negatives": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "manual verification": {
+      "tag_set": [
+        "Proposition Filtering"
+      ]
+    },
+    "20%": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "350 labeled instances": {
+      "tag_set": [
+        "Attribute",
+        "Model Validation and Annotation"
+      ]
+    },
+    "93% precision": {
+      "tag_set": [
+        "Model Validation and Annotation",
+        "Result"
+      ]
+    },
+    "150 instances": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "43%": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "1622 per topic": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "17k least confident": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "955 corrected": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "positive classifications": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "1554 propositions": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "47k total": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "Likert-scores": {
+      "tag_set": [
+        "Definition",
+        "Model Validation and Annotation"
+      ]
+    },
+    "5 workers": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "top 100 propositions": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "10% pairwise comparisons": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "TrueSkill": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "0.80 agreement": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "0.78 agreement": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "0.73 correlation": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "53k scoring tasks": {
+      "tag_set": [
+        "Attribute",
+        "Model Validation and Annotation"
+      ]
+    },
+    "12k comparison tasks": {
+      "tag_set": [
+        "Attribute",
+        "Model Validation and Annotation"
+      ]
+    },
+    "Mechanical Turk": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "4425.45": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "top 50 per topic": {
+      "tag_set": [
+        "Model Validation and Annotation",
+        "Result"
+      ]
+    },
+    "Open IE system": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "conjunctions": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "span errors": {
+      "tag_set": [
+        "Model Validation and Annotation",
+        "Procedure"
+      ]
+    },
+    "sentence segmentation": {
+      "tag_set": [
+        "Model Validation and Annotation"
+      ]
+    },
+    "56.1 propositions": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "student": {
+      "tag_set": [
+        "Concept",
+        "Concept Map Construction"
+      ]
+    },
+    "Stafford Loan": {
+      "tag_set": [
+        "Concept",
+        "Concept Map Construction"
+      ]
+    },
+    "credit history": {
+      "tag_set": [
+        "Concept",
+        "Concept Map Construction"
+      ]
+    },
+    "expert annotators": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "graduate students": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "NLP": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "25 concepts": {
+      "tag_set": [
+        "Concept Map Construction",
+        "Corpus Analysis",
+        "Property"
+      ]
+    },
+    "semantic similarity": {
+      "tag_set": [
+        "Concept Map Construction",
+        "Method"
+      ]
+    },
+    "ADW": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "synthetic relations": {
+      "tag_set": [
+        "Concept Map Construction",
+        "Result"
+      ]
+    },
+    "Montessori teacher": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "Montessori education": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "topic description": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "ranked propositions": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "annotation tool": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "connectedness": {
+      "tag_set": [
+        "Concept Map Construction",
+        "Requirement"
+      ]
+    },
+    "binary decision task": {
+      "tag_set": [
+        "Concept Map Construction",
+        "Method"
+      ]
+    },
+    "84% agreement": {
+      "tag_set": [
+        "Concept Map Construction"
+      ]
+    },
+    "95%": {
+      "tag_set": [
+        "Corpus Analysis",
+        "Result"
+      ]
+    },
+    "85%": {
+      "tag_set": [
+        "Corpus Analysis",
+        "Result"
+      ]
+    },
+    "40 documents": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "2413 tokens": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "97,880 tokens": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "15 times larger than DUC": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "5 times larger than 25-document clusters": {
+      "tag_set": [
+        "Comparison",
+        "Corpus Analysis"
+      ]
+    },
+    "length-adjusted standard deviation": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "28% professional articles": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "26% educational material": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "16% personal blog posts": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "12% forum discussions": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "12% link collections": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "6% scientific articles": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "0.3490 Jensen-Shannon divergence": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "0.3019 DUC 2004": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "0.3188 TAC 2008A": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "24 to 28 relations": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "3.2 tokens average": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "concept maps": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "web crawl": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "Table TABREF26": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "Table TABREF33": {
+      "tag_set": [
+        "Corpus Analysis"
+      ]
+    },
+    "part-of-speech": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "dependency parser": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "head": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "nouns": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "verbs": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "adjectives": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "prepositions": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "determiners": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "relation labels": {
+      "tag_set": [
+        "Concept Map Analysis",
+        "Definition"
+      ]
+    },
+    "verb": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "particles": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "Villalon.2010": {
+      "tag_set": [
+        "Comparison",
+        "Concept Map Analysis"
+      ]
+    },
+    "single-document concept map corpus": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "graph structure": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "central concepts": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "7.2": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "connections": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "importance": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "baseline experiments": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "evaluation scripts": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "benchmark corpus": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "heterogeneous web documents": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "summarization": {
+      "tag_set": [
+        "Concept Map Analysis",
+        "Goal"
+      ]
+    },
+    "Teresa Botschen": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "Andreas Hanselowski": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "Markus Zopf": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "Christian Meyer": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "German Research Foundation": {
+      "tag_set": [
+        "Concept Map Analysis",
+        "Support"
+      ]
+    },
+    "Research Training Group": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "AIPHES": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "GRK 1994/1": {
+      "tag_set": [
+        "Concept Map Analysis"
+      ]
+    },
+    "multi-document summarization (MDS)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "concept-map-based MDS": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "user behavior in information seeking": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "concept map applications": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "navigation in document collections": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "corpus creation method": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "new dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "contribution 1": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "contribution 2": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "contribution 3": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "contribution 4": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "public availability": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "document cluster size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "concept": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "relationship": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "propositionally coherent graph": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "intermediate graph (e.g., AMR)": {
+      "tag_set": [
+        "Contrast"
+      ]
+    },
+    "DUC and TAC competitions": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "Nakano.2010 corpus": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "heterogeneous document corpus": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "student essay concept maps": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "knowledge bases (e.g., Freebase)": {
+      "tag_set": [
+        "Contrast"
+      ]
+    },
+    "task design": {
+      "tag_set": [
+        "Definition",
+        "Property"
+      ]
+    },
+    "document cluster topic description": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "preliminary tests": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "P1 and P2": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "quadratic growth": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "TrueSkill BIBREF35": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "pilot study": {
+      "tag_set": [
+        "Event"
+      ]
+    },
+    "474 propositions": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Likert-scale task": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "comparison task": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch submission": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "quality control measures": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "trap sentences": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "worker performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "agreement measure": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "agreement correlation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "majority agreement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "data reliability": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "repetition of crowdsourcing": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "comparison task reliability": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "task": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "summary evaluation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "corpus creation": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "proposition extraction": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "2288 sentences per topic": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Students with bad credit history should not lose hope and apply for federal loans with the FAFSA": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "crowdsourcing cost": {
+      "tag_set": [
+        "Cost"
+      ]
+    },
+    "500 manually annotated tuples": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "filter threshold of 0.5": {
+      "tag_set": [
+        "Parameter"
+      ]
+    },
+    "2850 propositions per topic": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "suitable tuple": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "annotation study": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "82% agreement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "unresolvable pronouns": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "full clauses or propositions as arguments": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "features used in SVM": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "avoid false negatives": {
+      "tag_set": [
+        "Goal"
+      ]
+    },
+    "20% manual verification": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "43% filtered propositions": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "17k least confident classifications": {
+      "tag_set": [
+        "Attribute"
+      ]
+    },
+    "955 corrected classifications": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "positive classifications corrected": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "1554 propositions per topic": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "TrueSkill ranking": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "average agreement 0.80": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "majority agreement 0.78": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Pearson correlation 0.73": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Spearman correlation 0.73": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Pearson correlation 0.72": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Spearman correlation 0.71": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "$4425.45": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "conjunctions in arguments": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "56.1": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "student, may borrow, Stafford Loan": {
+      "tag_set": [
+        "Proposition"
+      ]
+    },
+    "student, does not have, a credit history": {
+      "tag_set": [
+        "Proposition"
+      ]
+    },
+    "merge concepts": {
+      "tag_set": [
+        "Action"
+      ]
+    },
+    "select propositions": {
+      "tag_set": [
+        "Decision"
+      ]
+    },
+    "Montessori teacher and Montessori education": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "84%": {
+      "tag_set": [
+        "Agreement"
+      ]
+    },
+    "pairwise concept joining": {
+      "tag_set": [
+        "Decision"
+      ]
+    },
+    "substantial agreement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "40 documents per cluster": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "2413 tokens per document": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "97,880 tokens per cluster": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "15 times larger than DUC clusters": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "twice the length variability": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "web crawl source": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "professionally written articles": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "educational material for parents and kids": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "personal blog posts": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "forum discussions and comments": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "commented link collections": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "scientific articles": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "Jensen-Shannon divergence": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "0.3490": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "0.3019": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "0.3188": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "25 concepts per concept map": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "24 to 28 relations per concept map": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "3.2 tokens per label": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "shorter relation labels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "concept labels": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "graph structure of the maps": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "higher number of connections": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "baseline method": {
+      "tag_set": [
+        "Property"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Multi-document summarization (MDS), the transformation of a set of documents into a short text containing their most important aspects, is a long-studied problem in NLP. Generated summaries have been shown to support humans dealing with large document collections in information seeking tasks BIBREF0 , BIBREF1 , BIBREF2 . However, when exploring a set of documents manually, humans rarely write a fully-formulated summary for themselves. Instead, user studies BIBREF3 , BIBREF4 show that they note down important keywords and phrases, try to identify relationships between them and organize them accordingly. Therefore, we believe that the study of summarization with similarly structured outputs is an important extension of the traditional task. A representation that is more in line with observed user behavior is a concept map BIBREF5 , a labeled graph showing concepts as nodes and relationships between them as edges (Figure FIGREF2 ). Introduced in 1972 as a teaching tool BIBREF6 , concept maps have found many applications in education BIBREF7 , BIBREF8 , for writing assistance BIBREF9 or to structure information repositories BIBREF10 , BIBREF11 . For summarization, concept maps make it possible to represent a summary concisely and clearly reveal relationships. Moreover, we see a second interesting use case that goes beyond the capabilities of textual summaries: When concepts and relations are linked to corresponding locations in the documents they have been extracted from, the graph can be used to navigate in a document collection, similar to a table of contents. An implementation of this idea has been recently described by BIBREF12 . The corresponding task that we propose is concept-map-based MDS, the summarization of a document cluster in the form of a concept map. In order to develop and evaluate methods for the task, gold-standard corpora are necessary, but no suitable corpus is available. The manual creation of such a dataset is very time-consuming, as the annotation includes many subtasks. In particular, an annotator would need to manually identify all concepts in the documents, while only a few of them will eventually end up in the summary. To overcome these issues, we present a corpus creation method that effectively combines automatic preprocessing, scalable crowdsourcing and high-quality expert annotations. Using it, we can avoid the high effort for single annotators, allowing us to scale to document clusters that are 15 times larger than in traditional summarization corpora. We created a new corpus of 30 topics, each with around",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Concept Map Summarization"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "40 source documents on educational topics and a summarizing concept map that is the consensus of many crowdworkers (see Figure FIGREF3 ). As a crucial step of the corpus creation, we developed a new crowdsourcing scheme called low-context importance annotation. In contrast to traditional approaches, it allows us to determine important elements in a document cluster without requiring annotators to read all documents, making it feasible to crowdsource the task and overcome quality issues observed in previous work BIBREF13 . We show that the approach creates reliable data for our focused summarization scenario and, when tested on traditional summarization corpora, creates annotations that are similar to those obtained by earlier efforts. To summarize, we make the following contributions: (1) We propose a novel task, concept-map-based MDS (\u00a7 SECREF2 ), (2) present a new crowdsourcing scheme to create reference summaries (\u00a7 SECREF4 ), (3) publish a new dataset for the proposed task (\u00a7 SECREF5 ) and (4) provide an evaluation protocol and baseline (\u00a7 SECREF7 ). We make these resources publicly available under a permissive license. Task",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Creation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "Concept-map-based MDS is defined as follows: Given a set of related documents",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Concept-map MDS"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": ", create a concept map that represents its most important content, satisfies a specified size limit and is connected. We define a concept map as a labeled graph showing concepts as nodes and relationships between them as edges. Labels are arbitrary sequences of tokens taken from the documents, making the summarization task extractive. A concept can be an entity, abstract idea, event or activity, designated by its unique label. Good maps should be propositionally coherent, meaning that every relation together with the two connected concepts form a meaningful proposition. The task is complex, consisting of several interdependent subtasks. One has to extract appropriate labels for concepts and relations and recognize different expressions that refer to the same concept across multiple documents. Further, one has to select the most important concepts and relations for the summary and finally organize them in a graph satisfying the connectedness and size constraints. Related Work Some attempts have been made to automatically construct concept maps from text, working with either single documents BIBREF14 , BIBREF9 , BIBREF15 , BIBREF16 or document clusters BIBREF17 , BIBREF18 , BIBREF19 . These approaches extract concept and relation labels from syntactic structures and connect them to build a concept map. However, common task definitions and comparable evaluations are missing. In addition, only a few of them, namely Villalon.2012 and Valerio.2006, define summarization as their goal and try to compress the input to a substantially smaller size. Our newly proposed task and the created large-cluster dataset fill these gaps as they emphasize the summarization aspect of the task. For the subtask of selecting summary-worthy concepts and relations, techniques developed for traditional summarization BIBREF20 and keyphrase extraction BIBREF21 are related and applicable. Approaches that build graphs of propositions to create a summary BIBREF22 , BIBREF23 , BIBREF24 , BIBREF25 seem to be particularly related, however, there is one important difference: While they use graphs as an intermediate representation from which a textual summary is then generated, the goal of the proposed task is to create a graph that is directly interpretable and useful for a user. In contrast, these intermediate graphs, e.g. AMR, are hardly useful for a typical, non-linguist user. For traditional summarization, the most well-known datasets emerged out of the DUC and TAC competitions. They provide clusters of news articles with gold-standard summaries. Extending these efforts, several more specialized corpora have been created: With regard to size, Nakano.2010 present",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Concept Map Summarization"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "a corpus of summaries for large-scale collections of web pages. Recently, corpora with more heterogeneous documents have been suggested, e.g. BIBREF26 and BIBREF27 . The corpus we present combines these aspects, as it has large clusters of heterogeneous documents, and provides a necessary benchmark to evaluate the proposed task. For concept map generation, one corpus with human-created summary concept maps for student essays has been created BIBREF28 . In contrast to our corpus, it only deals with single documents, requires a two orders of magnitude smaller amount of compression of the input and is not publicly available . Other types of information representation that also model concepts and their relationships are knowledge bases, such as Freebase BIBREF29 , and ontologies. However, they both differ in important aspects: Whereas concept maps follow an open label paradigm and are meant to be interpretable by humans, knowledge bases and ontologies are usually more strictly typed",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Corpus for Concept Maps"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "and made to be machine-readable. Moreover, approaches to automatically construct them from text typically try to extract as much information as possible, while we want to summarize a",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Text Summarization"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "document. Low-Context Importance Annotation Lloret.2013 describe several experiments to crowdsource reference summaries. Workers are asked to read 10 documents and then select 10 summary sentences from them for a reward of $0.05. They discovered several challenges, including poor work quality and the subjectiveness of the annotation task, indicating that crowdsourcing is not useful for this purpose. To overcome these issues, we introduce a new task design, low-context importance annotation, to determine summary-worthy parts of documents. Compared to Lloret et al.'s approach, it is more in line with crowdsourcing best practices, as the tasks are simple, intuitive and small BIBREF30 and workers receive reasonable payment BIBREF31 . Most importantly, it is also much more efficient and scalable, as it does not require workers to read all documents in a cluster. Task Design We break down the task of importance annotation to the level of single propositions. The goal of our crowdsourcing scheme is to obtain a score for each proposition indicating its importance in a document cluster, such that a ranking according to the score would reveal what is most important and should be included in a summary. In contrast to other work, we do not show the documents to the workers at all, but provide only a description of the document cluster's topic along with the propositions. This ensures that tasks are small, simple and can be done quickly (see Figure FIGREF4 ). In preliminary tests, we found that this design, despite the minimal context, works reasonably on our focused clusters on common educational topics. For instance, consider Figure FIGREF4 : One can easily say that P1 is more important than P2 without reading the documents. We distinguish two task variants: Instead of enforcing binary importance decisions, we use a 5-point Likert-scale to allow more fine-grained annotations. The obtained labels are translated into scores (5..1) and the average of all scores for a proposition is used as an estimate for its importance. This follows the idea that while single workers might find the task subjective, the consensus of multiple workers, represented in the average score, tends to be less subjective due to the \u201cwisdom of the crowd\u201d. We randomly group five propositions into a task. As an alternative, we use a second task design based on pairwise comparisons. Comparisons are known to be easier to make and more consistent BIBREF32 , but also more expensive, as the number of pairs",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Task Design for Summary Annotation"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "grows quadratically with the number of objects. To reduce the cost, we group five propositions into a task and ask workers to order them by importance per drag-and-drop. From the results, we derive pairwise comparisons and use TrueSkill BIBREF35 , a powerful Bayesian rank induction model BIBREF34 , to obtain importance estimates for each proposition. Pilot Study To verify the proposed approach, we conducted a pilot study on Amazon Mechanical Turk using data from TAC2008 BIBREF36 . We collected importance estimates for 474 propositions extracted from the first three clusters using both task designs. Each Likert-scale task was assigned to 5 different workers and awarded $0.06. For comparison tasks, we also collected 5 labels each, paid $0.05 and sampled around 7% of all possible pairs. We submitted them in batches of 100 pairs and selected pairs for subsequent batches based on the confidence of the TrueSkill model. Following the observations of Lloret.2013, we established several measures for quality control. First, we restricted our tasks to workers from the US with an approval rate of at least 95%. Second, we identified low quality workers by measuring the correlation of each worker's Likert-scores with the average of the other four scores. The worst workers (at most 5% of all labels) were removed. In addition, we included trap sentences, similar as in BIBREF13 , in around 80 of the tasks. In contrast to Lloret et al.'s findings, both an obvious trap sentence (This sentence is not important) and a less obvious but unimportant one (Barack Obama graduated from Harvard Law) were consistently labeled as unimportant (1.08 and 1.14), indicating that the workers did the task properly. For Likert-scale tasks, we follow Snow.2008 and calculate agreement as the average Pearson correlation of a worker's Likert-score with the average score of the remaining workers. This measure is less strict than exact label agreement and can account for close labels and high- or low-scoring workers. We observe a correlation of 0.81, indicating substantial agreement. For comparisons, the majority agreement is 0.73. To further examine the reliability of the collected data, we followed the approach of Kiritchenko.2016 and simply repeated the crowdsourcing for one of the three topics. Between the importance estimates calculated from the first and second run, we found a Pearson correlation of 0.82 (Spearman 0.78) for Likert-scale tasks and 0.69 (Spearman 0.66) for comparison tasks. This shows that the approach, despite the subjectiveness of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "the task, allows us to collect reliable annotations. In addition to the reliability studies, we extrinsically evaluated the annotations in the task of summary evaluation. For each of the 58 peer summaries in TAC2008, we calculated a score as the sum of the importance estimates of the propositions it contains. Table TABREF13 shows how these peer scores, averaged over the three topics, correlate with the manual responsiveness scores assigned during TAC in comparison to ROUGE-2 and Pyramid scores. The results demonstrate that with both task designs, we obtain importance annotations that are similarly useful for summary evaluation as pyramid annotations or gold-standard summaries (used for ROUGE). Based on the pilot study, we conclude that the proposed crowdsourcing scheme allows us to obtain proper importance annotations for propositions. As workers are not required to read all documents, the annotation is much more efficient and scalable as with traditional methods. Corpus Creation This section presents the corpus construction process, as outlined in Figure FIGREF16 , combining automatic preprocessing, scalable crowdsourcing and high-quality expert annotations to be able to scale to the size of our document clusters. For every topic, we spent about $150 on crowdsourcing and 1.5h of expert annotations, while just a single annotator would already need over 8 hours (at 200 words per minute) to read all documents of a topic. Source Data As a starting point, we used the DIP corpus BIBREF37 , a collection of 49 clusters of 100 web pages on educational topics (e.g. bullying, homeschooling, drugs) with a short description of each topic. It was created from a large web crawl using state-of-the-art information retrieval. We selected 30 of the topics for which we created the necessary concept map annotations. Proposition Extraction As concept maps consist of propositions expressing the relation between concepts (see Figure FIGREF2 ), we need to impose such a structure upon the plain text in the document clusters. This could be done by manually annotating spans representing concepts and relations, however, the size of our clusters makes this a huge effort: 2288 sentences per topic (69k in total) need to be processed. Therefore, we resort to an automatic approach. The Open Information Extraction paradigm BIBREF38 offers a representation very similar to the desired one. For instance, from Students with bad credit history should not lose hope and apply for federal loans with the FAFSA. Open IE systems extract tuples of two arguments",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Corpus Annotation Method"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "and a relation phrase representing propositions: (s. with bad credit history, should not lose, hope) (s. with bad credit history, apply for, federal loans with the FAFSA) While the relation phrase is similar to a relation in a concept map, many arguments in these tuples represent useful concepts. We used Open IE 4, a state-of-the-art system BIBREF39 to process all sentences. After removing duplicates, we obtained 4137 tuples per topic. Since we want to create a gold-standard corpus, we have to ensure that we produce high-quality data. We therefore made use of the confidence assigned to every extracted tuple to filter out low quality ones. To ensure that we do not filter too aggressively (and miss important aspects in the final summary), we manually annotated 500 tuples sampled from all topics for correctness. On the first 250 of them, we tuned the filter threshold to 0.5, which keeps 98.7% of the correct extractions in the unseen second half. After filtering, a topic had on average 2850 propositions (85k in total). Proposition Filtering Despite the similarity of the Open IE paradigm, not every extracted tuple is a suitable proposition for a concept map. To reduce the effort in the subsequent steps, we therefore want to filter out unsuitable ones. A tuple is suitable if it (1) is a correct extraction, (2) is meaningful without any context and (3) has arguments that represent proper concepts. We created a guideline explaining when to label a tuple as suitable for a concept map and performed a small annotation study. Three annotators independently labeled 500 randomly sampled tuples. The agreement was 82% ( INLINEFORM0 ). We found tuples to be unsuitable mostly because they had unresolvable pronouns, conflicting with (2), or arguments that were full clauses or propositions, conflicting with (3), while (1) was mostly taken care of by the confidence filtering in \u00a7 SECREF21 . Due to the high number of tuples we decided to automate the filtering step. We trained a linear SVM on the majority voted annotations. As features, we used the extraction confidence, length of arguments and relations as well as part-of-speech tags, among others. To ensure that the automatic classification does not remove suitable propositions, we tuned the classifier to avoid false negatives. In particular, we introduced class weights, improving precision on the negative class at the cost of a higher fraction of positive classifications. Additionally, we manually verified a",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Proposition Filtering"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "certain number of the most uncertain negative classifications to further improve performance. When 20% of the classifications are manually verified and corrected, we found that our model trained on 350 labeled instances achieves 93% precision on negative classifications on the unseen 150 instances. We found this to be a reasonable trade-off of automation and data quality and applied the model to the full dataset. The classifier filtered out 43% of the propositions, leaving 1622 per topic. We manually examined the 17k least confident negative classifications and corrected 955 of them. We also corrected positive classifications for certain types of tuples for which we knew the classifier to be imprecise. Finally, each topic was left with an average of 1554 propositions (47k in total). Importance Annotation Given the propositions identified in the previous step, we now applied our crowdsourcing scheme as described in \u00a7 SECREF4 to determine their importance. To cope with the large number of propositions, we combine the two task designs: First, we collect Likert-scores from 5 workers for each proposition, clean the data and calculate average scores. Then, using only the top 100 propositions according to these scores, we crowdsource 10% of all possible pairwise comparisons among them. Using TrueSkill, we obtain a fine-grained ranking of the 100 most important propositions. For Likert-scores, the average agreement over all topics is 0.80, while the majority agreement for comparisons is 0.78. We repeated the data collection for three randomly selected topics and found the Pearson correlation between both runs to be 0.73 (Spearman 0.73) for Likert-scores and 0.72 (Spearman 0.71) for comparisons. These figures show that the crowdsourcing approach works on this dataset as reliably as on the TAC documents. In total, we uploaded 53k scoring and 12k comparison tasks to Mechanical Turk, spending $4425.45 including fees. From the fine-grained ranking of the 100 most important propositions, we select the top 50 per topic to construct a summary concept map in the subsequent steps. Proposition Revision Having a manageable number of propositions, an annotator then applied a few straightforward transformations that correct common errors of the Open IE system. First, we break down propositions with conjunctions in either of the arguments into separate propositions per conjunct, which the Open IE system sometimes fails to do. And second, we correct span errors that might occur in the argument or relation phrases, especially when sentences were not properly segmented. As a result,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Validation and Annotation"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "we have a set of high quality propositions for our concept map, consisting of, due to the first transformation, 56.1 propositions per topic on average. Concept Map Construction In this final step, we connect the set of important propositions to form a graph. For instance, given the following two propositions (student, may borrow, Stafford Loan) (the student, does not have, a credit history) one can easily see, although the first arguments differ slightly, that both labels describe the concept student, allowing us to build a concept map with the concepts student, Stafford Loan and credit history. The annotation task thus involves deciding which of the available propositions to include in the map, which of their concepts to merge and, when merging, which of the available labels to use. As these decisions highly depend upon each other and require context, we decided to use expert annotators rather than crowdsource the subtasks. Annotators were given the topic description and the most important, ranked propositions. Using a simple annotation tool providing a visualization of the graph, they could connect the propositions step by step. They were instructed to reach a size of 25 concepts, the recommended maximum size for a concept map BIBREF6 . Further, they should prefer more important propositions and ensure connectedness. When connecting two propositions, they were asked to keep the concept label that was appropriate for both propositions. To support the annotators, the tool used ADW BIBREF40 , a state-of-the-art approach for semantic similarity, to suggest possible connections. The annotation was carried out by graduate students with a background in NLP after receiving an introduction into the guidelines and tool and annotating a first example. If an annotator was not able to connect 25 concepts, she was allowed to create up to three synthetic relations with freely defined labels, making the maps slightly abstractive. On average, the constructed maps have 0.77 synthetic relations, mostly connecting concepts whose relation is too obvious to be explicitly stated in text (e.g. between Montessori teacher and Montessori education). To assess the reliability of this annotation step, we had the first three maps created by two annotators. We casted the task of selecting propositions to be included in the map as a binary decision task and observed an agreement of 84% ( INLINEFORM0 ). Second, we modeled the decision which concepts to join as a binary decision on all pairs of common concepts, observing",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Concept Map Construction"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "an agreement of 95% ( INLINEFORM1 ). And finally, we compared which concept labels the annotators decided to include in the final map, observing 85% ( INLINEFORM2 ) agreement. Hence, the annotation shows substantial agreement BIBREF41 . Corpus Analysis In this section, we describe our newly created corpus, which, in addition to having summaries in the form of concept maps, differs from traditional summarization corpora in several aspects. Document Clusters The corpus consists of document clusters for 30 different topics. Each of them contains around 40 documents with on average 2413 tokens, which leads to an average cluster size of 97,880 token. With these characteristics, the document clusters are 15 times larger than typical DUC clusters of ten documents and five times larger than the 25-document-clusters (Table TABREF26 ). In addition, the documents are also more variable in terms of length, as the (length-adjusted) standard deviation is twice as high as in the other corpora. With these properties, the corpus represents an interesting challenge towards real-world application scenarios, in which users typically have to deal with much more than ten documents. Because we used a large web crawl as the source for our corpus, it contains documents from a variety of genres. To further analyze this property, we categorized a sample of 50 documents from the corpus. Among them, we found professionally written articles and blog posts (28%), educational material for parents and kids (26%), personal blog posts (16%), forum discussions and comments (12%), commented link collections (12%) and scientific articles (6%). In addition to the variety of genres, the documents also differ in terms of language use. To capture this property, we follow Zopf.2016 and compute, for every topic, the average Jensen-Shannon divergence between the word distribution of one document and the word distribution in the remaining documents. The higher this value is, the more the language differs between documents. We found the average divergence over all topics to be 0.3490, whereas it is 0.3019 in DUC 2004 and 0.3188 in TAC 2008A. Concept Maps As Table TABREF33 shows, each of the 30 reference concept maps has exactly 25 concepts and between 24 and 28 relations. Labels for both concepts and relations consist on average of 3.2 tokens, whereas the latter are a bit shorter in characters. To obtain a better picture of what kind of text spans have been used as labels, we automatically tagged them with their",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Corpus Analysis"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "part-of-speech and determined their head with a dependency parser. Concept labels tend to be headed by nouns (82%) or verbs (15%), while they also contain adjectives, prepositions and determiners. Relation labels, on the other hand, are almost always headed by a verb (94%) and contain prepositions, nouns and particles in addition. These distributions are very similar to those reported by Villalon.2010 for their (single-document) concept map corpus. Analyzing the graph structure of the maps, we found that all of them are connected. They have on average 7.2 central concepts with more than one relation, while the remaining ones occur in only one proposition. We found that achieving a higher number of connections would mean compromising importance, i.e. including less important propositions, and decided against it. Baseline Experiments In this section, we briefly describe a baseline and evaluation scripts that we release, with a detailed documentation, along with the corpus. Conclusion In this work, we presented low-context importance annotation, a novel crowdsourcing scheme that we used to create a new benchmark corpus for concept-map-based MDS. The corpus has large-scale document clusters of heterogeneous web documents, posing a challenging summarization task. Together with the corpus, we provide implementations of a baseline method and evaluation scripts and hope that our efforts facilitate future research on this variant of summarization. Acknowledgments We would like to thank Teresa Botschen, Andreas Hanselowski and Markus Zopf for their help with the annotation work and Christian Meyer for his valuable feedback. This work has been supported by the German Research Foundation as part of the Research Training Group \u201cAdaptive Preparation of Information from Heterogeneous Sources\u201d (AIPHES) under grant No. GRK 1994/1.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Concept Map Analysis"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Multi-document summarization (MDS) is the transformation of a set of documents into a short text containing their most important aspects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "A concept map is a labeled graph showing concepts as nodes and relationships between them as edges.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Concept-map-based MDS is the summarization of a document cluster in the form of a concept map.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "When exploring documents manually, humans note down important keywords and phrases, identify relationships between them, and organize them accordingly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Concept maps have been applied in education, writing assistance, and structuring information repositories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "When concepts and relations are linked to document locations, the concept map enables navigation in a document collection, similar to a table of contents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Low-context importance annotation is a crowdsourcing scheme that determines important elements in a document cluster without requiring annotators to read all documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The corpus creation method combines automatic preprocessing, scalable crowdsourcing, and expert annotations to efficiently generate high-quality concept map summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "A new corpus of 30 topics, each with around 40 source documents on educational topics and a consensus concept map from crowdworkers, has been created.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The paper proposes a novel task: concept-map-based MDS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The paper presents a new crowdsourcing scheme for creating reference summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "The paper publishes a new dataset for concept-map-based MDS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The paper provides an evaluation protocol and baseline for the proposed task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "All resources are made publicly available under a permissive license.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The new corpus enables scaling to document clusters that are 15 times larger than in traditional summarization corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "A concept map is a labeled graph showing concepts as nodes and relationships between them as edges.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "A concept can be an entity, abstract idea, event, or activity, designated by its unique label.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "A relationship between concepts is represented as an edge in the concept map and forms a meaningful proposition with the connected concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The goal of the proposed task is to create a directly interpretable and useful concept map for a user, not to generate a textual summary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Techniques developed for traditional summarization and keyphrase extraction are applicable to the subtask of selecting summary-worthy concepts and relations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Task"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "A good concept map is propositionally coherent, meaning every relation with two connected concepts forms a meaningful proposition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Intermediate graphs like AMR are hardly useful for non-linguist users, unlike the directly interpretable concept maps proposed in this task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contrast"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The DUC and TAC competitions produced well-known datasets for traditional summarization with gold-standard summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "The Nakano.2010 corpus provides summaries for large-scale collections of web pages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The proposed corpus combines large clusters of heterogeneous documents and serves as a benchmark for evaluating concept map summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "A corpus exists with human-created summary concept maps for student essays, but it only covers single documents and is not publicly available.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Knowledge bases are typically strictly typed and machine-readable, unlike concept maps which follow an open label paradigm and are human-interpretable.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contrast"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Ontologies differ from concept maps in being more strictly typed and designed for machine readability rather than human interpretation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contrast"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Concept maps follow an open label paradigm, allowing flexible and human-interpretable labeling of concepts and relationships.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Lloret.2013 describes experiments to crowdsource reference summaries where workers read 10 documents and select 10 summary sentences for a reward of $0.05.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Lloret.2013's approach was found to suffer from poor work quality and subjectiveness in annotation, indicating that crowdsourcing is not useful for this purpose.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Low-context importance annotation is a new task design that determines summary-worthy parts of documents without showing workers the full documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The task design breaks down importance annotation to the level of single propositions and assigns a score indicating each proposition's importance in a document cluster.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Workers are provided only with a description of the document cluster's topic and the propositions, not with the full documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "A 5-point Likert-scale is used to allow fine-grained importance annotations for propositions, with scores translated from 5 to 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The average of all scores for a proposition is used as an estimate of its importance, leveraging the 'wisdom of the crowd' to reduce subjectivity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "A second task design based on pairwise comparisons is used, where workers compare two propositions to determine which is more important.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Pairwise comparisons are easier to make and more consistent but are more expensive due to the increased number of pairs required.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Preliminary tests showed that the low-context design works reasonably well on focused clusters of common educational topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "In Figure FIGREF4, one can easily determine that proposition P1 is more important than proposition P2 without reading the documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The cost grows quadratically with the number of objects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "A task design groups five propositions into a single task and asks workers to order them by importance using a drag-and-drop interface.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "TrueSkill is a Bayesian rank induction model used to derive importance estimates from pairwise comparisons.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "A pilot study was conducted on Amazon Mechanical Turk using data from TAC2008 to verify the proposed approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Event"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Importance estimates for 474 propositions were collected from the first three clusters using both task designs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Each Likert-scale task was assigned to 5 workers and awarded $0.06.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Each comparison task collected 5 labels, paid $0.05, and sampled around 7% of all possible pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Pairs were submitted in batches of 100, with subsequent batches selected based on the confidence of the TrueSkill model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Quality control measures included restricting tasks to US workers with at least 95% approval rate and removing low-quality workers identified by score correlation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Trap sentences, such as 'This sentence is not important' and 'Barack Obama graduated from Harvard Law', were included in around 80 tasks to test worker accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Both obvious and less obvious trap sentences were consistently labeled as unimportant (1.08 and 1.14), indicating proper task execution by workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Agreement for Likert-scale tasks was calculated as the average Pearson correlation between a worker's score and the average of the other four workers' scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "A correlation of 0.81 was observed for Likert-scale tasks, indicating substantial agreement among workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The majority agreement for comparison tasks was 0.73.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "A Pearson correlation of 0.82 (Spearman 0.78) was found between the first and second run of importance estimates for Likert-scale tasks, indicating high reliability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The crowdsourcing process was repeated for one of the three topics to assess data consistency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "A Pearson correlation of 0.69 (Spearman 0.66) was found between the first and second run of importance estimates for comparison tasks, indicating moderate reliability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The task involves collecting reliable annotations through a crowdsourcing scheme that evaluates the importance of propositions in peer summaries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The peer scores calculated from importance estimates of propositions in summaries correlate with manual responsiveness scores and outperform ROUGE-2 and Pyramid scores in terms of usefulness for summary evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "TAC2008 contains 58 peer summaries, each evaluated based on the sum of importance estimates of its contained propositions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The proposed crowdsourcing scheme enables the collection of proper importance annotations for propositions efficiently and at scale, without requiring workers to read all documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Corpus creation combines automatic preprocessing, scalable crowdsourcing, and high-quality expert annotations to scale to the size of document clusters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The DIP corpus is a collection of 49 clusters of 100 web pages on educational topics, created from a large web crawl using state-of-the-art information retrieval.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Thirty topics from the DIP corpus were selected for concept map annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Proposition extraction involves imposing a structured relation-based format on plain text from document clusters to identify concepts and their relationships.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Each topic in the dataset contains 2288 sentences, resulting in a total of 69,000 sentences across all topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Open Information Extraction is a paradigm that extracts tuples of two arguments representing relations between concepts from natural language text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The sentence 'Students with bad credit history should not lose hope and apply for federal loans with the FAFSA' is an example of a text used to demonstrate proposition extraction via Open IE.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "For each topic, 1.5 hours of expert annotations were required, compared to over 8 hours needed by a single annotator reading all documents at 200 words per minute.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cost"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Crowdsourcing for each topic cost approximately $150.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cost"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Open IE 4 is a state-of-the-art system used to process sentences and extract relation tuples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Each topic yields 4137 extracted tuples after processing with Open IE 4 and removing duplicates.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The goal is to ensure high-quality data by filtering extracted tuples based on confidence and correctness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "A confidence threshold is applied to filter out low-quality extracted tuples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Five hundred tuples were manually annotated to evaluate and tune the filtering threshold.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "A filter threshold of 0.5 was set to retain 98.7% of correct extractions in the second half of the data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Parameter"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "After filtering, each topic has on average 2850 propositions, totaling 85,000 across all topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "A tuple is suitable for a concept map if it is correct, meaningful without context, and has arguments that represent proper concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Three annotators independently labeled 500 randomly sampled tuples to evaluate suitability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The three annotators achieved 82% agreement in labeling tuples as suitable or unsuitable.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Tuples are often deemed unsuitable due to unresolvable pronouns, which violate the requirement of being meaningful without context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Tuples are considered unsuitable when arguments are full clauses or propositions, violating the requirement of representing proper concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "A linear SVM was trained to automatically classify tuples as suitable or unsuitable for concept maps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Features used in the SVM include extraction confidence, argument length, relation length, and part-of-speech tags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Class weights were introduced to improve precision on the negative class, reducing false negatives.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The filtering process was tuned to avoid false negatives, ensuring that suitable propositions are not removed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Twenty percent of the classifications were manually verified and corrected to improve model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The model achieved 93% precision on negative classifications when tested on 150 unseen instances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The model was trained on 350 labeled instances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The classifier filtered out 43% of the propositions, leaving 1622 per topic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "A total of 17,000 least confident negative classifications were manually examined.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Out of the 17,000 least confident negative classifications, 955 were corrected.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Positive classifications for certain types of tuples were manually corrected due to known imprecision in the classifier.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Each topic was left with an average of 1554 propositions, totaling 47,000 across all topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Likert-scores are collected from five workers for each proposition and used to calculate average scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "TrueSkill was used to obtain a fine-grained ranking of the top 100 most important propositions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The average agreement over all topics for Likert-scores is 0.80.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The majority agreement for pairwise comparisons is 0.78.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The Pearson correlation between two runs of Likert-scores is 0.73.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The Spearman correlation between two runs of Likert-scores is 0.73.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The Pearson correlation between two runs of pairwise comparisons is 0.72.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The Spearman correlation between two runs of pairwise comparisons is 0.71.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "A total of 53,000 scoring tasks were uploaded to Mechanical Turk.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "A total of 12,000 comparison tasks were uploaded to Mechanical Turk.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The total cost for data collection on Mechanical Turk was $4,425.45 including fees.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The top 50 most important propositions per topic were selected to construct a summary concept map.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Propositions containing conjunctions in either argument were broken down into separate propositions per conjunct.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Span errors in argument or relation phrases were corrected, especially when sentences were not properly segmented.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "On average, there are 56.1 propositions per topic after the first transformation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "A concept map is a graph formed by connecting important propositions to represent relationships between concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The proposition 'student may borrow Stafford Loan' describes a relationship between a student and a Stafford Loan.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Proposition"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The proposition 'student does not have a credit history' describes a property of a student.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Proposition"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "The concept 'student' appears in multiple propositions and is linked to both Stafford Loan and credit history.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Concept"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Stafford Loan is a concept that can be associated with a student through borrowing eligibility.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Concept"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Credit history is a concept that a student may or may not have, and is related to borrowing eligibility.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Concept"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Annotators are instructed to merge concepts when they are semantically similar and describe the same underlying idea.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "The annotation task involves deciding which propositions to include in the concept map based on importance and relevance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Decision"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "The recommended maximum size for a concept map is 25 concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Annotators are required to ensure that the concept map remains connected.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "ADW is used to suggest possible connections between propositions based on semantic similarity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "On average, the constructed maps include 0.77 synthetic relations, which connect obvious or implicit relationships between concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "A synthetic relation is created between Montessori teacher and Montessori education when their connection is too obvious to be explicitly stated in text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "Two annotators agreed on 84% of the proposition selection decisions in the first three maps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Agreement"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "The selection of propositions to include in the map is modeled as a binary decision task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The decision to join concepts is modeled as a binary decision on all pairs of common concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Decision"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The annotators showed 95% agreement on concept labels in the annotation process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "The annotators showed 85% agreement on which concept labels to include in the final map.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "The annotation process demonstrates substantial agreement among annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "The corpus consists of 30 different document clusters, each covering a distinct topic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "Each document cluster contains approximately 40 documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "On average, each document in the corpus has 2413 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "The average cluster size is 97,880 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "The document clusters are 15 times larger than typical DUC clusters, which consist of ten documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "The clusters are five times larger than the 25-document clusters used in other corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "The documents exhibit twice the length-adjusted standard deviation compared to other corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "The corpus was created from a large web crawl, resulting in diverse document genres.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "28% of the sampled documents are professionally written articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "26% of the sampled documents are educational material for parents and kids.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "16% of the sampled documents are personal blog posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "12% of the sampled documents are forum discussions and comments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "12% of the sampled documents are commented link collections.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "6% of the sampled documents are scientific articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "Jensen-Shannon divergence is used to measure the difference in word distribution between documents in a topic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "The average Jensen-Shannon divergence across all topics is 0.3490, indicating significant language variation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "The average Jensen-Shannon divergence in DUC 2004 is 0.3019.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "The average Jensen-Shannon divergence in TAC 2008A is 0.3188.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "Each reference concept map contains exactly 25 concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "Each concept map has between 24 and 28 relations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "On average, concept and relation labels consist of 3.2 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "Relation labels are slightly shorter in characters than concept labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "Concept labels are headed by nouns 82% of the time or verbs 15% of the time, and also include adjectives, prepositions, and determiners.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "Relation labels are almost always headed by verbs (94%) and include prepositions, nouns, and particles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "The distribution of concept and relation label heads in this study is very similar to that reported by Villalon.2010 for their single-document concept map corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "All concept maps are connected, with an average of 7.2 central concepts that have more than one relation, while the rest occur in only one proposition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "Achieving a higher number of connections would compromise importance, as it would require including less important propositions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "Low-context importance annotation is a novel crowdsourcing scheme used to create a benchmark corpus for concept-map-based MDS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "The corpus consists of large-scale document clusters of heterogeneous web documents, posing a challenging summarization task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "A baseline method and evaluation scripts are provided alongside the corpus to facilitate future research on concept-map-based summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "This work has been supported by the German Research Foundation under grant No. GRK 1994/1 as part of the Research Training Group 'Adaptive Preparation of Information from Heterogeneous Sources' (AIPHES).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Support"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "$0.05 reward",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "$4425.45",
+      "Property",
+      "s105"
+    ],
+    [
+      "0.3019",
+      "Result",
+      "s145"
+    ],
+    [
+      "0.3019 DUC 2004",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "0.3188",
+      "Result",
+      "s146"
+    ],
+    [
+      "0.3188 TAC 2008A",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "0.3490",
+      "Result",
+      "s144"
+    ],
+    [
+      "0.3490 Jensen-Shannon divergence",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "0.73 correlation",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "0.78 agreement",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "0.80 agreement",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "10 documents",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "10 summary sentences",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "10% pairwise comparisons",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "100 web pages",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "12% forum discussions",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "12% link collections",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "12k comparison tasks",
+      "Attribute",
+      "s104"
+    ],
+    [
+      "12k comparison tasks",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "15 times larger",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "15 times larger than DUC",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "15 times larger than DUC clusters",
+      "Comparison",
+      "s133"
+    ],
+    [
+      "150 instances",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "1554 propositions",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "1554 propositions per topic",
+      "Result",
+      "s94"
+    ],
+    [
+      "16% personal blog posts",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "1622 per topic",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "17k least confident",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "17k least confident classifications",
+      "Attribute",
+      "s91"
+    ],
+    [
+      "1972",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "20%",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "20% manual verification",
+      "Procedure",
+      "s87"
+    ],
+    [
+      "2288 sentences",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "2288 sentences per topic",
+      "Property",
+      "s66"
+    ],
+    [
+      "24 to 28 relations",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "24 to 28 relations per concept map",
+      "Property",
+      "s148"
+    ],
+    [
+      "2413 tokens",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "2413 tokens per document",
+      "Property",
+      "s131"
+    ],
+    [
+      "25 concepts",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "25 concepts",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "25 concepts",
+      "Property",
+      "s118"
+    ],
+    [
+      "25 concepts per concept map",
+      "Property",
+      "s147"
+    ],
+    [
+      "26% educational material",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "28% professional articles",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "2850 propositions",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "2850 propositions per topic",
+      "Result",
+      "s77"
+    ],
+    [
+      "3.2 tokens average",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "3.2 tokens per label",
+      "Property",
+      "s149"
+    ],
+    [
+      "30 topics",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "30 topics",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "30 topics",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "30 topics",
+      "Property",
+      "s129"
+    ],
+    [
+      "30 topics",
+      "Property",
+      "s64"
+    ],
+    [
+      "350 labeled instances",
+      "Attribute",
+      "s89"
+    ],
+    [
+      "350 labeled instances",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "40 documents",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "40 documents per cluster",
+      "Property",
+      "s130"
+    ],
+    [
+      "40 source documents",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "4137 tuples",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "4137 tuples",
+      "Result",
+      "s72"
+    ],
+    [
+      "43%",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "43% filtered propositions",
+      "Result",
+      "s90"
+    ],
+    [
+      "4425.45",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "474 propositions",
+      "Result",
+      "s45"
+    ],
+    [
+      "47k total",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "49 clusters",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "5 times larger than 25-document clusters",
+      "Comparison",
+      "s134"
+    ],
+    [
+      "5 times larger than 25-document clusters",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "5 workers",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "5-point Likert-scale",
+      "Definition",
+      "s35"
+    ],
+    [
+      "5-point Likert-scale",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "500 manually annotated tuples",
+      "Process",
+      "s75"
+    ],
+    [
+      "500 tuples",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "53k scoring tasks",
+      "Attribute",
+      "s103"
+    ],
+    [
+      "53k scoring tasks",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "56.1",
+      "Property",
+      "s109"
+    ],
+    [
+      "56.1 propositions",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "58 peer summaries",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "6% scientific articles",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "69k sentences",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "7.2",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "82% agreement",
+      "Result",
+      "s80"
+    ],
+    [
+      "84%",
+      "Agreement",
+      "s123"
+    ],
+    [
+      "84% agreement",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "85%",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "85%",
+      "Result",
+      "s127"
+    ],
+    [
+      "85k total",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "93% precision",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "93% precision",
+      "Result",
+      "s88"
+    ],
+    [
+      "95%",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "95%",
+      "Result",
+      "s126"
+    ],
+    [
+      "955 corrected",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "955 corrected classifications",
+      "Result",
+      "s92"
+    ],
+    [
+      "97,880 tokens",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "97,880 tokens per cluster",
+      "Property",
+      "s132"
+    ],
+    [
+      "98.7%",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "ADW",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "AIPHES",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "AMR",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "Andreas Hanselowski",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "BIBREF26",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "BIBREF27",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "BIBREF28",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "BIBREF29",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "BIBREF30",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "BIBREF31",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "BIBREF32",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "Christian Meyer",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "Concept-map-based MDS",
+      "Concept-map MDS",
+      "e3"
+    ],
+    [
+      "DIP corpus",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "DIP corpus",
+      "Definition",
+      "s63"
+    ],
+    [
+      "DUC and TAC competitions",
+      "Related Work",
+      "s23"
+    ],
+    [
+      "DUC competition",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "FAFSA",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "FAFSA",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "FIGREF4",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "Freebase",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "GRK 1994/1",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "German Research Foundation",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "German Research Foundation",
+      "Support",
+      "s159"
+    ],
+    [
+      "Jensen-Shannon divergence",
+      "Definition",
+      "s143"
+    ],
+    [
+      "Likert-scale task",
+      "Property",
+      "s46"
+    ],
+    [
+      "Likert-scores",
+      "Definition",
+      "s95"
+    ],
+    [
+      "Likert-scores",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "Lloret.2013",
+      "Definition",
+      "s30"
+    ],
+    [
+      "Lloret.2013",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "MDS",
+      "Concept-map MDS",
+      "e3"
+    ],
+    [
+      "MDS",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "Markus Zopf",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "Mechanical Turk",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "Montessori education",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "Montessori teacher",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "Montessori teacher and Montessori education",
+      "Example",
+      "s122"
+    ],
+    [
+      "NLP",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "Nakano.2010",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "Nakano.2010 corpus",
+      "Related Work",
+      "s24"
+    ],
+    [
+      "Open IE 4",
+      "Definition",
+      "s71"
+    ],
+    [
+      "Open IE 4",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "Open IE system",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "Open Information Extraction",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "Open Information Extraction",
+      "Definition",
+      "s67"
+    ],
+    [
+      "P1 and P2",
+      "Example",
+      "s40"
+    ],
+    [
+      "Pearson correlation 0.72",
+      "Result",
+      "s101"
+    ],
+    [
+      "Pearson correlation 0.73",
+      "Result",
+      "s99"
+    ],
+    [
+      "Pyramid scores",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "ROUGE-2",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "Research Training Group",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "Spearman correlation 0.71",
+      "Result",
+      "s102"
+    ],
+    [
+      "Spearman correlation 0.73",
+      "Result",
+      "s100"
+    ],
+    [
+      "Stafford Loan",
+      "Concept",
+      "s114"
+    ],
+    [
+      "Stafford Loan",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "Students with bad credit history should not lose hope and apply for federal loans with the FAFSA",
+      "Example",
+      "s68"
+    ],
+    [
+      "TAC competition",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "TAC2008",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "TAC2008",
+      "Property",
+      "s60"
+    ],
+    [
+      "Table TABREF26",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "Table TABREF33",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "Teresa Botschen",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "TrueSkill",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "TrueSkill BIBREF35",
+      "Definition",
+      "s43"
+    ],
+    [
+      "TrueSkill ranking",
+      "Result",
+      "s96"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e8"
+    ],
+    [
+      "Valerio.2006",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "Villalon.2010",
+      "Comparison",
+      "s153"
+    ],
+    [
+      "Villalon.2010",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "Villalon.2012",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "adjectives",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "agreement correlation",
+      "Result",
+      "s53"
+    ],
+    [
+      "agreement measure",
+      "Definition",
+      "s52"
+    ],
+    [
+      "annotation study",
+      "Process",
+      "s79"
+    ],
+    [
+      "annotation tool",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "argument length",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "automatic preprocessing",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "automatically construct",
+      "Text Summarization",
+      "e6"
+    ],
+    [
+      "average agreement 0.80",
+      "Property",
+      "s97"
+    ],
+    [
+      "average score",
+      "Result",
+      "s36"
+    ],
+    [
+      "average score",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "avoid false negatives",
+      "Goal",
+      "s86"
+    ],
+    [
+      "bad credit history",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "bad credit history",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "baseline",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "baseline experiments",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "baseline method",
+      "Property",
+      "s158"
+    ],
+    [
+      "batch submission",
+      "Process",
+      "s48"
+    ],
+    [
+      "benchmark",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "benchmark corpus",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "binary decision task",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "binary decision task",
+      "Method",
+      "s124"
+    ],
+    [
+      "bullying",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "central concepts",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "class weights",
+      "Method",
+      "s85"
+    ],
+    [
+      "class weights",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "commented link collections",
+      "Composition",
+      "s141"
+    ],
+    [
+      "comparison task",
+      "Property",
+      "s47"
+    ],
+    [
+      "comparison task reliability",
+      "Result",
+      "s57"
+    ],
+    [
+      "concept",
+      "Property",
+      "s17"
+    ],
+    [
+      "concept labels",
+      "Definition",
+      "s151"
+    ],
+    [
+      "concept map",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "concept map",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "concept map",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "concept map",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "concept map",
+      "Definition",
+      "s110"
+    ],
+    [
+      "concept map",
+      "Definition",
+      "s16"
+    ],
+    [
+      "concept map",
+      "Definition",
+      "s2"
+    ],
+    [
+      "concept map annotations",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "concept map applications",
+      "Property",
+      "s5"
+    ],
+    [
+      "concept maps",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "concept-map-based MDS",
+      "Definition",
+      "s3"
+    ],
+    [
+      "confidence filtering",
+      "Method",
+      "s74"
+    ],
+    [
+      "confidence filtering",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "conjunctions",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "conjunctions in arguments",
+      "Procedure",
+      "s107"
+    ],
+    [
+      "connectedness",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "connectedness",
+      "Requirement",
+      "s119"
+    ],
+    [
+      "connections",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "contribution 1",
+      "Result",
+      "s10"
+    ],
+    [
+      "contribution 2",
+      "Result",
+      "s11"
+    ],
+    [
+      "contribution 3",
+      "Result",
+      "s12"
+    ],
+    [
+      "contribution 4",
+      "Result",
+      "s13"
+    ],
+    [
+      "corpus",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "corpus",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "corpus",
+      "Property",
+      "s157"
+    ],
+    [
+      "corpus creation",
+      "Process",
+      "s62"
+    ],
+    [
+      "corpus creation method",
+      "Property",
+      "s8"
+    ],
+    [
+      "credit history",
+      "Concept",
+      "s115"
+    ],
+    [
+      "credit history",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "crowdsourcing cost",
+      "Cost",
+      "s70"
+    ],
+    [
+      "crowdsourcing scheme",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "crowdsourcing scheme",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "crowdsourcing scheme",
+      "Result",
+      "s61"
+    ],
+    [
+      "crowdworkers",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "data reliability",
+      "Result",
+      "s55"
+    ],
+    [
+      "dependency parser",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "determiners",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "document cluster",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "document cluster size",
+      "Property",
+      "s15"
+    ],
+    [
+      "document cluster topic",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "document cluster topic description",
+      "Property",
+      "s34"
+    ],
+    [
+      "document clusters",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "document clusters",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "document collection",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "drugs",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "edges",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "education",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "educational material for parents and kids",
+      "Composition",
+      "s138"
+    ],
+    [
+      "educational topics",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "educational topics",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "evaluation protocol",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "evaluation scripts",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "expert annotations",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "expert annotations",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "expert annotations",
+      "Cost",
+      "s69"
+    ],
+    [
+      "expert annotators",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "extract information",
+      "Text Summarization",
+      "e6"
+    ],
+    [
+      "extraction confidence",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "extractive summarization",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "false negatives",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "features used in SVM",
+      "Property",
+      "s84"
+    ],
+    [
+      "federal loans",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "federal loans",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "filter threshold",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "filter threshold of 0.5",
+      "Parameter",
+      "s76"
+    ],
+    [
+      "five propositions",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "focused summarization",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "forum discussions and comments",
+      "Composition",
+      "s140"
+    ],
+    [
+      "full clauses or propositions as arguments",
+      "Cause",
+      "s82"
+    ],
+    [
+      "gold-standard corpora",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "gold-standard corpus",
+      "Goal",
+      "s73"
+    ],
+    [
+      "gold-standard corpus",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "graduate students",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "graph structure",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "graph structure of the maps",
+      "Result",
+      "s154"
+    ],
+    [
+      "head",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "heterogeneous document corpus",
+      "Feature",
+      "s25"
+    ],
+    [
+      "heterogeneous documents",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "heterogeneous web documents",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "higher number of connections",
+      "Cause",
+      "s155"
+    ],
+    [
+      "homeschooling",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "human interpretable",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "importance",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "importance estimates",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "information repositories",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "information seeking",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "intermediate graph (e.g., AMR)",
+      "Contrast",
+      "s22"
+    ],
+    [
+      "keyphrase extraction",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "keywords",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "knowledge bases (e.g., Freebase)",
+      "Contrast",
+      "s27"
+    ],
+    [
+      "labeled graph",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "large clusters",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "large-cluster dataset",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "length-adjusted standard deviation",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "linear SVM",
+      "Method",
+      "s83"
+    ],
+    [
+      "linear SVM",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "low-context importance annotation",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "low-context importance annotation",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "low-context importance annotation",
+      "Definition",
+      "s156"
+    ],
+    [
+      "low-context importance annotation",
+      "Definition",
+      "s32"
+    ],
+    [
+      "low-context importance annotation",
+      "Definition",
+      "s7"
+    ],
+    [
+      "low-context importance annotation",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "machine-readable",
+      "Text Summarization",
+      "e6"
+    ],
+    [
+      "majority agreement",
+      "Result",
+      "s54"
+    ],
+    [
+      "majority agreement 0.78",
+      "Property",
+      "s98"
+    ],
+    [
+      "manual annotation",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "manual responsiveness scores",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "manual verification",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "merge concepts",
+      "Action",
+      "s116"
+    ],
+    [
+      "multi-document summarization",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "multi-document summarization (MDS)",
+      "Definition",
+      "s1"
+    ],
+    [
+      "navigation in document collections",
+      "Cause",
+      "s6"
+    ],
+    [
+      "new dataset",
+      "Result",
+      "s9"
+    ],
+    [
+      "nodes",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "nouns",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "ontologies",
+      "Contrast",
+      "s28"
+    ],
+    [
+      "ontologies",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "open label paradigm",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "open label paradigm",
+      "Property",
+      "s29"
+    ],
+    [
+      "pairwise comparisons",
+      "Definition",
+      "s37"
+    ],
+    [
+      "pairwise comparisons",
+      "Property",
+      "s38"
+    ],
+    [
+      "pairwise comparisons",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "pairwise concept joining",
+      "Decision",
+      "s125"
+    ],
+    [
+      "part-of-speech",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "part-of-speech tags",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "particles",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "permissive license",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "personal blog posts",
+      "Composition",
+      "s139"
+    ],
+    [
+      "phrases",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "pilot study",
+      "Event",
+      "s44"
+    ],
+    [
+      "poor work quality",
+      "Result",
+      "s31"
+    ],
+    [
+      "poor work quality",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "positive classifications",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "positive classifications corrected",
+      "Procedure",
+      "s93"
+    ],
+    [
+      "preliminary tests",
+      "Result",
+      "s39"
+    ],
+    [
+      "prepositions",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "professionally written articles",
+      "Composition",
+      "s137"
+    ],
+    [
+      "proposition extraction",
+      "Process",
+      "s65"
+    ],
+    [
+      "proposition graphs",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "propositionally coherent",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "propositionally coherent graph",
+      "Definition",
+      "s21"
+    ],
+    [
+      "propositions",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "propositions",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "public availability",
+      "Property",
+      "s14"
+    ],
+    [
+      "quadratic growth",
+      "Property",
+      "s41"
+    ],
+    [
+      "quality control measures",
+      "Definition",
+      "s49"
+    ],
+    [
+      "ranked propositions",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "reference summaries",
+      "Dataset Creation",
+      "e2"
+    ],
+    [
+      "related documents",
+      "Concept-map MDS",
+      "e3"
+    ],
+    [
+      "related work",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "relation labels",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "relation labels",
+      "Definition",
+      "s152"
+    ],
+    [
+      "relation length",
+      "Proposition Filtering",
+      "e10"
+    ],
+    [
+      "relations between concepts",
+      "Corpus Annotation Method",
+      "e9"
+    ],
+    [
+      "relationship",
+      "Property",
+      "s18"
+    ],
+    [
+      "relationships",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "repetition of crowdsourcing",
+      "Process",
+      "s56"
+    ],
+    [
+      "scalable crowdsourcing",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "scientific articles",
+      "Composition",
+      "s142"
+    ],
+    [
+      "select propositions",
+      "Decision",
+      "s117"
+    ],
+    [
+      "semantic similarity",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "semantic similarity",
+      "Method",
+      "s120"
+    ],
+    [
+      "sentence segmentation",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "set of documents",
+      "Concept-map MDS",
+      "e3"
+    ],
+    [
+      "shorter relation labels",
+      "Property",
+      "s150"
+    ],
+    [
+      "single documents",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "single documents",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "single propositions",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "single-document concept map corpus",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "span errors",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "span errors",
+      "Procedure",
+      "s108"
+    ],
+    [
+      "student",
+      "Concept",
+      "s113"
+    ],
+    [
+      "student",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "student essay concept maps",
+      "Related Work",
+      "s26"
+    ],
+    [
+      "student essays",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "student, does not have, a credit history",
+      "Proposition",
+      "s112"
+    ],
+    [
+      "student, may borrow, Stafford Loan",
+      "Proposition",
+      "s111"
+    ],
+    [
+      "subjectiveness",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "substantial agreement",
+      "Result",
+      "s128"
+    ],
+    [
+      "suitable tuple",
+      "Definition",
+      "s78"
+    ],
+    [
+      "summarization",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "summarization",
+      "Goal",
+      "s19"
+    ],
+    [
+      "summarize",
+      "Text Summarization",
+      "e6"
+    ],
+    [
+      "summary",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "summary evaluation",
+      "Result",
+      "s59"
+    ],
+    [
+      "syntactic structures",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "synthetic relations",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "synthetic relations",
+      "Result",
+      "s121"
+    ],
+    [
+      "table of contents",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "task",
+      "Definition",
+      "s58"
+    ],
+    [
+      "task design",
+      "Definition",
+      "s42"
+    ],
+    [
+      "task design",
+      "Property",
+      "s33"
+    ],
+    [
+      "text",
+      "Text Summarization",
+      "e6"
+    ],
+    [
+      "top 100 propositions",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "top 50 per topic",
+      "Model Validation and Annotation",
+      "e11"
+    ],
+    [
+      "top 50 per topic",
+      "Result",
+      "s106"
+    ],
+    [
+      "topic description",
+      "Concept Map Construction",
+      "e12"
+    ],
+    [
+      "traditional summarization",
+      "Concept Map Summarization",
+      "e4"
+    ],
+    [
+      "traditional summarization",
+      "Related Task",
+      "s20"
+    ],
+    [
+      "trap sentences",
+      "Definition",
+      "s50"
+    ],
+    [
+      "twice the length variability",
+      "Property",
+      "s135"
+    ],
+    [
+      "two orders of magnitude",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "unresolvable pronouns",
+      "Cause",
+      "s81"
+    ],
+    [
+      "user behavior",
+      "Concept Map Summarization",
+      "e1"
+    ],
+    [
+      "user behavior in information seeking",
+      "Result",
+      "s4"
+    ],
+    [
+      "verb",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "verbs",
+      "Concept Map Analysis",
+      "e14"
+    ],
+    [
+      "web crawl",
+      "Corpus Analysis",
+      "e13"
+    ],
+    [
+      "web crawl source",
+      "Source",
+      "s136"
+    ],
+    [
+      "web pages",
+      "Corpus for Concept Maps",
+      "e5"
+    ],
+    [
+      "wisdom of the crowd",
+      "Task Design for Summary Annotation",
+      "e7"
+    ],
+    [
+      "worker performance",
+      "Result",
+      "s51"
+    ],
+    [
+      "writing assistance",
+      "Concept Map Summarization",
+      "e1"
+    ]
+  ]
+}

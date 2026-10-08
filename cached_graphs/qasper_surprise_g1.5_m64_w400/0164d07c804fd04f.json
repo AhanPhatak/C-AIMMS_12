@@ -1,0 +1,6444 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 22,
+    "n_semantic": 169,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "open-domain setting": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "ISA relation": {
+      "tag_set": [
+        "Definition",
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "global warming": {
+      "tag_set": [
+        "Definition",
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "greenhouse effect": {
+      "tag_set": [
+        "MCQA Knowledge Testing",
+        "Property"
+      ]
+    },
+    "multiple-choice QA": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "benchmark tasks": {
+      "tag_set": [
+        "MCQA Knowledge Testing",
+        "Methodology Probing",
+        "Model Inoculation Methodology"
+      ]
+    },
+    "knowledge graphs": {
+      "tag_set": [
+        "MCQA Knowledge Testing",
+        "Resource"
+      ]
+    },
+    "lexical taxonomies": {
+      "tag_set": [
+        "MCQA Knowledge Testing",
+        "Resource"
+      ]
+    },
+    "model pre-training": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "MCQA Knowledge Testing",
+        "MCQA Task Definition"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "MCQA Knowledge Testing",
+        "MCQA Task Definition",
+        "Methodology Probing"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "cooking": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "learned behavior": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "definition of concept": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "systematic tests": {
+      "tag_set": [
+        "MCQA Knowledge Testing",
+        "Purpose"
+      ]
+    },
+    "question perturbations": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "human activity": {
+      "tag_set": [
+        "MCQA Knowledge Testing"
+      ]
+    },
+    "Figure FIGREF1": {
+      "tag_set": [
+        "Methodology Probing",
+        "Probe Challenge Results"
+      ]
+    },
+    "MCQA model": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "synthetic dataset probes": {
+      "tag_set": [
+        "Definition",
+        "Methodology Probing"
+      ]
+    },
+    "expert knowledge sources": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "WordNet": {
+      "tag_set": [
+        "Dataset Construction",
+        "Dataset Probes",
+        "Definition",
+        "Methodology Probing",
+        "Property",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "dictionary resources": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "hypernymy": {
+      "tag_set": [
+        "Methodology Probing",
+        "Model Performance Analysis",
+        "Model Robustness on Probes",
+        "Relation",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "hyponymy": {
+      "tag_set": [
+        "Methodology Probing",
+        "Model Performance Analysis",
+        "Model Robustness on Probes",
+        "Property",
+        "Relation",
+        "Result",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "synonymy detection": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "word sense disambiguation": {
+      "tag_set": [
+        "Methodology Probing",
+        "Model Inoculation Strategy"
+      ]
+    },
+    "transformer models": {
+      "tag_set": [
+        "Example",
+        "Methodology Probing"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "science MCQA": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "QA models": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "re-trained": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "minimal performance loss": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "100 examples": {
+      "tag_set": [
+        "Methodology Probing",
+        "Model Inoculation Results"
+      ]
+    },
+    "test accuracy": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "77%": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "51%": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "LSTM-based model": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "1-hop links": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "2-hops": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "WordNetQA": {
+      "tag_set": [
+        "Dataset Construction",
+        "Definition",
+        "Methodology Probing",
+        "Model Robustness on Probes",
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "cluster-based analysis": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "14-44% accuracy drop": {
+      "tag_set": [
+        "Methodology Probing"
+      ]
+    },
+    "model": {
+      "tag_set": [
+        "Model Reasoning Limits"
+      ]
+    },
+    "facts": {
+      "tag_set": [
+        "Model Reasoning Limits"
+      ]
+    },
+    "individual concept": {
+      "tag_set": [
+        "Model Reasoning Limits"
+      ]
+    },
+    "isolated questions": {
+      "tag_set": [
+        "Model Reasoning Limits"
+      ]
+    },
+    "state-of-the-art QA models": {
+      "tag_set": [
+        "Model Reasoning Limits"
+      ]
+    },
+    "definitions": {
+      "tag_set": [
+        "Dataset Construction",
+        "Dataset Probes",
+        "Model Reasoning Limits",
+        "Model Robustness on Probes",
+        "Property",
+        "Result",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "taxonomic hierarchies": {
+      "tag_set": [
+        "Model Reasoning Limits"
+      ]
+    },
+    "complex forms of reasoning": {
+      "tag_set": [
+        "Model Reasoning Limits"
+      ]
+    },
+    "Related Work": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "literature": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "prior studies": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "existing methods": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "research papers": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "field": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "approaches": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "techniques": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "concepts": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "contributions": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "neural": {
+      "tag_set": [
+        "Challenge Dataset Construction"
+      ]
+    },
+    "challenge datasets": {
+      "tag_set": [
+        "Challenge Dataset Construction"
+      ]
+    },
+    "recent work": {
+      "tag_set": [
+        "Challenge Dataset Construction"
+      ]
+    },
+    "models": {
+      "tag_set": [
+        "Natural Language Inference"
+      ]
+    },
+    "natural language inference (NLI)": {
+      "tag_set": [
+        "Natural Language Inference"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Natural Language Inference"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Natural Language Inference"
+      ]
+    },
+    "BIBREF": {
+      "tag_set": [
+        "Natural Language Inference"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "probing datasets": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "multiple-choice questions": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "question q": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "answer choices": {
+      "tag_set": [
+        "Cause",
+        "Dataset Construction",
+        "Modeling Methodology"
+      ]
+    },
+    "a1 to aN": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "GCIDE": {
+      "tag_set": [
+        "Dataset Construction",
+        "Dataset Probes",
+        "Definition"
+      ]
+    },
+    "GNU Collaborative International Dictionary of English": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "WordNet BIBREF35": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "directed edge-labeled graph G": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "atomic concepts": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "words": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "sentences": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "hypernym": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "isa\u2191": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "relations R": {
+      "tag_set": [
+        "Dataset Construction"
+      ]
+    },
+    "DictionaryQA": {
+      "tag_set": [
+        "Dataset Construction",
+        "Dataset Probes",
+        "Definition"
+      ]
+    },
+    "question templates": {
+      "tag_set": [
+        "Mathematical Notation"
+      ]
+    },
+    "G": {
+      "tag_set": [
+        "Mathematical Notation"
+      ]
+    },
+    "set": {
+      "tag_set": [
+        "Mathematical Notation"
+      ]
+    },
+    "117k concepts": {
+      "tag_set": [
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "synsets": {
+      "tag_set": [
+        "Dataset Probes",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "gloss": {
+      "tag_set": [
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "lemmas": {
+      "tag_set": [
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "example sentences": {
+      "tag_set": [
+        "Dataset Probes",
+        "MCQA Task Definition",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "ISA links": {
+      "tag_set": [
+        "Relation",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "synonymy": {
+      "tag_set": [
+        "Model Inoculation Results",
+        "Model Robustness on Probes",
+        "Property",
+        "Relation",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "rule templates": {
+      "tag_set": [
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "natural language questions": {
+      "tag_set": [
+        "Result",
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "science benchmarks": {
+      "tag_set": [
+        "WordNetQA Probe Generation"
+      ]
+    },
+    "concept c": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "lemma l": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "example sentence s": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "WordNet gloss d": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "ISA reasoning": {
+      "tag_set": [
+        "Definition",
+        "Model Robustness on Probes",
+        "Property",
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "hypernym/hyponym": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "c \u2192\u2191/\u2193 c'": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "T_i": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "hops(c,\u2191)": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "hops(c,\u2193)": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "1-deep sister family": {
+      "tag_set": [
+        "Definition",
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "\u2113-deep sister family": {
+      "tag_set": [
+        "Definition",
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "hops_\u2113\u22121(\u0109,\u2193)": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "distractors": {
+      "tag_set": [
+        "Model Inoculation Strategy",
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "distr(c', \u03c4')": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "Figure FIGREF6": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "synonyms": {
+      "tag_set": [
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "semantic clusters": {
+      "tag_set": [
+        "Dataset Probes",
+        "Model Inoculation Cost",
+        "Model Inoculation Strategy",
+        "Property",
+        "Result",
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "perturbations": {
+      "tag_set": [
+        "Model Robustness on Probes",
+        "WordNetQA Distractor Generation"
+      ]
+    },
+    "Webster's Revised Unabridged Dictionary": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "word-sense disambiguation": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "part-of-speech": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "distractor perturbations": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "inferential hops": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "5-way multiple choice": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "3k training examples": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "9k total examples": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "Dataset Probes",
+        "Property"
+      ]
+    },
+    "testing set": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "probes": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Dataset Probes",
+        "Model Inoculation Methodology",
+        "Model Inoculation Strategy"
+      ]
+    },
+    "BIBREF38": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "TABREF12": {
+      "tag_set": [
+        "Dataset Probes",
+        "Model Robustness on Probes"
+      ]
+    },
+    "TABREF14": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "TABREF8": {
+      "tag_set": [
+        "Dataset Probes"
+      ]
+    },
+    "standard random splitting": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "systematic biases": {
+      "tag_set": [
+        "MCQA Task Definition",
+        "Model Inoculation Strategy",
+        "Modeling Methodology",
+        "Property"
+      ]
+    },
+    "choice-only baseline models": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "dictionary entries": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "Table TABREF14": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "automatic dataset construction": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "Section SECREF5": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "transformer-based MCQA models": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "science domain": {
+      "tag_set": [
+        "Cause",
+        "MCQA Task Definition",
+        "Model Inoculation Methodology",
+        "Model Robustness on Probes"
+      ]
+    },
+    "Table TABREF21": {
+      "tag_set": [
+        "MCQA Task Definition",
+        "Model Inoculation Cost"
+      ]
+    },
+    "lossless inoculation strategy": {
+      "tag_set": [
+        "MCQA Task Definition",
+        "Model Inoculation Strategy"
+      ]
+    },
+    "Section SECREF22": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "cluster-level accuracy metric": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "Section SECREF24": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "5-way multiple-choice problems": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "BERT encoder": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "BIBREF25": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "CLS token": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "hidden state representation": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "classification parameters": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "vector v": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "transformer network": {
+      "tag_set": [
+        "MCQA Task Definition"
+      ]
+    },
+    "BERT-large uncased": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "whole-word masking": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "RoBERTa-large": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "AllenNLP": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "Huggingface": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "MCQA baseline models": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "LSTM-based models": {
+      "tag_set": [
+        "Model Inoculation Strategy",
+        "Modeling Methodology"
+      ]
+    },
+    "NLI": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "partial-input baselines": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "BiLSTM": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "element-wise max operation": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "Choice-Only model": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "Choice-to-choice model": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "attention mechanism Att": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "Question-to-choice model": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "target probe": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "annotation artifacts": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "contextual representation": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "embedding function": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "hidden state dimension h": {
+      "tag_set": [
+        "Modeling Methodology"
+      ]
+    },
+    "probing methodology": {
+      "tag_set": [
+        "Definition",
+        "Modeling Methodology"
+      ]
+    },
+    "ESIM BIBREF47": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Methodology"
+      ]
+    },
+    "VecSimilarity": {
+      "tag_set": [
+        "Model Inoculation Methodology",
+        "Probe Challenge Results"
+      ]
+    },
+    "score \u03b1^(j)_{q,i}": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Methodology"
+      ]
+    },
+    "Att(r^(j)_q, r^(j)_c_i)": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "Sim(embed(q^(j)), embed(c^(j)_i))": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "probe data": {
+      "tag_set": [
+        "Model Inoculation Methodology",
+        "Use"
+      ]
+    },
+    "inoculation": {
+      "tag_set": [
+        "Model Inoculation Methodology",
+        "Model Inoculation Results"
+      ]
+    },
+    "pre-training": {
+      "tag_set": [
+        "Model Inoculation Methodology",
+        "Model Performance Analysis"
+      ]
+    },
+    "hyper-parameter configurations": {
+      "tag_set": [
+        "Model Inoculation Methodology",
+        "Property"
+      ]
+    },
+    "learning rates": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "number of iterations": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "random seeds": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "catastrophic forgetting": {
+      "tag_set": [
+        "Model Inoculation Methodology",
+        "Risk"
+      ]
+    },
+    "model performance": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Methodology"
+      ]
+    },
+    "original task": {
+      "tag_set": [
+        "Model Inoculation Cost",
+        "Model Inoculation Methodology",
+        "Model Inoculation Results"
+      ]
+    },
+    "inoculated task": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "aggregate performance S": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "M*_a,k": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "k = 3k": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "BIBREF49": {
+      "tag_set": [
+        "Model Inoculation Methodology"
+      ]
+    },
+    "inoculation cost": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Cost",
+        "Property"
+      ]
+    },
+    "aggregated training set": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "benchmark science exams": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "aggregate development set": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "4k science questions": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "5-way": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "empty answers": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "add-some inoculation": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Cost"
+      ]
+    },
+    "MCQL dataset": {
+      "tag_set": [
+        "Model Inoculation Cost",
+        "Property"
+      ]
+    },
+    "x1 matching": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Cost"
+      ]
+    },
+    "x2 matching": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Cost"
+      ]
+    },
+    "3k science questions": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "instance-level accuracy": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Cost"
+      ]
+    },
+    "cluster-level accuracy": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Cost"
+      ]
+    },
+    "ISA$^\\uparrow $": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "trouser.n.01": {
+      "tag_set": [
+        "Example",
+        "Model Inoculation Cost"
+      ]
+    },
+    "distractor choices": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "inference complexity": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "visual QA": {
+      "tag_set": [
+        "Inspiration",
+        "Model Inoculation Cost"
+      ]
+    },
+    "BIBREF53": {
+      "tag_set": [
+        "Model Inoculation Cost"
+      ]
+    },
+    "Table TABREF25": {
+      "tag_set": [
+        "Model Inoculation Results",
+        "Probe Challenge Results"
+      ]
+    },
+    "Section SECREF13": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "DictionaryQA dataset": {
+      "tag_set": [
+        "Cause",
+        "Probe Challenge Results"
+      ]
+    },
+    "Choice-Only models": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "Choice-to-Choice models": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "Choice-Only-GloVe": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "filtering step": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "hypernymy probe": {
+      "tag_set": [
+        "Probe Challenge Results",
+        "Result"
+      ]
+    },
+    "BERT models": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "RoBERTa models": {
+      "tag_set": [
+        "Probe Challenge Results",
+        "Result"
+      ]
+    },
+    "Word2Vec embeddings": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "ESIM model": {
+      "tag_set": [
+        "Probe Challenge Results",
+        "Result"
+      ]
+    },
+    "GloVe embeddings": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "ELMO embeddings": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "LSTM-based Question-to-Choice models": {
+      "tag_set": [
+        "Probe Challenge Results",
+        "Result"
+      ]
+    },
+    "definitions probe": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "synonymy probe": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "RoBERTa accuracy 77%": {
+      "tag_set": [
+        "Probe Challenge Results"
+      ]
+    },
+    "61%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "RoBERTa": {
+      "tag_set": [
+        "Model Inoculation Results",
+        "Model Inoculation Strategy",
+        "Model Performance Analysis",
+        "Model Robustness on Probes",
+        "Property",
+        "Result"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Model Inoculation Results",
+        "Model Performance Analysis",
+        "Model Robustness on Probes",
+        "Property"
+      ]
+    },
+    "LSTM models": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "ESIM": {
+      "tag_set": [
+        "Model Inoculation Results",
+        "Model Performance Analysis",
+        "Model Robustness on Probes",
+        "Property",
+        "Result"
+      ]
+    },
+    "Figure FIGREF28": {
+      "tag_set": [
+        "Model Inoculation Results",
+        "Model Performance Analysis"
+      ]
+    },
+    "random distractors": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "WordNet space": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "sister": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "ISA": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "up/down": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "distance k' = 1": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "number of hops k": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "47%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "15%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "generation templates": {
+      "tag_set": [
+        "Cause",
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF26": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Model Robustness on Probes"
+      ]
+    },
+    "inoculation step": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Purpose"
+      ]
+    },
+    "science training": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "additional fine-tuning": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "Figure FIGREF29": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "7% accuracy reduction": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "1% accuracy reduction": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "3k examples": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "2-hop hyponymy inference": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "59% to 77% improvement": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "59% to 87% improvement": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "science task": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "probing tasks": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "Section SECREF6": {
+      "tag_set": [
+        "Model Inoculation Results"
+      ]
+    },
+    "75%": {
+      "tag_set": [
+        "Model Robustness on Probes"
+      ]
+    },
+    "36%": {
+      "tag_set": [
+        "Model Robustness on Probes"
+      ]
+    },
+    "21/24": {
+      "tag_set": [
+        "Model Robustness on Probes"
+      ]
+    },
+    "5/24": {
+      "tag_set": [
+        "Model Robustness on Probes"
+      ]
+    },
+    "oppose.v.06": {
+      "tag_set": [
+        "Model Robustness on Probes"
+      ]
+    },
+    "cluster accuracy": {
+      "tag_set": [
+        "Definition",
+        "Model Robustness on Probes"
+      ]
+    },
+    "MCQA": {
+      "tag_set": [
+        "Model Robustness on Probes"
+      ]
+    },
+    "TABREF30": {
+      "tag_set": [
+        "Model Robustness on Probes"
+      ]
+    },
+    "probing data": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "small samples": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "BIBREF54": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "structured knowledge": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "BIBREF55": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "network plasticity": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "BIBREF56": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "synthetic data": {
+      "tag_set": [
+        "Definition",
+        "Model Inoculation Strategy"
+      ]
+    },
+    "multi-hop inferences": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "concept clusters": {
+      "tag_set": [
+        "Model Inoculation Strategy",
+        "Result"
+      ]
+    },
+    "model robustness": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "naturalistic QA data": {
+      "tag_set": [
+        "Model Inoculation Strategy"
+      ]
+    },
+    "benchmark QA datasets": {
+      "tag_set": [
+        "Benchmark QA Datasets",
+        "Limitation"
+      ]
+    },
+    "careful manipulations": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "cluster-based analyses": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "expert knowledge": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "hand-curated": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "human experts": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "crowd-sourcing experiments": {
+      "tag_set": [
+        "Benchmark QA Datasets",
+        "Result"
+      ]
+    },
+    "validating samples": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "human scores": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "model trends": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "probe categories": {
+      "tag_set": [
+        "Benchmark QA Datasets"
+      ]
+    },
+    "open-domain question-answering": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "multiple-choice QA (MCQA)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "state-of-the-art MCQA models": {
+      "tag_set": [
+        "Question"
+      ]
+    },
+    "MCQA datasets": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "general methodology": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "empirical questions": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "probes for definition and taxonomic knowledge": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "existing science benchmarks": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "unexpected artifacts": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "carefully constructed baselines": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "transformer-based QA models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "best model on definitions": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "re-fine-tuning": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "performance drop on original task": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hyponym probes": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "WordNetQA probe": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "fundamental building blocks": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "challenge datasets for probing neural models": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "adversarial generation methods": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BIBREF22 methodology": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "open-domain MCQA models": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BERT model and fine-tuning approach": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "transformer architecture": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "relational knowledge in large-scale knowledge models": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "GNU Collaborative International Dictionary of English (GCIDE)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "knowledge graph": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "lexical resources": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "crowd annotation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "automatic data generation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "multiple-choice questions (MCQs)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "target inferences": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "cloze-style probing tasks": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "fine-tuning on probe QA tasks": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "relation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\\textsc{gen}(\\tau)": {
+      "tag_set": [
+        "Function"
+      ]
+    },
+    "\\textsc{distr}(\\tau')": {
+      "tag_set": [
+        "Function"
+      ]
+    },
+    "question templates \\mathcal{Q}": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "question template": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "direct ISA links": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "HOPS(c, r)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "distractor generation": {
+      "tag_set": [
+        "Method",
+        "Process"
+      ]
+    },
+    "hypernymy tests": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "definitions and synonyms": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "GCIDE entry": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Word-sense disambiguation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "definition generation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "33k entries": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "9k examples": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "WordNet probes": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "training allocation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "held-out sets": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "target datasets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "VecSimilarity model": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "model inoculation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "inoculation methodology": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "science domain benchmark tasks": {
+      "tag_set": [
+        "Training"
+      ]
+    },
+    "model performance on original task": {
+      "tag_set": [
+        "Indicator"
+      ]
+    },
+    "pre-training dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "strict cluster metric": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "Choice-Only and Choice-to-Choice models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Choice-Only-GloVe scores": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "distractor de-duplication": {
+      "tag_set": [
+        "Action"
+      ]
+    },
+    "BERT and RoBERTa choice-only models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "ESIM science model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "hypernymy and hyponymy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "transformer-based models": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "model performance on probes": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "inoculation with 100 examples": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "inoculation with 3k examples": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "performance degradation": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "word sense": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "RoBERTa model": {
+      "tag_set": [
+        "Property",
+        "Result"
+      ]
+    },
+    "inoculation strategy": {
+      "tag_set": [
+        "Cause",
+        "Improvement"
+      ]
+    },
+    "synthetic datasets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hard distractors and multi-hop inferences": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "synthetic vs. naturalistic QA data": {
+      "tag_set": [
+        "Trade-off"
+      ]
+    },
+    "expert-curated knowledge": {
+      "tag_set": [
+        "Assumption"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Automatically answering questions, especially in the open-domain setting (i.e., where minimal or no contextual knowledge is explicitly provided), requires bringing to bear considerable amount of background knowledge and reasoning abilities. For example, knowing the answers to the two questions in Figure FIGREF1 requires identifying a specific ISA relation (i.e., that cooking is a type of learned behavior) as well as recalling the definition of a concept (i.e., that global warming is defined as a worldwide increase in temperature). In the multiple-choice setting, which is the variety of question-answering (QA) that we focus on in this paper, there is also pragmatic reasoning involved in selecting optimal answer choices (e.g., while greenhouse effect might in some other context be a reasonable answer to the second question in Figure FIGREF1, global warming is a preferable candidate). Recent successes in QA, driven largely by the creation of new resources BIBREF2, BIBREF3, BIBREF4, BIBREF5 and advances in model pre-training BIBREF6, BIBREF7, raise a natural question: do state-of-the-art multiple-choice QA (MCQA) models that excel at standard tasks really have basic knowledge and reasoning skills? Most existing MCQA datasets are constructed through either expensive crowd-sourcing BIBREF8 or hand engineering effort, in the former case making it possible to collect large amounts of data at the cost of losing systematic control over the semantics of the target questions. Hence, doing a controlled experiment to answer such a question for QA is difficult given a lack of targeted challenge datasets. Having definitive empirical evidence of model competence on any given phenomenon requires constructing a wide range of systematic tests. For example, in measuring competence of definitions, not only do we want to see that the model can handle individual questions such as Figure FIGREF1.1 inside of benchmark tasks, but that it can answer a wider range of questions that exhaustively cover a broad set of concepts and question perturbations (i.e., systematic adjustments to how the questions are constructed). The same applies to ISA reasoning; not only is it important to recognize in the question in Figure FIGREF1.1 that cooking is a learned behavior, but also that cooking is a general type of behavior or, through a few more inferential steps, a type of human activity. In this paper, we look at systematically constructing such tests by exploiting the vast amounts of structured information contained in various types of expert knowledge such as knowledge graphs and lexical taxonomies. Our",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "MCQA Knowledge Testing"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "general methodology works as illustrated in Figure FIGREF1: given any MCQA model trained on a set of benchmark tasks, we systematically generate a set of synthetic dataset probes (i.e., MCQA renderings of the target information) from information in expert knowledge sources. We then use these probes to ask two empirical questions: 1) how well do models trained on benchmark tasks perform on these probing tasks and; 2) can such models be re-trained to master new challenges with minimal performance loss on their original tasks? While our methodology is amenable to any knowledge source and set of models/benchmark tasks, we focus on probing state-of-the-art transformer models BIBREF7, BIBREF9 in the domain of science MCQA. For sources of expert knowledge, we use WordNet, a comprehensive lexical ontology, and other publicly available dictionary resources. We devise probes that measure model competence in definition and taxonomic knowledge in different settings (including hypernymy, hyponymy, and synonymy detection, and word sense disambiguation). This choice is motivated by fact that the science domain is considered particularly challenging for QA BIBREF10, BIBREF11, BIBREF12, and existing science benchmarks are known to involve widespread use of such knowledge (see BIBREF1, BIBREF13 for analysis), which is also arguably fundamental to more complex forms of reasoning. We show that accurately probing QA models via synthetic datasets is not straightforward, as unexpected artifacts can easily arise in such data. This motivates our carefully constructed baselines and close data inspection to ensure probe quality. Our results confirm that transformer-based QA models have a remarkable ability to recognize certain types of knowledge captured in our probes\u2014even without additional fine-tuning. Such models can even outperform strong task-specific models trained directly on our probing tasks (e.g., on definitions, our best model achieves 77% test accuracy without specialized training, as opposed to 51% for a task-specific LSTM-based model). We also show that the same models can be effectively re-fine-tuned on small samples (even 100 examples) of probe data, and that high performance on the probes tends to correlate with a smaller drop in the model's performance on the original QA task. Our comprehensive assessment reveals several interesting nuances to the overall positive trend. For example, the performance of even the best QA models degrades substantially on our hyponym probes (by 8-15%) when going from 1-hop links to 2-hops. Further, the accuracy of even our best models on the WordNetQA probe drops by 14-44% under our cluster-based analysis, which",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Methodology Probing"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "assesses whether a model knows several facts about each individual concept, rather than just being good at answering isolated questions. State-of-the-art QA models thus have much room to improve even in some fundamental building blocks, namely definitions and taxonomic hierarchies, of more complex forms of reasoning.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Reasoning Limits"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "Related Work",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "We follow recent work on constructing challenge datasets for probing neural",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Challenge Dataset Construction"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "models, which has primarily focused on the task of natural language inference (NLI) BIBREF14, BIBREF15, BIBREF",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Natural Language Inference"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "16, BIBREF17, BIBREF18. Most of this work looks at constructing data through adversarial generation methods, which have also been found useful for creating stronger models BIBREF19. There has also been work on using synthetic data of the type we consider in this paper BIBREF20, BIBREF21, BIBREF22. We closely follow the methodology of BIBREF22, who use hand-constructed linguistic fragments to probe NLI models and study model re-training using a variant of the inoculation by fine-tuning strategy of BIBREF23. In contrast, we focus on probing open-domain MCQA models (see BIBREF24 for a related study in the reading comprehension setting) as well as constructing data from much larger sources of structured knowledge. Our main study focuses on probing the BERT model and fine-tuning approach of BIBREF7, and other variants thereof, which are all based on the transformer architecture of BIBREF25. Related to our efforts, there have been recent studies into the types of relational knowledge contained in large-scale knowledge models BIBREF26, BIBREF27, BIBREF28, which, similar to our work, probe models using structured knowledge sources. This prior work, however, primarily focuses on unearthing the knowledge contained in the underlying language models as is without further training, using simple (single token) cloze-style probing tasks and templates (similar to what we propose in Section SECREF3). In contrast, we focus on understanding the knowledge contained in language models after they have been trained for a QA end-task using benchmark datasets in which such knowledge is expected to be widespread. Further, our evaluation is done before and after these models are fine-tuned on our probe QA tasks, using a more complex set of QA templates and target inferences. The use of lexical resources and knowledge graphs such as WordNet to construct datasets has a long history, and has recently appeared in work on adversarial attacks BIBREF14, BIBREF29 and general task construction BIBREF30, BIBREF31. In the area of MCQA, there is related work on constructing questions from tuples BIBREF32, BIBREF3, both of which involve standard crowd annotation to elicit question-answer pairs (see also BIBREF33, BIBREF34). In contrast to this work, we focus on generating data in an entirely automatic fashion, which obviates the need for expensive annotation and gives us the flexibility to construct much larger datasets that control a rich set of semantic aspects of the target questions. Dataset Probes and Construction Our probing methodology starts by constructing challenge datasets (Figure FIGREF1, yellow box) from a target set",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "of knowledge resources. Each of our probing datasets consists of multiple-choice questions that include a question $\\textbf {q}$ and a set of answer choices or candidates $\\lbrace a_{1},...a_{N}\\rbrace $. This section describes in detail the 5 different datasets we build, which are drawn from two sources of expert knowledge, namely WordNet BIBREF35 and the GNU Collaborative International Dictionary of English (GCIDE). We describe each resource in turn, and explain how the resulting dataset probes, which we call WordNetQA and DictionaryQA, are constructed. For convenience, we will describe each source of expert knowledge as a directed, edge-labeled graph $G$. The nodes of this graph are $\\mathcal {V} = \\mathcal {C} \\cup \\mathcal {W} \\cup \\mathcal {S} \\cup \\mathcal {D}$, where $\\mathcal {C}$ is a set of atomic concepts, $\\mathcal {W}$ a set of words, $\\mathcal {S}$ a set of sentences, and $\\mathcal {D}$ a set of definitions (see Table TABREF4 for details for WordNet and GCIDE). Each edge of $G$ is directed from an atomic concept in $\\mathcal {C}$ to another node in $V$, and is labeled with a relation, such as hypernym or isa$^\\uparrow $, from a set of relations $\\mathcal {R}$ (see Table TABREF4). When defining our probe",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Construction"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "question templates, it will be useful to view $G$ as a set of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Mathematical Notation"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "(relation, source, target) triples $\\mathcal {T} \\subseteq \\mathcal {R} \\times \\mathcal {C} \\times \\mathcal {V}$. Due to their origin in an expert knowledge source, such triples preserve semantic consistency. For instance, when the relation in a triple is def, the corresponding edge maps a concept in $\\mathcal {C}$ to a definition in $\\mathcal {D}$. To construct probe datasets, we rely on two heuristic functions, defined below for each individual probe: $\\textsc {gen}_{\\mathcal {Q}}(\\tau )$, which generates gold question-answer pairs $(\\textbf {q},\\textbf {a})$ from a set of triples $\\tau \\subseteq \\mathcal {T}$ and question templates $\\mathcal {Q}$, and $\\textsc {distr}(\\tau ^{\\prime })$, which generates distractor answers choices $\\lbrace a^{\\prime }_{1},...a^{\\prime }_{N-1} \\rbrace $ based on another set of triples $\\tau ^{\\prime }$ (where usually $\\tau \\subset \\tau ^{\\prime }$). For brevity, we will use $\\textsc {gen}(\\tau )$ to denote $\\textsc {gen}_{\\mathcal {Q}}(\\tau )$, leaving question templates $\\mathcal {Q}$ implicit. Dataset Probes and Construction ::: WordNetQA WordNet is an English lexical database consisting of around 117k concepts, which are organized into groups of synsets that each contain a gloss (i.e., a definition of the target concept), a set of representative English words (called lemmas), and, in around 33k synsets, example sentences. In addition, many synsets have ISA links to other synsets that express complex taxonomic relations. Figure FIGREF6 shows an example and Table TABREF4 summarizes how we formulate WordNet as a set of triples $\\mathcal {T}$ of various types. These triples together represent a directed, edge-labeled graph $G$. Our main motivation for using WordNet, as opposed to a resource such as ConceptNet BIBREF36, is the availability of glosses ($\\mathcal {D}$) and example sentences ($\\mathcal {S}$), which allows us to construct natural language questions that contextualize the types of concepts we want to probe. Dataset Probes and Construction ::: WordNetQA ::: Example Generation @!START@$\\textsc {gen}(\\tau )$@!END@. We build 4 individual datasets based on semantic relations native to WordNet (see BIBREF37): hypernymy (i.e., generalization or ISA reasoning up a taxonomy, ISA$^\\uparrow $), hyponymy (ISA$^{\\downarrow }$), synonymy, and definitions. To generate a set of questions in each case, we employ a number of rule templates $\\mathcal {Q}$ that operate over tuples. A subset of such templates is shown in Table TABREF8. The templates were designed to mimic naturalistic questions we observed in our science benchmarks. For example, suppose we wish to create a question $\\textbf {q}$ about the definition of a target concept $c \\in",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "WordNetQA Probe Generation"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "\\mathcal {C}$. We first select a question template from $\\mathcal {Q}$ that first introduces the concept $c$ and its lemma $l \\in \\mathcal {W}$ in context using the example sentence $s \\in \\mathcal {S}$, and then asks to identify the corresponding WordNet gloss $d \\in \\mathcal {D}$, which serves as the gold answer $\\textbf {a}$. The same is done for ISA reasoning; each question about a hypernym/hyponym relation between two concepts $c \\rightarrow ^{\\uparrow /\\downarrow } c^{\\prime } \\in \\mathcal {T}_{i}$ (e.g., $\\texttt {dog} \\rightarrow ^{\\uparrow /\\downarrow } \\texttt {animal/terrier}$) first introduces a context for $c$ and then asks for an answer that identifies $c^{\\prime }$ (which is also provided with a gloss so as to contain all available context). In the latter case, the rules $(\\texttt {isa}^{r},c,c^{\\prime }) \\in \\mathcal {T}_i$ in Table TABREF8 cover only direct ISA links from $c$ in direction $r \\in \\lbrace \\uparrow ,\\downarrow \\rbrace $. In practice, for each $c$ and direction $r$, we construct tests that cover the set HOPS$(c,r)$ of all direct as well as derived ISA relations of $c$: This allows us to evaluate the extent to which models are able to handle complex forms of reasoning that require several inferential steps or hops. Dataset Probes and Construction ::: WordNetQA ::: Distractor Generation: @!START@$\\textsc {distr}(\\tau ^{\\prime })$@!END@. An example of how distractors are generated is shown in Figure FIGREF6, which relies on similar principles as above. For each concept $c$, we choose 4 distractor answers that are close in the WordNet semantic space. For example, when constructing hypernymy tests for $c$ from the set hops$(c,\\uparrow )$, we build distractors by drawing from $\\textsc {hops}(c,\\downarrow )$ (and vice versa), as well as from the $\\ell $-deep sister family of $c$, defined as follows. The 1-deep sister family is simply $c$'s siblings or sisters, i.e., the other children $\\tilde{c} \\ne c$ of the parent node $c^{\\prime }$ of $c$. For $\\ell > 1$, the $\\ell $-deep sister family also includes all descendants of each $\\tilde{c}$ up to $\\ell -1$ levels deep, denoted $\\textsc {hops}_{\\ell -1}(\\tilde{c},\\downarrow )$. Formally: For definitions and synonyms we build distractors from all of these sets (with a similar restriction on the depth of sister distractors as noted above). In doing this, we can systematically investigate model performance on a wide range of distractor sets. Dataset Probes and Construction ::: WordNetQA ::: Perturbations and Semantic Clusters Based on how we",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "WordNetQA Distractor Generation"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "generate data, for each concept $c$ (i.e., atomic WordNet synset) and probe type (i.e., definitions, hypernymy, etc.), we have a wide variety of questions related to $c$ that manipulate 1) the complexity of reasoning that is involved (e.g., the number of inferential hops) and; 2) the types of distractors (or distractor perturbations) that are employed. We call such sets semantic clusters. As we describe in the next section, semantic clusters allow us to devise new types of evaluation that reveal whether models have comprehensive and consistent knowledge of target concepts (e.g., evaluating whether a model can correctly answer several questions associated with a concept, as opposed to a few disjoint instances). Details of the individual datasets are shown in Table TABREF12. From these sets, we follow BIBREF22 in allocating a maximum of 3k examples for training and reserve the rest for development and testing. Since we are interested in probing, having large held-out sets allows us to do detailed analysis and cluster-based evaluation. Dataset Probes and Construction ::: DictionaryQA The DictionaryQA dataset is created from the GCIDE dictionary, which is a comprehensive open-source English dictionary built largely from the Webster's Revised Unabridged Dictionary BIBREF38. Each entry consists of a word, its part-of-speech, its definition, and an optional example sentence (see Table TABREF14). Overall, 33k entries (out of a total of 155k) contain example sentences/usages. As with the WordNet probes, we focus on this subset so as to contextualize each word being probed. In contrast to WordNet, GCIDE does not have ISA relations or explicit synsets, so we take each unique entry to be a distinct sense. We then use the dictionary entries to create a probe that centers around word-sense disambiguation, as described below. Dataset Probes and Construction ::: DictionaryQA ::: Example and Distractor Generation. To generate gold questions and answers, we use the same generation templates for definitions exemplified in Figure TABREF8 for WordNetQA. To generate distractors, we simply take alternative definitions for the target words that represent a different word sense (e.g., the alternative definitions of gift shown in Table TABREF14), as well as randomly chosen definitions if needed to create a 5-way multiple choice question. As above, we reserve a maximum of 3k examples for training. Since we have only 9k examples in total in this dataset (see WordSense in Table TABREF12), we also reserve 3k each for development and testing. We note that initial attempts to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Probes"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "build this dataset through standard random splitting gave rise to certain systematic biases that were exploited by the choice-only baseline models described in the next section, and hence inflated overall model scores. After several efforts at filtering we found that, among other factors, using definitions from entries without example sentences as distractors (e.g., the first two entries in Table TABREF14) had a surprising correlation with such biases. This suggests that possible biases involving differences between dictionary entries with and without examples can taint the resulting automatically generated MCQA dataset (for more discussion on the pitfalls involved with automatic dataset construction, see Section SECREF5). Probing Methodology and Modeling Given the probes above, we now can start to answer the empirical questions posed at the beginning. Our main focus is on looking at transformer-based MCQA models trained in the science domain (using the benchmarks shown in Table TABREF21). In this section, we provide details of MCQA and the target models, as well as several baselines that we use to sanity check our new datasets. To evaluate model competence, we look at a combination of model performance after science pre-training and after additional model fine-tuning using the lossless inoculation strategy of BIBREF22 (Section SECREF22). In Section SECREF24, we also discuss a cluster-level accuracy metric for measuring performance over semantic clusters. Probing Methodology and Modeling ::: Task Definition and Modeling Given a dataset $D =\\lbrace (\\textbf {q}^{(d)}, \\lbrace a_{1}^{(d)},..., a_{N}^{(d)}\\rbrace ) \\rbrace _{d}^{\\mid D \\mid }$ consisting of pairs of questions stems $\\textbf {q}$ and answer choices $a_{i}$, the goal is to find the correct answer $a_{i^{*}}$ that correctly answers each $\\textbf {q}$. Throughout this paper, we look at 5-way multiple-choice problems (i.e., where each $N=5$). Probing Methodology and Modeling ::: Task Definition and Modeling ::: Question+Answer Encoder. To model this, our investigation centers around the use of the transformer-based BIBREF25 BERT encoder and fine-tuning approach of BIBREF7 (see also BIBREF6). For each question and individual answer pair $q^{(j)}_{a_{i}}$, we assume the following rendering of this input: which is run through the pre-trained BERT encoder to generate a representation for $ q^{(j)}_{a_{i}}$ using the hidden state representation for CLS (i.e., the classifier token) $\\textbf {c}_{i}$: The probability of a given answer $p^{(j)}_{i}$ is then computed as $p^{(j)}_{i} \\propto e^{\\textbf {v}\\cdot \\textbf {c}^{(j)}_{i}}$, which uses an additional set of classification parameters $\\textbf {v} \\in \\mathbb {R}^{H}$ that are optimized (along with the full transformer network)",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "MCQA Task Definition"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "by taking the final loss of the probability of each correct answer $p_{i^{*}}$ over all answer choices: We specifically use BERT-large uncased with whole-word masking, as well as the RoBERTa-large model from BIBREF9, which is a more robustly trained version of the original BERT model. Our system uses the implementations provided in AllenNLP BIBREF39 and Huggingface BIBREF40. Probing Methodology and Modeling ::: Task Definition and Modeling ::: Baselines and Sanity Checks. When creating synthetic datasets, it is important to ensure that systematic biases, or annotation artifacts BIBREF41, are not introduced into the resulting probes and that the target datasets are sufficiently challenging (or good, in the sense of BIBREF42). To test for this, we use several of the MCQA baseline models first introduced in BIBREF0, which take inspiration from the LSTM-based models used in BIBREF43 for NLI and various partial-input baselines based on these models. Following the notation from BIBREF0, for any given sequence $s$ of tokens in $\\lbrace q^{(j)}, a_{1}^{(j)},...,a_{N}^{(j)}\\rbrace $ in $D$, an encoding of $s$ is given as $h_{s}^{(j)} = \\textbf {BiLSTM}(\\textsc {embed}(s)) \\in \\mathbb {R}^{|s| \\times 2h}$ (where $h$ is the dimension of the hidden state in each directional network, and embed$(\\cdot )$ is an embedding function that assigns token-level embeddings to each token in $s$). A contextual representation for each $s$ is then built by applying an element-wise max operation over $h_{s}$ as follows: With these contextual representations, different baseline models can be constructed. For example, a Choice-Only model, which is a variant of the well-known hypothesis-only baseline used in NLI BIBREF46, scores each choice $c_{i}$ in the following way: for $\\textbf {W}^{T} \\in \\mathbb {R}^{2h}$ independently of the question and assigns a probability to each answer $p_{i}^{(j)} \\propto e^{\\alpha _{i}^{(j)}}$. A slight variant of this model, the Choice-to-choice model, tries to single out a given answer choice relative to other choices by scoring all choice pairs $\\alpha _{i,i^{\\prime }}^{(j)} = \\textsc {Att}(r^{(j)}_{c_{i}},r^{(j)}_{c_{i^{\\prime }}}) \\in \\mathbb {R}$ using a learned attention mechanism Att and finding the choice with the minimal similarity to other options (for full details, see their original paper). In using these partial-input baselines, which we train directly on each target probe, we can check whether systematic biases related to answer choices were introduced into the data creation process. A Question-to-choice model, in contrast, uses the contextual representations for each question and individual choice and an attention model Att model to get a",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Modeling Methodology"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "score $\\alpha ^{(j)}_{q,i} = \\textsc {Att}(r^{(j)}_{q},r^{(j)}_{c_{i}}) \\in \\mathbb {R}$ as above. Here we also experiment with using ESIM BIBREF47 to generate the contextual representations $r$, as well as a simpler VecSimilarity model that measures the average vector similarity between question and answer tokens: $\\alpha ^{(j)}_{q,i} = \\textsc {Sim}(\\textsc {embed}(q^{(j)}),\\textsc {embed}(c^{(j)}_{i}))$. In contrast to the models above, these sets of baselines are used to check for artifacts between questions and answers that are not captured in the partial-input baselines (see discussion in BIBREF49) and ensure that the overall MCQA tasks are sufficiently difficult for our transformer models. Probing Methodology and Modeling ::: Inoculation and Pre-training Using the various models introduced above, we train these models on benchmark tasks in the science domain and look at model performance on our probes with and without additional training on samples of probe data, building on the idea of inoculation from BIBREF23. Model inoculation is the idea of continuing to train models on new challenge tasks (in our cases, separately for each probe) using only a small amount of examples. Unlike in ordinary fine-tuning, the goal is not to learn an entirely re-purposed model, but to improve on (or vaccinate against) particular phenomena (e.g., our synthetic probes) that potentially deviate from a model's original training distribution (but that nonetheless might involve knowledge already contained in the model). In the variant proposed in BIBREF22, for each pre-trained (science) model and architecture $M_{a}$ we continue training the model on $k$ new probe examples (with a maximum of $k=$ 3k) under a set of different hyper-parameter configurations $j \\in \\lbrace 1, ..., J\\rbrace $ and identify, for each $k$, the model $M_{*}^{a,k}$ with the best aggregate performance $S$ on the original (orig) and new task: As in BIBREF22, we found all models to be especially sensitive to different learning rates, and performed comprehensive hyper-parameters searches that also manipulate the number of iterations and random seeds used. Using this methodology, we can see how much exposure to new data it takes for a given model to master a new task, and whether there are phenomena that stress particular models (e.g., lead to catastrophic forgetting of the original task). Given the restrictions on the number of fine-tuning examples, our assumption is that when models are able to maintain good performance on their original task during inoculation, the quickness with which they are able to learn the inoculated task provides evidence",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Inoculation Methodology"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "of prior competence, which is precisely what we aim to probe. To measure past performance, we define a model's inoculation cost as the difference in the performance of this model on its original task before and after inoculation. We pre-train on an aggregated training set of the benchmark science exams detailed in Table TABREF21, and created an aggregate development set of around 4k science questions for evaluating overall science performance and inoculation costs. To handle the mismatch between number of answer choices in these sets, we made all sets 5-way by adding empty answers as needed. We also experimented with a slight variant of inoculation, called add-some inoculation, which involves balancing the inoculation training sets with naturalistic science questions. We reserve the MCQL dataset in Table TABREF21 for this purpose, and experiment with balancing each probe example with a science example (x1 matching) and adding twice as many science questions (x2 matching, up to 3k) for each new example. Probing Methodology and Modeling ::: Evaluating Model Competence The standard way to evaluate our MCQA models is by looking at the overall accuracy of the correct answer prediction, or what we call instance-level accuracy (as in Table TABREF25). Given the nature of our data and the existence of semantic clusters as detailed in Section SECREF11 (i.e., sets of questions and answers under different distractor choices and inference complexity), we also measure a model's cluster-level (or strict cluster) accuracy, which requires correctly answering all questions in a cluster. Example semantic clusters are shown in Table TABREF30; in the first case, there are 6 ISA$^\\uparrow $ questions (including perturbations) about the concept trouser.n.01 (e.g., involving knowing that trousers are a type of consumer good and garment/clothing), which a model must answer in order to receive full credit. Our cluster-based analysis is motivated by the idea that if a model truly knows the meaning of a given concept, such as the concept of trousers, then it should be able to answer arbitrary questions about this concept without sensitivity to varied distractors. While our strict cluster metric is simplistic, it takes inspiration from work on visual QA BIBREF53, and allows us to evaluate how consistent and robust models are across our different probes, and to get insight into whether errors are concentrated on a small set of concepts or widespread across clusters. Results and Findings In this section, we provide the results of the empirical",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Inoculation Cost"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "questions first introduced in Figure FIGREF1, starting with the results of our baseline models. Results and Findings ::: Are our Probes Sufficiently Challenging? As shown in Table TABREF25, most of our partial-input baselines (i.e., Choice-Only and Choice-to-Choice models) failed to perform well on our dataset probes across a wide range of models, showing that such probes are generally immune from biases relating to how distractors were generated. As already discussed in Section SECREF13, however, initial versions of the DictionaryQA dataset had unforeseen biases partly related to whether distractors were sampled from entries without example sentences, which resulted in high Choice-Only-GloVe scores ranging around 56% accuracy before a filtering step was applied to remove these distractors. We had similar issues with the hypernymy probe which, even after a filtering step that used our Choice-to-Choice-GloVe model, still leads to high results on the BERT and RoBERTa choice-only models. Given that several attempts were made to entirely de-duplicate the different splits (both in terms of gold answers and distractor types), the source of these biases is not at all obvious, which shows how easy it is for unintended biases in expert knowledge to appear in the resulting datasets and the importance of having rigorous baselines. We also note the large gap in some cases between the BERT and RoBERTa versus GloVe choice-only models, which highlights the need for having partial-input baselines that use the best available models. Using a more conventional set of Task-Specific QA models (i.e., the LSTM-based Question-to-Choice models trained directly on the probes), we can see that results are not particularly strong on any of the datasets, suggesting that our probes are indeed sufficiently challenging and largely immune from overt artifacts. The poor performance of the VecSimilarity (which uses pre-trained Word2Vec embeddings without additional training) provides additional evidence that elementary lexical matching strategies are insufficient for solving any of the probing tasks. Results and Findings ::: How well do pre-trained MCQA models do? Science models that use non-transformer based encoders, such as the ESIM model with GloVe and ELMO, perform poorly across all probes, in many cases scoring near random chance, showing limits to how well they generalize from science to other tasks even with pre-trained GloVe and ELMO embeddings. In sharp contrast, the transformer models have mixed results, the most striking result being the RoBERTa models on the definitions and synonymy probes (achieving a test accuracy of 77% and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Probe Challenge Results"
+      ],
+      "topic_links": []
+    },
+    "e18": {
+      "text": "61%, respectively), which outperform several of the task-specific LSTM models trained directly on the probes. At first glance, this suggests that RoBERTa, which generally far outpaces even BERT across most probes, has high competence of definitions and synonyms even without explicit training on our new tasks. Given the controlled nature of our probes, we can get a more detailed view of how well the science models are performing across different reasoning and distractor types, as shown in the first column of Figure FIGREF28 for ESIM and RoBERTa. The ESIM science model without training has uniformly poor performance across all categories, whereas the performance of RoBERTa is more varied. Across all datasets and number of hops (i.e., the rows in the heat maps), model performance for RoBERTa is consistently highest among examples with random distractors (i.e., the first column), and lowest in cases involving distractors that are closest in WordNet space (e.g., sister and ISA, or up/down, distractors of distance $k^{\\prime }=1$). This is not surprising, given that, in the first case, random distractors are likely to be the easiest category (and the opposite for distractors close in space), but suggests that RoBERTa might only be getting the easiest cases correct. Model performance also clearly degrades for hypernymy and hyponymy across all models as the number of hops $k$ increases (see red dashed boxes). For example, problems that involve hyponym reasoning with sister distractors of distance $k^{\\prime }=1$ (i.e., the second column) degrades from 47% to 15% when the number of hops $k$ increases from 1 to 4. This general tendency persists even after additional fine-tuning, as we discuss next, and gives evidence that models are limited in their capacity for certain types of multi-hop inferences. As discussed by BIBREF26, the choice of generation templates can have a significant effect on model performance. The results so far should therefore be regarded as a lower bound on model competence. It is possible that model performance is high for definitions, for example, because the associated templates best align with the science training distribution (which we know little about). For this reason, the subsequent inoculation step is important\u2014it gives the model an opportunity to learn about our target templates and couple this learned knowledge with its general knowledge acquired during pre-training and science training (which is, again, what we aim to probe). Results and Findings ::: Can Models Be Effectively Inoculated? Model performance after",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e19": {
+      "text": "additional fine-tuning, or inoculation, is shown in the last 3 rows of Table TABREF25, along with learning curves shown in Figure FIGREF29 for a selection of probes and models. In the former case, the performance represents the model (and inoculation amount) with the highest aggregate performance over the old task and new probe. Here we again see the transformer-based models outperform non-transformer models, and that better models correlate with lower inoculation costs. For example, when inoculating on synonymy, the cost for ESIM is around 7% reduced accuracy on its original task, as opposed to $< 1$% and around 1% for BERT and RoBERTa, respectively. This shows the high capacity for transformer models to absorb new tasks with minimal costs, as also observed in BIBREF22 for NLI. As shown in Figure FIGREF29, transformer models tend to learn most tasks fairly quickly while keeping constant scores on their original tasks (i.e., the flat dashed lines observed in plots 1-4), which gives evidence of high competence. In both cases, add-some inoculation proves to be a cheap and easy way to 1) improve scores on the probing tasks (i.e., the solid black and blue lines in plot 1) and; 2) minimize loss on science (e.g., the blue and black dashed lines in plots 2-4). The opposite is the case for ESIM (plots 5-6); models are generally unable to simultaneously learn individual probes without degrading on their original task, and adding more science data during inoculation confuses models on both tasks. As shown in Figure FIGREF28, RoBERTa is able to significantly improve performance across most categories even after inoculation with a mere 100 examples (the middle plot), which again provides strong evidence of prior competence. As an example, RoBERTa improves on 2-hop hyponymy inference with random distractors by 18% (from 59% to 77%). After 3k examples, the model has high performance on virtually all categories (the same score increases from 59% to 87%), however results still tends to degrade as a function of hop and distractor complexity, as discussed above. Despite the high performance of our transformer models after inoculation, model performance on most probes (with the exception of Definitions) averages around 80% for our best models. This suggests that there is still considerable room for improvement, especially for synonymy and word sense, which is a topic that we discuss more in Section SECREF6. Results and Findings ::: Are Models Consistent across Clusters? Table TABREF32",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Inoculation Results"
+      ],
+      "topic_links": []
+    },
+    "e20": {
+      "text": "shows cluster-level accuracies for the different WordNetQA probes. As with performance across the different inference/distractor categories, these results are mixed. For some probes, such as definitions, our best models appear to be rather robust; e.g., our RoBERTa model has a cluster accuracy of $75\\%$, meaning that it can answer all questions perfectly for 75% of the target concepts and that errors are concentrated on a small minority (25%) of concepts. On synonymy and hypernymy, both BERT and RoBERTa appear robust on the majority of concepts, showing that errors are similarly concentrated. In contrast, our best model on hyponymy has an accuracy of 36%, meaning that its errors are spread across many concepts, thus suggesting less robustness. Table TABREF30 shows a selection of semantic clusters involving ISA reasoning, as well as the model performance over different answers (shown symbolically) and perturbations. For example, in the the second case, the cluster is based around the concept/synset oppose.v.06 and involves 4 inferences and a total 24 questions (i.e., inferences with perturbations). Our weakest model, ESIM, answers only 5 out of 24 questions correctly, whereas RoBERTa gets 21/24. In the other cases, RoBERTa gets all clusters correct, whereas BERT and ESIM get none of them correct. We emphasize that these results only provide a crude look into model consistency and robustness. Recalling again the details in Table TABREF12, probes differ in terms of average size of clusters. Hyponymy, in virtue of having many more questions per cluster, might simply be a much more difficult dataset. In addition, such a strict evaluation does not take into account potential errors inside of clusters, which is an important issue that we discuss in the next section. We leave addressing such issues and coming up with more insightful cluster-based metrics for future work. Discussion and Conclusion We presented several new challenge datasets and a novel methodology for automatically building such datasets from knowledge graphs and taxonomies. We used these to probe state-of-the-art open-domain QA models (centering around models based on variants of BERT). While our general methodology is amendable to any target knowledge resource or QA model/domain, we focus on probing definitions and ISA knowledge using open-source dictionaries and MCQA models trained in the science domain. We find, consistent with recent probing studies BIBREF26, that transformer-based models have a remarkable ability to answer questions that involve complex forms of relational knowledge, both with and without explicit exposure to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Robustness on Probes"
+      ],
+      "topic_links": []
+    },
+    "e21": {
+      "text": "our new target tasks. In the latter case, a newer RoBERTa model trained only on benchmark science tasks is able to outperform several task-specific LSTM-based models trained directly on our probing data. When re-trained on small samples (e.g., 100 examples) of probing data using variations of the lossless inoculation strategy from BIBREF22, RoBERTa is able to master many aspects of our probes with virtually no performance loss on its original QA task. These positive results suggest that transformer-based models, especially models additionally fine-tuned on small samples of synthetic data, can be used in place of task-specific models used for querying relational knowledge, as has already been done for targeted tasks such as word sense disambiguation BIBREF54. Since models seem to already contain considerable amounts of relational knowledge, our simple inoculation strategy, which tries to nudge models to bring out this knowledge explicitly, could serve as a cheaper alternative to recent attempts to build architectures that explicitly incorporate structured knowledge BIBREF55; we see many areas where our inoculation strategy could be improved for such purposes, including having more complex loss functions that manage old and new information, as well as using techniques that take into account network plasticity BIBREF56. The main appeal of using automatically generate datasets is the ability to systematically manipulate and control the complexity of target questions, which allows for more controlled experimentation and new forms of evaluation. Despite the positive results described above, results that look directly at the effect of different types of distractors and the complexity of reasoning show that our best models, even after additional fine-tuning, struggle with certain categories of hard distractors and multi-hop inferences. For some probes, our cluster-based analysis also reveals that errors are widespread across concept clusters, suggesting that models are not always consistent and robust. These results, taken together with our findings about the vulnerability of synthetic datasets to systematic biases, suggest that there is much room for improvement and that the positive results should be taken with a grain of salt. Developing better ways to evaluate semantic clusters and model robustness would be a step in this direction. We emphasize that using synthetic versus naturalistic QA data comes with important trade-offs. While we are able to generate large amounts of systematically controlled data at virtually no cost or need for manual annotation, it is much harder to validate the quality of such data at such a scale and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Inoculation Strategy"
+      ],
+      "topic_links": []
+    },
+    "e22": {
+      "text": "such varying levels of complexity. Conversely, with benchmark QA datasets, it is much harder to perform the type of careful manipulations and cluster-based analyses we report here. While we assume that the expert knowledge we employ, in virtue of being hand-curated by human experts, is generally correct, we know that such resources are fallible and error-prone. Initial crowd-sourcing experiments that look at validating samples of our data show high agreement across probes and that human scores correlate with the model trends across the probe categories. More details of these studies are left for future work.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Benchmark QA Datasets"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Open-domain question-answering refers to a setting where minimal or no contextual knowledge is explicitly provided, requiring substantial background knowledge and reasoning abilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "An ISA relation denotes that one concept is a type of another, such as cooking being a type of learned behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Global warming is defined as a worldwide increase in temperature.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The greenhouse effect may be a reasonable answer in some contexts but is less preferable than global warming in the context of the given question.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Multiple-choice QA involves pragmatic reasoning in selecting optimal answer choices among options.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "A natural question arises about whether state-of-the-art MCQA models possess basic knowledge and reasoning skills despite their success on standard tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Question"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Most existing MCQA datasets are constructed through either expensive crowd-sourcing or hand-engineering, which limits systematic control over question semantics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Systematic tests are required to exhaustively evaluate a model's competence across a broad set of concepts and question perturbations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Knowledge graphs are a type of structured expert knowledge used to construct systematic tests for QA models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Lexical taxonomies are structured expert knowledge sources exploited to systematically construct tests for QA models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The general methodology involves generating synthetic dataset probes from expert knowledge sources to evaluate how well MCQA models perform on new tasks and whether they can be re-trained with minimal performance loss on original tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Synthetic dataset probes are MCQA renderings of target information derived from expert knowledge sources to assess model competence in specific knowledge areas.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The two empirical questions are whether models trained on benchmark tasks perform well on probing tasks and whether they can be re-trained to master new challenges with minimal performance loss on original tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The study focuses on state-of-the-art transformer models BIBREF7, BIBREF9 in the domain of science MCQA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "WordNet is a comprehensive lexical ontology used as a source of expert knowledge in the probing methodology.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Probes are designed to measure model competence in definition, hypernymy, hyponymy, synonymy detection, and word sense disambiguation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The science domain is considered particularly challenging for QA due to its heavy reliance on taxonomic and definitional knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Existing science benchmarks involve widespread use of taxonomic and definitional knowledge, which is fundamental to complex reasoning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Accurately probing QA models via synthetic datasets can be difficult due to the potential for unexpected artifacts in the generated data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Carefully constructed baselines and close data inspection are used to ensure the quality and reliability of the probing data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Transformer-based QA models can recognize certain types of knowledge in probes without additional fine-tuning, even outperforming task-specific models trained directly on the probes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The best model achieves 77% test accuracy on definitions without specialized training, compared to 51% for a task-specific LSTM-based model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The same models can be effectively re-fine-tuned on small samples of probe data, even as few as 100 examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "High performance on probing tasks tends to correlate with a smaller drop in model performance on the original QA task after re-training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The performance of even the best QA models degrades by 8-15% when moving from 1-hop to 2-hop hyponym probes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The accuracy of the best models on the WordNetQA probe drops by 14-44% under cluster-based analysis, which assesses knowledge of multiple facts per concept.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "State-of-the-art QA models have significant room to improve in fundamental building blocks such as definitions and taxonomic hierarchies, which are essential for complex reasoning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Recent work has focused on constructing challenge datasets for probing neural models, primarily in the domain of natural language inference (NLI).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Adversarial generation methods are techniques used to construct data by generating challenging or conflicting examples to improve model robustness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Synthetic data refers to artificially generated data that mimics real-world data and is used to train or evaluate models in a controlled manner.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The methodology of BIBREF22 involves using hand-constructed linguistic fragments to probe NLI models and study model re-training through a variant of the inoculation by fine-tuning strategy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Open-domain MCQA models are multiple-choice question and answer models that operate on unstructured or broad-domain knowledge without predefined contexts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The BERT model and its fine-tuning approach are based on the transformer architecture and are used for understanding and generating human language in context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The transformer architecture is a deep learning model structure that relies on self-attention mechanisms to process sequential data efficiently.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Relational knowledge in large-scale knowledge models refers to structured relationships between entities, such as hypernymy or part-of, stored in knowledge graphs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "WordNet is a lexical database of English words, organized into sets of synonyms called synsets, with semantic relationships such as hypernymy and hyponymy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "GCIDE is a collaborative dictionary of English that provides definitions and linguistic information, used as a source of expert knowledge for constructing probe datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "WordNetQA is a probing dataset constructed from WordNet, consisting of multiple-choice questions derived from its structured knowledge graph.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "DictionaryQA is a probing dataset constructed from GCIDE, consisting of multiple-choice questions derived from its structured knowledge graph.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "A knowledge graph is a structured representation of knowledge, where nodes represent entities and edges represent relationships between them.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Lexical resources are collections of word-level information such as definitions, synonyms, and semantic relationships used to support language understanding and data construction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Crowd annotation is a process where human annotators are used to label or generate data, such as question-answer pairs, for training or evaluation purposes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Automatic data generation involves creating datasets without human annotation, enabling scalable and flexible construction of large, semantically rich question sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The probing methodology involves constructing challenge datasets from expert knowledge sources to evaluate how well language models understand and reason about structured knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Multiple-choice questions consist of a question and a set of answer choices, one of which is correct, used to assess knowledge or reasoning ability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Target inferences are the specific logical or semantic conclusions that are evaluated in probe questions to assess model reasoning capabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Cloze-style probing tasks involve removing a word from a sentence and asking the model to predict it, used to assess the model's understanding of language and knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Fine-tuning on probe QA tasks involves adapting a pre-trained model to perform well on specific question-answering tasks using custom datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "A relation in a triple maps a concept in \\mathcal{C} to a definition in \\mathcal{D} when the relation is def.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "WordNet contains around 117k concepts organized into synsets, each with a gloss, a set of lemmas, and example sentences in about 33k synsets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Hypernymy represents ISA reasoning up a taxonomy and is denoted as ISA^\\uparrow in WordNet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relation"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Hyponymy represents ISA reasoning down a taxonomy and is denoted as ISA^\\downarrow in WordNet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relation"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Synonymy is a semantic relation in WordNet that captures words with similar or identical meanings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relation"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "WordNet includes definitions (glosses) for concepts, enabling the construction of natural language questions that contextualize target concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Many synsets in WordNet have ISA links that express complex taxonomic relationships between concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relation"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The function \\textsc{gen}(\\tau) generates gold question-answer pairs from a set of triples \\tau and question templates \\mathcal{Q}.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The function \\textsc{distr}(\\tau') generates distractor answer choices based on a set of triples \\tau', typically with \\tau \\subset \\tau'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Question templates \\mathcal{Q} are rule-based templates used to generate natural language questions that mimic real-world science benchmark questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Natural language questions are constructed using glosses and example sentences from WordNet to contextualize target concepts in probe datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "A question template is a structured format that introduces a concept c and its lemma l in context using an example sentence s, and then asks for the corresponding WordNet gloss d.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "ISA reasoning involves identifying hypernym or hyponym relationships between concepts c and c' using context and a gloss to provide the gold answer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The rules (isa^r, c, c') in Table TABREF8 cover only direct ISA links from concept c in direction r (upward or downward).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "HOPS(c, r) is the set of all direct and derived ISA relations of concept c in direction r, used to evaluate models' ability to perform multi-hop reasoning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Distractors are generated by selecting four answers close in the WordNet semantic space for each concept c.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Hypernymy tests for concept c are built by drawing distractors from hops(c, \u2193) and the \u2113-deep sister family of c.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The \u2113-deep sister family of a concept c includes c's siblings and all their descendants up to \u2113\u22121 levels deep, denoted hops_{\u2113\u22121}(\u02dcc, \u2193).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The 1-deep sister family of a concept c consists of its siblings, i.e., other children of its parent node.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Distractors for definitions and synonyms are constructed from the set of hops(c, \u2193), the \u2113-deep sister family, and with depth restrictions on sister distractors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Perturbations and semantic clusters are used to systematically investigate model performance across different semantic contexts and distractor sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "DictionaryQA is a dataset created from the GCIDE dictionary, which includes word entries with part-of-speech, definitions, and optional example sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "GCIDE is a comprehensive open-source English dictionary built largely from the Webster's Revised Unabridged Dictionary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Each GCIDE entry consists of a word, its part-of-speech, its definition, and an optional example sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "DictionaryQA centers on word-sense disambiguation by using alternative definitions that represent different word senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "Gold questions and answers in DictionaryQA are generated using the same templates as those used in WordNetQA for definitions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Distractors in DictionaryQA are generated by using alternative definitions representing different word senses or randomly selected definitions to create 5-way multiple choice questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Out of 155k total entries in GCIDE, 33k contain example sentences or usages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "DictionaryQA contains a total of 9k examples, with 3k reserved for training, 3k for development, and 3k for testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "DictionaryQA differs from WordNet probes in that GCIDE lacks ISA relations or explicit synsets, and each unique entry is treated as a distinct word sense.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "A maximum of 3k examples from DictionaryQA are allocated for training, following the practice in BIBREF22.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Large held-out sets in DictionaryQA enable detailed analysis and cluster-based evaluation of model performance on semantic clusters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "BERT-large uncased is a pre-trained language model that uses whole-word masking for tokenization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "RoBERTa-large is a robustly trained variant of the original BERT model, introduced in BIBREF9.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "AllenNLP provides implementations of models used in the system, specifically for the baseline models in MCQA tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Huggingface provides implementations of models used in the system, specifically for the baseline models in MCQA tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "MCQA baseline models are models inspired by LSTM-based architectures used in NLI and partial-input baselines.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "BiLSTM is a bidirectional long short-term memory network that encodes a sequence of tokens into a contextual representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "A contextual representation is built by applying an element-wise max operation over the hidden states of a BiLSTM encoding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "A Choice-Only model scores each answer choice using a learned weight vector and assigns a probability proportional to the exponential of a learned score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "A Choice-to-choice model uses a learned attention mechanism to compute similarities between answer choices and selects the one with minimal similarity to others.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "A Question-to-choice model uses contextual representations of questions and choices with an attention mechanism to score answer options.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Systematic biases or annotation artifacts can be introduced during synthetic dataset creation and must be tested to ensure data quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Target datasets must be sufficiently challenging to ensure valid probe performance and avoid trivial or biased results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Partial-input baselines are models trained directly on target probes to detect systematic biases in the data creation process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The score \u03b1^(j)_{q,i} is computed as the attention function Att(r^(j)_q, r^(j)_{c_i}) and belongs to the real numbers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "ESIM BIBREF47 is a model used to generate contextual representations r for question and answer pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The VecSimilarity model computes \u03b1^(j)_{q,i} as the average vector similarity between embedded question and answer tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Model inoculation refers to training a pre-trained model on a small number of examples from a new challenge task to improve performance on that task without re-purposing the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "For each pre-trained science model M_a and architecture, the model is trained on k probe examples (up to 3k) under different hyper-parameter configurations j to identify the best-performing model M_*^{a,k} based on aggregate performance on original and new tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The inoculation process involves varying hyper-parameters such as learning rates, number of iterations, and random seeds to assess model sensitivity and performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Some models may suffer from catastrophic forgetting, where performance on the original task declines after being exposed to new probe data during inoculation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Risk"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "Probe data is used to test a model's ability to learn new tasks while maintaining performance on original tasks, helping to identify model vulnerabilities or strengths.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Models are trained on benchmark tasks in the science domain before being evaluated on probe tasks to establish a baseline performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "Maintaining good performance on the original task during inoculation indicates that the model is robust and can learn new tasks without significant degradation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Indicator"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "A model's inoculation cost is defined as the difference in performance on its original task before and after inoculation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The model is pre-trained on an aggregated training set of benchmark science exams detailed in Table TABREF21.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "An aggregate development set of around 4k science questions is created for evaluating overall science performance and inoculation costs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "All datasets are made 5-way by adding empty answers to handle mismatches in the number of answer choices.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "A variant of inoculation that involves balancing inoculation training sets with naturalistic science questions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The MCQL dataset in Table TABREF21 is reserved for experimenting with balancing probe examples with science examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "A method where each probe example is matched with one science example for balancing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "A method where each probe example is matched with twice as many science questions (up to 3k) for balancing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The standard metric for evaluating MCQA models, defined as the overall accuracy of correct answer prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "A metric that requires a model to correctly answer all questions within a semantic cluster to receive full credit.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Sets of questions and answers under different distractor choices and inference complexities are used to evaluate model robustness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "A concept example involving knowledge that trousers are a type of consumer good and garment/clothing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "The strict cluster metric evaluates model consistency and robustness across different probes and identifies whether errors are concentrated on specific concepts or widespread.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "The strict cluster metric is inspired by work on visual QA as described in BIBREF53.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Inspiration"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Most partial-input baseline models, including Choice-Only and Choice-to-Choice models, failed to perform well on the dataset probes across a wide range of models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Initial versions of the DictionaryQA dataset had unforeseen biases related to whether distractors were sampled from entries without example sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Before filtering, Choice-Only-GloVe scores on the DictionaryQA dataset ranged around 56% accuracy due to biased distractor sampling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The hypernymy probe still achieved high results on BERT and RoBERTa choice-only models even after filtering with a Choice-to-Choice-GloVe model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "Several attempts were made to de-duplicate splits in terms of gold answers and distractor types to address biases in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "There is a large gap in performance between BERT and RoBERTa versus GloVe choice-only models, indicating a need for better partial-input baselines.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "Task-specific QA models trained directly on probes, such as LSTM-based Question-to-Choice models, show weak performance across all datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The VecSimilarity model, which uses pre-trained Word2Vec embeddings, performs poorly, indicating that elementary lexical matching strategies are insufficient for probing tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "Science models using non-transformer encoders like ESIM with GloVe and ELMO perform poorly, scoring near random chance on all probes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "RoBERTa models achieve a test accuracy of 77% on definitions and synonymy probes, showing strong performance compared to other models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "RoBERTa outperforms several task-specific LSTM models trained directly on the probes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "RoBERTa has high competence in definitions and synonyms even without explicit training on the new tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The ESIM science model without training performs uniformly poorly across all categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "RoBERTa shows consistently highest performance on examples with random distractors and lowest performance on distractors close in WordNet space (e.g., sister and ISA, or up/down with distance k'=1).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "Model performance degrades as the number of hops k increases, with hyponym reasoning problems dropping from 47% to 15% when k increases from 1 to 4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "The choice of generation templates can significantly affect model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "Model performance is considered a lower bound on model competence due to potential alignment between templates and the science training distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "The inoculation step allows the model to learn target templates and combine them with general knowledge from pre-training and science training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "Transformer-based models outperform non-transformer models in performance after inoculation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "Better models correlate with lower inoculation costs, as demonstrated by ESIM, BERT, and RoBERTa showing reduced accuracy degradation on original tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "ESIM shows significant degradation on its original task when inoculated with additional science data, and struggles to learn new probes without performance loss.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "RoBERTa improves performance on 2-hop hyponymy inference by 18% after inoculation with 100 examples, reaching 77% accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "After inoculation with 3k examples, RoBERTa achieves high performance across most probe categories, with accuracy increasing from 59% to 87%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "The average performance of the best models on most probes is around 80%, with notable gaps in synonymy and word sense.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "RoBERTa significantly improves performance across most categories after inoculation with just 100 examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "After inoculation with 3k examples, RoBERTa achieves high performance on virtually all probe categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "Model performance tends to degrade as a function of hop and distractor complexity in probe tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "Synonymy remains a challenging probe task, with limited improvement in model performance despite inoculation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "Word sense is a particularly difficult area for models, indicating room for further improvement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "RoBERTa has a cluster accuracy of 75% on definitions, indicating it can answer all questions perfectly for 75% of target concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "RoBERTa achieves 21 out of 24 correct answers in a cluster centered on oppose.v.06 involving hyponymy and perturbations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "RoBERTa gets all semantic clusters correct in most cases, while BERT and ESIM get none correct.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "BERT shows robustness on synonymy and hypernymy, with errors concentrated on a small minority of concepts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "ESIM answers only 5 out of 24 questions correctly in a cluster based on oppose.v.06.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "The best model on hyponymy has an accuracy of 36%, indicating errors are spread across many concepts and suggesting less robustness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "Transformer-based models show robustness in answering definition-based questions, with high cluster accuracy for RoBERTa.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "ISA reasoning refers to hierarchical relationships in knowledge graphs, such as hypernymy and hyponymy, used in semantic cluster evaluations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "Cluster accuracy measures the proportion of target concepts for which a model answers all questions correctly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "Hyponymy has a larger average cluster size, which may make it a more difficult dataset compared to other probe types.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "The probing methodology involves automatically building QA datasets from knowledge graphs and taxonomies to evaluate model performance on specific semantic relations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "A RoBERTa model trained only on benchmark science tasks outperforms several task-specific LSTM-based models trained on probing data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "When re-trained on small samples (e.g., 100 examples) of probing data using lossless inoculation, RoBERTa maintains performance on its original QA task while mastering many aspects of the probes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "Transformer-based models, especially those fine-tuned on small samples of synthetic data, can replace task-specific models for querying relational knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "The inoculation strategy nudges models to explicitly reveal relational knowledge they already contain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "The inoculation strategy could be improved with more complex loss functions that manage old and new information and techniques that consider network plasticity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Improvement"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "Synthetic datasets allow systematic manipulation and control of question complexity, enabling more controlled experimentation and evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s164": {
+      "text": "Even after fine-tuning, the best models struggle with certain categories of hard distractors and multi-hop inferences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s165": {
+      "text": "Errors in some probes are widespread across concept clusters, indicating inconsistent and non-robust model behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s166": {
+      "text": "Synthetic QA data enables large-scale, low-cost generation with controlled complexity but is harder to validate at scale and across complexity levels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Trade-off"
+      ],
+      "topic_links": []
+    },
+    "s167": {
+      "text": "Benchmark QA datasets are harder to manipulate systematically or analyze via cluster-based methods compared to synthetic data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s168": {
+      "text": "The expert knowledge used in generating probes is assumed to be generally correct, though it is acknowledged to be fallible and error-prone.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Assumption"
+      ],
+      "topic_links": []
+    },
+    "s169": {
+      "text": "Initial crowd-sourcing experiments show high agreement across probes and strong correlation between human scores and model trends.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1% accuracy reduction",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "1-deep sister family",
+      "Definition",
+      "s67"
+    ],
+    [
+      "1-deep sister family",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "1-hop links",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "100 examples",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "100 examples",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "117k concepts",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "14-44% accuracy drop",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "15%",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "2-hop hyponymy inference",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "2-hops",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "21/24",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "33k entries",
+      "Property",
+      "s76"
+    ],
+    [
+      "36%",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "3k examples",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "3k science questions",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "3k training examples",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "47%",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "4k science questions",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "5-way",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "5-way multiple choice",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "5-way multiple-choice problems",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "5/24",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "51%",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "59% to 77% improvement",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "59% to 87% improvement",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "61%",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "7% accuracy reduction",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "75%",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "77%",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "9k examples",
+      "Property",
+      "s77"
+    ],
+    [
+      "9k total examples",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "AllenNLP",
+      "Definition",
+      "s83"
+    ],
+    [
+      "AllenNLP",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "Att(r^(j)_q, r^(j)_c_i)",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "BERT",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "BERT",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "BERT",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "BERT",
+      "Property",
+      "s150"
+    ],
+    [
+      "BERT and RoBERTa choice-only models",
+      "Result",
+      "s123"
+    ],
+    [
+      "BERT encoder",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "BERT model and fine-tuning approach",
+      "Property",
+      "s33"
+    ],
+    [
+      "BERT models",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "BERT-large uncased",
+      "Definition",
+      "s81"
+    ],
+    [
+      "BERT-large uncased",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "BIBREF",
+      "Natural Language Inference",
+      "e6"
+    ],
+    [
+      "BIBREF14",
+      "Natural Language Inference",
+      "e6"
+    ],
+    [
+      "BIBREF15",
+      "Natural Language Inference",
+      "e6"
+    ],
+    [
+      "BIBREF2",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "BIBREF22",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "BIBREF22",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "BIBREF22",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "BIBREF22 methodology",
+      "Property",
+      "s31"
+    ],
+    [
+      "BIBREF23",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "BIBREF25",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "BIBREF26",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "BIBREF26",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "BIBREF3",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "BIBREF38",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "BIBREF4",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "BIBREF49",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "BIBREF5",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "BIBREF53",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "BIBREF54",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "BIBREF55",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "BIBREF56",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "BIBREF6",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "BIBREF6",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "BIBREF7",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "BIBREF7",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "BIBREF7",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "BIBREF8",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "BIBREF9",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "BiLSTM",
+      "Definition",
+      "s86"
+    ],
+    [
+      "BiLSTM",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "CLS token",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "Choice-Only and Choice-to-Choice models",
+      "Result",
+      "s118"
+    ],
+    [
+      "Choice-Only model",
+      "Definition",
+      "s88"
+    ],
+    [
+      "Choice-Only model",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "Choice-Only models",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "Choice-Only-GloVe",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "Choice-Only-GloVe scores",
+      "Result",
+      "s120"
+    ],
+    [
+      "Choice-to-Choice models",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "Choice-to-choice model",
+      "Definition",
+      "s89"
+    ],
+    [
+      "Choice-to-choice model",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "DictionaryQA",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "DictionaryQA",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "DictionaryQA",
+      "Definition",
+      "s39"
+    ],
+    [
+      "DictionaryQA",
+      "Definition",
+      "s70"
+    ],
+    [
+      "DictionaryQA dataset",
+      "Cause",
+      "s119"
+    ],
+    [
+      "DictionaryQA dataset",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "ELMO embeddings",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "ESIM",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "ESIM",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "ESIM",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "ESIM",
+      "Property",
+      "s151"
+    ],
+    [
+      "ESIM",
+      "Result",
+      "s138"
+    ],
+    [
+      "ESIM BIBREF47",
+      "Definition",
+      "s95"
+    ],
+    [
+      "ESIM BIBREF47",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "ESIM model",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "ESIM model",
+      "Result",
+      "s126"
+    ],
+    [
+      "ESIM science model",
+      "Result",
+      "s130"
+    ],
+    [
+      "Figure FIGREF1",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "Figure FIGREF1",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "Figure FIGREF28",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "Figure FIGREF28",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "Figure FIGREF29",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "Figure FIGREF6",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "G",
+      "Mathematical Notation",
+      "e9"
+    ],
+    [
+      "GCIDE",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "GCIDE",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "GCIDE",
+      "Definition",
+      "s71"
+    ],
+    [
+      "GCIDE entry",
+      "Property",
+      "s72"
+    ],
+    [
+      "GNU Collaborative International Dictionary of English",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "GNU Collaborative International Dictionary of English (GCIDE)",
+      "Definition",
+      "s37"
+    ],
+    [
+      "GloVe embeddings",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "HOPS(c, r)",
+      "Definition",
+      "s63"
+    ],
+    [
+      "Huggingface",
+      "Definition",
+      "s84"
+    ],
+    [
+      "Huggingface",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "ISA",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "ISA links",
+      "Relation",
+      "s55"
+    ],
+    [
+      "ISA links",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "ISA reasoning",
+      "Definition",
+      "s154"
+    ],
+    [
+      "ISA reasoning",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "ISA reasoning",
+      "Property",
+      "s61"
+    ],
+    [
+      "ISA reasoning",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "ISA relation",
+      "Definition",
+      "s2"
+    ],
+    [
+      "ISA relation",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "ISA$^\\uparrow $",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "LSTM models",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "LSTM-based Question-to-Choice models",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "LSTM-based Question-to-Choice models",
+      "Result",
+      "s124"
+    ],
+    [
+      "LSTM-based model",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "LSTM-based models",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "LSTM-based models",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "M*_a,k",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "MCQA",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "MCQA baseline models",
+      "Definition",
+      "s85"
+    ],
+    [
+      "MCQA baseline models",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "MCQA datasets",
+      "Cause",
+      "s7"
+    ],
+    [
+      "MCQA model",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "MCQL dataset",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "MCQL dataset",
+      "Property",
+      "s109"
+    ],
+    [
+      "NLI",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "QA models",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "Question-to-choice model",
+      "Definition",
+      "s90"
+    ],
+    [
+      "Question-to-choice model",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "Related Work",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "RoBERTa",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "RoBERTa",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "RoBERTa",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "RoBERTa",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "RoBERTa",
+      "Property",
+      "s128"
+    ],
+    [
+      "RoBERTa",
+      "Property",
+      "s147"
+    ],
+    [
+      "RoBERTa",
+      "Property",
+      "s148"
+    ],
+    [
+      "RoBERTa",
+      "Property",
+      "s149"
+    ],
+    [
+      "RoBERTa",
+      "Result",
+      "s129"
+    ],
+    [
+      "RoBERTa",
+      "Result",
+      "s131"
+    ],
+    [
+      "RoBERTa",
+      "Result",
+      "s139"
+    ],
+    [
+      "RoBERTa",
+      "Result",
+      "s140"
+    ],
+    [
+      "RoBERTa accuracy 77%",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "RoBERTa model",
+      "Property",
+      "s158"
+    ],
+    [
+      "RoBERTa model",
+      "Result",
+      "s159"
+    ],
+    [
+      "RoBERTa models",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "RoBERTa models",
+      "Result",
+      "s127"
+    ],
+    [
+      "RoBERTa-large",
+      "Definition",
+      "s82"
+    ],
+    [
+      "RoBERTa-large",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "Section SECREF13",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "Section SECREF22",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "Section SECREF24",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "Section SECREF5",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "Section SECREF6",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "Sim(embed(q^(j)), embed(c^(j)_i))",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "TABREF12",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "TABREF12",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "TABREF14",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "TABREF30",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "TABREF8",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "T_i",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "Table TABREF14",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "Table TABREF21",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "Table TABREF21",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "Table TABREF25",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "Table TABREF25",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e7"
+    ],
+    [
+      "VecSimilarity",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "VecSimilarity",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "VecSimilarity model",
+      "Definition",
+      "s96"
+    ],
+    [
+      "VecSimilarity model",
+      "Result",
+      "s125"
+    ],
+    [
+      "Webster's Revised Unabridged Dictionary",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "Word-sense disambiguation",
+      "Result",
+      "s73"
+    ],
+    [
+      "Word2Vec embeddings",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "WordNet",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "WordNet",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "WordNet",
+      "Definition",
+      "s15"
+    ],
+    [
+      "WordNet",
+      "Definition",
+      "s36"
+    ],
+    [
+      "WordNet",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "WordNet",
+      "Property",
+      "s50"
+    ],
+    [
+      "WordNet",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "WordNet BIBREF35",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "WordNet gloss d",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "WordNet probes",
+      "Comparison",
+      "s78"
+    ],
+    [
+      "WordNet space",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "WordNetQA",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "WordNetQA",
+      "Definition",
+      "s38"
+    ],
+    [
+      "WordNetQA",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "WordNetQA",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "WordNetQA",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "WordNetQA probe",
+      "Result",
+      "s26"
+    ],
+    [
+      "\\textsc{distr}(\\tau')",
+      "Function",
+      "s57"
+    ],
+    [
+      "\\textsc{gen}(\\tau)",
+      "Function",
+      "s56"
+    ],
+    [
+      "a1 to aN",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "add-some inoculation",
+      "Definition",
+      "s108"
+    ],
+    [
+      "add-some inoculation",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "additional fine-tuning",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "adversarial generation methods",
+      "Definition",
+      "s29"
+    ],
+    [
+      "aggregate development set",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "aggregate performance S",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "aggregated training set",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "annotation artifacts",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "answer choices",
+      "Cause",
+      "s107"
+    ],
+    [
+      "answer choices",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "answer choices",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "approaches",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "atomic concepts",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "attention mechanism Att",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "automatic data generation",
+      "Property",
+      "s43"
+    ],
+    [
+      "automatic dataset construction",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "benchmark QA datasets",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "benchmark QA datasets",
+      "Limitation",
+      "s167"
+    ],
+    [
+      "benchmark science exams",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "benchmark tasks",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "benchmark tasks",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "benchmark tasks",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "best model on definitions",
+      "Result",
+      "s22"
+    ],
+    [
+      "c \u2192\u2191/\u2193 c'",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "careful manipulations",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "carefully constructed baselines",
+      "Method",
+      "s20"
+    ],
+    [
+      "catastrophic forgetting",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "catastrophic forgetting",
+      "Risk",
+      "s100"
+    ],
+    [
+      "challenge datasets",
+      "Challenge Dataset Construction",
+      "e5"
+    ],
+    [
+      "challenge datasets for probing neural models",
+      "Related Work",
+      "s28"
+    ],
+    [
+      "choice-only baseline models",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "classification parameters",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "cloze-style probing tasks",
+      "Definition",
+      "s47"
+    ],
+    [
+      "cluster accuracy",
+      "Definition",
+      "s155"
+    ],
+    [
+      "cluster accuracy",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "cluster-based analyses",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "cluster-based analysis",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "cluster-level accuracy",
+      "Definition",
+      "s113"
+    ],
+    [
+      "cluster-level accuracy",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "cluster-level accuracy metric",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "complex forms of reasoning",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "concept c",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "concept clusters",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "concept clusters",
+      "Result",
+      "s165"
+    ],
+    [
+      "concepts",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "contextual representation",
+      "Definition",
+      "s87"
+    ],
+    [
+      "contextual representation",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "contributions",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "cooking",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "crowd annotation",
+      "Definition",
+      "s42"
+    ],
+    [
+      "crowd-sourcing experiments",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "crowd-sourcing experiments",
+      "Result",
+      "s169"
+    ],
+    [
+      "definition generation",
+      "Method",
+      "s74"
+    ],
+    [
+      "definition of concept",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "definitions",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "definitions",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "definitions",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "definitions",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "definitions",
+      "Property",
+      "s54"
+    ],
+    [
+      "definitions",
+      "Result",
+      "s153"
+    ],
+    [
+      "definitions",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "definitions and synonyms",
+      "Property",
+      "s68"
+    ],
+    [
+      "definitions probe",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "development set",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "development set",
+      "Property",
+      "s106"
+    ],
+    [
+      "dictionary entries",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "dictionary resources",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "direct ISA links",
+      "Result",
+      "s62"
+    ],
+    [
+      "directed edge-labeled graph G",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "distance k' = 1",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "distr(c', \u03c4')",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "distractor choices",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "distractor de-duplication",
+      "Action",
+      "s122"
+    ],
+    [
+      "distractor generation",
+      "Method",
+      "s75"
+    ],
+    [
+      "distractor generation",
+      "Process",
+      "s64"
+    ],
+    [
+      "distractor perturbations",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "distractors",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "distractors",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "element-wise max operation",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "embedding function",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "empirical questions",
+      "Property",
+      "s13"
+    ],
+    [
+      "empty answers",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "example sentence s",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "example sentences",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "example sentences",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "example sentences",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "existing methods",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "existing science benchmarks",
+      "Property",
+      "s18"
+    ],
+    [
+      "expert knowledge",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "expert knowledge sources",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "expert-curated knowledge",
+      "Assumption",
+      "s168"
+    ],
+    [
+      "facts",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "field",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "filtering step",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "fine-tuning on probe QA tasks",
+      "Property",
+      "s48"
+    ],
+    [
+      "fundamental building blocks",
+      "Property",
+      "s27"
+    ],
+    [
+      "general methodology",
+      "Definition",
+      "s11"
+    ],
+    [
+      "generation templates",
+      "Cause",
+      "s133"
+    ],
+    [
+      "generation templates",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "global warming",
+      "Definition",
+      "s3"
+    ],
+    [
+      "global warming",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "gloss",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "greenhouse effect",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "greenhouse effect",
+      "Property",
+      "s4"
+    ],
+    [
+      "hand-curated",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "hard distractors and multi-hop inferences",
+      "Limitation",
+      "s164"
+    ],
+    [
+      "held-out sets",
+      "Purpose",
+      "s80"
+    ],
+    [
+      "hidden state dimension h",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "hidden state representation",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "hops(c,\u2191)",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "hops(c,\u2193)",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "hops_\u2113\u22121(\u0109,\u2193)",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "human activity",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "human experts",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "human scores",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "hyper-parameter configurations",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "hyper-parameter configurations",
+      "Property",
+      "s99"
+    ],
+    [
+      "hypernym",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "hypernym/hyponym",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "hypernymy",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "hypernymy",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "hypernymy",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "hypernymy",
+      "Relation",
+      "s51"
+    ],
+    [
+      "hypernymy",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "hypernymy and hyponymy",
+      "Result",
+      "s132"
+    ],
+    [
+      "hypernymy probe",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "hypernymy probe",
+      "Result",
+      "s121"
+    ],
+    [
+      "hypernymy tests",
+      "Cause",
+      "s65"
+    ],
+    [
+      "hyponym probes",
+      "Result",
+      "s25"
+    ],
+    [
+      "hyponymy",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "hyponymy",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "hyponymy",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "hyponymy",
+      "Property",
+      "s156"
+    ],
+    [
+      "hyponymy",
+      "Relation",
+      "s52"
+    ],
+    [
+      "hyponymy",
+      "Result",
+      "s152"
+    ],
+    [
+      "hyponymy",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "individual concept",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "inference complexity",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "inferential hops",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "inoculated task",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "inoculation",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "inoculation",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "inoculation cost",
+      "Definition",
+      "s104"
+    ],
+    [
+      "inoculation cost",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "inoculation cost",
+      "Property",
+      "s137"
+    ],
+    [
+      "inoculation methodology",
+      "Process",
+      "s98"
+    ],
+    [
+      "inoculation step",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "inoculation step",
+      "Purpose",
+      "s135"
+    ],
+    [
+      "inoculation strategy",
+      "Cause",
+      "s161"
+    ],
+    [
+      "inoculation strategy",
+      "Improvement",
+      "s162"
+    ],
+    [
+      "inoculation with 100 examples",
+      "Result",
+      "s142"
+    ],
+    [
+      "inoculation with 3k examples",
+      "Result",
+      "s143"
+    ],
+    [
+      "instance-level accuracy",
+      "Definition",
+      "s112"
+    ],
+    [
+      "instance-level accuracy",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "isa\u2191",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "isolated questions",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "k = 3k",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "knowledge graph",
+      "Definition",
+      "s40"
+    ],
+    [
+      "knowledge graphs",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "knowledge graphs",
+      "Resource",
+      "s9"
+    ],
+    [
+      "learned behavior",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "learning rates",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "lemma l",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "lemmas",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "lexical resources",
+      "Definition",
+      "s41"
+    ],
+    [
+      "lexical taxonomies",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "lexical taxonomies",
+      "Resource",
+      "s10"
+    ],
+    [
+      "literature",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "lossless inoculation strategy",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "lossless inoculation strategy",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "minimal performance loss",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "model",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "model inoculation",
+      "Definition",
+      "s97"
+    ],
+    [
+      "model performance",
+      "Definition",
+      "s134"
+    ],
+    [
+      "model performance",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "model performance on original task",
+      "Indicator",
+      "s103"
+    ],
+    [
+      "model performance on probes",
+      "Property",
+      "s141"
+    ],
+    [
+      "model pre-training",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "model robustness",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "model trends",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "models",
+      "Natural Language Inference",
+      "e6"
+    ],
+    [
+      "multi-hop inferences",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "multiple-choice QA",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "multiple-choice QA (MCQA)",
+      "Property",
+      "s5"
+    ],
+    [
+      "multiple-choice questions",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "multiple-choice questions (MCQs)",
+      "Definition",
+      "s45"
+    ],
+    [
+      "natural language inference (NLI)",
+      "Natural Language Inference",
+      "e6"
+    ],
+    [
+      "natural language questions",
+      "Result",
+      "s59"
+    ],
+    [
+      "natural language questions",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "naturalistic QA data",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "network plasticity",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "neural",
+      "Challenge Dataset Construction",
+      "e5"
+    ],
+    [
+      "number of hops k",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "number of iterations",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "open-domain MCQA models",
+      "Definition",
+      "s32"
+    ],
+    [
+      "open-domain question-answering",
+      "Definition",
+      "s1"
+    ],
+    [
+      "open-domain setting",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "oppose.v.06",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "original task",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "original task",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "original task",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "part-of-speech",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "partial-input baselines",
+      "Definition",
+      "s93"
+    ],
+    [
+      "partial-input baselines",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "performance degradation",
+      "Cause",
+      "s144"
+    ],
+    [
+      "performance drop on original task",
+      "Property",
+      "s24"
+    ],
+    [
+      "perturbations",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "perturbations",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "pre-training",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "pre-training",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "pre-training dataset",
+      "Property",
+      "s105"
+    ],
+    [
+      "prior studies",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "probe categories",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "probe data",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "probe data",
+      "Use",
+      "s101"
+    ],
+    [
+      "probes",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "probes for definition and taxonomic knowledge",
+      "Property",
+      "s16"
+    ],
+    [
+      "probing data",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "probing datasets",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "probing methodology",
+      "Definition",
+      "s157"
+    ],
+    [
+      "probing methodology",
+      "Definition",
+      "s44"
+    ],
+    [
+      "probing methodology",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "probing tasks",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "question perturbations",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "question q",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "question template",
+      "Definition",
+      "s60"
+    ],
+    [
+      "question templates",
+      "Mathematical Notation",
+      "e9"
+    ],
+    [
+      "question templates \\mathcal{Q}",
+      "Definition",
+      "s58"
+    ],
+    [
+      "random distractors",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "random seeds",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "re-fine-tuning",
+      "Method",
+      "s23"
+    ],
+    [
+      "re-trained",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "recent work",
+      "Challenge Dataset Construction",
+      "e5"
+    ],
+    [
+      "relation",
+      "Definition",
+      "s49"
+    ],
+    [
+      "relational knowledge in large-scale knowledge models",
+      "Definition",
+      "s35"
+    ],
+    [
+      "relations R",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "research papers",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "rule templates",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "science MCQA",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "science benchmarks",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "science domain",
+      "Cause",
+      "s17"
+    ],
+    [
+      "science domain",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "science domain",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "science domain",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "science domain benchmark tasks",
+      "Training",
+      "s102"
+    ],
+    [
+      "science task",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "science training",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "score \u03b1^(j)_{q,i}",
+      "Definition",
+      "s94"
+    ],
+    [
+      "score \u03b1^(j)_{q,i}",
+      "Model Inoculation Methodology",
+      "e15"
+    ],
+    [
+      "semantic clusters",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "semantic clusters",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "semantic clusters",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "semantic clusters",
+      "Property",
+      "s114"
+    ],
+    [
+      "semantic clusters",
+      "Result",
+      "s69"
+    ],
+    [
+      "semantic clusters",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "sentences",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "set",
+      "Mathematical Notation",
+      "e9"
+    ],
+    [
+      "sister",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "small samples",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "standard random splitting",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "state-of-the-art MCQA models",
+      "Question",
+      "s6"
+    ],
+    [
+      "state-of-the-art QA models",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "strict cluster metric",
+      "Purpose",
+      "s116"
+    ],
+    [
+      "structured knowledge",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "synonyms",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ],
+    [
+      "synonymy",
+      "Model Inoculation Results",
+      "e19"
+    ],
+    [
+      "synonymy",
+      "Model Robustness on Probes",
+      "e20"
+    ],
+    [
+      "synonymy",
+      "Property",
+      "s145"
+    ],
+    [
+      "synonymy",
+      "Relation",
+      "s53"
+    ],
+    [
+      "synonymy",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "synonymy detection",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "synonymy probe",
+      "Probe Challenge Results",
+      "e17"
+    ],
+    [
+      "synsets",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "synsets",
+      "WordNetQA Probe Generation",
+      "e10"
+    ],
+    [
+      "synthetic data",
+      "Definition",
+      "s30"
+    ],
+    [
+      "synthetic data",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "synthetic dataset probes",
+      "Definition",
+      "s12"
+    ],
+    [
+      "synthetic dataset probes",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "synthetic datasets",
+      "Property",
+      "s163"
+    ],
+    [
+      "synthetic vs. naturalistic QA data",
+      "Trade-off",
+      "s166"
+    ],
+    [
+      "systematic biases",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "systematic biases",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "systematic biases",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "systematic biases",
+      "Property",
+      "s91"
+    ],
+    [
+      "systematic tests",
+      "MCQA Knowledge Testing",
+      "e1"
+    ],
+    [
+      "systematic tests",
+      "Purpose",
+      "s8"
+    ],
+    [
+      "target datasets",
+      "Property",
+      "s92"
+    ],
+    [
+      "target inferences",
+      "Property",
+      "s46"
+    ],
+    [
+      "target probe",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "taxonomic hierarchies",
+      "Model Reasoning Limits",
+      "e3"
+    ],
+    [
+      "techniques",
+      "Related Work",
+      "e4"
+    ],
+    [
+      "test accuracy",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "testing set",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "training allocation",
+      "Property",
+      "s79"
+    ],
+    [
+      "transformer architecture",
+      "Definition",
+      "s34"
+    ],
+    [
+      "transformer models",
+      "Example",
+      "s14"
+    ],
+    [
+      "transformer models",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "transformer network",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "transformer-based MCQA models",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "transformer-based QA models",
+      "Result",
+      "s21"
+    ],
+    [
+      "transformer-based models",
+      "Definition",
+      "s160"
+    ],
+    [
+      "transformer-based models",
+      "Result",
+      "s136"
+    ],
+    [
+      "trouser.n.01",
+      "Example",
+      "s115"
+    ],
+    [
+      "trouser.n.01",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "unexpected artifacts",
+      "Result",
+      "s19"
+    ],
+    [
+      "up/down",
+      "Model Performance Analysis",
+      "e18"
+    ],
+    [
+      "validating samples",
+      "Benchmark QA Datasets",
+      "e22"
+    ],
+    [
+      "vector v",
+      "MCQA Task Definition",
+      "e13"
+    ],
+    [
+      "visual QA",
+      "Inspiration",
+      "s117"
+    ],
+    [
+      "visual QA",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "whole-word masking",
+      "Modeling Methodology",
+      "e14"
+    ],
+    [
+      "word sense",
+      "Property",
+      "s146"
+    ],
+    [
+      "word sense disambiguation",
+      "Methodology Probing",
+      "e2"
+    ],
+    [
+      "word sense disambiguation",
+      "Model Inoculation Strategy",
+      "e21"
+    ],
+    [
+      "word-sense disambiguation",
+      "Dataset Probes",
+      "e12"
+    ],
+    [
+      "words",
+      "Dataset Construction",
+      "e8"
+    ],
+    [
+      "x1 matching",
+      "Definition",
+      "s110"
+    ],
+    [
+      "x1 matching",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "x2 matching",
+      "Definition",
+      "s111"
+    ],
+    [
+      "x2 matching",
+      "Model Inoculation Cost",
+      "e16"
+    ],
+    [
+      "\u2113-deep sister family",
+      "Definition",
+      "s66"
+    ],
+    [
+      "\u2113-deep sister family",
+      "WordNetQA Distractor Generation",
+      "e11"
+    ]
+  ]
+}

@@ -1,0 +1,4048 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 127,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "machine translation": {
+      "tag_set": [
+        "Context-Aware Translation",
+        "Definition",
+        "Machine Translation Progress"
+      ]
+    },
+    "human": {
+      "tag_set": [
+        "Machine Translation Progress"
+      ]
+    },
+    "progress": {
+      "tag_set": [
+        "Machine Translation Progress"
+      ]
+    },
+    "studies": {
+      "tag_set": [
+        "Machine Translation Progress"
+      ]
+    },
+    "remarkable": {
+      "tag_set": [
+        "Machine Translation Progress"
+      ]
+    },
+    "parity": {
+      "tag_set": [
+        "Context-Aware Translation"
+      ]
+    },
+    "human translation": {
+      "tag_set": [
+        "Context-Aware Translation"
+      ]
+    },
+    "document-level data": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Context-Aware Translation",
+        "Training Data Effects"
+      ]
+    },
+    "monolingual data": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Context-Aware Translation",
+        "DocRepair Training Dynamics",
+        "Evaluation Metrics",
+        "Property"
+      ]
+    },
+    "sentence-level translations": {
+      "tag_set": [
+        "Context-Aware Translation",
+        "Monolingual Translation Model"
+      ]
+    },
+    "adjacent sentences": {
+      "tag_set": [
+        "Context-Aware Translation"
+      ]
+    },
+    "DocRepair": {
+      "tag_set": [
+        "Context-Aware Translation",
+        "Model Training Effects",
+        "Property",
+        "Requirement",
+        "Training Data Effects"
+      ]
+    },
+    "sequence-to-sequence model": {
+      "tag_set": [
+        "Context-Aware Translation",
+        "Monolingual MT Repair"
+      ]
+    },
+    "context-agnostic translations": {
+      "tag_set": [
+        "Context-Aware Translation",
+        "Definition"
+      ]
+    },
+    "round-trip translations": {
+      "tag_set": [
+        "Context-Aware Translation",
+        "Definition",
+        "Evaluation Metrics",
+        "Model Training Effects",
+        "Result",
+        "Round-Trip Translations",
+        "Training Data Effects"
+      ]
+    },
+    "inconsistent groups": {
+      "tag_set": [
+        "Context-Aware Translation",
+        "Definition"
+      ]
+    },
+    "consistent groups": {
+      "tag_set": [
+        "Context-Aware Translation"
+      ]
+    },
+    "original training data": {
+      "tag_set": [
+        "Context-Aware Translation"
+      ]
+    },
+    "BLEU score": {
+      "tag_set": [
+        "Definition",
+        "Evaluation Method",
+        "Evaluation Metrics",
+        "Test Set Design"
+      ]
+    },
+    "contrastive evaluation": {
+      "tag_set": [
+        "Evaluation Method",
+        "Evaluation Metrics",
+        "Monolingual MT Repair"
+      ]
+    },
+    "discourse phenomena": {
+      "tag_set": [
+        "Evaluation Metrics",
+        "Monolingual MT Repair",
+        "Monolingual Translation Model",
+        "Property"
+      ]
+    },
+    "deixis": {
+      "tag_set": [
+        "Definition",
+        "Discourse Phenomenon",
+        "DocRepair Training Dynamics",
+        "Evaluation Metrics",
+        "Model Training Effects",
+        "Result",
+        "Test Set Design"
+      ]
+    },
+    "lexical cohesion": {
+      "tag_set": [
+        "Definition",
+        "Discourse Phenomenon",
+        "Evaluation Metrics",
+        "Model Training Effects",
+        "Result",
+        "Test Set Design"
+      ]
+    },
+    "VP ellipsis": {
+      "tag_set": [
+        "Discourse Phenomenon",
+        "Evaluation Metrics",
+        "Model Training Effects",
+        "Property",
+        "Result",
+        "Training Data Effects"
+      ]
+    },
+    "ellipsis which affects NP inflection": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "genuine document-level parallel data": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "four phenomena": {
+      "tag_set": [
+        "Evaluation Metrics"
+      ]
+    },
+    "test sets": {
+      "tag_set": [
+        "Definition",
+        "Evaluation Metrics"
+      ]
+    },
+    "our": {
+      "tag_set": [
+        "Round-Trip Translations"
+      ]
+    },
+    "context-aware machine translation": {
+      "tag_set": [
+        "Definition",
+        "Monolingual MT Repair",
+        "Monolingual Translation Model"
+      ]
+    },
+    "monolingual document-level data": {
+      "tag_set": [
+        "Definition",
+        "Monolingual MT Repair",
+        "Monolingual Translation Model"
+      ]
+    },
+    "BLEU": {
+      "tag_set": [
+        "Monolingual MT Repair",
+        "Monolingual Translation Model"
+      ]
+    },
+    "DocRepair model": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition",
+        "DocRepair Training Dynamics",
+        "Monolingual MT Repair",
+        "Monolingual Translation Model",
+        "Property",
+        "Result"
+      ]
+    },
+    "Transformer": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "round-trip translation": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition",
+        "Monolingual MT Repair"
+      ]
+    },
+    "context-agnostic MT system": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "target-to-source MT model": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "source-to-target MT model": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "document-level translations": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "token-separator": {
+      "tag_set": [
+        "Definition",
+        "Monolingual MT Repair"
+      ]
+    },
+    "English-Russian": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "FIGREF9": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "FIGREF10": {
+      "tag_set": [
+        "Monolingual MT Repair"
+      ]
+    },
+    "four test sets": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "contrastive examples": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "true example": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "contrastive translations": {
+      "tag_set": [
+        "Property",
+        "Test Set Design"
+      ]
+    },
+    "contextual information": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "T-V distinction": {
+      "tag_set": [
+        "Property",
+        "Test Set Design"
+      ]
+    },
+    "Russian translations": {
+      "tag_set": [
+        "Test Set Design",
+        "Training Data Effects"
+      ]
+    },
+    "personal deixis": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "place deixis": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "discourse deixis": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "ellipsis": {
+      "tag_set": [
+        "Definition",
+        "Test Set Design"
+      ]
+    },
+    "clause omission": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "target language": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "source language": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "sentence level": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "test set statistics": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "Table TABREF15": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "500 examples": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "convergence": {
+      "tag_set": [
+        "Test Set Design"
+      ]
+    },
+    "early stopping criteria": {
+      "tag_set": [
+        "Definition",
+        "Test Set Design"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "FIGREF27(b)": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "main verbs": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "auxiliary 'do'": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "Section SECREF34": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "Table TABREF28": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "sentence distance": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "CADec": {
+      "tag_set": [
+        "Comparison",
+        "Model Training Effects",
+        "Requirement",
+        "Training Data Effects"
+      ]
+    },
+    "Table TABREF30": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "700 examples": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "human evaluation": {
+      "tag_set": [
+        "Definition",
+        "Model Training Effects"
+      ]
+    },
+    "baseline translation": {
+      "tag_set": [
+        "DocRepair Training Dynamics",
+        "Model Training Effects"
+      ]
+    },
+    "52%": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "73%": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "5m fragments": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "30m fragments": {
+      "tag_set": [
+        "Model Training Effects"
+      ]
+    },
+    "BLEU scores": {
+      "tag_set": [
+        "DocRepair Training Dynamics",
+        "Model Training Effects",
+        "Result"
+      ]
+    },
+    "consistency scores": {
+      "tag_set": [
+        "DocRepair Training Dynamics",
+        "Model Training Effects"
+      ]
+    },
+    "one-way translations": {
+      "tag_set": [
+        "Definition",
+        "Training Data Effects"
+      ]
+    },
+    "1.5m parallel instances": {
+      "tag_set": [
+        "Training Data Effects"
+      ]
+    },
+    "1m monolingual instances": {
+      "tag_set": [
+        "Training Data Effects"
+      ]
+    },
+    "Table TABREF35": {
+      "tag_set": [
+        "Training Data Effects"
+      ]
+    },
+    "Table TABREF33": {
+      "tag_set": [
+        "Training Data Effects"
+      ]
+    },
+    "Table TABREF36": {
+      "tag_set": [
+        "Training Data Effects"
+      ]
+    },
+    "deictic words": {
+      "tag_set": [
+        "Training Data Effects"
+      ]
+    },
+    "synthetic English data": {
+      "tag_set": [
+        "Training Data Effects"
+      ]
+    },
+    "parallel data": {
+      "tag_set": [
+        "Definition",
+        "DocRepair Training Dynamics",
+        "Property"
+      ]
+    },
+    "sentence pairs": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "relative time overlap": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "subtitle frames": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "reference translation": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "training progress": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "automatic post-editing": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition",
+        "DocRepair Training Dynamics",
+        "Monolingual Translation Model"
+      ]
+    },
+    "document-level machine translation": {
+      "tag_set": [
+        "DocRepair Training Dynamics",
+        "Related Field"
+      ]
+    },
+    "Figure FIGREF38": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "Figure FIGREF42": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "Figure FIGREF43": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "20%": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "40%": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "14%": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "4-sentence fragment": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "systematic MT errors": {
+      "tag_set": [
+        "DocRepair Training Dynamics"
+      ]
+    },
+    "rule-based": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "statistical": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "neural approaches": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "sequence-to-sequence models": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "multi-source architectures": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition"
+      ]
+    },
+    "monolingual repair systems": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition"
+      ]
+    },
+    "synthetic training data": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition"
+      ]
+    },
+    "back-translation": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "sentence-level baseline translation": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Property"
+      ]
+    },
+    "context-aware monolingual repair": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition"
+      ]
+    },
+    "consistency errors": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Cause"
+      ]
+    },
+    "parallel document-level data": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Property"
+      ]
+    },
+    "sentence-level MT systems": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "document-level NMT": {
+      "tag_set": [
+        "Automatic Post-Editing",
+        "Definition"
+      ]
+    },
+    "two-pass models": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "first-pass MT system": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "hidden representations": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF17": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF18": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF20": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "SECREF34": {
+      "tag_set": [
+        "Automatic Post-Editing"
+      ]
+    },
+    "error analysis": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "4 sentences": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "longer contexts": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "anonymous reviewers": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "David Talbot": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "Yandex Machine Translation team": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "Ivan Titov": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "European Research Council": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "ERC StG BroadSem 678254": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "Dutch National Science Foundation": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "NWO VIDI 639.022.518": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "Rico Sennrich": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "Swiss National Science Foundation": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "105212_169888": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "European Union Horizon 2020": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "grant agreement no 825460": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "Royal Society": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "NAF\\R1\\180122": {
+      "tag_set": [
+        "Monolingual Translation Model"
+      ]
+    },
+    "human parity in machine translation": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "human raters' preference": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "document-level parallel data": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ellipsis affecting NP inflection": {
+      "tag_set": [
+        "Discourse Phenomenon"
+      ]
+    },
+    "evaluation of discourse phenomena": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "contrastive test sets": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Transformer model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "test instance": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "system accuracy": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "machine translation challenge": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "noun phrase inflection": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "verb inflection": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "deixis test set": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ellipsis test sets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ellipsis development set": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ellipsis (infl.)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ellipsis (VP)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "named entity translation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "OpenSubtitles2018": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "baseline MT system": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "beam search": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "byte-pair encoding": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "early stopping": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "checkpoint averaging": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Transformer base model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "two-pass CADec": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "first pass": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "second pass": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Russian monolingual data": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "English\u2192Russian model": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "training minibatch for DocRepair": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "token replacement": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Adam optimizer": {
+      "tag_set": [
+        "Parameter"
+      ]
+    },
+    "learning rate scheduling": {
+      "tag_set": [
+        "Formula"
+      ]
+    },
+    "sentence-level repair version of DocRepair": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "improvement in DocRepair": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "VP ellipsis example": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "main verb": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "annotator task": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "human evaluation results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "DocRepair translation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training data size": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "deixis scores": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "deictic words and phrases": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "data filtering": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "translation data quality": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "model trained on parallel data": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "DocRepair training dynamics": {
+      "tag_set": [
+        "Learning Dynamics"
+      ]
+    },
+    "BLEU score with baseline": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BLEU score with reference translation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "model's change reluctance": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "changed sentences in 4-sentence fragments": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sentence modifications in 4-sentence fragments": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "more than half sentences changed": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "consistency scores during training": {
+      "tag_set": [
+        "Learning Dynamics"
+      ]
+    },
+    "rule-based BIBREF17": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "statistical BIBREF18": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "neural approaches BIBREF19, BIBREF20, BIBREF21": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "neural sequence-to-sequence models": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "true post-editing datasets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "back-translation BIBREF23": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "round-trip translation BIBREF19, BIBREF21": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "two-pass models for document-level NMT": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "monolingual document-level training data": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "decoupled from first-pass MT system": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "round-trip translation in DocRepair": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "types of consistency errors": {
+      "tag_set": [
+        "Result"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nMachine translation has made remarkable progress, and studies claiming it to reach a human",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Machine Translation Progress"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "parity are starting to appear BIBREF0. However, when evaluating translations of the whole documents rather than isolated sentences, human raters show a stronger preference for human over machine translation BIBREF1. These findings emphasize the need to shift towards context-aware machine translation both from modeling and evaluation perspective.\nMost previous work on context-aware NMT assumed that either all the bilingual data is available at the document level BIBREF2, BIBREF3, BIBREF4, BIBREF5, BIBREF6, BIBREF7, BIBREF8, BIBREF9, BIBREF10 or at least its fraction BIBREF11. But in practical scenarios, document-level parallel data is often scarce, which is one of the challenges when building a context-aware system.\nWe introduce an approach to context-aware machine translation using only monolingual document-level data. In our setting, a separate monolingual sequence-to-sequence model (DocRepair) is used to correct sentence-level translations of adjacent sentences. The key idea is to use monolingual data to imitate typical inconsistencies between context-agnostic translations of isolated sentences. The DocRepair model is trained to map inconsistent groups of sentences into consistent ones. The consistent groups come from the original training data; the inconsistent groups are obtained by sampling round-trip translations for each isolated sentence.\nTo validate the performance of our",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Context-Aware Translation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "model, we use three kinds of evaluation: the BLEU score, contrastive evaluation of translation of several discourse phenomena BIBREF11, and human evaluation. We show strong improvements for all metrics.\nWe analyze which discourse phenomena are hard to capture using monolingual data only. Using contrastive test sets for targeted evaluation of several contextual phenomena, we compare the performance of the models trained on round-trip translations and genuine document-level parallel data. Among the four phenomena in the test sets we use (deixis, lexical cohesion, VP ellipsis and ellipsis which affects NP inflection) we find VP ellipsis to be the hardest phenomenon to be captured",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Evaluation Metrics"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "using round-trip translations.\nOur",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Round-Trip Translations"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "key contributions are as follows: we introduce the first approach to context-aware machine translation using only monolingual document-level data; our approach shows substantial improvements in translation quality as measured by BLEU, targeted contrastive evaluation of several discourse phenomena and human evaluation; we show which discourse phenomena are hard to capture using monolingual data only. Our Approach: Document-level Repair We propose a monolingual DocRepair model to correct inconsistencies between sentence-level translations of a context-agnostic MT system. It does not use any states of a trained MT model whose outputs it corrects and therefore can in principle be trained to correct translations from any black-box MT system. The DocRepair model requires only monolingual document-level data in the target language. It is a monolingual sequence-to-sequence model that maps inconsistent groups of sentences into consistent ones. Consistent groups come from monolingual document-level data. To obtain inconsistent groups, each sentence in a group is replaced with its round-trip translation produced in isolation from context. More formally, forming a training minibatch for the DocRepair model involves the following steps (see also Figure FIGREF9): sample several groups of sentences from the monolingual data; for each sentence in a group, (i) translate it using a target-to-source MT model, (ii) sample a translation of this back-translated sentence in the source language using a source-to-target MT model; using these round-trip translations of isolated sentences, form an inconsistent version of the initial groups; use inconsistent groups as input for the DocRepair model, consistent ones as output. At test time, the process of getting document-level translations is two-step (Figure FIGREF10): produce translations of isolated sentences using a context-agnostic MT model; apply the DocRepair model to a sequence of context-agnostic translations to correct inconsistencies between translations. In the scope of the current work, the DocRepair model is the standard sequence-to-sequence Transformer. Sentences in a group are concatenated using a reserved token-separator between sentences. The Transformer is trained to correct these long inconsistent pseudo-sentences into consistent ones. The token-separator is then removed from corrected translations. Evaluation of Contextual Phenomena We use contrastive test sets for evaluation of discourse phenomena for English-Russian by BIBREF11. These test sets allow for testing different kinds of phenomena which, as we show, can be captured from monolingual data with varying success. In this section, we provide test sets statistics and briefly describe the tested phenomena. For more details, the reader is referred to BIBREF11. Evaluation of Contextual Phenomena :::",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Monolingual MT Repair"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "Test sets There are four test sets in the suite. Each test set contains contrastive examples. It is specifically designed to test the ability of a system to adapt to contextual information and handle the phenomenon under consideration. Each test instance consists of a true example (a sequence of sentences and their reference translation from the data) and several contrastive translations which differ from the true one only in one specific aspect. All contrastive translations are correct and plausible translations at the sentence level, and only context reveals the inconsistencies between them. The system is asked to score each candidate translation, and we compute the system accuracy as the proportion of times the true translation is preferred to the contrastive ones. Test set statistics are shown in Table TABREF15. The suites for deixis and lexical cohesion are split into development and test sets, with 500 examples from each used for validation purposes and the rest for testing. Convergence of both consistency scores on these development sets and BLEU score on a general development set are used as early stopping criteria in models training. For ellipsis, there is no dedicated development set, so we evaluate on all the ellipsis data and do not use it for development. Evaluation of Contextual Phenomena ::: Phenomena overview Deixis Deictic words or phrases, are referential expressions whose denotation depends on context. This includes personal deixis (\u201cI\u201d, \u201cyou\u201d), place deixis (\u201chere\u201d, \u201cthere\u201d), and discourse deixis, where parts of the discourse are referenced (\u201cthat's a good question\u201d). The test set examples are all related to person deixis, specifically the T-V distinction between informal and formal you (Latin \u201ctu\u201d and \u201cvos\u201d) in the Russian translations, and test for consistency in this respect. Ellipsis Ellipsis is the omission from a clause of one or more words that are nevertheless understood in the context of the remaining elements. In machine translation, elliptical constructions in the source language pose a problem in two situations. First, if the target language does not allow the same types of ellipsis, requiring the elided material to be predicted from context. Second, if the elided material affects the syntax of the sentence. For example, in Russian the grammatical function of a noun phrase, and thus its inflection, may depend on the elided verb, or, conversely, the verb inflection may depend on the elided subject. There are two different test sets for ellipsis. One contains examples where",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Test Set Design"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "a morphological form of a noun group in the last sentence can not be understood without context beyond the sentence level (\u201cellipsis (infl.)\u201d in Table TABREF15). Another includes cases of verb phrase ellipsis in English, which does not exist in Russian, thus requires predicting the verb when translating into Russian (\u201cellipsis (VP)\u201d in Table TABREF15). Lexical cohesion The test set focuses on reiteration of named entities. Where several translations of a named entity are possible, a model has to prefer consistent translations over inconsistent ones. Experimental Setup ::: Data preprocessing We use the publicly available OpenSubtitles2018 corpus BIBREF12 for English and Russian. For a fair comparison with previous work, we train the baseline MT system on the data released by BIBREF11. Namely, our MT system is trained on 6m instances. These are sentence pairs with a relative time overlap of subtitle frames between source and target language subtitles of at least $0.9$. We gathered 30m groups of 4 consecutive sentences as our monolingual data. We used only documents not containing groups of sentences from general development and test sets as well as from contrastive test sets. The main results we report are for the model trained on all 30m fragments. We use the tokenization provided by the corpus and use multi-bleu.perl on lowercased data to compute BLEU score. We use beam search with a beam of 4. Sentences were encoded using byte-pair encoding BIBREF13, with source and target vocabularies of about 32000 tokens. Translation pairs were batched together by approximate sequence length. Each training batch contained a set of translation pairs containing approximately 15000 source tokens. It has been shown that Transformer's performance depends heavily on batch size BIBREF14, and we chose a large batch size to ensure the best performance. In training context-aware models, for early stopping we use both convergence in BLEU score on the general development set and scores on the consistency development sets. After training, we average the 5 latest checkpoints. Experimental Setup ::: Models The baseline model, the model used for back-translation, and the DocRepair model are all Transformer base models BIBREF15. More precisely, the number of layers is $N=6$ with $h = 8$ parallel attention layers, or heads. The dimensionality of input and output is $d_{model} = 512$, and the inner-layer of a feed-forward networks has dimensionality $d_{ff}=2048$. We use regularization as described in BIBREF15. As a second baseline, we use the two-pass CADec",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "model BIBREF11. The first pass produces sentence-level translations. The second pass takes both the first-pass translation and representations of the context sentences as input and returns contextualized translations. CADec requires document-level parallel training data, while DocRepair only needs monolingual training data. Experimental Setup ::: Generating round-trip translations On the selected 6m instances we train sentence-level translation models in both directions. To create training data for DocRepair, we proceed as follows. The Russian monolingual data is first translated into English, using the Russian$\\rightarrow $English model and beam search with beam size of 4. Then, we use the English$\\rightarrow $Russian model to sample translations with temperature of $0{.}5$. For each sentence, we precompute 20 sampled translations and randomly choose one of them when forming a training minibatch for DocRepair. Also, in training, we replace each token in the input with a random one with the probability of $10\\%$. Experimental Setup ::: Optimizer As in BIBREF15, we use the Adam optimizer BIBREF16, the parameters are $\\beta _1 = 0{.}9$, $\\beta _2 = 0{.}98$ and $\\varepsilon = 10^{-9}$. We vary the learning rate over the course of training using the formula: where $warmup\\_steps = 16000$ and $scale=4$. Results ::: General results The BLEU scores are provided in Table TABREF24 (we evaluate translations of 4-sentence fragments). To see which part of the improvement is due to fixing agreement between sentences rather than simply sentence-level post-editing, we train the same repair model at the sentence level. Each sentence in a group is now corrected separately, then they are put back together in a group. One can see that most of the improvement comes from accounting for extra-sentential dependencies. DocRepair outperforms the baseline and CADec by 0.7 BLEU, and its sentence-level repair version by 0.5 BLEU. Results ::: Consistency results Scores on the phenomena test sets are provided in Table TABREF26. For deixis, lexical cohesion and ellipsis (infl.) we see substantial improvements over both the baseline and CADec. The largest improvement over CADec (22.5 percentage points) is for lexical cohesion. However, there is a drop of almost 5 percentage points for VP ellipsis. We hypothesize that this is because it is hard to learn to correct inconsistencies in translations caused by VP ellipsis relying on monolingual data alone. Figure FIGREF27(a) shows an example of inconsistency caused by VP ellipsis in English. There is no VP ellipsis in Russian, and when translating auxiliary \u201cdid\u201d the model has to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "guess the main verb. Figure FIGREF27(b) shows steps of generating round-trip translations for the target side of the previous example. When translating from Russian, main verbs are unlikely to be translated as the auxiliary \u201cdo\u201d in English, and hence the VP ellipsis is rarely present on the English side. This implies the model trained using the round-trip translations will not be exposed to many VP ellipsis examples in training. We discuss this further in Section SECREF34. Table TABREF28 provides scores for deixis and lexical cohesion separately for different distances between sentences requiring consistency. It can be seen, that the performance of DocRepair degrades less than that of CADec when the distance between sentences requiring consistency gets larger. Results ::: Human evaluation We conduct a human evaluation on random 700 examples from our general test set. We picked only examples where a DocRepair translation is not a full copy of the baseline one. The annotators were provided an original group of sentences in English and two translations: baseline context-agnostic one and the one corrected by the DocRepair model. Translations were presented in random order with no indication which model they came from. The task is to pick one of the three options: (1) the first translation is better, (2) the second translation is better, (3) the translations are of equal quality. The annotators were asked to avoid the third answer if they are able to give preference to one of the translations. No other guidelines were given. The results are provided in Table TABREF30. In about $52\\%$ of the cases annotators marked translations as having equal quality. Among the cases where one of the translations was marked better than the other, the DocRepair translation was marked better in $73\\%$ of the cases. This shows a strong preference of the annotators for corrected translations over the baseline ones. Varying Training Data In this section, we discuss the influence of the training data chosen for document-level models. In all experiments, we used the DocRepair model. Varying Training Data ::: The amount of training data Table TABREF33 provides BLEU and consistency scores for the DocRepair model trained on different amount of data. We see that even when using a dataset of moderate size (e.g., 5m fragments) we can achieve performance comparable to the model trained on a large amount of data (30m fragments). Moreover, we notice that deixis scores are less sensitive to the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training Effects"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "amount of training data than lexical cohesion and ellipsis scores. The reason might be that, as we observed in our previous work BIBREF11, inconsistencies in translations due to the presence of deictic words and phrases are more frequent in this dataset than other types of inconsistencies. Also, as we show in Section SECREF7, this is the phenomenon the model learns faster in training. Varying Training Data ::: One-way vs round-trip translations In this section, we discuss the limitations of using only monolingual data to model inconsistencies between sentence-level translations. In Section SECREF25 we observed a drop in performance on VP ellipsis for DocRepair compared to CADec, which was trained on parallel data. We hypothesized that this is due to the differences between one-way and round-trip translations, and now we test this hypothesis. To do so, we fix the dataset and vary the way in which the input for DocRepair is generated: round-trip or one-way translations. The latter assumes that document-level data is parallel, and translations are sampled from the source side of the sentences in a group rather than from their back-translations. For parallel data, we take 1.5m parallel instances which were used for CADec training and add 1m instances from our monolingual data. For segments in the parallel part, we either sample translations from the source side or use round-trip translations. The results are provided in Table TABREF35. The model trained on one-way translations is slightly better than the one trained on round-trip translations. As expected, VP ellipsis is the hardest phenomena to be captured using round-trip translations, and the DocRepair model trained on one-way translated data gains 6% accuracy on this test set. This shows that the DocRepair model benefits from having access to non-synthetic English data. This results in exposing DocRepair at training time to Russian translations which suffer from the same inconsistencies as the ones it will have to correct at test time. Varying Training Data ::: Filtering: monolingual (no filtering) or parallel Note that the scores of the DocRepair model trained on 2.5m instances randomly chosen from monolingual data (Table TABREF33) are different from the ones for the model trained on 2.5m instances combined from parallel and monolingual data (Table TABREF35). For convenience, we show these two in Table TABREF36. The domain, the dataset these two data samples were gathered from, and the way we generated training data for DocRepair (round-trip translations) are all the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Training Data Effects"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "same. The only difference lies in how the data was filtered. For parallel data, as in the previous work BIBREF6, we picked only sentence pairs with large relative time overlap of subtitle frames between source-language and target-language subtitles. This is necessary to ensure the quality of translation data: one needs groups of consecutive sentences in the target language where every sentence has a reliable translation. Table TABREF36 shows that the quality of the model trained on data which came from the parallel part is worse than the one trained on monolingual data. This indicates that requiring each sentence in a group to have a reliable translation changes the distribution of the data, which might be not beneficial for translation quality and provides extra motivation for using monolingual data. Learning Dynamics Let us now look into how the process of DocRepair training progresses. Figure FIGREF38 shows how the BLEU scores with the reference translation and with the baseline context-agnostic translation (i.e. the input for the DocRepair model) are changing during training. First, the model quickly learns to copy baseline translations: the BLEU score with the baseline is very high. Then it gradually learns to change them, which leads to an improvement in BLEU with the reference translation and a drop in BLEU with the baseline. Importantly, the model is reluctant to make changes: the BLEU score between translations of the converged model and the baseline is 82.5. We count the number of changed sentences in every 4-sentence fragment in the test set and plot the histogram in Figure FIGREF38. In over than 20$\\%$ of the cases the model has not changed base translations at all. In almost $40\\%$, it modified only one sentence and left the remaining 3 sentences unchanged. The model changed more than half sentences in a group in only $14\\%$ of the cases. Several examples of the DocRepair translations are shown in Figure FIGREF43. Figure FIGREF42 shows how consistency scores are changing in training. For deixis, the model achieves the final quality quite quickly; for the rest, it needs a large number of training steps to converge. Related Work Our work is most closely related to two lines of research: automatic post-editing (APE) and document-level machine translation. Related Work ::: Automatic post-editing Our model can be regarded as an automatic post-editing system \u2013 a system designed to fix systematic MT errors that is decoupled from the main MT",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "DocRepair Training Dynamics"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "system. Automatic post-editing has a long history, including rule-based BIBREF17, statistical BIBREF18 and neural approaches BIBREF19, BIBREF20, BIBREF21. In terms of architectures, modern approaches use neural sequence-to-sequence models, either multi-source architectures that consider both the original source and the baseline translation BIBREF19, BIBREF20, or monolingual repair systems, as in BIBREF21, which is concurrent work to ours. True post-editing datasets are typically small and expensive to create BIBREF22, hence synthetic training data has been created that uses original monolingual data as output for the sequence-to-sequence model, paired with an automatic back-translation BIBREF23 and/or round-trip translation as its input(s) BIBREF19, BIBREF21. While previous work on automatic post-editing operated on the sentence level, the main novelty of this work is that our DocRepair model operates on groups of sentences and is thus able to fix consistency errors caused by the context-agnostic baseline MT system. We consider this strategy of sentence-level baseline translation and context-aware monolingual repair attractive when parallel document-level data is scarce. For training, the DocRepair model only requires monolingual document-level data. While we create synthetic training data via round-trip translation similarly to earlier work BIBREF19, BIBREF21, note that we purposefully use sentence-level MT systems for this to create the types of consistency errors that we aim to fix with the context-aware DocRepair model. Not all types of consistency errors that we want to fix emerge from a round-trip translation, so access to parallel document-level data can be useful (Section SECREF34). Related Work ::: Document-level NMT Neural models of MT that go beyond the sentence-level are an active research area BIBREF2, BIBREF3, BIBREF4, BIBREF5, BIBREF6, BIBREF7, BIBREF8, BIBREF10, BIBREF9, BIBREF11. Typically, the main MT system is modified to take additional context as its input. One limitation of these approaches is that they assume that parallel document-level training data is available. Closest to our work are two-pass models for document-level NMT BIBREF24, BIBREF11, where a second, context-aware model takes the translation and hidden representations of the sentence-level first-pass model as its input. The second-pass model can in principle be trained on a subset of the parallel training data BIBREF11, somewhat relaxing the assumption that all training data is at the document level. Our work is different from this previous work in two main respects. Firstly, we show that consistency can be improved with only monolingual document-level training data. Secondly, the DocRepair model is decoupled from the first-pass MT system, which improves its portability.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Automatic Post-Editing"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "Conclusions We introduce the first approach to context-aware machine translation using only monolingual document-level data. We propose a monolingual DocRepair model to correct inconsistencies between sentence-level translations. The model performs automatic post-editing on a sequence of sentence-level translations, refining translations of sentences in context of each other. Our approach results in substantial improvements in translation quality as measured by BLEU, targeted contrastive evaluation of several discourse phenomena and human evaluation. Moreover, we perform error analysis and detect which discourse phenomena are hard to capture using only monolingual document-level data. While in the current work we used text fragments of 4 sentences, in future work we would like to consider longer contexts. Acknowledgments We would like to thank the anonymous reviewers for their comments. The authors also thank David Talbot and Yandex Machine Translation team for helpful discussions and inspiration. Ivan Titov acknowledges support of the European Research Council (ERC StG BroadSem 678254) and the Dutch National Science Foundation (NWO VIDI 639.022.518). Rico Sennrich acknowledges support from the Swiss National Science Foundation (105212_169888), the European Union\u2019s Horizon 2020 research and innovation programme (grant agreement no 825460), and the Royal Society (NAF\\R1\\180122).",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Monolingual Translation Model"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Machine translation is the automatic conversion of text from one language to another.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Some studies claim that machine translation has reached human parity in performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Human raters prefer human over machine translation when evaluating whole documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Context-aware machine translation refers to translation models that consider the context of a document to improve accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Document-level parallel data consists of bilingual texts aligned at the document level rather than sentence level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Monolingual document-level data refers to large-scale, single-language text data organized at the document level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "DocRepair is a monolingual sequence-to-sequence model that corrects inconsistent sentence-level translations by leveraging context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Round-trip translations involve translating a sentence to another language and then back to the original language to generate inconsistent sentence groups.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "BLEU score is used to evaluate the quality of machine translations by measuring n-gram overlap with reference translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Method"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Contrastive evaluation assesses translation performance on specific discourse phenomena by comparing different translation models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Method"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Deixis refers to linguistic elements that depend on context, such as pronouns or time references.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Discourse Phenomenon"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Lexical cohesion refers to the use of repeated or related words to link sentences or ideas in a text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Discourse Phenomenon"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "VP ellipsis is the omission of a verb phrase in a sentence, often inferred from context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Discourse Phenomenon"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Ellipsis that affects noun phrase inflection occurs when the omission of a phrase influences grammatical form of a noun phrase.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Discourse Phenomenon"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "VP ellipsis is the hardest discourse phenomenon to capture using only round-trip translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Monolingual data can be used to simulate inconsistencies in sentence-level translations to train context-aware models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Context-agnostic translations are generated by models that do not consider the surrounding context of a sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Context-aware machine translation is an approach that uses only monolingual document-level data to improve translation quality by correcting inconsistencies between sentence-level translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The DocRepair model is a monolingual sequence-to-sequence model that maps inconsistent groups of sentences into consistent ones using only monolingual document-level data in the target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The DocRepair model does not rely on any trained MT model whose outputs it corrects and can therefore be applied to correct translations from any black-box MT system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Inconsistent groups are formed by replacing each sentence in a group with its round-trip translation produced in isolation from context, resulting in a set of sentences that contradict each other.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "A round-trip translation involves translating a sentence from the target language to the source language and then back to the target language using a target-to-source and source-to-target MT model, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The approach shows substantial improvements in translation quality as measured by BLEU, contrastive evaluation of discourse phenomena, and human evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Some discourse phenomena are difficult to capture using monolingual data alone, indicating limitations in the model's ability to represent contextual dependencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Contrastive test sets for English-Russian discourse phenomena are used to evaluate how well the model captures different types of contextual features in translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "In the current work, the DocRepair model is implemented as a standard sequence-to-sequence Transformer architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "A reserved token-separator is used to concatenate sentences within a group in the DocRepair model, which is later removed from the corrected output translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "There are four test sets in the suite, each containing contrastive examples designed to test a system's ability to adapt to contextual information and handle specific phenomena.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "A test instance consists of a true example (a sequence of sentences and their reference translation) and several contrastive translations that differ from the true one in only one specific aspect.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "All contrastive translations are correct and plausible at the sentence level, with inconsistencies only revealed through context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "System accuracy is computed as the proportion of times the true translation is preferred over the contrastive ones.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Deictic words or phrases are referential expressions whose denotation depends on context, including personal (e.g., 'I', 'you'), place (e.g., 'here', 'there'), and discourse deixis (e.g., 'that's a good question').",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The test set for deixis specifically focuses on the T-V distinction between informal and formal 'you' (Latin 'tu' and 'vos') in Russian translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Ellipsis is the omission of one or more words from a clause that are understood from the context of the remaining elements.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "In machine translation, ellipsis poses problems when the target language does not allow the same types of ellipsis, requiring context to predict the elided material.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "In Russian, the grammatical function of a noun phrase and its inflection may depend on the elided verb.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "In Russian, the verb inflection may depend on the elided subject.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The deixis test set is split into development and test sets, with 500 examples from each used for validation and the rest for testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "There are two different test sets for ellipsis, one of which contains examples where the elided material affects syntax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Convergence of consistency scores on development sets and BLEU score on a general development set are used as early stopping criteria during model training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "There is no dedicated development set for ellipsis, so evaluation is performed on all ellipsis data without using it for development.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Ellipsis (infl.) refers to a morphological form of a noun group that cannot be understood without context beyond the sentence level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Ellipsis (VP) refers to cases of verb phrase ellipsis in English that do not exist in Russian, requiring prediction of the verb during translation into Russian.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Lexical cohesion in the test set focuses on the reiteration of named entities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "When multiple translations of a named entity are possible, a model must prefer consistent translations over inconsistent ones.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The OpenSubtitles2018 corpus is a publicly available dataset used for English and Russian language data in the experimental setup.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The baseline MT system is trained on 6 million sentence pairs with a relative time overlap of at least 0.9 between source and target subtitle frames.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "A total of 30 million groups of four consecutive sentences are gathered as monolingual data, excluding sentences from development, test, and contrastive test sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "BLEU score is computed using multi-bleu.perl on lowercased data to evaluate translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Beam search with a beam size of 4 is used during translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Byte-pair encoding is used for sentence encoding with source and target vocabularies of approximately 32,000 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "A large batch size of approximately 15,000 source tokens per batch is used to ensure optimal Transformer performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Early stopping in context-aware models is based on convergence in BLEU score on the general development set and consistency scores on the consistency development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "After training, the 5 latest model checkpoints are averaged to produce the final model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The baseline, back-translation, and DocRepair models are based on a Transformer with 6 layers, 8 attention heads, 512-dimensional model size, and 2048-dimensional feed-forward network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "A second baseline model used in the experimental setup is the two-pass CADec model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The first pass of the translation model produces sentence-level translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The second pass of the translation model takes the first-pass translation and context sentence representations as input to return contextualized translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "CADec requires document-level parallel training data to function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "DocRepair only requires monolingual training data to function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The Russian monolingual data is translated into English using a Russian\u2192English model with beam search and a beam size of 4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The English\u2192Russian model is used to sample translations with a temperature of 0.5, and 20 sampled translations are precomputed per sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "For each sentence, one of 20 precomputed sampled translations is randomly selected to form a training minibatch for DocRepair.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "During training, each token in the input is replaced with a random token with a probability of 10%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The Adam optimizer is used with parameters \u03b2\u2081 = 0.9, \u03b2\u2082 = 0.98, and \u03b5 = 10\u207b\u2079.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Parameter"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The learning rate is varied over training using a formula with warmup_steps = 16000 and scale = 4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "BLEU scores for translations of 4-sentence fragments are provided in Table TABREF24.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The sentence-level repair version of DocRepair corrects each sentence separately before reassembling them into groups.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "DocRepair outperforms the baseline and CADec by 0.7 BLEU, and its sentence-level repair version by 0.5 BLEU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "DocRepair shows substantial improvement over both baseline and CADec on the deixis test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "DocRepair achieves the largest improvement over CADec (22.5 percentage points) on the lexical cohesion test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "There is a drop of almost 5 percentage points in VP ellipsis scores, likely because monolingual data alone makes it hard to correct VP ellipsis inconsistencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Figure FIGREF27(a) shows an example where English VP ellipsis is translated into Russian without ellipsis, causing inconsistency when translating the auxiliary 'did'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "In Russian-to-English translation, main verbs are unlikely to be translated as the auxiliary 'do' in English.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "VP ellipsis is rarely present on the English side when translating from Russian.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "A model trained using round-trip translations will not be exposed to many VP ellipsis examples during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "DocRepair shows less degradation in performance compared to CADec as the distance between sentences requiring consistency increases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "A human evaluation was conducted on 700 randomly selected examples from the general test set where DocRepair translations are not full copies of the baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Annotators were asked to choose between three options: (1) baseline translation is better, (2) DocRepair translation is better, or (3) translations are of equal quality, with preference given to one if possible.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "In about 52% of cases, annotators marked the translations as having equal quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "In 73% of cases where a preference was given, the DocRepair translation was marked as better than the baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The DocRepair model achieves performance comparable to models trained on large datasets even with moderate training data sizes, such as 5 million fragments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Deixis scores are less sensitive to variations in training data size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The DocRepair model trained on one-way translations gains 6% accuracy on VP ellipsis compared to the model trained on round-trip translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "One-way translations assume that document-level data is parallel and translations are sampled from the source side of sentences rather than from back-translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Round-trip translations involve sampling translations from back-translations, which may introduce synthetic or inconsistent data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Monolingual data provides non-synthetic translations that reflect real-world inconsistencies, such as those caused by deictic words and phrases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Inconsistencies in translations due to deictic words and phrases are more frequent in the dataset than other types of translation inconsistencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The DocRepair model benefits from access to non-synthetic English data during training, which exposes it to Russian translations with similar inconsistencies as those encountered at test time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Parallel data includes 1.5 million instances used for CADec training and 1 million instances from monolingual data, combined to form a larger training set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "CADec, trained on parallel data, outperforms DocRepair on VP ellipsis when DocRepair is trained on only monolingual data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Parallel data consists of sentence pairs with large relative time overlap between source-language and target-language subtitles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Data filtering in parallel data selection ensures only sentence pairs with significant temporal overlap between subtitle frames are included.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Requiring reliable translations for consecutive sentences in a group improves translation data quality by ensuring consistency across sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The model trained on parallel data shows worse performance compared to one trained on monolingual data, indicating that strict translation reliability constraints may negatively affect translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "During DocRepair training, the model initially quickly learns to copy baseline translations, achieving high BLEU scores with the baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Learning Dynamics"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The BLEU score between the model's final translations and the baseline translation drops during training, indicating that the model gradually improves upon the baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The BLEU score with the reference translation improves over time as the model learns to modify baseline translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The converged model retains a BLEU score of 82.5 with the baseline translation, indicating that it is reluctant to make changes to the original translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "In over 20% of test cases, the model does not change any sentences in a 4-sentence fragment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "In nearly 40% of test cases, the model modifies only one sentence out of four, leaving the rest unchanged.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The model modifies more than half the sentences in a group in only 14% of test cases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "Consistency scores improve over training, with the model achieving high quality for deixis early and requiring many steps to converge for other aspects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Learning Dynamics"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Automatic post-editing refers to a system designed to fix systematic machine translation errors by modifying baseline translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The work is closely related to document-level machine translation, which involves translating entire documents rather than isolated sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Field"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Automatic post-editing refers to the use of computational methods to correct machine translation outputs, including rule-based, statistical, and neural approaches.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Rule-based methods are a historical approach to automatic post-editing that rely on predefined linguistic rules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Statistical methods for automatic post-editing use probabilistic models trained on translation data to improve output quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "Neural approaches to automatic post-editing use deep learning models to perform translation correction, often based on sequence-to-sequence architectures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "Neural sequence-to-sequence models are a class of deep learning models used in automatic post-editing to map input text to corrected output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "Multi-source architectures in automatic post-editing consider both the original source text and a baseline translation to improve correction accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Monolingual repair systems in automatic post-editing use only monolingual data to correct machine translation outputs, without relying on parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "True post-editing datasets are typically small and expensive to create due to the need for human annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Synthetic training data in automatic post-editing is generated using monolingual data as output and automatic back-translation or round-trip translation as input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Back-translation is used in synthetic training data generation to create pseudo-parallel data by translating text back to the original language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Round-trip translation involves translating text from one language to another and back, used to generate synthetic training data for post-editing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Sentence-level baseline translation produces translation outputs that are context-agnostic and may introduce consistency errors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Context-aware monolingual repair improves translation consistency by considering contextual information within a document, even without parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "The DocRepair model is a context-aware, document-level post-editing system that operates on groups of sentences to fix consistency errors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Consistency errors in machine translation arise due to the context-agnostic nature of baseline translation systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "Parallel document-level data is required by some document-level NMT approaches but is often scarce and expensive to obtain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "Document-level neural machine translation extends sentence-level models by incorporating document-level context to improve translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "Two-pass models for document-level NMT first generate sentence-level translations and then use those outputs and hidden representations in a second, context-aware model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "The DocRepair model can be trained using only monolingual document-level data, without requiring parallel data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The DocRepair model is decoupled from the first-pass MT system, which enhances its portability and flexibility across different translation systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The DocRepair model uses sentence-level MT systems in round-trip translation to generate synthetic training data that introduces consistency errors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "Not all consistency errors that the DocRepair model aims to fix emerge from round-trip translation, indicating the need for diverse training data sources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1.5m parallel instances",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "105212_169888",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "14%",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "1m monolingual instances",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "20%",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "30m fragments",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "4 sentences",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "4-sentence fragment",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "40%",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "500 examples",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "52%",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "5m fragments",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "700 examples",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "73%",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "Adam optimizer",
+      "Parameter",
+      "s65"
+    ],
+    [
+      "BIBREF11",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "BIBREF17",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BIBREF18",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BIBREF19",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BIBREF20",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BIBREF21",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BIBREF22",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BIBREF23",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BIBREF24",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "BLEU",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "BLEU",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "BLEU score",
+      "Definition",
+      "s49"
+    ],
+    [
+      "BLEU score",
+      "Evaluation Method",
+      "s9"
+    ],
+    [
+      "BLEU score",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "BLEU score",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "BLEU score with baseline",
+      "Result",
+      "s97"
+    ],
+    [
+      "BLEU score with reference translation",
+      "Result",
+      "s98"
+    ],
+    [
+      "BLEU scores",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "BLEU scores",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "BLEU scores",
+      "Result",
+      "s67"
+    ],
+    [
+      "CADec",
+      "Comparison",
+      "s91"
+    ],
+    [
+      "CADec",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "CADec",
+      "Requirement",
+      "s59"
+    ],
+    [
+      "CADec",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "David Talbot",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "DocRepair",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "DocRepair",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "DocRepair",
+      "Property",
+      "s77"
+    ],
+    [
+      "DocRepair",
+      "Requirement",
+      "s60"
+    ],
+    [
+      "DocRepair",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "DocRepair model",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "DocRepair model",
+      "Definition",
+      "s119"
+    ],
+    [
+      "DocRepair model",
+      "Definition",
+      "s19"
+    ],
+    [
+      "DocRepair model",
+      "Definition",
+      "s7"
+    ],
+    [
+      "DocRepair model",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "DocRepair model",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "DocRepair model",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "DocRepair model",
+      "Property",
+      "s20"
+    ],
+    [
+      "DocRepair model",
+      "Result",
+      "s89"
+    ],
+    [
+      "DocRepair training dynamics",
+      "Learning Dynamics",
+      "s96"
+    ],
+    [
+      "DocRepair translation",
+      "Result",
+      "s81"
+    ],
+    [
+      "Dutch National Science Foundation",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "ERC StG BroadSem 678254",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "English-Russian",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "English\u2192Russian model",
+      "Process",
+      "s62"
+    ],
+    [
+      "European Research Council",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "European Union Horizon 2020",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "FIGREF10",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "FIGREF27(b)",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "FIGREF9",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "Figure FIGREF38",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "Figure FIGREF42",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "Figure FIGREF43",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "Ivan Titov",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "NAF\\R1\\180122",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "NWO VIDI 639.022.518",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "OpenSubtitles2018",
+      "Definition",
+      "s46"
+    ],
+    [
+      "Rico Sennrich",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "Royal Society",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "Russian monolingual data",
+      "Process",
+      "s61"
+    ],
+    [
+      "Russian translations",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "Russian translations",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "SECREF34",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "Section SECREF34",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "Swiss National Science Foundation",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "T-V distinction",
+      "Property",
+      "s33"
+    ],
+    [
+      "T-V distinction",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "Table TABREF15",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "Table TABREF28",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "Table TABREF30",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "Table TABREF33",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "Table TABREF35",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "Table TABREF36",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "Transformer",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "Transformer base model",
+      "Definition",
+      "s55"
+    ],
+    [
+      "Transformer model",
+      "Property",
+      "s26"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e7"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e8"
+    ],
+    [
+      "VP ellipsis",
+      "Discourse Phenomenon",
+      "s13"
+    ],
+    [
+      "VP ellipsis",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "VP ellipsis",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "VP ellipsis",
+      "Property",
+      "s75"
+    ],
+    [
+      "VP ellipsis",
+      "Result",
+      "s15"
+    ],
+    [
+      "VP ellipsis",
+      "Result",
+      "s72"
+    ],
+    [
+      "VP ellipsis",
+      "Result",
+      "s84"
+    ],
+    [
+      "VP ellipsis",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "VP ellipsis example",
+      "Example",
+      "s73"
+    ],
+    [
+      "Yandex Machine Translation team",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "adjacent sentences",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "annotator task",
+      "Definition",
+      "s79"
+    ],
+    [
+      "anonymous reviewers",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "automatic post-editing",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "automatic post-editing",
+      "Definition",
+      "s104"
+    ],
+    [
+      "automatic post-editing",
+      "Definition",
+      "s106"
+    ],
+    [
+      "automatic post-editing",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "automatic post-editing",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "auxiliary 'do'",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "back-translation",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "back-translation BIBREF23",
+      "Property",
+      "s115"
+    ],
+    [
+      "baseline MT system",
+      "Property",
+      "s47"
+    ],
+    [
+      "baseline translation",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "baseline translation",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s52"
+    ],
+    [
+      "beam search",
+      "Property",
+      "s50"
+    ],
+    [
+      "byte-pair encoding",
+      "Definition",
+      "s51"
+    ],
+    [
+      "changed sentences in 4-sentence fragments",
+      "Result",
+      "s100"
+    ],
+    [
+      "checkpoint averaging",
+      "Property",
+      "s54"
+    ],
+    [
+      "clause omission",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "consistency errors",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "consistency errors",
+      "Cause",
+      "s120"
+    ],
+    [
+      "consistency scores",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "consistency scores",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "consistency scores during training",
+      "Learning Dynamics",
+      "s103"
+    ],
+    [
+      "consistent groups",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "context-agnostic MT system",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "context-agnostic translations",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "context-agnostic translations",
+      "Definition",
+      "s17"
+    ],
+    [
+      "context-aware machine translation",
+      "Definition",
+      "s18"
+    ],
+    [
+      "context-aware machine translation",
+      "Definition",
+      "s4"
+    ],
+    [
+      "context-aware machine translation",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "context-aware machine translation",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "context-aware monolingual repair",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "context-aware monolingual repair",
+      "Definition",
+      "s118"
+    ],
+    [
+      "contextual information",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "contrastive evaluation",
+      "Evaluation Method",
+      "s10"
+    ],
+    [
+      "contrastive evaluation",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "contrastive evaluation",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "contrastive examples",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "contrastive test sets",
+      "Definition",
+      "s25"
+    ],
+    [
+      "contrastive translations",
+      "Property",
+      "s30"
+    ],
+    [
+      "contrastive translations",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "convergence",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "data filtering",
+      "Property",
+      "s93"
+    ],
+    [
+      "decoupled from first-pass MT system",
+      "Property",
+      "s125"
+    ],
+    [
+      "deictic words",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "deictic words and phrases",
+      "Cause",
+      "s88"
+    ],
+    [
+      "deixis",
+      "Definition",
+      "s32"
+    ],
+    [
+      "deixis",
+      "Discourse Phenomenon",
+      "s11"
+    ],
+    [
+      "deixis",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "deixis",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "deixis",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "deixis",
+      "Result",
+      "s70"
+    ],
+    [
+      "deixis",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "deixis scores",
+      "Property",
+      "s83"
+    ],
+    [
+      "deixis test set",
+      "Property",
+      "s38"
+    ],
+    [
+      "development set",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "discourse deixis",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "discourse phenomena",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "discourse phenomena",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "discourse phenomena",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "discourse phenomena",
+      "Property",
+      "s24"
+    ],
+    [
+      "document-level NMT",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "document-level NMT",
+      "Definition",
+      "s122"
+    ],
+    [
+      "document-level data",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "document-level data",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "document-level data",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "document-level machine translation",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "document-level machine translation",
+      "Related Field",
+      "s105"
+    ],
+    [
+      "document-level parallel data",
+      "Definition",
+      "s5"
+    ],
+    [
+      "document-level translations",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "early stopping",
+      "Definition",
+      "s53"
+    ],
+    [
+      "early stopping criteria",
+      "Definition",
+      "s40"
+    ],
+    [
+      "early stopping criteria",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "ellipsis",
+      "Definition",
+      "s34"
+    ],
+    [
+      "ellipsis",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "ellipsis (VP)",
+      "Definition",
+      "s43"
+    ],
+    [
+      "ellipsis (infl.)",
+      "Definition",
+      "s42"
+    ],
+    [
+      "ellipsis affecting NP inflection",
+      "Discourse Phenomenon",
+      "s14"
+    ],
+    [
+      "ellipsis development set",
+      "Property",
+      "s41"
+    ],
+    [
+      "ellipsis test sets",
+      "Property",
+      "s39"
+    ],
+    [
+      "ellipsis which affects NP inflection",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "error analysis",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "evaluation of discourse phenomena",
+      "Result",
+      "s23"
+    ],
+    [
+      "first pass",
+      "Process",
+      "s57"
+    ],
+    [
+      "first-pass MT system",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "four phenomena",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "four test sets",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "genuine document-level parallel data",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "grant agreement no 825460",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "hidden representations",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "human",
+      "Machine Translation Progress",
+      "e1"
+    ],
+    [
+      "human evaluation",
+      "Definition",
+      "s78"
+    ],
+    [
+      "human evaluation",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "human evaluation results",
+      "Result",
+      "s80"
+    ],
+    [
+      "human parity in machine translation",
+      "Claim",
+      "s2"
+    ],
+    [
+      "human raters' preference",
+      "Result",
+      "s3"
+    ],
+    [
+      "human translation",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "improvement in DocRepair",
+      "Result",
+      "s69"
+    ],
+    [
+      "inconsistent groups",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "inconsistent groups",
+      "Definition",
+      "s21"
+    ],
+    [
+      "learning rate scheduling",
+      "Formula",
+      "s66"
+    ],
+    [
+      "lexical cohesion",
+      "Definition",
+      "s44"
+    ],
+    [
+      "lexical cohesion",
+      "Discourse Phenomenon",
+      "s12"
+    ],
+    [
+      "lexical cohesion",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "lexical cohesion",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "lexical cohesion",
+      "Result",
+      "s71"
+    ],
+    [
+      "lexical cohesion",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "longer contexts",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "machine translation",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "machine translation",
+      "Definition",
+      "s1"
+    ],
+    [
+      "machine translation",
+      "Machine Translation Progress",
+      "e1"
+    ],
+    [
+      "machine translation challenge",
+      "Cause",
+      "s35"
+    ],
+    [
+      "main verb",
+      "Definition",
+      "s74"
+    ],
+    [
+      "main verbs",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "model trained on parallel data",
+      "Result",
+      "s95"
+    ],
+    [
+      "model's change reluctance",
+      "Property",
+      "s99"
+    ],
+    [
+      "monolingual data",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "monolingual data",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "monolingual data",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "monolingual data",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "monolingual data",
+      "Property",
+      "s16"
+    ],
+    [
+      "monolingual data",
+      "Property",
+      "s48"
+    ],
+    [
+      "monolingual data",
+      "Property",
+      "s87"
+    ],
+    [
+      "monolingual document-level data",
+      "Definition",
+      "s6"
+    ],
+    [
+      "monolingual document-level data",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "monolingual document-level data",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "monolingual document-level training data",
+      "Property",
+      "s124"
+    ],
+    [
+      "monolingual repair systems",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "monolingual repair systems",
+      "Definition",
+      "s112"
+    ],
+    [
+      "more than half sentences changed",
+      "Result",
+      "s102"
+    ],
+    [
+      "multi-source architectures",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "multi-source architectures",
+      "Definition",
+      "s111"
+    ],
+    [
+      "named entity translation",
+      "Property",
+      "s45"
+    ],
+    [
+      "neural approaches",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "neural approaches BIBREF19, BIBREF20, BIBREF21",
+      "Property",
+      "s109"
+    ],
+    [
+      "neural sequence-to-sequence models",
+      "Definition",
+      "s110"
+    ],
+    [
+      "noun phrase inflection",
+      "Property",
+      "s36"
+    ],
+    [
+      "one-way translations",
+      "Definition",
+      "s85"
+    ],
+    [
+      "one-way translations",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "original training data",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "our",
+      "Round-Trip Translations",
+      "e4"
+    ],
+    [
+      "parallel data",
+      "Definition",
+      "s92"
+    ],
+    [
+      "parallel data",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "parallel data",
+      "Property",
+      "s90"
+    ],
+    [
+      "parallel document-level data",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "parallel document-level data",
+      "Property",
+      "s121"
+    ],
+    [
+      "parity",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "personal deixis",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "place deixis",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "progress",
+      "Machine Translation Progress",
+      "e1"
+    ],
+    [
+      "reference translation",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "relative time overlap",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "remarkable",
+      "Machine Translation Progress",
+      "e1"
+    ],
+    [
+      "round-trip translation",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "round-trip translation",
+      "Definition",
+      "s22"
+    ],
+    [
+      "round-trip translation",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "round-trip translation BIBREF19, BIBREF21",
+      "Property",
+      "s116"
+    ],
+    [
+      "round-trip translation in DocRepair",
+      "Method",
+      "s126"
+    ],
+    [
+      "round-trip translations",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "round-trip translations",
+      "Definition",
+      "s8"
+    ],
+    [
+      "round-trip translations",
+      "Definition",
+      "s86"
+    ],
+    [
+      "round-trip translations",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "round-trip translations",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "round-trip translations",
+      "Result",
+      "s76"
+    ],
+    [
+      "round-trip translations",
+      "Round-Trip Translations",
+      "e4"
+    ],
+    [
+      "round-trip translations",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "rule-based",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "rule-based BIBREF17",
+      "Property",
+      "s107"
+    ],
+    [
+      "second pass",
+      "Process",
+      "s58"
+    ],
+    [
+      "sentence distance",
+      "Model Training Effects",
+      "e9"
+    ],
+    [
+      "sentence level",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "sentence modifications in 4-sentence fragments",
+      "Result",
+      "s101"
+    ],
+    [
+      "sentence pairs",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "sentence-level MT systems",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "sentence-level baseline translation",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "sentence-level baseline translation",
+      "Property",
+      "s117"
+    ],
+    [
+      "sentence-level repair version of DocRepair",
+      "Result",
+      "s68"
+    ],
+    [
+      "sentence-level translations",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "sentence-level translations",
+      "Monolingual Translation Model",
+      "e13"
+    ],
+    [
+      "sequence-to-sequence model",
+      "Context-Aware Translation",
+      "e2"
+    ],
+    [
+      "sequence-to-sequence model",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "sequence-to-sequence models",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "source language",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "source-to-target MT model",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "statistical",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "statistical BIBREF18",
+      "Property",
+      "s108"
+    ],
+    [
+      "studies",
+      "Machine Translation Progress",
+      "e1"
+    ],
+    [
+      "subtitle frames",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "synthetic English data",
+      "Training Data Effects",
+      "e10"
+    ],
+    [
+      "synthetic training data",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "synthetic training data",
+      "Definition",
+      "s114"
+    ],
+    [
+      "system accuracy",
+      "Definition",
+      "s31"
+    ],
+    [
+      "systematic MT errors",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "target language",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "target-to-source MT model",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "test instance",
+      "Definition",
+      "s29"
+    ],
+    [
+      "test set statistics",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "test sets",
+      "Definition",
+      "s28"
+    ],
+    [
+      "test sets",
+      "Evaluation Metrics",
+      "e3"
+    ],
+    [
+      "token replacement",
+      "Process",
+      "s64"
+    ],
+    [
+      "token-separator",
+      "Definition",
+      "s27"
+    ],
+    [
+      "token-separator",
+      "Monolingual MT Repair",
+      "e5"
+    ],
+    [
+      "training data size",
+      "Result",
+      "s82"
+    ],
+    [
+      "training minibatch for DocRepair",
+      "Process",
+      "s63"
+    ],
+    [
+      "training progress",
+      "DocRepair Training Dynamics",
+      "e11"
+    ],
+    [
+      "translation data quality",
+      "Result",
+      "s94"
+    ],
+    [
+      "true example",
+      "Test Set Design",
+      "e6"
+    ],
+    [
+      "true post-editing datasets",
+      "Property",
+      "s113"
+    ],
+    [
+      "two-pass CADec",
+      "Definition",
+      "s56"
+    ],
+    [
+      "two-pass models",
+      "Automatic Post-Editing",
+      "e12"
+    ],
+    [
+      "two-pass models for document-level NMT",
+      "Definition",
+      "s123"
+    ],
+    [
+      "types of consistency errors",
+      "Result",
+      "s127"
+    ],
+    [
+      "verb inflection",
+      "Property",
+      "s37"
+    ]
+  ]
+}

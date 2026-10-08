@@ -1,0 +1,4950 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 17,
+    "n_semantic": 123,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "social media": {
+      "tag_set": [
+        "Definition",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "user behavior": {
+      "tag_set": [
+        "Industry Prediction from Social Media",
+        "Industry Semantic Analysis"
+      ]
+    },
+    "profile metadata": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "advertising": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "personalization": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "recommender systems": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "industry": {
+      "tag_set": [
+        "Definition",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "occupational class": {
+      "tag_set": [
+        "Industry Prediction from Social Media",
+        "Occupational Classification"
+      ]
+    },
+    "language use": {
+      "tag_set": [
+        "Industry Prediction from Social Media",
+        "Relationship"
+      ]
+    },
+    "occupation": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "education": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "income": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "cloud": {
+      "tag_set": [
+        "Contextual Meaning",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "environmental jobs": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "technology occupations": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Industry Prediction from Social Media",
+        "Method"
+      ]
+    },
+    "blog users": {
+      "tag_set": [
+        "Emotion Word Analysis",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "20,000 users": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "gender": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "location": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "introduction": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "interests": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "textual features": {
+      "tag_set": [
+        "Industry Prediction from Social Media",
+        "Prediction Accuracy Metrics",
+        "Property"
+      ]
+    },
+    "meta-classification": {
+      "tag_set": [
+        "Industry Prediction from Social Media"
+      ]
+    },
+    "vector-space representations": {
+      "tag_set": [
+        "Industry Prediction from Social Media",
+        "Industry Word Similarities"
+      ]
+    },
+    "meaning deviation": {
+      "tag_set": [
+        "Industry Prediction from Social Media",
+        "Result"
+      ]
+    },
+    "job related terms": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "general interest terms": {
+      "tag_set": [
+        "Industry Semantic Analysis",
+        "Property"
+      ]
+    },
+    "emotionally charged words": {
+      "tag_set": [
+        "Definition",
+        "Emotion Word Analysis",
+        "Industry Prediction Accuracy",
+        "Industry Semantic Analysis"
+      ]
+    },
+    "positive words": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "negative words": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "gender dominance ratio": {
+      "tag_set": [
+        "Definition",
+        "Industry Semantic Analysis"
+      ]
+    },
+    "social media users": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "personality": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "emotions": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "mental disorders": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "health conditions": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "age prediction": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "gender prediction": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "ethnicity": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "nationality": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "race": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "user location": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "Twitter users": {
+      "tag_set": [
+        "Industry Semantic Analysis",
+        "Occupation Classification",
+        "Occupational Classification"
+      ]
+    },
+    "machine learning": {
+      "tag_set": [
+        "Industry Semantic Analysis",
+        "Method"
+      ]
+    },
+    "nationwide level": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "state level": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "city level": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "political orientation": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "major life events": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "Hecht et al.": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "Hecht11": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "Han et al.": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "Han14": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "Li et al.": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "Li14a": {
+      "tag_set": [
+        "Industry Semantic Analysis"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "Huang et al.": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "Huang15": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "Sina Weibo": {
+      "tag_set": [
+        "Occupation Classification",
+        "Occupation Prediction",
+        "Occupational Classification"
+      ]
+    },
+    "social network information": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "user's spouse": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "college attended": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "company employed at": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "math and verbal symbols": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "job-types and demographics": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "homophily": {
+      "tag_set": [
+        "Definition",
+        "Occupation Prediction"
+      ]
+    },
+    "user interactions": {
+      "tag_set": [
+        "Occupation Prediction"
+      ]
+    },
+    "that": {
+      "tag_set": [
+        "Incomplete Passage"
+      ]
+    },
+    "have": {
+      "tag_set": [
+        "Incomplete Passage"
+      ]
+    },
+    "Preotiuc-Pietro": {
+      "tag_set": [
+        "Industry Classification",
+        "Occupational Classification"
+      ]
+    },
+    "Preoctiuc15": {
+      "tag_set": [
+        "Occupational Classification"
+      ]
+    },
+    "Standard Occupational Classification": {
+      "tag_set": [
+        "Occupational Classification"
+      ]
+    },
+    "SOC": {
+      "tag_set": [
+        "Occupational Classification"
+      ]
+    },
+    "skill requirements": {
+      "tag_set": [
+        "Occupational Classification"
+      ]
+    },
+    "dataset bias": {
+      "tag_set": [
+        "Occupational Classification"
+      ]
+    },
+    "SOC occupational class": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "self-description": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "5,191 users": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "micro-blogging platforms": {
+      "tag_set": [
+        "Limitation",
+        "Occupation Classification"
+      ]
+    },
+    "media": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "welfare": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "electronic": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "U.S.": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "blogger.com": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "profile finder": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "industry profile element": {
+      "tag_set": [
+        "Occupation Classification",
+        "Requirement"
+      ]
+    },
+    "20K American users": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "40K web-blogs": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "560K blog posts": {
+      "tag_set": [
+        "Occupation Classification"
+      ]
+    },
+    "bloggers": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "21 most recent blog postings": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "HTML tags": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "600 characters": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "U.S. bloggers": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "industry taxonomies": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "tomato farmer": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "tobacco farmer": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "Guibert et al.": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "39 industry options": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "Education": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "Student": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "Investment Banking": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "Banking": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Classification",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "Table TABREF1": {
+      "tag_set": [
+        "Industry Classification",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "Table TABREF2": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "22,880 users": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "41,094 blogs": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "561,003 posts": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "train set": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Classification",
+        "Performance Measurement"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Classification",
+        "Performance Measurement"
+      ]
+    },
+    "17,880 users": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "2,500 users": {
+      "tag_set": [
+        "Industry Classification"
+      ]
+    },
+    "prediction accuracy": {
+      "tag_set": [
+        "Definition",
+        "Performance Measurement",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "experiments": {
+      "tag_set": [
+        "Performance Measurement"
+      ]
+    },
+    "user level": {
+      "tag_set": [
+        "Performance Measurement"
+      ]
+    },
+    "data sets": {
+      "tag_set": [
+        "Performance Measurement"
+      ]
+    },
+    "classifiers": {
+      "tag_set": [
+        "Performance Measurement"
+      ]
+    },
+    "performance": {
+      "tag_set": [
+        "Performance Measurement"
+      ]
+    },
+    "skewed data": {
+      "tag_set": [
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "micro-accuracy": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results",
+        "Prediction Accuracy Metrics",
+        "Result"
+      ]
+    },
+    "macro-accuracy": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results",
+        "Prediction Accuracy Metrics",
+        "Result"
+      ]
+    },
+    "per-category accuracy": {
+      "tag_set": [
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "development data": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "testing set": {
+      "tag_set": [
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "Majority baseline": {
+      "tag_set": [
+        "Definition",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "AllWords model": {
+      "tag_set": [
+        "Definition",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "multinomial Naive Bayes": {
+      "tag_set": [
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "Figure FIGREF3": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "173% improvement": {
+      "tag_set": [
+        "Prediction Accuracy Metrics",
+        "Result"
+      ]
+    },
+    "user postings": {
+      "tag_set": [
+        "Data Source",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "industry prediction": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Goal",
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "feature ranking": {
+      "tag_set": [
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "top ranked features": {
+      "tag_set": [
+        "Prediction Accuracy Metrics"
+      ]
+    },
+    "the": {
+      "tag_set": [
+        "Incomplete Passage"
+      ]
+    },
+    "Information Gain Ratio": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "Aggressive Feature Ranking": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "top 95% features": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Result"
+      ]
+    },
+    "top 90% features": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "test data": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "All Words model": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Property"
+      ]
+    },
+    "Majority method": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Property"
+      ]
+    },
+    "word choice": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "user posts": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "user metadata": {
+      "tag_set": [
+        "Emotion Word Analysis",
+        "Feature Ranking Method",
+        "Relationship"
+      ]
+    },
+    "profile elements": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "Table TABREF7": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Metadata Noise"
+      ]
+    },
+    "per-class accuracy": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "accuracy": {
+      "tag_set": [
+        "Feature Ranking Method",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "5% step": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "industry category": {
+      "tag_set": [
+        "Feature Ranking Method"
+      ]
+    },
+    "gender field": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Definition",
+        "Exception",
+        "Metadata Noise"
+      ]
+    },
+    "occupation field": {
+      "tag_set": [
+        "Example",
+        "Metadata Noise"
+      ]
+    },
+    "Retired": {
+      "tag_set": [
+        "Metadata Noise"
+      ]
+    },
+    "I work": {
+      "tag_set": [
+        "Metadata Noise"
+      ]
+    },
+    "momma": {
+      "tag_set": [
+        "Metadata Noise"
+      ]
+    },
+    "freely editable text field": {
+      "tag_set": [
+        "Metadata Noise"
+      ]
+    },
+    "metadata values": {
+      "tag_set": [
+        "Metadata Noise"
+      ]
+    },
+    "industry prediction task": {
+      "tag_set": [
+        "Metadata Noise"
+      ]
+    },
+    "multinomial NB": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Ensemble Learning Results",
+        "Method"
+      ]
+    },
+    "Occu": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "Intro": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "Inter": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "Gloc": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "occupation profile": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "state field": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Definition"
+      ]
+    },
+    "50 U.S. states": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "undefined": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "male": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "female": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "majority baseline": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Result"
+      ]
+    },
+    "18.88%": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "Fleiss's Kappa": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Definition"
+      ]
+    },
+    "double fault measure": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Definition"
+      ]
+    },
+    "inter-prediction agreement": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "content classifier": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "early fusion": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Definition"
+      ]
+    },
+    "features concatenation": {
+      "tag_set": [
+        "Classifier Ensemble"
+      ]
+    },
+    "Text classifier": {
+      "tag_set": [
+        "Classifier Ensemble",
+        "Ensemble Learning Results"
+      ]
+    },
+    "feature concatenation": {
+      "tag_set": [
+        "Emotion Word Analysis",
+        "Ensemble Learning Results"
+      ]
+    },
+    "Occu classifier": {
+      "tag_set": [
+        "Comparison",
+        "Definition",
+        "Ensemble Learning Results"
+      ]
+    },
+    "stacked generalization": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results"
+      ]
+    },
+    "late fusion": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "L0 classifiers": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results"
+      ]
+    },
+    "L1 classifier": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results"
+      ]
+    },
+    "content": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "city": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "state": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "Intro classifier": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results"
+      ]
+    },
+    "Inter classifier": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results"
+      ]
+    },
+    "Gloc classifier": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Learning Results"
+      ]
+    },
+    "Table TABREF12": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "Table TABREF14": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "Figure FIGREF11": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "Real Estate": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "Religion": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "0.643": {
+      "tag_set": [
+        "Ensemble Learning Results",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "0.564": {
+      "tag_set": [
+        "Ensemble Learning Results"
+      ]
+    },
+    "confusion matrix": {
+      "tag_set": [
+        "Analysis",
+        "Ensemble Learning Results"
+      ]
+    },
+    "AFR method": {
+      "tag_set": [
+        "Definition",
+        "Industry Word Similarities"
+      ]
+    },
+    "Technology industry": {
+      "tag_set": [
+        "Industry Word Similarities",
+        "Result"
+      ]
+    },
+    "Tourism industry": {
+      "tag_set": [
+        "Industry Word Similarities",
+        "Result"
+      ]
+    },
+    "Environment industry": {
+      "tag_set": [
+        "Industry Word Similarities",
+        "Result"
+      ]
+    },
+    "customers": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "food": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "nutritionally": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "locally": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "delicious": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "pastries": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "job-related word": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "general interest word": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "contextualized word embeddings": {
+      "tag_set": [
+        "Definition",
+        "Industry Word Similarities"
+      ]
+    },
+    "Bamman et al. Bamman14": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "skip-gram language model": {
+      "tag_set": [
+        "Definition",
+        "Industry Word Similarities"
+      ]
+    },
+    "cosine similarity": {
+      "tag_set": [
+        "Industry Word Similarities"
+      ]
+    },
+    "emotional orientation": {
+      "tag_set": [
+        "Definition",
+        "Industry Word Similarities"
+      ]
+    },
+    "Positive Emotion": {
+      "tag_set": [
+        "Emotion Word Analysis",
+        "Industry Word Similarities"
+      ]
+    },
+    "LIWC dictionary": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "Negative Emotion": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "happy": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "pretty": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "good": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "text frequencies": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "industry rankings": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "gender breakdown": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "gender dominance": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "job satisfaction": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "20,000 blog users": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "content-based classifier": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "feature selection": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "accuracy 0.534": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "majority class baseline 0.188": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "stacking": {
+      "tag_set": [
+        "Emotion Word Analysis"
+      ]
+    },
+    "test dataset": {
+      "tag_set": [
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "qualitative analysis": {
+      "tag_set": [
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "top-ranked words": {
+      "tag_set": [
+        "Analysis",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "word semantic similarities": {
+      "tag_set": [
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "National Science Foundation": {
+      "tag_set": [
+        "Funding",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "John Templeton Foundation": {
+      "tag_set": [
+        "Funding",
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "#1344257": {
+      "tag_set": [
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "#48503": {
+      "tag_set": [
+        "Industry Prediction Accuracy"
+      ]
+    },
+    "user profile fields": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "metadata": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "targeted advertising": {
+      "tag_set": [
+        "Impact"
+      ]
+    },
+    "large industry-annotated dataset": {
+      "tag_set": [
+        "Contribution"
+      ]
+    },
+    "content-based classifiers": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "meta-classification techniques": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "industry-informed semantic representations": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "job-related terms": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "normalized relative frequencies": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Sina Weibo users": {
+      "tag_set": [
+        "Entity"
+      ]
+    },
+    "Standard Occupational Classification (SOC) system": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "metadata classifiers": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "life events": {
+      "tag_set": [
+        "Topic"
+      ]
+    },
+    "weakly supervised information extraction": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "emotional word frequencies": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "data collection process": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "mapping between self-description and SOC class": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "scalability of method": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "number of Twitter users included": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "off-the-shelf occupational taxonomies": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "SOC occupational classes": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "tomato farmer and tobacco farmer": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "Blogger platform industry options": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "blog posts collected": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "text cleaning and tokenization": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "final dataset size": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "education and student categories": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "investment banking and banking categories": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "industry grouping rationale": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Guibert et al. Guibert71": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "train, development, and test sets": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "feature ranking methods": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "data skew": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "user level experiments": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Information Gain Ratio (IGR)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Aggressive Feature Ranking (AFR)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "AFR method with top 90% features": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "word choice in posts": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "accuracy and average per-class accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "5% step in feature selection": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "noise in metadata values": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "test data performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "coverage percentage": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "metadata elements": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "multinomial NB algorithm": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Occu classifier performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Text, Occu, Intro, and Inter L0 classifiers": {
+      "tag_set": [
+        "Best Ensemble"
+      ]
+    },
+    "test set performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Real Estate and Religion industries": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Banking industry": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "industry-specific meaning shifts": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Linguistic Inquiry and Word Count (LIWC) dictionary": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Positive Emotion category": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Negative Emotion category": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Relative frequency of emotionally charged words": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Industry rankings based on emotional word frequencies": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Gender breakdown of emotionally charged words": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Statistical correlation between gender and emotional word usage": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Gender dominance in industry": {
+      "tag_set": [
+        "Concept"
+      ]
+    },
+    "Correlation between gender dominance and emotional word usage": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Content-based classifier": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Overall accuracy of prediction model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Stacking method": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Industry predictability": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Qualitative analysis of industry language": {
+      "tag_set": [
+        "Method"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Over the past two decades, the emergence of social media has enabled the proliferation of traceable human behavior. The content posted by users can reflect who their friends are, what topics they are interested in, or which company they are working for. At the same time, users are listing a number of profile fields to define themselves to others. The utilization of such metadata has proven important in facilitating further developments of applications in advertising BIBREF0 , personalization BIBREF1 , and recommender systems BIBREF2 . However, profile information can be limited, depending on the platform, or it is often deliberately omitted BIBREF3 . To uncloak this information, a number of studies have utilized social media users' footprints to approximate their profiles. This paper explores the potential of predicting a user's industry \u2013the aggregate of enterprises in a particular field\u2013 by identifying industry indicative text in social media. The accurate prediction of users' industry can have a big impact on targeted advertising by minimizing wasted advertising BIBREF4 and improved personalized user experience. A number of studies in the social sciences have associated language use with social factors such as occupation, social class, education, and income BIBREF5 , BIBREF6 , BIBREF7 , BIBREF8 . An additional goal of this paper is to examine such findings, and in particular the link between language and occupational class, through a data-driven approach. In addition, we explore how meaning changes depending on the occupational context. By leveraging word embeddings, we seek to quantify how, for example, cloud might mean a separate concept (e.g., condensed water vapor) in the text written by users that work in environmental jobs while it might be used differently by users in technology occupations (e.g., Internet-based computing). Specifically, this paper makes four main contributions. First, we build a large, industry-annotated dataset that contains over 20,000 blog users. In addition to their posted text, we also link a number of user metadata including their gender, location, occupation, introduction and interests. Second, we build content-based classifiers for the industry prediction task and study the effect of incorporating textual features from the users' profile metadata using various meta-classification techniques, significantly improving both the overall accuracy and the average per industry accuracy. Next, after examining which words are indicative for each industry, we build vector-space representations of word meanings and calculate one deviation for each industry, illustrating how meaning is differentiated based on the users'",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Industry Prediction from Social Media"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "industries. We qualitatively examine the resulting industry-informed semantic representations of words by listing the words per industry that are most similar to job related and general interest terms. Finally, we rank the different industries based on the normalized relative frequencies of emotionally charged words (positive and negative) and, in addition, discover that, for both genders, these frequencies do not statistically significantly correlate with an industry's gender dominance ratio. After discussing related work in Section SECREF2 , we present the dataset used in this study in Section SECREF3 . In Section SECREF4 we evaluate two feature selection methods and examine the industry inference problem using the text of the users' postings. We then augment our content-based classifier by building an ensemble that incorporates several metadata classifiers. We list the most industry indicative words and expose how each industrial semantic field varies with respect to a variety of terms in Section SECREF5 . We explore how the frequencies of emotionally charged words in each gender correlate with the industries and their respective gender dominance ratio and, finally, conclude in Section SECREF6 . Related Work Alongside the wide adoption of social media by the public, researchers have been leveraging the newly available data to create and refine models of users' behavior and profiling. There exists a myriad research that analyzes language in order to profile social media users. Some studies sought to characterize users' personality BIBREF9 , BIBREF10 , while others sequenced the expressed emotions BIBREF11 , studied mental disorders BIBREF12 , and the progression of health conditions BIBREF13 . At the same time, a number of researchers sought to predict the social media users' age and/or gender BIBREF14 , BIBREF15 , BIBREF16 , while others targeted and analyzed the ethnicity, nationality, and race of the users BIBREF17 , BIBREF18 , BIBREF19 . One of the profile fields that has drawn a great deal of attention is the location of a user. Among others, Hecht et al. Hecht11 predicted Twitter users' locations using machine learning on nationwide and state levels. Later, Han et al. Han14 identified location indicative words to predict the location of Twitter users down to the city level. As a separate line of research, a number of studies have focused on discovering the political orientation of users BIBREF15 , BIBREF20 , BIBREF21 . Finally, Li et al. Li14a proposed a way to model major life events such as getting married,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Industry Semantic Analysis"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "moving to a new place, or graduating. In a subsequent study, BIBREF22 described a weakly supervised information extraction method that was used in conjunction with social network information to identify the name of a user's spouse, the college they attended, and the company where they are employed. The line of work that is most closely related to our research is the one concerned with understanding the relation between people's language and their industry. Previous research from the fields of psychology and economics have explored the potential for predicting one's occupation from their ability to use math and verbal symbols BIBREF23 and the relationship between job-types and demographics BIBREF24 . More recently, Huang et al. Huang15 used machine learning to classify Sina Weibo users to twelve different platform-defined occupational classes highlighting the effect of homophily in user interactions. This work examined only users",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Occupation Prediction"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "that have",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Incomplete Passage"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "been verified by the Sina Weibo platform, introducing a potential bias in the resulting dataset. Finally, Preotiuc-Pietro et al. Preoctiuc15 predicted the occupational class of Twitter users using the Standard Occupational Classification (SOC) system, which groups the different jobs based on skill requirements. In",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Occupational Classification"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "that work, the data collection process was limited to only users that specifically mentioned their occupation in their self-description in a way that could be directly mapped to a SOC occupational class. The mapping between a substring of their self-description and a SOC occupational class was done manually. Because of the manual annotation step, their method was not scalable; moreover, because they identified the occupation class inside a user self-description, only a very small fraction of the Twitter users could be included (in their case, 5,191 users).\nBoth of these recent studies are based on micro-blogging platforms, which inherently restrict the number of characters that a post can have, and consequently the way that users can express themselves.\nMoreover, both studies used off-the-shelf occupational taxonomies (rather than self-declared occupation categories), resulting in classes that are either too generic (e.g., media, welfare and electronic are three of the twelve Sina Weibo categories), or too intermixed (e.g., an assistant accountant is in a different class from an accountant in SOC). To address these limitations, we investigate the industry prediction task in a large blog corpus consisting of over 20K American users, 40K web-blogs, and 560K blog posts.\nDataset\nWe compile our industry-annotated dataset by identifying blogger profiles located in the U.S. on the profile finder on http://www.blogger.com, and scraping only those users that had the industry profile element completed.\nFor each",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Occupation Classification"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "of these bloggers, we retrieve all their blogs, and for each of these blogs we download the 21 most recent blog postings. We then clean these blog posts of HTML tags and tokenize them, and drop those bloggers whose cumulative textual content in their posts is less than 600 characters. Following these guidelines, we identified all the U.S. bloggers with completed industry information.\nTraditionally, standardized industry taxonomies organize economic activities into groups based on similar production processes, products or services, delivery systems or behavior in financial markets. Following such assumptions and regardless of their many similarities, a tomato farmer would be categorized into a distinct industry from a tobacco farmer. As demonstrated in Preotiuc-Pietro et al. Preoctiuc15 such groupings can cause unwarranted misclassifications.\nThe Blogger platform provides a total of 39 different industry options. Even though a completed industry value is an implicit text annotation, we acknowledge the same problem noted in previous studies: some categories are too broad, while others are very similar. To remedy this and following Guibert et al. Guibert71, who argued that the denominations used in a classification must reflect the purpose of the study, we group the different Blogger industries based on similar educational background and similar technical terminology. To do that, we exclude very general categories and merge conceptually similar ones. Examples of broad categories are the Education and the Student options: a teacher could be teaching in any concentration, while a student could be enrolled in any discipline. Examples of conceptually similar categories are the Investment Banking and the Banking options.\nThe final set of categories is shown in Table TABREF1 , along with the number of users in each category. The resulting dataset consists of 22,880 users, 41,094 blogs, and 561,003 posts. Table TABREF2 presents additional statistics of our dataset.\nText-based Industry Modeling\nAfter collecting our dataset, we split it into three sets: a train set, a development set, and a test set. The sizes of these sets are 17,880, 2,500, and 2,500 users, respectively, with users randomly assigned to these sets. In all the experiments that follow, we evaluate our classifiers by training them on the train set, configure",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Industry Classification"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "the parameters and measure performance on the development set, and finally report the prediction accuracy and results on the test set. Note that all the experiments are performed at user level, i.e., all the data for one user is compiled into one instance in our data sets.\nTo measure the performance of our classifiers, we use the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Performance Measurement"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "prediction accuracy. However, as shown in Table TABREF1 , the available data is skewed across categories, which could lead to somewhat distorted accuracy numbers depending on how well a model learns to predict the most populous classes. Moreover, accuracy alone does not provide a great deal of insight into the individual performance per industry, which is one of the main objectives in this study. Therefore, in our results below, we report: (1) micro-accuracy ( INLINEFORM0 ), calculated as the percentage of correctly classified instances out of all the instances in the development (test) data; and (2) macro-accuracy ( INLINEFORM1 ), calculated as the average of the per-category accuracies, where the per-category accuracy is the percentage of correctly classified instances out of the instances belonging to one category in the development (test) data.\nLeveraging Blog Content\nIn this section, we seek the effectiveness of using solely textual features obtained from the users' postings to predict their industry.\nThe industry prediction baseline Majority is set by discovering the most frequently featured class in our training set and picking that class in all predictions in the respective development or testing set.\nAfter excluding all the words that are not used by at least three separate users in our training set, we build our AllWords model by counting the frequencies of all the remaining words and training a multinomial Naive Bayes classifier. As seen in Figure FIGREF3 , we can far exceed the Majority baseline performance by incorporating basic language signals into machine learning algorithms (173% INLINEFORM0 improvement).\nWe additionally explore the potential of improving our text classification task by applying a number of feature ranking methods and selecting varying proportions of top ranked features in an attempt to exclude noisy features. We start by ranking",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Prediction Accuracy Metrics"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Incomplete Passage"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "different features, w, according to their Information Gain Ratio score (IGR) with respect to every industry, i, and training our classifier using different proportions of the top features. INLINEFORM0 INLINEFORM1 Even though we find that using the top 95% of all the features already exceeds the performance of the All Words model on the development data, we further experiment with ranking our features with a more aggressive formula that heavily promotes the features that are tightly associated with any industry category. Therefore, for every word in our training set, we define our newly introduced ranking method, the Aggressive Feature Ranking (AFR), as: INLINEFORM0 In Figure FIGREF3 we illustrate the performance of all four methods in our industry prediction task on the development data. Note that for each method, we provide both the accuracy ( INLINEFORM0 ) and the average per-class accuracy ( INLINEFORM1 ). The Majority and All Words methods apply to all the features; therefore, they are represented as a straight line in the figure. The IGR and AFR methods are applied to varying subsets of the features using a 5% step. Our experiments demonstrate that the word choice that the users make in their posts correlates with their industry. The first observation in Figure FIGREF3 is that the INLINEFORM0 is proportional to INLINEFORM1 ; as INLINEFORM2 increases, so does INLINEFORM3 . Secondly, the best result on the development set is achieved by using the top 90% of the features using the AFR method. Lastly, the improvements of the IGR and AFR feature selections are not substantially better in comparison to All Words (at most 5% improvement between All Words and AFR), which suggest that only a few noisy features exist and most of the words play some role in shaping the \u201clanguage\" of an industry. As a final evaluation, we apply on the test data the classifier found to work best on the development data (AFR feature selection, top 90% features), for an INLINEFORM0 of 0.534 and INLINEFORM1 of 0.477. Leveraging User Metadata Together with the industry information and the most recent postings of each blogger, we also download a number of accompanying profile elements. Using these additional elements, we explore the potential of incorporating users' metadata in our classifiers. Table TABREF7 shows the different user metadata we consider together with their coverage percentage (not all users provide a value for all of the profile elements). With the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Feature Ranking Method"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "exception of the gender field, the remaining metadata elements shown in Table TABREF7 are completed by the users as a freely editable text field. This introduces a considerable amount of noise in the set of possible metadata values. Examples of noise in the occupation field include values such as \u201cRetired\u201d, \u201cI work.\u201d, or \u201cmomma\u201d which are not necessarily informative for our industry prediction task. To examine whether the metadata fields can help in the prediction of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Metadata Noise"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "a user's industry, we build classifiers using the different metadata elements. For each metadata element that has a textual value, we use all the words in the training set for that field as features. The only two exceptions are the state field, which is encoded as one feature that can take one out of 50 different values representing the 50 U.S. states; and the gender field, which is encoded as a feature with a distinct value for each user gender option: undefined, male, or female. As shown in Table TABREF9 , we build four different classifiers using the multinomial NB algorithm: Occu (which uses the words found in the occupation profile element), Intro (introduction), Inter (interests), and Gloc (combined gender, city, state). In general, all the metadata classifiers perform better than our majority baseline ( INLINEFORM0 of 18.88%). For the Gloc classifier, this result is in alignment with previous studies BIBREF24 . However, the only metadata classifier that outperforms the content classifier is the Occu classifier, which despite missing and noisy occupation values exceeds the content classifier's performance by an absolute 3.2%. To investigate the promise of combining the five different classifiers we have built so far, we calculate their inter-prediction agreement using Fleiss's Kappa BIBREF25 , as well as the lower prediction bounds using the double fault measure BIBREF26 . The Kappa values, presented in the lower left side of Table TABREF10 , express the classification agreement for categorical items, in this case the users' industry. Lower values, especially values below 30%, mean smaller agreement. Since all five classifiers have better-than-baseline accuracy, this low agreement suggests that their predictions could potentially be combined to achieve a better accumulated result. Moreover, the double fault measure values, which are presented in the top-right hand side of Table TABREF10 , express the proportion of test cases for which both of the two respective classifiers make false predictions, essentially providing the lowest error bound for the pairwise ensemble classifier performance. The lower those numbers are, the greater the accuracy potential of any meta-classification scheme that combines those classifiers. Once again, the low double fault measure values suggest potential gain from a combination of the base classifiers into an ensemble of models. After establishing the promise of creating an ensemble of classifiers, we implement two meta-classification approaches. First, we combine our classifiers using features concatenation (or early fusion). Starting with our content-based classifier (Text),",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Classifier Ensemble"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "we successively add the features derived from each metadata element. The results, both micro- and macro-accuracy, are presented in Table TABREF12 . Even though all these four feature concatenation ensembles outperform the content-based classifier in the development set, they fail to outperform the Occu classifier. Second, we explore the potential of using stacked generalization (or late fusion) BIBREF27 . The base classifiers, referred to as L0 classifiers, are trained on different folds of the training set and used to predict the class of the remaining instances. Those predictions are then used together with the true label of the training instances to train a second classifier, referred to as the L1 classifier: this L1 is used to produce the final prediction on both the development data and the test data. Traditionally, stacking uses different machine learning algorithms on the same training data. However in our case, we use the same algorithm (multinomial NB) on heterogeneous data (i.e., different types of data such as content, occupation, introduction, interests, gender, city and state) in order to exploit all available sources of information. The ensemble learning results on the development set are shown in Table TABREF12 . We notice a constant improvement for both metrics when adding more classifiers to our ensemble except for the Gloc classifier, which slightly reduces the performance. The best result is achieved using an ensemble of the Text, Occu, Intro, and Inter L0 classifiers; the respective performance on the test set is an INLINEFORM0 of 0.643 and an INLINEFORM1 of 0.564. Finally, we present in Figure FIGREF11 the prediction accuracy for the final classifier for each of the different industries in our test dataset. Evidently, some industries are easier to predict than others. For example, while the Real Estate and Religion industries achieve accuracy figures above 80%, other industries, such as the Banking industry, are predicted correctly in less than 17% of the time. Anecdotal evidence drawn from the examination of the confusion matrix does not encourage any strong association of the Banking class with any other. The misclassifications are roughly uniform across all other classes, suggesting that the users in the Banking industry use language in a non-distinguishing way. Qualitative Analysis In this section, we provide a qualitative analysis of the language of the different industries. Top-Ranked Words To conduct a qualitative exploration of which words indicate the industry of a user, Table TABREF14 shows the three top-ranking",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Ensemble Learning Results"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "content words for the different industries using the AFR method. Not surprisingly, the top ranked words align well with what we would intuitively expect for each industry. Even though most of these words are potentially used by many users regardless of their industry in our dataset, they are still distinguished by the AFR method because of the different frequencies of these words in the text of each industry. Industry-specific Word Similarities Next, we examine how the meaning of a word is shaped by the context in which it is uttered. In particular, we qualitatively investigate how the speakers' industry affects meaning by learning vector-space representations of words that take into account such contextual information. To achieve this, we apply the contextualized word embeddings proposed by Bamman et al. Bamman14, which are based on an extension of the \u201cskip-gram\" language model BIBREF28 . In addition to learning a global representation for each word, these contextualized embeddings compute one deviation from the common word embedding representation for each contextual variable, in this case, an industry option. These deviations capture the terms' meaning variations (shifts in the INLINEFORM0 -dimensional space of the representations, where INLINEFORM1 in our experiments) in the text of the different industries, however all the embeddings are in the same vector space to allow for comparisons to one another. Using the word representations learned for each industry, we present in Table TABREF16 the terms in the Technology and the Tourism industries that have the highest cosine similarity with a job-related word, customers. Similarly, Table TABREF17 shows the words in the Environment and the Tourism industries that are closest in meaning to a general interest word, food. More examples are given in the Appendix SECREF8 . The terms that rank highest in each industry are noticeably different. For example, as seen in Table TABREF17 , while food in the Environment industry is similar to nutritionally and locally, in the Tourism industry the same word relates more to terms such as delicious and pastries. These results not only emphasize the existing differences in how people in different industries perceive certain terms, but they also demonstrate that those differences can effectively be captured in the resulting word embeddings. Emotional Orientation per Industry and Gender As a final analysis, we explore how words that are emotionally charged relate to different industries. To quantify the emotional orientation of a text, we use the Positive Emotion",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Industry Word Similarities"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "and Negative Emotion categories in the Linguistic Inquiry and Word Count (LIWC) dictionary BIBREF29 . The LIWC dictionary contains lists of words that have been shown to correlate with the psychological states of people that use them; for example, the Positive Emotion category contains words such as \u201chappy,\u201d \u201cpretty,\u201d and \u201cgood.\u201d For the text of all the users in each industry we measure the frequencies of Positive Emotion and Negative Emotion words normalized by the text's length. Table TABREF20 presents the industries' ranking for both categories of words based on their relative frequencies in the text of each industry. We further perform a breakdown per-gender, where we once again calculate the proportion of emotionally charged words in each industry, but separately for each gender. We find that the industry rankings of the relative frequencies INLINEFORM0 of emotionally charged words for the two genders are statistically significantly correlated, which suggests that regardless of their gender, users use positive (or negative) words with a relative frequency that correlates with their industry. (In other words, even if e.g., Fashion has a larger number of women users, both men and women working in Fashion will tend to use more positive words than the corresponding gender in another industry with a larger number of men users such as Automotive.) Finally, motivated by previous findings of correlations between job satisfaction and gender dominance in the workplace BIBREF30 , we explore the relationship between the usage of Positive Emotion and Negative Emotion words and the gender dominance in an industry. Although we find that there are substantial gender imbalances in each industry (Appendix SECREF9 ), we did not find any statistically significant correlation between the gender dominance ratio in the different industries and the usage of positive (or negative) emotional words in either gender in our dataset. Conclusion In this paper, we examined the task of predicting a social media user's industry. We introduced an annotated dataset of over 20,000 blog users and applied a content-based classifier in conjunction with two feature selection methods for an overall accuracy of up to 0.534, which represents a large improvement over the majority class baseline of 0.188. We also demonstrated how the user metadata can be incorporated in our classifiers. Although concatenation of features drawn both from blog content and profile elements did not yield any clear improvements over the best individual classifiers, we found that stacking improves the prediction",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Word Analysis"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "accuracy to an overall accuracy of 0.643, as measured on our test dataset. A more in-depth analysis showed that not all industries are equally easy to predict: while industries such as Real Estate and Religion are clearly distinguishable with accuracy figures over 0.80, others such as Banking are much harder to predict. Finally, we presented a qualitative analysis to provide some insights into the language of different industries, which highlighted differences in the top-ranked words in each industry, word semantic similarities, and the relative frequency of emotionally charged words. Acknowledgments This material is based in part upon work supported by the National Science Foundation (#1344257) and by the John Templeton Foundation (#48503). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or the John Templeton Foundation. Additional Examples of Word Similarities",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Industry Prediction Accuracy"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Social media refers to online platforms where users can share content and interact, enabling the traceable recording of human behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "User profile fields are information users list to define themselves to others on social media platforms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Metadata refers to data about data, such as user gender, location, occupation, and interests, used to describe user profiles on social media.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Industry refers to the aggregate of enterprises operating within a particular field or sector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The paper aims to predict a user's industry based on industry-indicative text in their social media content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Accurate industry prediction can improve targeted advertising by reducing wasted ad spend and enhancing personalized user experiences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Impact"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Language use has been associated with social factors such as occupation, social class, education, and income in social science studies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Word embeddings are used to represent word meanings in a vector space, allowing the detection of context-dependent meanings across different occupational groups.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The term 'cloud' can mean condensed water vapor in environmental contexts and Internet-based computing in technology contexts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contextual Meaning"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The paper builds a dataset with over 20,000 blog users, including their text and metadata such as gender, location, occupation, introduction, and interests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contribution"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The paper develops classifiers that use textual features from user profile metadata to predict industry, improving both overall and per-industry accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Various meta-classification techniques are applied to enhance the performance of industry prediction models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The paper calculates one deviation per industry to illustrate how word meanings differ based on occupational context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Industry-informed semantic representations are word embeddings that reflect the context and meaning of words based on their association with specific industries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Job-related terms are words that are commonly associated with professional roles or occupations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "General interest terms are words that relate to broad, non-specific topics of public interest, such as sports or entertainment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Emotionally charged words are terms that convey strong positive or negative sentiments, such as 'excited' or 'frustrated'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The gender dominance ratio refers to the proportion of male to female workers in a given industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Normalized relative frequencies represent the proportion of emotionally charged words in an industry, adjusted to account for overall word distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Machine learning is used to classify users' occupations based on linguistic patterns in their social media content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Sina Weibo users are individuals on the Chinese social media platform Sina Weibo who may have verified accounts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The Standard Occupational Classification (SOC) system is a framework used to categorize jobs based on skill requirements and occupational roles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Homophily refers to the tendency of individuals to interact with others who share similar characteristics, such as occupation or interests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "User postings are the textual content shared by individuals on social media platforms, used to infer industry-related information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Data Source"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Metadata classifiers are models that use non-textual user data, such as profile information, to predict occupational attributes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Life events such as marriage, moving, or graduation are social milestones that can be detected through language patterns in social media.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Topic"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Weakly supervised information extraction is a technique that identifies user-specific details like spouse or employment using limited labeled data and social network context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The frequencies of emotionally charged words in each industry do not statistically significantly correlate with the industry's gender dominance ratio for either gender.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The data collection process was limited to users who specifically mentioned their occupation in their self-description in a way that could be directly mapped to a SOC occupational class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The mapping between a substring of a user's self-description and a SOC occupational class was done manually.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The manual annotation step made the method not scalable.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Only 5,191 Twitter users could be included in the study due to the occupation identification method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Micro-blogging platforms inherently restrict the number of characters in a post, limiting user expression.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Both studies used off-the-shelf occupational taxonomies rather than self-declared occupation categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "SOC occupational classes are standardized classifications of occupations based on production processes, products, services, delivery systems, or financial market behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "A tomato farmer and a tobacco farmer are categorized into distinct industries in traditional industry taxonomies despite their similar production processes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The Blogger platform provides a total of 39 different industry options.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Only bloggers with a completed industry profile element were included in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "For each blogger, all their blogs were retrieved, and the 21 most recent blog postings were downloaded.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Blog posts were cleaned of HTML tags, tokenized, and posts from bloggers with less than 600 cumulative characters were dropped.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The final dataset consists of 22,880 users, 41,094 blogs, and 561,003 posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The Education and Student categories are considered too broad because a teacher can teach in any concentration and a student can be enrolled in any discipline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The Investment Banking and Banking categories are conceptually similar and were merged in the final classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Industry categories were grouped based on similar educational backgrounds and technical terminology to better reflect the purpose of the study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Guibert et al. argued that classification denominations must reflect the purpose of the study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The dataset was split into a train set (17,880 users), a development set (2,500 users), and a test set (2,500 users), with users randomly assigned.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Prediction accuracy is the percentage of correctly classified instances out of all instances in the development or test data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Micro-accuracy is calculated as the percentage of correctly classified instances out of all instances in the development or test data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Macro-accuracy is the average of the per-category accuracies, where per-category accuracy is the percentage of correctly classified instances out of instances belonging to one category in the development or test data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The Majority baseline is determined by identifying the most frequently occurring class in the training set and assigning that class to all predictions in the development or test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The AllWords model is a multinomial Naive Bayes classifier trained on word frequencies of words used by at least three separate users in the training set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Textual features are derived from users' postings and are used to predict their industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Feature ranking methods are applied to select top-ranked features in an attempt to exclude noisy features from the text classification task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The AllWords model achieves a 173% improvement in micro-accuracy over the Majority baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The available data is skewed across categories, which may distort accuracy numbers due to overfitting to populous classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "All experiments are performed at the user level, where all data for one user is compiled into a single instance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Information Gain Ratio is a feature ranking method that evaluates the relevance of features based on their information gain relative to the entropy of the target variable.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Aggressive Feature Ranking is a newly introduced feature ranking method that heavily promotes words tightly associated with specific industry categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Using the top 95% of all features already achieves performance equal to or better than the All Words model on development data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The best performance on the development set is achieved by using the top 90% of features with the AFR method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The All Words model uses all available features in the training set and serves as a baseline for comparison with other feature selection methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The Majority method applies to all features and is represented as a straight line in the performance figure due to its uniform feature usage.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The choice of words used by users in their posts correlates with their industry, indicating that linguistic patterns reflect industry affiliation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The performance of each method is evaluated using both overall accuracy and average per-class accuracy on development data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The IGR and AFR methods are applied to varying subsets of features using a 5% incremental step in the feature selection process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "User metadata contains significant noise due to free-text entries, such as 'Retired', 'I work.', or 'momma', which are not informative for industry prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Examples of noisy values in the occupation field include 'Retired', 'I work.', and 'momma'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The classifier using AFR with top 90% features achieves an accuracy of 0.534 and an average per-class accuracy of 0.477 on the test data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "User metadata, including profile elements, is explored as a potential source to improve industry prediction performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The coverage percentage in Table TABREF7 indicates the proportion of users who provide a value for each metadata field.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The gender field is the only metadata element in Table TABREF7 that is not subject to user editing and thus avoids the noise introduced by free-text entries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Exception"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The industry refers to the sector or field in which a user operates, predicted by various metadata and content-based classifiers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Each metadata element with a textual value contributes words from the training set as features for classifier training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The state field is encoded as a single feature with 50 possible values representing the 50 U.S. states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The gender field is encoded as a feature with distinct values for undefined, male, or female user genders.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "The Occu classifier uses words from the occupation profile element to predict a user's industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The Intro classifier is built using words from the introduction field to predict a user's industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The Inter classifier uses words from the interests field to predict a user's industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The Gloc classifier combines features from gender, city, and state to predict a user's industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Four classifiers are built using the multinomial Naive Bayes algorithm to predict user industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The majority baseline achieves an accuracy of 18.88% in predicting user industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The Occu classifier outperforms the content classifier by an absolute margin of 3.2% despite having missing and noisy occupation values.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Fleiss's Kappa measures the inter-prediction agreement among the five classifiers for categorical items like industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The double fault measure indicates the proportion of test cases where two classifiers both make false predictions, providing a lower bound on ensemble error.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Early fusion combines classifiers by concatenating their feature vectors before final prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The micro-accuracy of the feature concatenation ensembles on the development set is presented in Table TABREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "The macro-accuracy of the feature concatenation ensembles on the development set is presented in Table TABREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "All four feature concatenation ensembles fail to outperform the Occu classifier in the development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Stacked generalization, or late fusion, involves training base classifiers on different folds of the training set to predict classes, and then using those predictions along with true labels to train a second classifier (L1) for final predictions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "L0 classifiers are base classifiers trained on different folds of the training set to predict the class of remaining instances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The L1 classifier is trained using predictions from L0 classifiers and true labels to produce final predictions on development and test data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The same algorithm, multinomial Naive Bayes, is used across heterogeneous data types in the stacked generalization approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The best ensemble performance on the test set is achieved using an ensemble of the Text, Occu, Intro, and Inter L0 classifiers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Best Ensemble"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The Text, Occu, Intro, and Inter L0 ensemble achieves a micro-accuracy of 0.643 and a macro-accuracy of 0.564 on the test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The Real Estate and Religion industries achieve prediction accuracy above 80% in the test dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The Banking industry is predicted correctly in less than 17% of the cases in the test dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "An examination of the confusion matrix shows that misclassifications in the Banking industry are roughly uniform across all other classes, indicating a lack of distinguishing language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Table TABREF14 presents the three top-ranking words indicating the industry of a user for qualitative analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The AFR method is a technique used to identify content words in different industries based on their frequency and context-specific usage.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "In the Technology industry, words with high cosine similarity to 'customers' include terms related to digital services, user engagement, and product support.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "In the Tourism industry, words with high cosine similarity to 'customers' include terms such as travelers, vacation, and destinations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "In the Environment industry, words with high cosine similarity to 'food' include terms like nutritionally and locally sourced.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "In the Tourism industry, words with high cosine similarity to 'food' include terms such as delicious and pastries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Contextualized word embeddings are vector representations of words that capture meaning based on the context in which they appear, including industry-specific variations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The skip-gram language model is a neural network-based method for predicting words based on their context, extended in the AFR method to incorporate industry-specific features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The meaning of a word can shift depending on the industry, as demonstrated by differences in word associations such as 'food' in the Environment versus Tourism industries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Emotional orientation refers to the sentiment or emotional tone associated with a word or text, which varies by industry and gender.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The LIWC dictionary contains lists of words that correlate with psychological states of users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The Positive Emotion category in the LIWC dictionary includes words such as 'happy,' 'pretty,' and 'good.'",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The Negative Emotion category in the LIWC dictionary includes words that correlate with negative psychological states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The relative frequency of emotionally charged words in text is normalized by text length to compare across industries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Table TABREF20 presents the ranking of industries based on the relative frequencies of positive and negative emotion words in their user texts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "The analysis breaks down the proportion of emotionally charged words by gender within each industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The rankings of emotionally charged word usage for men and women are statistically significantly correlated across industries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Gender dominance in an industry refers to the imbalance in the gender distribution of users within that industry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Concept"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "No statistically significant correlation was found between gender dominance ratios and the usage of positive or negative emotional words in either gender.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "A content-based classifier is used to predict a user's industry based on the language in their blog posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "The overall accuracy of the content-based classifier reaches up to 0.534, significantly improving over the majority class baseline of 0.188.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Stacking improves prediction accuracy to 0.643 when features from blog content and profile metadata are combined.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Industries such as Real Estate and Religion are easily distinguishable with accuracy over 0.80, while Banking is much harder to predict.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "A qualitative analysis highlights differences in top-ranked words, semantic similarities, and emotional word frequencies across industries.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "The National Science Foundation provided partial support under grant #1344257.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "The John Templeton Foundation provided partial support under grant #48503.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "#1344257",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "#48503",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "0.564",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "0.643",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "0.643",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "17,880 users",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "173% improvement",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "173% improvement",
+      "Result",
+      "s54"
+    ],
+    [
+      "18.88%",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "2,500 users",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "20,000 blog users",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "20,000 users",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "20K American users",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "21 most recent blog postings",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "22,880 users",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "39 industry options",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "40K web-blogs",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "41,094 blogs",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "5% step",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "5% step in feature selection",
+      "Property",
+      "s65"
+    ],
+    [
+      "5,191 users",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "50 U.S. states",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "560K blog posts",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "561,003 posts",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "600 characters",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "AFR method",
+      "Definition",
+      "s99"
+    ],
+    [
+      "AFR method",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "AFR method with top 90% features",
+      "Result",
+      "s60"
+    ],
+    [
+      "Aggressive Feature Ranking",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "Aggressive Feature Ranking (AFR)",
+      "Definition",
+      "s58"
+    ],
+    [
+      "All Words model",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "All Words model",
+      "Property",
+      "s61"
+    ],
+    [
+      "AllWords model",
+      "Definition",
+      "s51"
+    ],
+    [
+      "AllWords model",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "BIBREF22",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "BIBREF23",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "BIBREF24",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "Bamman et al. Bamman14",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "Banking",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Banking",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Banking",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "Banking industry",
+      "Result",
+      "s96"
+    ],
+    [
+      "Blogger platform industry options",
+      "Property",
+      "s37"
+    ],
+    [
+      "Content-based classifier",
+      "Definition",
+      "s117"
+    ],
+    [
+      "Correlation between gender dominance and emotional word usage",
+      "Result",
+      "s116"
+    ],
+    [
+      "Education",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Environment industry",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "Environment industry",
+      "Result",
+      "s102"
+    ],
+    [
+      "Figure FIGREF11",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Figure FIGREF3",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "Figure FIGREF3",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "Fleiss's Kappa",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "Fleiss's Kappa",
+      "Definition",
+      "s83"
+    ],
+    [
+      "Gender breakdown of emotionally charged words",
+      "Method",
+      "s113"
+    ],
+    [
+      "Gender dominance in industry",
+      "Concept",
+      "s115"
+    ],
+    [
+      "Gloc",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "Gloc classifier",
+      "Definition",
+      "s79"
+    ],
+    [
+      "Gloc classifier",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Guibert et al.",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Guibert et al. Guibert71",
+      "Reference",
+      "s45"
+    ],
+    [
+      "HTML tags",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Han et al.",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "Han14",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "Hecht et al.",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "Hecht11",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "Huang et al.",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "Huang15",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "I work",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "Industry predictability",
+      "Result",
+      "s120"
+    ],
+    [
+      "Industry rankings based on emotional word frequencies",
+      "Result",
+      "s112"
+    ],
+    [
+      "Information Gain Ratio",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "Information Gain Ratio (IGR)",
+      "Definition",
+      "s57"
+    ],
+    [
+      "Inter",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "Inter classifier",
+      "Definition",
+      "s78"
+    ],
+    [
+      "Inter classifier",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Intro",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "Intro classifier",
+      "Definition",
+      "s77"
+    ],
+    [
+      "Intro classifier",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Investment Banking",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "John Templeton Foundation",
+      "Funding",
+      "s123"
+    ],
+    [
+      "John Templeton Foundation",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "L0 classifiers",
+      "Definition",
+      "s90"
+    ],
+    [
+      "L0 classifiers",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "L1 classifier",
+      "Definition",
+      "s91"
+    ],
+    [
+      "L1 classifier",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "LIWC dictionary",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "Li et al.",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "Li14a",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "Linguistic Inquiry and Word Count (LIWC) dictionary",
+      "Definition",
+      "s108"
+    ],
+    [
+      "Majority baseline",
+      "Definition",
+      "s50"
+    ],
+    [
+      "Majority baseline",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "Majority method",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "Majority method",
+      "Property",
+      "s62"
+    ],
+    [
+      "National Science Foundation",
+      "Funding",
+      "s122"
+    ],
+    [
+      "National Science Foundation",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "Negative Emotion",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "Negative Emotion category",
+      "Definition",
+      "s110"
+    ],
+    [
+      "Occu",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "Occu classifier",
+      "Comparison",
+      "s88"
+    ],
+    [
+      "Occu classifier",
+      "Definition",
+      "s76"
+    ],
+    [
+      "Occu classifier",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Occu classifier performance",
+      "Result",
+      "s82"
+    ],
+    [
+      "Overall accuracy of prediction model",
+      "Result",
+      "s118"
+    ],
+    [
+      "Positive Emotion",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "Positive Emotion",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "Positive Emotion category",
+      "Definition",
+      "s109"
+    ],
+    [
+      "Preoctiuc15",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "Preotiuc-Pietro",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Preotiuc-Pietro",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "Qualitative analysis of industry language",
+      "Method",
+      "s121"
+    ],
+    [
+      "Real Estate",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Real Estate",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "Real Estate and Religion industries",
+      "Result",
+      "s95"
+    ],
+    [
+      "Relative frequency of emotionally charged words",
+      "Result",
+      "s111"
+    ],
+    [
+      "Religion",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Religion",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "Retired",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "SOC",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "SOC occupational class",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "SOC occupational classes",
+      "Definition",
+      "s35"
+    ],
+    [
+      "Sina Weibo",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "Sina Weibo",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "Sina Weibo",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "Sina Weibo users",
+      "Entity",
+      "s21"
+    ],
+    [
+      "Stacking method",
+      "Method",
+      "s119"
+    ],
+    [
+      "Standard Occupational Classification",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "Standard Occupational Classification (SOC) system",
+      "Definition",
+      "s22"
+    ],
+    [
+      "Statistical correlation between gender and emotional word usage",
+      "Result",
+      "s114"
+    ],
+    [
+      "Student",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Table TABREF1",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Table TABREF1",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "Table TABREF12",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Table TABREF14",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Table TABREF2",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "Table TABREF7",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "Table TABREF7",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "Technology industry",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "Technology industry",
+      "Result",
+      "s100"
+    ],
+    [
+      "Text classifier",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "Text classifier",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "Text, Occu, Intro, and Inter L0 classifiers",
+      "Best Ensemble",
+      "s93"
+    ],
+    [
+      "Tourism industry",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "Tourism industry",
+      "Result",
+      "s101"
+    ],
+    [
+      "Tourism industry",
+      "Result",
+      "s103"
+    ],
+    [
+      "Twitter users",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "Twitter users",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "Twitter users",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "U.S.",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "U.S. bloggers",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "accuracy",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "accuracy",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "accuracy 0.534",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "accuracy and average per-class accuracy",
+      "Result",
+      "s64"
+    ],
+    [
+      "advertising",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "age prediction",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "blog posts collected",
+      "Process",
+      "s39"
+    ],
+    [
+      "blog users",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "blog users",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "blogger.com",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "bloggers",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "city",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "city level",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "classifiers",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "cloud",
+      "Contextual Meaning",
+      "s9"
+    ],
+    [
+      "cloud",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "college attended",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "company employed at",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "confusion matrix",
+      "Analysis",
+      "s97"
+    ],
+    [
+      "confusion matrix",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "content",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "content classifier",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "content-based classifier",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "content-based classifiers",
+      "Method",
+      "s11"
+    ],
+    [
+      "contextualized word embeddings",
+      "Definition",
+      "s104"
+    ],
+    [
+      "contextualized word embeddings",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "cosine similarity",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "coverage percentage",
+      "Property",
+      "s70"
+    ],
+    [
+      "customers",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "data collection process",
+      "Definition",
+      "s29"
+    ],
+    [
+      "data sets",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "data skew",
+      "Problem",
+      "s55"
+    ],
+    [
+      "dataset bias",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "delicious",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "development data",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "development data",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "development set",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "development set",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "development set",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "double fault measure",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "double fault measure",
+      "Definition",
+      "s84"
+    ],
+    [
+      "early fusion",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "early fusion",
+      "Definition",
+      "s85"
+    ],
+    [
+      "education",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "education and student categories",
+      "Example",
+      "s42"
+    ],
+    [
+      "electronic",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "emotional orientation",
+      "Definition",
+      "s107"
+    ],
+    [
+      "emotional orientation",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "emotional word frequencies",
+      "Result",
+      "s28"
+    ],
+    [
+      "emotionally charged words",
+      "Definition",
+      "s17"
+    ],
+    [
+      "emotionally charged words",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "emotionally charged words",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "emotionally charged words",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "emotions",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "environmental jobs",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "ethnicity",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "experiments",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "feature concatenation",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "feature concatenation",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "feature ranking",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "feature ranking methods",
+      "Method",
+      "s53"
+    ],
+    [
+      "feature selection",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "features concatenation",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "female",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "final dataset size",
+      "Result",
+      "s41"
+    ],
+    [
+      "food",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "freely editable text field",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "gender",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "gender",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "gender breakdown",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "gender dominance",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "gender dominance ratio",
+      "Definition",
+      "s18"
+    ],
+    [
+      "gender dominance ratio",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "gender field",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "gender field",
+      "Definition",
+      "s75"
+    ],
+    [
+      "gender field",
+      "Exception",
+      "s71"
+    ],
+    [
+      "gender field",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "gender prediction",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "general interest terms",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "general interest terms",
+      "Property",
+      "s16"
+    ],
+    [
+      "general interest word",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "good",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "happy",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "have",
+      "Incomplete Passage",
+      "e4"
+    ],
+    [
+      "health conditions",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "homophily",
+      "Definition",
+      "s23"
+    ],
+    [
+      "homophily",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "income",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "industry",
+      "Definition",
+      "s4"
+    ],
+    [
+      "industry",
+      "Definition",
+      "s72"
+    ],
+    [
+      "industry",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "industry category",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "industry grouping rationale",
+      "Method",
+      "s44"
+    ],
+    [
+      "industry prediction",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "industry prediction",
+      "Goal",
+      "s5"
+    ],
+    [
+      "industry prediction",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "industry prediction task",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "industry profile element",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "industry profile element",
+      "Requirement",
+      "s38"
+    ],
+    [
+      "industry rankings",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "industry taxonomies",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "industry-informed semantic representations",
+      "Definition",
+      "s14"
+    ],
+    [
+      "industry-specific meaning shifts",
+      "Property",
+      "s106"
+    ],
+    [
+      "inter-prediction agreement",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "interests",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "interests",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "introduction",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "introduction",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "investment banking and banking categories",
+      "Example",
+      "s43"
+    ],
+    [
+      "job related terms",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "job satisfaction",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "job-related terms",
+      "Property",
+      "s15"
+    ],
+    [
+      "job-related word",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "job-types and demographics",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "language use",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "language use",
+      "Relationship",
+      "s7"
+    ],
+    [
+      "large industry-annotated dataset",
+      "Contribution",
+      "s10"
+    ],
+    [
+      "late fusion",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "life events",
+      "Topic",
+      "s26"
+    ],
+    [
+      "locally",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "location",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "machine learning",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "machine learning",
+      "Method",
+      "s20"
+    ],
+    [
+      "macro-accuracy",
+      "Definition",
+      "s49"
+    ],
+    [
+      "macro-accuracy",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "macro-accuracy",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "macro-accuracy",
+      "Result",
+      "s87"
+    ],
+    [
+      "major life events",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "majority baseline",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "majority baseline",
+      "Result",
+      "s81"
+    ],
+    [
+      "majority class baseline 0.188",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "male",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "mapping between self-description and SOC class",
+      "Method",
+      "s30"
+    ],
+    [
+      "math and verbal symbols",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "meaning deviation",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "meaning deviation",
+      "Result",
+      "s13"
+    ],
+    [
+      "media",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "mental disorders",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "meta-classification",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "meta-classification techniques",
+      "Method",
+      "s12"
+    ],
+    [
+      "metadata",
+      "Definition",
+      "s3"
+    ],
+    [
+      "metadata classifiers",
+      "Component",
+      "s25"
+    ],
+    [
+      "metadata elements",
+      "Property",
+      "s73"
+    ],
+    [
+      "metadata values",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "micro-accuracy",
+      "Definition",
+      "s48"
+    ],
+    [
+      "micro-accuracy",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "micro-accuracy",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "micro-accuracy",
+      "Result",
+      "s86"
+    ],
+    [
+      "micro-blogging platforms",
+      "Limitation",
+      "s33"
+    ],
+    [
+      "micro-blogging platforms",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "momma",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "multinomial NB",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "multinomial NB",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "multinomial NB",
+      "Method",
+      "s92"
+    ],
+    [
+      "multinomial NB algorithm",
+      "Property",
+      "s80"
+    ],
+    [
+      "multinomial Naive Bayes",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "nationality",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "nationwide level",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "negative words",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "noise in metadata values",
+      "Problem",
+      "s66"
+    ],
+    [
+      "normalized relative frequencies",
+      "Property",
+      "s19"
+    ],
+    [
+      "number of Twitter users included",
+      "Result",
+      "s32"
+    ],
+    [
+      "nutritionally",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "occupation",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "occupation",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "occupation field",
+      "Example",
+      "s67"
+    ],
+    [
+      "occupation field",
+      "Metadata Noise",
+      "e12"
+    ],
+    [
+      "occupation profile",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "occupational class",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "occupational class",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "off-the-shelf occupational taxonomies",
+      "Method",
+      "s34"
+    ],
+    [
+      "pastries",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "per-category accuracy",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "per-class accuracy",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "performance",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "personality",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "personalization",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "political orientation",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "positive words",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "prediction accuracy",
+      "Definition",
+      "s47"
+    ],
+    [
+      "prediction accuracy",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "prediction accuracy",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "pretty",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "profile elements",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "profile finder",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "profile metadata",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "qualitative analysis",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "race",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "recommender systems",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "scalability of method",
+      "Property",
+      "s31"
+    ],
+    [
+      "self-description",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "skewed data",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "skill requirements",
+      "Occupational Classification",
+      "e5"
+    ],
+    [
+      "skip-gram language model",
+      "Definition",
+      "s105"
+    ],
+    [
+      "skip-gram language model",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "social media",
+      "Definition",
+      "s1"
+    ],
+    [
+      "social media",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "social media users",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "social network information",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "stacked generalization",
+      "Definition",
+      "s89"
+    ],
+    [
+      "stacked generalization",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "stacking",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "state",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "state field",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "state field",
+      "Definition",
+      "s74"
+    ],
+    [
+      "state level",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "targeted advertising",
+      "Impact",
+      "s6"
+    ],
+    [
+      "technology occupations",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "test data",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "test data performance",
+      "Result",
+      "s68"
+    ],
+    [
+      "test dataset",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "test set",
+      "Ensemble Learning Results",
+      "e14"
+    ],
+    [
+      "test set",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "test set",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "test set performance",
+      "Result",
+      "s94"
+    ],
+    [
+      "testing set",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "text cleaning and tokenization",
+      "Process",
+      "s40"
+    ],
+    [
+      "text frequencies",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "textual features",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "textual features",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "textual features",
+      "Property",
+      "s52"
+    ],
+    [
+      "that",
+      "Incomplete Passage",
+      "e4"
+    ],
+    [
+      "the",
+      "Incomplete Passage",
+      "e10"
+    ],
+    [
+      "tobacco farmer",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "tomato farmer",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "tomato farmer and tobacco farmer",
+      "Example",
+      "s36"
+    ],
+    [
+      "top 90% features",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "top 95% features",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "top 95% features",
+      "Result",
+      "s59"
+    ],
+    [
+      "top ranked features",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "top-ranked words",
+      "Analysis",
+      "s98"
+    ],
+    [
+      "top-ranked words",
+      "Industry Prediction Accuracy",
+      "e17"
+    ],
+    [
+      "train set",
+      "Industry Classification",
+      "e7"
+    ],
+    [
+      "train, development, and test sets",
+      "Definition",
+      "s46"
+    ],
+    [
+      "undefined",
+      "Classifier Ensemble",
+      "e13"
+    ],
+    [
+      "user behavior",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "user behavior",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "user interactions",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "user level",
+      "Performance Measurement",
+      "e8"
+    ],
+    [
+      "user level experiments",
+      "Property",
+      "s56"
+    ],
+    [
+      "user location",
+      "Industry Semantic Analysis",
+      "e2"
+    ],
+    [
+      "user metadata",
+      "Emotion Word Analysis",
+      "e16"
+    ],
+    [
+      "user metadata",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "user metadata",
+      "Relationship",
+      "s69"
+    ],
+    [
+      "user postings",
+      "Data Source",
+      "s24"
+    ],
+    [
+      "user postings",
+      "Prediction Accuracy Metrics",
+      "e9"
+    ],
+    [
+      "user posts",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "user profile fields",
+      "Definition",
+      "s2"
+    ],
+    [
+      "user's spouse",
+      "Occupation Prediction",
+      "e3"
+    ],
+    [
+      "vector-space representations",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "vector-space representations",
+      "Industry Word Similarities",
+      "e15"
+    ],
+    [
+      "weakly supervised information extraction",
+      "Method",
+      "s27"
+    ],
+    [
+      "welfare",
+      "Occupation Classification",
+      "e6"
+    ],
+    [
+      "word choice",
+      "Feature Ranking Method",
+      "e11"
+    ],
+    [
+      "word choice in posts",
+      "Cause",
+      "s63"
+    ],
+    [
+      "word embeddings",
+      "Industry Prediction from Social Media",
+      "e1"
+    ],
+    [
+      "word embeddings",
+      "Method",
+      "s8"
+    ],
+    [
+      "word semantic similarities",
+      "Industry Prediction Accuracy",
+      "e17"
+    ]
+  ]
+}

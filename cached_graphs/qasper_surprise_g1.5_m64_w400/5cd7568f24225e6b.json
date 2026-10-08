@@ -1,0 +1,3907 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 11,
+    "n_semantic": 112,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "deep learning algorithms": {
+      "tag_set": [
+        "Application",
+        "Deep Learning Applications"
+      ]
+    },
+    "image classification": {
+      "tag_set": [
+        "Deep Learning Applications"
+      ]
+    },
+    "machine translation": {
+      "tag_set": [
+        "Deep Learning Applications"
+      ]
+    },
+    "speech recognition": {
+      "tag_set": [
+        "Deep Learning Applications"
+      ]
+    },
+    "text-to-speech generation": {
+      "tag_set": [
+        "Deep Learning Applications"
+      ]
+    },
+    "machine learning": {
+      "tag_set": [
+        "Deep Learning Applications"
+      ]
+    },
+    "performance improvements": {
+      "tag_set": [
+        "Deep Learning Applications"
+      ]
+    },
+    "algorithms": {
+      "tag_set": [
+        "Emotional Dialogue Models"
+      ]
+    },
+    "statistical speech processing": {
+      "tag_set": [
+        "Emotional Dialogue Models",
+        "Performance Improvement"
+      ]
+    },
+    "human emotions": {
+      "tag_set": [
+        "Emotional Dialogue Models",
+        "Research Topic"
+      ]
+    },
+    "machine intelligence": {
+      "tag_set": [
+        "Emotional Dialogue Models"
+      ]
+    },
+    "emotional dialogue models": {
+      "tag_set": [
+        "Definition",
+        "Emotional Dialogue Models"
+      ]
+    },
+    "In": {
+      "tag_set": [
+        "Incomplete Passage"
+      ]
+    },
+    "emotion classifiers": {
+      "tag_set": [
+        "Research Goal",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "affective computing": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "speech emotion recognition": {
+      "tag_set": [
+        "Field Importance",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "paralinguistics": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "dialog systems": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "happy": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "sad": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "neutral": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "angry": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "deep learning": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "neural network": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "low-level speech signals": {
+      "tag_set": [
+        "Feature Limitation",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "feature-based models": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "high-level text transcription": {
+      "tag_set": [
+        "Proposed Solution",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "audio signals": {
+      "tag_set": [
+        "Model Performance",
+        "Model Performance Analysis",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "automatic speech recognition (ASR)": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "IEMOCAP dataset": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Definition",
+        "Model Performance",
+        "Performance Benchmark",
+        "Property",
+        "Result",
+        "Speech Emotion Recognition",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "emotion words": {
+      "tag_set": [
+        "Emotional Indicators",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "lovely": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "awesome": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "person": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "day": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "dual recurrent encoder": {
+      "tag_set": [
+        "Speech Emotion Recognition",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "textual input": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "error analysis": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "neutral class misclassification": {
+      "tag_set": [
+        "Model Limitation",
+        "Speech Emotion Recognition"
+      ]
+    },
+    "state-of-the-art methods": {
+      "tag_set": [
+        "Speech Emotion Recognition"
+      ]
+    },
+    "hidden Markov models": {
+      "tag_set": [
+        "Definition",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "support vector machines": {
+      "tag_set": [
+        "Definition",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "decision tree-based methods": {
+      "tag_set": [
+        "Definition",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "deep neural networks": {
+      "tag_set": [
+        "Result",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "convolutional neural networks": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "Mel-frequency cepstral coefficients": {
+      "tag_set": [
+        "Property",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "low-level descriptors": {
+      "tag_set": [
+        "Property",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "multiobject learning": {
+      "tag_set": [
+        "Method",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "gender": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "naturalness": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "transfer learning": {
+      "tag_set": [
+        "Method",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "acoustic features": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "language information": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "belief network": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "emotional key phrases": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "phoneme sequences": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "gated recurrent units": {
+      "tag_set": [
+        "Property",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "GRUs": {
+      "tag_set": [
+        "Model Implementation",
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "recurrent encoder": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "audio and text modalities": {
+      "tag_set": [
+        "Speech Emotion Recognition Models"
+      ]
+    },
+    "RNN": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "MFCC features": {
+      "tag_set": [
+        "Definition",
+        "Emotion Prediction Model",
+        "Model Architecture"
+      ]
+    },
+    "prosodic features": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Definition",
+        "Emotion Prediction Model",
+        "Model Architecture",
+        "Model Implementation"
+      ]
+    },
+    "openSMILE toolkit": {
+      "tag_set": [
+        "Emotion Prediction Model",
+        "Tool"
+      ]
+    },
+    "softmax function": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Emotion Prediction Model",
+        "Model Architecture"
+      ]
+    },
+    "hidden state": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Emotion Prediction Model",
+        "Property"
+      ]
+    },
+    "last hidden state": {
+      "tag_set": [
+        "Emotion Prediction Model",
+        "Model Architecture"
+      ]
+    },
+    "representative vector": {
+      "tag_set": [
+        "Definition",
+        "Emotion Prediction Model"
+      ]
+    },
+    "textual information": {
+      "tag_set": [
+        "Emotion Prediction Model",
+        "Usage"
+      ]
+    },
+    "ASR technologies": {
+      "tag_set": [
+        "Assumption",
+        "Emotion Prediction Model"
+      ]
+    },
+    "NLTK": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "word-embedding layer": {
+      "tag_set": [
+        "Definition",
+        "Emotion Prediction Model"
+      ]
+    },
+    "300-dimensional vector": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "text recurrent encoder (TRE)": {
+      "tag_set": [
+        "Definition",
+        "Emotion Prediction Model"
+      ]
+    },
+    "emotion class": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Emotion Prediction Model",
+        "Model Performance",
+        "Prediction Method"
+      ]
+    },
+    "true label vector": {
+      "tag_set": [
+        "Definition",
+        "Emotion Prediction Model"
+      ]
+    },
+    "predicted probability distribution": {
+      "tag_set": [
+        "Definition",
+        "Emotion Prediction Model",
+        "Result"
+      ]
+    },
+    "training objective": {
+      "tag_set": [
+        "Emotion Prediction Model",
+        "Formula",
+        "Model Architecture",
+        "Property"
+      ]
+    },
+    "C": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "N": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "audio signal": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "speech transcript": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "time step": {
+      "tag_set": [
+        "Emotion Prediction Model"
+      ]
+    },
+    "weight parameter": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Emotion Prediction Model"
+      ]
+    },
+    "bias": {
+      "tag_set": [
+        "Emotion Prediction Model",
+        "Model Architecture"
+      ]
+    },
+    "text-RNN": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Definition",
+        "Function",
+        "Model Architecture"
+      ]
+    },
+    "MDRE": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Performance Analysis",
+        "Result"
+      ]
+    },
+    "audio-RNN": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Definition",
+        "Function",
+        "Model Architecture"
+      ]
+    },
+    "transcripts": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "equation EQREF2": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Model Architecture"
+      ]
+    },
+    "fully connected neural network": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "audio encoding vector A": {
+      "tag_set": [
+        "Model Architecture",
+        "Property"
+      ]
+    },
+    "textual encoding vector T": {
+      "tag_set": [
+        "Model Architecture",
+        "Property"
+      ]
+    },
+    "MDREA": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Performance Analysis",
+        "Result"
+      ]
+    },
+    "attention mechanism": {
+      "tag_set": [
+        "Cause",
+        "Model Architecture",
+        "Potential Benefit"
+      ]
+    },
+    "emotional information": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "ARE model": {
+      "tag_set": [
+        "Definition",
+        "Error",
+        "Model Architecture",
+        "Model Implementation",
+        "Model Performance",
+        "Model Performance Analysis"
+      ]
+    },
+    "DISPLAYFORM0": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "INLINEFORM5": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "feed-forward neural network": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "context vector": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Property"
+      ]
+    },
+    "dot product": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "similarity score": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Result"
+      ]
+    },
+    "attention-application vector": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "categorical evaluations": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling",
+        "Method"
+      ]
+    },
+    "5531 utterances": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "1636 happy": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "1084 sad": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "1103 angry": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "1708 neutral": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "MFCC values": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "39 features": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "12 MFCC parameters": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "26 Mel-frequency bands": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "log-energy parameters": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "delta coefficients": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "acceleration coefficients": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "frame size 25 ms": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "step 10 ms": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "Hamming function": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "F0 frequency": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "voicing probability": {
+      "tag_set": [
+        "Attention Mechanism in Emotion Modeling"
+      ]
+    },
+    "MFCC": {
+      "tag_set": [
+        "Definition",
+        "Model Implementation"
+      ]
+    },
+    "OpenSMILE": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "max encoder step 750": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "text input max length 128": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "vocabulary size 3747": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "UNK token": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "PAD token": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "hidden units": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "number of layers": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "orthogonal weights": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "pretrained word-embedding": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "IEMOCAP": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "Google Cloud Speech API": {
+      "tag_set": [
+        "Model Implementation",
+        "Tool"
+      ]
+    },
+    "word error rate 5.53%": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "5-fold cross validation": {
+      "tag_set": [
+        "Method",
+        "Model Implementation"
+      ]
+    },
+    "8:0.5:1.5 split": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "weighted average precision (WAP)": {
+      "tag_set": [
+        "Metric",
+        "Model Implementation"
+      ]
+    },
+    "10 times per fold": {
+      "tag_set": [
+        "Model Implementation"
+      ]
+    },
+    "TRE model": {
+      "tag_set": [
+        "Definition",
+        "Error",
+        "Model Implementation",
+        "Model Performance",
+        "Model Performance Analysis",
+        "Property",
+        "Result"
+      ]
+    },
+    "MDRE model": {
+      "tag_set": [
+        "Definition",
+        "Model Implementation",
+        "Model Performance",
+        "Property",
+        "Result"
+      ]
+    },
+    "MDREA model": {
+      "tag_set": [
+        "Cause",
+        "Definition",
+        "Model Implementation"
+      ]
+    },
+    "WAP 0.718": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "WAP 0.690": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "WAP 0.688": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "ASR-processed transcript data": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Property"
+      ]
+    },
+    "5.53% WER": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "3CNN-LSTM10H": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "attention model": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "multimodal information": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Property"
+      ]
+    },
+    "happy class": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "neutral class": {
+      "tag_set": [
+        "Definition",
+        "Model Performance",
+        "Model Performance Analysis"
+      ]
+    },
+    "confusion matrix": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "textual sequence": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF30": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "text data": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "dual RNNs": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "feed-forward neural model": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "68.8%": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "71.8%": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "sad-to-happy cases": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "16.20%": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "9.15%": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "K. Jung": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "Seoul National University": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "ASRI": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "Ministry of Trade, Industry & Energy (MOTIE, Korea)": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "Industrial Technology Innovation Program": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "No.10073144": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "emotion labels": {
+      "tag_set": [
+        "Classification"
+      ]
+    },
+    "deep learning methods": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "insufficient training data": {
+      "tag_set": [
+        "Challenge"
+      ]
+    },
+    "automatic speech recognition (ASR) technology": {
+      "tag_set": [
+        "Enabling Technology"
+      ]
+    },
+    "dual recurrent encoder model": {
+      "tag_set": [
+        "Proposed Model"
+      ]
+    },
+    "convolutional neural network": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "multimodal approach": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "audio recurrent encoder": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "acoustic features and language information": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "belief network-based methods": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "end-to-end learning neural network": {
+      "tag_set": [
+        "Gap"
+      ]
+    },
+    "RNN function": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "tokenization": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "emotion class prediction": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "attention-application vector Z": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "frame size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "emotional categories": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "excitement dataset": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "OpenSMILE toolkit": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "GRU": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "max encoder step": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "text input max length": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vocabulary size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hidden units and layers": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "orthogonal weight initialization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "pretrained word-embedding vectors": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "IEMOCAP transcripts": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "word error rate (WER)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "recurrent encoder model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "audio signal alignment": {
+      "tag_set": [
+        "Presumption"
+      ]
+    },
+    "TRE-ASR, MDRE-ASR, MDREA-ASR": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "MDRE-ASR": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Plan"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nRecently, deep learning algorithms have successfully addressed problems in various fields, such as image classification, machine translation, speech recognition, text-to-speech generation and other machine learning related areas BIBREF0 , BIBREF1 , BIBREF2 . Similarly, substantial improvements in performance have been obtained when deep learning",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Deep Learning Applications"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "algorithms have been applied to statistical speech processing BIBREF3 . These fundamental improvements have led researchers to investigate additional topics related to human nature, which have long been objects of study. One such topic involves understanding human emotions and reflecting it through machine intelligence, such as emotional dialogue models BIBREF4 , BIBREF5",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotional Dialogue Models"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": ".\nIn",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Incomplete Passage"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "developing emotionally aware intelligence, the very first step is building robust emotion classifiers that display good performance regardless of the application; this outcome is considered to be one of the fundamental research goals in affective computing BIBREF6 . In particular, the speech emotion recognition task is one of the most important problems in the field of paralinguistics. This field has recently broadened its applications, as it is a crucial factor in optimal human-computer interactions, including dialog systems. The goal of speech emotion recognition is to predict the emotional content of speech and to classify speech according to one of several labels (i.e., happy, sad, neutral, and angry). Various types of deep learning methods have been applied to increase the performance of emotion classifiers; however, this task is still considered to be challenging for several reasons. First, insufficient data for training complex neural network-based models are available, due to the costs associated with human involvement. Second, the characteristics of emotions must be learned from low-level speech signals. Feature-based models display limited skills when applied to this problem. To overcome these limitations, we propose a model that uses high-level text transcription, as well as low-level audio signals, to utilize the information contained within low-resource datasets to a greater degree. Given recent improvements in automatic speech recognition (ASR) technology BIBREF7 , BIBREF2 , BIBREF8 , BIBREF9 , speech transcription can be carried out using audio signals with considerable skill. The emotional content of speech is clearly indicated by the emotion words contained in a sentence BIBREF10 , such as \u201clovely\u201d and \u201cawesome,\u201d which carry strong emotions compared to generic (non-emotion) words, such as \u201cperson\u201d and \u201cday.\u201d Thus, we hypothesize that the speech emotion recognition model will be benefit from the incorporation of high-level textual input. In this paper, we propose a novel deep dual recurrent encoder model that simultaneously utilizes audio and text data in recognizing emotions from speech. Extensive experiments are conducted to investigate the efficacy and properties of the proposed model. Our proposed model outperforms previous state-of-the-art methods by 68.8% to 71.8% when applied to the IEMOCAP dataset, which is one of the most well-studied datasets. Based on an error analysis of the models, we show that our proposed model accurately identifies emotion classes. Moreover, the neutral class misclassification bias frequently exhibited by previous models, which focus on audio features, is less pronounced in our model. Related work Classical machine learning",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech Emotion Recognition"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "algorithms, such as hidden Markov models (HMMs), support vector machines (SVMs), and decision tree-based methods, have been employed in speech emotion recognition problems BIBREF11 , BIBREF12 , BIBREF13 . Recently, researchers have proposed various neural network-based architectures to improve the performance of speech emotion recognition. An initial study utilized deep neural networks (DNNs) to extract high-level features from raw audio data and demonstrated its effectiveness in speech emotion recognition BIBREF14 . With the advancement of deep learning methods, more complex neural-based architectures have been proposed. Convolutional neural network (CNN)-based models have been trained on information derived from raw audio signals using spectrograms or audio features such as Mel-frequency cepstral coefficients (MFCCs) and low-level descriptors (LLDs) BIBREF15 , BIBREF16 , BIBREF17 . These neural network-based models are combined to produce higher-complexity models BIBREF18 , BIBREF19 , and these models achieved the best-recorded performance when applied to the IEMOCAP dataset. Another line of research has focused on adopting variant machine learning techniques combined with neural network-based models. One researcher utilized the multiobject learning approach and used gender and naturalness as auxiliary tasks so that the neural network-based model learned more features from a given dataset BIBREF20 . Another researcher investigated transfer learning methods, leveraging external data from related domains BIBREF21 . As emotional dialogue is composed of sound and spoken content, researchers have also investigated the combination of acoustic features and language information, built belief network-based methods of identifying emotional key phrases, and assessed the emotional salience of verbal cues from both phoneme sequences and words BIBREF22 , BIBREF23 . However, none of these studies have utilized information from speech signals and text sequences simultaneously in an end-to-end learning neural network-based model to classify emotions. Model This section describes the methodologies that are applied to the speech emotion recognition task. We start by introducing the recurrent encoder model for the audio and text modalities individually. We then propose a multimodal approach that encodes both audio and textual information simultaneously via a dual recurrent encoder. Audio Recurrent Encoder (ARE) Motivated by the architecture used in BIBREF24 , BIBREF25 , we build an audio recurrent encoder (ARE) to predict the class of a given audio signal. Once MFCC features have been extracted from an audio signal, a subset of the sequential features is fed into the RNN (i.e., gated recurrent units (GRUs)), which leads to the formation of the network's internal hidden state INLINEFORM0",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech Emotion Recognition Models"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "to model the time series patterns. This internal hidden state is updated at each time step with the input data INLINEFORM1 and the hidden state of the previous time step INLINEFORM2 as follows: DISPLAYFORM0 where INLINEFORM0 is the RNN function with weight parameter INLINEFORM1 , INLINEFORM2 represents the hidden state at t- INLINEFORM3 time step, and INLINEFORM4 represents the t- INLINEFORM5 MFCC features in INLINEFORM6 . After encoding the audio signal INLINEFORM7 with the RNN, the last hidden state of the RNN, INLINEFORM8 , is considered to be the representative vector that contains all of the sequential audio data. This vector is then concatenated with another prosodic feature vector, INLINEFORM9 , to generate a more informative vector representation of the signal, INLINEFORM10 . The MFCC and the prosodic features are extracted from the audio signal using the openSMILE toolkit BIBREF26 , INLINEFORM11 , respectively. Finally, the emotion class is predicted by applying the softmax function to the vector INLINEFORM12 . For a given audio sample INLINEFORM13 , we assume that INLINEFORM14 is the true label vector, which contains all zeros but contains a one at the correct class, and INLINEFORM15 is the predicted probability distribution from the softmax layer. The training objective then takes the following form: DISPLAYFORM0 where INLINEFORM0 is the calculated representative vector of the audio signal with dimensionality INLINEFORM1 . The INLINEFORM2 and the bias INLINEFORM3 are learned model parameters. C is the total number of classes, and N is the total number of samples used in training. The upper part of Figure shows the architecture of the ARE model. Text Recurrent Encoder (TRE) We assume that speech transcripts can be extracted from audio signals with high accuracy, given the advancement of ASR technologies BIBREF7 . We attempt to use the processed textual information as another modality in predicting the emotion class of a given signal. To use textual information, a speech transcript is tokenized and indexed into a sequence of tokens using the Natural Language Toolkit (NLTK) BIBREF27 . Each token is then passed through a word-embedding layer that converts a word index to a corresponding 300-dimensional vector that contains additional contextual meaning between words. The sequence of embedded tokens is fed into a text recurrent encoder (TRE) in such a way that the audio MFCC features are encoded using the ARE represented by equation EQREF2 . In this case, INLINEFORM0 is the t- INLINEFORM1 embedded",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Prediction Model"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "token from the text input. Finally, the emotion class is predicted from the last hidden state of the text-RNN using the softmax function. We use the same training objective as the ARE model, and the predicted probability distribution for the target class is as follows: DISPLAYFORM0 where INLINEFORM0 is last hidden state of the text-RNN, INLINEFORM1 , and the INLINEFORM2 and bias INLINEFORM3 are learned model parameters. The lower part of Figure indicates the architecture of the TRE model. Multimodal Dual Recurrent Encoder (MDRE) We present a novel architecture called the multimodal dual recurrent encoder (MDRE) to overcome the limitations of existing approaches. In this study, we consider multiple modalities, such as MFCC features, prosodic features and transcripts, which contain sequential audio information, statistical audio information and textual information, respectively. These types of data are the same as those used in the ARE and TRE cases. The MDRE model employs two RNNs to encode data from the audio signal and textual inputs independently. The audio-RNN encodes MFCC features from the audio signal using equation EQREF2 . The last hidden state of the audio-RNN is concatenated with the prosodic features to form the final vector representation INLINEFORM0 , and this vector is then passed through a fully connected neural network layer to form the audio encoding vector A. On the other hand, the text-RNN encodes the word sequence of the transcript using equation EQREF2 . The final hidden states of the text-RNN are also passed through another fully connected neural network layer to form a textual encoding vector T. Finally, the emotion class is predicted by applying the softmax function to the concatenation of the vectors A and T. We use the same training objective as the ARE model, and the predicted probability distribution for the target class is as follows: DISPLAYFORM0 where INLINEFORM0 is the feed-forward neural network with weight parameter INLINEFORM1 , and INLINEFORM2 , INLINEFORM3 are final encoding vectors from the audio-RNN and text-RNN, respectively. INLINEFORM4 and the bias INLINEFORM5 are learned model parameters. Multimodal Dual Recurrent Encoder with Attention (MDREA) Inspired by the concept of the attention mechanism used in neural machine translation BIBREF28 , we propose a novel multimodal attention method to focus on the specific parts of a transcript that contain strong emotional information, conditioning on the audio information. Figure shows the architecture of the MDREA model. First, the audio data and text data are",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "encoded with the audio-RNN and text-RNN using equation EQREF2 . We then consider the final audio encoding vector INLINEFORM0 as a context vector. As seen in equation EQREF9 , during each time step t, the dot product between the context vector e and the hidden state of the text-RNN at each t-th sequence INLINEFORM1 is evaluated to calculate a similarity score INLINEFORM2 . Using this score INLINEFORM3 as a weight parameter, the weighted sum of the sequences of the hidden state of the text-RNN, INLINEFORM4 , is calculated to generate an attention-application vector Z. This attention-application vector is concatenated with the final encoding vector of the audio-RNN INLINEFORM5 (equation EQREF7 ), which will be passed through the softmax function to predict the emotion class. We use the same training objective as the ARE model, and the predicted probability distribution for the target class is as follows: DISPLAYFORM0 where INLINEFORM0 and the bias INLINEFORM1 are learned model parameters. Dataset We evaluate our model using the Interactive Emotional Dyadic Motion Capture (IEMOCAP) BIBREF18 dataset. This dataset was collected following theatrical theory in order to simulate natural dyadic interactions between actors. We use categorical evaluations with majority agreement. We use only four emotional categories happy, sad, angry, and neutral to compare the performance of our model with other research using the same categories. The IEMOCAP dataset includes five sessions, and each session contains utterances from two speakers (one male and one female). This data collection process resulted in 10 unique speakers. For consistent comparison with previous work, we merge the excitement dataset with the happiness dataset. The final dataset contains a total of 5531 utterances (1636 happy, 1084 sad, 1103 angry, 1708 neutral). Feature extraction To extract speech information from audio signals, we use MFCC values, which are widely used in analyzing audio signals. The MFCC feature set contains a total of 39 features, which include 12 MFCC parameters (1-12) from the 26 Mel-frequency bands and log-energy parameters, 13 delta and 13 acceleration coefficients The frame size is set to 25 ms at a rate of 10 ms with the Hamming function. According to the length of each wave file, the sequential step of the MFCC features is varied. To extract additional information from the data, we also use prosodic features, which show effectiveness in affective computing. The prosodic features are composed of 35 features, which include the F0 frequency, the voicing probability,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Attention Mechanism in Emotion Modeling"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "and the loudness contours. All of these MFCC and prosodic features are extracted from the data using the OpenSMILE toolkit BIBREF26 . Implementation details Among the variants of the RNN function, we use GRUs as they yield comparable performance to that of the LSTM and include a smaller number of weight parameters BIBREF29 . We use a max encoder step of 750 for the audio input, based on the implementation choices presented in BIBREF30 and 128 for the text input because it covers the maximum length of the transcripts. The vocabulary size of the dataset is 3,747, including the \u201c_UNK_\" token, which represents unknown words, and the \u201c_PAD_\" token, which is used to indicate padding information added while preparing mini-batch data. The number of hidden units and the number of layers in the RNN for each model (ARE, TRE, MDRE and MDREA) are selected based on extensive hyperparameter search experiments. The weights of the hidden units are initialized using orthogonal weights BIBREF31 ], and the text embedding layer is initialized from pretrained word-embedding vectors BIBREF32 . In preparing the textual dataset, we first use the released transcripts of the IEMOCAP dataset for simplicity. To investigate the practical performance, we then process all of the IEMOCAP audio data using an ASR system (the Google Cloud Speech API) and retrieve the transcripts. The performance of the Google ASR system is reflected by its word error rate (WER) of 5.53%. Performance evaluation As the dataset is not explicitly split beforehand into training, development, and testing sets, we perform 5-fold cross validation to determine the overall performance of the model. The data in each fold are split into training, development, and testing datasets (8:0.5:1.5, respectively). After training the model, we measure the weighted average precision (WAP) over the 5-fold dataset. We train and evaluate the model 10 times per fold, and the model performance is assessed in terms of the mean score and standard deviation. We examine the WAP values, which are shown in Table 1. First, our ARE model shows the baseline performance because we use minimal audio features, such as the MFCC and prosodic features with simple architectures. On the other hand, the TRE model shows higher performance gain compared to the ARE. From this result, we note that textual data are informative in emotion prediction tasks, and the recurrent encoder model is effective in understanding these types of sequential data. Second,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Implementation"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "the newly proposed model, MDRE, shows a substantial performance gain. It thus achieves the state-of-the-art performance with a WAP value of 0.718. This result shows that multimodal information is a key factor in affective computing. Lastly, the attention model, MDREA, also outperforms the best existing research results (WAP 0.690 to 0.688) BIBREF19 . However, the MDREA model does not match the performance of the MDRE model, even though it utilizes a more complex architecture. We believe that this result arises because insufficient data are available to properly determine the complex model parameters in the MDREA model. Moreover, we presume that this model will show better performance when the audio signals are aligned with the textual sequence while applying the attention mechanism. We leave the implementation of this point as a future research direction. To investigate the practical performance of the proposed models, we conduct further experiments with the ASR-processed transcript data (see \u201c-ASR\u201d models in Table ). The label accuracy of the processed transcripts is 5.53% WER. The TRE-ASR, MDRE-ASR and MDREA-ASR models reflect degraded performance compared to that of the TRE, MDRE and MDREA models. However, the performance of these models is still competitive; in particular, the MDRE-ASR model outperforms the previous best-performing model, 3CNN-LSTM10H (WAP 0.691 to 0.688). Error analysis We analyze the predictions of the ARE, TRE, and MDRE models. Figure shows the confusion matrix of each model. The ARE model (Fig. ) incorrectly classifies most instances of happy as neutral (43.51%); thus, it shows reduced accuracy (35.15%) in predicting the the happy class. Overall, most of the emotion classes are frequently confused with the neutral class. This observation is in line with the findings of BIBREF30 , who noted that the neutral class is located in the center of the activation-valence space, complicating its discrimination from the other classes. Interestingly, the TRE model (Fig. ) shows greater prediction gains in predicting the happy class when compared to the ARE model (35.15% to 75.73%). This result seems plausible because the model can benefit from the differences among the distributions of words in happy and neutral expressions, which gives more emotional information to the model than that of the audio signal data. On the other hand, it is striking that the TRE model incorrectly predicts instances of the sad class as the happy class 16.20% of the time, even though these emotional states are opposites of one another.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "The MDRE model (Fig. ) compensates for the weaknesses of the previous two models (ARE and TRE) and benefits from their strengths to a surprising degree. The values arranged along the diagonal axis show that all of the accuracies of the correctly predicted class have increased. Furthermore, the occurrence of the incorrect \u201csad-to-happy\" cases in the TRE model is reduced from 16.20% to 9.15%. Conclusions In this paper, we propose a novel multimodal dual recurrent encoder model that simultaneously utilizes text data, as well as audio signals, to permit the better understanding of speech data. Our model encodes the information from audio and text sequences using dual RNNs and then combines the information from these sources using a feed-forward neural model to predict the emotion class. Extensive experiments show that our proposed model outperforms other state-of-the-art methods in classifying the four emotion categories, and accuracies ranging from 68.8% to 71.8% are obtained when the model is applied to the IEMOCAP dataset. In particular, it resolves the issue in which predictions frequently incorrectly yield the neutral class, as occurs in previous models that focus on audio features. In the future work, we aim to extend the modalities to audio, text and video inputs. Furthermore, we plan to investigate the application of the attention mechanism to data derived from multiple modalities. This approach seems likely to uncover enhanced learning schemes that will increase performance in both speech emotion recognition and other multimodal classification tasks. Acknowledgments K. Jung is with the Department of Electrical and Computer Engineering, ASRI, Seoul National University, Seoul, Korea. This work was supported by the Ministry of Trade, Industry & Energy (MOTIE, Korea) under Industrial Technology Innovation Program (No.10073144).",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Deep learning algorithms have successfully addressed problems in image classification, machine translation, speech recognition, and text-to-speech generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Deep learning algorithms have led to substantial improvements in performance in statistical speech processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance Improvement"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Researchers have investigated human emotions as a topic related to human nature in the context of machine intelligence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Research Topic"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Emotional dialogue models are systems that reflect human emotions through machine intelligence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Building robust emotion classifiers that perform well across applications is a fundamental research goal in affective computing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Research Goal"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Speech emotion recognition is one of the most important problems in paralinguistics and plays a crucial role in optimal human-computer interactions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Field Importance"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Speech emotion recognition classifies speech into emotional labels such as happy, sad, neutral, and angry.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Various types of deep learning methods have been applied to improve the performance of emotion classifiers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "A major challenge in speech emotion recognition is the lack of sufficient data for training complex neural networks due to high human involvement costs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Feature-based models have limited effectiveness when learning emotional characteristics from low-level speech signals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature Limitation"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "A model is proposed that uses both high-level text transcription and low-level audio signals to better utilize information in low-resource datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Proposed Solution"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Recent improvements in ASR technology enable accurate speech transcription from audio signals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Enabling Technology"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Emotion words like 'lovely' and 'awesome' clearly indicate emotional content in speech, unlike generic words like 'person' or 'day'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Emotional Indicators"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "A novel deep dual recurrent encoder model is proposed that simultaneously utilizes audio and text data for speech emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Proposed Model"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The proposed model outperforms previous state-of-the-art methods by 68.8% to 71.8% on the IEMOCAP dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance Benchmark"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Previous models focusing on audio features frequently misclassify the neutral emotion class, a bias that is reduced in the proposed model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Limitation"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Hidden Markov models are algorithms used in speech emotion recognition to analyze and classify emotional states from speech signals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Support vector machines are machine learning algorithms employed in speech emotion recognition to classify emotional states from speech data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Decision tree-based methods are machine learning techniques used in speech emotion recognition to classify emotions based on speech features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Deep neural networks have demonstrated effectiveness in speech emotion recognition by extracting high-level features from raw audio data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Convolutional neural network-based models are trained on audio signals using spectrograms or features like Mel-frequency cepstral coefficients and low-level descriptors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Mel-frequency cepstral coefficients are audio features used as input in CNN-based models for speech emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Low-level descriptors are audio features used in conjunction with spectrograms in neural network models for speech emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "A multimodal approach simultaneously encodes audio and textual information using a dual recurrent encoder for speech emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The audio recurrent encoder (ARE) is a model that uses gated recurrent units (GRUs) to process MFCC features and predict the emotion class of an audio signal.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Gated recurrent units are used in the audio recurrent encoder to process sequential MFCC features and generate internal hidden states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Multimodal neural network models achieved the best-recorded performance on the IEMOCAP dataset for speech emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Multiobject learning is a technique that uses auxiliary tasks such as gender and naturalness to enhance feature learning in neural network models for speech emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Transfer learning leverages external data from related domains to improve performance in speech emotion recognition models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Researchers have combined acoustic features and language information to identify emotional key phrases and assess emotional salience in spoken dialogue.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Belief network-based methods are used to identify emotional key phrases and evaluate the emotional salience of verbal cues from phoneme sequences and words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "No existing study has utilized speech signals and text sequences simultaneously in an end-to-end learning neural network to classify emotions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Gap"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The RNN function is a neural network function with weight parameter INLINEFORM1 that updates the hidden state at each time step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The hidden state is updated at each time step using the input data and the hidden state from the previous time step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "MFCC features represent the spectral characteristics of the audio signal and are extracted using the openSMILE toolkit.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "Prosodic features are extracted from the audio signal using the openSMILE toolkit and are combined with MFCC features to form a more informative vector representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The representative vector is the last hidden state of the RNN, which encapsulates all sequential audio data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Textual information from speech transcripts is used as an additional modality to predict the emotion class of an audio signal.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Speech transcripts are tokenized and indexed into a sequence of tokens using the Natural Language Toolkit (NLTK).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The word-embedding layer converts a word index into a 300-dimensional vector that captures contextual meaning between words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The text recurrent encoder (TRE) processes a sequence of embedded tokens to encode textual information for emotion prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The emotion class is predicted by applying the softmax function to the concatenated vector of MFCC and prosodic features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The true label vector contains all zeros except for a one at the correct emotion class, representing the ground truth for a given audio sample.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The predicted probability distribution is generated by the softmax layer from the vector representing the audio signal.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The training objective is defined as a loss function involving the negative log-likelihood of the true label vector and the predicted probability distribution over all classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The openSMILE toolkit is used to extract both MFCC and prosodic features from the audio signal.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "It is assumed that speech transcripts can be accurately extracted from audio signals due to advancements in automatic speech recognition (ASR) technologies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Assumption"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The emotion class is predicted from the last hidden state of the text-RNN using the softmax function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Prediction Method"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The TRE model uses a text-RNN to encode textual input and predicts emotion class via softmax applied to the last hidden state.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The multimodal dual recurrent encoder (MDRE) is a novel architecture that independently encodes audio and textual inputs using two RNNs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The audio-RNN encodes MFCC features from the audio signal using equation EQREF2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The text-RNN encodes the word sequence of the transcript using equation EQREF2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The audio encoding vector A is formed by concatenating the last hidden state of the audio-RNN with prosodic features and passing through a fully connected neural network layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The textual encoding vector T is formed by passing the final hidden states of the text-RNN through a fully connected neural network layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The MDREA model is a variant of MDRE that incorporates an attention mechanism to focus on emotionally significant parts of the transcript based on audio input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The attention mechanism in MDREA focuses on specific parts of the transcript that contain strong emotional information, conditioned on audio input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The MDRE and MDREA models use the same training objective as the ARE model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The predicted probability distribution for the target emotion class is computed using a feed-forward neural network with learned parameters and concatenated encoding vectors from audio and text modules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The audio-RNN is a recurrent neural network used to encode audio signals into a final encoding vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The text-RNN is a recurrent neural network that processes text sequences to generate hidden states over time steps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The final audio encoding vector from the audio-RNN is used as the context vector in the attention mechanism.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The similarity score is calculated as the dot product between the context vector and the hidden state of the text-RNN at each time step t.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The attention-application vector Z is computed as a weighted sum of the text-RNN hidden states, where the weights are derived from the similarity scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "MFCC features are extracted from audio signals and consist of 39 features including 12 MFCC parameters, 13 delta coefficients, and 13 acceleration coefficients.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The frame size for MFCC extraction is set to 25 ms with a 10 ms step size and a Hamming window function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Prosodic features include 35 features such as F0 frequency and voicing probability, and are used to extract additional information from speech.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The IEMOCAP dataset consists of 5531 utterances from 10 unique speakers, collected to simulate natural dyadic interactions between actors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The IEMOCAP dataset is evaluated using four emotional categories: happy, sad, angry, and neutral.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The model uses the same training objective as the ARE model to predict the emotion class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The predicted probability distribution for the target emotion class is determined using learned parameters including the final encoding vector and bias.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Emotion labels are determined using categorical evaluations with majority agreement among annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The excitement dataset is merged with the happiness dataset to form the final emotion category of 'happy'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "MFCC stands for Mel-Frequency Cepstral Coefficients, a set of features extracted from audio data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "Prosodic features are audio characteristics such as pitch, stress, and intonation that convey emotional and linguistic information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "OpenSMILE is a toolkit used to extract audio features such as MFCC and prosodic features from speech data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "GRU (Gated Recurrent Unit) is a type of recurrent neural network that offers performance comparable to LSTM with fewer weight parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The audio input has a maximum encoder step of 750, based on implementation choices in the referenced literature.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The text input has a maximum length of 128, which covers the longest transcript lengths in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The dataset has a vocabulary size of 3,747, including the '_UNK_' token for unknown words and the '_PAD_' token for padding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The number of hidden units and layers in the RNN for each model (ARE, TRE, MDRE, MDREA) is determined through extensive hyperparameter search experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The weights of the hidden units in the RNN are initialized using orthogonal weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The text embedding layer is initialized using pretrained word-embedding vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The initial textual dataset is derived from the released transcripts of the IEMOCAP dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The Google Cloud Speech API is used to process IEMOCAP audio data and generate transcripts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The Google ASR system has a word error rate of 5.53% when transcribing IEMOCAP audio data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The model performance is evaluated using 5-fold cross validation with a data split ratio of 8:0.5:1.5 for training, development, and testing, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Model performance is assessed using the weighted average precision (WAP) over the 5-fold cross-validation results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The ARE model is a baseline model that uses minimal audio features and simple architectures for emotion prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The TRE model shows higher performance than the ARE model, indicating that textual data are informative in emotion prediction tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The recurrent encoder model is effective in understanding sequential textual data such as transcripts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The MDRE model achieves a WAP value of 0.718, demonstrating state-of-the-art performance in affective computing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Multimodal information is identified as a key factor in achieving high performance in affective computing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The MDREA model outperforms existing research with a WAP value of 0.690 to 0.688, but falls short of the MDRE model's performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The MDREA model's suboptimal performance is attributed to insufficient data for properly determining its complex model parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "It is presumed that aligning audio signals with the textual sequence during attention mechanism application would improve the MDREA model's performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Presumption"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The label accuracy of ASR-processed transcripts is 5.53% WER.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The ASR-processed models show degraded performance compared to their non-ASR counterparts, though they remain competitive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The MDRE-ASR model outperforms the previous best-performing model, 3CNN-LSTM10H, which had a WAP of 0.691 to 0.688.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The ARE model incorrectly classifies 43.51% of happy instances as neutral, resulting in a 35.15% accuracy for the happy class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Error"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The TRE model improves happy class prediction accuracy from 35.15% to 75.73% compared to the ARE model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The TRE model incorrectly predicts 16.20% of sad instances as happy, despite these being opposing emotional states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Error"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The neutral class is located in the center of the activation-valence space, making it difficult to distinguish from other emotion classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The MDRE model is a novel multimodal dual recurrent encoder model that simultaneously utilizes text data and audio signals to improve speech emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The MDRE model encodes information from audio and text sequences using dual RNNs and combines them via a feed-forward neural model to predict emotion class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The MDRE model outperforms other state-of-the-art methods in classifying four emotion categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The MDRE model achieves accuracies ranging from 68.8% to 71.8% on the IEMOCAP dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The TRE model frequently incorrectly predicts the neutral class in emotion classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The occurrence of incorrect 'sad-to-happy' cases in the TRE model is reduced from 16.20% to 9.15% in the MDRE model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The future work aims to extend the model to include audio, text, and video inputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The future work plans to investigate the application of attention mechanisms to multi-modal data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "Applying attention mechanisms to multi-modal data is expected to uncover enhanced learning schemes that improve performance in speech emotion recognition and other multimodal classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Potential Benefit"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The MDRE model achieves accuracies between 68.8% and 71.8% when applied to the IEMOCAP dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "10 times per fold",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "1084 sad",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "1103 angry",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "12 MFCC parameters",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "16.20%",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "1636 happy",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "1708 neutral",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "26 Mel-frequency bands",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "300-dimensional vector",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "39 features",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "3CNN-LSTM10H",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "5-fold cross validation",
+      "Method",
+      "s86"
+    ],
+    [
+      "5-fold cross validation",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "5.53% WER",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "5531 utterances",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "68.8%",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "71.8%",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "8:0.5:1.5 split",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "9.15%",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "ARE model",
+      "Definition",
+      "s88"
+    ],
+    [
+      "ARE model",
+      "Error",
+      "s99"
+    ],
+    [
+      "ARE model",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "ARE model",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "ARE model",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "ARE model",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "ASR technologies",
+      "Assumption",
+      "s47"
+    ],
+    [
+      "ASR technologies",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "ASR-processed transcript data",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "ASR-processed transcript data",
+      "Property",
+      "s96"
+    ],
+    [
+      "ASRI",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "BIBREF19",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "BIBREF30",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "C",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "DISPLAYFORM0",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "F0 frequency",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "GRU",
+      "Definition",
+      "s76"
+    ],
+    [
+      "GRUs",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "GRUs",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "Google Cloud Speech API",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "Google Cloud Speech API",
+      "Tool",
+      "s84"
+    ],
+    [
+      "Hamming function",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "IEMOCAP",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Definition",
+      "s67"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Performance Benchmark",
+      "s15"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Property",
+      "s112"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Result",
+      "s27"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "IEMOCAP dataset",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "IEMOCAP transcripts",
+      "Source",
+      "s83"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "INLINEFORM3",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "INLINEFORM4",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "INLINEFORM5",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "In",
+      "Incomplete Passage",
+      "e3"
+    ],
+    [
+      "Industrial Technology Innovation Program",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "K. Jung",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "LSTM",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "MDRE",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "MDRE",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "MDRE",
+      "Result",
+      "s91"
+    ],
+    [
+      "MDRE model",
+      "Definition",
+      "s103"
+    ],
+    [
+      "MDRE model",
+      "Definition",
+      "s50"
+    ],
+    [
+      "MDRE model",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "MDRE model",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "MDRE model",
+      "Property",
+      "s104"
+    ],
+    [
+      "MDRE model",
+      "Result",
+      "s105"
+    ],
+    [
+      "MDRE model",
+      "Result",
+      "s106"
+    ],
+    [
+      "MDRE-ASR",
+      "Result",
+      "s98"
+    ],
+    [
+      "MDREA",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "MDREA",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "MDREA",
+      "Result",
+      "s93"
+    ],
+    [
+      "MDREA model",
+      "Cause",
+      "s94"
+    ],
+    [
+      "MDREA model",
+      "Definition",
+      "s55"
+    ],
+    [
+      "MDREA model",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "MFCC",
+      "Definition",
+      "s73"
+    ],
+    [
+      "MFCC",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "MFCC features",
+      "Definition",
+      "s35"
+    ],
+    [
+      "MFCC features",
+      "Definition",
+      "s64"
+    ],
+    [
+      "MFCC features",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "MFCC features",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "MFCC values",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "Mel-frequency cepstral coefficients",
+      "Property",
+      "s22"
+    ],
+    [
+      "Mel-frequency cepstral coefficients",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "Ministry of Trade, Industry & Energy (MOTIE, Korea)",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "N",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "NLTK",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "No.10073144",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "OpenSMILE",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "OpenSMILE toolkit",
+      "Definition",
+      "s75"
+    ],
+    [
+      "PAD token",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "RNN",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "RNN function",
+      "Definition",
+      "s33"
+    ],
+    [
+      "Seoul National University",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "TRE model",
+      "Definition",
+      "s49"
+    ],
+    [
+      "TRE model",
+      "Definition",
+      "s89"
+    ],
+    [
+      "TRE model",
+      "Error",
+      "s101"
+    ],
+    [
+      "TRE model",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "TRE model",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "TRE model",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "TRE model",
+      "Property",
+      "s107"
+    ],
+    [
+      "TRE model",
+      "Result",
+      "s100"
+    ],
+    [
+      "TRE model",
+      "Result",
+      "s108"
+    ],
+    [
+      "TRE-ASR, MDRE-ASR, MDREA-ASR",
+      "Result",
+      "s97"
+    ],
+    [
+      "UNK token",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "WAP 0.688",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "WAP 0.690",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "WAP 0.718",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "acceleration coefficients",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "acoustic features",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "acoustic features and language information",
+      "Relationship",
+      "s30"
+    ],
+    [
+      "affective computing",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "affective computing",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "algorithms",
+      "Emotional Dialogue Models",
+      "e2"
+    ],
+    [
+      "angry",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "angry",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "attention mechanism",
+      "Cause",
+      "s56"
+    ],
+    [
+      "attention mechanism",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "attention mechanism",
+      "Potential Benefit",
+      "s111"
+    ],
+    [
+      "attention model",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "attention-application vector",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "attention-application vector Z",
+      "Definition",
+      "s63"
+    ],
+    [
+      "audio and text modalities",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "audio encoding vector A",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "audio encoding vector A",
+      "Property",
+      "s53"
+    ],
+    [
+      "audio recurrent encoder",
+      "Definition",
+      "s25"
+    ],
+    [
+      "audio signal",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "audio signal alignment",
+      "Presumption",
+      "s95"
+    ],
+    [
+      "audio signals",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "audio signals",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "audio signals",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "audio-RNN",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "audio-RNN",
+      "Definition",
+      "s59"
+    ],
+    [
+      "audio-RNN",
+      "Function",
+      "s51"
+    ],
+    [
+      "audio-RNN",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "automatic speech recognition (ASR)",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "automatic speech recognition (ASR) technology",
+      "Enabling Technology",
+      "s12"
+    ],
+    [
+      "awesome",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "belief network",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "belief network-based methods",
+      "Definition",
+      "s31"
+    ],
+    [
+      "bias",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "bias",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "categorical evaluations",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "categorical evaluations",
+      "Method",
+      "s71"
+    ],
+    [
+      "confusion matrix",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "context vector",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "context vector",
+      "Property",
+      "s61"
+    ],
+    [
+      "convolutional neural network",
+      "Property",
+      "s21"
+    ],
+    [
+      "convolutional neural networks",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "day",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "decision tree-based methods",
+      "Definition",
+      "s19"
+    ],
+    [
+      "decision tree-based methods",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "deep learning",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "deep learning algorithms",
+      "Application",
+      "s1"
+    ],
+    [
+      "deep learning algorithms",
+      "Deep Learning Applications",
+      "e1"
+    ],
+    [
+      "deep learning methods",
+      "Application",
+      "s8"
+    ],
+    [
+      "deep neural networks",
+      "Result",
+      "s20"
+    ],
+    [
+      "deep neural networks",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "delta coefficients",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "dialog systems",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "dot product",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "dual RNNs",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "dual recurrent encoder",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "dual recurrent encoder",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "dual recurrent encoder model",
+      "Proposed Model",
+      "s14"
+    ],
+    [
+      "emotion class",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "emotion class",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "emotion class",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "emotion class",
+      "Prediction Method",
+      "s48"
+    ],
+    [
+      "emotion class prediction",
+      "Process",
+      "s42"
+    ],
+    [
+      "emotion classifiers",
+      "Research Goal",
+      "s5"
+    ],
+    [
+      "emotion classifiers",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "emotion labels",
+      "Classification",
+      "s7"
+    ],
+    [
+      "emotion words",
+      "Emotional Indicators",
+      "s13"
+    ],
+    [
+      "emotion words",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "emotional categories",
+      "Property",
+      "s68"
+    ],
+    [
+      "emotional dialogue models",
+      "Definition",
+      "s4"
+    ],
+    [
+      "emotional dialogue models",
+      "Emotional Dialogue Models",
+      "e2"
+    ],
+    [
+      "emotional information",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "emotional key phrases",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "end-to-end learning neural network",
+      "Gap",
+      "s32"
+    ],
+    [
+      "equation EQREF2",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "equation EQREF2",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "error analysis",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "excitement dataset",
+      "Relationship",
+      "s72"
+    ],
+    [
+      "feature-based models",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "feed-forward neural model",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "feed-forward neural network",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "frame size",
+      "Property",
+      "s65"
+    ],
+    [
+      "frame size 25 ms",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "fully connected neural network",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s109"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s110"
+    ],
+    [
+      "gated recurrent units",
+      "Property",
+      "s26"
+    ],
+    [
+      "gated recurrent units",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "gender",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "happy",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "happy",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "happy class",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "hidden Markov models",
+      "Definition",
+      "s17"
+    ],
+    [
+      "hidden Markov models",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "hidden state",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "hidden state",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "hidden state",
+      "Property",
+      "s34"
+    ],
+    [
+      "hidden units",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "hidden units and layers",
+      "Property",
+      "s80"
+    ],
+    [
+      "high-level text transcription",
+      "Proposed Solution",
+      "s11"
+    ],
+    [
+      "high-level text transcription",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "human emotions",
+      "Emotional Dialogue Models",
+      "e2"
+    ],
+    [
+      "human emotions",
+      "Research Topic",
+      "s3"
+    ],
+    [
+      "image classification",
+      "Deep Learning Applications",
+      "e1"
+    ],
+    [
+      "insufficient training data",
+      "Challenge",
+      "s9"
+    ],
+    [
+      "language information",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "last hidden state",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "last hidden state",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "log-energy parameters",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "lovely",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "low-level descriptors",
+      "Property",
+      "s23"
+    ],
+    [
+      "low-level descriptors",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "low-level speech signals",
+      "Feature Limitation",
+      "s10"
+    ],
+    [
+      "low-level speech signals",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "machine intelligence",
+      "Emotional Dialogue Models",
+      "e2"
+    ],
+    [
+      "machine learning",
+      "Deep Learning Applications",
+      "e1"
+    ],
+    [
+      "machine translation",
+      "Deep Learning Applications",
+      "e1"
+    ],
+    [
+      "max encoder step",
+      "Property",
+      "s77"
+    ],
+    [
+      "max encoder step 750",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "multimodal approach",
+      "Definition",
+      "s24"
+    ],
+    [
+      "multimodal information",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "multimodal information",
+      "Property",
+      "s92"
+    ],
+    [
+      "multiobject learning",
+      "Method",
+      "s28"
+    ],
+    [
+      "multiobject learning",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "naturalness",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "neural network",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "neutral",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "neutral",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "neutral class",
+      "Definition",
+      "s102"
+    ],
+    [
+      "neutral class",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "neutral class",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "neutral class misclassification",
+      "Model Limitation",
+      "s16"
+    ],
+    [
+      "neutral class misclassification",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "number of layers",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "openSMILE toolkit",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "openSMILE toolkit",
+      "Tool",
+      "s46"
+    ],
+    [
+      "orthogonal weight initialization",
+      "Property",
+      "s81"
+    ],
+    [
+      "orthogonal weights",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "paralinguistics",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "performance improvements",
+      "Deep Learning Applications",
+      "e1"
+    ],
+    [
+      "person",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "phoneme sequences",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "predicted probability distribution",
+      "Definition",
+      "s44"
+    ],
+    [
+      "predicted probability distribution",
+      "Definition",
+      "s70"
+    ],
+    [
+      "predicted probability distribution",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "predicted probability distribution",
+      "Result",
+      "s58"
+    ],
+    [
+      "pretrained word-embedding",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "pretrained word-embedding vectors",
+      "Property",
+      "s82"
+    ],
+    [
+      "prosodic features",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "prosodic features",
+      "Definition",
+      "s36"
+    ],
+    [
+      "prosodic features",
+      "Definition",
+      "s66"
+    ],
+    [
+      "prosodic features",
+      "Definition",
+      "s74"
+    ],
+    [
+      "prosodic features",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "prosodic features",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "prosodic features",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "recurrent encoder",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "recurrent encoder model",
+      "Property",
+      "s90"
+    ],
+    [
+      "representative vector",
+      "Definition",
+      "s37"
+    ],
+    [
+      "representative vector",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "sad",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "sad",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "sad-to-happy cases",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "similarity score",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "similarity score",
+      "Result",
+      "s62"
+    ],
+    [
+      "softmax function",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "softmax function",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "softmax function",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "speech emotion recognition",
+      "Field Importance",
+      "s6"
+    ],
+    [
+      "speech emotion recognition",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "speech recognition",
+      "Deep Learning Applications",
+      "e1"
+    ],
+    [
+      "speech transcript",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "state-of-the-art methods",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "statistical speech processing",
+      "Emotional Dialogue Models",
+      "e2"
+    ],
+    [
+      "statistical speech processing",
+      "Performance Improvement",
+      "s2"
+    ],
+    [
+      "step 10 ms",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "support vector machines",
+      "Definition",
+      "s18"
+    ],
+    [
+      "support vector machines",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "text data",
+      "Model Performance",
+      "e11"
+    ],
+    [
+      "text input max length",
+      "Property",
+      "s78"
+    ],
+    [
+      "text input max length 128",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "text recurrent encoder (TRE)",
+      "Definition",
+      "s41"
+    ],
+    [
+      "text recurrent encoder (TRE)",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "text-RNN",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "text-RNN",
+      "Definition",
+      "s60"
+    ],
+    [
+      "text-RNN",
+      "Function",
+      "s52"
+    ],
+    [
+      "text-RNN",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "text-to-speech generation",
+      "Deep Learning Applications",
+      "e1"
+    ],
+    [
+      "textual encoding vector T",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "textual encoding vector T",
+      "Property",
+      "s54"
+    ],
+    [
+      "textual information",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "textual information",
+      "Usage",
+      "s38"
+    ],
+    [
+      "textual input",
+      "Speech Emotion Recognition",
+      "e4"
+    ],
+    [
+      "textual sequence",
+      "Model Performance Analysis",
+      "e10"
+    ],
+    [
+      "time step",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "tokenization",
+      "Process",
+      "s39"
+    ],
+    [
+      "training objective",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "training objective",
+      "Formula",
+      "s45"
+    ],
+    [
+      "training objective",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "training objective",
+      "Property",
+      "s57"
+    ],
+    [
+      "training objective",
+      "Property",
+      "s69"
+    ],
+    [
+      "transcripts",
+      "Model Architecture",
+      "e7"
+    ],
+    [
+      "transfer learning",
+      "Method",
+      "s29"
+    ],
+    [
+      "transfer learning",
+      "Speech Emotion Recognition Models",
+      "e5"
+    ],
+    [
+      "true label vector",
+      "Definition",
+      "s43"
+    ],
+    [
+      "true label vector",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "vocabulary size",
+      "Property",
+      "s79"
+    ],
+    [
+      "vocabulary size 3747",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "voicing probability",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "weight parameter",
+      "Attention Mechanism in Emotion Modeling",
+      "e8"
+    ],
+    [
+      "weight parameter",
+      "Emotion Prediction Model",
+      "e6"
+    ],
+    [
+      "weighted average precision (WAP)",
+      "Metric",
+      "s87"
+    ],
+    [
+      "weighted average precision (WAP)",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "word error rate (WER)",
+      "Result",
+      "s85"
+    ],
+    [
+      "word error rate 5.53%",
+      "Model Implementation",
+      "e9"
+    ],
+    [
+      "word-embedding layer",
+      "Definition",
+      "s40"
+    ],
+    [
+      "word-embedding layer",
+      "Emotion Prediction Model",
+      "e6"
+    ]
+  ]
+}

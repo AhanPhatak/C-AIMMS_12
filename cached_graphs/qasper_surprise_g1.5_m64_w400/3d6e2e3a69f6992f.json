@@ -1,0 +1,3023 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 8,
+    "n_semantic": 84,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "kitchen": {
+      "tag_set": [
+        "Kitchen Introduction"
+      ]
+    },
+    "Asian cuisine": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "chicken curry": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "ingredients": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "calorie level": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "user preferences": {
+      "tag_set": [
+        "Personalized Recipe Generation",
+        "Property",
+        "Recipe Preference Modeling"
+      ]
+    },
+    "historical user reviews": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "recipe generation": {
+      "tag_set": [
+        "Personalized Recipe Generation",
+        "Task"
+      ]
+    },
+    "encoder-decoder framework": {
+      "tag_set": [
+        "Definition",
+        "Personalized Recipe Generation"
+      ]
+    },
+    "attention fusion layer": {
+      "tag_set": [
+        "Definition",
+        "Personalized Recipe Generation",
+        "Recipe Preference Modeling"
+      ]
+    },
+    "user-aware representations": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "coherence": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Personalized Recipe Generation",
+        "Property"
+      ]
+    },
+    "instructional texts": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "180K+ recipes": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "700K+ user reviews": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "natural language processing": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "recommender systems": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "data-to-text generation": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "personalized recommendation": {
+      "tag_set": [
+        "Personalized Recipe Generation"
+      ]
+    },
+    "data-to-text natural language generation": {
+      "tag_set": [
+        "Application",
+        "Recipe Personalization Model"
+      ]
+    },
+    "automated journalism": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "question-answering": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "abstractive summarization": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "recipe": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "ingredient entities": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "cooking actions": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "checklist attention constraint": {
+      "tag_set": [
+        "Property",
+        "Recipe Personalization Model"
+      ]
+    },
+    "historical user preferences": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "recipe name": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "partial list of ingredients": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "caloric level": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "high medium low": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "BiGRU": {
+      "tag_set": [
+        "Component",
+        "Recipe Personalization Model"
+      ]
+    },
+    "vocabulary embedding": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "ingredient embedding": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "caloric-level embedding": {
+      "tag_set": [
+        "Process",
+        "Recipe Personalization Model"
+      ]
+    },
+    "decoder attention": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "attention-score function": {
+      "tag_set": [
+        "Definition",
+        "Recipe Personalization Model"
+      ]
+    },
+    "query Q": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "key K": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "trainable weights W_alpha": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "bias b_alpha": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "normalization term Z": {
+      "tag_set": [
+        "Recipe Personalization Model"
+      ]
+    },
+    "GRU": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "hidden state": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "prior recipes": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "R_u": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "R^{k+}_u": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "recipe embedding layer": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "name tokens": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "technique embedding layer": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "co-occurrence": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "preference vector \u03c1_u": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "Food.com": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Recipe Preference Modeling"
+      ]
+    },
+    "230K+ recipes": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "1M+ user interactions": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "2000-2018": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "3 steps": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "4 to 20 ingredients": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "Prior Recipe model": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "Prior Name model": {
+      "tag_set": [
+        "Property",
+        "Recipe Personalization",
+        "Recipe Preference Modeling",
+        "Result"
+      ]
+    },
+    "Prior Tech model": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "log-likelihood": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "cilantro": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "BIBREF20": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Recipe Preference Modeling"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "BLEU": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "ROUGE": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "distinct unigrams": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "distinct bigrams": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "personalized models": {
+      "tag_set": [
+        "Definition",
+        "Recipe Personalization",
+        "Result"
+      ]
+    },
+    "baseline": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "coconut mousse": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "pork skewers": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "lemon": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "mint": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "gold user": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "user profiles": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "UMA": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "MRR": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "recipe-level coherence": {
+      "tag_set": [
+        "Definition",
+        "Recipe Personalization"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Definition",
+        "Recipe Personalization"
+      ]
+    },
+    "GRU network": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "step order": {
+      "tag_set": [
+        "Recipe Personalization"
+      ]
+    },
+    "neural scoring model": {
+      "tag_set": [
+        "Definition",
+        "Recipe Personalization"
+      ]
+    },
+    "cosine similarity": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "recipe step ordering": {
+      "tag_set": [
+        "Definition",
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "forward and reverse orders": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "scorer": {
+      "tag_set": [
+        "Property",
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "gold label": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "coherence scores": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "1.78-1.82": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "baseline 1.77": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "local coherence": {
+      "tag_set": [
+        "Definition",
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "entailment task": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "BERT BIBREF34": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "CLS token": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "step entailment score": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "310 recipe pairs": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "human evaluation": {
+      "tag_set": [
+        "Definition",
+        "Recipe Coherence Metrics",
+        "Result"
+      ]
+    },
+    "63% preference": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "90 recipes": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "60% found more coherent": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "180K recipes": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "700K reviews": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "personalized generative models": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "automatic coherence measures": {
+      "tag_set": [
+        "Definition",
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "personalization metrics": {
+      "tag_set": [
+        "Definition",
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "ingredient properties": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "dry mix": {
+      "tag_set": [
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "NSF #1750063": {
+      "tag_set": [
+        "Cause",
+        "Recipe Coherence Metrics"
+      ]
+    },
+    "270K recipes": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "1.4M user-recipe interactions": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "January 2000": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "December 2018": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "18 years": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "tab:int-stats": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "tab:samplegk": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "chicken chili": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "sweet waffles": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "15 pairwise comparisons": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "930 pairwise evaluations": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "310 per personalized model": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "62 sessions": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "baseline encoder-decoder model": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Definition"
+      ]
+    },
+    "Prior Tech": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "Prior Name": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "Prior Recipe": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "partial recipe specification": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "name": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "3-5 key ingredients": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "recipe A": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "recipe B": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "fig:exeval": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "fig:exeval2": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "goal accomplishment": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "personalized recipe generation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "personalized text generation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "180K+ recipes and 700K+ user reviews": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "evaluation strategies": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "recipe modeling": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ingredient attention": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "hierarchical ingredient inference": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "user historical preferences": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "recipe input specification": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "recipe output": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "encoder embedding layers": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "decoding time step": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "recipe space": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "unique ingredients": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vocabulary distribution": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Byte-Pair Encoding": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "user consumption distribution": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "review ordering": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "cooking techniques": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "technique adherence": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "training input": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "decoding method": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "hidden size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "embedding dimensions": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "prior recipe attention": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "optimizer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "teacher-forcing": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "baseline models": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "model performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "evaluation metrics": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BLEU and ROUGE": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "distinct unigrams and bigrams": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "BLEU-1/4": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BLEU-1 score": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BLEU-4 score": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "user profile": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "user matching accuracy (UMA)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Mean Reciprocal Rank (MRR)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "attention mechanisms": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "cooking recipe": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "lemon and mint": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "coherence score": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "step entailment task": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BERT model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "coherence survey": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Plan"
+      ]
+    },
+    "Food.com dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "dataset summary statistics": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "sample user-recipe interaction": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "chicken chili recipe": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sweet waffles recipe": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "pairwise comparison": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "recipe presentation order": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "evaluation goal": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "user evaluation interface": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "survey interface": {
+      "tag_set": [
+        "Definition"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nIn the kitchen, we",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Kitchen Introduction"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "increasingly rely on instructions from cooking websites: recipes. A cook with a predilection for Asian cuisine may wish to prepare chicken curry, but may not know all necessary ingredients apart from a few basics. These users with limited knowledge cannot rely on existing recipe generation approaches that focus on creating coherent recipes given all ingredients and a recipe name BIBREF0. Such models do not address issues of personal preference (e.g. culinary tastes, garnish choices) and incomplete recipe details. We propose to approach both problems via personalized generation of plausible, user-specific recipes using user preferences extracted from previously consumed recipes. Our work combines two important tasks from natural language processing and recommender systems: data-to-text generation BIBREF1 and personalized recommendation BIBREF2. Our model takes as user input the name of a specific dish, a few key ingredients, and a calorie level. We pass these loose input specifications to an encoder-decoder framework and attend on user profiles\u2014learned latent representations of recipes previously consumed by a user\u2014to generate a recipe personalized to the user's tastes. We fuse these `user-aware' representations with decoder output in an attention fusion layer to jointly determine text generation. Quantitative (perplexity, user-ranking) and qualitative analysis on user-aware model outputs confirm that personalization indeed assists in generating plausible recipes from incomplete ingredients. While personalized text generation has seen success in conveying user writing styles in the product review BIBREF3, BIBREF4 and dialogue BIBREF5 spaces, we are the first to consider it for the problem of recipe generation, where output quality is heavily dependent on the content of the instructions\u2014such as ingredients and cooking techniques. To summarize, our main contributions are as follows: We explore a new task of generating plausible and personalized recipes from incomplete input specifications by leveraging historical user preferences; We release a new dataset of 180K+ recipes and 700K+ user reviews for this task; We introduce new evaluation strategies for generation quality in instructional texts, centering on quantitative measures of coherence. We also show qualitatively and quantitatively that personalized models generate high-quality and specific recipes that align with historical user preferences. Related Work Large-scale transformer-based language models have shown surprising expressivity and fluency in creative and conditional long-text generation BIBREF6, BIBREF7. Recent works have proposed hierarchical methods that condition on narrative frameworks to generate internally consistent long texts BIBREF8, BIBREF9, BIBREF10. Here, we generate procedurally structured recipes instead of free-form narratives. Recipe generation belongs to the field of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Personalized Recipe Generation"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "data-to-text natural language generation BIBREF1, which sees other applications in automated journalism BIBREF11, question-answering BIBREF12, and abstractive summarization BIBREF13, among others. BIBREF14, BIBREF15 model recipes as a structured collection of ingredient entities acted upon by cooking actions. BIBREF0 imposes a `checklist' attention constraint emphasizing hitherto unused ingredients during generation. BIBREF16 attend over explicit ingredient references in the prior recipe step. Similar hierarchical approaches that infer a full ingredient list to constrain generation will not help personalize recipes, and would be infeasible in our setting due to the potentially unconstrained number of ingredients (from a space of 10K+) in a recipe. We instead learn historical preferences to guide full recipe generation. A recent line of work has explored user- and item-dependent aspect-aware review generation BIBREF3, BIBREF4. This work is related to ours in that it combines contextual language generation with personalization. Here, we attend over historical user preferences from previously consumed recipes to generate recipe content, rather than writing styles. Approach Our model's input specification consists of: the recipe name as a sequence of tokens, a partial list of ingredients, and a caloric level (high, medium, low). It outputs the recipe instructions as a token sequence: $\\mathcal {W}_r=\\lbrace w_{r,0}, \\dots , w_{r,T}\\rbrace $ for a recipe $r$ of length $T$. To personalize output, we use historical recipe interactions of a user $u \\in \\mathcal {U}$. Encoder: Our encoder has three embedding layers: vocabulary embedding $\\mathcal {V}$, ingredient embedding $\\mathcal {I}$, and caloric-level embedding $\\mathcal {C}$. Each token in the (length $L_n$) recipe name is embedded via $\\mathcal {V}$; the embedded token sequence is passed to a two-layered bidirectional GRU (BiGRU) BIBREF17, which outputs hidden states for names $\\lbrace \\mathbf {n}_{\\text{enc},j} \\in \\mathbb {R}^{2d_h}\\rbrace $, with hidden size $d_h$. Similarly each of the $L_i$ input ingredients is embedded via $\\mathcal {I}$, and the embedded ingredient sequence is passed to another two-layered BiGRU to output ingredient hidden states as $\\lbrace \\mathbf {i}_{\\text{enc},j} \\in \\mathbb {R}^{2d_h}\\rbrace $. The caloric level is embedded via $\\mathcal {C}$ and passed through a projection layer with weights $W_c$ to generate calorie hidden representation $\\mathbf {c}_{\\text{enc}} \\in \\mathbb {R}^{2d_h}$. Ingredient Attention: We apply attention BIBREF18 over the encoded ingredients to use encoder outputs at each decoding time step. We define an attention-score function $\\alpha $ with key $K$ and query $Q$: with trainable weights $W_{\\alpha }$, bias $\\mathbf {b}_{\\alpha }$, and normalization term $Z$. At decoding time $t$, we",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Recipe Personalization Model"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "calculate the ingredient context $\\mathbf {a}_{t}^{i} \\in \\mathbb {R}^{d_h}$ as: Decoder: The decoder is a two-layer GRU with hidden state $h_t$ conditioned on previous hidden state $h_{t-1}$ and input token $w_{r, t}$ from the original recipe text. We project the concatenated encoder outputs as the initial decoder hidden state: To bias generation toward user preferences, we attend over a user's previously reviewed recipes to jointly determine the final output token distribution. We consider two different schemes to model preferences from user histories: (1) recipe interactions, and (2) techniques seen therein (defined in data). BIBREF19, BIBREF20, BIBREF21 explore similar schemes for personalized recommendation. Prior Recipe Attention: We obtain the set of prior recipes for a user $u$: $R^+_u$, where each recipe can be represented by an embedding from a recipe embedding layer $\\mathcal {R}$ or an average of the name tokens embedded by $\\mathcal {V}$. We attend over the $k$-most recent prior recipes, $R^{k+}_u$, to account for temporal drift of user preferences BIBREF22. These embeddings are used in the `Prior Recipe' and `Prior Name' models, respectively. Given a recipe representation $\\mathbf {r} \\in \\mathbb {R}^{d_r}$ (where $d_r$ is recipe- or vocabulary-embedding size depending on the recipe representation) the prior recipe attention context $\\mathbf {a}_{t}^{r_u}$ is calculated as Prior Technique Attention: We calculate prior technique preference (used in the `Prior Tech` model) by normalizing co-occurrence between users and techniques seen in $R^+_u$, to obtain a preference vector $\\rho _{u}$. Each technique $x$ is embedded via a technique embedding layer $\\mathcal {X}$ to $\\mathbf {x}\\in \\mathbb {R}^{d_x}$. Prior technique attention is calculated as where, inspired by copy mechanisms BIBREF23, BIBREF24, we add $\\rho _{u,x}$ for technique $x$ to emphasize the attention by the user's prior technique preference. Attention Fusion Layer: We fuse all contexts calculated at time $t$, concatenating them with decoder GRU output and previous token embedding: We then calculate the token probability: and maximize the log-likelihood of the generated sequence conditioned on input specifications and user preferences. fig:ex shows a case where the Prior Name model attends strongly on previously consumed savory recipes to suggest the usage of an additional ingredient (`cilantro'). Recipe Dataset: Food.com We collect a novel dataset of 230K+ recipe texts and 1M+ user interactions (reviews) over 18 years (2000-2018) from Food.com. Here, we restrict to recipes with at least 3 steps, and at least 4 and no more than 20 ingredients. We discard users with fewer than",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Recipe Preference Modeling"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "4 reviews, giving 180K+ recipes and 700K+ reviews, with splits as in tab:recipeixnstats. Our model must learn to generate from a diverse recipe space: in our training data, the average recipe length is 117 tokens with a maximum of 256. There are 13K unique ingredients across all recipes. Rare words dominate the vocabulary: 95% of words appear $<$100 times, accounting for only 1.65% of all word usage. As such, we perform Byte-Pair Encoding (BPE) tokenization BIBREF25, BIBREF26, giving a training vocabulary of 15K tokens across 19M total mentions. User profiles are similarly diverse: 50% of users have consumed $\\le $6 recipes, while 10% of users have consumed $>$45 recipes. We order reviews by timestamp, keeping the most recent review for each user as the test set, the second most recent for validation, and the remainder for training (sequential leave-one-out evaluation BIBREF27). We evaluate only on recipes not in the training set. We manually construct a list of 58 cooking techniques from 384 cooking actions collected by BIBREF15; the most common techniques (bake, combine, pour, boil) account for 36.5% of technique mentions. We approximate technique adherence via string match between the recipe text and technique list. Experiments and Results For training and evaluation, we provide our model with the first 3-5 ingredients listed in each recipe. We decode recipe text via top-$k$ sampling BIBREF7, finding $k=3$ to produce satisfactory results. We use a hidden size $d_h=256$ for both the encoder and decoder. Embedding dimensions for vocabulary, ingredient, recipe, techniques, and caloric level are 300, 10, 50, 50, and 5 (respectively). For prior recipe attention, we set $k=20$, the 80th %-ile for the number of user interactions. We use the Adam optimizer BIBREF28 with a learning rate of $10^{-3}$, annealed with a decay rate of 0.9 BIBREF29. We also use teacher-forcing BIBREF30 in all training epochs. In this work, we investigate how leveraging historical user preferences can improve generation quality over strong baselines in our setting. We compare our personalized models against two baselines. The first is a name-based Nearest-Neighbor model (NN). We initially adapted the Neural Checklist Model of BIBREF0 as a baseline; however, we ultimately use a simple Encoder-Decoder baseline with ingredient attention (Enc-Dec), which provides comparable performance and lower complexity. All personalized models outperform baseline in BPE perplexity (tab:metricsontest) with Prior Name performing the best. While our models exhibit comparable performance to baseline in BLEU-1/4 and ROUGE-L, we generate",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "more diverse (Distinct-1/2: percentage of distinct unigrams and bigrams) and acceptable recipes. BLEU and ROUGE are not the most appropriate metrics for generation quality. A `correct' recipe can be written in many ways with the same main entities (ingredients). As BLEU-1/4 capture structural information via n-gram matching, they are not correlated with subjective recipe quality. This mirrors observations from BIBREF31, BIBREF8. We observe that personalized models make more diverse recipes than baseline. They thus perform better in BLEU-1 with more key entities (ingredient mentions) present, but worse in BLEU-4, as these recipes are written in a personalized way and deviate from gold on the phrasal level. Similarly, the `Prior Name' model generates more unigram-diverse recipes than other personalized models and obtains a correspondingly lower BLEU-1 score. Qualitative Analysis: We present sample outputs for a cocktail recipe in tab:samplerecipes, and additional recipes in the appendix. Generation quality progressively improves from generic baseline output to a blended cocktail produced by our best performing model. Models attending over prior recipes explicitly reference ingredients. The Prior Name model further suggests the addition of lemon and mint, which are reasonably associated with previously consumed recipes like coconut mousse and pork skewers. Personalization: To measure personalization, we evaluate how closely the generated text corresponds to a particular user profile. We compute the likelihood of generated recipes using identical input specifications but conditioned on ten different user profiles\u2014one `gold' user who consumed the original recipe, and nine randomly generated user profiles. Following BIBREF8, we expect the highest likelihood for the recipe conditioned on the gold user. We measure user matching accuracy (UMA)\u2014the proportion where the gold user is ranked highest\u2014and Mean Reciprocal Rank (MRR) BIBREF32 of the gold user. All personalized models beat baselines in both metrics, showing our models personalize generated recipes to the given user profiles. The Prior Name model achieves the best UMA and MRR by a large margin, revealing that prior recipe names are strong signals for personalization. Moreover, the addition of attention mechanisms to capture these signals improves language modeling performance over a strong non-personalized baseline. Recipe Level Coherence: A plausible recipe should possess a coherent step order, and we evaluate this via a metric for recipe-level coherence. We use the neural scoring model from BIBREF33 to measure recipe-level coherence for each generated recipe. Each recipe step is encoded by BERT BIBREF34. Our scoring model is a GRU network that learns the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Recipe Personalization"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "overall recipe step ordering structure by minimizing the cosine similarity of recipe step hidden representations presented in the correct and reverse orders. Once pretrained, our scorer calculates the similarity of a generated recipe to the forward and backwards ordering of its corresponding gold label, giving a score equal to the difference between the former and latter. A higher score indicates better step ordering (with a maximum score of 2). tab:coherencemetrics shows that our personalized models achieve average recipe-level coherence scores of 1.78-1.82, surpassing the baseline at 1.77. Recipe Step Entailment: Local coherence is also crucial to a user following a recipe: it is crucial that subsequent steps are logically consistent with prior ones. We model local coherence as an entailment task: predicting the likelihood that a recipe step follows the preceding. We sample several consecutive (positive) and non-consecutive (negative) pairs of steps from each recipe. We train a BERT BIBREF34 model to predict the entailment score of a pair of steps separated by a [SEP] token, using the final representation of the [CLS] token. The step entailment score is computed as the average of scores for each set of consecutive steps in each recipe, averaged over every generated recipe for a model, as shown in tab:coherencemetrics. Human Evaluation: We presented 310 pairs of recipes for pairwise comparison BIBREF8 (details in appendix) between baseline and each personalized model, with results shown in tab:metricsontest. On average, human evaluators preferred personalized model outputs to baseline 63% of the time, confirming that personalized attention improves the semantic plausibility of generated recipes. We also performed a small-scale human coherence survey over 90 recipes, in which 60% of users found recipes generated by personalized models to be more coherent and preferable to those generated by baseline models. Conclusion In this paper, we propose a novel task: to generate personalized recipes from incomplete input specifications and user histories. On a large novel dataset of 180K recipes and 700K reviews, we show that our personalized generative models can generate plausible, personalized, and coherent recipes preferred by human evaluators for consumption. We also introduce a set of automatic coherence measures for instructional texts as well as personalization metrics to support our claims. Our future work includes generating structured representations of recipes to handle ingredient properties, as well as accounting for references to collections of ingredients (e.g. \u201cdry mix\"). Acknowledgements. This work is partly supported by NSF #1750063. We thank",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Recipe Coherence Metrics"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "all reviewers for their constructive suggestions, as well as Rei M., Sujoy P., Alicia L., Eric H., Tim S., Kathy C., Allen C., and Micah I. for their feedback. Appendix ::: Food.com: Dataset Details Our raw data consists of 270K recipes and 1.4M user-recipe interactions (reviews) scraped from Food.com, covering a period of 18 years (January 2000 to December 2018). See tab:int-stats for dataset summary statistics, and tab:samplegk for sample information about one user-recipe interaction and the recipe involved. Appendix ::: Generated Examples See tab:samplechx for a sample recipe for chicken chili and tab:samplewaffle for a sample recipe for sweet waffles. Human Evaluation We prepared a set of 15 pairwise comparisons per evaluation session, and collected 930 pairwise evaluations (310 per personalized model) over 62 sessions. For each pair, users were given a partial recipe specification (name and 3-5 key ingredients), as well as two generated recipes labeled `A' and `B'. One recipe is generated from our baseline encoder-decoder model and one recipe is generated by one of our three personalized models (Prior Tech, Prior Name, Prior Recipe). The order of recipe presentation (A/B) is randomly selected for each question. A screenshot of the user evaluation interface is given in fig:exeval. We ask the user to indicate which recipe they find more coherent, and which recipe best accomplishes the goal indicated by the recipe name. A screenshot of this survey interface is given in fig:exeval2.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset and Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Personalized recipe generation is the process of creating plausible, user-specific recipes from incomplete input specifications by leveraging historical user preferences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "User preferences are learned latent representations of recipes previously consumed by a user, used to guide personalized recipe generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "An encoder-decoder framework is used to process user input such as dish name, key ingredients, and calorie level, and generate personalized recipes by attending to user profiles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The attention fusion layer combines user-aware representations with decoder output to jointly determine the generated recipe text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Personalized text generation has been successfully applied in product reviews and dialogue systems, but this work is the first to apply it to recipe generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Recipe generation is a task in natural language processing that involves creating procedurally structured instructions for cooking, distinct from free-form narrative generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "A new dataset of 180,000+ recipes and 700,000+ user reviews is released to support personalized recipe generation research.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "New evaluation strategies for generation quality in instructional texts focus on quantitative measures of coherence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Coherence is a key metric used in evaluating the quality of generated recipe instructions, ensuring they are logically consistent and well-structured.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Data-to-text natural language generation has applications in automated journalism, question-answering, and abstractive summarization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Recipes are modeled as a structured collection of ingredient entities acted upon by cooking actions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "A checklist attention constraint is imposed to emphasize hitherto unused ingredients during recipe generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The model applies attention over explicit ingredient references in the prior recipe step during generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Hierarchical approaches that infer a full ingredient list to constrain generation are not suitable for personalizing recipes due to the potentially unconstrained number of ingredients from a large space of over 10,000.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The model uses historical user preferences from previously consumed recipes to guide full recipe generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The model's input consists of a recipe name, a partial list of ingredients, and a caloric level (high, medium, low).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The model outputs recipe instructions as a token sequence $\\mathcal{W}_r = \\{w_{r,0}, \\dots, w_{r,T}\\}$ for a recipe $r$ of length $T$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The encoder includes vocabulary, ingredient, and caloric-level embedding layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The recipe name and ingredient sequences are processed using a two-layered bidirectional GRU (BiGRU) to generate hidden states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The caloric level is embedded via a projection layer with weights $W_c$ to generate a calorie hidden representation $\\mathbf{c}_{\\text{enc}} \\in \\mathbb{R}^{2d_h}$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "An attention-score function $\\alpha$ with trainable weights $W_{\\alpha}$, bias $\\mathbf{b}_{\\alpha}$, and normalization term $Z$ is defined using key $K$ and query $Q$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "At each decoding time step $t$, the model applies the attention mechanism to generate the next token in the recipe instruction sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The recipe space consists of 180K+ recipes and 700K+ reviews, with an average recipe length of 117 tokens and a maximum of 256 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "There are 13K unique ingredients across all recipes in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "95% of words in the dataset appear fewer than 100 times, accounting for only 1.65% of all word usage.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Byte-Pair Encoding (BPE) tokenization is used to create a training vocabulary of 15K tokens across 19M total word mentions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "50% of users have consumed \u22646 recipes, while 10% of users have consumed >45 recipes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Reviews are ordered by timestamp, with the most recent review per user assigned to the test set, the second most recent to validation, and the rest to training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "A manually constructed list of 58 cooking techniques is derived from 384 cooking actions, with the most common techniques (bake, combine, pour, boil) accounting for 36.5% of technique mentions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Technique adherence is approximated via string matching between recipe text and the list of cooking techniques.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The model is provided with the first 3\u20135 ingredients listed in each recipe during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Recipe text is decoded using top-k sampling with k=3, which produces satisfactory results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The encoder and decoder both have a hidden size of dh=256.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Embedding dimensions are 300 for vocabulary, 10 for ingredients, 50 for recipes, 50 for techniques, and 5 for caloric level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "For prior recipe attention, k=20 is used, which corresponds to the 80th percentile of the number of user interactions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The Adam optimizer is used with a learning rate of 10^-3, annealed with a decay rate of 0.9.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Teacher-forcing is applied during all training epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Two baselines are used: a name-based Nearest-Neighbor (NN) model and a simple Encoder-Decoder model with ingredient attention (Enc-Dec).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "All personalized models outperform the baseline in BPE perplexity, with Prior Name performing the best.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Personalized models show comparable performance to the baseline in BLEU-1/4 and ROUGE-L metrics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "BLEU and ROUGE are not the most appropriate metrics for evaluating generation quality in recipe creation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "A more diverse set of recipes is measured by a higher percentage of distinct unigrams and bigrams.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "BLEU-1 and BLEU-4 scores do not correlate with subjective recipe quality due to their reliance on n-gram matching.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Personalized models generate more diverse recipes than baseline models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The Prior Name model generates more unigram-diverse recipes than other personalized models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The Prior Name model obtains a lower BLEU-1 score due to its personalized recipe writing style.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Personalized recipes perform worse in BLEU-4 because they deviate from the gold standard at the phrasal level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "User profiles are used to evaluate how closely generated recipes match a specific user's preferences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "User Matching Accuracy (UMA) is the proportion of cases where the gold user profile is ranked highest among ten user profiles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Mean Reciprocal Rank (MRR) measures the average reciprocal rank of the gold user profile in a list of ten user profiles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The Prior Name model achieves the highest user matching accuracy and MRR, indicating strong personalization performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Adding attention mechanisms to capture prior recipe signals improves language modeling performance over a non-personalized baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Recipe-level coherence refers to the logical and plausible step order in a recipe.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "A neural scoring model based on a GRU network is used to evaluate recipe-level coherence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "BERT is used to encode each recipe step for coherence assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Generated recipes show progressive improvement in quality from generic baseline to blended cocktail outputs from the best-performing model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The Prior Name model suggests adding lemon and mint, which are reasonably associated with previously consumed recipes like coconut mousse and pork skewers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Recipe step ordering refers to the sequence of steps in a recipe, optimized by minimizing the cosine similarity between the hidden representations of steps in the correct order and the reverse order.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The scorer calculates the difference in cosine similarity between the forward and reverse orderings of recipe steps, with a higher score indicating better step ordering, capped at a maximum of 2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Personalized models achieve average recipe-level coherence scores of 1.78 to 1.82, surpassing the baseline score of 1.77.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Local coherence is the logical consistency between subsequent steps in a recipe and the preceding steps, ensuring that each step follows from the previous one.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The step entailment task models local coherence by predicting the likelihood that a recipe step follows a preceding step using a BERT-based model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "A BERT-based model is trained to predict entailment scores for pairs of recipe steps separated by a [SEP] token, using the final [CLS] token representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "In a study of 310 recipe pairs, human evaluators preferred personalized model outputs over baseline outputs 63% of the time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "In a survey of 90 recipes, 60% of users found recipes generated by personalized models to be more coherent and preferable than those from baseline models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Personalized recipe generation involves creating recipes from incomplete input specifications and user history to produce tailored, plausible, and coherent instructions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The study uses a large dataset of 180K recipes and 700K reviews to evaluate personalized recipe generation models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Automatic coherence measures are introduced to evaluate the logical consistency and plausibility of instructional texts in recipes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Personalization metrics are introduced to quantify how well generated recipes align with user-specific preferences and histories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Future work includes generating structured representations of recipes to handle ingredient properties and references to ingredient collections, such as 'dry mix'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The work is partly supported by NSF grant #1750063.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The Food.com dataset consists of 270K recipes and 1.4M user-recipe interactions (reviews) scraped from Food.com over a 18-year period from January 2000 to December 2018.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Dataset summary statistics are available in tab:int-stats.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "A sample user-recipe interaction and the associated recipe details are provided in tab:samplegk.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "A sample recipe for chicken chili is available in tab:samplechx.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "A sample recipe for sweet waffles is available in tab:samplewaffle.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Human evaluation involved 930 pairwise comparisons across 62 sessions, with 310 evaluations per personalized model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Each pairwise comparison includes a partial recipe specification (name and 3-5 key ingredients) and two generated recipes labeled 'A' and 'B'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "One of the two recipes in each pairwise comparison is generated by the baseline encoder-decoder model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Three personalized models\u2014Prior Tech, Prior Name, and Prior Recipe\u2014are used to generate one of the two recipes in each pairwise comparison.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The order of recipe presentation (A/B) is randomly selected for each evaluation question.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Users are asked to indicate which recipe they find more coherent and which best accomplishes the goal specified by the recipe name.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "A screenshot of the user evaluation interface is provided in fig:exeval.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "A screenshot of the survey interface where users rate recipes is provided in fig:exeval2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1.4M user-recipe interactions",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "1.78-1.82",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "15 pairwise comparisons",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "18 years",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "180K recipes",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "180K+ recipes",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "180K+ recipes and 700K+ user reviews",
+      "Dataset",
+      "s7"
+    ],
+    [
+      "1M+ user interactions",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "2000-2018",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "230K+ recipes",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "270K recipes",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "3 steps",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "3-5 key ingredients",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "310 per personalized model",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "310 recipe pairs",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "4 to 20 ingredients",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "60% found more coherent",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "62 sessions",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "63% preference",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "700K reviews",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "700K+ user reviews",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "90 recipes",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "930 pairwise evaluations",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Asian cuisine",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "BERT",
+      "Definition",
+      "s55"
+    ],
+    [
+      "BERT",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "BERT BIBREF34",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "BERT model",
+      "Property",
+      "s63"
+    ],
+    [
+      "BIBREF19",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "BIBREF20",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "BIBREF21",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "BIBREF22",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "BIBREF23",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "BIBREF24",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "BLEU",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "BLEU and ROUGE",
+      "Definition",
+      "s41"
+    ],
+    [
+      "BLEU-1 score",
+      "Result",
+      "s46"
+    ],
+    [
+      "BLEU-1/4",
+      "Result",
+      "s43"
+    ],
+    [
+      "BLEU-4 score",
+      "Result",
+      "s47"
+    ],
+    [
+      "BiGRU",
+      "Component",
+      "s19"
+    ],
+    [
+      "BiGRU",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "Byte-Pair Encoding",
+      "Definition",
+      "s26"
+    ],
+    [
+      "CLS token",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "December 2018",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Food.com",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Food.com",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "Food.com dataset",
+      "Definition",
+      "s72"
+    ],
+    [
+      "GRU",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "GRU network",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "January 2000",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "MRR",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "Mean Reciprocal Rank (MRR)",
+      "Definition",
+      "s50"
+    ],
+    [
+      "NSF #1750063",
+      "Cause",
+      "s71"
+    ],
+    [
+      "NSF #1750063",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "Prior Name",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Prior Name model",
+      "Property",
+      "s45"
+    ],
+    [
+      "Prior Name model",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "Prior Name model",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "Prior Name model",
+      "Result",
+      "s51"
+    ],
+    [
+      "Prior Recipe",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Prior Recipe model",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "Prior Tech",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Prior Tech model",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "ROUGE",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "R^{k+}_u",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "R_u",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "UMA",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e5"
+    ],
+    [
+      "abstractive summarization",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "attention fusion layer",
+      "Definition",
+      "s4"
+    ],
+    [
+      "attention fusion layer",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "attention fusion layer",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "attention mechanisms",
+      "Result",
+      "s52"
+    ],
+    [
+      "attention-score function",
+      "Definition",
+      "s21"
+    ],
+    [
+      "attention-score function",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "automated journalism",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "automatic coherence measures",
+      "Definition",
+      "s68"
+    ],
+    [
+      "automatic coherence measures",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "baseline",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "baseline 1.77",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "baseline encoder-decoder model",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "baseline encoder-decoder model",
+      "Definition",
+      "s79"
+    ],
+    [
+      "baseline models",
+      "Definition",
+      "s38"
+    ],
+    [
+      "bias b_alpha",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "caloric level",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "caloric-level embedding",
+      "Process",
+      "s20"
+    ],
+    [
+      "caloric-level embedding",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "calorie level",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "checklist attention constraint",
+      "Property",
+      "s12"
+    ],
+    [
+      "checklist attention constraint",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "chicken chili",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "chicken chili recipe",
+      "Definition",
+      "s75"
+    ],
+    [
+      "chicken curry",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "cilantro",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "co-occurrence",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "coconut mousse",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "coherence",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "coherence",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "coherence",
+      "Property",
+      "s9"
+    ],
+    [
+      "coherence score",
+      "Result",
+      "s60"
+    ],
+    [
+      "coherence scores",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "coherence survey",
+      "Result",
+      "s65"
+    ],
+    [
+      "cooking actions",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "cooking recipe",
+      "Result",
+      "s56"
+    ],
+    [
+      "cooking techniques",
+      "Definition",
+      "s29"
+    ],
+    [
+      "cosine similarity",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "data-to-text generation",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "data-to-text natural language generation",
+      "Application",
+      "s10"
+    ],
+    [
+      "data-to-text natural language generation",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "dataset",
+      "Property",
+      "s67"
+    ],
+    [
+      "dataset summary statistics",
+      "Property",
+      "s73"
+    ],
+    [
+      "decoder",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "decoder attention",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "decoding method",
+      "Method",
+      "s32"
+    ],
+    [
+      "decoding time step",
+      "Process",
+      "s22"
+    ],
+    [
+      "distinct bigrams",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "distinct unigrams",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "distinct unigrams and bigrams",
+      "Property",
+      "s42"
+    ],
+    [
+      "dry mix",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "embedding dimensions",
+      "Property",
+      "s34"
+    ],
+    [
+      "encoder embedding layers",
+      "Component",
+      "s18"
+    ],
+    [
+      "encoder-decoder framework",
+      "Definition",
+      "s3"
+    ],
+    [
+      "encoder-decoder framework",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "entailment task",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "evaluation goal",
+      "Definition",
+      "s82"
+    ],
+    [
+      "evaluation metrics",
+      "Result",
+      "s40"
+    ],
+    [
+      "evaluation strategies",
+      "Definition",
+      "s8"
+    ],
+    [
+      "fig:exeval",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "fig:exeval2",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "forward and reverse orders",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s70"
+    ],
+    [
+      "goal accomplishment",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "gold label",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "gold user",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "hidden size",
+      "Property",
+      "s33"
+    ],
+    [
+      "hidden state",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "hierarchical ingredient inference",
+      "Limitation",
+      "s14"
+    ],
+    [
+      "high medium low",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "historical user preferences",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "historical user reviews",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "human evaluation",
+      "Definition",
+      "s77"
+    ],
+    [
+      "human evaluation",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "human evaluation",
+      "Result",
+      "s64"
+    ],
+    [
+      "ingredient attention",
+      "Method",
+      "s13"
+    ],
+    [
+      "ingredient embedding",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "ingredient entities",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "ingredient properties",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "ingredients",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "instructional texts",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "key K",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "kitchen",
+      "Kitchen Introduction",
+      "e1"
+    ],
+    [
+      "lemon",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "lemon and mint",
+      "Result",
+      "s57"
+    ],
+    [
+      "local coherence",
+      "Definition",
+      "s61"
+    ],
+    [
+      "local coherence",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "log-likelihood",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "mint",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "model performance",
+      "Result",
+      "s39"
+    ],
+    [
+      "name",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "name tokens",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "natural language processing",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "neural scoring model",
+      "Definition",
+      "s54"
+    ],
+    [
+      "neural scoring model",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "normalization term Z",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "optimizer",
+      "Property",
+      "s36"
+    ],
+    [
+      "pairwise comparison",
+      "Definition",
+      "s78"
+    ],
+    [
+      "partial list of ingredients",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "partial recipe specification",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "personalization metrics",
+      "Definition",
+      "s69"
+    ],
+    [
+      "personalization metrics",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "personalized generative models",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "personalized models",
+      "Definition",
+      "s80"
+    ],
+    [
+      "personalized models",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "personalized models",
+      "Result",
+      "s44"
+    ],
+    [
+      "personalized recipe generation",
+      "Definition",
+      "s1"
+    ],
+    [
+      "personalized recipe generation",
+      "Definition",
+      "s66"
+    ],
+    [
+      "personalized recommendation",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "personalized text generation",
+      "Result",
+      "s5"
+    ],
+    [
+      "pork skewers",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "preference vector \u03c1_u",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "prior recipe attention",
+      "Method",
+      "s35"
+    ],
+    [
+      "prior recipes",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "query Q",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "question-answering",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "recipe",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "recipe A",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "recipe B",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "recipe embedding layer",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "recipe generation",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "recipe generation",
+      "Task",
+      "s6"
+    ],
+    [
+      "recipe input specification",
+      "Definition",
+      "s16"
+    ],
+    [
+      "recipe modeling",
+      "Definition",
+      "s11"
+    ],
+    [
+      "recipe name",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "recipe output",
+      "Result",
+      "s17"
+    ],
+    [
+      "recipe presentation order",
+      "Property",
+      "s81"
+    ],
+    [
+      "recipe space",
+      "Definition",
+      "s23"
+    ],
+    [
+      "recipe step ordering",
+      "Definition",
+      "s58"
+    ],
+    [
+      "recipe step ordering",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "recipe-level coherence",
+      "Definition",
+      "s53"
+    ],
+    [
+      "recipe-level coherence",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "recommender systems",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "review ordering",
+      "Method",
+      "s28"
+    ],
+    [
+      "sample user-recipe interaction",
+      "Definition",
+      "s74"
+    ],
+    [
+      "scorer",
+      "Property",
+      "s59"
+    ],
+    [
+      "scorer",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "step entailment score",
+      "Recipe Coherence Metrics",
+      "e7"
+    ],
+    [
+      "step entailment task",
+      "Definition",
+      "s62"
+    ],
+    [
+      "step order",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "survey interface",
+      "Definition",
+      "s84"
+    ],
+    [
+      "sweet waffles",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "sweet waffles recipe",
+      "Definition",
+      "s76"
+    ],
+    [
+      "tab:int-stats",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "tab:samplegk",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "teacher-forcing",
+      "Method",
+      "s37"
+    ],
+    [
+      "technique adherence",
+      "Method",
+      "s30"
+    ],
+    [
+      "technique embedding layer",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "trainable weights W_alpha",
+      "Recipe Personalization Model",
+      "e3"
+    ],
+    [
+      "training input",
+      "Method",
+      "s31"
+    ],
+    [
+      "unique ingredients",
+      "Property",
+      "s24"
+    ],
+    [
+      "user consumption distribution",
+      "Property",
+      "s27"
+    ],
+    [
+      "user evaluation interface",
+      "Definition",
+      "s83"
+    ],
+    [
+      "user historical preferences",
+      "Cause",
+      "s15"
+    ],
+    [
+      "user matching accuracy (UMA)",
+      "Definition",
+      "s49"
+    ],
+    [
+      "user preferences",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "user preferences",
+      "Property",
+      "s2"
+    ],
+    [
+      "user preferences",
+      "Recipe Preference Modeling",
+      "e4"
+    ],
+    [
+      "user profile",
+      "Definition",
+      "s48"
+    ],
+    [
+      "user profiles",
+      "Recipe Personalization",
+      "e6"
+    ],
+    [
+      "user-aware representations",
+      "Personalized Recipe Generation",
+      "e2"
+    ],
+    [
+      "vocabulary distribution",
+      "Property",
+      "s25"
+    ],
+    [
+      "vocabulary embedding",
+      "Recipe Personalization Model",
+      "e3"
+    ]
+  ]
+}

@@ -1,0 +1,2467 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 8,
+    "n_semantic": 79,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "lexical simplification": {
+      "tag_set": [
+        "Property",
+        "Text Simplification",
+        "Text Simplification Methods"
+      ]
+    },
+    "rule-based approach": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "machine translation": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "neural Machine Translation (NMT)": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "phrased-based machine translation": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "semantic meaning": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "syntactic structure": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "simplified corpora": {
+      "tag_set": [
+        "Neural Text Simplification",
+        "Property",
+        "Resource",
+        "Text Simplification Methods"
+      ]
+    },
+    "parallel data": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Evaluation",
+        "Text Simplification Methods"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "synthetic ordinary sentences": {
+      "tag_set": [
+        "Method",
+        "Result",
+        "Text Simplification Methods"
+      ]
+    },
+    "deep learning": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "language models": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "transformation rules": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "back-translation": {
+      "tag_set": [
+        "Definition",
+        "Method",
+        "Neural Text Simplification",
+        "Process",
+        "Text Simplification",
+        "Text Simplification Model"
+      ]
+    },
+    "synthetic sentences": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification",
+        "Text Simplification Evaluation"
+      ]
+    },
+    "ordinary sentence": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "simplified sentence": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "NMT model": {
+      "tag_set": [
+        "Property",
+        "Text Simplification"
+      ]
+    },
+    "training set": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "publicly available datasets": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "syntactic simplification": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "English Wikipedia": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "Simple English Wikipedia": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification",
+        "Text Simplification Methods"
+      ]
+    },
+    "EW-SEW": {
+      "tag_set": [
+        "Text Simplification",
+        "Text Simplification Methods"
+      ]
+    },
+    "automatic TS": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "text summarization": {
+      "tag_set": [
+        "Text Simplification"
+      ]
+    },
+    "Biran et al": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "Wikipedia": {
+      "tag_set": [
+        "Limitation",
+        "Neural Text Simplification",
+        "Text Simplification Methods"
+      ]
+    },
+    "Simple Wikipedia": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "tree transformation": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "statistical machine translation (SMT)": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "Woodsend and Lapata": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "quasi-synchronous grammar": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "Wubben et al": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "phrase-based machine translation (PBMT)": {
+      "tag_set": [
+        "Method",
+        "Text Simplification Methods"
+      ]
+    },
+    "Xu et al": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "syntax-based machine translation": {
+      "tag_set": [
+        "Method",
+        "Text Simplification Methods"
+      ]
+    },
+    "neural machine translation (NMT)": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Methods"
+      ]
+    },
+    "encoder-decoder architecture": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "recurrent neural networks": {
+      "tag_set": [
+        "Text Simplification Methods"
+      ]
+    },
+    "296,402 sentence pairs": {
+      "tag_set": [
+        "Text Simplification Evaluation",
+        "Text Simplification Methods"
+      ]
+    },
+    "IBREF0": {
+      "tag_set": [
+        "Dataset Identifier"
+      ]
+    },
+    "B": {
+      "tag_set": [
+        "Dataset Identifier"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "NMT system": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Evaluation"
+      ]
+    },
+    "WikiSmall": {
+      "tag_set": [
+        "Property",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "WikiLarge": {
+      "tag_set": [
+        "Property",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "89,042 sentence pairs": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "100 pairs": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "2,359 sentences": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "2,000 development": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "359 testing": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "BLEU": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "FKGL": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "SARI": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "human evaluation": {
+      "tag_set": [
+        "Result",
+        "Text Simplification Evaluation"
+      ]
+    },
+    "Simplicity": {
+      "tag_set": [
+        "Definition",
+        "Evaluation",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "OpenNMT": {
+      "tag_set": [
+        "Property",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "Klein et al. (2017)": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "UNK symbol": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "attention layer": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "back-translate": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "100K sentences": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "PBMT-R": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Evaluation",
+        "Text Simplification Model"
+      ]
+    },
+    "Hybrid": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Evaluation"
+      ]
+    },
+    "sentence splitting": {
+      "tag_set": [
+        "Method",
+        "Text Simplification Evaluation"
+      ]
+    },
+    "sentence deletion": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "discourse representation": {
+      "tag_set": [
+        "Text Simplification Evaluation"
+      ]
+    },
+    "SBMT-SARI": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Model"
+      ]
+    },
+    "PPDB": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "NMT": {
+      "tag_set": [
+        "Definition",
+        "Text Simplification Model"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "500 hidden units": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "SGD optimizer": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "dropout rate 0.3": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "Dress": {
+      "tag_set": [
+        "Definition",
+        "Result",
+        "Text Simplification Model"
+      ]
+    },
+    "synthetic parallel data": {
+      "tag_set": [
+        "Method",
+        "Text Simplification Model"
+      ]
+    },
+    "60,000 sentences": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "NMT+synthetic": {
+      "tag_set": [
+        "Conclusion",
+        "Definition",
+        "Result",
+        "Text Simplification Model"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "BIBREF20": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "BIBREF25": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "BIBREF26": {
+      "tag_set": [
+        "Text Simplification Model"
+      ]
+    },
+    "neural network architecture": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "parallel corpora": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "simplified sentences": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "text sources": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "domain": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "NTS systems": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "effectiveness": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "amount of data": {
+      "tag_set": [
+        "Neural Text Simplification"
+      ]
+    },
+    "text simplification": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "lexical simplification (LS)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "rule-based approaches": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "machine translation (MT)-based approach": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training data scarcity": {
+      "tag_set": [
+        "Challenge"
+      ]
+    },
+    "additional training data": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sentence-level simplification": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "English Wikipedia and Simple English Wikipedia (EW-SEW)": {
+      "tag_set": [
+        "Resource"
+      ]
+    },
+    "data scarcity in ordinary-simplified sentence pairs": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "mixed training data": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "text simplification vs. text summarization": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "neural translation models for text simplification": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "article filtering": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "sentence length filtering": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "final dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "attention-based NMT": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "forward hidden states": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "backward hidden states": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "annotation vector": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "target word prediction": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "GRU activation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "context vector": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training objective": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "decoding method": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "synthetic simplified sentences": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Sennrich et al. back-translation": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "out-of-vocabulary words": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "prediction time": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "baseline system": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "synthetic parallel training set": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "evaluation setup": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "WikiLarge dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "WikiSmall dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "method": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "neural text simplification (NTS)": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "data quality and amount": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Proposal"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Text simplification aims to reduce the lexical and structural complexity of a text, while still retaining the semantic meaning, which can help children, non-native speakers, and people with cognitive disabilities, to understand text better. One of the methods of automatic text simplification can be generally divided into three categories: lexical simplification (LS) BIBREF0 , BIBREF1 , rule-based BIBREF2 , and machine translation (MT) BIBREF3 , BIBREF4 . LS is mainly used to simplify text by substituting infrequent and difficult words with frequent and easier words. However, there are several challenges for the LS approach: a great number of transformation rules are required for reasonable coverage and should be applied based on the specific context; third, the syntax and semantic meaning of the sentence is hard to retain. Rule-based approaches use hand-crafted rules for lexical and syntactic simplification, for example, substituting difficult words in a predefined vocabulary. However, such approaches need a lot of human-involvement to manually define these rules, and it is impossible to give all possible simplification rules. MT-based approach has attracted great attention in the last several years, which addresses text simplification as a monolingual machine translation problem translating from 'ordinary' and 'simplified' sentences. In recent years, neural Machine Translation (NMT) is a newly-proposed deep learning approach and achieves very impressive results BIBREF5 , BIBREF6 , BIBREF7 . Unlike the traditional phrased-based machine translation system which operates on small components separately, NMT system is being trained end-to-end, without the need to have external decoders, language models or phrase tables. Therefore, the existing architectures in NMT are used for text simplification BIBREF8 , BIBREF4 . However, most recent work using NMT is limited to the training data that are scarce and expensive to build. Language models trained on simplified corpora have played a central role in statistical text simplification BIBREF9 , BIBREF10 . One main reason is the amount of available simplified corpora typically far exceeds the amount of parallel data. The performance of models can be typically improved when trained on more data. Therefore, we expect simplified corpora to be especially helpful for NMT models. In contrast to previous work, which uses the existing NMT models, we explore strategy to include simplified training corpora in the training process without changing the neural network architecture. We first propose to pair simplified training sentences with synthetic ordinary sentences during training, and treat this synthetic data as additional training data.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Text Simplification Methods"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "We obtain synthetic ordinary sentences through back-translation, i.e. an automatic translation of the simplified sentence into the ordinary sentence BIBREF11 . Then, we mix the synthetic data into the original (simplified-ordinary) data to train NMT model. Experimental results on two publicly available datasets show that we can improve the text simplification quality of NMT models by mixing simplified sentences into the training set over NMT model only using the original training data. Related Work Automatic TS is a complicated natural language processing (NLP) task, which consists of lexical and syntactic simplification levels BIBREF12 . It has attracted much attention recently as it could make texts more accessible to wider audiences, and used as a pre-processing step, improve performances of various NLP tasks and systems BIBREF13 , BIBREF14 , BIBREF15 . Usually, hand-crafted, supervised, and unsupervised methods based on resources like English Wikipedia and Simple English Wikipedia (EW-SEW) BIBREF10 are utilized for extracting simplification rules. It is very easy to mix up the automatic TS task and the automatic summarization task BIBREF3 , BIBREF16 , BIBREF6 . TS is different from text summarization as the focus of text summarization is to reduce the length and redundant content. At the lexical level, lexical simplification systems",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Text Simplification"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "often substitute difficult words using more common words, which only require a large corpus of regular text to obtain word embeddings to get words similar to the complex word BIBREF1 , BIBREF9 . Biran et al. BIBREF0 adopted an unsupervised method for learning pairs of complex and simpler synonyms from a corpus consisting of Wikipedia and Simple Wikipedia. At the sentence level, a sentence simplification model was proposed by tree transformation based on statistical machine translation (SMT) BIBREF3 . Woodsend and Lapata BIBREF17 presented a data-driven model based on a quasi-synchronous grammar, a formalism that can naturally capture structural mismatches and complex rewrite operations. Wubben et al. BIBREF18 proposed a phrase-based machine translation (PBMT) model that is trained on ordinary-simplified sentence pairs. Xu et al. BIBREF19 proposed a syntax-based machine translation model using simplification-specific objective functions and features to encourage simpler output.\nCompared with SMT, neural machine translation (NMT) has shown to produce state-of-the-art results BIBREF5 , BIBREF7 . The central approach of NMT is an encoder-decoder architecture implemented by recurrent neural networks, which can represent the input sequence as a vector, and then decode that vector into an output sequence. Therefore, NMT models were used for text simplification task, and achieved good results BIBREF8 , BIBREF4 , BIBREF20 . The main limitation of the aforementioned NMT models for text simplification depended on the parallel ordinary-simplified sentence pairs. Because ordinary-simplified sentence pairs are expensive and time-consuming to build, the available largest data is EW-SEW that only have 296,402 sentence pairs. The dataset is insufficiency for NMT model if we want to NMT model can obtain the best parameters. Considering simplified data plays an important role in boosting fluency for phrase-based text simplification, and we investigate the use of simplified data for text simplification. We are the first to show that we can effectively adapt neural translation models for text simplifiation with simplified corpora.\nSimplified Corpora\nWe collected a simplified dataset from Simple English Wikipedia that are freely available, which has been previously used for many text simplification methods B",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Text Simplification Methods"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "IBREF0 , B",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Identifier"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "IBREF10 , BIBREF3 . The simple English Wikipedia is pretty easy to understand than normal English Wikipedia. We downloaded all articles from Simple English Wikipedia. For these articles, we removed stubs, navigation pages and any article that consisted of a single sentence. We then split them into sentences with the Stanford CorNLP BIBREF21 , and deleted these sentences whose number of words are smaller than 10 or large than 40. After removing repeated sentences, we chose 600K sentences as the simplified data with 11.6M words, and the size of vocabulary is 82K. Text Simplification using Neural Machine Translation Our work is built on attention-based NMT BIBREF5 as an encoder-decoder network with recurrent neural networks (RNN), which simultaneously conducts dynamic alignment and generation of the target simplified sentence. The encoder uses a bidirectional RNN that consists of forward and backward RNN. Given a source sentence INLINEFORM0 , the forward RNN and backward RNN calculate forward hidden states INLINEFORM1 and backward hidden states INLINEFORM2 , respectively. The annotation vector INLINEFORM3 is obtained by concatenating INLINEFORM4 and INLINEFORM5 . The decoder is a RNN that predicts a target simplificated sentence with Gated Recurrent Unit (GRU) BIBREF22 . Given the previously generated target (simplified) sentence INLINEFORM0 , the probability of next target word INLINEFORM1 is DISPLAYFORM0 where INLINEFORM0 is a non-linear function, INLINEFORM1 is the embedding of INLINEFORM2 , and INLINEFORM3 is a decoding state for time step INLINEFORM4 . State INLINEFORM0 is calculated by DISPLAYFORM0 where INLINEFORM0 is the activation function GRU. The INLINEFORM0 is the context vector computed as a weighted annotation INLINEFORM1 , computed by DISPLAYFORM0 where the weight INLINEFORM0 is computed by DISPLAYFORM0 DISPLAYFORM1 where INLINEFORM0 , INLINEFORM1 and INLINEFORM2 are weight matrices. The training objective is to maximize the likelihood of the training data. Beam search is employed for decoding. Synthetic Simplified Sentences We train an auxiliary system using NMT model from the simplified sentence to the ordinary sentence, which is first trained on the available parallel data. For leveraging simplified sentences to improve the quality of NMT model for text simplification, we propose to adapt the back-translation approach proposed by Sennrich et al. BIBREF11 to our scenario. More concretely, Given one sentence in simplified sentences, we use the simplified-ordinary system in translate mode with greedy decoding to translate it to the ordinary sentences, which is denoted as back-translation. This way, we obtain a synthetic parallel simplified-ordinary sentences. Both",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "the synthetic sentences and the available parallel data are used as training data for the original NMT system. Evaluation We evaluate the performance of text simplification using neural machine translation on available parallel sentences and additional simplified sentences. Dataset. We use two simplification datasets (WikiSmall and WikiLarge). WikiSmall consists of ordinary and simplified sentences from the ordinary and simple English Wikipedias, which has been used as benchmark for evaluating text simplification BIBREF17 , BIBREF18 , BIBREF8 . The training set has 89,042 sentence pairs, and the test set has 100 pairs. WikiLarge is also from Wikipedia corpus whose training set contains 296,402 sentence pairs BIBREF19 , BIBREF20 . WikiLarge includes 8 (reference) simplifications for 2,359 sentences split into 2,000 for development and 359 for testing. Metrics. Three metrics in text simplification are chosen in this paper. BLEU BIBREF5 is one traditional machine translation metric to assess the degree to which translated simplifications differed from reference simplifications. FKGL measures the readability of the output BIBREF23 . A small FKGL represents simpler output. SARI is a recent text-simplification metric by comparing the output against the source and reference simplifications BIBREF20 . We evaluate the output of all systems using human evaluation. The metric is denoted as Simplicity BIBREF8 . The three non-native fluent English speakers are shown reference sentences and output sentences. They are asked whether the output sentence is much simpler (+2), somewhat simpler (+1), equally (0), somewhat more difficult (-1), and much more difficult (-2) than the reference sentence. Methods. We use OpenNMT BIBREF24 as the implementation of the NMT system for all experiments BIBREF5 . We generally follow the default settings and training procedure described by Klein et al.(2017). We replace out-of-vocabulary words with a special UNK symbol. At prediction time, we replace UNK words with the highest probability score from the attention layer. OpenNMT system used on parallel data is the baseline system. To obtain a synthetic parallel training set, we back-translate a random sample of 100K sentences from the collected simplified corpora. OpenNMT used on parallel data and synthetic data is our model. The benchmarks are run on a Intel(R) Core(TM) i7-5930K CPU@3.50GHz, 32GB Mem, trained on 1 GPU GeForce GTX 1080 (Pascal) with CUDA v. 8.0. We choose three statistical text simplification systems. PBMT-R is a phrase-based method with a reranking post-processing step BIBREF18 . Hybrid performs sentence splitting and deletion operations based on discourse representation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Text Simplification Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "structures, and then simplifies sentences with PBMT-R BIBREF25 . SBMT-SARI BIBREF19 is syntax-based translation model using PPDB paraphrase database BIBREF26 and modifies tuning function (using SARI). We choose two neural text simplification systems. NMT is a basic attention-based encoder-decoder model which uses OpenNMT framework to train with two LSTM layers, hidden states of size 500 and 500 hidden units, SGD optimizer, and a dropout rate of 0.3 BIBREF8 . Dress is an encoder-decoder model coupled with a deep reinforcement learning framework, and the parameters are chosen according to the original paper BIBREF20 . For the experiments with synthetic parallel data, we back-translate a random sample of 60 000 sentences from the collected simplified sentences into ordinary sentences. Our model is trained on synthetic data and the available parallel data, denoted as NMT+synthetic. Results. Table 1 shows the results of all models on WikiLarge dataset. We can see that our method (NMT+synthetic) can obtain higher BLEU, lower FKGL and high SARI compared with other models, except Dress on FKGL and SBMT-SARI on SARI. It verified that including synthetic data during training is very effective, and yields an improvement over our baseline NMF by 2.11 BLEU, 1.7 FKGL and 1.07 SARI. We also substantially outperform Dress, who previously reported SOTA result. The results of our human evaluation using Simplicity are also presented in Table 1. NMT on synthetic data is significantly better than PBMT-R, Dress, and SBMT-SARI on Simplicity. It indicates that our method with simplified data is effective at creating simpler output. Results on WikiSmall dataset are shown in Table 2. We see substantial improvements (6.37 BLEU) than NMT from adding simplified training data with synthetic ordinary sentences. Compared with statistical machine translation models (PBMT-R, Hybrid, SBMT-SARI), our method (NMT+synthetic) still have better results, but slightly worse FKGL and SARI. Similar to the results in WikiLarge, the results of our human evaluation using Simplicity outperforms the other models. In conclusion, Our method produces better results comparing with the baselines, which demonstrates the effectiveness of adding simplified training data. Conclusion In this paper, we propose one simple method to use simplified corpora during training of NMT systems, with no changes to the network architecture. In the experiments on two datasets, we achieve substantial gains in all tasks, and new SOTA results, via back-translation of simplified sentences into the ordinary sentences, and treating this synthetic data as additional training data. Because we do",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Text Simplification Model"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "not change the neural network architecture to integrate simplified corpora, our method can be easily applied to other Neural Text Simplification (NTS) systems. We expect that the effectiveness of our method not only varies with the quality of the NTS system used for back-translation, but also depends on the amount of available parallel and simplified corpora. In the paper, we have only utilized data from Wikipedia for simplified sentences. In the future, many other text sources are available and the impact of not only size, but also of domain should be investigated.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Neural Text Simplification"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Text simplification is the process of reducing the lexical and structural complexity of a text while retaining its semantic meaning to improve understanding for children, non-native speakers, and people with cognitive disabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Lexical simplification involves replacing infrequent and difficult words with frequent and easier ones to make text more accessible.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Rule-based approaches use hand-crafted rules to substitute difficult words in a predefined vocabulary for lexical and syntactic simplification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The MT-based approach treats text simplification as a monolingual machine translation problem, translating from 'ordinary' to 'simplified' sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Neural Machine Translation is a deep learning approach that trains models end-to-end without relying on external decoders, language models, or phrase tables.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Simplified corpora are typically more abundant than parallel data and play a central role in statistical text simplification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Most recent work using NMT is limited by the scarcity and high cost of building training data for text simplification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The proposed strategy involves pairing simplified training sentences with synthetic ordinary sentences during training to enhance model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Treating synthetic data pairs of simplified and ordinary sentences as additional training data improves the performance of NMT models without altering the neural network architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Back-translation is an automatic translation method that translates a simplified sentence into an ordinary sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Synthetic ordinary sentences are generated by automatically translating simplified sentences into ordinary language using back-translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Neural machine translation (NMT) models use an encoder-decoder architecture with recurrent neural networks to translate input sequences into output sequences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Text simplification is a natural language processing task that involves reducing the complexity of text at lexical and syntactic levels to make it more accessible.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Lexical simplification replaces difficult words with more common words using word embeddings derived from large corpora of regular text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Sentence-level simplification models use tree transformation based on statistical machine translation (SMT) or quasi-synchronous grammars to rewrite sentences into simpler forms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Wubben et al. proposed a phrase-based machine translation model trained on ordinary-simplified sentence pairs for text simplification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Xu et al. proposed a syntax-based machine translation model that uses simplification-specific objective functions and features to encourage simpler outputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Simple English Wikipedia and English Wikipedia are commonly used resources for extracting simplification rules and building sentence pairs in text simplification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The availability of parallel ordinary-simplified sentence pairs is limited, with the largest publicly available dataset (EW-SEW) containing only 296,402 sentence pairs, which is insufficient for training high-performance NMT models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Synthetic simplified sentences are mixed with original simplified-ordinary sentence pairs to train NMT models, improving text simplification quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Text simplification differs from text summarization, as simplification focuses on reducing lexical and syntactic complexity rather than reducing text length or removing redundancy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "A simplified dataset is collected from Simple English Wikipedia, which has been previously used in various text simplification methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Resource"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The study demonstrates that neural translation models can be effectively adapted for text simplification using simplified corpora, which is a novel contribution to the field.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Simple English Wikipedia is easier to understand than the normal English Wikipedia.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Articles from Simple English Wikipedia were filtered to remove stubs, navigation pages, and single-sentence articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Sentences were split using Stanford CorNLP.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Sentences with fewer than 10 words or more than 40 words were removed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "A dataset of 600K sentences containing 11.6M words and an 82K vocabulary size was selected.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The text simplification model is based on an attention-based neural machine translation (NMT) encoder-decoder network with recurrent neural networks (RNN).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The encoder uses a bidirectional RNN consisting of forward and backward RNNs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The forward RNN computes forward hidden states denoted as INLINEFORM1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The backward RNN computes backward hidden states denoted as INLINEFORM2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The annotation vector INLINEFORM3 is formed by concatenating the forward and backward hidden states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The decoder is a GRU-based RNN that generates a simplified target sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The probability of the next target word is computed using a non-linear function involving word embedding and decoding state.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The GRU activation function is used to update the decoding state at each time step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The context vector is computed as a weighted sum of the annotation vector using learned weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The model is trained to maximize the likelihood of the training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Beam search is used during decoding to generate simplified sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "A synthetic parallel dataset of simplified-ordinary sentences is created using back-translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "A simplified sentence is translated to an ordinary sentence using a pre-trained simplified-to-ordinary NMT model with greedy decoding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The back-translation approach proposed by Sennrich et al. is adapted to improve the NMT model for text simplification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Synthetic sentences are generated by back-translating a random sample of 100K sentences from simplified corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Parallel data consists of sentence pairs from ordinary and simplified versions of texts, such as in WikiSmall and WikiLarge datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The NMT system is implemented using OpenNMT and trained on both parallel and synthetic parallel data for text simplification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "WikiSmall contains 89,042 training sentence pairs and 100 test sentence pairs, derived from ordinary and simplified English Wikipedia content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "WikiLarge has a training set of 296,402 sentence pairs and includes 8 reference simplifications for 2,359 sentences, split into 2,000 for development and 359 for testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "BLEU is a traditional machine translation metric used to assess how closely the generated simplifications match the reference simplifications.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "FKGL measures the readability of the output; a smaller FKGL value indicates a simpler output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "SARI is a text simplification metric that compares the output against both the source and reference simplifications.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Simplicity is a human evaluation metric where native or non-native speakers rate whether the output sentence is simpler, equally, or more difficult than the reference sentence on a -2 to +2 scale.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "PBMT-R is a phrase-based text simplification method that includes a reranking post-processing step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Hybrid is a text simplification system that performs sentence splitting and deletion based on discourse representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "OpenNMT is the NMT implementation used in all experiments, following default settings from Klein et al. (2017).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Out-of-vocabulary words are replaced with a special UNK symbol during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "At prediction time, UNK words are replaced with the highest probability score from the attention layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The baseline system uses OpenNMT on parallel data without synthetic data augmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "A synthetic parallel training set is created by back-translating 100K sentences from simplified corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Experiments are conducted on an Intel Core i7-5930K CPU, 32GB memory, and a GeForce GTX 1080 GPU with CUDA v. 8.0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "PBMT-R is a neural text simplification system that simplifies sentences using a basic attention-based encoder-decoder model trained with LSTM layers and a dropout rate of 0.3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "SBMT-SARI is a syntax-based translation model that uses the PPDB paraphrase database and modifies its tuning function using the SARI metric.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "NMT is a basic attention-based encoder-decoder model trained using the OpenNMT framework with two LSTM layers, 500 hidden units, SGD optimizer, and a dropout rate of 0.3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "Dress is an encoder-decoder model integrated with a deep reinforcement learning framework, with parameters chosen according to the original paper.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Synthetic parallel data is generated by back-translating a random sample of 60,000 simplified sentences into ordinary sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "NMT+synthetic is a model trained on both available parallel data and synthetic data generated via back-translation of simplified sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "On the WikiLarge dataset, NMT+synthetic achieves higher BLEU, lower FKGL, and higher SARI compared to other models, except Dress on FKGL and SBMT-SARI on SARI.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "NMT+synthetic improves upon the baseline NMF by 2.11 BLEU, 1.7 FKGL, and 1.07 SARI.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "NMT+synthetic substantially outperforms Dress, which previously reported the state-of-the-art results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Human evaluation using the Simplicity metric shows that NMT on synthetic data significantly outperforms PBMT-R, Dress, and SBMT-SARI.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "On the WikiSmall dataset, NMT+synthetic achieves a 6.37 BLEU improvement over NMT by incorporating simplified training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "On WikiSmall, NMT+synthetic performs better than statistical models (PBMT-R, Hybrid, SBMT-SARI) but has slightly worse FKGL and SARI compared to them.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "In human evaluation using Simplicity, NMT+synthetic outperforms all other models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "NMT+synthetic produces better results than baseline models, demonstrating the effectiveness of using simplified training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The proposed method uses simplified corpora during NMT training without modifying the network architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Back-translation is used to generate synthetic data by translating simplified sentences into ordinary sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "The proposed method can be easily applied to other Neural Text Simplification (NTS) systems due to no changes in network architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The effectiveness of the method depends on both the quality of the NTS system used for back-translation and the amount of available parallel and simplified corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The study only uses Wikipedia-derived simplified sentences and does not explore other text sources or domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Future work will investigate the impact of different text sources and domains on the performance of the method, including size and domain diversity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Proposal"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "100 pairs",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "100K sentences",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "2,000 development",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "2,359 sentences",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "296,402 sentence pairs",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "296,402 sentence pairs",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "359 testing",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "500 hidden units",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "60,000 sentences",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "89,042 sentence pairs",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "B",
+      "Dataset Identifier",
+      "e4"
+    ],
+    [
+      "BIBREF19",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "BIBREF20",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "BIBREF25",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "BIBREF26",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "BIBREF8",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "BLEU",
+      "Definition",
+      "s48"
+    ],
+    [
+      "BLEU",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "BLEU",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "Biran et al",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "Dress",
+      "Definition",
+      "s63"
+    ],
+    [
+      "Dress",
+      "Result",
+      "s68"
+    ],
+    [
+      "Dress",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "EW-SEW",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "EW-SEW",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "English Wikipedia",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "English Wikipedia and Simple English Wikipedia (EW-SEW)",
+      "Resource",
+      "s18"
+    ],
+    [
+      "FKGL",
+      "Definition",
+      "s49"
+    ],
+    [
+      "FKGL",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "FKGL",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "GRU activation",
+      "Property",
+      "s36"
+    ],
+    [
+      "Hybrid",
+      "Definition",
+      "s53"
+    ],
+    [
+      "Hybrid",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "IBREF0",
+      "Dataset Identifier",
+      "e4"
+    ],
+    [
+      "Klein et al. (2017)",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "LSTM",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "NMT",
+      "Definition",
+      "s62"
+    ],
+    [
+      "NMT",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "NMT model",
+      "Property",
+      "s12"
+    ],
+    [
+      "NMT model",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "NMT system",
+      "Definition",
+      "s45"
+    ],
+    [
+      "NMT system",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "NMT+synthetic",
+      "Conclusion",
+      "s73"
+    ],
+    [
+      "NMT+synthetic",
+      "Definition",
+      "s65"
+    ],
+    [
+      "NMT+synthetic",
+      "Result",
+      "s67"
+    ],
+    [
+      "NMT+synthetic",
+      "Result",
+      "s71"
+    ],
+    [
+      "NMT+synthetic",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "NTS systems",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "OpenNMT",
+      "Property",
+      "s54"
+    ],
+    [
+      "OpenNMT",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "OpenNMT",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "PBMT-R",
+      "Definition",
+      "s52"
+    ],
+    [
+      "PBMT-R",
+      "Definition",
+      "s60"
+    ],
+    [
+      "PBMT-R",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "PBMT-R",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "PPDB",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "SARI",
+      "Definition",
+      "s50"
+    ],
+    [
+      "SARI",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "SARI",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "SBMT-SARI",
+      "Definition",
+      "s61"
+    ],
+    [
+      "SBMT-SARI",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "SGD optimizer",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "Sennrich et al. back-translation",
+      "Reference",
+      "s42"
+    ],
+    [
+      "Simple English Wikipedia",
+      "Definition",
+      "s24"
+    ],
+    [
+      "Simple English Wikipedia",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "Simple English Wikipedia",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "Simple Wikipedia",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "Simplicity",
+      "Definition",
+      "s51"
+    ],
+    [
+      "Simplicity",
+      "Evaluation",
+      "s69"
+    ],
+    [
+      "Simplicity",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "Simplicity",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "UNK symbol",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e5"
+    ],
+    [
+      "WikiLarge",
+      "Property",
+      "s47"
+    ],
+    [
+      "WikiLarge",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "WikiLarge",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "WikiLarge dataset",
+      "Result",
+      "s66"
+    ],
+    [
+      "WikiSmall",
+      "Property",
+      "s46"
+    ],
+    [
+      "WikiSmall",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "WikiSmall",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "WikiSmall dataset",
+      "Result",
+      "s70"
+    ],
+    [
+      "Wikipedia",
+      "Limitation",
+      "s78"
+    ],
+    [
+      "Wikipedia",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "Wikipedia",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "Woodsend and Lapata",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "Wubben et al",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "Xu et al",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "additional training data",
+      "Result",
+      "s9"
+    ],
+    [
+      "amount of data",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "annotation vector",
+      "Definition",
+      "s33"
+    ],
+    [
+      "article filtering",
+      "Process",
+      "s25"
+    ],
+    [
+      "attention layer",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "attention-based NMT",
+      "Definition",
+      "s29"
+    ],
+    [
+      "automatic TS",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "back-translate",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "back-translation",
+      "Definition",
+      "s10"
+    ],
+    [
+      "back-translation",
+      "Method",
+      "s75"
+    ],
+    [
+      "back-translation",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "back-translation",
+      "Process",
+      "s41"
+    ],
+    [
+      "back-translation",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "back-translation",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "backward hidden states",
+      "Property",
+      "s32"
+    ],
+    [
+      "baseline system",
+      "Definition",
+      "s57"
+    ],
+    [
+      "context vector",
+      "Definition",
+      "s37"
+    ],
+    [
+      "data quality and amount",
+      "Limitation",
+      "s77"
+    ],
+    [
+      "data scarcity in ordinary-simplified sentence pairs",
+      "Problem",
+      "s19"
+    ],
+    [
+      "decoder",
+      "Component",
+      "s34"
+    ],
+    [
+      "decoding method",
+      "Method",
+      "s39"
+    ],
+    [
+      "deep learning",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "discourse representation",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "domain",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "dropout rate 0.3",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "effectiveness",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "encoder",
+      "Component",
+      "s30"
+    ],
+    [
+      "encoder-decoder architecture",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "evaluation setup",
+      "Property",
+      "s59"
+    ],
+    [
+      "final dataset",
+      "Result",
+      "s28"
+    ],
+    [
+      "forward hidden states",
+      "Property",
+      "s31"
+    ],
+    [
+      "future work",
+      "Proposal",
+      "s79"
+    ],
+    [
+      "human evaluation",
+      "Result",
+      "s72"
+    ],
+    [
+      "human evaluation",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "language models",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "lexical simplification",
+      "Property",
+      "s14"
+    ],
+    [
+      "lexical simplification",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "lexical simplification",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "lexical simplification (LS)",
+      "Definition",
+      "s2"
+    ],
+    [
+      "machine translation",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "machine translation (MT)-based approach",
+      "Definition",
+      "s4"
+    ],
+    [
+      "method",
+      "Property",
+      "s74"
+    ],
+    [
+      "mixed training data",
+      "Method",
+      "s20"
+    ],
+    [
+      "neural Machine Translation (NMT)",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "neural machine translation (NMT)",
+      "Definition",
+      "s5"
+    ],
+    [
+      "neural machine translation (NMT)",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "neural network architecture",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "neural text simplification (NTS)",
+      "Application",
+      "s76"
+    ],
+    [
+      "neural translation models for text simplification",
+      "Claim",
+      "s23"
+    ],
+    [
+      "ordinary sentence",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "out-of-vocabulary words",
+      "Property",
+      "s55"
+    ],
+    [
+      "parallel corpora",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "parallel data",
+      "Definition",
+      "s44"
+    ],
+    [
+      "parallel data",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "parallel data",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "phrase-based machine translation (PBMT)",
+      "Method",
+      "s16"
+    ],
+    [
+      "phrase-based machine translation (PBMT)",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "phrased-based machine translation",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "prediction time",
+      "Property",
+      "s56"
+    ],
+    [
+      "publicly available datasets",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "quasi-synchronous grammar",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "recurrent neural networks",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "rule-based approach",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "rule-based approaches",
+      "Definition",
+      "s3"
+    ],
+    [
+      "semantic meaning",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "sentence deletion",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "sentence length filtering",
+      "Property",
+      "s27"
+    ],
+    [
+      "sentence splitting",
+      "Method",
+      "s26"
+    ],
+    [
+      "sentence splitting",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "sentence-level simplification",
+      "Method",
+      "s15"
+    ],
+    [
+      "simplified corpora",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "simplified corpora",
+      "Property",
+      "s6"
+    ],
+    [
+      "simplified corpora",
+      "Resource",
+      "s22"
+    ],
+    [
+      "simplified corpora",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "simplified corpora",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "simplified sentence",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "simplified sentences",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "statistical machine translation (SMT)",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "syntactic simplification",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "syntactic structure",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "syntax-based machine translation",
+      "Method",
+      "s17"
+    ],
+    [
+      "syntax-based machine translation",
+      "Text Simplification Methods",
+      "e3"
+    ],
+    [
+      "synthetic ordinary sentences",
+      "Method",
+      "s8"
+    ],
+    [
+      "synthetic ordinary sentences",
+      "Result",
+      "s11"
+    ],
+    [
+      "synthetic ordinary sentences",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "synthetic parallel data",
+      "Method",
+      "s64"
+    ],
+    [
+      "synthetic parallel data",
+      "Text Simplification Model",
+      "e7"
+    ],
+    [
+      "synthetic parallel training set",
+      "Definition",
+      "s58"
+    ],
+    [
+      "synthetic sentences",
+      "Definition",
+      "s43"
+    ],
+    [
+      "synthetic sentences",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "synthetic sentences",
+      "Text Simplification Evaluation",
+      "e6"
+    ],
+    [
+      "synthetic simplified sentences",
+      "Definition",
+      "s40"
+    ],
+    [
+      "target word prediction",
+      "Process",
+      "s35"
+    ],
+    [
+      "text simplification",
+      "Definition",
+      "s1"
+    ],
+    [
+      "text simplification",
+      "Definition",
+      "s13"
+    ],
+    [
+      "text simplification vs. text summarization",
+      "Relationship",
+      "s21"
+    ],
+    [
+      "text sources",
+      "Neural Text Simplification",
+      "e8"
+    ],
+    [
+      "text summarization",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "training data",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "training data scarcity",
+      "Challenge",
+      "s7"
+    ],
+    [
+      "training objective",
+      "Property",
+      "s38"
+    ],
+    [
+      "training set",
+      "Text Simplification",
+      "e2"
+    ],
+    [
+      "transformation rules",
+      "Text Simplification Methods",
+      "e1"
+    ],
+    [
+      "tree transformation",
+      "Text Simplification Methods",
+      "e3"
+    ]
+  ]
+}

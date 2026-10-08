@@ -1,0 +1,2436 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 6,
+    "n_semantic": 70,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Deep Neural Networks": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "Natural Language Processing": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "text classification": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "sequence labeling": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "question answering": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "engineers": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "DNN models": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "NLP toolkit": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "sentence classification": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "text matching": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "MRC": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "embedding": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "CNN/RNN": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "Transformer": {
+      "tag_set": [
+        "NLP Toolkit Design",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "NeuronBlocks": {
+      "tag_set": [
+        "Application",
+        "Definition",
+        "Future Development",
+        "NLP Toolkit Design",
+        "NeuronBlocks Performance",
+        "Property",
+        "Result"
+      ]
+    },
+    "end-to-end network templates": {
+      "tag_set": [
+        "NLP Toolkit Design",
+        "Neuronblocks Design"
+      ]
+    },
+    "reusable components": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "customized modules": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "commercial centralized GPU cluster": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "87.5%": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "90%": {
+      "tag_set": [
+        "NLP Toolkit Design"
+      ]
+    },
+    "TensorFlow": {
+      "tag_set": [
+        "NLP Toolkit Design",
+        "Related Work"
+      ]
+    },
+    "PyTorch": {
+      "tag_set": [
+        "NLP Toolkit Design",
+        "NeuronBlocks Performance",
+        "Neuronblocks Design",
+        "Related Work"
+      ]
+    },
+    "Keras": {
+      "tag_set": [
+        "NLP Toolkit Design",
+        "Related Work"
+      ]
+    },
+    "OpenNMT": {
+      "tag_set": [
+        "NLP Toolkit Design",
+        "Related Work"
+      ]
+    },
+    "AllenNLP": {
+      "tag_set": [
+        "Definition",
+        "Limitation",
+        "NLP Toolkit Design",
+        "Neuronblocks Design",
+        "Property",
+        "Related Work"
+      ]
+    },
+    "neural machine translation": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "natural language generation": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "semantic role labeling": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "machine comprehension": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "textual entailment": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "Block Zoo": {
+      "tag_set": [
+        "Definition",
+        "Function",
+        "NeuronBlocks Configuration",
+        "NeuronBlocks Model Features",
+        "NeuronBlocks Performance",
+        "Neuronblocks Design",
+        "Property",
+        "Purpose"
+      ]
+    },
+    "Model Zoo": {
+      "tag_set": [
+        "Definition",
+        "Function",
+        "NeuronBlocks Configuration",
+        "NeuronBlocks Performance",
+        "Neuronblocks Design",
+        "Usage"
+      ]
+    },
+    "JSON configuration files": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "deep neural networks": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "network architectures": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "reusable blocks": {
+      "tag_set": [
+        "Neuronblocks Design"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "Embedding Layer": {
+      "tag_set": [
+        "NeuronBlocks Model Features",
+        "Property"
+      ]
+    },
+    "Word/character embedding": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "POS-tagging": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "RNN": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "NeuronBlocks Configuration",
+        "NeuronBlocks Model Features",
+        "NeuronBlocks Performance"
+      ]
+    },
+    "QRNN": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Highway network": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Encoder Decoder architecture": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Attention mechanisms": {
+      "tag_set": [
+        "NeuronBlocks Model Features",
+        "Property"
+      ]
+    },
+    "Linear/Bi-linear Attention": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Full Attention": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Bidirectional attention flow": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Dropout": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Layer Norm": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Batch Norm": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Focal Loss": {
+      "tag_set": [
+        "Definition",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "AUC": {
+      "tag_set": [
+        "Metric",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Accuracy": {
+      "tag_set": [
+        "Metric",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Precision/Recall": {
+      "tag_set": [
+        "Metric",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "F1": {
+      "tag_set": [
+        "Metric",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "MSE": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "RMSE": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "ExactMatch": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Text Classification": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Matching": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Sequence Labeling": {
+      "tag_set": [
+        "NeuronBlocks Model Features",
+        "Task"
+      ]
+    },
+    "NER": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "POS tagging": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Slot tagging": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Knowledge Distillation": {
+      "tag_set": [
+        "NeuronBlocks Model Features",
+        "Task"
+      ]
+    },
+    "Teacher-Student": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "GPT": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "I/O interface": {
+      "tag_set": [
+        "Feature",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Model Architecture interface": {
+      "tag_set": [
+        "Feature",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "Training Parameters interface": {
+      "tag_set": [
+        "Feature",
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "FIGREF19": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "FIGREF34": {
+      "tag_set": [
+        "NeuronBlocks Model Features"
+      ]
+    },
+    "JSON configuration file": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "CoNLL-2003": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "GLUE benchmark": {
+      "tag_set": [
+        "Definition",
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "WikiQA corpus": {
+      "tag_set": [
+        "Definition",
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "PERSON": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "LOCATION": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "ORGANIZATION": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "MISC": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "BIOES tagging scheme": {
+      "tag_set": [
+        "Definition",
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "IOB": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "BiLSTM": {
+      "tag_set": [
+        "NeuronBlocks Configuration",
+        "NeuronBlocks Performance"
+      ]
+    },
+    "Attention": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "CRF": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "Area Under Curve (AUC)": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "Domain Classification Dataset": {
+      "tag_set": [
+        "Definition",
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "Queries per": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "hyper-parameter tuning": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "architecture modification": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "GPU": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "CPU": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "PAI": {
+      "tag_set": [
+        "NeuronBlocks Configuration"
+      ]
+    },
+    "Second (QPS)": {
+      "tag_set": [
+        "Definition",
+        "NeuronBlocks Performance"
+      ]
+    },
+    "inference speed": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "knowledge distillation": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "student model": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "BERTbase": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "fine-tuned classifier": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "WikiQA": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "3,047 questions": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "Bing query logs": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "Wikipedia": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "Attention based models": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "Table TABREF41": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "commercial search engine": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "open-source toolkit": {
+      "tag_set": [
+        "NeuronBlocks Performance"
+      ]
+    },
+    "Deep Neural Networks (DNN)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NLP tasks": {
+      "tag_set": [
+        "Examples"
+      ]
+    },
+    "NeuronBlocks upper layer": {
+      "tag_set": [
+        "Function"
+      ]
+    },
+    "NeuronBlocks bottom layer": {
+      "tag_set": [
+        "Function"
+      ]
+    },
+    "NeuronBlocks flexibility": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "NeuronBlocks genericity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Commercial GPU cluster jobs": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "NLP network components": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Neuronblocks": {
+      "tag_set": [
+        "Design",
+        "Flexibility",
+        "Structure"
+      ]
+    },
+    "Neural Network Layers": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Regularization layers": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "MSE/RMSE": {
+      "tag_set": [
+        "Metric"
+      ]
+    },
+    "ExactMatch/F1": {
+      "tag_set": [
+        "Metric"
+      ]
+    },
+    "Text Classification and Matching": {
+      "tag_set": [
+        "Task"
+      ]
+    },
+    "Extractive Machine Reading Comprehension": {
+      "tag_set": [
+        "Task"
+      ]
+    },
+    "Workflow": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Configuration file": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Hyper-parameter tuning": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Customized blocks": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Platform support": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CoNLL-2003 dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BiLSTM and Attention models": {
+      "tag_set": [
+        "Architecture"
+      ]
+    },
+    "AUC metric": {
+      "tag_set": [
+        "Evaluation"
+      ]
+    },
+    "Sequence labeling": {
+      "tag_set": [
+        "Task"
+      ]
+    },
+    "GLUE tasks": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Productivity": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "NeuronBlocks models": {
+      "tag_set": [
+        "Result"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Deep Neural Networks (DNN) have been widely employed in industry for solving various Natural Language Processing (NLP) tasks, such as text classification, sequence labeling, question answering, etc. However, when engineers apply DNN models to address specific NLP tasks, they often face the following challenges. The above challenges often hinder the productivity of engineers, and result in less optimal solutions to their given tasks. This motivates us to develop an NLP toolkit for DNN models, which facilitates engineers to develop DNN approaches. Before designing this NLP toolkit, we conducted a survey among engineers and identified a spectrum of three typical personas. To satisfy the requirements of all the above three personas, the NLP toolkit has to be generic enough to cover as many tasks as possible. At the same time, it also needs to be flexible enough to allow alternative network architectures as well as customized modules. Therefore, we analyzed the NLP jobs submitted to a commercial centralized GPU cluster. Table TABREF11 showed that about 87.5% NLP related jobs belong to a few common tasks, including sentence classification, text matching, sequence labeling, MRC, etc. It further suggested that more than 90% of the networks were composed of several common components, such as embedding, CNN/RNN, Transformer and so on. Based on the above observations, we developed NeuronBlocks, a DNN toolkit for NLP tasks. The basic idea is to provide two layers of support to the engineers. The upper layer targets common NLP tasks. For each task, the toolkit contains several end-to-end network templates, which can be immediately instantiated with simple configuration. The bottom layer consists of a suite of reusable and standard components, which can be adopted as building blocks to construct networks with complex architecture. By following the interface guidelines, users can also contribute to this gallery of components with their own modules. The technical contributions of NeuronBlocks are summarized into the following three aspects. Related Work There are several general-purpose deep learning frameworks, such as TensorFlow, PyTorch and Keras, which have gained popularity in NLP community. These frameworks offer huge flexibility in DNN model design and support various NLP tasks. However, building models under these frameworks requires a large overhead of mastering these framework details. Therefore, higher level abstraction to hide the framework details is favored by many engineers. There are also several popular deep learning toolkits in NLP, including OpenNMT BIBREF0 , AllenNLP BIBREF1 etc. OpenNMT is an",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NLP Toolkit Design"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "open-source toolkit mainly targeting neural machine translation or other natural language generation tasks. AllenNLP provides several pre-built models for NLP tasks, such as semantic role labeling, machine comprehension, textual entailment, etc. Although these toolkits reduce the development cost, they are limited to certain tasks, and thus not flexible enough to support new network architectures or new components. Design The Neuronblocks is built on PyTorch. The overall framework is illustrated in Figure FIGREF16 . It consists of two layers: the Block Zoo and the Model Zoo. In Block Zoo, the most commonly used components of deep neural networks are categorized into several groups according to their functions. Within each category, several alternative components are encapsulated into standard and reusable blocks with a consistent interface. These blocks serve as basic and exchangeable units to construct complex network architectures for different NLP tasks. In Model Zoo, the most popular NLP tasks are identified. For each task, several end-to-end network templates are provided in the form of JSON configuration files. Users can simply browse these configurations and choose one or more to instantiate. The whole task can be completed without any coding efforts. Block Zoo We recognize the following major functional categories of neural network components. Each category covers as many commonly used modules as possible. The Block Zoo is an open framework, and more modules can be added in the future.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Neuronblocks Design"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "[itemsep=",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "-0.4em,topsep = 0.3em, align=left, labelsep=-0.6em, leftmargin=1.2em] Embedding Layer: Word/character embedding and extra handcrafted feature embedding such as pos-tagging are supported. Neural Network Layers: Block zoo provides common layers like RNN, CNN, QRNN BIBREF2 , Transformer BIBREF3 , Highway network, Encoder Decoder architecture, etc. Furthermore, attention mechanisms are widely used in neural networks. Thus we also support multiple attention layers, such as Linear/Bi-linear Attention, Full Attention BIBREF4 , Bidirectional attention flow BIBREF5 , etc. Meanwhile, regularization layers such as Dropout, Layer Norm, Batch Norm, etc are also supported for improving generalization ability. Loss Function: Besides of the loss functions built in PyTorch, we offer more options such as Focal Loss BIBREF6 . Metrics: For classification task, AUC, Accuracy, Precision/Recall, F1 metrics are supported. For sequence labeling task, F1/Accuracy are supported. For knowledge distillation task, MSE/RMSE are supported. For MRC task, ExactMatch/F1 are supported. Model Zoo In NeuronBlocks, we identify four types of most popular NLP tasks. For each task, we provide various end-to-end network templates. [itemsep= -0.4em,topsep = 0.3em, align=left, labelsep=-0.6em, leftmargin=1.2em] Text Classification and Matching. Tasks such as domain/intent classification, question answer matching are supported. Sequence Labeling. Predict each token in a sequence into predefined types. Common tasks include NER, POS tagging, Slot tagging, etc. Knowledge Distillation BIBREF7 . Teacher-Student based knowledge distillation is one common approach for model compression. NeuronBlocks provides knowledge distillation template to improve the inference speed of heavy DNN models like BERT/GPT. Extractive Machine Reading Comprehension. Given a pair of question and passage, predict the start and end positions of the answer spans in the passage. User Interface NeuronBlocks provides convenient user interface for users to build, train, and test DNN models. The details are described in the following. [itemsep= -0.4em,topsep = 0.3em, align=left, labelsep=-0.6em, leftmargin=1.2em] I/O interface. This part defines model input/output, such as training data, pre-trained models/embeddings, model saving path, etc. Model Architecture interface. This is the key part of the configuration file, which defines the whole model architecture. Figure FIGREF19 shows an example of how to specify a model architecture using the blocks in NeuronBlocks. To be more specific, it consists of a list of layers/blocks to construct the architecture, where the blocks are supplied in the gallery of Block Zoo. Training Parameters interface. In this part, the model optimizer as well as all other training hyper parameters are indicated. Workflow Figure FIGREF34 shows the workflow of building DNN models in NeuronBlocks. Users",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NeuronBlocks Model Features"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "only need to write a JSON configuration file. They can either instantiate an existing template from Model Zoo, or construct a new architecture based on the blocks from Block Zoo. This configuration file is shared across training, test, and prediction. For model hyper-parameter tuning or architecture modification, users just need to change the JSON configuration file. Advanced users can also contribute novel customized blocks into Block Zoo, as long as they follow the same interface guidelines with the existing blocks. These new blocks can be further shared across all users for model architecture design. Moreover, NeuronBlocks has flexible platform support, such as GPU/CPU, GPU management platforms like PAI. Experiments To verify the performance of NeuronBlocks, we conducted extensive experiments for common NLP tasks on public data sets including CoNLL-2003 BIBREF14 , GLUE benchmark BIBREF13 , and WikiQA corpus BIBREF15 . The experimental results showed that the models built with NeuronBlocks can achieve reliable and competitive results on various tasks, with productivity greatly improved. Sequence Labeling For sequence labeling task, we evaluated NeuronBlocks on CoNLL-2003 BIBREF14 English NER dataset, following most works on the same task. This dataset includes four types of named entities, namely, PERSON, LOCATION, ORGANIZATION, and MISC. We adopted the BIOES tagging scheme instead of IOB, as many previous works indicated meaningful improvement with BIOES scheme BIBREF16 , BIBREF17 . Table TABREF28 shows the results on CoNLL-2003 Englist testb dataset, with 12 different combinations of network layers/blocks, such as word/character embedding, CNN/LSTM and CRF. The results suggest that the flexible combination of layers/blocks in NeuronBlocks can easily reproduce the performance of original models, with comparative or slightly better performance. GLUE Benchmark The General Language Understanding Evaluation (GLUE) benchmark BIBREF13 is a collection of natural language understanding tasks. We experimented on the GLUE benchmark tasks using BiLSTM and Attention based models. As shown in Table TABREF29 , the models built by NeuronBlocks can achieve competitive or even better results on GLUE tasks with minimal coding efforts. Knowledge Distillation We evaluated Knowledge Distillation task in NeuronBlocks on a dataset collected from one commercial search engine. We refer to this dataset as Domain Classification Dataset. Each sample in this dataset consists of two parts, i.e., a question and a binary label indicating whether the question belongs to a specific domain. Table TABREF36 shows the results, where Area Under Curve (AUC) metric is used as the performance evaluation criteria and Queries per",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NeuronBlocks Configuration"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "Second (QPS) is used to measure inference speed. By knowledge distillation training approach, the student model by NeuronBlocks managed to get 23-27 times inference speedup with only small performance regression compared with BERTbase fine-tuned classifier. WikiQA The WikiQA corpus BIBREF15 is a publicly available dataset for open-domain question answering. This dataset contains 3,047 questions from Bing query logs, each associated with some candidate answer sentences from Wikipedia. We conducted experiments on WikiQA dataset using CNN, BiLSTM, and Attention based models. The results are shown in Table TABREF41 . The models built in NeuronBlocks achieved competitive or even better results with simple model configurations. Conclusion and Future Work In this paper, we introduce NeuronBlocks, a DNN toolkit for NLP tasks built on PyTorch. NeuronBlocks targets three types of engineers, and provides a two-layer solution to satisfy the requirements from all three types of users. To be more specific, the Model Zoo consists of various templates for the most common NLP tasks, while the Block Zoo supplies a gallery of alternative layers/modules for the networks. Such design achieves a balance between generality and flexibility. Extensive experiments have verified the effectiveness of this approach. NeuronBlocks has been widely used in a product team of a commercial search engine, and significantly improved the productivity for developing NLP DNN approaches. As an open-source toolkit, we will further extend it in various directions. The following names a few examples.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NeuronBlocks Performance"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Deep Neural Networks are machine learning models widely used in industry for solving Natural Language Processing tasks such as text classification and question answering.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Common NLP tasks include sentence classification, text matching, sequence labeling, and Machine Reading Comprehension (MRC).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Examples"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "NeuronBlocks is a DNN toolkit designed to facilitate engineers in developing NLP models by providing end-to-end network templates and reusable building blocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The upper layer of NeuronBlocks provides end-to-end network templates for common NLP tasks that can be instantiated with simple configuration.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The bottom layer consists of reusable and standard components that allow users to build networks with complex architectures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "NeuronBlocks is flexible enough to support alternative network architectures and customized modules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "NeuronBlocks is generic enough to cover a wide range of NLP tasks to meet the needs of diverse engineering personas.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "About 87.5% of NLP-related jobs on a commercial GPU cluster belong to a few common tasks such as sentence classification and sequence labeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "More than 90% of NLP networks use common components such as embedding, CNN, RNN, and Transformer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "OpenNMT is a popular deep learning toolkit in NLP that focuses on neural machine translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "AllenNLP is a popular deep learning toolkit in NLP that supports various NLP tasks with a focus on research and development.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "TensorFlow is a general-purpose deep learning framework that provides flexibility in DNN model design but requires significant expertise to use effectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "PyTorch is a general-purpose deep learning framework widely used in NLP for its flexibility and dynamic computation graph support.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Keras is a high-level deep learning framework that simplifies model development but lacks fine-grained control over model architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "AllenNLP is an open-source toolkit mainly targeting neural machine translation or other natural language generation tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "AllenNLP provides several pre-built models for NLP tasks such as semantic role labeling, machine comprehension, and textual entailment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "AllenNLP is limited to certain tasks and is not flexible enough to support new network architectures or new components.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Neuronblocks is built on PyTorch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Design"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Neuronblocks consists of two layers: the Block Zoo and the Model Zoo.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Structure"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The Block Zoo categorizes commonly used neural network components into functional groups.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Within each functional category, alternative components are encapsulated into standard, reusable blocks with a consistent interface.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The blocks in the Block Zoo serve as basic and exchangeable units to construct complex network architectures for different NLP tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The Model Zoo provides end-to-end network templates for popular NLP tasks in the form of JSON configuration files.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Users can instantiate a model by browsing and selecting a configuration without any coding efforts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Neuronblocks is an open framework that allows more modules to be added in the future.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Flexibility"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The Embedding Layer supports word/character embedding and handcrafted feature embedding such as POS-tagging.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The Block Zoo provides common neural network layers including RNN, CNN, QRNN, Transformer, Highway network, and Encoder-Decoder architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Attention mechanisms are widely used in neural networks, and NeuronBlocks supports multiple attention layers such as Linear/Bi-linear Attention, Full Attention, and Bidirectional Attention Flow.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "NeuronBlocks supports regularization layers such as Dropout, Layer Norm, and Batch Norm to improve model generalization ability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Focal Loss is an additional loss function offered in NeuronBlocks beyond those built into PyTorch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "AUC is a supported metric for classification tasks in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Accuracy is a supported metric for both classification and sequence labeling tasks in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Precision and Recall are supported metrics for classification tasks in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "F1 score is supported for classification and sequence labeling tasks in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "MSE and RMSE are supported metrics for knowledge distillation tasks in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "ExactMatch and F1 are supported metrics for machine reading comprehension (MRC) tasks in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "NeuronBlocks supports text classification and matching tasks such as domain/intent classification and question-answer matching.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Sequence Labeling tasks in NeuronBlocks include NER, POS tagging, and Slot tagging.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Knowledge Distillation is a supported task in NeuronBlocks, with teacher-student based approaches used to compress heavy models like BERT and GPT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "NeuronBlocks supports extractive machine reading comprehension, where the model predicts start and end positions of answer spans in a passage given a question and passage.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The I/O interface in NeuronBlocks defines model input/output, including training data, pre-trained models/embeddings, and model saving paths.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The Model Architecture interface defines the entire model structure using a list of layers/blocks from the Block Zoo, as illustrated in Figure FIGREF19.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The Training Parameters interface specifies the model optimizer and all training hyperparameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The workflow of building DNN models in NeuronBlocks is illustrated in Figure FIGREF34 and involves model configuration, training, and testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "NeuronBlocks is a framework that allows users to either instantiate existing templates from Model Zoo or construct new architectures using blocks from Block Zoo.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Model Zoo contains pre-defined template models that can be instantiated within NeuronBlocks for rapid model development.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Block Zoo provides a library of reusable neural network blocks with standardized interfaces that can be combined to build custom architectures in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The NeuronBlocks configuration file is shared across training, testing, and prediction phases and serves as the central specification for model architecture and hyperparameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Users can modify the JSON configuration file to perform hyper-parameter tuning or adjust the model architecture without changing code.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Advanced users can contribute new customized blocks to Block Zoo, provided they follow the same interface guidelines as existing blocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "NeuronBlocks supports flexible platform deployment, including GPU and CPU, as well as GPU management platforms like PAI.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "CoNLL-2003 is a public dataset used for English Named Entity Recognition (NER) with four entity types: PERSON, LOCATION, ORGANIZATION, and MISC.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The BIOES tagging scheme is used in sequence labeling tasks to improve performance over the traditional IOB scheme by allowing more precise entity boundary representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "GLUE is a collection of natural language understanding tasks used to evaluate the performance of models on general language understanding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "NeuronBlocks supports the implementation of BiLSTM and Attention-based models for the GLUE benchmark tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Architecture"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Knowledge Distillation is evaluated in NeuronBlocks on a Domain Classification Dataset derived from a commercial search engine.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The Domain Classification Dataset consists of question-query pairs with binary labels indicating whether the question belongs to a specific domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Area Under Curve (AUC) is used as the performance evaluation metric for the Knowledge Distillation task in NeuronBlocks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "NeuronBlocks achieves competitive or slightly better performance on sequence labeling tasks using various combinations of embedding layers, CNN, LSTM, and CRF.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Models built with NeuronBlocks achieve competitive or even better results on GLUE tasks with minimal coding effort.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The use of NeuronBlocks significantly improves model development productivity by enabling rapid prototyping and flexible architecture design.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Second (QPS) is used to measure inference speed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "NeuronBlocks is a DNN toolkit for NLP tasks built on PyTorch.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The student model built with NeuronBlocks achieved 23-27 times inference speedup compared to BERTbase fine-tuned classifier with only small performance regression.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The WikiQA corpus is a publicly available dataset for open-domain question answering containing 3,047 questions from Bing query logs, each associated with candidate answer sentences from Wikipedia.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Models built in NeuronBlocks achieved competitive or even better results on the WikiQA dataset with simple model configurations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The Model Zoo in NeuronBlocks consists of various templates for the most common NLP tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The Block Zoo in NeuronBlocks supplies a gallery of alternative layers/modules for networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "NeuronBlocks has been widely used in a product team of a commercial search engine, significantly improving productivity in developing NLP DNN approaches.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "NeuronBlocks will be further extended in various directions, including additional models and modules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future Development"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "3,047 questions",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "87.5%",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "90%",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "AUC",
+      "Metric",
+      "s31"
+    ],
+    [
+      "AUC",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "AUC metric",
+      "Evaluation",
+      "s58"
+    ],
+    [
+      "Accuracy",
+      "Metric",
+      "s32"
+    ],
+    [
+      "Accuracy",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "AllenNLP",
+      "Definition",
+      "s15"
+    ],
+    [
+      "AllenNLP",
+      "Limitation",
+      "s17"
+    ],
+    [
+      "AllenNLP",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "AllenNLP",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "AllenNLP",
+      "Property",
+      "s16"
+    ],
+    [
+      "AllenNLP",
+      "Related Work",
+      "s11"
+    ],
+    [
+      "Area Under Curve (AUC)",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Attention",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Attention based models",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "Attention mechanisms",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Attention mechanisms",
+      "Property",
+      "s28"
+    ],
+    [
+      "BERT",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "BERTbase",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "BIBREF15",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "BIOES tagging scheme",
+      "Definition",
+      "s53"
+    ],
+    [
+      "BIOES tagging scheme",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Batch Norm",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "BiLSTM",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "BiLSTM",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "BiLSTM and Attention models",
+      "Architecture",
+      "s55"
+    ],
+    [
+      "Bidirectional attention flow",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Bing query logs",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "Block Zoo",
+      "Definition",
+      "s47"
+    ],
+    [
+      "Block Zoo",
+      "Definition",
+      "s68"
+    ],
+    [
+      "Block Zoo",
+      "Function",
+      "s20"
+    ],
+    [
+      "Block Zoo",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Block Zoo",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Block Zoo",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "Block Zoo",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "Block Zoo",
+      "Property",
+      "s21"
+    ],
+    [
+      "Block Zoo",
+      "Purpose",
+      "s22"
+    ],
+    [
+      "CNN",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "CNN",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "CNN",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "CNN/RNN",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "CPU",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "CRF",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "CoNLL-2003",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "CoNLL-2003 dataset",
+      "Definition",
+      "s52"
+    ],
+    [
+      "Commercial GPU cluster jobs",
+      "Result",
+      "s8"
+    ],
+    [
+      "Configuration file",
+      "Property",
+      "s48"
+    ],
+    [
+      "Customized blocks",
+      "Process",
+      "s50"
+    ],
+    [
+      "DNN models",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "Deep Neural Networks",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "Deep Neural Networks (DNN)",
+      "Definition",
+      "s1"
+    ],
+    [
+      "Domain Classification Dataset",
+      "Definition",
+      "s57"
+    ],
+    [
+      "Domain Classification Dataset",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Dropout",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Embedding Layer",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Embedding Layer",
+      "Property",
+      "s26"
+    ],
+    [
+      "Encoder Decoder architecture",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "ExactMatch",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "ExactMatch/F1",
+      "Metric",
+      "s36"
+    ],
+    [
+      "Extractive Machine Reading Comprehension",
+      "Task",
+      "s40"
+    ],
+    [
+      "F1",
+      "Metric",
+      "s34"
+    ],
+    [
+      "F1",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "FIGREF19",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "FIGREF34",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Focal Loss",
+      "Definition",
+      "s30"
+    ],
+    [
+      "Focal Loss",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Full Attention",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "GLUE benchmark",
+      "Definition",
+      "s54"
+    ],
+    [
+      "GLUE benchmark",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "GLUE tasks",
+      "Result",
+      "s60"
+    ],
+    [
+      "GPT",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "GPU",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Highway network",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Hyper-parameter tuning",
+      "Process",
+      "s49"
+    ],
+    [
+      "I/O interface",
+      "Feature",
+      "s41"
+    ],
+    [
+      "I/O interface",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "IOB",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "JSON configuration file",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "JSON configuration files",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "Keras",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "Keras",
+      "Related Work",
+      "s14"
+    ],
+    [
+      "Knowledge Distillation",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Knowledge Distillation",
+      "Task",
+      "s39"
+    ],
+    [
+      "Knowledge Distillation",
+      "Task",
+      "s56"
+    ],
+    [
+      "LOCATION",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "LSTM",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Layer Norm",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Linear/Bi-linear Attention",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "MISC",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "MRC",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "MSE",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "MSE/RMSE",
+      "Metric",
+      "s35"
+    ],
+    [
+      "Matching",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Model Architecture interface",
+      "Feature",
+      "s42"
+    ],
+    [
+      "Model Architecture interface",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Model Zoo",
+      "Definition",
+      "s46"
+    ],
+    [
+      "Model Zoo",
+      "Definition",
+      "s67"
+    ],
+    [
+      "Model Zoo",
+      "Function",
+      "s23"
+    ],
+    [
+      "Model Zoo",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Model Zoo",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "Model Zoo",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "Model Zoo",
+      "Usage",
+      "s24"
+    ],
+    [
+      "NER",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "NLP network components",
+      "Property",
+      "s9"
+    ],
+    [
+      "NLP tasks",
+      "Examples",
+      "s2"
+    ],
+    [
+      "NLP toolkit",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "Natural Language Processing",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "Neural Network Layers",
+      "Definition",
+      "s27"
+    ],
+    [
+      "NeuronBlocks",
+      "Application",
+      "s69"
+    ],
+    [
+      "NeuronBlocks",
+      "Definition",
+      "s3"
+    ],
+    [
+      "NeuronBlocks",
+      "Definition",
+      "s45"
+    ],
+    [
+      "NeuronBlocks",
+      "Future Development",
+      "s70"
+    ],
+    [
+      "NeuronBlocks",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "NeuronBlocks",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "NeuronBlocks",
+      "Property",
+      "s63"
+    ],
+    [
+      "NeuronBlocks",
+      "Result",
+      "s64"
+    ],
+    [
+      "NeuronBlocks bottom layer",
+      "Function",
+      "s5"
+    ],
+    [
+      "NeuronBlocks flexibility",
+      "Property",
+      "s6"
+    ],
+    [
+      "NeuronBlocks genericity",
+      "Property",
+      "s7"
+    ],
+    [
+      "NeuronBlocks models",
+      "Result",
+      "s66"
+    ],
+    [
+      "NeuronBlocks upper layer",
+      "Function",
+      "s4"
+    ],
+    [
+      "Neuronblocks",
+      "Design",
+      "s18"
+    ],
+    [
+      "Neuronblocks",
+      "Flexibility",
+      "s25"
+    ],
+    [
+      "Neuronblocks",
+      "Structure",
+      "s19"
+    ],
+    [
+      "ORGANIZATION",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "OpenNMT",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "OpenNMT",
+      "Related Work",
+      "s10"
+    ],
+    [
+      "PAI",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "PERSON",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "POS tagging",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "POS-tagging",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Platform support",
+      "Property",
+      "s51"
+    ],
+    [
+      "Precision/Recall",
+      "Metric",
+      "s33"
+    ],
+    [
+      "Precision/Recall",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Productivity",
+      "Result",
+      "s61"
+    ],
+    [
+      "PyTorch",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "PyTorch",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "PyTorch",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "PyTorch",
+      "Related Work",
+      "s13"
+    ],
+    [
+      "QRNN",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Queries per",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "RMSE",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "RNN",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Regularization layers",
+      "Property",
+      "s29"
+    ],
+    [
+      "Second (QPS)",
+      "Definition",
+      "s62"
+    ],
+    [
+      "Second (QPS)",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "Sequence Labeling",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Sequence Labeling",
+      "Task",
+      "s38"
+    ],
+    [
+      "Sequence labeling",
+      "Task",
+      "s59"
+    ],
+    [
+      "Slot tagging",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Table TABREF41",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "Teacher-Student",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "TensorFlow",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "TensorFlow",
+      "Related Work",
+      "s12"
+    ],
+    [
+      "Text Classification",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Text Classification and Matching",
+      "Task",
+      "s37"
+    ],
+    [
+      "Training Parameters interface",
+      "Feature",
+      "s43"
+    ],
+    [
+      "Training Parameters interface",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Transformer",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "Transformer",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e3"
+    ],
+    [
+      "WikiQA",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "WikiQA corpus",
+      "Definition",
+      "s65"
+    ],
+    [
+      "WikiQA corpus",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "Wikipedia",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "Word/character embedding",
+      "NeuronBlocks Model Features",
+      "e4"
+    ],
+    [
+      "Workflow",
+      "Definition",
+      "s44"
+    ],
+    [
+      "architecture modification",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "commercial centralized GPU cluster",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "commercial search engine",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "customized modules",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "deep neural networks",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "embedding",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "end-to-end network templates",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "end-to-end network templates",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "engineers",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "fine-tuned classifier",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "hyper-parameter tuning",
+      "NeuronBlocks Configuration",
+      "e5"
+    ],
+    [
+      "inference speed",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "knowledge distillation",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "machine comprehension",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "natural language generation",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "network architectures",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "neural machine translation",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "open-source toolkit",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "question answering",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "reusable blocks",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "reusable components",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "semantic role labeling",
+      "Neuronblocks Design",
+      "e2"
+    ],
+    [
+      "sentence classification",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "sequence labeling",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "student model",
+      "NeuronBlocks Performance",
+      "e6"
+    ],
+    [
+      "text classification",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "text matching",
+      "NLP Toolkit Design",
+      "e1"
+    ],
+    [
+      "textual entailment",
+      "Neuronblocks Design",
+      "e2"
+    ]
+  ]
+}

@@ -1,0 +1,3776 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 115,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "NBA": {
+      "tag_set": [
+        "Definition",
+        "Prior Knowledge Bias"
+      ]
+    },
+    "player": {
+      "tag_set": [
+        "Definition",
+        "Neutral word",
+        "Objective Function Terms",
+        "Prior Knowledge Bias"
+      ]
+    },
+    "basketball": {
+      "tag_set": [
+        "Definition",
+        "Prior Knowledge Bias"
+      ]
+    },
+    "terrible": {
+      "tag_set": [
+        "Prior Knowledge Bias",
+        "Property"
+      ]
+    },
+    "boring": {
+      "tag_set": [
+        "Prior Knowledge Bias",
+        "Property"
+      ]
+    },
+    "messing": {
+      "tag_set": [
+        "Prior Knowledge Bias",
+        "Property"
+      ]
+    },
+    "perfect": {
+      "tag_set": [
+        "Prior Knowledge Bias",
+        "Property"
+      ]
+    },
+    "exciting": {
+      "tag_set": [
+        "Prior Knowledge Bias",
+        "Property",
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "moving": {
+      "tag_set": [
+        "Prior Knowledge Bias",
+        "Property"
+      ]
+    },
+    "baseball": {
+      "tag_set": [
+        "Prior Knowledge Bias"
+      ]
+    },
+    "hockey": {
+      "tag_set": [
+        "Prior Knowledge Bias"
+      ]
+    },
+    "text categorization": {
+      "tag_set": [
+        "Prior Knowledge Bias"
+      ]
+    },
+    "sentiment classification": {
+      "tag_set": [
+        "Prior Knowledge Bias"
+      ]
+    },
+    "Bayesian approaches": {
+      "tag_set": [
+        "Prior Knowledge Bias"
+      ]
+    },
+    "prior on parameters": {
+      "tag_set": [
+        "Prior Knowledge Bias"
+      ]
+    },
+    "additional variables": {
+      "tag_set": [
+        "Approach",
+        "Prior Knowledge Bias"
+      ]
+    },
+    "latent output variables": {
+      "tag_set": [
+        "Approach",
+        "Prior Knowledge Bias"
+      ]
+    },
+    "Generalized Expectation Criteria": {
+      "tag_set": [
+        "Framework",
+        "Prior Knowledge Bias"
+      ]
+    },
+    "neutral words": {
+      "tag_set": [
+        "Prior Knowledge Bias",
+        "Solution"
+      ]
+    },
+    "player (as neutral)": {
+      "tag_set": [
+        "Prior Knowledge Bias"
+      ]
+    },
+    "neutral features": {
+      "tag_set": [
+        "Definition",
+        "Feature Selection Methods",
+        "KL Divergence Effect",
+        "KL Divergence Regularization",
+        "Loss Function Design",
+        "Objective Function Terms",
+        "Property",
+        "Regularization Methods",
+        "Regularization Terms in Model Robustness",
+        "Result"
+      ]
+    },
+    "maximum entropy": {
+      "tag_set": [
+        "Definition",
+        "KL Divergence Effect",
+        "KL Divergence Regularization",
+        "Regularization Terms in Model Robustness",
+        "Result"
+      ]
+    },
+    "KL divergence": {
+      "tag_set": [
+        "KL Divergence Effect",
+        "KL Divergence Regularization",
+        "Objective Function Terms",
+        "Performance",
+        "Property",
+        "Regularization Methods",
+        "Regularization Terms in Model Robustness",
+        "Requirement",
+        "Result",
+        "Robustness"
+      ]
+    },
+    "class distribution": {
+      "tag_set": [
+        "Definition",
+        "KL Divergence Effect",
+        "Property",
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "GE-FL": {
+      "tag_set": [
+        "Definition",
+        "GE-FL Method Setup",
+        "KL Divergence Effect",
+        "KL Divergence Regularization",
+        "Maximum Entropy Regularization",
+        "Objective Function Terms",
+        "Prior Knowledge in Learning",
+        "Regularization Methods",
+        "Regularization Terms in Model Robustness",
+        "Result"
+      ]
+    },
+    "generalized expectation criteria": {
+      "tag_set": [
+        "Definition",
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "labeled features": {
+      "tag_set": [
+        "Cause",
+        "Definition",
+        "GE-FL Method Setup",
+        "KL Divergence Effect",
+        "Property",
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "amazing": {
+      "tag_set": [
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "positive class": {
+      "tag_set": [
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "parameter estimation": {
+      "tag_set": [
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "pre-specified class distribution": {
+      "tag_set": [
+        "Regularization Terms in Model Robustness"
+      ]
+    },
+    "constraint functions": {
+      "tag_set": [
+        "GE-FL Method Setup"
+      ]
+    },
+    "G(x, y)": {
+      "tag_set": [
+        "GE-FL Method Setup",
+        "Maximum Entropy Regularization",
+        "Objective Function Terms"
+      ]
+    },
+    "conditional model distribution": {
+      "tag_set": [
+        "GE-FL Method Setup"
+      ]
+    },
+    "p_\u03b8(y|x)": {
+      "tag_set": [
+        "Formula",
+        "GE-FL Method Setup",
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "empirical distribution": {
+      "tag_set": [
+        "GE-FL Method Setup"
+      ]
+    },
+    "tilde{p}(x)": {
+      "tag_set": [
+        "GE-FL Method Setup"
+      ]
+    },
+    "score function": {
+      "tag_set": [
+        "GE-FL Method Setup"
+      ]
+    },
+    "S": {
+      "tag_set": [
+        "GE-FL Method Setup"
+      ]
+    },
+    "GE term": {
+      "tag_set": [
+        "Formula",
+        "GE-FL Method Setup"
+      ]
+    },
+    "Eq. 4": {
+      "tag_set": [
+        "GE-FL Method Setup"
+      ]
+    },
+    "Druck et al.": {
+      "tag_set": [
+        "GE-FL Method Setup",
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "K": {
+      "tag_set": [
+        "GE-FL Method Setup",
+        "KL Divergence Regularization"
+      ]
+    },
+    "reference distribution": {
+      "tag_set": [
+        "Definition",
+        "Feature Selection Methods",
+        "GE-FL Method Setup",
+        "Objective Function Terms"
+      ]
+    },
+    "\\hat{p}(y|": {
+      "tag_set": [
+        "Model Prediction"
+      ]
+    },
+    "model predicted distribution": {
+      "tag_set": [
+        "Objective Function Terms"
+      ]
+    },
+    "p_\u03b8(y|x_k)": {
+      "tag_set": [
+        "Definition",
+        "Loss Function Design",
+        "Objective Function Terms"
+      ]
+    },
+    "\u03b8_yi": {
+      "tag_set": [
+        "Objective Function Terms",
+        "Property"
+      ]
+    },
+    "\u03c3": {
+      "tag_set": [
+        "Objective Function Terms"
+      ]
+    },
+    "L-BFGS": {
+      "tag_set": [
+        "Method",
+        "Objective Function Terms"
+      ]
+    },
+    "C_k": {
+      "tag_set": [
+        "Definition",
+        "Objective Function Terms"
+      ]
+    },
+    "I(x_k)": {
+      "tag_set": [
+        "Definition",
+        "Objective Function Terms"
+      ]
+    },
+    "softmax": {
+      "tag_set": [
+        "Objective Function Terms"
+      ]
+    },
+    "vec(I(y))": {
+      "tag_set": [
+        "Objective Function Terms"
+      ]
+    },
+    "baseball-hockey": {
+      "tag_set": [
+        "Objective Function Terms"
+      ]
+    },
+    "uniform distribution": {
+      "tag_set": [
+        "Cause",
+        "Objective Function Terms"
+      ]
+    },
+    "|C|": {
+      "tag_set": [
+        "Objective Function Terms"
+      ]
+    },
+    "K'": {
+      "tag_set": [
+        "Loss Function Design",
+        "Objective Function Terms"
+      ]
+    },
+    "objective function": {
+      "tag_set": [
+        "Formula",
+        "Objective Function Terms"
+      ]
+    },
+    "O_NE": {
+      "tag_set": [
+        "Formula",
+        "Loss Function Design"
+      ]
+    },
+    "O_ME": {
+      "tag_set": [
+        "Loss Function Design"
+      ]
+    },
+    "KL(p_u(y|x_k) || p_\u03b8(y|x_k))": {
+      "tag_set": [
+        "Loss Function Design"
+      ]
+    },
+    "maximum entropy principle": {
+      "tag_set": [
+        "Feature Selection Methods",
+        "Loss Function Design",
+        "Method",
+        "Result"
+      ]
+    },
+    "unlabeled data": {
+      "tag_set": [
+        "Loss Function Design"
+      ]
+    },
+    "predicted class distribution": {
+      "tag_set": [
+        "Loss Function Design"
+      ]
+    },
+    "p_u(y|x_k)": {
+      "tag_set": [
+        "Loss Function Design"
+      ]
+    },
+    "Eq. 9": {
+      "tag_set": [
+        "Loss Function Design"
+      ]
+    },
+    "manual annotation": {
+      "tag_set": [
+        "Loss Function Design",
+        "Requirement"
+      ]
+    },
+    "mathcal O": {
+      "tag_set": [
+        "Mathematical Notation"
+      ]
+    },
+    "lambda": {
+      "tag_set": [
+        "Mathematical Notation"
+      ]
+    },
+    "Eq. 11": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "Eq. 13": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "p(y)": {
+      "tag_set": [
+        "Maximum Entropy Regularization",
+        "Property"
+      ]
+    },
+    "|X|": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "\u03bb": {
+      "tag_set": [
+        "Definition",
+        "Maximum Entropy Regularization",
+        "Property"
+      ]
+    },
+    "\u03b2": {
+      "tag_set": [
+        "KL Divergence Regularization",
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "|K|": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "I(y)": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "KL(\\hat{p}(y) || p(y))": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "bag-of-words": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "stopwords": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "text classification": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "sentiment": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "web-page": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "science": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "medical": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "healthcare": {
+      "tag_set": [
+        "Maximum Entropy Regularization"
+      ]
+    },
+    "movie dataset": {
+      "tag_set": [
+        "Definition",
+        "Feature Selection Methods"
+      ]
+    },
+    "positive or negative": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "unbalanced labeled features": {
+      "tag_set": [
+        "Experiment",
+        "Feature Selection Methods",
+        "Property",
+        "Regularization Methods"
+      ]
+    },
+    "unbalanced datasets": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "10-fold cross validation": {
+      "tag_set": [
+        "Feature Selection Methods",
+        "Method"
+      ]
+    },
+    "information gain": {
+      "tag_set": [
+        "Definition",
+        "Feature Selection Methods",
+        "KL Divergence Effect"
+      ]
+    },
+    "mutual information": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "top 20 features": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "LDA": {
+      "tag_set": [
+        "Definition",
+        "Feature Selection Methods",
+        "KL Divergence Regularization"
+      ]
+    },
+    "P(w_i|t_j)": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "0.9/n": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "0.1/|C| - n": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "top 10 frequent words": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "stop words": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "balanced case": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "Figure 1": {
+      "tag_set": [
+        "Feature Selection Methods"
+      ]
+    },
+    "balanced dataset": {
+      "tag_set": [
+        "Condition",
+        "KL Divergence Effect"
+      ]
+    },
+    "unbalanced dataset": {
+      "tag_set": [
+        "Condition",
+        "KL Divergence Effect",
+        "KL Divergence Regularization"
+      ]
+    },
+    "t > 4": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "Figure 1 (a)": {
+      "tag_set": [
+        "KL Divergence Effect",
+        "Regularization Methods"
+      ]
+    },
+    "Figure 2 (a)": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "Figure 2 (b)": {
+      "tag_set": [
+        "KL Divergence Effect",
+        "Regularization Methods"
+      ]
+    },
+    "Figure 3 (a)": {
+      "tag_set": [
+        "KL Divergence Effect",
+        "Regularization Methods",
+        "Result"
+      ]
+    },
+    "positive:negative=1:1": {
+      "tag_set": [
+        "KL Divergence Effect",
+        "KL Divergence Regularization"
+      ]
+    },
+    "positive:negative=1:4": {
+      "tag_set": [
+        "KL Divergence Effect",
+        "KL Divergence Regularization"
+      ]
+    },
+    "positive:negative=1:2": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "positive:negative=1:3": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "randomly remove 75% positive documents": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "randomly select t \u2208 [1,20] features": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "10 features per class": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "1 feature for one class": {
+      "tag_set": [
+        "KL Divergence Effect"
+      ]
+    },
+    "\u03bb (lambda)": {
+      "tag_set": [
+        "KL Divergence Regularization"
+      ]
+    },
+    "feature pool": {
+      "tag_set": [
+        "KL Divergence Regularization"
+      ]
+    },
+    "balanced movie dataset": {
+      "tag_set": [
+        "KL Divergence Regularization"
+      ]
+    },
+    "t \u2208 [1,20]": {
+      "tag_set": [
+        "KL Divergence Regularization"
+      ]
+    },
+    "instance labels": {
+      "tag_set": [
+        "KL Divergence Regularization"
+      ]
+    },
+    "classification models": {
+      "tag_set": [
+        "KL Divergence Regularization"
+      ]
+    },
+    "auxiliary regularization terms": {
+      "tag_set": [
+        "Function",
+        "KL Divergence Regularization",
+        "Method"
+      ]
+    },
+    "Liu et al.": {
+      "tag_set": [
+        "Method",
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Chang et al.": {
+      "tag_set": [
+        "Method",
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Daume2008cross": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "MaCallum et al.": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Gra\u00e7a et al.": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Andrzejewski et al.": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Altendorf et al.": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Chen et al.": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Mann and McCallum": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "Raghavan et al.": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "posterior regularization": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "generalized expectation": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "monotonicity constraints": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "multi-domain knowledge": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "feedback on features": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "active learning": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "semi-supervised perspective": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "robustness problem": {
+      "tag_set": [
+        "Prior Knowledge in Learning"
+      ]
+    },
+    "maximum entropy regularization": {
+      "tag_set": [
+        "Limitation",
+        "Property",
+        "Regularization Methods"
+      ]
+    },
+    "category distribution": {
+      "tag_set": [
+        "Regularization Methods"
+      ]
+    },
+    "reference class distribution": {
+      "tag_set": [
+        "Regularization Methods"
+      ]
+    },
+    "true class distribution": {
+      "tag_set": [
+        "Regularization Methods",
+        "Result"
+      ]
+    },
+    "1:2 distribution": {
+      "tag_set": [
+        "Regularization Methods"
+      ]
+    },
+    "1:1.5 distribution": {
+      "tag_set": [
+        "Regularization Methods"
+      ]
+    },
+    "1:2.5 distribution": {
+      "tag_set": [
+        "Regularization Methods"
+      ]
+    },
+    "Figure 1 (b)": {
+      "tag_set": [
+        "Regularization Methods"
+      ]
+    },
+    "prior knowledge": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "label data": {
+      "tag_set": [
+        "Approach"
+      ]
+    },
+    "parameter prior": {
+      "tag_set": [
+        "Approach"
+      ]
+    },
+    "bias in prior knowledge": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "baseball fan": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "regularization term associated with neutral features": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "maximum entropy of class distribution regularization term": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "KL divergence between reference and predicted class distribution": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "constraint function G(x, y)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "hat p_u(y|x_k)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "baseball-hockey classification": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "maximum entropy term": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "KL divergence term": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "objective function O_KL": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "score function S(\\hat{p}, p)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03bb in experiments": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "baseline method": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "datasets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "feature preprocessing": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "setting (a)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "setting (b)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "balanced labeled features": {
+      "tag_set": [
+        "Experiment",
+        "Result"
+      ]
+    },
+    "manually constructed datasets": {
+      "tag_set": [
+        "Experiment"
+      ]
+    },
+    "Figure 3 (b)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "class imbalance": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "Daum\u00e9 III (daume2008cross)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "MaCallum et al. (gec)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Gra\u00e7a et al. (pr)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Druck et al. (ge-fl)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Andrzejewski et al. (andrzejewski2011framework)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Altendorf et al. (altendorf2012learning)": {
+      "tag_set": [
+        "Constraint"
+      ]
+    },
+    "Chen et al. (chen2013leveraging)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Mann and McCallum (simple, generalized)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Raghavan et al. (feedback)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Druck et al. (active)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "This paper": {
+      "tag_set": [
+        "Conclusion"
+      ]
+    },
+    "Comparative results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "domain expertise": {
+      "tag_set": [
+        "Solution"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction We posses a wealth of prior knowledge about many natural language processing tasks. For example, in text categorization, we know that words such as NBA, player, and basketball are strong indicators of the sports category BIBREF0 , and words like terrible, boring, and messing indicate a negative polarity while words like perfect, exciting, and moving suggest a positive polarity in sentiment classification. A key problem arisen here, is how to leverage such knowledge to guide the learning process, an interesting problem for both NLP and machine learning communities. Previous studies addressing the problem fall into several lines. First, to leverage prior knowledge to label data BIBREF1 , BIBREF2 . Second, to encode prior knowledge with a prior on parameters, which can be commonly seen in many Bayesian approaches BIBREF3 , BIBREF4 . Third, to formalise prior knowledge with additional variables and dependencies BIBREF5 . Last, to use prior knowledge to control the distributions over latent output variables BIBREF6 , BIBREF7 , BIBREF8 , which makes the output variables easily interpretable. However, a crucial problem, which has rarely been addressed, is the bias in the prior knowledge that we supply to the learning model. Would the model be robust or sensitive to the prior knowledge? Or, which kind of knowledge is appropriate for the task? Let's see an example: we may be a baseball fan but unfamiliar with hockey so that we can provide a few number of feature words of baseball, but much less of hockey for a baseball-hockey classification task. Such prior knowledge may mislead the model with heavy bias to baseball. If the model cannot handle this situation appropriately, the performance may be undesirable. In this paper, we investigate into the problem in the framework of Generalized Expectation Criteria BIBREF7 . The study aims to reveal the factors of reducing the sensibility of the prior knowledge and therefore to make the model more robust and practical. To this end, we introduce auxiliary regularization terms in which our prior knowledge is formalized as distribution over output variables. Recall the example just mentioned, though we do not have enough knowledge to provide features for class hockey, it is easy for us to provide some neutral words, namely words that are not strong indicators of any class, like player here. As one of the factors revealed in this paper, supplying neutral feature words can boost the performance remarkably, making the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Prior Knowledge Bias"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "model more robust. More attractively, we do not need manual annotation to label these neutral feature words in our proposed approach. More specifically, we explore three regularization terms to address the problem: (1) a regularization term associated with neutral features; (2) the maximum entropy of class distribution regularization term; and (3) the KL divergence between reference and predicted class distribution. For the first manner, we simply use the most common features as neutral features and assume the neutral features are distributed uniformly over class labels. For the second and third one, we assume we have some knowledge about the class distribution which will be detailed soon later. To summarize, the main contributions of this work are as follows: The rest of the paper is structured as follows: In Section 2, we briefly describe the generalized expectation criteria and present the proposed regularization terms. In Section 3, we conduct extensive experiments to justify the proposed methods. We survey related work in Section 4, and summarize our work in Section 5. Method We address the robustness problem on top of GE-FL BIBREF0 , a GE method which leverages labeled features as prior knowledge. A labeled feature is a strong indicator of a specific class and is manually provided to the classifier. For example, words like amazing, exciting can be labeled features for class positive in sentiment classification. Generalized Expectation Criteria Generalized expectation (GE) criteria BIBREF7 provides us a natural way to directly constrain the model in the preferred direction. For example, when we know the proportion of each class of the dataset in a classification task, we can guide the model to predict out a pre-specified class distribution. Formally, in a parameter estimation objective function, a GE term expresses preferences on",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Regularization Terms in Model Robustness"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "the value of some constraint functions about the model's expectation. Given a constraint function $G({\\rm x}, y)$ , a conditional model distribution $p_\\theta (y|\\rm x)$ , an empirical distribution $\\tilde{p}({\\rm x})$ over input samples and a score function $S$ , a GE term can be expressed as follows:\n$$S(E_{\\tilde{p}({\\rm x})}[E_{p_\\theta (y|{\\rm x})}[G({\\rm x}, y)]])$$   (Eq. 4)\nLearning from Labeled Features\nDruck et al. ge-fl proposed GE-FL to learn from labeled features using generalized expectation criteria. When given a set of labeled features $K$ , the reference distribution over classes of these features is denoted",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "GE-FL Method Setup"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "by $\\hat{p}(y|",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Prediction"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "x_k), k \\in K$ . GE-FL introduces the divergence between this reference distribution and the model predicted distribution $p_\\theta (y | x_k)$ , as a term of the objective function: $$\\mathcal {O} = \\sum _{k \\in K} KL(\\hat{p}(y|x_k) || p_\\theta (y | x_k)) + \\sum _{y,i} \\frac{\\theta _{yi}^2}{2 \\sigma ^2}$$ (Eq. 6) where $\\theta _{yi}$ is the model parameter which indicates the importance of word $i$ to class $y$ . The predicted distribution $p_\\theta (y | x_k)$ can be expressed as follows: $ p_\\theta (y | x_k) = \\frac{1}{C_k} \\sum _{\\rm x} p_\\theta (y|{\\rm x})I(x_k) $ in which $I(x_k)$ is 1 if feature $k$ occurs in instance ${\\rm x}$ and 0 otherwise, $C_k = \\sum _{\\rm x} I(x_k)$ is the number of instances with a non-zero value of feature $k$ , and $p_\\theta (y|{\\rm x})$ takes a softmax form as follows: $ p_\\theta (y|{\\rm x}) = \\frac{1}{Z(\\rm x)}\\exp (\\sum _i \\theta _{yi}x_i). $ To solve the optimization problem, L-BFGS can be used for parameter estimation. In the framework of GE, this term can be obtained by setting the constraint function $G({\\rm x}, y) = \\frac{1}{C_k} \\vec{I} (y)I(x_k)$ , where $\\vec{I}(y)$ is an indicator vector with 1 at the index corresponding to label $y$ and 0 elsewhere. Regularization Terms GE-FL reduces the heavy load of instance annotation and performs well when we provide prior knowledge with no bias. In our experiments, we observe that comparable numbers of labeled features for each class have to be supplied. But as mentioned before, it is often the case that we are not able to provide enough knowledge for some of the classes. For the baseball-hockey classification task, as shown before, GE-FL will predict most of the instances as baseball. In this section, we will show three terms to make the model more robust. Neutral features are features that are not informative indicator of any classes, for instance, word player to the baseball-hockey classification task. Such features are usually frequent words across all categories. When we set the preference distribution of the neutral features to be uniform distributed, these neutral features will prevent the model from biasing to the class that has a dominate number of labeled features. Formally, given a set of neutral features $K^{^{\\prime }}$ , the uniform distribution is $\\hat{p}_u(y|x_k) = \\frac{1}{|C|}, k \\in K^{^{\\prime }}$ , where $|C|$ is the number of classes. The objective function with the new term becomes",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Objective Function Terms"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "$$\\mathcal {O}_{NE} = \\mathcal {O} + \\sum _{k \\in K^{^{\\prime }}} KL(\\hat{p}_u(y|x_k) || p_\\theta (y | x_k)).$$ (Eq. 9) Note that we do not need manual annotation to provide neutral features. One simple way is to take the most common features as neutral features. Experimental results show that this strategy works successfully. Another way to prevent the model from drifting from the desired direction is to constrain the predicted class distribution on unlabeled data. When lacking knowledge about the class distribution of the data, one feasible way is to take maximum entropy principle, as below: $$\\mathcal {O}_{ME} = \\",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Loss Function Design"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "mathcal {O} + \\lambda",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Mathematical Notation"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "\\sum _{y} p(y) \\log p(y)$$ (Eq. 11) where $p(y)$ is the predicted class distribution, given by $ p(y) = \\frac{1}{|X|} \\sum _{\\rm x} p_\\theta (y | \\rm x). $ To control the influence of this term on the overall objective function, we can tune $\\lambda $ according to the difference in the number of labeled features of each class. In this paper, we simply set $\\lambda $ to be proportional to the total number of labeled features, say $\\lambda = \\beta |K|$ . This maximum entropy term can be derived by setting the constraint function to $G({\\rm x}, y) = \\vec{I}(y)$ . Therefore, $E_{p_\\theta (y|{\\rm x})}[G({\\rm x}, y)]$ is just the model distribution $p_\\theta (y|{\\rm x})$ and its expectation with the empirical distribution $\\tilde{p}(\\rm x)$ is simply the average over input samples, namely $p(y)$ . When $S$ takes the maximum entropy form, we can derive the objective function as above. Sometimes, we have already had much knowledge about the corpus, and can estimate the class distribution roughly without labeling instances. Therefore, we introduce the KL divergence between the predicted and reference class distributions into the objective function. Given the preference class distribution $\\hat{p}(y)$ , we modify the objective function as follows: $$\\mathcal {O}_{KL} &= \\mathcal {O} + \\lambda KL(\\hat{p}(y) || p(y))$$ (Eq. 13) Similarly, we set $\\lambda = \\beta |K|$ . This divergence term can be derived by setting the constraint function to $G({\\rm x}, y) = \\vec{I}(y)$ and setting the score function to $S(\\hat{p}, p) = \\sum _i \\hat{p}_i \\log \\frac{\\hat{p}_i}{p_i}$ , where $p$ and $\\hat{p}$ are distributions. Note that this regularization term involves the reference class distribution which will be discussed later. Experiments In this section, we first justify the approach when there exists unbalance in the number of labeled features or in class distribution. Then, to test the influence of $\\lambda $ , we conduct some experiments with the method which incorporates the KL divergence of class distribution. Last, we evaluate our approaches in 9 commonly used text classification datasets. We set $\\lambda = 5|K|$ by default in all experiments unless there is explicit declaration. The baseline we choose here is GE-FL BIBREF0 , a method based on generalization expectation criteria. Data Preparation We evaluate our methods on several commonly used datasets whose themes range from sentiment, web-page, science to medical and healthcare. We use bag-of-words feature and remove stopwords in the preprocess stage. Though we have",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Maximum Entropy Regularization"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "labels of all documents, we do not use them during the learning process, instead, we use the label of features. The movie dataset, in which the task is to classify the movie reviews as positive or negtive, is used for testing the proposed approaches with unbalanced labeled features, unbalanced datasets or different $\\lambda $ parameters. All unbalanced datasets are constructed based on the movie dataset by randomly removing documents of the positive class. For each experiment, we conduct 10-fold cross validation. As described in BIBREF0 , there are two ways to obtain labeled features. The first way is to use information gain. We first calculate the mutual information of all features according to the labels of the documents and select the top 20 as labeled features for each class as a feature pool. Note that using information gain requires the document label, but this is only to simulate how we human provide prior knowledge to the model. The second way is to use LDA BIBREF9 to select features. We use the same selection process as BIBREF0 , where they first train a LDA on the dataset, and then select the most probable features of each topic (sorted by $P(w_i|t_j)$ , the probability of word $w_i$ given topic $t_j$ ). Similar to BIBREF10 , BIBREF0 , we estimate the reference distribution of the labeled features using a heuristic strategy. If there are $|C|$ classes in total, and $n$ classes are associated with a feature $k$ , the probability that feature $k$ is related with any one of the $n$ classes is $\\frac{0.9}{n}$ and with any other class is $\\frac{0.1}{|C| - n}$ . Neutral features are the most frequent words after removing stop words, and their reference distributions are uniformly distributed. We use the top 10 frequent words as neutral features in all experiments. With Unbalanced Labeled Features In this section, we evaluate our approach when there is unbalanced knowledge on the categories to be classified. The labeled features are obtained through information gain. Two settings are chosen: (a) We randomly select $t \\in [1, 20]$ features from the feature pool for one class, and only one feature for the other. The original balanced movie dataset is used (positive:negative=1:1). (b) Similar to (a), but the dataset is unbalanced, obtained by randomly removing 75% positive documents (positive:negative=1:4). As shown in Figure 1 , Maximum entropy principle shows improvement only on the balanced case.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Feature Selection Methods"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "An obvious reason is that maximum entropy only favors uniform distribution. Incorporating Neutral features performs similarly to maximum entropy since we assume that neutral words are uniformly distributed. Its accuracy decreases slowly when the number of labeled features becomes larger ( $t>4$ ) (Figure 1 (a)), suggesting that the model gradually biases to the class with more labeled features, just like GE-FL. Incorporating the KL divergence of class distribution performs much better than GE-FL on both balanced and unbalanced datasets. This shows that it is effective to control the unbalance in labeled features and in the dataset. With Balanced Labeled Features We also compare with the baseline when the labeled features are balanced. Similar to the experiment above, the labeled features are obtained by information gain. Two settings are experimented with: (a) We randomly select $t \\in [1, 20]$ features from the feature pool for each class, and conduct comparisons on the original balanced movie dataset (positive:negtive=1:1). (b) Similar to (a), but the class distribution is unbalanced, by randomly removing 75% positive documents (positive:negative=1:4). Results are shown in Figure 2 . When the dataset is balanced (Figure 2 (a)), there is little difference between GE-FL and our methods. The reason is that the proposed regularization terms provide no additional knowledge to the model and there is no bias in the labeled features. On the unbalanced dataset (Figure 2 (b)), incorporating KL divergence is much better than GE-FL since we provide additional knowledge(the true class distribution), but maximum entropy and neutral features are much worse because forcing the model to approach the uniform distribution misleads it. With Unbalanced Class Distributions Our methods are also evaluated on datasets with different unbalanced class distributions. We manually construct several movie datasets with class distributions of 1:2, 1:3, 1:4 by randomly removing 50%, 67%, 75% positive documents. The original balanced movie dataset is used as a control group. We test with both balanced and unbalanced labeled features. For the balanced case, we randomly select 10 features from the feature pool for each class, and for the unbalanced case, we select 10 features for one class, and 1 feature for the other. Results are shown in Figure 3 . Figure 3 (a) shows that when the dataset and the labeled features are both balanced, there is little difference between our methods and GE-FL(also see Figure 2 (a)). But when the class distribution becomes more unbalanced, the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "KL Divergence Effect"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "difference becomes more remarkable. Performance of neutral features and maximum entropy decrease significantly but incorporating KL divergence increases remarkably. This suggests if we have more accurate knowledge about class distribution, KL divergence can guide the model to the right direction. Figure 3 (b) shows that when the labeled features are unbalanced, our methods significantly outperforms GE-FL. Incorporating KL divergence is robust enough to control unbalance both in the dataset and in labeled features while the other three methods are not so competitive. The Influence of \u03bb\\lambda We present the influence of $\\lambda $ on the method that incorporates KL divergence in this section. Since we simply set $\\lambda = \\beta |K|$ , we just tune $\\beta $ here. Note that when $\\beta = 0$ , the newly introduced regularization term is disappeared, and thus the model is actually GE-FL. Again, we test the method with different $\\lambda $ in two settings: (a) We randomly select $t \\in [1, 20]$ features from the feature pool for one class, and only one feature for the other class. The original balanced movie dataset is used (positive:negative=1:1). (b) Similar to (a), but the dataset is unbalanced, obtained by randomly removing 75% positive documents (positive:negative=1:4). Results are shown in Figure 4 . As expected, $\\lambda $ reflects how strong the regularization is. The model tends to be closer to our preferences with the increasing of $\\lambda $ on both cases. Using LDA Selected Features We compare our methods with GE-FL on all the 9 datasets in this section. Instead of using features obtained by information gain, we use LDA to select labeled features. Unlike information gain, LDA does not employ any instance labels to find labeled features. In this setting, we can build classification models without any instance annotation, but just with labeled features. Table 1 shows that our three methods significantly outperform GE-FL. Incorporating neutral features performs better than GE-FL on 7 of the 9 datasets, maximum entropy is better on 8 datasets, and KL divergence better on 7 datasets. LDA selects out the most predictive features as labeled features without considering the balance among classes. GE-FL does not exert any control on such an issue, so the performance is severely suffered. Our methods introduce auxiliary regularization terms to control such a bias problem and thus promote the model significantly. Related Work There have been much work that incorporate prior knowledge into learning, and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "KL Divergence Regularization"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "two related lines are surveyed here. One is to use prior knowledge to label unlabeled instances and then apply a standard learning algorithm. The other is to constrain the model directly with prior knowledge. Liu et al.text manually labeled features which are highly predictive to unsupervised clustering assignments and use them to label unlabeled data. Chang et al.guiding proposed constraint driven learning. They first used constraints and the learned model to annotate unlabeled instances, and then updated the model with the newly labeled data. Daum\u00e9 daume2008cross proposed a self training method in which several models are trained on the same dataset, and only unlabeled instances that satisfy the cross task knowledge constraints are used in the self training process. MaCallum et al.gec proposed generalized expectation(GE) criteria which formalised the knowledge as constraint terms about the expectation of the model into the objective function.Gra\u00e7a et al.pr proposed posterior regularization(PR) framework which projects the model's posterior onto a set of distributions that satisfy the auxiliary constraints. Druck et al.ge-fl explored constraints of labeled features in the framework of GE by forcing the model's predicted feature distribution to approach the reference distribution. Andrzejewski et al.andrzejewski2011framework proposed a framework in which general domain knowledge can be easily incorporated into LDA. Altendorf et al.altendorf2012learning explored monotonicity constraints to improve the accuracy while learning from sparse data. Chen et al.chen2013leveraging tried to learn comprehensible topic models by leveraging multi-domain knowledge. Mann and McCallum simple,generalized incorporated not only labeled features but also other knowledge like class distribution into the objective function of GE-FL. But they discussed only from the semi-supervised perspective and did not investigate into the robustness problem, unlike what we addressed in this paper. There are also some active learning methods trying to use prior knowledge. Raghavan et al.feedback proposed to use feedback on instances and features interlacedly, and demonstrated that feedback on features boosts the model much. Druck et al.active proposed an active learning method which solicits labels on features rather than on instances and then used GE-FL to train the model. Conclusion and Discussions This paper investigates into the problem of how to leverage prior knowledge robustly in learning models. We propose three regularization terms on top of generalized expectation criteria. As demonstrated by the experimental results, the performance can be considerably improved when taking into account these factors. Comparative results show that our proposed methods is more effective and works more robustly",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Prior Knowledge in Learning"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "against baselines. To the best of our knowledge, this is the first work to address the robustness problem of leveraging knowledge, and may inspire other research. We then present more detailed discussions about the three regularization methods. Incorporating neutral features is the simplest way of regularization, which doesn't require any modification of GE-FL but just finding out some common features. But as Figure 1 (a) shows, only using neutral features are not strong enough to handle extremely unbalanced labeled features. The maximum entropy regularization term shows the strong ability of controlling unbalance. This method doesn't need any extra knowledge, and is thus suitable when we know nothing about the corpus. But this method assumes that the categories are uniformly distributed, which may not be the case in practice, and it will have a degraded performance if the assumption is violated (see Figure 1 (b), Figure 2 (b), Figure 3 (a)). The KL divergence performs much better on unbalanced corpora than other methods. The reason is that KL divergence utilizes the reference class distribution and doesn't make any assumptions. The fact suggests that additional knowledge does benefit the model. However, the KL divergence term requires providing the true class distribution. Sometimes, we may have the exact knowledge about the true distribution, but sometimes we may not. Fortunately, the model is insensitive to the true distribution and therefore a rough estimation of the true distribution is sufficient. In our experiments, when the true class distribution is 1:2, where the reference class distribution is set to 1:1.5/1:2/1:2.5, the accuracy is 0.755/0.756/0.760 respectively. This provides us the possibility to perform simple computing on the corpus to obtain the distribution in reality. Or, we can set the distribution roughly with domain expertise.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Regularization Methods"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "NBA is a strong indicator of the sports category in text categorization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "The word 'player' is a strong indicator of the sports category in text categorization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "The word 'basketball' is a strong indicator of the sports category in text categorization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The word 'terrible' indicates a negative polarity in sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The word 'boring' indicates a negative polarity in sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The word 'messing' indicates a negative polarity in sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "The word 'perfect' indicates a positive polarity in sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The word 'exciting' indicates a positive polarity in sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The word 'moving' indicates a positive polarity in sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "A key problem is how to leverage prior knowledge to guide the learning process in NLP and machine learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Previous studies have used prior knowledge to label data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Prior knowledge is encoded with a prior on parameters in Bayesian approaches.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Prior knowledge is formalized with additional variables and dependencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Prior knowledge is used to control distributions over latent output variables for interpretability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Approach"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "A crucial but rarely addressed problem is the bias in the prior knowledge supplied to the learning model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "A baseball fan may provide more feature words for baseball than for hockey, leading to bias in prior knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Supplying neutral feature words, such as 'player', helps reduce bias and improves model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The study investigates the problem within the framework of Generalized Expectation Criteria.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Framework"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Auxiliary regularization terms are introduced to formalize prior knowledge as a distribution over output variables.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The word 'player' is a neutral word that is not a strong indicator of any class and can be used to reduce bias.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Neutral word"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Neutral features are the most common features in a dataset, assumed to be distributed uniformly over class labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Generalized expectation (GE) criteria provide a way to constrain a model's predictions by expressing preferences on the expected values of constraint functions over class distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "GE-FL is a method that learns from labeled features using generalized expectation criteria.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Labeled features are strong indicators of specific classes, manually provided to a classifier, such as words like 'amazing' or 'exciting' for the positive class in sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "This regularization term uses the most common features as neutral features and assumes they are uniformly distributed across class labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "This regularization term assumes prior knowledge of class distribution and enforces maximum entropy to maintain distributional diversity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "This regularization term measures the difference between the reference and predicted class distributions to ensure alignment with known distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The GE term is expressed as $S(E_{\\tilde{p}(\\rm x)}[E_{p_\\theta (y|\\rm x)}[G(\\rm x, y)]])$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The class distribution refers to the proportion of each class in a dataset, which can be used to guide model predictions via generalized expectation criteria.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "GE-FL is a framework that introduces a divergence term between a reference distribution and the model-predicted distribution in the objective function to improve classification performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The objective function in GE-FL is defined as the sum of the Kullback-Leibler divergence between the reference and predicted distributions, plus a regularization term involving the squared model parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The parameter \u03b8_yi represents the importance of word i to class y in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The predicted distribution p_\u03b8(y|x_k) is computed as a softmax over the weighted sum of feature values, normalized by the number of instances containing feature k.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The indicator function I(x_k) is 1 if feature k occurs in instance x and 0 otherwise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "C_k is the count of instances that have a non-zero value for feature k.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The softmax form of the predicted class probability is p_\u03b8(y|x) = (1/Z(x)) * exp(\u2211_i \u03b8_yi x_i), where Z(x) is the normalization factor.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "L-BFGS is used to solve the optimization problem for parameter estimation in GE-FL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The constraint function G(x, y) is defined as (1/C_k) * I(y) * I(x_k), where I(y) is an indicator vector for class y and I(x_k) is the feature presence indicator.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Neutral features are features that are not informative for any class, such as frequent words like 'player' in baseball-hockey classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The uniform preference distribution for neutral features is defined as hat p_u(y|x_k) = 1/|C|, where |C| is the total number of classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The objective function with neutral feature regularization is O_NE = O + sum over k in K' of KL( hat p_u(y|x_k) || p_\u03b8(y|x_k)).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The maximum entropy principle is used to constrain the predicted class distribution on unlabeled data when prior knowledge about class distribution is lacking.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "GE-FL requires comparable numbers of labeled features for each class to perform effectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "In the baseball-hockey classification task, GE-FL tends to predict most instances as baseball due to biased labeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Manual annotation is not required to identify neutral features; a simple approach is to select the most common features as neutral.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The maximum entropy term is defined as \\sum_{y} p(y) \\log p(y), where p(y) is the predicted class distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The predicted class distribution p(y) is given by p(y) = \\frac{1}{|X|} \\sum_{\\rm x} p_\\theta (y | \\rm x).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The parameter \u03bb is set to be proportional to the total number of labeled features, specifically \u03bb = \u03b2|K|.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The constraint function is set to G(x, y) = \\vec{I}(y), which leads to the maximum entropy form of the objective function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The KL divergence term in the objective function is defined as KL(\\hat{p}(y) || p(y)) = \\sum_i \\hat{p}_i \\log \\frac{\\hat{p}_i}{p_i}.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The modified objective function incorporating KL divergence is \\mathcal{O}_{KL} = \\mathcal{O} + \\lambda KL(\\hat{p}(y) || p(y)).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The score function is defined as S(\\hat{p}, p) = \\sum_i \\hat{p}_i \\log \\frac{\\hat{p}_i}{p_i}, used to derive the KL divergence term.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "In experiments, \u03bb is set to 5|K| by default unless explicitly declared.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The baseline method chosen is GE-FL, which is based on generalization expectation criteria.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The evaluation is conducted on 9 commonly used text classification datasets covering sentiment, web-page, science, medical, and healthcare themes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Bag-of-words features are used, and stopwords are removed during preprocessing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The movie dataset is used to classify movie reviews as positive or negative.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Unbalanced labeled features are created by randomly removing positive documents from the movie dataset to simulate imbalanced knowledge on categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Information gain is a method to select top 20 features per class based on mutual information with document labels to form a feature pool.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "LDA is used to select features by training on the dataset and selecting the most probable words given each topic, sorted by $P(w_i|t_j)$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The reference distribution of a feature is estimated such that if a feature is associated with $n$ classes, its probability of being related to any one of those classes is $\\frac{0.9}{n}$ and to any other class is $\\frac{0.1}{|C| - n}$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Neutral features are the top 10 most frequent words after removing stop words, and their reference distribution is uniformly distributed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "In setting (a), one class is assigned randomly selected $t \\in [1, 20]$ features from the feature pool, while the other class is assigned only one feature, using a balanced dataset (positive:negative = 1:1).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "In setting (b), similar to (a), but the dataset is unbalanced with only 25% positive documents (positive:negative = 1:4).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The maximum entropy principle shows improvement only in the balanced case when unbalanced labeled features are used.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Each experiment is conducted using 10-fold cross validation to ensure robust evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Maximum entropy favors a uniform distribution of class probabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Neutral features assume that neutral words are uniformly distributed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The accuracy of models incorporating neutral features decreases slowly as the number of labeled features increases beyond t=4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Incorporating KL divergence outperforms GE-FL on both balanced and unbalanced datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The model gradually biases toward the class with more labeled features when the number of labeled features increases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "In experiments with balanced labeled features, labeled features are obtained using information gain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Experiment"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "In a balanced dataset with positive:negative=1:1, GE-FL and the proposed methods show little difference.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Condition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "In an unbalanced dataset with positive:negative=1:4, KL divergence significantly outperforms GE-FL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Condition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Forcing the model to approach a uniform distribution via neutral features misleads it, especially in unbalanced settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Class distribution refers to the proportion of instances in each class within a dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Several movie datasets with class distributions of 1:2, 1:3, and 1:4 are manually constructed by removing a percentage of positive documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Experiment"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "When both the dataset and labeled features are balanced, there is little difference between the proposed methods and GE-FL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "In the unbalanced labeled features setting, 10 features are selected for one class and only 1 for the other.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Experiment"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Figure 3 (a) shows minimal difference between methods when both dataset and labeled features are balanced.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "As class distribution becomes more unbalanced, performance differences between methods increase.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "KL divergence increases significantly when more accurate knowledge about class distribution is available, guiding the model toward the correct direction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "GE-FL performs poorly when labeled features are unbalanced and does not control class imbalance effectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "KL divergence is robust to control imbalance in both dataset and labeled features, outperforming other methods in unbalanced settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "\u03bb represents the strength of the regularization term in the method incorporating KL divergence, with higher values indicating stronger regularization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "As \u03bb increases, the model becomes closer to the preferred classification behavior in both balanced and unbalanced settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "LDA selects labeled features based on predictive power without using instance labels, enabling classification without instance annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Incorporating neutral features outperforms GE-FL on 7 out of 9 datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Maximum entropy performs better than GE-FL on 8 out of 9 datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "KL divergence performs better than GE-FL on 7 out of 9 datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Class imbalance in labeled features leads to poor performance in GE-FL due to lack of control over bias.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Auxiliary regularization terms are introduced to control class imbalance bias and improve model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Liu et al. manually labeled features that are highly predictive of unsupervised clustering assignments and used them to label unlabeled data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Chang et al. proposed a constraint-driven learning method that first uses constraints and the learned model to annotate unlabeled instances, then updates the model with the newly labeled data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Daum\u00e9 III proposed a self-training method where only unlabeled instances satisfying cross-task knowledge constraints are used in the self-training process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "MaCallum et al. proposed generalized expectation (GE) criteria, which formalize prior knowledge as constraint terms about the expectation of the model in the objective function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Gra\u00e7a et al. proposed a posterior regularization (PR) framework that projects the model's posterior onto a set of distributions satisfying auxiliary constraints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Druck et al. explored labeled feature constraints in the GE-FL framework by forcing the model's predicted feature distribution to approach a reference distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Andrzejewski et al. proposed a framework that allows general domain knowledge to be easily incorporated into LDA models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Altendorf et al. explored monotonicity constraints to improve model accuracy when learning from sparse data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Constraint"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "Chen et al. attempted to learn comprehensible topic models by leveraging multi-domain knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Mann and McCallum incorporated labeled features and class distribution into the objective function of GE-FL, but only from a semi-supervised perspective without investigating robustness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "Raghavan et al. proposed an active learning method that uses feedback on both instances and features interlacedly, demonstrating that feature feedback significantly boosts model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Druck et al. proposed an active learning method that solicits labels on features rather than instances and then uses GE-FL to train the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "This paper proposes three regularization terms on top of the generalized expectation criteria to leverage prior knowledge robustly, and experimental results show significant performance improvement and better robustness compared to existing methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Comparative results show that the proposed methods are more effective and work more robustly than existing approaches.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Incorporating neutral features is the simplest way of regularization as it does not require modification of GE-FL and only involves identifying common features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Using only neutral features is not sufficient to handle extremely unbalanced labeled features, as shown in Figure 1(a).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The maximum entropy regularization term effectively controls feature imbalance without requiring additional knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The maximum entropy method assumes uniform category distribution, which may not hold in practice and leads to degraded performance if violated, as shown in Figures 1(b), 2(b), and 3(a).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "KL divergence performs better on unbalanced corpora than other methods because it uses the reference class distribution without making assumptions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The KL divergence term requires providing the true class distribution, which may not always be available.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "The model is insensitive to the true class distribution, so a rough estimation is sufficient for performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Robustness"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "When the true class distribution is 1:2 and the reference distribution is 1:1.5, 1:2, or 1:2.5, the model achieves accuracies of 0.755, 0.756, and 0.760, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "A rough estimation of the true class distribution can be obtained through simple computation on the corpus or by using domain expertise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.1/|C| - n",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "0.9/n",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "1 feature for one class",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "10 features per class",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "10-fold cross validation",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "10-fold cross validation",
+      "Method",
+      "s66"
+    ],
+    [
+      "1:1.5 distribution",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "1:2 distribution",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "1:2.5 distribution",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "Altendorf et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Altendorf et al. (altendorf2012learning)",
+      "Constraint",
+      "s100"
+    ],
+    [
+      "Andrzejewski et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Andrzejewski et al. (andrzejewski2011framework)",
+      "Method",
+      "s99"
+    ],
+    [
+      "Bayesian approaches",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "C_k",
+      "Definition",
+      "s35"
+    ],
+    [
+      "C_k",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "Chang et al.",
+      "Method",
+      "s94"
+    ],
+    [
+      "Chang et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Chen et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Chen et al. (chen2013leveraging)",
+      "Method",
+      "s101"
+    ],
+    [
+      "Comparative results",
+      "Result",
+      "s106"
+    ],
+    [
+      "Daume2008cross",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Daum\u00e9 III (daume2008cross)",
+      "Method",
+      "s95"
+    ],
+    [
+      "Druck et al.",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "Druck et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Druck et al. (active)",
+      "Method",
+      "s104"
+    ],
+    [
+      "Druck et al. (ge-fl)",
+      "Method",
+      "s98"
+    ],
+    [
+      "Eq. 11",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "Eq. 13",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "Eq. 4",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "Eq. 9",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "Figure 1",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "Figure 1 (a)",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "Figure 1 (a)",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "Figure 1 (b)",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "Figure 2 (a)",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "Figure 2 (b)",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "Figure 2 (b)",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "Figure 3 (a)",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "Figure 3 (a)",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "Figure 3 (a)",
+      "Result",
+      "s80"
+    ],
+    [
+      "Figure 3 (b)",
+      "Result",
+      "s81"
+    ],
+    [
+      "G(x, y)",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "G(x, y)",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "G(x, y)",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "GE term",
+      "Formula",
+      "s28"
+    ],
+    [
+      "GE term",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "GE-FL",
+      "Definition",
+      "s23"
+    ],
+    [
+      "GE-FL",
+      "Definition",
+      "s30"
+    ],
+    [
+      "GE-FL",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "GE-FL",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "GE-FL",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "GE-FL",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "GE-FL",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "GE-FL",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "GE-FL",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "GE-FL",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "GE-FL",
+      "Result",
+      "s83"
+    ],
+    [
+      "Generalized Expectation Criteria",
+      "Framework",
+      "s18"
+    ],
+    [
+      "Generalized Expectation Criteria",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "Gra\u00e7a et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Gra\u00e7a et al. (pr)",
+      "Method",
+      "s97"
+    ],
+    [
+      "I(x_k)",
+      "Definition",
+      "s34"
+    ],
+    [
+      "I(x_k)",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "I(y)",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "K",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "K",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "K'",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "K'",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "KL divergence",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "KL divergence",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "KL divergence",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "KL divergence",
+      "Performance",
+      "s70"
+    ],
+    [
+      "KL divergence",
+      "Property",
+      "s111"
+    ],
+    [
+      "KL divergence",
+      "Property",
+      "s82"
+    ],
+    [
+      "KL divergence",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "KL divergence",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "KL divergence",
+      "Requirement",
+      "s112"
+    ],
+    [
+      "KL divergence",
+      "Result",
+      "s84"
+    ],
+    [
+      "KL divergence",
+      "Result",
+      "s90"
+    ],
+    [
+      "KL divergence",
+      "Robustness",
+      "s113"
+    ],
+    [
+      "KL divergence between reference and predicted class distribution",
+      "Property",
+      "s27"
+    ],
+    [
+      "KL divergence term",
+      "Definition",
+      "s50"
+    ],
+    [
+      "KL(\\hat{p}(y) || p(y))",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "KL(p_u(y|x_k) || p_\u03b8(y|x_k))",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "L-BFGS",
+      "Method",
+      "s37"
+    ],
+    [
+      "L-BFGS",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "LDA",
+      "Definition",
+      "s60"
+    ],
+    [
+      "LDA",
+      "Definition",
+      "s87"
+    ],
+    [
+      "LDA",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "LDA",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "Liu et al.",
+      "Method",
+      "s93"
+    ],
+    [
+      "Liu et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "MaCallum et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "MaCallum et al. (gec)",
+      "Definition",
+      "s96"
+    ],
+    [
+      "Mann and McCallum",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Mann and McCallum (simple, generalized)",
+      "Method",
+      "s102"
+    ],
+    [
+      "NBA",
+      "Definition",
+      "s1"
+    ],
+    [
+      "NBA",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "O_ME",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "O_NE",
+      "Formula",
+      "s41"
+    ],
+    [
+      "O_NE",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "P(w_i|t_j)",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "Raghavan et al.",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "Raghavan et al. (feedback)",
+      "Method",
+      "s103"
+    ],
+    [
+      "S",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "This paper",
+      "Conclusion",
+      "s105"
+    ],
+    [
+      "\\hat{p}(y|",
+      "Model Prediction",
+      "e4"
+    ],
+    [
+      "accuracy",
+      "Result",
+      "s69"
+    ],
+    [
+      "active learning",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "additional variables",
+      "Approach",
+      "s13"
+    ],
+    [
+      "additional variables",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "amazing",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "auxiliary regularization terms",
+      "Function",
+      "s92"
+    ],
+    [
+      "auxiliary regularization terms",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "auxiliary regularization terms",
+      "Method",
+      "s19"
+    ],
+    [
+      "bag-of-words",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "balanced case",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "balanced dataset",
+      "Condition",
+      "s73"
+    ],
+    [
+      "balanced dataset",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "balanced labeled features",
+      "Experiment",
+      "s72"
+    ],
+    [
+      "balanced labeled features",
+      "Result",
+      "s78"
+    ],
+    [
+      "balanced movie dataset",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "baseball",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "baseball fan",
+      "Example",
+      "s16"
+    ],
+    [
+      "baseball-hockey",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "baseball-hockey classification",
+      "Example",
+      "s44"
+    ],
+    [
+      "baseline method",
+      "Definition",
+      "s54"
+    ],
+    [
+      "basketball",
+      "Definition",
+      "s3"
+    ],
+    [
+      "basketball",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "bias in prior knowledge",
+      "Problem",
+      "s15"
+    ],
+    [
+      "boring",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "boring",
+      "Property",
+      "s5"
+    ],
+    [
+      "category distribution",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "class distribution",
+      "Definition",
+      "s76"
+    ],
+    [
+      "class distribution",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "class distribution",
+      "Property",
+      "s29"
+    ],
+    [
+      "class distribution",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "class imbalance",
+      "Cause",
+      "s91"
+    ],
+    [
+      "classification models",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "conditional model distribution",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "constraint function G(x, y)",
+      "Definition",
+      "s38"
+    ],
+    [
+      "constraint function G(x, y)",
+      "Definition",
+      "s49"
+    ],
+    [
+      "constraint functions",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "datasets",
+      "Property",
+      "s55"
+    ],
+    [
+      "domain expertise",
+      "Solution",
+      "s115"
+    ],
+    [
+      "empirical distribution",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "exciting",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "exciting",
+      "Property",
+      "s8"
+    ],
+    [
+      "exciting",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "feature pool",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "feature preprocessing",
+      "Process",
+      "s56"
+    ],
+    [
+      "feedback on features",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "generalized expectation",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "generalized expectation criteria",
+      "Definition",
+      "s22"
+    ],
+    [
+      "generalized expectation criteria",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "hat p_u(y|x_k)",
+      "Definition",
+      "s40"
+    ],
+    [
+      "healthcare",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "hockey",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "information gain",
+      "Definition",
+      "s59"
+    ],
+    [
+      "information gain",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "information gain",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "instance labels",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "label data",
+      "Approach",
+      "s11"
+    ],
+    [
+      "labeled features",
+      "Cause",
+      "s71"
+    ],
+    [
+      "labeled features",
+      "Definition",
+      "s24"
+    ],
+    [
+      "labeled features",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "labeled features",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "labeled features",
+      "Property",
+      "s43"
+    ],
+    [
+      "labeled features",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "lambda",
+      "Mathematical Notation",
+      "e7"
+    ],
+    [
+      "latent output variables",
+      "Approach",
+      "s14"
+    ],
+    [
+      "latent output variables",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "manual annotation",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "manual annotation",
+      "Requirement",
+      "s45"
+    ],
+    [
+      "manually constructed datasets",
+      "Experiment",
+      "s77"
+    ],
+    [
+      "mathcal O",
+      "Mathematical Notation",
+      "e7"
+    ],
+    [
+      "maximum entropy",
+      "Definition",
+      "s67"
+    ],
+    [
+      "maximum entropy",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "maximum entropy",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "maximum entropy",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "maximum entropy",
+      "Result",
+      "s89"
+    ],
+    [
+      "maximum entropy of class distribution regularization term",
+      "Property",
+      "s26"
+    ],
+    [
+      "maximum entropy principle",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "maximum entropy principle",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "maximum entropy principle",
+      "Method",
+      "s42"
+    ],
+    [
+      "maximum entropy principle",
+      "Result",
+      "s65"
+    ],
+    [
+      "maximum entropy regularization",
+      "Limitation",
+      "s110"
+    ],
+    [
+      "maximum entropy regularization",
+      "Property",
+      "s109"
+    ],
+    [
+      "maximum entropy regularization",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "maximum entropy term",
+      "Definition",
+      "s46"
+    ],
+    [
+      "medical",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "messing",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "messing",
+      "Property",
+      "s6"
+    ],
+    [
+      "model predicted distribution",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "monotonicity constraints",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "movie dataset",
+      "Definition",
+      "s57"
+    ],
+    [
+      "movie dataset",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "moving",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "moving",
+      "Property",
+      "s9"
+    ],
+    [
+      "multi-domain knowledge",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "mutual information",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "neutral features",
+      "Definition",
+      "s21"
+    ],
+    [
+      "neutral features",
+      "Definition",
+      "s39"
+    ],
+    [
+      "neutral features",
+      "Definition",
+      "s62"
+    ],
+    [
+      "neutral features",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "neutral features",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "neutral features",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "neutral features",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "neutral features",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "neutral features",
+      "Property",
+      "s107"
+    ],
+    [
+      "neutral features",
+      "Property",
+      "s68"
+    ],
+    [
+      "neutral features",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "neutral features",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "neutral features",
+      "Result",
+      "s108"
+    ],
+    [
+      "neutral features",
+      "Result",
+      "s88"
+    ],
+    [
+      "neutral words",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "neutral words",
+      "Solution",
+      "s17"
+    ],
+    [
+      "objective function",
+      "Formula",
+      "s31"
+    ],
+    [
+      "objective function",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "objective function O_KL",
+      "Result",
+      "s51"
+    ],
+    [
+      "p(y)",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "p(y)",
+      "Property",
+      "s47"
+    ],
+    [
+      "p_u(y|x_k)",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "p_\u03b8(y|x)",
+      "Formula",
+      "s36"
+    ],
+    [
+      "p_\u03b8(y|x)",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "p_\u03b8(y|x)",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "p_\u03b8(y|x_k)",
+      "Definition",
+      "s33"
+    ],
+    [
+      "p_\u03b8(y|x_k)",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "p_\u03b8(y|x_k)",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "parameter estimation",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "parameter prior",
+      "Approach",
+      "s12"
+    ],
+    [
+      "perfect",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "perfect",
+      "Property",
+      "s7"
+    ],
+    [
+      "player",
+      "Definition",
+      "s2"
+    ],
+    [
+      "player",
+      "Neutral word",
+      "s20"
+    ],
+    [
+      "player",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "player",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "player (as neutral)",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "positive class",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "positive or negative",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "positive:negative=1:1",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "positive:negative=1:1",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "positive:negative=1:2",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "positive:negative=1:3",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "positive:negative=1:4",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "positive:negative=1:4",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "posterior regularization",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "pre-specified class distribution",
+      "Regularization Terms in Model Robustness",
+      "e2"
+    ],
+    [
+      "predicted class distribution",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "prior knowledge",
+      "Problem",
+      "s10"
+    ],
+    [
+      "prior on parameters",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "randomly remove 75% positive documents",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "randomly select t \u2208 [1,20] features",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "reference class distribution",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "reference distribution",
+      "Definition",
+      "s61"
+    ],
+    [
+      "reference distribution",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "reference distribution",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "reference distribution",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "regularization term associated with neutral features",
+      "Property",
+      "s25"
+    ],
+    [
+      "robustness problem",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "science",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "score function",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "score function S(\\hat{p}, p)",
+      "Definition",
+      "s52"
+    ],
+    [
+      "semi-supervised perspective",
+      "Prior Knowledge in Learning",
+      "e12"
+    ],
+    [
+      "sentiment",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "sentiment classification",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "setting (a)",
+      "Result",
+      "s63"
+    ],
+    [
+      "setting (b)",
+      "Result",
+      "s64"
+    ],
+    [
+      "softmax",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "stop words",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "stopwords",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "t > 4",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "t \u2208 [1,20]",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "terrible",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "terrible",
+      "Property",
+      "s4"
+    ],
+    [
+      "text categorization",
+      "Prior Knowledge Bias",
+      "e1"
+    ],
+    [
+      "text classification",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "tilde{p}(x)",
+      "GE-FL Method Setup",
+      "e3"
+    ],
+    [
+      "top 10 frequent words",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "top 20 features",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "true class distribution",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "true class distribution",
+      "Result",
+      "s114"
+    ],
+    [
+      "unbalanced dataset",
+      "Condition",
+      "s74"
+    ],
+    [
+      "unbalanced dataset",
+      "KL Divergence Effect",
+      "e10"
+    ],
+    [
+      "unbalanced dataset",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "unbalanced datasets",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "unbalanced labeled features",
+      "Experiment",
+      "s79"
+    ],
+    [
+      "unbalanced labeled features",
+      "Feature Selection Methods",
+      "e9"
+    ],
+    [
+      "unbalanced labeled features",
+      "Property",
+      "s58"
+    ],
+    [
+      "unbalanced labeled features",
+      "Regularization Methods",
+      "e13"
+    ],
+    [
+      "uniform distribution",
+      "Cause",
+      "s75"
+    ],
+    [
+      "uniform distribution",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "unlabeled data",
+      "Loss Function Design",
+      "e6"
+    ],
+    [
+      "vec(I(y))",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "web-page",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "|C|",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "|K|",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "|X|",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "\u03b2",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "\u03b2",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "\u03b8_yi",
+      "Objective Function Terms",
+      "e5"
+    ],
+    [
+      "\u03b8_yi",
+      "Property",
+      "s32"
+    ],
+    [
+      "\u03bb",
+      "Definition",
+      "s85"
+    ],
+    [
+      "\u03bb",
+      "Maximum Entropy Regularization",
+      "e8"
+    ],
+    [
+      "\u03bb",
+      "Property",
+      "s48"
+    ],
+    [
+      "\u03bb",
+      "Property",
+      "s86"
+    ],
+    [
+      "\u03bb (lambda)",
+      "KL Divergence Regularization",
+      "e11"
+    ],
+    [
+      "\u03bb in experiments",
+      "Property",
+      "s53"
+    ],
+    [
+      "\u03c3",
+      "Objective Function Terms",
+      "e5"
+    ]
+  ]
+}

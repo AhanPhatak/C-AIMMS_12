@@ -1,0 +1,6030 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 18,
+    "n_semantic": 167,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Introduction": {
+      "tag_set": [
+        "Introduction"
+      ]
+    },
+    "use": {
+      "tag_set": [
+        "Usage Example"
+      ]
+    },
+    "RNNs": {
+      "tag_set": [
+        "Definition",
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "Statistical Machine Translation": {
+      "tag_set": [
+        "Morphological Rich Languages in MT",
+        "Result"
+      ]
+    },
+    "SMT": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "neural translation models": {
+      "tag_set": [
+        "Cause",
+        "Morphological Rich Languages in MT",
+        "Property"
+      ]
+    },
+    "5% memory usage": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "encoder decoder architectures": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "parallel corpus": {
+      "tag_set": [
+        "Morphological Rich Languages in MT",
+        "Problem"
+      ]
+    },
+    "syntactic divergence": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "morphological richness": {
+      "tag_set": [
+        "Morphological Rich Languages in MT",
+        "Morphological Segmentation"
+      ]
+    },
+    "agglutinative languages": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "fusional languages": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "Tamil": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "BLEU Evaluation",
+        "Morphological Rich Languages in MT",
+        "Property",
+        "Tamil Language MT Issues",
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "30,000 inflectional verb forms": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "5,000 inflectional noun forms": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "part of speech tags": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "tense": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "plurality": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "English-Tamil MT": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "manual translation corpora": {
+      "tag_set": [
+        "Morphological Rich Languages in MT"
+      ]
+    },
+    "suffix characters": {
+      "tag_set": [
+        "Tamil Language MT Issues"
+      ]
+    },
+    "pronunciation-based suffixes": {
+      "tag_set": [
+        "Problem",
+        "Tamil Language MT Issues"
+      ]
+    },
+    "consonants": {
+      "tag_set": [
+        "Tamil Language MT Issues"
+      ]
+    },
+    "machine translation": {
+      "tag_set": [
+        "Tamil Language MT Issues"
+      ]
+    },
+    "MT performance": {
+      "tag_set": [
+        "Tamil Language MT Issues"
+      ]
+    },
+    "corpora": {
+      "tag_set": [
+        "Tamil Language MT Issues"
+      ]
+    },
+    "online availability": {
+      "tag_set": [
+        "Tamil Language MT Issues"
+      ]
+    },
+    "traditional Tamil": {
+      "tag_set": [
+        "Corpus Composition",
+        "Tamil Language MT Issues"
+      ]
+    },
+    "different forms": {
+      "tag_set": [
+        "Tamil Language MT Issues"
+      ]
+    },
+    "acoustically pleasing": {
+      "tag_set": [
+        "Corpus Composition",
+        "Property"
+      ]
+    },
+    "linguistic flow": {
+      "tag_set": [
+        "Corpus Composition",
+        "Property"
+      ]
+    },
+    "syllables": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "verbal communication": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "written form": {
+      "tag_set": [
+        "Corpus Composition",
+        "Definition"
+      ]
+    },
+    "spoken form": {
+      "tag_set": [
+        "Corpus Composition",
+        "Definition"
+      ]
+    },
+    "syntax": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "spelling": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "Bible": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "spoken Tamil": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "EnTam v2": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "parallel news articles": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "movie subtitles": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "tourism corpus": {
+      "tag_set": [
+        "Corpus Composition",
+        "Source"
+      ]
+    },
+    "TDIL": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "Tamil novels": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "short stories": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "AU-KBC": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "Anna University": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "197,792 sentences": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "FIGREF20": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "skinny shift": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "heatmap": {
+      "tag_set": [
+        "Corpus Composition"
+      ]
+    },
+    "rel": {
+      "tag_set": [
+        "Relation Definition"
+      ]
+    },
+    "word2vec": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "skip gram": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "567,772 sentences": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "monolingual corpus": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "UTF-8": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "chardet package": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "urllib package": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "html tags": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "special characters": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "website URLs": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "context window": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "hierarchical softmax": {
+      "tag_set": [
+        "Method",
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "negative sampling": {
+      "tag_set": [
+        "Excluded",
+        "Property",
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "subsampling": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "vector size 100": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "GPU memory": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "bilingual corpus": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "phrase-based SMT model": {
+      "tag_set": [
+        "BLEU Evaluation",
+        "Result",
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "5": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Tamil Word2Vec Setup"
+      ]
+    },
+    "window size": {
+      "tag_set": [
+        "Neural Translation Model",
+        "Property"
+      ]
+    },
+    "7 worker threads": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "batch size of 50 words": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "negative sampling set at 1": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "morphologically rich languages": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Definition",
+        "Neural Translation Model",
+        "Requirement"
+      ]
+    },
+    "gensim word2vec": {
+      "tag_set": [
+        "Neural Translation Model",
+        "Tool"
+      ]
+    },
+    "Bahdanau et al.": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "Bahdanau2014": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Neural Translation Model"
+      ]
+    },
+    "bidirectional LSTM encoder": {
+      "tag_set": [
+        "Component",
+        "Neural Translation Model"
+      ]
+    },
+    "context vector": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Definition",
+        "Neural Translation Model"
+      ]
+    },
+    "attention-based decoder": {
+      "tag_set": [
+        "Component",
+        "Neural Translation Model"
+      ]
+    },
+    "hidden states": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "weighted sum of encoder outputs": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "source sentence": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "target sentence": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "log probability": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "decoder LSTM": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "attention vector": {
+      "tag_set": [
+        "Definition",
+        "Neural Translation Model"
+      ]
+    },
+    "number of words in target sentence": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "fixed length output vector": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "weight parameter": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "number of tokens in source sentence": {
+      "tag_set": [
+        "Neural Translation Model"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Attention Mechanism in Translation",
+        "Property"
+      ]
+    },
+    "time step": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "alignment parameter": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "feed forward neural network": {
+      "tag_set": [
+        "Attention Mechanism in Translation",
+        "Purpose"
+      ]
+    },
+    "softmax output": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "decoder hidden state": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "encoder hidden layer": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "concatenation": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "attention weights": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "global attention": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "local attention": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "monotonic context lookup": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "Gaussian distribution": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Attention Mechanism in Translation",
+        "Limitation"
+      ]
+    },
+    "Bidirectional LSTM": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "No Peepholes LSTM": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "Greff et al. 2015": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "vanishing gradient": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "cell vector": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "hidden layer output vector": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "morphological variations": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "structural discordance": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "FIGREF12": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "FIGREF37": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "FIGREF44": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Attention Mechanism in Translation"
+      ]
+    },
+    "forget gate": {
+      "tag_set": [
+        "Definition",
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "input gate": {
+      "tag_set": [
+        "Definition",
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "output gate": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "cell gate": {
+      "tag_set": [
+        "Definition",
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "weighted sum": {
+      "tag_set": [
+        "LSTM Gate Mechanisms",
+        "Translation Model Enhancement"
+      ]
+    },
+    "hidden layer output": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "previous timestep": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "current timestep": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "sigmoid function": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "learnable parameters": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "weights": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "biases": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "bidirectional RNN": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "morphological segmentation": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "BLEU Evaluation",
+        "Benefit",
+        "Cause",
+        "Definition",
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "generative probabilistic model": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "prefix": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "root": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "postfix": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "morphemes": {
+      "tag_set": [
+        "BLEU Evaluation",
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "Kohonen et al.": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "kohonen2010semi": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "MAP probability": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "Bayes' rule": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "Minimum Description Length (MDL)": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "morph type count": {
+      "tag_set": [
+        "LSTM Gate Mechanisms",
+        "Property"
+      ]
+    },
+    "morph token count": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "morph strings": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "exhaustive combination": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "recursive split": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "training lexicon": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "likelihood": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "prior": {
+      "tag_set": [
+        "LSTM Gate Mechanisms"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Definition",
+        "Morphological Segmentation",
+        "Property"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Morphological Segmentation",
+        "Property"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Definition",
+        "Effect",
+        "Morphological Segmentation"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Morphological Segmentation",
+        "Property"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "Function",
+        "Morphological Segmentation"
+      ]
+    },
+    "Viterbi algorithm": {
+      "tag_set": [
+        "Extension",
+        "Morphological Segmentation"
+      ]
+    },
+    "over-segmentation": {
+      "tag_set": [
+        "Morphological Segmentation",
+        "Problem"
+      ]
+    },
+    "under-segmentation": {
+      "tag_set": [
+        "Morphological Segmentation",
+        "Problem"
+      ]
+    },
+    "cost function": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "annotated dataset": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "labeled data": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Tamil language": {
+      "tag_set": [
+        "Morphological Segmentation",
+        "Property"
+      ]
+    },
+    "Anoop Kunchukkutan": {
+      "tag_set": [
+        "Contributor",
+        "Morphological Segmentation"
+      ]
+    },
+    "Indic NLP Library": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "RNN LSTM Bi-directional encoder attention decoder": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "phrase based SMT": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Factored SMT model": {
+      "tag_set": [
+        "Morphological Segmentation",
+        "Reference"
+      ]
+    },
+    "Kumar et al.": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "kumar2014improving": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "569,772 monolingual Tamil sentences": {
+      "tag_set": [
+        "Input",
+        "Morphological Segmentation"
+      ]
+    },
+    "bucketing": {
+      "tag_set": [
+        "Method",
+        "Morphological Segmentation"
+      ]
+    },
+    "English\u2013Tamil sentence pairs": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "10\u201320 words": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "PAD tokens": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "FIGREF17": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "BLEU metric": {
+      "tag_set": [
+        "BLEU Evaluation",
+        "Definition"
+      ]
+    },
+    "unigram": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "bigram": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "trigram": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "BLEU-4": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "micro-averaged": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "RNNSearch model": {
+      "tag_set": [
+        "BLEU Evaluation",
+        "Morphological Segmentation",
+        "Property"
+      ]
+    },
+    "word2vec vectors": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "RNNMorph model": {
+      "tag_set": [
+        "BLEU Evaluation",
+        "Cause",
+        "Definition",
+        "Model Performance Comparison",
+        "Morphological Segmentation",
+        "Property",
+        "Result"
+      ]
+    },
+    "BLEU precision values": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "token increase": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "human evaluation": {
+      "tag_set": [
+        "BLEU Evaluation",
+        "Method"
+      ]
+    },
+    "adequacy": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "fluency": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "5-point scale": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "50 native annotators": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "100 sentences": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "randomized selection": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "ranking values": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "test set results": {
+      "tag_set": [
+        "BLEU Evaluation"
+      ]
+    },
+    "RNNSearch+Word2Vec model": {
+      "tag_set": [
+        "Cause",
+        "Model Performance Comparison",
+        "Result"
+      ]
+    },
+    "intra-annotator ranking": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Kappa co-efficient": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "0.573": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "0.410": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "learning rate decay": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "perplexity": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "340,325 words": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "41,906 morphs": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "sampled SoftMax loss": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "4 hidden layers": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "attention vectors": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Tamil word": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "English word": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "EOS token": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "44% Tamil vocabulary": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "74% English vocabulary": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Fig. FIGREF34": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Fig. FIGREF35": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Fig. FIGREF37": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Fig. FIGREF44": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "heatmaps": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "stagnation in perplexity": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "340,325 vocabulary": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "41,906 vocabulary": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "inflectional forms": {
+      "tag_set": [
+        "Morphological Segmentation",
+        "Result"
+      ]
+    },
+    "morphological roots": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "inflections": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "repetitions": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "FIGREF53": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "FIGREF55": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "UNK": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "English test sentence": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "source vocabulary": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "CN Krishnan": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Sobha": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "AU-KBC website": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Balajapally": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "EBMT system": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "700,000": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "machine-aided-translation": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Anusaakara": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "English Hindi MT": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Word2Vec": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "Morph2Vec": {
+      "tag_set": [
+        "Morphological Segmentation"
+      ]
+    },
+    "static vector": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "variable length word vectors": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "weighted sum of inputs": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "attention mechanism": {
+      "tag_set": [
+        "Attention Mechanism in MT",
+        "Method",
+        "Result"
+      ]
+    },
+    "Luong et al.": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "luong2015effective": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "AER scores": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "monotonic lookup": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "agglutination": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "mapping between units": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "sentence length": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "fusional language": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "target side morphological agglutination": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "end-to-end translation system": {
+      "tag_set": [
+        "Attention Mechanism in MT"
+      ]
+    },
+    "morphological generator": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "translation model": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "corpus": {
+      "tag_set": [
+        "Improvement",
+        "Translation Model Enhancement"
+      ]
+    },
+    "GPU": {
+      "tag_set": [
+        "Improvement",
+        "Translation Model Enhancement"
+      ]
+    },
+    "hidden layer sizes": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "batch sizes": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "Rocktaschel et al.": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "rocktaschel2015reasoning": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "Natural Language Inference": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "NLI": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "encoder-decoder architecture": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "Amrita Vishwa Vidyapeetham": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "Dr. M. Anand Kumar": {
+      "tag_set": [
+        "Acknowledgement",
+        "Translation Model Enhancement"
+      ]
+    },
+    "SSN College of Engineering": {
+      "tag_set": [
+        "Translation Model Enhancement"
+      ]
+    },
+    "Dr. Arvindan": {
+      "tag_set": [
+        "Acknowledgement",
+        "Translation Model Enhancement"
+      ]
+    },
+    "corpus requirement": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "English\u2013Tamil MT models": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "two forms of Tamil": {
+      "tag_set": [
+        "Fact"
+      ]
+    },
+    "corpus divide": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Bible sentences": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "EnTam v2 corpus": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Tamil novels and short stories corpus": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "total corpus size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "monolingual Tamil corpus": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "UTF-8 encoding": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "corpus cleaning": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "word2vec embeddings": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "skip-gram model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "context window k": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "monolingual corpus size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "word vector size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vector size 150": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "contextual richness": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "domain specificity": {
+      "tag_set": [
+        "Trade-off"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Bahdanau et al. 2014 model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "neural machine translation model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "basic decoder": {
+      "tag_set": [
+        "Component"
+      ]
+    },
+    "attention-based model probability formula": {
+      "tag_set": [
+        "Formula"
+      ]
+    },
+    "decoder LSTM computation": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "attention weight parameter": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "mathematical formula": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "global attention mechanism": {
+      "tag_set": [
+        "Advantage"
+      ]
+    },
+    "local attention mechanism": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "No Peepholes (NP) LSTM": {
+      "tag_set": [
+        "Design"
+      ]
+    },
+    "LSTM cell vector": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LSTM hidden layer output vector": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vanishing gradients": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "LSTM cell parameters": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "decoder in the model": {
+      "tag_set": [
+        "Usage"
+      ]
+    },
+    "bidirectional RNN LSTM cell": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "forward LSTM component": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "backward LSTM component": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Maximum A Posteriori (MAP) probability": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Minimum Description Length (MDL) principle": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "likelihood estimation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "morfessor 2.0": {
+      "tag_set": [
+        "Tool"
+      ]
+    },
+    "neural machine translation": {
+      "tag_set": [
+        "Study"
+      ]
+    },
+    "phrase-based SMT system": {
+      "tag_set": [
+        "Baseline"
+      ]
+    },
+    "word distribution": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "bucket size distribution": {
+      "tag_set": [
+        "Design"
+      ]
+    },
+    "RNNSearch models": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "RNNMorph bucketing scheme": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "English vocabulary size for RNNSearch": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Tamil vocabulary size for RNNSearch": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "RNNMorph vocabulary size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "UNK token": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "LSTM hidden layer size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "model architecture": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "optimization algorithm": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "learning rate": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "gradient clipping": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training environment": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "evaluation metrics": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BLEU evaluation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Fig. FIGREF26": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BLEU score": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "annotators": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "evaluation set": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "adequacy rating": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "fluency rating": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "RNNMorph and RNNSearch + Word2Vec": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "Error function": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Attention vectors": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Training data": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Perplexity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "target vocabulary size": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "repetitions in RNNMorph": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sequence length": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "LSTM memory units": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "semi-supervised morphological segmentation": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "Morph2Vec model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "UNK tokens": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "CN Krishnan and Sobha": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "Balajapally et al.": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "Renganathan": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Vetrivel et al.": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Irvine et al.": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Kasthuri et al.": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Anglabharathi": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Hybrid approaches": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Morphological pre and post processing": {
+      "tag_set": [
+        "Enhancement"
+      ]
+    },
+    "RNN Encoder-Decoder models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Deep MT systems": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Cho et al. (SecondOneByCho)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Sutskever et al. (sutskever2014sequence)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Context vector size": {
+      "tag_set": [
+        "Drawback"
+      ]
+    },
+    "Bahdanau et al. 2014": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Luong et al. 2015": {
+      "tag_set": [
+        "Analysis"
+      ]
+    },
+    "agglutination schemes": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "increased sentence length": {
+      "tag_set": [
+        "Drawback"
+      ]
+    },
+    "attention models": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "target-side morphological agglutination": {
+      "tag_set": [
+        "Future Work"
+      ]
+    },
+    "Rocktaschel et al. 2015": {
+      "tag_set": [
+        "Relevance"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nThe",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Introduction"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "use",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Usage Example"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "of RNNs in the field of Statistical Machine Translation (SMT) has revolutionised the approaches to automated translation. As opposed to traditional shallow SMT models, which require a lot of memory to run, these neural translation models require only a small fraction of memory used, about 5% BIBREF0 . Also, neural translation models are optimized such that every module is trained to jointly improve translation quality. With that being said, one of the main downsides of neural translation models is the heavy corpus requirement in order to ensure learning of deeper contexts. This is where the application of these encoder decoder architectures in translation to and/or from morphologically rich languages takes a severe hit. For any language pair, the efficiency of an MT system depends on two major factors: the availability and size of parallel corpus used for training and the syntactic divergence between the two languages i.e morphological richness, word order differences, grammatical structure etc. BIBREF0 . The main differences between the languages stem from the fact that languages similar to English are predominantly fusional languages whereas many of the morphologically rich languages are agglutinative in nature. The nature of morphologically rich languages being structurally and semantically discordant from languages like English adds to the difficulty of SMT involving such languages. In morphologically rich languages, any suffix can be added to any verb or noun to simply mean one specific thing about that particular word that the suffix commonly represents (agglutination). This means that there exists a lot of inflectional forms of the same noun and verb base words, conveying similar notions. For example, in Tamil, there are at least 30,000 inflectional forms of any given verb and about 5,000 forms of inflectional forms for any noun. The merged words carry information about part of speech (POS) tags, tense, plurality and so forth that are important for analyzing text for Machine Translation (MT). Not only are these hidden meanings not captured, the corresponding root words are trained as different units, thereby increasing the complexity of developing such MT systems BIBREF1 . To add to the complexities of being a morphologically rich language, there are several factors unique to Tamil that make translation very difficult. The availability of parallel corpus for Tamil is very scarce. Most of the other models in the field of English\u2013Tamil MT have made use of their own translation corpora that were manually created for the purposes",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Morphological Rich Languages in MT"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "of research. Most of these corpora are not available online for use. Another issue specific to Tamil is the addition of suffix characters included to the words in the language for smoothness in pronunciation. These characters are of so many different types; there is a unique suffix for each and every consonant in the language. These suffixes degrade performance of MT because the same words with different such pronounciation-based suffixes will be taken as different words in training. Also to take into consideration is the existence of two different forms of the language being used. Traditionally defined Tamil and its pronunciations",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Tamil Language MT Issues"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "aren't acoustically pleasing to use. There's no linguistic flow between syllables and its usage in verbal communication is time consuming. Therefore, there exists two forms of the language, the written form, rigid in structure and syntax, and the spoken form, in which the flow and pace of the language is given priority over syntax and correctness of spelling. This divide leads to the corpus having 2 different versions of the language that increase the vocabulary even with the same words. This can be evidently seen in the corpus between the sentences used in the Bible, which is in traditional Tamil and sentences from movie subtitles, being in spoken Tamil format.\nTo account for such difficulties, a trade-off between domain specificity and size of the corpus is integral in building an English\u2013Tamil neural MT system.\nCorpus\nThe corpus selected for this experiment was a combination of different corpora from various domains. The major part of the corpus was made up by the EnTam v2 corpus BIBREF2 . This corpus contained sentences taken from parallel news articles, English and Tamil bible corpus and movie subtitles. It also comprised of a tourism corpus that was obtained from TDIL (Technology Development for Indian Languages) and a corpus created from Tamil novels and short stories from AU-KBC, Anna university. The complete corpus consisted of 197,792 sentences. Fig. FIGREF20 shows the skinny shift and heatmap representations of the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Corpus Composition"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "rel",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Relation Definition"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "ativity between the sentences in terms of their sentence lengths. An extra monolingual Tamil corpus, collated from various online sources was used for the word2vec embedding of the Tamil target language to enhance the richness of context of the word vectors. It was also used to create the language model for the phrase-based SMT model. This corpus contained 567,772 sentences and was self-collected by combining hundreds of ancient Tamil scriptures, novels and poems by accessing the websites of popular online ebook libraries in Python using the urllib package. Since the sources had Tamil text in different encodings, the encoding scheme was standardized to be UTF-8 for the entirety of the monolingual and parallel corpora using the chardet package. The corpora were cleaned for any stray special characters, unnecessary html tags and website URLs. Word2Vec The word embeddings of the source and target language sentences are used as initial vectors of the model to improve contextualization. The skip gram model of the word2vec algorithm optimizes the vectors by accounting for the average log probability of context words given a source word. DISPLAYFORM0 where k is the context window taken for the vectorization, INLINEFORM0 refers to the INLINEFORM1 word of the corpus and INLINEFORM2 is the size of the training corpus in terms of the number of words. Here, the probabily INLINEFORM3 is computed as a hierarchical softmax of the product of the transpose of the output vector of INLINEFORM4 and the input vector of INLINEFORM5 for each and every pair over the entire vocabulary. The processes of negative sampling and subsampling of frequent words that were used in the original model aren't used in this experiment BIBREF3 . For the process of creating semantically meaningful word embeddings, a monolingual corpus of 569,772 Tamil sentences was used. This gave the vectors more contextual richness due to the increased size of the corpus as opposed to using just the bilingual corpus' target side sentences BIBREF3 . In the experiment, the word2vec model was trained using a vector size of 100 to ensure that the bulk of the limited memory of the GPU will be used for the neural attention translation model. It has been shown that any size over that of 150 used for word vectorization gives similar results and that a size of 100 performs close to the model with 150-sized word vectors BIBREF7 . A standard size of 5 was used",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Tamil Word2Vec Setup"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "as window size and the model was trained over 7 worker threads simultaneously. A batch size of 50 words was used for training. The negative sampling was set at 1 as it is the nature of morphologically rich languages to have a lot of important words that don't occur more than once in the corpus. The gensim word2vec toolkit was used to implement this word embedding process BIBREF8 . Neural Translation Model The model used for translation is the one implemented by Bahdanau et al. Bahdanau2014. A bidirectional LSTM encoder first takes the source sentence and encodes it into a context vector which acts as input for the decoder. The decoder is attention-based where the hidden states of the decoder get as input the weighted sum of all the hidden layer outputs of the encoder alongwith the output of the previous hidden layer and the previously decoded word. This provides a contextual reference into the source language sentence BIBREF4 . Neural Machine Translation models directly compute the probability of the target language sentence given the source language sentence, word by word for every time step. The model with a basic decoder without the attention module computes the log probability of target sentence given source sentence as the sum of log probabilities of every word given every word before that. The attention-based model, on the other hand, calculates: DISPLAYFORM0 where INLINEFORM0 is the number of words in the target sentence, INLINEFORM1 is the target sentence, INLINEFORM2 is the source sentence, INLINEFORM3 is the fixed length output vector of the encoder and INLINEFORM4 is the weighted sum of all the hidden layer outputs of the encoder at every time step. Both the encoder's output context vector and the weighted sum (known as attention vector) help to improve the quality of translation by enabling selective source sentence lookup. The decoder LSTM computes: DISPLAYFORM0 where the probability is computed as a function of the decoder's output in the previous time step INLINEFORM0 , the hidden layer vector of the decoder in the current timestep INLINEFORM1 and the context vector from the attention mechanism INLINEFORM2 . The context vector INLINEFORM3 for time step INLINEFORM4 is computed as a weighted sum of the output of the entire sentence using a weight parameter INLINEFORM5 : DISPLAYFORM0 where INLINEFORM0 is the number of tokens in the source sentence, INLINEFORM1 refers to the value of the hidden layer of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Neural Translation Model"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "the encoder at time step INLINEFORM2 , and INLINEFORM3 is the alignment parameter. This parameter is calculated by means of a feed forward neural network to ensure that the alignment model is free from the difficulties of contextualization of long sentences into a single vector. The feed forward network is trained along with the neural translation model to jointly improve the performance of the translation. Mathematically, DISPLAYFORM0 DISPLAYFORM1 where INLINEFORM0 is the softmax output of the result of the feedforward network, INLINEFORM1 is the hidden state value of the decoder at timestep INLINEFORM2 and INLINEFORM3 is the encoder's hidden layer annotation at timestep INLINEFORM4 . A concatenation of the forward and the reverse hidden layer parameters of the encoder is used at each step to compute the weights INLINEFORM5 for the attention mechanism. This is done to enable an overall context of the sentence, as opposed to a context of only all the previous words of the sentence for every word in consideration. Fig. FIGREF12 is the general architecture of the neural translation model without the Bidirectional LSTM encoder. A global attention mechanism is preferred over local attention because the differences in the structures of the languages cannot be mapped efficiently to enable lookup into the right parts of the source sentence. Using local attention mechanism with a monotonic context lookup, where the region around INLINEFORM0 source word is looked up for the prediction of the INLINEFORM1 target word, is impractical because of the structural discordance between the English and Tamil sentences (see Figs. FIGREF37 and FIGREF44 ). The use of gaussian and other such distributions to facilitate local attention would also be inefficient because the existence of various forms of translations for the same source sentence involving morphological and structural variations that don't stay uniform through the entire corpus BIBREF5 . The No Peepholes (NP) variant of the LSTM cell, formulated in Greff et al. greff2015lstm is used in this experiment as it proved to give the best results amongst all the variants of an LSTM cell. It is specified by means of a gated mechanism designed to ensure that the vanishing gradient problem is prevented. LSTM maintains its hidden layer in two components, the cell vector INLINEFORM0 and the actual hidden layer output vector INLINEFORM1 . The cell vector is ensured to never reach zero by means of a weighted sum of the previous layer's cell vector INLINEFORM2",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Attention Mechanism in Translation"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "regulated by the forget gate INLINEFORM3 and an activation of the weighted sum of the input INLINEFORM4 in the current timestep INLINEFORM5 and the previous timestep's hidden layer output vector INLINEFORM6 . The combination is similarly regulated by the input gate INLINEFORM7 . The hidden layer output is determined as an activation of the cell gate, regulated by the output gate INLINEFORM8 . The interplay between these two vectors ( INLINEFORM9 and INLINEFORM10 ) at every timestep ensures that the problem of vanishing gradients doesn't occur. The three gates are also formed as a sigmoid of the weighted sum of the previous hidden layer output INLINEFORM11 and the input in the current timestep INLINEFORM12 . The output generated out of the LSTM's hidden layer is specified as a weighted softmax over the hidden layer output INLINEFORM13 . The learnable parameters of an LSTM cell are all the weights INLINEFORM14 and the biases INLINEFORM15 . DISPLAYFORM0 The LSTM specified by equations 7 through 11 is the one used for the decoder of the model. The encoder uses a bidirectional RNN LSTM cell in which there are two hidden layer components INLINEFORM0 and INLINEFORM1 that contribute to the output INLINEFORM2 of each time step INLINEFORM3 . Both the components have their own sets of LSTM equations in such a way that INLINEFORM4 for every timestep is computed from the first timestep till the INLINEFORM5 token is reached and INLINEFORM6 is computed from the INLINEFORM7 timestep backwards until the first token is reached. All the five vectors of the two components are all exactly the same as the LSTM equations specified with one variation in the computation of the result. DISPLAYFORM0 Morphological Segmentation The morphological segmentation used is a semi-supervised extension to the generative probabilistic model of maximizing the probability of a INLINEFORM0 prefix,root,postfix INLINEFORM1 recursive split up of words based on an exhaustive combination of all possible morphemes. The details of this model are specified and extensively studied in Kohonen et al. kohonen2010semi. The model parameters INLINEFORM2 include the morph type count, morph token count of training data, the morph strings and their counts. The model is trained by maximizing the Maximum A Posteriori (MAP) probability using Bayes' rule: DISPLAYFORM0 where INLINEFORM0 refers to every word in the training lexicon. The prior INLINEFORM1 is estimated using the Minimum Description Length(MDL) principle. The likelihood INLINEFORM2 is estimated as: DISPLAYFORM0 where INLINEFORM0 refers to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "LSTM Gate Mechanisms"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "the intermediate analyses and INLINEFORM1 refers to the INLINEFORM2 morpheme of word INLINEFORM3 . An extension to the Viterbi algorithm is used for the decoding step based on exhaustive mapping of morphemes. To account for over-segmentation and under-segmentation issues associated with unsupervised morphological segmentation, extra parameters ( INLINEFORM0 ) and ( INLINEFORM1 ) are used with the cost function INLINEFORM2 DISPLAYFORM0 where INLINEFORM0 is the likelihood of the cost function, INLINEFORM1 describes the likelihood of contribution of the annotated dataset to the cost function and INLINEFORM2 is the likelihood of the labeled data. A decrease in the value of INLINEFORM3 will cause smaller segments and vice versa. INLINEFORM4 takes care of size discrepancies due to reduced availability of annotated corpus as compared to the training corpus BIBREF2 , BIBREF6 . The Python extension to the morphological segmentation tool morfessor 2.0 was used for this experiment to perform the segmentation. The annotation data for Tamil language collated and released by Anoop Kunchukkutan in the Indic NLP Library was used as the semi-supervised input to the model BIBREF9 , BIBREF6 . Experiment The complexities of neural machine translation of morphologically rich languages were studied with respect to English to Tamil machine translation using the RNN LSTM Bi-directional encoder attention decoder architecture. To compare with a baseline system, a phrase based SMT system was implemented using the same corpus. The Factored SMT model with source-side preprocessing by Kumar et al. kumar2014improving was used as a reference for the translation between these language pairs. Also, an additional 569,772 monolingual Tamil sentences were used for the language model of the SMT system. The model used could be split up into various modules as expanded in Fig. FIGREF17 . Bucketing The input source and target language sentences used for training were taken and divided into bucketed pairs of sentences of a fixed number of sizes. This relationship was determined by examining the distribution of words in the corpus primarily to minimize the number of PAD tokens in the sentence. The heat map of the number of words in the English\u2013Tamil sentence pairs of the corpus revealed that the distribution is centered around the 10\u201320 words region. Therefore, more buckets in that region were applied as there would be enough number of examples in each of these bucket pairs for the model to learn about the sentences in each and every bucket. The exact scheme used for",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Morphological Segmentation"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "the RNNSearch models is specified by Fig. FIGREF21 . The bucketing scheme for the RNNMorph model, involving morphs instead of words, was a simple shifted scheme of the one used in Fig. FIGREF21 , where every target sentence bucket count was increased uniformly by 5. Model Details Due to various computational constraints and lack of availability of comprehensive corpora, the vocabularies for English and Tamil languages for the RNNSearch model were restricted to 60,000 out of 67,768 and 150,000 out of 340,325 respectively. The vocabulary of the languages for the RNNMorph didn't have to be restricted and the actual number of words in the corpus i.e. 67,768 words for English and 41,906 words for Tamil could be accommodated into the training. Words not in the vocabulary from the test set input and output were replaced with the universal INLINEFORM0 UNK INLINEFORM1 token, symbolizing an unknown word. The LSTM hidden layer size, the training batch size, and the vocabulary sizes of the languages, together, acted as a bottleneck. The model was run on a 2GB NVIDIA GeForce GT 650M card with 384 cores and the memory allotment was constrained to the limits of the GPU. Therefore, after repeated experimentation, it was determined that with a batch size of 16, the maximum hidden layer size possible was 500, which was the size used. Attempts to reduce the batch size resulted in poor convergence, and so the parameters were set to center around the batch size of 16. The models used were of 4 layers of LSTM hidden units in the bidirectional encoder and attention decoder. The model used a Stochastic Gradient Descent (SGD) optimization algorithm with a sampled softmax loss of 512 per sample to handle large vocabulary size of the target language BIBREF10 . The model was trained with a learning rate 1.0 and a decay of rate 0.5 enforced manually. Gradient clipping based on the global norm of 5.0 was carried out to prevent gradients exploding and going to unrecoverable values tending towards infinity. The model described is the one used in the Tensorflow BIBREF11 seq2seq library. Results and Discussion The BLEU metric parameters (modified 1-gram, 2-gram, 3-gram and 4-gram precision values) and human evaluation metrics of adequacy, fluency and relative ranking values were used to evaluate the performance of the models. BLEU Evaluation The BLEU scores obtained using the various models used in the experiment are tabulated in Table",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "TABREF25 . The BLEU metric computes the BLEU unigram, bigram, trigram and BLEU-4 modified precision values, each micro-averaged over the test set sentences BIBREF7 . It was observed, as expected, that the performance of the phrase-based SMT model was inferior to that of the RNNSearch model. The baseline RNNSearch system was further refined by using word2vec vectors to embed semantic understanding, as observed with the slight increase in the BLEU scores. Fig. FIGREF26 plots the BLEU scores as a line graph for visualization of the improvement in performance. Also, the 4-gram BLEU scores for the various models were plotted as a bar graph in Fig. FIGREF26 Due to the agglutinative and morphologically rich nature of the target language i.e. Tamil, the use of morphological segmentation to split the words into morphemes further improved the BLEU precision values in the RNNMorph model. One of the reasons for the large extent of increase in the BLEU score could be attributed to the overall increase in the number of word units per sentence. Since the BLEU score computes micro-average precision scores, an increase in both the numerator and denominator of the precision scores is apparent with an increase in the number of tokens due to morphological segmentation of the target language. Thus, the numeric extent of the increase of accuracy might not efficiently describe the improvement in performance of the translation. Human Evaluation To ensure that the increase in BLEU score correlated to actual increase in performance of translation, human evaluation metrics like adequacy, precision and ranking values (between RNNSearch and RNNMorph outputs) were estimated in Table TABREF30 . A group of 50 native people who were well-versed in both English and Tamil languages acted as annotators for the evaluation. A collection of samples of about 100 sentences were taken from the test set results for comparison. This set included a randomized selection of the translation results to ensure the objectivity of evaluation. Fluency and adequacy results for the RNNMorph results are tabulated. Adequacy rating was calculated on a 5-point scale of how much of the meaning is conveyed by the translation (All, Most, Much, Little, None). The fluency rating was calculated based on grammatical correctness on a 5-point scale of (Flawless, Good, Non-native, Disfluent, Incomprehensive). For the comparison process, the RNNMorph and the RNNSearch + Word2Vec models\u2019 sentence level translations were individually ranked between each other, permitting the two translations to have",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "BLEU Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "ties in the ranking. The intra-annotator values were computed for these metrics and the scores are shown in Table TABREF32 BIBREF12 , BIBREF13 . The human evaluation Kappa co-efficient results are calculated with respect to: DISPLAYFORM0 It was observed that the ranking Kappa co-efficient for intra-annotator ranking of the RNNMorph model was at 0.573, higher that the 0.410 of the RNNSearch+Word2Vec model, implying that the annotators found the RNNMorph model to produce better results when compared to the RNNSearch + Word2Vec model. Model Parameters The learning rate decay through the training process of the RNNMorph model is showcased in the graph in Fig. FIGREF34 . This process was done manually where the learning rate was decayed after the end of specific epochs based on an observed stagnation in perplexity.The RNNMorph model achieved saturation of perplexities much earlier through the epochs than the RNNSearch + Word2Vec model. This conforms to the expected outcome as the morphological segmentation has reduced the vocabulary size of the target language from 340,325 words to a mere 41,906 morphs. The error function used was the sampled SoftMax loss to ensure a large target vocabulary could be accommodated BIBREF10 . A zoomed inset graph (Fig. FIGREF35 ) has been used to visualize the values of the error function for the RNNSearch + Word2Vec and RNNMorph models with 4 hidden layers. It can be seen that the RNNMorph model is consistently better in terms of the perplexity values through the time steps. Attention Vectors In order to further demonstrate the quality of the RNNMorph model, the attention vectors of both the RNNSearch with Word2Vec embedding and RNNMorph models are compared for several good translations in Figs. FIGREF37 and FIGREF44 . It is observed that the reduction in vocabulary size has improved the source sentence lookup by quite an extent. Each cell in the heatmap displays the magnitude of the attention layer weight INLINEFORM0 for the INLINEFORM1 Tamil word and the INLINEFORM2 English word in the respective sentences. The intensity of black corresponds to the magnitude of the cell INLINEFORM3 . Also, the attention vectors of the RNNSearch model with Word2Vec embeddings tend to attend to INLINEFORM4 EOS INLINEFORM5 token in the middle of the sentence leading to incomplete translations. This could be due to the fact that only 44% of the Tamil vocabulary and 74% of the English vocabulary is taken for training in this model, as opposed",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Comparison"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "to 100% of English and Tamil words in the RNNMorph model. Target vocabulary size A very large target vocabulary is an inadvertent consequence of the morphological richness of the Tamil language. This creates a potential restriction on the accuracy of the model as many inflectional forms of the same word are trained as independent units. One of the advantages of morphological segmentation of Tamil text is that the target vocabulary size decreased from 340,325 to a mere 41,906. This reduction helps improve the performance of the translation as the occurrence of unknown tokens was reduced compared to the RNNSearch model. This morphologically segmented vocabulary is divided into a collection of morphological roots and inflections as individual units. Repetitions Some of the translations of the RNNMorph model have repetitions of the same phrases (Fig. FIGREF53 ), whereas such repetitions occur much less frequently in the RNNSearch predictions. Such translations would make for good results if the repetitions weren't present and all parts of the sentence occur just once. These repetitions might be due to the increase in the general sequence length of the target sentences because of the morphological segmentation. While it is true the target vocabulary size has decreased due to morphological segmentation, the RNNMorph has more input units (morphs) per sentence, which makes it more demanding of the LSTM's memory units and the feed forward network of the attention model. Additionally, this behavior could also be attributed to the errors in the semi-supervised morphological segmentation due to the complexities of the Tamil language and the extent of the corpus. Model Outputs The translation outputs of the RNNSearch + Word2Vec and Morph2Vec models for the same input sentences from the test set demonstrate the effectiveness of using a morphological segmentation tool and how the morphemes have changed the sentence to be more grammatically sound. It is also observed (from Fig. FIGREF55 ) that most of the translation sentences of the Morph2Vec model have no INLINEFORM0 UNK INLINEFORM1 tokens. They exist in the predictions mostly only due to a word in the English test sentence not present in the source vocabulary. Related Work Professors CN Krishnan, Sobha et al developed a machine-aided-translation (MAT) system similar to the Anusaakara English Hindi MT system, using a small corpus and very few transfer rules, available at AU-KBC website BIBREF14 . Balajapally et al. balajapally2006multilingual developed an example based machine translation (EBMT) system with 700000",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Morphological Segmentation"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "sentences for English to INLINEFORM0 Tamil, Kannada, Hindi INLINEFORM1 transliterated text BIBREF15 , BIBREF16 . Renganathan renganathan2002interactive developed a rule based MT system for English and Tamil using grammar rules for the language pair. Vetrivel et al. vetrivel2010english used HMMs to align and translate English and Tamil parallel sentences to build an SMT system. Irvine et al. irvine2013combining tried to combine parallel and similar corpora to improve the performance of English to Tamil SMT amongst other languages. Kasthuri et al. kasthuri2014rule used a rule based MT system using transfer lexicon and morphological analysis tools. Anglabharathi was developed at IIT Kanpur, a system translating English to a collection of Indian languages including Tamil using CFG like structures to create a pseudo target to convert to Indian languages BIBREF17 , BIBREF18 . A variety of hybrid approaches have also been used for English\u2013Tamil MT in combinations of rule based (transfer methods), interlingua representations BIBREF19 , BIBREF20 , BIBREF21 . The use of Statistical Machine Translation took over the English\u2013Tamil MT system research because of its desirable properties of language independence, better generalization features and a reduced requirement of linguistic expertise BIBREF1 , BIBREF22 , BIBREF23 . Various enhancement techniques external to the MT system have also been proposed to improve the performance of translation using morphological pre and post processing techniques BIBREF24 , BIBREF25 , BIBREF26 . The use of RNN Encoder Decoder models in machine translation has shown good results in languages with similar grammatical structure. Deep MT systems have been performing better than the other shallow SMT models recently, with the availability of computational resources and hardware making it feasible to train such models. The first of these models came in 2014, with Cho et al SecondOneByCho. The model used was the RNN LSTM encoder decoder model with the context vector output of the encoder (run for every word in the sentence) is fed to every decoder unit along with the previous word output until INLINEFORM0 EOS INLINEFORM1 is reached. This model was used to score translation results of another MT system. Sutskever et al. sutskever2014sequence created a similar encoder decoder model with the decoder getting the context vector only for the first word of the target language sentence. After that, only the decoded target outputs act as inputs to the various time steps of the decoder. One major drawback of these models is the size of the context vector",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "of the encoder being static in nature. The same sized vector was expected to to represent sentences of arbitrary length, which was impractical when it came to very long sentences. The next breakthrough came from Bahdanau et al. Bahdanau2014 where variable length word vectors were used and instead of just the context vector, a weighted sum of the inputs is given for the decoder. This enabled selective lookup to the source sentence during decoding and is known as the attention mechanism BIBREF27 . The attention mechanism was further analysed by Luong et al. luong2015effective where they made a distinction between global and local attention by means of AER scores of the attention vectors. A Gaussian distribution and a monotonic lookup were used to facilitate the corresponding local source sentence look-up. Conclusion Thus, it is seen that the use of morphological segmentation on a morphologically rich language before translation helps with the performance of the translation in multiple ways. Thus, machine translation involving morphologically rich languages should ideally be carried out only after morphological segmentation. If the translation has to be carried out between two morphologically rich languages, then both the languages' sentences should be individually segmented based on morphology. This is because while it is true that they are both morphologically rich languages, the schemes that the languages use for the process of agglutination might be different, in which case a mapping between the units would be difficult without the segmentation. One drawback of morphological segmentation is the increase in complexity of the model due to an increase in the average sentence lengths. This cannot be avoided as it is essential to enable a correspondence between the sentences of the two languages when one of them is a simple fusional language. Even with the increase in the average sentence length, the attention models that have been developed to ensure correctness of translation of long sequences can be put to good use when involving morphologically rich languages. Another point to note here is that morphologically rich languages like Tamil generally have lesser number of words per sentence than languages like English due to the inherent property of agglutination. Future Work The model implemented in this paper only includes source-side morphological segmentation and does not include a target side morphological agglutination to give back the output in words rather than morphemes. In order to implement an end-to-end translation system for morphologically rich",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Attention Mechanism in MT"
+      ],
+      "topic_links": []
+    },
+    "e18": {
+      "text": "languages, a morphological generator is essential because the output units of the translation cannot be morphemes. The same model implemented can be further enhanced by means of a better corpus that can generalize over more than just domain specific source sentences. Also, the use of a better GPU would result in a better allocation of the hidden layer sizes and the batch sizes thereby possibly increasing the scope and accuracy of learning of the translation model. Although not directly related to Machine Translation, the novel encoder\u2013 decoder architecture proposed in by Rocktaschel et al. rocktaschel2015reasoning for Natural Language Inference (NLI) can be used for the same. Their model fuses inferences from each and every individual word, summarizing information at each step, thereby linking the hidden state of the encoder with that of the decoder by means of a weighted sum, trained for optimization. Acknowledgements I would like to thank Dr. M. Anand Kumar, Assistant Professor, Amrita Vishwa Vidyapeetham for his continuous support and guidance. I would also like to thank Dr. Arvindan, Professor, SSN College Of Engineering for his inputs and suggestions.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Model Enhancement"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Recurrent Neural Networks (RNNs) are a type of neural network used in Statistical Machine Translation (SMT) to enable automated translation with reduced memory requirements.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Neural translation models require only about 5% of the memory used by traditional shallow SMT models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Neural translation models are optimized such that each module is trained jointly to improve overall translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Neural translation models require a large amount of parallel corpus to learn deeper contextual information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Morphologically rich languages, such as Tamil, use agglutination where suffixes are added to words to convey grammatical information like tense, plurality, and part of speech.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Tamil has at least 30,000 inflectional forms of any given verb and about 5,000 inflectional forms of any noun.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Inflectional forms in Tamil carry information about part of speech, tense, and plurality, which are essential for accurate machine translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The availability of parallel corpus for Tamil is very scarce, limiting the development of effective English\u2013Tamil machine translation systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Tamil includes unique suffixes for each consonant to improve pronunciation, which cause MT systems to treat the same word as different words during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Most English\u2013Tamil machine translation models rely on manually created, non-publicly available corpora for training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Tamil exists in two distinct forms: traditionally defined Tamil and its pronunciations, adding complexity to translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Fact"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Tamil is not acoustically pleasing to use due to the lack of linguistic flow between syllables and time-consuming verbal communication.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Tamil lacks linguistic flow between syllables, making its verbal communication time-consuming.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The written form of Tamil is rigid in structure and syntax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The spoken form of Tamil prioritizes flow and pace over syntax and spelling correctness.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The divide between written and spoken Tamil results in two distinct versions of the language within the corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Sentences from the Bible, written in traditional Tamil, differ from those in movie subtitles, which use spoken Tamil format.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The EnTam v2 corpus contains parallel news articles, English and Tamil Bible texts, and movie subtitles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The tourism corpus was obtained from TDIL (Technology Development for Indian Languages).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "A corpus of Tamil novels and short stories was collected from Anna University (AU-KBC).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The complete corpus consists of 197,792 sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "A monolingual Tamil corpus of 567,772 sentences was self-collected from online ebook libraries using Python and urllib.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "All corpora were standardized to UTF-8 encoding using the chardet package.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "The corpora were cleaned of stray special characters, unnecessary HTML tags, and website URLs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Word embeddings for source and target languages are used as initial vectors to improve contextualization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The skip-gram model of word2vec optimizes vectors by computing the average log probability of context words given a source word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The context window size k is used in the skip-gram model for vectorization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The probability of a word is computed using hierarchical softmax of the product of the transpose of the output vector and the input vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Negative sampling and subsampling of frequent words were not used in this experiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Excluded"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "A monolingual Tamil corpus of 569,772 sentences was used to enhance contextual richness of word vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The word2vec model was trained with a vector size of 100, which is optimal for GPU memory usage and performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Word vector sizes over 150 yield similar results to size 150, and size 100 performs nearly as well.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Using a large monolingual corpus increases the contextual richness of word vectors compared to using only the target side of a bilingual corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "A trade-off between domain specificity and corpus size is essential in building an English\u2013Tamil neural machine translation system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Trade-off"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The window size was not explicitly specified in the training configuration.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "A batch size of 50 words was used for training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Negative sampling was set to 1 due to the morphologically rich nature of the language, where many important words occur only once in the corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The gensim word2vec toolkit was used to implement the word embedding process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The neural translation model implemented by Bahdanau et al. (2014) uses a bidirectional LSTM encoder and an attention-based decoder for sequence-to-sequence translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The bidirectional LSTM encoder takes the source sentence and encodes it into a context vector that serves as input to the decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The decoder in the model is attention-based, using a weighted sum of all encoder hidden layer outputs along with the previous decoder state and decoded word as input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The context vector is the output of the bidirectional LSTM encoder and is used as input to the decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The attention vector is the weighted sum of all encoder hidden layer outputs at each time step, providing a contextual reference to the source sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "A neural machine translation model directly computes the probability of a target language sentence given a source language sentence, word by word at each time step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The basic decoder without attention computes the log probability of the target sentence as the sum of log probabilities of each word given all previous words in the target sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The attention-based model computes the probability as a function of the previous decoder output, current decoder hidden state, and the attention vector, which is a weighted sum of encoder hidden states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The decoder LSTM computes the probability at each time step based on the previous decoder output, current decoder hidden state, and the context vector from the attention mechanism.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The attention mechanism uses a weight parameter to compute the context vector as a weighted sum of all encoder hidden layer outputs over the source sentence tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "INLINEFORM3 is the alignment parameter calculated by a feed forward neural network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The feed forward neural network is used to calculate the alignment parameter and is trained jointly with the neural translation model to improve translation performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The alignment parameter is computed as the softmax output of the feedforward network applied to the hidden state of the decoder at timestep INLINEFORM2 and the encoder's hidden layer annotation at timestep INLINEFORM4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "A concatenation of the forward and reverse hidden layer parameters of the encoder is used to compute the weights for the attention mechanism at each step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "A global attention mechanism is preferred over local attention because it efficiently maps structural differences between languages for accurate source sentence lookup.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Local attention with monotonic context lookup is impractical due to structural discordance between English and Tamil sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Using Gaussian distributions for local attention is inefficient due to morphological and structural variations in translations across the corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The No Peepholes variant of the LSTM cell uses a gated mechanism to prevent the vanishing gradient problem and has been shown to yield the best results among LSTM variants.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Design"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The LSTM cell vector is maintained to never reach zero through a weighted sum of the previous layer's cell vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The LSTM hidden layer output vector is derived from the cell vector and represents the current state of the network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The forget gate in an LSTM is regulated by a sigmoid function applied to the weighted sum of the current input and the previous hidden layer output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The input gate in an LSTM is regulated by a sigmoid function applied to the weighted sum of the current input and the previous hidden layer output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The hidden layer output is determined as an activation of the cell gate, which is regulated by the output gate.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The interplay between the hidden state and cell state vectors at every timestep ensures that the problem of vanishing gradients does not occur in LSTM networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The learnable parameters of an LSTM cell include all the weights and biases in the network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The LSTM specified by equations 7 through 11 is used as the decoder in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The encoder uses a bidirectional RNN LSTM cell with two hidden layer components that contribute to the output at each time step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The forward LSTM component computes the hidden state from the first timestep to the token at which the input is reached.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The backward LSTM component computes the hidden state from the last timestep backwards to the first token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Morphological segmentation is a semi-supervised method that maximizes the probability of a recursive split of words into prefix, root, and postfix based on all possible morphemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The model parameters include the morph type count, morph token count, and morph strings and their counts from training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The morphological segmentation model is trained by maximizing the Maximum A Posteriori (MAP) probability using Bayes' rule.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The prior in the morphological segmentation model is estimated using the Minimum Description Length (MDL) principle.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The likelihood in the morphological segmentation model is estimated based on the probability of word splits given the morpheme structure.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "INLINEFORM1 refers to the INLINEFORM2 morpheme of the word INLINEFORM3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "An extension to the Viterbi algorithm is used for the decoding step based on exhaustive mapping of morphemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Extension"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Over-segmentation issues in unsupervised morphological segmentation are addressed using extra parameters in the cost function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Under-segmentation issues in unsupervised morphological segmentation are addressed using extra parameters in the cost function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "INLINEFORM0 represents the likelihood of the cost function in the morphological segmentation model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "INLINEFORM1 describes the likelihood of the contribution of the annotated dataset to the cost function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "INLINEFORM2 represents the likelihood of the labeled data in the cost function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "A decrease in the value of INLINEFORM3 results in smaller segments, while an increase leads to larger segments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "INLINEFORM4 accounts for size discrepancies due to reduced availability of annotated corpus compared to the training corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "A Python extension to the morphological segmentation tool morfessor 2.0 was used for the experiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Anoop Kunchukkutan collated and released the annotation data for the Tamil language in the Indic NLP Library.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contributor"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The complexities of neural machine translation of morphologically rich languages were studied using English to Tamil translation with an RNN-LSTM Bi-directional encoder-decoder architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Study"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "A phrase-based SMT system was implemented as a baseline for comparison with the neural machine translation model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The Factored SMT model with source-side preprocessing by Kumar et al. (kumar2014improving) was used as a reference for translation between English and Tamil.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "An additional 569,772 monolingual Tamil sentences were used to train the language model of the SMT system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Input"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Input sentences from source and target languages were divided into bucketed pairs of fixed sizes to minimize PAD tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The heat map of English\u2013Tamil sentence pairs showed that the word distribution is centered around the 10\u201320 word region.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "More buckets were applied in the 10\u201320 word region due to sufficient examples for effective learning in each bucket.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Design"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The RNNSearch models are specified by Fig. FIGREF21.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The bucketing scheme for the RNNMorph model, using morphs instead of words, is a simple shifted scheme of the one used in Fig. FIGREF21, where every target sentence bucket count was increased uniformly by 5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The English vocabulary for the RNNSearch model was restricted to 60,000 out of 67,768 words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The Tamil vocabulary for the RNNSearch model was restricted to 150,000 out of 340,325 words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The RNNMorph model used the full corpus vocabulary, with 67,768 English and 41,906 Tamil words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Words not in the vocabulary from the test set input and output were replaced with the universal UNK token, symbolizing an unknown word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The LSTM hidden layer size was set to 500, which was the maximum possible with a batch size of 16 on the 2GB NVIDIA GeForce GT 650M GPU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The training batch size was set to 16, as it provided the best convergence and was the optimal size under computational constraints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The models used a 4-layer LSTM with bidirectional encoder and attention decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The model used Stochastic Gradient Descent (SGD) with a sampled softmax loss of 512 per sample.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The model was trained with a learning rate of 1.0 and a decay rate of 0.5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Gradient clipping based on the global norm of 5.0 was applied to prevent exploding gradients.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The model was run on a 2GB NVIDIA GeForce GT 650M card with 384 cores, with memory constrained to GPU limits.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The performance of the models was evaluated using BLEU metric parameters (modified 1-gram, 2-gram, 3-gram, and 4-gram precision) and human evaluation metrics of adequacy, fluency, and relative ranking.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "BLEU scores for the various models used in the experiment are tabulated in Table.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The BLEU metric computes unigram, bigram, trigram, and BLEU-4 modified precision values, each micro-averaged over the test set sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The performance of the phrase-based SMT model was inferior to that of the RNNSearch model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The baseline RNNSearch system was refined using word2vec vectors to embed semantic understanding, resulting in a slight increase in BLEU scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "Fig. FIGREF26 plots BLEU scores as a line graph and shows 4-gram BLEU scores as a bar graph to visualize performance improvements across models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The use of morphological segmentation to split words into morphemes improved BLEU precision values in the RNNMorph model due to the agglutinative and morphologically rich nature of Tamil.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The BLEU score computes micro-averaged precision scores, where an increase in token count due to morphological segmentation increases both numerator and denominator.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Human evaluation metrics such as adequacy, precision, and ranking were used to assess whether the increase in BLEU scores correlated with actual translation performance improvement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "A group of 50 native speakers proficient in both English and Tamil served as annotators for the human evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "A collection of about 100 sentences from the test set was randomly selected for evaluation to ensure objectivity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Adequacy rating is calculated on a 5-point scale measuring how much meaning is conveyed by the translation (All, Most, Much, Little, None).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Fluency rating is based on grammatical correctness and measured on a 5-point scale (Flawless, Good, Non-native, Disfluent, Incomprehensive).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Sentence-level translations from the RNNMorph and RNNSearch + Word2Vec models were individually ranked against each other to compare performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "The intra-annotator ranking Kappa coefficient for the RNNMorph model is 0.573.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "The intra-annotator ranking Kappa coefficient for the RNNSearch+Word2Vec model is 0.410.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "The RNNMorph model achieved saturation of perplexity earlier than the RNNSearch+Word2Vec model during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The RNNMorph model reduced the vocabulary size from 340,325 words to 41,906 morphs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "The sampled SoftMax loss was used as the error function to accommodate a large target vocabulary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "The attention vectors of the RNNMorph model show improved source sentence lookup compared to the RNNSearch+Word2Vec model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "The RNNSearch+Word2Vec model tends to attend to the EOS token in the middle of the sentence, leading to incomplete translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The RNNSearch+Word2Vec model was trained on only 44% of the Tamil vocabulary and 74% of the English vocabulary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The RNNMorph model consistently achieves lower perplexity values than the RNNSearch+Word2Vec model across time steps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "The RNNMorph model is a machine translation system that uses morphological segmentation of Tamil text to reduce the target vocabulary size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "The Tamil language is morphologically rich, which leads to a large target vocabulary size in translation models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "Morphological segmentation reduced the target vocabulary size from 340,325 to 41,906 in the RNNMorph model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "Morphological segmentation reduces the occurrence of unknown tokens in translation by treating words as roots and inflections.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The RNNMorph model exhibits repetitions of phrases in translations, which are less frequent in RNNSearch predictions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "Repetitions in RNNMorph are likely due to increased sequence length caused by morphological segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "The RNNMorph model requires more memory units in the LSTM and feed-forward network due to increased morphs per sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "Errors in semi-supervised morphological segmentation may contribute to repetitions and inaccuracies in translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "The Morph2Vec model uses morphological segmentation to produce grammatically sound translations with improved sentence structure.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "Most translation sentences in the Morph2Vec model contain no UNK tokens, except when an English word is absent from the source vocabulary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "Professors CN Krishnan and Sobha developed a machine-aided-translation system similar to Anusaakara English Hindi MT using a small corpus and few transfer rules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "Balajapally et al. developed a multilingual example-based machine translation system with 700,000 examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "Renganathan developed a rule-based machine translation system for English and Tamil using grammar rules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "Vetrivel et al. used Hidden Markov Models (HMMs) to align and translate English and Tamil parallel sentences to build a Statistical Machine Translation (SMT) system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "Irvine et al. attempted to combine parallel and similar corpora to improve the performance of English to Tamil SMT systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "Kasthuri et al. developed a rule-based MT system using a transfer lexicon and morphological analysis tools.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "Anglabharathi is a system developed at IIT Kanpur that translates English to a collection of Indian languages, including Tamil, using CFG-like structures to generate a pseudo-target for conversion.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "Various hybrid approaches in English\u2013Tamil machine translation combine rule-based methods, transfer methods, and interlingua representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "Statistical Machine Translation became dominant in English\u2013Tamil MT research due to its language independence, better generalization, and reduced need for linguistic expertise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "Morphological pre and post-processing techniques have been proposed as external enhancements to improve English\u2013Tamil machine translation performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Enhancement"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "RNN Encoder-Decoder models have shown good results in machine translation for languages with similar grammatical structures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "Deep MT systems have outperformed shallow SMT models recently, enabled by increased computational resources and hardware capabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "Cho et al. introduced the first deep RNN-LSTM encoder-decoder model in 2014, where the encoder's context vector (computed for each word) is fed to every decoder unit until the EOS token is reached.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "Sutskever et al. developed an encoder-decoder model where the decoder receives the context vector only for the first word of the target sentence, and subsequent outputs are used as inputs for the decoder steps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "A major drawback of RNN-based encoder-decoder models is the large size of the context vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Drawback"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "The encoder is static in nature, meaning it uses a fixed-sized vector to represent sentences of arbitrary length.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "Bahdanau et al. introduced a method using variable-length word vectors and a weighted sum of inputs for the decoder, enabling selective lookup to the source sentence during decoding, known as the attention mechanism.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "The attention mechanism allows the decoder to selectively focus on relevant parts of the source sentence during translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "Luong et al. distinguished between global and local attention using AER scores and employed Gaussian distribution and monotonic lookup to facilitate local source sentence look-up.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "Morphological segmentation improves translation performance in morphologically rich languages by enabling better correspondence between source and target sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "Machine translation involving morphologically rich languages should ideally be carried out after morphological segmentation of both source and target sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "Different agglutination schemes in morphologically rich languages make direct mapping between units difficult without prior segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "Morphological segmentation increases average sentence length, leading to higher model complexity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Drawback"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "Attention models developed for handling long sequences can be effectively used in translation involving morphologically rich languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "Morphologically rich languages like Tamil generally have fewer words per sentence due to agglutination.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "An end-to-end translation system for morphologically rich languages requires a morphological generator to convert output units back into words rather than morphemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future Work"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "A better, more generalized corpus can enhance the performance of the translation model by improving its domain coverage.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Improvement"
+      ],
+      "topic_links": []
+    },
+    "s164": {
+      "text": "Using a better GPU allows for optimal allocation of hidden layer and batch sizes, potentially increasing the model's learning scope and accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Improvement"
+      ],
+      "topic_links": []
+    },
+    "s165": {
+      "text": "The encoder-decoder architecture proposed by Rocktaschel et al. for Natural Language Inference can be adapted for machine translation by fusing word-level inferences and linking encoder and decoder hidden states via a weighted sum.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relevance"
+      ],
+      "topic_links": []
+    },
+    "s166": {
+      "text": "Dr. M. Anand Kumar provided continuous support and guidance during the research.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgement"
+      ],
+      "topic_links": []
+    },
+    "s167": {
+      "text": "Dr. Arvindan offered valuable inputs and suggestions during the research.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgement"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.410",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "0.573",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "100 sentences",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "10\u201320 words",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "197,792 sentences",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "30,000 inflectional verb forms",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "340,325 vocabulary",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "340,325 words",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "4 hidden layers",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "41,906 morphs",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "41,906 vocabulary",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "44% Tamil vocabulary",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "5",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "5% memory usage",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "5,000 inflectional noun forms",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "5-point scale",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "50 native annotators",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "567,772 sentences",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "569,772 monolingual Tamil sentences",
+      "Input",
+      "s87"
+    ],
+    [
+      "569,772 monolingual Tamil sentences",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "7 worker threads",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "700,000",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "74% English vocabulary",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "AER scores",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "AU-KBC",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "AU-KBC website",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "Amrita Vishwa Vidyapeetham",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "Anglabharathi",
+      "Definition",
+      "s143"
+    ],
+    [
+      "Anna University",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "Anoop Kunchukkutan",
+      "Contributor",
+      "s83"
+    ],
+    [
+      "Anoop Kunchukkutan",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Anusaakara",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "Attention vectors",
+      "Result",
+      "s123"
+    ],
+    [
+      "BIBREF14",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "BIBREF2",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "BIBREF3",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "BIBREF5",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "BIBREF6",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "BIBREF7",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "BIBREF9",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "BLEU evaluation",
+      "Result",
+      "s105"
+    ],
+    [
+      "BLEU metric",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "BLEU metric",
+      "Definition",
+      "s106"
+    ],
+    [
+      "BLEU precision values",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "BLEU score",
+      "Property",
+      "s111"
+    ],
+    [
+      "BLEU-4",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "Bahdanau et al.",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "Bahdanau et al. 2014",
+      "Definition",
+      "s153"
+    ],
+    [
+      "Bahdanau et al. 2014 model",
+      "Definition",
+      "s39"
+    ],
+    [
+      "Bahdanau2014",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "Bahdanau2014",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "Balajapally",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "Balajapally et al.",
+      "Related Work",
+      "s138"
+    ],
+    [
+      "Bayes' rule",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "Bible",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "Bible sentences",
+      "Example",
+      "s17"
+    ],
+    [
+      "Bidirectional LSTM",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "CN Krishnan",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "CN Krishnan and Sobha",
+      "Related Work",
+      "s137"
+    ],
+    [
+      "Cho et al. (SecondOneByCho)",
+      "Definition",
+      "s149"
+    ],
+    [
+      "Context vector size",
+      "Drawback",
+      "s151"
+    ],
+    [
+      "Deep MT systems",
+      "Result",
+      "s148"
+    ],
+    [
+      "Dr. Arvindan",
+      "Acknowledgement",
+      "s167"
+    ],
+    [
+      "Dr. Arvindan",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "Dr. M. Anand Kumar",
+      "Acknowledgement",
+      "s166"
+    ],
+    [
+      "Dr. M. Anand Kumar",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "EBMT system",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "EOS token",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "EnTam v2",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "EnTam v2 corpus",
+      "Definition",
+      "s18"
+    ],
+    [
+      "English",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "English Hindi MT",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "English test sentence",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "English vocabulary size for RNNSearch",
+      "Property",
+      "s93"
+    ],
+    [
+      "English word",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "English-Tamil MT",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "English\u2013Tamil MT models",
+      "Limitation",
+      "s10"
+    ],
+    [
+      "English\u2013Tamil sentence pairs",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Error function",
+      "Definition",
+      "s122"
+    ],
+    [
+      "FIGREF12",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "FIGREF17",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "FIGREF20",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "FIGREF37",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "FIGREF44",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "FIGREF53",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "FIGREF55",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "Factored SMT model",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Factored SMT model",
+      "Reference",
+      "s86"
+    ],
+    [
+      "Fig. FIGREF26",
+      "Result",
+      "s109"
+    ],
+    [
+      "Fig. FIGREF34",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "Fig. FIGREF35",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "Fig. FIGREF37",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "Fig. FIGREF44",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "GPU",
+      "Improvement",
+      "s164"
+    ],
+    [
+      "GPU",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "GPU memory",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "Gaussian distribution",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "Gaussian distribution",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "Gaussian distribution",
+      "Limitation",
+      "s55"
+    ],
+    [
+      "Greff et al. 2015",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "Hybrid approaches",
+      "Property",
+      "s144"
+    ],
+    [
+      "INLINEFORM0",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "INLINEFORM0",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "INLINEFORM0",
+      "Property",
+      "s77"
+    ],
+    [
+      "INLINEFORM1",
+      "Definition",
+      "s73"
+    ],
+    [
+      "INLINEFORM1",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "INLINEFORM1",
+      "Property",
+      "s78"
+    ],
+    [
+      "INLINEFORM2",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "INLINEFORM2",
+      "Property",
+      "s79"
+    ],
+    [
+      "INLINEFORM3",
+      "Definition",
+      "s49"
+    ],
+    [
+      "INLINEFORM3",
+      "Effect",
+      "s80"
+    ],
+    [
+      "INLINEFORM3",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "INLINEFORM4",
+      "Function",
+      "s81"
+    ],
+    [
+      "INLINEFORM4",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Indic NLP Library",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Introduction",
+      "Introduction",
+      "e1"
+    ],
+    [
+      "Irvine et al.",
+      "Definition",
+      "s141"
+    ],
+    [
+      "Kappa co-efficient",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "Kasthuri et al.",
+      "Definition",
+      "s142"
+    ],
+    [
+      "Kohonen et al.",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "Kumar et al.",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "LSTM cell parameters",
+      "Property",
+      "s63"
+    ],
+    [
+      "LSTM cell vector",
+      "Property",
+      "s57"
+    ],
+    [
+      "LSTM hidden layer output vector",
+      "Property",
+      "s58"
+    ],
+    [
+      "LSTM hidden layer size",
+      "Property",
+      "s97"
+    ],
+    [
+      "LSTM memory units",
+      "Property",
+      "s133"
+    ],
+    [
+      "Luong et al.",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "Luong et al. 2015",
+      "Analysis",
+      "s155"
+    ],
+    [
+      "MAP probability",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "MT performance",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "Maximum A Posteriori (MAP) probability",
+      "Method",
+      "s70"
+    ],
+    [
+      "Minimum Description Length (MDL)",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "Minimum Description Length (MDL) principle",
+      "Method",
+      "s71"
+    ],
+    [
+      "Morph2Vec",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "Morph2Vec model",
+      "Definition",
+      "s135"
+    ],
+    [
+      "Morphological pre and post processing",
+      "Enhancement",
+      "s146"
+    ],
+    [
+      "NLI",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "Natural Language Inference",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "No Peepholes (NP) LSTM",
+      "Design",
+      "s56"
+    ],
+    [
+      "No Peepholes LSTM",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "PAD tokens",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Perplexity",
+      "Property",
+      "s126"
+    ],
+    [
+      "RNN Encoder-Decoder models",
+      "Result",
+      "s147"
+    ],
+    [
+      "RNN LSTM Bi-directional encoder attention decoder",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "RNNMorph and RNNSearch + Word2Vec",
+      "Relationship",
+      "s117"
+    ],
+    [
+      "RNNMorph bucketing scheme",
+      "Definition",
+      "s92"
+    ],
+    [
+      "RNNMorph model",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "RNNMorph model",
+      "Cause",
+      "s110"
+    ],
+    [
+      "RNNMorph model",
+      "Definition",
+      "s127"
+    ],
+    [
+      "RNNMorph model",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "RNNMorph model",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "RNNMorph model",
+      "Property",
+      "s120"
+    ],
+    [
+      "RNNMorph model",
+      "Property",
+      "s121"
+    ],
+    [
+      "RNNMorph model",
+      "Result",
+      "s118"
+    ],
+    [
+      "RNNMorph vocabulary size",
+      "Property",
+      "s95"
+    ],
+    [
+      "RNNSearch model",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "RNNSearch model",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "RNNSearch model",
+      "Property",
+      "s108"
+    ],
+    [
+      "RNNSearch models",
+      "Definition",
+      "s91"
+    ],
+    [
+      "RNNSearch+Word2Vec model",
+      "Cause",
+      "s124"
+    ],
+    [
+      "RNNSearch+Word2Vec model",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "RNNSearch+Word2Vec model",
+      "Result",
+      "s119"
+    ],
+    [
+      "RNNs",
+      "Definition",
+      "s1"
+    ],
+    [
+      "RNNs",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "Renganathan",
+      "Definition",
+      "s139"
+    ],
+    [
+      "Rocktaschel et al.",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "Rocktaschel et al. 2015",
+      "Relevance",
+      "s165"
+    ],
+    [
+      "SMT",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "SSN College of Engineering",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "Sobha",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "Statistical Machine Translation",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "Statistical Machine Translation",
+      "Result",
+      "s145"
+    ],
+    [
+      "Sutskever et al. (sutskever2014sequence)",
+      "Definition",
+      "s150"
+    ],
+    [
+      "TDIL",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "Tamil",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "Tamil",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "Tamil",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "Tamil",
+      "Property",
+      "s6"
+    ],
+    [
+      "Tamil",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "Tamil",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "Tamil language",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Tamil language",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "Tamil language",
+      "Property",
+      "s128"
+    ],
+    [
+      "Tamil language",
+      "Property",
+      "s161"
+    ],
+    [
+      "Tamil novels",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "Tamil novels and short stories corpus",
+      "Source",
+      "s20"
+    ],
+    [
+      "Tamil vocabulary size for RNNSearch",
+      "Property",
+      "s94"
+    ],
+    [
+      "Tamil word",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "Training data",
+      "Property",
+      "s125"
+    ],
+    [
+      "UNK",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "UNK token",
+      "Definition",
+      "s96"
+    ],
+    [
+      "UNK tokens",
+      "Result",
+      "s136"
+    ],
+    [
+      "UTF-8",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "UTF-8 encoding",
+      "Property",
+      "s23"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e12"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e16"
+    ],
+    [
+      "Vetrivel et al.",
+      "Definition",
+      "s140"
+    ],
+    [
+      "Viterbi algorithm",
+      "Extension",
+      "s74"
+    ],
+    [
+      "Viterbi algorithm",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "Word2Vec",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "acoustically pleasing",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "acoustically pleasing",
+      "Property",
+      "s12"
+    ],
+    [
+      "adequacy",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "adequacy rating",
+      "Definition",
+      "s115"
+    ],
+    [
+      "agglutination",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "agglutination schemes",
+      "Cause",
+      "s158"
+    ],
+    [
+      "agglutinative languages",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "alignment parameter",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "annotated dataset",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "annotators",
+      "Property",
+      "s113"
+    ],
+    [
+      "attention mechanism",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "attention mechanism",
+      "Method",
+      "s52"
+    ],
+    [
+      "attention mechanism",
+      "Result",
+      "s154"
+    ],
+    [
+      "attention models",
+      "Application",
+      "s160"
+    ],
+    [
+      "attention vector",
+      "Definition",
+      "s43"
+    ],
+    [
+      "attention vector",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "attention vectors",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "attention weight parameter",
+      "Property",
+      "s48"
+    ],
+    [
+      "attention weights",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "attention-based decoder",
+      "Component",
+      "s41"
+    ],
+    [
+      "attention-based decoder",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "attention-based model probability formula",
+      "Formula",
+      "s46"
+    ],
+    [
+      "backward LSTM component",
+      "Process",
+      "s67"
+    ],
+    [
+      "basic decoder",
+      "Component",
+      "s45"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s36"
+    ],
+    [
+      "batch size of 50 words",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "batch sizes",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "biases",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "bidirectional LSTM encoder",
+      "Component",
+      "s40"
+    ],
+    [
+      "bidirectional LSTM encoder",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "bidirectional RNN",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "bidirectional RNN LSTM cell",
+      "Definition",
+      "s65"
+    ],
+    [
+      "bigram",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "bilingual corpus",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "bucket size distribution",
+      "Design",
+      "s90"
+    ],
+    [
+      "bucketing",
+      "Method",
+      "s88"
+    ],
+    [
+      "bucketing",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "cell gate",
+      "Definition",
+      "s61"
+    ],
+    [
+      "cell gate",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "cell vector",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "chardet package",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "concatenation",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "consonants",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "context vector",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "context vector",
+      "Definition",
+      "s42"
+    ],
+    [
+      "context vector",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "context window",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "context window k",
+      "Property",
+      "s27"
+    ],
+    [
+      "contextual richness",
+      "Result",
+      "s33"
+    ],
+    [
+      "corpora",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "corpus",
+      "Improvement",
+      "s163"
+    ],
+    [
+      "corpus",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "corpus cleaning",
+      "Process",
+      "s24"
+    ],
+    [
+      "corpus divide",
+      "Result",
+      "s16"
+    ],
+    [
+      "corpus requirement",
+      "Problem",
+      "s4"
+    ],
+    [
+      "cost function",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "current timestep",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "decoder",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "decoder LSTM",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "decoder LSTM computation",
+      "Process",
+      "s47"
+    ],
+    [
+      "decoder hidden state",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "decoder in the model",
+      "Usage",
+      "s64"
+    ],
+    [
+      "different forms",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "domain specificity",
+      "Trade-off",
+      "s34"
+    ],
+    [
+      "encoder",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "encoder",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "encoder",
+      "Property",
+      "s152"
+    ],
+    [
+      "encoder decoder architectures",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "encoder hidden layer",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "encoder-decoder architecture",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "end-to-end translation system",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "evaluation metrics",
+      "Definition",
+      "s104"
+    ],
+    [
+      "evaluation set",
+      "Property",
+      "s114"
+    ],
+    [
+      "exhaustive combination",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "feed forward neural network",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "feed forward neural network",
+      "Purpose",
+      "s50"
+    ],
+    [
+      "fixed length output vector",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "fluency",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "fluency rating",
+      "Definition",
+      "s116"
+    ],
+    [
+      "forget gate",
+      "Definition",
+      "s59"
+    ],
+    [
+      "forget gate",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "forward LSTM component",
+      "Process",
+      "s66"
+    ],
+    [
+      "fusional language",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "fusional languages",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "generative probabilistic model",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "gensim word2vec",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "gensim word2vec",
+      "Tool",
+      "s38"
+    ],
+    [
+      "global attention",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "global attention",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "global attention mechanism",
+      "Advantage",
+      "s53"
+    ],
+    [
+      "gradient clipping",
+      "Property",
+      "s102"
+    ],
+    [
+      "heatmap",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "heatmaps",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "hidden layer output",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "hidden layer output vector",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "hidden layer sizes",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "hidden states",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "hierarchical softmax",
+      "Method",
+      "s28"
+    ],
+    [
+      "hierarchical softmax",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "html tags",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "human evaluation",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "human evaluation",
+      "Method",
+      "s112"
+    ],
+    [
+      "increased sentence length",
+      "Drawback",
+      "s159"
+    ],
+    [
+      "inflectional forms",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "inflectional forms",
+      "Result",
+      "s7"
+    ],
+    [
+      "inflections",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "input gate",
+      "Definition",
+      "s60"
+    ],
+    [
+      "input gate",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "intra-annotator ranking",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "kohonen2010semi",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "kumar2014improving",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "labeled data",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "learnable parameters",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "learning rate",
+      "Property",
+      "s101"
+    ],
+    [
+      "learning rate decay",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "likelihood",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "likelihood estimation",
+      "Method",
+      "s72"
+    ],
+    [
+      "linguistic flow",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "linguistic flow",
+      "Property",
+      "s13"
+    ],
+    [
+      "local attention",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "local attention",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "local attention mechanism",
+      "Limitation",
+      "s54"
+    ],
+    [
+      "log probability",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "luong2015effective",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "machine translation",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "machine-aided-translation",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "manual translation corpora",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "mapping between units",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "mathematical formula",
+      "Result",
+      "s51"
+    ],
+    [
+      "micro-averaged",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "model architecture",
+      "Definition",
+      "s99"
+    ],
+    [
+      "monolingual Tamil corpus",
+      "Definition",
+      "s22"
+    ],
+    [
+      "monolingual corpus",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "monolingual corpus size",
+      "Property",
+      "s30"
+    ],
+    [
+      "monotonic context lookup",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "monotonic lookup",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "morfessor 2.0",
+      "Tool",
+      "s82"
+    ],
+    [
+      "morph strings",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "morph token count",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "morph type count",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "morph type count",
+      "Property",
+      "s69"
+    ],
+    [
+      "morphemes",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "morphemes",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "morphological generator",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "morphological richness",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "morphological richness",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "morphological roots",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "morphological segmentation",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "morphological segmentation",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "morphological segmentation",
+      "Benefit",
+      "s156"
+    ],
+    [
+      "morphological segmentation",
+      "Cause",
+      "s130"
+    ],
+    [
+      "morphological segmentation",
+      "Definition",
+      "s68"
+    ],
+    [
+      "morphological segmentation",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "morphological variations",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "morphologically rich languages",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "morphologically rich languages",
+      "Definition",
+      "s5"
+    ],
+    [
+      "morphologically rich languages",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "morphologically rich languages",
+      "Requirement",
+      "s157"
+    ],
+    [
+      "movie subtitles",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "negative sampling",
+      "Excluded",
+      "s29"
+    ],
+    [
+      "negative sampling",
+      "Property",
+      "s37"
+    ],
+    [
+      "negative sampling",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "negative sampling set at 1",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "neural machine translation",
+      "Study",
+      "s84"
+    ],
+    [
+      "neural machine translation model",
+      "Definition",
+      "s44"
+    ],
+    [
+      "neural translation models",
+      "Cause",
+      "s3"
+    ],
+    [
+      "neural translation models",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "neural translation models",
+      "Property",
+      "s2"
+    ],
+    [
+      "number of tokens in source sentence",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "number of words in target sentence",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "online availability",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "optimization algorithm",
+      "Property",
+      "s100"
+    ],
+    [
+      "output gate",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "over-segmentation",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "over-segmentation",
+      "Problem",
+      "s75"
+    ],
+    [
+      "parallel corpus",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "parallel corpus",
+      "Problem",
+      "s8"
+    ],
+    [
+      "parallel news articles",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "part of speech tags",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "perplexity",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "phrase based SMT",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "phrase-based SMT model",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "phrase-based SMT model",
+      "Result",
+      "s107"
+    ],
+    [
+      "phrase-based SMT model",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "phrase-based SMT system",
+      "Baseline",
+      "s85"
+    ],
+    [
+      "plurality",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "postfix",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "prefix",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "previous timestep",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "prior",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "pronunciation-based suffixes",
+      "Problem",
+      "s9"
+    ],
+    [
+      "pronunciation-based suffixes",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "randomized selection",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "ranking values",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "recursive split",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "rel",
+      "Relation Definition",
+      "e6"
+    ],
+    [
+      "repetitions",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "repetitions in RNNMorph",
+      "Result",
+      "s131"
+    ],
+    [
+      "rocktaschel2015reasoning",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "root",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "sampled SoftMax loss",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "semi-supervised morphological segmentation",
+      "Cause",
+      "s134"
+    ],
+    [
+      "sentence length",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "sequence length",
+      "Cause",
+      "s132"
+    ],
+    [
+      "short stories",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "sigmoid function",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "skinny shift",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "skip gram",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "skip-gram model",
+      "Definition",
+      "s26"
+    ],
+    [
+      "softmax output",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "source sentence",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "source vocabulary",
+      "Morphological Segmentation",
+      "e15"
+    ],
+    [
+      "special characters",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "spelling",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "spoken Tamil",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "spoken form",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "spoken form",
+      "Definition",
+      "s15"
+    ],
+    [
+      "stagnation in perplexity",
+      "Model Performance Comparison",
+      "e14"
+    ],
+    [
+      "static vector",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "structural discordance",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "subsampling",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "suffix characters",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "syllables",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "syntactic divergence",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "syntax",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "target sentence",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "target side morphological agglutination",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "target vocabulary size",
+      "Result",
+      "s129"
+    ],
+    [
+      "target-side morphological agglutination",
+      "Future Work",
+      "s162"
+    ],
+    [
+      "tense",
+      "Morphological Rich Languages in MT",
+      "e3"
+    ],
+    [
+      "test set results",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "time step",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "token increase",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "total corpus size",
+      "Property",
+      "s21"
+    ],
+    [
+      "tourism corpus",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "tourism corpus",
+      "Source",
+      "s19"
+    ],
+    [
+      "traditional Tamil",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "traditional Tamil",
+      "Tamil Language MT Issues",
+      "e4"
+    ],
+    [
+      "training batch size",
+      "Property",
+      "s98"
+    ],
+    [
+      "training data",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "training environment",
+      "Property",
+      "s103"
+    ],
+    [
+      "training lexicon",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "translation model",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "trigram",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "two forms of Tamil",
+      "Fact",
+      "s11"
+    ],
+    [
+      "under-segmentation",
+      "Morphological Segmentation",
+      "e11"
+    ],
+    [
+      "under-segmentation",
+      "Problem",
+      "s76"
+    ],
+    [
+      "unigram",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "urllib package",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "use",
+      "Usage Example",
+      "e2"
+    ],
+    [
+      "vanishing gradient",
+      "Attention Mechanism in Translation",
+      "e9"
+    ],
+    [
+      "vanishing gradients",
+      "Problem",
+      "s62"
+    ],
+    [
+      "variable length word vectors",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "vector size 100",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "vector size 150",
+      "Result",
+      "s32"
+    ],
+    [
+      "verbal communication",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "website URLs",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "weight parameter",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "weighted sum",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "weighted sum",
+      "Translation Model Enhancement",
+      "e18"
+    ],
+    [
+      "weighted sum of encoder outputs",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "weighted sum of inputs",
+      "Attention Mechanism in MT",
+      "e17"
+    ],
+    [
+      "weights",
+      "LSTM Gate Mechanisms",
+      "e10"
+    ],
+    [
+      "window size",
+      "Neural Translation Model",
+      "e8"
+    ],
+    [
+      "window size",
+      "Property",
+      "s35"
+    ],
+    [
+      "word distribution",
+      "Observation",
+      "s89"
+    ],
+    [
+      "word vector size",
+      "Property",
+      "s31"
+    ],
+    [
+      "word2vec",
+      "Tamil Word2Vec Setup",
+      "e7"
+    ],
+    [
+      "word2vec embeddings",
+      "Method",
+      "s25"
+    ],
+    [
+      "word2vec vectors",
+      "BLEU Evaluation",
+      "e13"
+    ],
+    [
+      "written form",
+      "Corpus Composition",
+      "e5"
+    ],
+    [
+      "written form",
+      "Definition",
+      "s14"
+    ]
+  ]
+}

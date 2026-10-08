@@ -1,0 +1,2442 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 10,
+    "n_semantic": 59,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Microblogging": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "Twitter": {
+      "tag_set": [
+        "Dataset Validation",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "Weibo": {
+      "tag_set": [
+        "Dataset Validation",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "140 characters": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "spammers": {
+      "tag_set": [
+        "Property",
+        "Spammer Topic Detection",
+        "Topic-Based Feature Extraction",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "malicious links": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "unsolicited messages": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "human-like spammers": {
+      "tag_set": [
+        "Definition",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "user profiles": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "photos": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "social honeypot": {
+      "tag_set": [
+        "Definition",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "Lee et al.": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Feature Comparison",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "Lee2011Seven": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "URL clustering": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "network graph": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "Latent Dirichlet Allocation (LDA)": {
+      "tag_set": [
+        "Method",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "Local Outlier Standard Score (LOSS)": {
+      "tag_set": [
+        "Definition",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "Global Outlier Standard Score (GOSS)": {
+      "tag_set": [
+        "Definition",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "topic distribution": {
+      "tag_set": [
+        "Spammer Topic Detection",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "content-based features": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "topic-based features": {
+      "tag_set": [
+        "Definition",
+        "Purpose",
+        "Topic-Based Feature Extraction",
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "promotion": {
+      "tag_set": [
+        "Topic-Based Spammer Detection"
+      ]
+    },
+    "spammer classification": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "public dataset": {
+      "tag_set": [
+        "Feature Comparison",
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "self-collected dataset": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "Weibo dataset": {
+      "tag_set": [
+        "Definition",
+        "Result",
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "legitimate users": {
+      "tag_set": [
+        "Property",
+        "Spammer Topic Detection",
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "content polluters": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "fake accounts": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "LDA model": {
+      "tag_set": [
+        "Definition",
+        "Feature Comparison",
+        "Spammer Topic Detection",
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "topic probability vector": {
+      "tag_set": [
+        "Property",
+        "Topic-Based Feature Extraction",
+        "Topic-Based Features"
+      ]
+    },
+    "Honeypot dataset": {
+      "tag_set": [
+        "Feature Comparison",
+        "Result",
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "topic-3": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "topic-11": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "commercial topics": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "weather topics": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "social network": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "anti-spam rules": {
+      "tag_set": [
+        "Topic-Based Feature Extraction"
+      ]
+    },
+    "Blei": {
+      "tag_set": [
+        "Spammer Topic Detection"
+      ]
+    },
+    "red bars": {
+      "tag_set": [
+        "Spammer Topic Detection"
+      ]
+    },
+    "distribution patterns": {
+      "tag_set": [
+        "Spammer Topic Detection"
+      ]
+    },
+    "LDA": {
+      "tag_set": [
+        "Topic Model Introduction",
+        "Topic-Based Features"
+      ]
+    },
+    "Latent Dirichlet Allocation": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "blei2003": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "document": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "bag of words": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "words": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "topics": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "M": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "w_i1": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "w_i2": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "w_iM": {
+      "tag_set": [
+        "Topic Model Introduction"
+      ]
+    },
+    "$": {
+      "tag_set": [
+        "Invalid Input"
+      ]
+    },
+    "Z": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "K": {
+      "tag_set": [
+        "Topic Model Parameters",
+        "Topic-Based Features"
+      ]
+    },
+    "psi_k": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "theta_i": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "alpha": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "W": {
+      "tag_set": [
+        "Definition",
+        "Topic Model Parameters"
+      ]
+    },
+    "multinomial": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "document-topic": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "topic-word": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "hyper parameter": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "scarcity": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "Figure 2": {
+      "tag_set": [
+        "Topic Model Parameters"
+      ]
+    },
+    "Gibbs Sampling": {
+      "tag_set": [
+        "Method",
+        "Topic-Based Features"
+      ]
+    },
+    "GOSS": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Feature Comparison",
+        "Topic-Based Features"
+      ]
+    },
+    "LOSS": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Feature Comparison",
+        "Property",
+        "Topic-Based Features"
+      ]
+    },
+    "x_ik": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "mu(x_k)": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "mu(x_i)": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "W = {w_i1, w_i2, ..., w_iM}": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "0.3": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "0.01": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "15": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "n": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "spammer detection": {
+      "tag_set": [
+        "Topic-Based Features"
+      ]
+    },
+    "i-th user": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Definition"
+      ]
+    },
+    "tweet content": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "f_LOSS^i": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Definition"
+      ]
+    },
+    "Social Honeypot dataset": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Definition"
+      ]
+    },
+    "lee2010devils": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "60 seed social accounts": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "19,276 legitimate users": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "22,223 spammers": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "Sina Weibo": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "Tianchi Competition": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "2197 legitimate user accounts": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "802 spammers": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "commercially purchased": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "manual checking": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "preprocessing": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Process"
+      ]
+    },
+    "stopwords": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "punctuations": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "non-ASCII words": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "stemming": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "Jieba": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "precision": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Definition"
+      ]
+    },
+    "recall": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Definition"
+      ]
+    },
+    "F1-score": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Definition",
+        "Feature Comparison"
+      ]
+    },
+    "Support Vector Machines": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "SVM": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Feature Comparison",
+        "Result"
+      ]
+    },
+    "Adaboost": {
+      "tag_set": [
+        "Dataset and Evaluation",
+        "Feature Comparison",
+        "Result"
+      ]
+    },
+    "Random Forests": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "Eq. 19": {
+      "tag_set": [
+        "Dataset and Evaluation"
+      ]
+    },
+    "scikit-learn": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "10-fold cross validation": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "GOSS+LOSS": {
+      "tag_set": [
+        "Feature Comparison",
+        "Result"
+      ]
+    },
+    "accuracy": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "raw topic distribution probability": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "lee2011seven": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "UFN": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "UC": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "UH": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "smart spammers": {
+      "tag_set": [
+        "Definition",
+        "Feature Comparison",
+        "Property"
+      ]
+    },
+    "topic probability": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "self-built Chinese microblog": {
+      "tag_set": [
+        "Feature Comparison"
+      ]
+    },
+    "proposed features": {
+      "tag_set": [
+        "Dataset Validation"
+      ]
+    },
+    "local and global information": {
+      "tag_set": [
+        "Dataset Validation"
+      ]
+    },
+    "decision theory": {
+      "tag_set": [
+        "Dataset Validation"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Dataset Validation",
+        "Plan"
+      ]
+    },
+    "larger datasets": {
+      "tag_set": [
+        "Dataset Validation"
+      ]
+    },
+    "method validation": {
+      "tag_set": [
+        "Dataset Validation"
+      ]
+    },
+    "microblogging": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "simple spammers": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "network graph of social spammers": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "topic characteristics of spamming posts": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "feature extraction method": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "first time": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "topic distribution patterns": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "GOSS score": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "GOSS(x_ik)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "LOSS score": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03bc(x_i)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "X_i": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "extreme GOSS or LOSS values": {
+      "tag_set": [
+        "Indicator"
+      ]
+    },
+    "Weibo dataset after preprocessing": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Honeypot dataset after preprocessing": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "baseline methods": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "LOSS+GOSS": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LOSS+GOSS vs UFN+UC+UH": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "Combined features (LOSS+GOSS + UFN+UC+UH)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "SVM with combined features": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "GOSS and LOSS": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "public dataset and self-built Chinese microblog dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Microblogging such as Twitter and Weibo is a popular social networking service, which allows users to post messages up to 140 characters. There are millions of active users on the platform who stay connected with friends. Unfortunately, spammers also use it as a tool to post malicious links, send unsolicited messages to legitimate users, etc. A certain amount of spammers could sway the public opinion and cause distrust of the social platform. Despite the use of rigid anti-spam rules, human-like spammers whose homepages having photos, detailed profiles etc. have emerged. Unlike previous \"simple\" spammers, whose tweets contain only malicious links, those \"smart\" spammers are more difficult to distinguish from legitimate users via content-based features alone BIBREF0 . There is a considerable amount of previous work on spammer detection on social platforms. Researcher from Twitter Inc. BIBREF1 collect bot accounts and perform analysis on the user behavior and user profile features. Lee et al. lee2011seven use the so-called social honeypot by alluring social spammers' retweet to build a benchmark dataset, which has been extensively explored in our paper. Some researchers focus on the clustering of urls in tweets and network graph of social spammers BIBREF2 , BIBREF3 , BIBREF4 , BIBREF5 , showing the power of social relationship features.As for content information modeling, BIBREF6 apply improved sparse learning methods. However, few studies have adopted topic-based features. Some researchers BIBREF7 discuss topic characteristics of spamming posts, indicating that spammers are highly likely to dwell on some certain topics such as promotion. But this may not be applicable to the current scenario of smart spammers. In this paper, we propose an efficient feature extraction method. In this method, two new topic-based features are extracted and used to discriminate human-like spammers from legitimate users. We consider the historical tweets of each user as a document and use the Latent Dirichlet Allocation (LDA) model to compute the topic distribution for each user. Based on the calculated topic probability, two topic-based features, the Local Outlier Standard Score (LOSS) which captures the user's interests on different topics and the Global Outlier Standard Score (GOSS) which reveals the user's interests on specific topic in comparison with other users', are extracted. The two features contain both local and global information, and the combination of them can distinguish human-like spammers effectively. To the best of our knowledge, it is the first time that features based on topic distributions are",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Topic-Based Spammer Detection"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "used in spammer classification. Experimental results on one public dataset and one self-collected dataset further validate that the two sets of extracted topic-based features get excellent performance on human-like spammer classification problem compared with other state-of-the-art methods. In addition, we build a Weibo dataset, which contains both legitimate users and spammers. To summarize, our major contributions are two-fold: In the following sections, we first propose the topic-based features extraction method in Section 2, and then introduce the two datasets in Section 3. Experimental results are discussed in Section 4, and we conclude the paper in Section 5. Future work is presented in Section 6. Methodology In this section, we first provide some observations we obtained after carefully exploring the social network, then the LDA model is introduced. Based on the LDA model, the ways to obtain the topic probability vector for each user and the two topic-based features are provided. Observation After exploring the homepages of a substantial number of spammers, we have two observations. 1) social spammers can be divided into two categories. One is content polluters, and their tweets are all about certain kinds of advertisement and campaign. The other is fake accounts, and their tweets resemble legitimate users' but it seems they are simply random copies of others to avoid being detected by anti-spam rules. 2) For legitimate users, content polluters and fake accounts, they show different patterns on topics which interest them. Legitimate users mainly focus on limited topics which interest him. They seldom post contents unrelated to their concern. Content polluters concentrate on certain topics. Fake accounts focus on a wide range of topics due to random copying and retweeting of other users' tweets. Spammers and legitimate users show different interests on some topics e.g. commercial, weather, etc. To better illustrate our observation, Figure. 1 shows the topic distribution of spammers and legitimate users in two employed datasets(the Honeypot dataset and Weibo dataset). We can see that on both topics (topic-3 and topic-11) there exists obvious difference between the red bars and green bars, representing spammers and legitimate users. On the Honeypot dataset, spammers have a narrower shape of distribution (the outliers on the red bar tail are not counted) than that of legitimate users. This is because there are more content polluters than fake accounts. In other word, spammers in this dataset tend to concentrate on limited topics. While on the Weibo dataset, fake",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Topic-Based Feature Extraction"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "accounts who are interested in different topics take large proportion of spammers. Their distribution is more flat (i.e. red bars) than that of the legitimate users. Therefore we can detect spammers by means of the difference of their topic distribution patterns. LDA model Blei",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Spammer Topic Detection"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "et al.blei2003latent first presented Latent Dirichlet Allocation(LDA) as an example of topic model.\nEach document $i$ is deemed as a bag of words $W=\\left\\lbrace  w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $ and $M$ is the number of words. Each word is attributable to one of the document's topics",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Topic Model Introduction"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "$",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Invalid Input"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "Z=\\left\\lbrace  z_{i1},z_{i2},...,z_{iK}\\right\\rbrace $ and $K$ is the number of topics. $\\psi _{k}$ is a multinomial distribution over words for topic $k$ . $\\theta _i$ is another multinomial distribution over topics for document $i$ . The smoothed generative model is illustrated in Figure. 2 . $\\alpha $ and $W=\\left\\lbrace  w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $0 are hyper parameter that affect scarcity of the document-topic and topic",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Topic Model Parameters"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "-word distributions. In this paper, $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $1 , $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $2 and $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $3 are empirically set to 0.3, 0.01 and 15. The entire content of each Twitter user is regarded as one document. We adopt Gibbs Sampling BIBREF8 to speed up the inference of LDA. Based on LDA, we can get the topic probabilities for all users in the employed dataset as: $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $4 , where $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $5 is the number of users. Each element $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $6 is a topic probability vector for the $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $7 document. $W=\\left\\lbrace w_{i1},w_{i2},...,w_{iM}\\right\\rbrace $8 is the raw topic probability vector and our features are developed on top of it. Topic-based Features Using the LDA model, each person in the dataset is with a topic probability vector $X_i$ . Assume $x_{ik}\\in X_{i}$ denotes the likelihood that the $\\emph {i}^{th}$ tweet account favors $\\emph {k}^{th}$ topic in the dataset. Our topic based features can be calculated as below. Global Outlier Standard Score measures the degree that a user's tweet content is related to a certain topic compared to the other users. Specifically, the \"GOSS\" score of user $i$ on topic $k$ can be calculated as Eq.( 12 ): $$\\centering \\begin{array}{ll} \\mu \\left(x_{k}\\right)=\\frac{\\sum _{i=1}^{n} x_{ik}}{n},\\\\ GOSS\\left(x_{ik}\\right)=\\frac{x_{ik}-\\mu \\left(x_k\\right)}{\\sqrt{\\underset{i}{\\sum }\\left(x_{ik}-\\mu \\left(x_{k}\\right)\\right)^{2}}}. \\end{array}$$ (Eq. 12) The value of $GOSS\\left(x_{ik}\\right)$ indicates the interesting degree of this person to the $\\emph {k}^{th}$ topic. Specifically, if $GOSS\\left(x_{ik}\\right)$ > $GOSS\\left(x_{jk}\\right)$ , it means that the $\\emph {i}^{th}$ person has more interest in topic $k$ than the $\\emph {j}^{th}$ person. If the value $GOSS\\left(x_{ik}\\right)$ is extremely high or low, the $\\emph {i}^{th}$ person showing extreme interest or no interest on topic $k$ which will probably be a distinctive pattern in the fowllowing classfication. Therefore, the topics interested or disliked by the $\\emph {k}^{th}$0 person can be manifested by $\\emph {k}^{th}$1 , from which the pattern of the interested topics with regarding to this person is found. Denote $\\emph {k}^{th}$2 our first topic-based feature, and it hopefully can get good performance on spammer detection. Local Outlier Standard Score measures the degree of interest someone shows to a certain topic by considering his own homepage content only. For instance, the \"LOSS\" score of account $i$ on topic $k$ can be calculated as Eq.( 13 ): $$\\centering \\begin{array}{ll} \\mu \\left(x_{i}\\right)=\\frac{\\sum _{k=1}^{K} x_{ik}}{K},\\\\ LOSS\\left(x_{ik}\\right)=\\frac{x_{ik}-\\mu \\left(x_i\\right)}{\\sqrt{\\underset{k}{\\sum }\\left(x_{ik}-\\mu \\left(x_{i}\\right)\\right)^{2}}}. \\end{array}$$ (Eq. 13) $\\mu (x_i)$ represents the averaged interesting degree for all topics with regarding",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Topic-Based Features"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "to $\\emph {i}^{th}$ user and his tweet content. Similarly to $GOSS$ , the topics interested or disliked by the $\\emph {i}^{th}$ person via considering his single post information can be manifested by $f_{LOSS}^{i}=[LOSS(x_{i1})\\cdots LOSS(x_{iK})]$ , and $LOSS$ becomes our second topic-based features for the $\\emph {i}^{th}$ person. Dataset We use one public dataset Social Honeypot dataset and one self-collected dataset Weibo dataset to validate the effectiveness of our proposed features. Social Honeypot Dataset: Lee et al. lee2010devils created and deployed 60 seed social accounts on Twitter to attract spammers by reporting back what accounts interact with them. They collected 19,276 legitimate users and 22,223 spammers in their datasets along with their tweet content in 7 months. This is our first test dataset. Our Weibo Dataset: Sina Weibo is one of the most famous social platforms in China. It has implemented many features from Twitter. The 2197 legitimate user accounts in this dataset are provided by the Tianchi Competition held by Sina Weibo. The spammers are all purchased commercially from multiple vendors on the Internet. We checked them manually and collected 802 suitable \"smart\" spammers accounts. Preprocessing: Before directly performing the experiments on the employed datasets, we first delete some accounts with few posts in the two employed since the number of tweets is highly indicative of spammers. For the English Honeypot dataset, we remove stopwords, punctuations, non-ASCII words and apply stemming. For the Chinese Weibo dataset, we perform segmentation with \"Jieba\", a Chinese text segmentation tool. After preprocessing steps, the Weibo dataset contains 2197 legitimate users and 802 spammers, and the honeypot dataset contains 2218 legitimate users and 2947 spammers. It is worth mentioning that the Honeypot dataset has been slashed because most of the Twitter accounts only have limited number of posts, which are not enough to show their interest inclination. Evaluation Metrics The evaluating indicators in our model are show in 2 . We calculate precision, recall and F1-score (i.e. F1 score) as in Eq. ( 19 ). Precision is the ratio of selected accounts that are spammers. Recall is the ratio of spammers that are detected so. F1-score is the harmonic mean of precision and recall. $$precision =\\frac{TP}{TP+FP}, recall =\\frac{TP}{TP+FN}\\nonumber \\\\ F1-score = \\frac{2\\times precision \\times recall}{precision + recall}$$ (Eq. 19) Performance Comparisons with Baseline Three baseline classification methods: Support Vector Machines (SVM), Adaboost, and Random Forests are adopted to evaluate our extracted features. We test each",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset and Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "classification algorithm with scikit-learn BIBREF9 and run a 10-fold cross validation. On each dataset, the employed classifiers are trained with individual feature first, and then with the combination of the two features. From 1 , we can see that GOSS+LOSS achieves the best performance on F1-score among all others. Besides, the classification by combination of LOSS and GOSS can increase accuracy by more than 3% compared with raw topic distribution probability. Comparison with Other Features To compare our extracted features with previously used features for spammer detection, we use three most discriminative feature sets according to Lee et al. lee2011seven( 4 ). Two classifiers (Adaboost and SVM) are selected to conduct feature performance comparisons. Using Adaboost, our LOSS+GOSS features outperform all other features except for UFN which is 2% higher than ours with regard to precision on the Honeypot dataset. It is caused by the incorrectly classified spammers who are mostly news source after our manual check. They keep posting all kinds of news pieces covering diverse topics, which is similar to the behavior of fake accounts. However, UFN based on friendship networks is more useful for public accounts who possess large number of followers. The best recall value of our LOSS+GOSS features using SVM is up to 6% higher than the results by other feature groups. Regarding F1-score, our features outperform all other features. To further show the advantages of our proposed features, we compare our combined LOSS+GOSS with the combination of all the features from Lee et al. lee2011seven (UFN+UC+UH). It's obvious that LOSS+GOSS have a great advantage over UFN+UC+UH in terms of recall and F1-score. Moreover, by combining our LOSS+GOSS features and UFN+UC+UH features together, we obtained another 7.1% and 2.3% performance gain with regard to precision and F1-score by Adaboost. Though there is a slight decline in terms of recall. By SVM, we get comparative results on recall and F1-score but about 3.5% improvement on precision. Conclusion In this paper, we propose a novel feature extraction method to effectively detect \"smart\" spammers who post seemingly legitimate tweets and are thus difficult to identify by existing spammer classification methods. Using the LDA model, we obtain the topic probability for each Twitter user. By utilizing the topic probability result, we extract our two topic-based features: GOSS and LOSS which represent the account with global and local information. Experimental results on a public dataset and a self-built Chinese microblog",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Feature Comparison"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "dataset validate the effectiveness of the proposed features. Future Work In future work, the combination method of local and global information can be further improved to maximize their individual strengths. We will also apply decision theory to enhancing the performance of our proposed features. Moreover, we are also building larger datasets on both Twitter and Weibo to validate our method. Moreover, larger datasets on both Twitter and Weibo will be built to further validate our method.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Validation"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Microblogging is a social networking service that allows users to post messages up to 140 characters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Spammers use microblogging platforms to post malicious links and send unsolicited messages to legitimate users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Human-like spammers are sophisticated spammers who have detailed profiles and photos, making them difficult to distinguish from legitimate users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Simple spammers post only malicious links in their tweets and are easier to detect than human-like spammers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "A social honeypot is a technique that allures social spammers to retweet, thereby building a benchmark dataset for spammer detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The network graph of social spammers reveals the relationships among spammers and demonstrates the effectiveness of social relationship features in detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Topic-based features are extracted from the historical tweets of users using the Latent Dirichlet Allocation (LDA) model to identify user interests and distinguish spammers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The Local Outlier Standard Score (LOSS) captures a user's interest distribution across different topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The Global Outlier Standard Score (GOSS) reveals a user's interest in specific topics compared to other users' interests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The Latent Dirichlet Allocation (LDA) model is used to compute the topic distribution of each user based on their historical tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Smart spammers are more difficult to detect than simple spammers because they mimic legitimate users through content and profile features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Spammers are likely to focus on specific topics such as promotion in their posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The proposed feature extraction method uses two topic-based features\u2014LOSS and GOSS\u2014to effectively distinguish human-like spammers from legitimate users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "To the best of our knowledge, this is the first study to use topic distribution-based features for spammer detection in human-like spammers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Content polluters are a type of social spammer whose tweets are all about certain kinds of advertisement and campaign.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Fake accounts are a type of social spammer whose tweets resemble legitimate users' but are random copies of others to avoid detection by anti-spam rules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Legitimate users mainly focus on a limited set of topics that interest them and seldom post content unrelated to their concerns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Content polluters concentrate on a specific set of topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Fake accounts focus on a wide range of topics due to random copying and retweeting of other users' tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Spammers and legitimate users show different interests in topics such as commercial and weather.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "On the Honeypot dataset, spammers have a narrower topic distribution than legitimate users, indicating a higher concentration of content polluters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "On the Weibo dataset, fake accounts make up a large proportion of spammers and exhibit a flatter topic distribution compared to legitimate users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Latent Dirichlet Allocation (LDA) is a topic model that assigns each document a distribution over topics and each topic a distribution over words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Each user is assigned a topic probability vector derived from the LDA model, representing the likelihood of the user being associated with each topic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Topic-based features are extracted using the LDA model to characterize users' topic interests and are used for spammer classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Differences in topic distribution patterns between spammers and legitimate users can be used to detect spammers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The set W = {w_i1, w_i2, ..., w_iM} represents a topic probability vector for a user's content in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Gibbs Sampling is adopted to speed up the inference process of the LDA model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The Global Outlier Standard Score (GOSS) measures the degree to which a user's interest in a topic differs from the average interest of all users in that topic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "A high GOSS(x_ik) value indicates that user i has a strong interest in topic k compared to other users, while a low value indicates little or no interest.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The Local Outlier Standard Score (LOSS) measures a user's interest in a topic based solely on their own content, relative to their average interest across all topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "\u03bc(x_i) represents the average interest of a user across all topics in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "X_i is the topic probability vector for the i-th user, where x_ik denotes the likelihood that user i favors topic k.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Topic-based features are developed on top of raw topic probability vectors to detect spammers in a dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Extremely high or low GOSS or LOSS values suggest a distinctive pattern in a user's interest, which may indicate spammer behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Indicator"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The i-th user refers to a specific individual in the dataset whose tweet content and topic preferences are analyzed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "f_LOSS^i is a vector representing the topics interested or disliked by the i-th user, derived from his single tweet post information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "LOSS serves as the second topic-based feature extracted for the i-th user based on his tweet content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "A public dataset containing 19,276 legitimate users and 22,223 spammers collected from Twitter over seven months through a honeypot setup.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "A self-collected dataset comprising 2197 legitimate users and 802 spammers from Sina Weibo, with spammers purchased commercially and manually verified.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Preprocessing steps include removing accounts with few posts, removing stopwords and punctuations in English data, and applying text segmentation using Jieba for Chinese data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "After preprocessing, the Weibo dataset contains 2197 legitimate users and 802 spammers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "After preprocessing, the Honeypot dataset contains 2218 legitimate users and 2947 spammers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Precision is the ratio of selected accounts that are actually spammers, calculated as TP / (TP + FP).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Recall is the ratio of spammers that are correctly detected, calculated as TP / (TP + FN).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "F1-score is the harmonic mean of precision and recall, computed as 2 \u00d7 (precision \u00d7 recall) / (precision + recall).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The baseline classification methods used for performance comparison are Support Vector Machines (SVM), Adaboost, and Random Forests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "GOSS+LOSS achieves the best performance on F1-score among all other feature combinations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The combination of LOSS and GOSS increases accuracy by more than 3% compared to raw topic distribution probability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Using Adaboost, LOSS+GOSS features outperform all other features except UFN, which has 2% higher precision on the Honeypot dataset due to incorrectly classified spammers who post diverse news content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The best recall value using SVM with LOSS+GOSS features is 6% higher than that of other feature groups.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "LOSS+GOSS outperforms UFN+UC+UH in terms of recall and F1-score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Combining LOSS+GOSS and UFN+UC+UH features yields a 7.1% improvement in precision and 2.3% improvement in F1-score using Adaboost, with a slight recall decline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Using SVM, combining LOSS+GOSS and UFN+UC+UH features results in comparable recall and F1-score but a 3.5% improvement in precision.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The LDA model is used to obtain topic probability for each Twitter user.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "GOSS and LOSS are topic-based features extracted from topic probabilities, representing global and local account information, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Smart spammers are users who post seemingly legitimate tweets and are difficult to detect using existing spammer classification methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Experimental results on a public dataset and a self-built Chinese microblog dataset validate the effectiveness of the proposed features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Future work includes improving the combination method of local and global information, applying decision theory, and building larger datasets on Twitter and Weibo to validate the method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "$",
+      "Invalid Input",
+      "e5"
+    ],
+    [
+      "0.01",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "0.3",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "10-fold cross validation",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "140 characters",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "15",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "19,276 legitimate users",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "2197 legitimate user accounts",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "22,223 spammers",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "60 seed social accounts",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "802 spammers",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Adaboost",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Adaboost",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "Adaboost",
+      "Result",
+      "s50"
+    ],
+    [
+      "Blei",
+      "Spammer Topic Detection",
+      "e3"
+    ],
+    [
+      "Combined features (LOSS+GOSS + UFN+UC+UH)",
+      "Result",
+      "s53"
+    ],
+    [
+      "Eq. 19",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "F1-score",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "F1-score",
+      "Definition",
+      "s46"
+    ],
+    [
+      "F1-score",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "Figure 2",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "GOSS",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "GOSS",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "GOSS",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "GOSS and LOSS",
+      "Definition",
+      "s56"
+    ],
+    [
+      "GOSS score",
+      "Definition",
+      "s29"
+    ],
+    [
+      "GOSS(x_ik)",
+      "Result",
+      "s30"
+    ],
+    [
+      "GOSS+LOSS",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "GOSS+LOSS",
+      "Result",
+      "s48"
+    ],
+    [
+      "Gibbs Sampling",
+      "Method",
+      "s28"
+    ],
+    [
+      "Gibbs Sampling",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "Global Outlier Standard Score (GOSS)",
+      "Definition",
+      "s9"
+    ],
+    [
+      "Global Outlier Standard Score (GOSS)",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "Honeypot dataset",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "Honeypot dataset",
+      "Result",
+      "s21"
+    ],
+    [
+      "Honeypot dataset",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "Honeypot dataset after preprocessing",
+      "Result",
+      "s43"
+    ],
+    [
+      "Jieba",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "K",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "K",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "LDA",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "LDA",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "LDA model",
+      "Definition",
+      "s23"
+    ],
+    [
+      "LDA model",
+      "Definition",
+      "s55"
+    ],
+    [
+      "LDA model",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "LDA model",
+      "Spammer Topic Detection",
+      "e3"
+    ],
+    [
+      "LDA model",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "LOSS",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "LOSS",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "LOSS",
+      "Property",
+      "s38"
+    ],
+    [
+      "LOSS",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "LOSS score",
+      "Definition",
+      "s31"
+    ],
+    [
+      "LOSS+GOSS",
+      "Property",
+      "s49"
+    ],
+    [
+      "LOSS+GOSS vs UFN+UC+UH",
+      "Comparison",
+      "s52"
+    ],
+    [
+      "Latent Dirichlet Allocation",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "Latent Dirichlet Allocation (LDA)",
+      "Method",
+      "s10"
+    ],
+    [
+      "Latent Dirichlet Allocation (LDA)",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "Lee et al.",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Lee et al.",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "Lee et al.",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "Lee2011Seven",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "Local Outlier Standard Score (LOSS)",
+      "Definition",
+      "s8"
+    ],
+    [
+      "Local Outlier Standard Score (LOSS)",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "M",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "Microblogging",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "Random Forests",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "SVM",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "SVM",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "SVM",
+      "Result",
+      "s51"
+    ],
+    [
+      "SVM with combined features",
+      "Result",
+      "s54"
+    ],
+    [
+      "Sina Weibo",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Social Honeypot dataset",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Social Honeypot dataset",
+      "Definition",
+      "s39"
+    ],
+    [
+      "Support Vector Machines",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Tianchi Competition",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "Twitter",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "Twitter",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "UC",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "UFN",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "UH",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "URL clustering",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "W",
+      "Definition",
+      "s27"
+    ],
+    [
+      "W",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "W = {w_i1, w_i2, ..., w_iM}",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "Weibo",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "Weibo",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "Weibo dataset",
+      "Definition",
+      "s40"
+    ],
+    [
+      "Weibo dataset",
+      "Result",
+      "s22"
+    ],
+    [
+      "Weibo dataset",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "Weibo dataset after preprocessing",
+      "Result",
+      "s42"
+    ],
+    [
+      "X_i",
+      "Definition",
+      "s33"
+    ],
+    [
+      "Z",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "accuracy",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "alpha",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "anti-spam rules",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "bag of words",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "baseline methods",
+      "Definition",
+      "s47"
+    ],
+    [
+      "blei2003",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "commercial topics",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "commercially purchased",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "content polluters",
+      "Definition",
+      "s15"
+    ],
+    [
+      "content polluters",
+      "Property",
+      "s18"
+    ],
+    [
+      "content polluters",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "content-based features",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "decision theory",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "distribution patterns",
+      "Spammer Topic Detection",
+      "e3"
+    ],
+    [
+      "document",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "document-topic",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "extreme GOSS or LOSS values",
+      "Indicator",
+      "s35"
+    ],
+    [
+      "f_LOSS^i",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "f_LOSS^i",
+      "Definition",
+      "s37"
+    ],
+    [
+      "fake accounts",
+      "Definition",
+      "s16"
+    ],
+    [
+      "fake accounts",
+      "Property",
+      "s19"
+    ],
+    [
+      "fake accounts",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "feature extraction method",
+      "Definition",
+      "s13"
+    ],
+    [
+      "first time",
+      "Claim",
+      "s14"
+    ],
+    [
+      "future work",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "future work",
+      "Plan",
+      "s59"
+    ],
+    [
+      "human-like spammers",
+      "Definition",
+      "s3"
+    ],
+    [
+      "human-like spammers",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "hyper parameter",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "i-th user",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "i-th user",
+      "Definition",
+      "s36"
+    ],
+    [
+      "larger datasets",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "lee2010devils",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "lee2011seven",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "legitimate users",
+      "Property",
+      "s17"
+    ],
+    [
+      "legitimate users",
+      "Spammer Topic Detection",
+      "e3"
+    ],
+    [
+      "legitimate users",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "local and global information",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "malicious links",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "manual checking",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "method validation",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "microblogging",
+      "Definition",
+      "s1"
+    ],
+    [
+      "mu(x_i)",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "mu(x_k)",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "multinomial",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "n",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "network graph",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "network graph of social spammers",
+      "Property",
+      "s6"
+    ],
+    [
+      "non-ASCII words",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "photos",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "precision",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "precision",
+      "Definition",
+      "s44"
+    ],
+    [
+      "preprocessing",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "preprocessing",
+      "Process",
+      "s41"
+    ],
+    [
+      "promotion",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "proposed features",
+      "Dataset Validation",
+      "e10"
+    ],
+    [
+      "psi_k",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "public dataset",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "public dataset",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "public dataset and self-built Chinese microblog dataset",
+      "Result",
+      "s58"
+    ],
+    [
+      "punctuations",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "raw topic distribution probability",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "recall",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "recall",
+      "Definition",
+      "s45"
+    ],
+    [
+      "red bars",
+      "Spammer Topic Detection",
+      "e3"
+    ],
+    [
+      "scarcity",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "scikit-learn",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "self-built Chinese microblog",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "self-collected dataset",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "simple spammers",
+      "Definition",
+      "s4"
+    ],
+    [
+      "smart spammers",
+      "Definition",
+      "s57"
+    ],
+    [
+      "smart spammers",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "smart spammers",
+      "Property",
+      "s11"
+    ],
+    [
+      "social honeypot",
+      "Definition",
+      "s5"
+    ],
+    [
+      "social honeypot",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "social network",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "spammer classification",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "spammer detection",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "spammers",
+      "Property",
+      "s2"
+    ],
+    [
+      "spammers",
+      "Property",
+      "s20"
+    ],
+    [
+      "spammers",
+      "Spammer Topic Detection",
+      "e3"
+    ],
+    [
+      "spammers",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "spammers",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "stemming",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "stopwords",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "theta_i",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "topic characteristics of spamming posts",
+      "Result",
+      "s12"
+    ],
+    [
+      "topic distribution",
+      "Spammer Topic Detection",
+      "e3"
+    ],
+    [
+      "topic distribution",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "topic distribution patterns",
+      "Cause",
+      "s26"
+    ],
+    [
+      "topic probability",
+      "Feature Comparison",
+      "e9"
+    ],
+    [
+      "topic probability vector",
+      "Property",
+      "s24"
+    ],
+    [
+      "topic probability vector",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "topic probability vector",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "topic-11",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "topic-3",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "topic-based features",
+      "Definition",
+      "s25"
+    ],
+    [
+      "topic-based features",
+      "Definition",
+      "s7"
+    ],
+    [
+      "topic-based features",
+      "Purpose",
+      "s34"
+    ],
+    [
+      "topic-based features",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "topic-based features",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "topic-word",
+      "Topic Model Parameters",
+      "e6"
+    ],
+    [
+      "topics",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "tweet content",
+      "Dataset and Evaluation",
+      "e8"
+    ],
+    [
+      "unsolicited messages",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "user profiles",
+      "Topic-Based Spammer Detection",
+      "e1"
+    ],
+    [
+      "w_i1",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "w_i2",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "w_iM",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "weather topics",
+      "Topic-Based Feature Extraction",
+      "e2"
+    ],
+    [
+      "words",
+      "Topic Model Introduction",
+      "e4"
+    ],
+    [
+      "x_ik",
+      "Topic-Based Features",
+      "e7"
+    ],
+    [
+      "\u03bc(x_i)",
+      "Property",
+      "s32"
+    ]
+  ]
+}

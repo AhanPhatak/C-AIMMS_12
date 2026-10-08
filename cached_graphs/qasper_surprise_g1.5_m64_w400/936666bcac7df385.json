@@ -1,0 +1,2106 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 6,
+    "n_semantic": 62,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "I will be 10 minutes late": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "10 minutes late": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "Figure FIGREF1": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "supervised dataset": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "keywords-sentence pairs": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "user-system communication scheme": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "multi-objective optimization": {
+      "tag_set": [
+        "Autocomplete System",
+        "Communication Scheme",
+        "Goal",
+        "Method"
+      ]
+    },
+    "linear combination": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "accuracy constraint": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "52.16% more accurate": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "77.37% of sentences": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "11.73% more accurate": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "53.38% of sentences": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "50% time saved": {
+      "tag_set": [
+        "Autocomplete System"
+      ]
+    },
+    "user study": {
+      "tag_set": [
+        "Communication Scheme",
+        "Definition"
+      ]
+    },
+    "target sequence x": {
+      "tag_set": [
+        "Communication Scheme",
+        "Property"
+      ]
+    },
+    "keywords z": {
+      "tag_set": [
+        "Communication Scheme",
+        "Definition"
+      ]
+    },
+    "encoding strategy q_\u03b1": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "decoding strategy p_\u03b2": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "subsequence": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "autoencoders": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "encoder-decoder framework": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "Bernoulli distributions": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "sequence-to-sequence model": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "attention": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "copying": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "communication cost": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "reconstruction loss": {
+      "tag_set": [
+        "Communication Scheme"
+      ]
+    },
+    "simplest approach": {
+      "tag_set": [
+        "Simplest Approach"
+      ]
+    },
+    "cost(x, \u03b1)": {
+      "tag_set": [
+        "Definition",
+        "Optimization Stability"
+      ]
+    },
+    "loss(x, \u03b1, \u03b2)": {
+      "tag_set": [
+        "Definition",
+        "Model Efficiency Analysis",
+        "Optimization Stability"
+      ]
+    },
+    "weight \u03bb": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "expected cost": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "reconstruction error \u03b5": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "constrained optimization": {
+      "tag_set": [
+        "Method",
+        "Optimization Stability"
+      ]
+    },
+    "Lagrangian": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "minibatch averaging": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "gradient descent": {
+      "tag_set": [
+        "Model Efficiency Analysis",
+        "Optimization Stability"
+      ]
+    },
+    "discrete z": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "stochastic REINFORCE": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "\u03b1, \u03b2, \u03bb updates": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "Yelp reviews": {
+      "tag_set": [
+        "Dataset",
+        "Optimization Stability"
+      ]
+    },
+    "500K sentences": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "autocomplete system": {
+      "tag_set": [
+        "Definition",
+        "Optimization Stability",
+        "Property"
+      ]
+    },
+    "communication efficiency": {
+      "tag_set": [
+        "Optimization Stability"
+      ]
+    },
+    "scheme (q_\u03b1, p_\u03b2)": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "retention rate": {
+      "tag_set": [
+        "Definition",
+        "Model Efficiency Analysis"
+      ]
+    },
+    "accuracy": {
+      "tag_set": [
+        "Definition",
+        "Model Efficiency Analysis"
+      ]
+    },
+    "linear objective": {
+      "tag_set": [
+        "Definition",
+        "Model Efficiency Analysis",
+        "Property"
+      ]
+    },
+    "constrained objective": {
+      "tag_set": [
+        "Definition",
+        "Model Efficiency Analysis",
+        "Property",
+        "Result"
+      ]
+    },
+    "Eq (DISPLAY_FORM5)": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "Eq (DISPLAY_FORM6)": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "FIGREF10": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "tradeoff parameter \u03bb": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "\u03b5": {
+      "tag_set": [
+        "Model Efficiency Analysis",
+        "Property"
+      ]
+    },
+    "Unif encoder": {
+      "tag_set": [
+        "Definition",
+        "Model Efficiency Analysis"
+      ]
+    },
+    "Stopword encoder": {
+      "tag_set": [
+        "Definition",
+        "Model Efficiency Analysis"
+      ]
+    },
+    "\u03b4": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "reconstruction error": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "Yelp corpus": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "Amazon Mechanical Turk (AMT)": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "crowdworkers": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "50 sentences": {
+      "tag_set": [
+        "Model Efficiency Analysis"
+      ]
+    },
+    "target sentence": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "keywords": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "top three suggestions": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "semantic equivalence": {
+      "tag_set": [
+        "Autocomplete Task Results",
+        "Result"
+      ]
+    },
+    "beam search": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "generic sentences": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "over-specified keywords": {
+      "tag_set": [
+        "Autocomplete Task Results",
+        "Result"
+      ]
+    },
+    "properly specified keywords": {
+      "tag_set": [
+        "Autocomplete Task Results",
+        "Result"
+      ]
+    },
+    "verb": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "adverb": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "adjective": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "preposition": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "capitalization": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "punctuation": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "80.6%": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "90.11%": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "18.39%": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "3.86 seconds": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "5.76 seconds": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "0.08 second": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "0.12 second": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "NSF CAREER Award IIS-1552635": {
+      "tag_set": [
+        "Autocomplete Task Results",
+        "Cause"
+      ]
+    },
+    "Intuit Research Award": {
+      "tag_set": [
+        "Autocomplete Task Results",
+        "Cause"
+      ]
+    },
+    "CodaLab": {
+      "tag_set": [
+        "Autocomplete Task Results",
+        "Definition"
+      ]
+    },
+    "https://bit.ly/353fbyn": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "Yunseok Jang": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "reviewers": {
+      "tag_set": [
+        "Autocomplete Task Results"
+      ]
+    },
+    "left-to-right autocomplete systems": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "keyword-based autocomplete": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "linear combination of efficiency and accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "accuracy constraint optimization": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "52.16% accuracy improvement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "11.73% accuracy improvement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "human adaptability": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "communication game": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "encoding strategy q_\u03b1(z|x)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "decoding strategy p_\u03b2(x|z)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "efficient communication scheme": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "accurate communication scheme": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "subsequence scheme": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "autoencoder framework": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "stochastic encoder": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Bernoulli sampling": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "sequence-to-sequence model with attention and copying": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "human intuitive sense of important keywords": {
+      "tag_set": [
+        "Assumption"
+      ]
+    },
+    "interpretability": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "\u03bb": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Lagrangian of Eq (DISPLAY_FORM6)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "stochastic REINFORCE estimate": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "joint updates on (\u03b1, \u03b2, \u03bb)": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "efficiency of a communication scheme": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training stability": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "constrained model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "efficiency-accuracy tradeoff": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "user interface": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "under-specified keywords": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "semantic equivalence (one of top three)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "exact match accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "typing time": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "typing time variance": {
+      "tag_set": [
+        "Property"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Suppose a user wants to write a sentence \u201cI will be 10 minutes late.\u201d Ideally, she would type just a few keywords such as \u201c10 minutes late\u201d and an autocomplete system would be able to infer the intended sentence (Figure FIGREF1). Existing left-to-right autocomplete systems BIBREF0, BIBREF1 can often be inefficient, as the prefix of a sentence (e.g. \u201cI will be\u201d) fails to capture the core meaning of the sentence. Besides the practical goal of building a better autocomplete system, we are interested in exploring the tradeoffs inherent to such communication schemes between the efficiency of typing keywords, accuracy of reconstruction, and interpretability of keywords. One approach to learn such schemes is to collect a supervised dataset of keywords-sentence pairs as a training set, but (i) it would be expensive to collect such data from users, and (ii) a static dataset would not capture a real user's natural predilection to adapt to the system BIBREF2. Another approach is to avoid supervision and jointly learn a user-system communication scheme to directly optimize the combination of efficiency and accuracy. However, learning in this way can lead to communication schemes that are uninterpretable to humans BIBREF3, BIBREF4 (see Appendix for additional related work). In this work, we propose a simple, unsupervised approach to an autocomplete system that is efficient, accurate, and interpretable. For interpretability, we restrict keywords to be subsequences of their source sentences based on the intuition that humans can infer most of the original meaning from a few keywords. We then apply multi-objective optimization approaches to directly control and achieve desirable tradeoffs between efficiency and accuracy. We observe that naively optimizing a linear combination of efficiency and accuracy terms is unstable and leads to suboptimal schemes. Thus, we propose a new objective which optimizes for communication efficiency under an accuracy constraint. We show this new objective is more stable and efficient than the linear objective at all accuracy levels. As a proof-of-concept, we build an autocomplete system within this framework which allows a user to write sentences by specifying keywords. We empirically show that our framework produces communication schemes that are 52.16% more accurate than rule-based baselines when specifying 77.37% of sentences, and 11.73% more accurate than a naive, weighted optimization approach when specifying 53.38% of sentences. Finally, we demonstrate that humans can easily adapt to the keyword-based autocomplete system and save nearly 50% of time compared to typing a",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Autocomplete System"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "full sentence in our user study. Approach Consider a communication game in which the goal is for a user to communicate a target sequence $x= (x_1, ..., x_m)$ to a system by passing a sequence of keywords $z= (z_1, ..., z_n)$. The user generates keywords $z$ using an encoding strategy $q_{\\alpha }(z\\mid x)$, and the system attempts to guess the target sequence $x$ via a decoding strategy $p_{\\beta }(x\\mid z)$. A good communication scheme $(q_{\\alpha }, p_{\\beta })$ should be both efficient and accurate. Specifically, we prefer schemes that use fewer keywords (cost), and the target sentence $x$ to be reconstructed with high probability (loss) where Based on our assumption that humans have an intuitive sense of retaining important keywords, we restrict the set of schemes to be a (potentially noncontiguous) subsequence of the target sentence. Our hypothesis is that such subsequence schemes naturally ensure interpretability, as efficient human and machine communication schemes are both likely to involve keeping important content words. Approach ::: Modeling with autoencoders. To learn communication schemes without supervision, we model the cooperative communication between a user and system through an encoder-decoder framework. Concretely, we model the user's encoding strategy $q_{\\alpha }(z\\mid x)$ with an encoder which encodes the target sentence $x$ into the keywords $z$ by keeping a subset of the tokens. This stochastic encoder $q_{\\alpha }(z\\mid x)$ is defined by a model which returns the probability of each token retained in the final subsequence $z$. Then, we sample from Bernoulli distributions according to these probabilities to either keep or drop the tokens independently (see Appendix for an example). We model the autocomplete system's decoding strategy $p_{\\beta }(x\\mid z)$ as a probabilistic model which conditions on the keywords $z$ and returns a distribution over predictions $x$. We use a standard sequence-to-sequence model with attention and copying for the decoder, but any model architecture can be used (see Appendix for details). Approach ::: Multi-objective optimization. Our goal now is to learn encoder-decoder pairs which optimally balance the communication cost and reconstruction loss",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Communication Scheme"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": ". The simplest approach",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Simplest Approach"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "to balancing efficiency and accuracy is to weight $\\mathrm {cost}(x, \\alpha )$ and $\\mathrm {loss}(x, \\alpha , \\beta )$ linearly using a weight $\\lambda $ as follows, where the expectation is taken over the population distribution of source sentences $x$, which is omitted to simplify notation. However, we observe that naively weighting and searching over $\\lambda $ is suboptimal and highly unstable\u2014even slight changes to the weighting results in degenerate schemes which keep all or none of its tokens. This instability motivates us to develop a new stable objective. Our main technical contribution is to draw inspiration from the multi-objective optimization literature and view the tradeoff as a sequence of constrained optimization problems, where we minimize the expected cost subject to varying expected reconstruction error constraints $\\epsilon $, This greatly improves the stability of the training procedure. We empirically observe that the model initially keeps most of the tokens to meet the constraints, and slowly learns to drop uninformative words from the keywords to minimize the cost. Furthermore, $\\epsilon $ in Eq (DISPLAY_FORM6) allows us to directly control the maximum reconstruction error of resulting schemes, whereas $\\lambda $ in Eq (DISPLAY_FORM5) is not directly related to any of our desiderata. To optimize the constrained objective, we consider the Lagrangian of Eq (DISPLAY_FORM6), Much like the objective in Eq (DISPLAY_FORM5) we can compute unbiased gradients by replacing the expectations with their averages over random minibatches. Although gradient descent guarantees convergence on Eq (DISPLAY_FORM7) only when the objective is convex, we find that not only is the optimization stable, the resulting solution achieves better performance than the weighting approach in Eq (DISPLAY_FORM5). Approach ::: Optimization. Optimization with respect to $q_{\\alpha }(z\\mid x)$ is challenging as $z$ is discrete, and thus, we cannot differentiate $\\alpha $ through $z$ via the chain rule. Because of this, we use the stochastic REINFORCE estimate BIBREF5 as follows: We perform joint updates on $(\\alpha , \\beta , \\lambda )$, where $\\beta $ and $\\lambda $ are updated via standard gradient computations, while $\\alpha $ uses an unbiased, stochastic gradient estimate where we approximate the expectation in Eq (DISPLAY_FORM9). We use a single sample from $q_{\\alpha }(z\\mid x)$ and moving-average of rewards as a baseline to reduce variance. Experiments We evaluate our approach by training an autocomplete system on 500K randomly sampled sentences from Yelp reviews BIBREF6 (see Appendix for details). We quantify the efficiency of a communication",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Optimization Stability"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "scheme $(q_{\\alpha },p_{\\beta })$ by the retention rate of tokens, which is measured as the fraction of tokens that are kept in the keywords. The accuracy of a scheme is measured as the fraction of sentences generated by greedily decoding the model that exactly matches the target sentence. Experiments ::: Effectiveness of constrained objective. We first show that the linear objective in Eq (DISPLAY_FORM5) is suboptimal compared to the constrained objective in Eq (DISPLAY_FORM6). Figure FIGREF10 compares the achievable accuracy and efficiency tradeoffs for the two objectives, which shows that the constrained objective results in more efficient schemes than the linear objective at every accuracy level (e.g. 11.73% more accurate at a 53.38% retention rate). We also observe that the linear objective is highly unstable as a function of the tradeoff parameter $\\lambda $ and requires careful tuning. Even slight changes to $\\lambda $ results in degenerate schemes that keep all or none of the tokens (e.g. $\\lambda \\le 4.2$ and $\\lambda \\ge 4.4$). On the other hand, the constrained objective is substantially more stable as a function of $\\epsilon $ (e.g. points for $\\epsilon $ are more evenly spaced than $\\lambda $). Experiments ::: Efficiency-accuracy tradeoff. We quantify the efficiency-accuracy tradeoff compared to two rule-based baselines: Unif and Stopword. The Unif encoder randomly keeps tokens to generate keywords with the probability $\\delta $. The Stopword encoder keeps all tokens but drops stop words (e.g. `the', `a', `or') all the time ($\\delta =0$) or half of the time ($\\delta =0.5$). The corresponding decoders for these encoders are optimized using gradient descent to minimize the reconstruction error (i.e. $\\mathrm {loss}(x, \\alpha , \\beta )$). Figure FIGREF10 shows that two baselines achieve similar tradeoff curves, while the constrained model achieves a substantial 52.16% improvement in accuracy at a 77.37% retention rate compared to Unif, thereby showing the benefits of jointly training the encoder and decoder. Experiments ::: Robustness and analysis. We provide additional experimental results on the robustness of learned communication schemes as well as in-depth analysis on the correlation between the retention rates of tokens and their properties, which we defer to Appendix and for space. Experiments ::: User study. We recruited 100 crowdworkers on Amazon Mechanical Turk (AMT) and measured completion times and accuracies for typing randomly sampled sentences from the Yelp corpus. Each user was shown alternating autocomplete and writing tasks across 50 sentences (see Appendix for user interface).",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Efficiency Analysis"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "For the autocomplete task, we gave users a target sentence and asked them to type a set of keywords into the system. The users were shown the top three suggestions from the autocomplete system, and were asked to mark whether each of these three suggestions was semantically equivalent to the target sentence. For the writing task, we gave users a target sentence and asked them to either type the sentence verbatim or a sentence that preserves the meaning of the target sentence. Table TABREF13 shows two examples of the autocomplete task and actual user-provided keywords. Each column contains a set of keywords and its corresponding top three suggestions generated by the autocomplete system with beam search. We observe that the system is likely to propose generic sentences for under-specified keywords (left column) and almost the same sentences for over-specified keywords (right column). For properly specified keywords (middle column), the system completes sentences accordingly by adding a verb, adverb, adjective, preposition, capitalization, and punctuation. Overall, the autocomplete system achieved high accuracy in reconstructing the keywords. Users marked the top suggestion from the autocomplete system to be semantically equivalent to the target $80.6$% of the time, and one of the top 3 was semantically equivalent $90.11$% of the time. The model also achieved a high exact match accuracy of 18.39%. Furthermore, the system was efficient, as users spent $3.86$ seconds typing keywords compared to $5.76$ seconds for full sentences on average. The variance of the typing time was $0.08$ second for keywords and $0.12$ second for full sentences, indicating that choosing and typing keywords for the system did not incur much overhead. Experiments ::: Acknowledgments We thank the reviewers and Yunseok Jang for their insightful comments. This work was supported by NSF CAREER Award IIS-1552635 and an Intuit Research Award. Experiments ::: Reproducibility All code, data and experiments are available on CodaLab at https://bit.ly/353fbyn.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Autocomplete Task Results"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "An autocomplete system is a tool that infers and suggests complete sentences based on a user's input of keywords.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Left-to-right autocomplete systems often fail to capture the core meaning of a sentence because they rely on the prefix of the sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "A keyword-based autocomplete system uses subsequences of the original sentence as keywords to reconstruct the intended sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Multi-objective optimization is applied to balance the tradeoffs between communication efficiency and accuracy in an autocomplete system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Naively optimizing a linear combination of efficiency and accuracy leads to unstable and suboptimal communication schemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Optimizing communication efficiency under an accuracy constraint results in a more stable and efficient scheme than linear optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "The proposed framework achieves 52.16% higher accuracy than rule-based baselines when specifying 77.37% of sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The framework is 11.73% more accurate than a naive weighted optimization approach when specifying 53.38% of sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Humans can easily adapt to the keyword-based autocomplete system and save nearly 50% of time compared to typing the full sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "A communication game where a user communicates a target sequence x by passing a sequence of keywords z to a system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The sequence of elements (x\u2081, ..., x\u2098) that the user aims to communicate to the system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "A sequence of selected tokens derived from the target sequence x, used by the user to convey information to the system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "A stochastic strategy that models how a user selects a subsequence of tokens from the target sequence x to form keywords z.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "A probabilistic model that takes keywords z as input and outputs a distribution over possible target sequences x.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "A communication scheme that uses fewer keywords to reduce cost while maintaining accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "A communication scheme that reconstructs the target sequence x with high probability during decoding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "A communication scheme that selects a (potentially noncontiguous) subsequence of the target sentence as keywords.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "An encoder-decoder model used to learn communication strategies without supervision, where the encoder generates keywords and the decoder reconstructs the target sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "A model that assigns a probability to each token in the target sequence being retained in the final keyword subsequence z.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "A process where tokens are independently retained or dropped based on probabilities defined by the stochastic encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "A decoder architecture used to model the system's decoding strategy, which conditions on keywords z and predicts the target sequence x.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The process of learning encoder-decoder pairs that balance communication cost (number of keywords) and reconstruction loss (accuracy of sequence recovery).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Humans naturally retain important keywords when communicating, which motivates the use of subsequence-based communication schemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Assumption"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Subsequence schemes are expected to ensure interpretability because they preserve key content words, both for humans and machines.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The cost function cost(x, \u03b1) measures the efficiency of a communication scheme given input x and parameter \u03b1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The loss function loss(x, \u03b1, \u03b2) quantifies the accuracy of a communication scheme based on input x, parameter \u03b1, and parameter \u03b2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The weight \u03bb in the linear combination of cost and loss is not directly related to any desiderata and leads to unstable training when optimized naively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The parameter \u03b5 in the constrained optimization controls the maximum allowed reconstruction error of the resulting communication schemes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The tradeoff between efficiency and accuracy is modeled as a sequence of constrained optimization problems where cost is minimized subject to a constraint on expected reconstruction error \u03b5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The Lagrangian of Eq (DISPLAY_FORM6) is used to optimize the constrained objective by incorporating the reconstruction error constraint into the optimization framework.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "A stochastic REINFORCE estimate is used to optimize the discrete variable \u03b1 in the communication scheme due to the inapplicability of the chain rule for discrete variables.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The parameters \u03b1, \u03b2, and \u03bb are updated jointly, with \u03b2 and \u03bb updated via standard gradient computations and \u03b1 updated using a stochastic gradient estimate with a moving-average reward baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The autocomplete system is trained on 500K randomly sampled sentences from Yelp reviews.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The model initially retains most tokens to satisfy the reconstruction error constraint and gradually drops uninformative tokens to minimize cost.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The constrained optimization approach significantly improves training stability compared to the naive weighting method using \u03bb.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The optimized constrained objective achieves better performance than the naive weighting approach in Eq (DISPLAY_FORM5).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The constrained objective is a method for designing communication schemes that outperforms the linear objective in terms of accuracy and stability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The linear objective is a method for designing communication schemes that is suboptimal compared to the constrained objective in terms of accuracy and stability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Accuracy is measured as the fraction of sentences generated by greedily decoding the model that exactly match the target sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The retention rate of tokens is the fraction of tokens that are kept in the keywords.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The constrained objective results in more efficient schemes than the linear objective at every accuracy level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The linear objective is highly unstable as a function of the tradeoff parameter \u03bb and requires careful tuning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The constrained objective is substantially more stable as a function of \u03b5 compared to the linear objective.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The Unif encoder randomly keeps tokens to generate keywords with probability \u03b4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The Stopword encoder keeps all tokens but drops stop words (e.g., 'the', 'a', 'or') all the time (\u03b4 = 0) or half the time (\u03b4 = 0.5).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The decoder is optimized using gradient descent to minimize the reconstruction error (i.e., loss(x, \u03b1, \u03b2)).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The constrained model achieves a 52.16% improvement in accuracy at a 77.37% retention rate compared to the Unif baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The constrained model achieves a substantial improvement in accuracy at a given retention rate compared to two rule-based baselines: Unif and Stopword.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "A user study was conducted with 100 crowdworkers on Amazon Mechanical Turk to measure completion times and accuracies for typing sentences from the Yelp corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The user interface alternates between autocomplete and writing tasks across 50 sentences for each participant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The autocomplete system generates top three suggestions using beam search.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The autocomplete system tends to propose generic sentences for under-specified keywords.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The autocomplete system generates sentences that are almost identical for over-specified keywords.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "For properly specified keywords, the system adds verbs, adverbs, adjectives, prepositions, capitalization, and punctuation to complete sentences accordingly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Users marked the top autocomplete suggestion as semantically equivalent to the target sentence 80.6% of the time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "One of the top three autocomplete suggestions was semantically equivalent to the target sentence 90.11% of the time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The autocomplete system achieved an exact match accuracy of 18.39%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Users spent an average of 3.86 seconds typing keywords compared to 5.76 seconds for full sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The variance in typing time was 0.08 seconds for keywords and 0.12 seconds for full sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The work was supported by the NSF CAREER Award IIS-1552635.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The work was supported by an Intuit Research Award.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "All code, data, and experiments are available on CodaLab at https://bit.ly/353fbyn.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.08 second",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "0.12 second",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "10 minutes late",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "11.73% accuracy improvement",
+      "Result",
+      "s8"
+    ],
+    [
+      "11.73% more accurate",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "18.39%",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "3.86 seconds",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "5.76 seconds",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "50 sentences",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "50% time saved",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "500K sentences",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "52.16% accuracy improvement",
+      "Result",
+      "s7"
+    ],
+    [
+      "52.16% more accurate",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "53.38% of sentences",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "77.37% of sentences",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "80.6%",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "90.11%",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "Amazon Mechanical Turk (AMT)",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "BIBREF0",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "BIBREF1",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "BIBREF2",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "BIBREF3",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "BIBREF4",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "Bernoulli distributions",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "Bernoulli sampling",
+      "Method",
+      "s20"
+    ],
+    [
+      "CodaLab",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "CodaLab",
+      "Definition",
+      "s62"
+    ],
+    [
+      "Eq (DISPLAY_FORM5)",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "Eq (DISPLAY_FORM6)",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "FIGREF10",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "Figure FIGREF1",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "I will be 10 minutes late",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "Intuit Research Award",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "Intuit Research Award",
+      "Cause",
+      "s61"
+    ],
+    [
+      "Lagrangian",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "Lagrangian of Eq (DISPLAY_FORM6)",
+      "Method",
+      "s30"
+    ],
+    [
+      "NSF CAREER Award IIS-1552635",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "NSF CAREER Award IIS-1552635",
+      "Cause",
+      "s60"
+    ],
+    [
+      "Stopword encoder",
+      "Definition",
+      "s45"
+    ],
+    [
+      "Stopword encoder",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "Unif encoder",
+      "Definition",
+      "s44"
+    ],
+    [
+      "Unif encoder",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "Yelp corpus",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "Yelp reviews",
+      "Dataset",
+      "s33"
+    ],
+    [
+      "Yelp reviews",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "Yunseok Jang",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "accuracy",
+      "Definition",
+      "s39"
+    ],
+    [
+      "accuracy",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "accuracy constraint",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "accuracy constraint optimization",
+      "Result",
+      "s6"
+    ],
+    [
+      "accurate communication scheme",
+      "Property",
+      "s16"
+    ],
+    [
+      "adjective",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "adverb",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "attention",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "autocomplete system",
+      "Definition",
+      "s1"
+    ],
+    [
+      "autocomplete system",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "autocomplete system",
+      "Property",
+      "s51"
+    ],
+    [
+      "autoencoder framework",
+      "Method",
+      "s18"
+    ],
+    [
+      "autoencoders",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "beam search",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "capitalization",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "communication cost",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "communication efficiency",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "communication game",
+      "Definition",
+      "s10"
+    ],
+    [
+      "constrained model",
+      "Result",
+      "s47"
+    ],
+    [
+      "constrained objective",
+      "Definition",
+      "s37"
+    ],
+    [
+      "constrained objective",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "constrained objective",
+      "Property",
+      "s43"
+    ],
+    [
+      "constrained objective",
+      "Result",
+      "s41"
+    ],
+    [
+      "constrained optimization",
+      "Method",
+      "s29"
+    ],
+    [
+      "constrained optimization",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "copying",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "cost(x, \u03b1)",
+      "Definition",
+      "s25"
+    ],
+    [
+      "cost(x, \u03b1)",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "crowdworkers",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "decoder",
+      "Definition",
+      "s46"
+    ],
+    [
+      "decoding strategy p_\u03b2",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "decoding strategy p_\u03b2(x|z)",
+      "Definition",
+      "s14"
+    ],
+    [
+      "discrete z",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "efficiency of a communication scheme",
+      "Result",
+      "s34"
+    ],
+    [
+      "efficiency-accuracy tradeoff",
+      "Result",
+      "s48"
+    ],
+    [
+      "efficient communication scheme",
+      "Property",
+      "s15"
+    ],
+    [
+      "encoder-decoder framework",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "encoding strategy q_\u03b1",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "encoding strategy q_\u03b1(z|x)",
+      "Definition",
+      "s13"
+    ],
+    [
+      "exact match accuracy",
+      "Result",
+      "s57"
+    ],
+    [
+      "expected cost",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "generic sentences",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "gradient descent",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "gradient descent",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "https://bit.ly/353fbyn",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "human adaptability",
+      "Result",
+      "s9"
+    ],
+    [
+      "human intuitive sense of important keywords",
+      "Assumption",
+      "s23"
+    ],
+    [
+      "interpretability",
+      "Property",
+      "s24"
+    ],
+    [
+      "joint updates on (\u03b1, \u03b2, \u03bb)",
+      "Method",
+      "s32"
+    ],
+    [
+      "keyword-based autocomplete",
+      "Definition",
+      "s3"
+    ],
+    [
+      "keywords",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "keywords z",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "keywords z",
+      "Definition",
+      "s12"
+    ],
+    [
+      "keywords-sentence pairs",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "left-to-right autocomplete systems",
+      "Property",
+      "s2"
+    ],
+    [
+      "linear combination",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "linear combination of efficiency and accuracy",
+      "Result",
+      "s5"
+    ],
+    [
+      "linear objective",
+      "Definition",
+      "s38"
+    ],
+    [
+      "linear objective",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "linear objective",
+      "Property",
+      "s42"
+    ],
+    [
+      "loss(x, \u03b1, \u03b2)",
+      "Definition",
+      "s26"
+    ],
+    [
+      "loss(x, \u03b1, \u03b2)",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "loss(x, \u03b1, \u03b2)",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "minibatch averaging",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "multi-objective optimization",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "multi-objective optimization",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "multi-objective optimization",
+      "Goal",
+      "s22"
+    ],
+    [
+      "multi-objective optimization",
+      "Method",
+      "s4"
+    ],
+    [
+      "over-specified keywords",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "over-specified keywords",
+      "Result",
+      "s53"
+    ],
+    [
+      "performance",
+      "Result",
+      "s36"
+    ],
+    [
+      "preposition",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "properly specified keywords",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "properly specified keywords",
+      "Result",
+      "s54"
+    ],
+    [
+      "punctuation",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "reconstruction error",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "reconstruction error \u03b5",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "reconstruction loss",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "retention rate",
+      "Definition",
+      "s40"
+    ],
+    [
+      "retention rate",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "reviewers",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "scheme (q_\u03b1, p_\u03b2)",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "semantic equivalence",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "semantic equivalence",
+      "Result",
+      "s55"
+    ],
+    [
+      "semantic equivalence (one of top three)",
+      "Result",
+      "s56"
+    ],
+    [
+      "sequence-to-sequence model",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "sequence-to-sequence model with attention and copying",
+      "Definition",
+      "s21"
+    ],
+    [
+      "simplest approach",
+      "Simplest Approach",
+      "e3"
+    ],
+    [
+      "stochastic REINFORCE",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "stochastic REINFORCE estimate",
+      "Method",
+      "s31"
+    ],
+    [
+      "stochastic encoder",
+      "Definition",
+      "s19"
+    ],
+    [
+      "subsequence",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "subsequence scheme",
+      "Definition",
+      "s17"
+    ],
+    [
+      "supervised dataset",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "target sentence",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "target sequence x",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "target sequence x",
+      "Property",
+      "s11"
+    ],
+    [
+      "top three suggestions",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "tradeoff parameter \u03bb",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "training stability",
+      "Result",
+      "s35"
+    ],
+    [
+      "typing time",
+      "Result",
+      "s58"
+    ],
+    [
+      "typing time variance",
+      "Property",
+      "s59"
+    ],
+    [
+      "under-specified keywords",
+      "Result",
+      "s52"
+    ],
+    [
+      "user interface",
+      "Definition",
+      "s50"
+    ],
+    [
+      "user study",
+      "Communication Scheme",
+      "e2"
+    ],
+    [
+      "user study",
+      "Definition",
+      "s49"
+    ],
+    [
+      "user-system communication scheme",
+      "Autocomplete System",
+      "e1"
+    ],
+    [
+      "verb",
+      "Autocomplete Task Results",
+      "e6"
+    ],
+    [
+      "weight \u03bb",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "\u03b1, \u03b2, \u03bb updates",
+      "Optimization Stability",
+      "e4"
+    ],
+    [
+      "\u03b4",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "\u03b5",
+      "Model Efficiency Analysis",
+      "e5"
+    ],
+    [
+      "\u03b5",
+      "Property",
+      "s28"
+    ],
+    [
+      "\u03bb",
+      "Property",
+      "s27"
+    ]
+  ]
+}

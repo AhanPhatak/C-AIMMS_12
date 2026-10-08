@@ -1,0 +1,6839 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 26,
+    "n_semantic": 189,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Named Entity Recognition": {
+      "tag_set": [
+        "NER Progress"
+      ]
+    },
+    "NER": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "CRF Tagging in NER",
+        "Model Architecture",
+        "Model Evaluation",
+        "NER Progress"
+      ]
+    },
+    "recent years": {
+      "tag_set": [
+        "NER Progress"
+      ]
+    },
+    "machine learning algorithms": {
+      "tag_set": [
+        "NER System Training",
+        "Property"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Dataset Setup",
+        "NER System Training"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "NER System Training"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Method",
+        "NER Sequence Labeling",
+        "NER System Training"
+      ]
+    },
+    "Natural Language Processing": {
+      "tag_set": [
+        "NER System Training"
+      ]
+    },
+    "NER systems": {
+      "tag_set": [
+        "NER System Training"
+      ]
+    },
+    "labeled training data": {
+      "tag_set": [
+        "Crowdsourcing Learning",
+        "NER System Training",
+        "Requirement"
+      ]
+    },
+    "experts": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing",
+        "Crowdsourcing for Data Annotation",
+        "NER System Training"
+      ]
+    },
+    "new types of entities": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation",
+        "NER System Training"
+      ]
+    },
+    "new domains": {
+      "tag_set": [
+        "Adversarial Training in NER",
+        "NER System Training"
+      ]
+    },
+    "annotated data": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "short time limits": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "hiring experts": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "costly": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "non-scalable": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "time": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "money": {
+      "tag_set": [
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "crowdsourcing": {
+      "tag_set": [
+        "Alternative",
+        "Application",
+        "Crowdsourcing for Data Annotation"
+      ]
+    },
+    "crowd annotations": {
+      "tag_set": [
+        "Adversarial Training in NER",
+        "Chinese NER Crowdsourcing",
+        "Limitation"
+      ]
+    },
+    "non-experts": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing",
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "majority voting": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing",
+        "Method",
+        "Model Comparison in NER",
+        "Result"
+      ]
+    },
+    "ambiguous sentences": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing"
+      ]
+    },
+    "annotator trustfulness": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing"
+      ]
+    },
+    "Chinese NER": {
+      "tag_set": [
+        "Adversarial Training in NER",
+        "Challenge",
+        "Chinese NER Crowdsourcing",
+        "NER Model Performance"
+      ]
+    },
+    "news domain": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing",
+        "Performance"
+      ]
+    },
+    "social media texts": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing"
+      ]
+    },
+    "character-level tagging": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing",
+        "Solution"
+      ]
+    },
+    "domain shift": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing"
+      ]
+    },
+    "adversarial training": {
+      "tag_set": [
+        "Adversarial Training",
+        "Adversarial Training in NER",
+        "Application",
+        "Cause",
+        "Chinese NER Crowdsourcing",
+        "Dataset Annotation",
+        "Definition",
+        "Method",
+        "Model Evaluation",
+        "NER Model Performance",
+        "NER Model Setup"
+      ]
+    },
+    "cross-lingual POS tagging": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing",
+        "Related Task"
+      ]
+    },
+    "cross-domain POS tagging": {
+      "tag_set": [
+        "Chinese NER Crowdsourcing",
+        "Related Task"
+      ]
+    },
+    "input divergences": {
+      "tag_set": [
+        "Adversarial Training"
+      ]
+    },
+    "different domains": {
+      "tag_set": [
+        "Adversarial Training"
+      ]
+    },
+    "different languages": {
+      "tag_set": [
+        "Adversarial Training"
+      ]
+    },
+    "crowd annotators": {
+      "tag_set": [
+        "Adversarial Training",
+        "NER Model Setup"
+      ]
+    },
+    "crowd annotation learning": {
+      "tag_set": [
+        "Adversarial Training",
+        "Model Comparison in NER"
+      ]
+    },
+    "learning framework": {
+      "tag_set": [
+        "Adversarial Training"
+      ]
+    },
+    "Bi-LSTM": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Bi-LSTM Architecture",
+        "Component",
+        "Dataset Annotation",
+        "Definition",
+        "Model Architecture",
+        "Model Evaluation",
+        "NER Model Architecture",
+        "NER Model Setup",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "common Bi-LSTM": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Bi-LSTM Architecture",
+        "Definition",
+        "Model Architecture",
+        "NER Model Setup",
+        "Property"
+      ]
+    },
+    "private Bi-LSTM": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Bi-LSTM Architecture",
+        "Definition",
+        "NER Model Setup",
+        "Property"
+      ]
+    },
+    "label Bi-LSTM": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Definition",
+        "Model Architecture",
+        "NER Model Performance",
+        "NER Model Setup"
+      ]
+    },
+    "worker discriminator": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Definition",
+        "Function",
+        "Model Architecture",
+        "NER Model Setup",
+        "Property",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "annotation guidebook": {
+      "tag_set": [
+        "NER Model Setup"
+      ]
+    },
+    "Chinese NER datasets": {
+      "tag_set": [
+        "NER Model Setup",
+        "Result"
+      ]
+    },
+    "dialog domain": {
+      "tag_set": [
+        "NER Model Performance",
+        "NER Model Setup"
+      ]
+    },
+    "e-commerce domain": {
+      "tag_set": [
+        "NER Model Performance",
+        "NER Model Setup"
+      ]
+    },
+    "person": {
+      "tag_set": [
+        "NER Model Setup"
+      ]
+    },
+    "song": {
+      "tag_set": [
+        "NER Model Setup"
+      ]
+    },
+    "brand": {
+      "tag_set": [
+        "NER Model Setup"
+      ]
+    },
+    "product": {
+      "tag_set": [
+        "NER Model Setup"
+      ]
+    },
+    "adversarial neural network model": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "newly created datasets": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "baseline systems": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "HMM": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "MEMM": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "CRF": {
+      "tag_set": [
+        "CRF Labeling Process",
+        "CRF Tagging in NER",
+        "Comparison",
+        "Dataset Setup",
+        "Model Evaluation",
+        "NER Model Performance"
+      ]
+    },
+    "sequence labeling": {
+      "tag_set": [
+        "CRF Tagging in NER",
+        "Model Evaluation",
+        "NER Sequence Labeling"
+      ]
+    },
+    "computer vision": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "image generation": {
+      "tag_set": [
+        "Model Evaluation"
+      ]
+    },
+    "LP community": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "domain adaptation": {
+      "tag_set": [
+        "Application",
+        "Crowdsourcing Learning",
+        "Related Work"
+      ]
+    },
+    "cross-lingual": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "multi-task learning": {
+      "tag_set": [
+        "Application",
+        "Crowdsourcing Learning",
+        "Related Work"
+      ]
+    },
+    "feature divergences": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "adversarial discriminator": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "domain discriminator": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "crowdsourcing workers": {
+      "tag_set": [
+        "Crowd Label Aggregation",
+        "Crowdsourcing Learning"
+      ]
+    },
+    "NLP tasks": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "Amazon Mechanical Turk": {
+      "tag_set": [
+        "Crowdsourcing Learning",
+        "Example"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "BIBREF16": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "BIBREF17": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "BIBREF18": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "snow2008cheap": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "classification": {
+      "tag_set": [
+        "Crowdsourcing Learning"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Crowd Label Aggregation",
+        "Result"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Crowd Label Aggregation",
+        "Definition"
+      ]
+    },
+    "dredze2009sequence": {
+      "tag_set": [
+        "Crowd Label Aggregation"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Crowd Label Aggregation",
+        "Method"
+      ]
+    },
+    "rodrigues2014sequence": {
+      "tag_set": [
+        "Crowd Label Aggregation"
+      ]
+    },
+    "CRF-based model": {
+      "tag_set": [
+        "Crowd Label Aggregation"
+      ]
+    },
+    "multiple annotators": {
+      "tag_set": [
+        "Crowd Label Aggregation"
+      ]
+    },
+    "Nguyen2017aggregating": {
+      "tag_set": [
+        "Crowd Label Aggregation"
+      ]
+    },
+    "crowd vectors": {
+      "tag_set": [
+        "Crowd Label Aggregation"
+      ]
+    },
+    "LSTM-CRF model": {
+      "tag_set": [
+        "Crowd Label Aggregation",
+        "Property",
+        "Usage"
+      ]
+    },
+    "train time": {
+      "tag_set": [
+        "Crowd Label Aggregation"
+      ]
+    },
+    "baseline": {
+      "tag_set": [
+        "Adversarial Training in NER"
+      ]
+    },
+    "LSTM-CRF": {
+      "tag_set": [
+        "Adversarial Training in NER",
+        "Dataset Setup",
+        "Definition",
+        "Model Comparison in NER",
+        "NER Model Performance",
+        "Property"
+      ]
+    },
+    "neural CRF model": {
+      "tag_set": [
+        "Adversarial Training in NER"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "NER Sequence Labeling",
+        "Reference"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "lample-EtAl:2016:N16-1": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "Chinese characters": {
+      "tag_set": [
+        "NER Model Architecture",
+        "NER Sequence Labeling"
+      ]
+    },
+    "BIEO schema": {
+      "tag_set": [
+        "Definition",
+        "NER Sequence Labeling"
+      ]
+    },
+    "O": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "B-XX": {
+      "tag_set": [
+        "CRF Tagging in NER",
+        "NER Sequence Labeling"
+      ]
+    },
+    "E-XX": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "I-XX": {
+      "tag_set": [
+        "CRF Tagging in NER",
+        "NER Sequence Labeling"
+      ]
+    },
+    "bi-directional LSTM": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "CRF layer": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "sentential character": {
+      "tag_set": [
+        "NER Model Architecture",
+        "NER Sequence Labeling"
+      ]
+    },
+    "vector representations": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "input character sequence": {
+      "tag_set": [
+        "NER Sequence Labeling"
+      ]
+    },
+    "CRF tagging module": {
+      "tag_set": [
+        "Component",
+        "NER Model Architecture"
+      ]
+    },
+    "neural embedding layer": {
+      "tag_set": [
+        "NER Model Architecture"
+      ]
+    },
+    "looking-up table": {
+      "tag_set": [
+        "NER Model Architecture"
+      ]
+    },
+    "vector representation": {
+      "tag_set": [
+        "NER Model Architecture"
+      ]
+    },
+    "discrete inputs": {
+      "tag_set": [
+        "NER Model Architecture"
+      ]
+    },
+    "low-dimensional vector representations": {
+      "tag_set": [
+        "NER Model Architecture"
+      ]
+    },
+    "model parameter": {
+      "tag_set": [
+        "NER Model Architecture"
+      ]
+    },
+    "pretrained embeddings": {
+      "tag_set": [
+        "Cause",
+        "NER Model Architecture",
+        "NER Model Performance",
+        "Property"
+      ]
+    },
+    "vector sequence": {
+      "tag_set": [
+        "NER Model Architecture"
+      ]
+    },
+    "feature extraction": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction",
+        "NER Model Architecture",
+        "Process"
+      ]
+    },
+    "baseline model": {
+      "tag_set": [
+        "NER Model Architecture",
+        "Reference"
+      ]
+    },
+    "bidirectional LSTM": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction",
+        "Definition"
+      ]
+    },
+    "RNN": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "exploding and diminishing gradients": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "feed-forward neural layer": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction",
+        "Function"
+      ]
+    },
+    "CRF tagging": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction",
+        "Definition"
+      ]
+    },
+    "POS-tagging": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "parsing": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "machine translation": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "output features": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "h_private": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "h_t_private": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "h_t": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "overrightarrow h_t": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "overleftarrow h_t": {
+      "tag_set": [
+        "Bi-LSTM Feature Extraction"
+      ]
+    },
+    "character inputs": {
+      "tag_set": [
+        "Bi-LSTM Architecture"
+      ]
+    },
+    "linear feed-forward neural layer": {
+      "tag_set": [
+        "Bi-LSTM Architecture"
+      ]
+    },
+    "output vectors": {
+      "tag_set": [
+        "Bi-LSTM Architecture"
+      ]
+    },
+    "h_t^ner": {
+      "tag_set": [
+        "Bi-LSTM Architecture",
+        "CRF Labeling Process",
+        "CRF Tagging in NER"
+      ]
+    },
+    "W": {
+      "tag_set": [
+        "Bi-LSTM Architecture",
+        "CRF Tagging in NER"
+      ]
+    },
+    "equation": {
+      "tag_set": [
+        "Bi-LSTM Architecture"
+      ]
+    },
+    "features h_1^ner h_2^ner ... h_n^ner": {
+      "tag_set": [
+        "Bi-LSTM Architecture"
+      ]
+    },
+    "h_t^private": {
+      "tag_set": [
+        "CRF Tagging in NER"
+      ]
+    },
+    "b": {
+      "tag_set": [
+        "CRF Tagging in NER"
+      ]
+    },
+    "o_t^ner": {
+      "tag_set": [
+        "CRF Labeling Process",
+        "CRF Tagging in NER"
+      ]
+    },
+    "XX": {
+      "tag_set": [
+        "CRF Tagging in NER"
+      ]
+    },
+    "global normalization": {
+      "tag_set": [
+        "CRF Tagging in NER"
+      ]
+    },
+    "label dependencies": {
+      "tag_set": [
+        "CRF Tagging in NER"
+      ]
+    },
+    "output labels": {
+      "tag_set": [
+        "CRF Labeling Process"
+      ]
+    },
+    "transition matrix": {
+      "tag_set": [
+        "CRF Labeling Process"
+      ]
+    },
+    "T": {
+      "tag_set": [
+        "CRF Labeling Process"
+      ]
+    },
+    "Viterbi algorithm": {
+      "tag_set": [
+        "CRF Labeling Process",
+        "Method"
+      ]
+    },
+    "W^ner": {
+      "tag_set": [
+        "CRF Labeling Process",
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "score(X, y)": {
+      "tag_set": [
+        "CRF Labeling Process"
+      ]
+    },
+    "y_t": {
+      "tag_set": [
+        "CRF Labeling Process"
+      ]
+    },
+    "y_{t-1}": {
+      "tag_set": [
+        "CRF Labeling Process"
+      ]
+    },
+    "n": {
+      "tag_set": [
+        "CRF Labeling Process"
+      ]
+    },
+    "mathbf{X}": {
+      "tag_set": [
+        "Mathematical Notation"
+      ]
+    },
+    "math": {
+      "tag_set": [
+        "Mathematical Notation"
+      ]
+    },
+    "score(\u00b7)": {
+      "tag_set": [
+        "Definition",
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "output label sequence": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "input X": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "label sequence y": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "negative log-likelihood": {
+      "tag_set": [
+        "Model Architecture",
+        "Model Training with Worker Adversarial Learning",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "softmax": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "p(\\bar{y}|X)": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "loss(\u0398, X, \\bar{y})": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "back-propagation": {
+      "tag_set": [
+        "Method",
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "CRF model": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "crowd-annotated label sequences": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "candidate label sequence": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "model parameters \u0398": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "adversarial learning": {
+      "tag_set": [
+        "Definition",
+        "Goal",
+        "Model Comparison in NER",
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "biased annotations": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "worker guidelines": {
+      "tag_set": [
+        "Assumption",
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "expert annotations": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "annotation workers": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "discriminator": {
+      "tag_set": [
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "input sentence features": {
+      "tag_set": [
+        "Limitation",
+        "Model Training with Worker Adversarial Learning"
+      ]
+    },
+    "source sentences": {
+      "tag_set": [
+        "Adversarial Learning Module"
+      ]
+    },
+    "crowd-annotated NE labels": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Input"
+      ]
+    },
+    "convolutional neural network": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Model Architecture"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Model Architecture"
+      ]
+    },
+    "character representations": {
+      "tag_set": [
+        "Adversarial Learning Module"
+      ]
+    },
+    "feed-forward combination layer": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Definition"
+      ]
+    },
+    "Formula 6": {
+      "tag_set": [
+        "Adversarial Learning Module"
+      ]
+    },
+    "Eq. 13": {
+      "tag_set": [
+        "Adversarial Learning Module"
+      ]
+    },
+    "Eq. 14": {
+      "tag_set": [
+        "Adversarial Learning Module"
+      ]
+    },
+    "worker independent features": {
+      "tag_set": [
+        "Adversarial Learning Module"
+      ]
+    },
+    "testing phase": {
+      "tag_set": [
+        "Adversarial Learning Module",
+        "Constraint"
+      ]
+    },
+    "annotated NE label sequence": {
+      "tag_set": [
+        "Adversarial Learning Module"
+      ]
+    },
+    "crowd-annotated NE label sequence": {
+      "tag_set": [
+        "Definition",
+        "Model Architecture"
+      ]
+    },
+    "E^L": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "look-up table": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "neural vector": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "window size 5": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "max pooling": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "W^cnn": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "h^worker": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "o^worker": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "W^worker": {
+      "tag_set": [
+        "Model Architecture"
+      ]
+    },
+    "actual worker \\bar{z}": {
+      "tag_set": [
+        "Worker Discriminator Objective"
+      ]
+    },
+    "p(\\bar{z}|\\mathbf{X}, \\mathbf{\\bar{y}})": {
+      "tag_set": [
+        "Definition",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "Eq. 22": {
+      "tag_set": [
+        "Formula",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "Eq. 23": {
+      "tag_set": [
+        "Formula",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "R(\\Theta, \\Theta', \\mathbf{X}, \\mathbf{\\bar{y}}, \\bar{z})": {
+      "tag_set": [
+        "Definition",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "\\Theta": {
+      "tag_set": [
+        "Property",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "\\Theta'": {
+      "tag_set": [
+        "Property",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "NER loss": {
+      "tag_set": [
+        "Worker Discriminator Objective"
+      ]
+    },
+    "saddle point": {
+      "tag_set": [
+        "Worker Discriminator Objective"
+      ]
+    },
+    "argmin": {
+      "tag_set": [
+        "Worker Discriminator Objective"
+      ]
+    },
+    "argmax": {
+      "tag_set": [
+        "Worker Discriminator Objective"
+      ]
+    },
+    "Eq. 24": {
+      "tag_set": [
+        "Definition",
+        "Worker Discriminator Objective"
+      ]
+    },
+    "gradient reverse layer": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "CNN module": {
+      "tag_set": [
+        "Dataset Annotation",
+        "Definition"
+      ]
+    },
+    "Dialog domain": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "E-commerce domain": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "undergraduate students": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "Person-Name": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "Song-Name": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "DL-PS": {
+      "tag_set": [
+        "Dataset Annotation",
+        "Model Comparison in NER",
+        "NER Model Performance"
+      ]
+    },
+    "20K sentences": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "43 students": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "three annotators": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "16,948 sentences": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "Kappa value 0.6033": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "gold annotations": {
+      "tag_set": [
+        "Dataset Annotation",
+        "Definition"
+      ]
+    },
+    "1,000 sentences": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "300 development set": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "700 test set": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "EC-MT": {
+      "tag_set": [
+        "Dataset Annotation",
+        "Model Comparison in NER",
+        "NER Model Performance",
+        "Result"
+      ]
+    },
+    "EC-UQ": {
+      "tag_set": [
+        "Dataset Annotation",
+        "Model Comparison in NER",
+        "NER Model Performance",
+        "Result"
+      ]
+    },
+    "Brand": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "Product": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "Model": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "Material": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "Specification": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "five students": {
+      "tag_set": [
+        "Dataset Annotation",
+        "Entity"
+      ]
+    },
+    "knowledge graph": {
+      "tag_set": [
+        "Dataset Annotation"
+      ]
+    },
+    "2,337 sentences": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "2,300 sentences": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "Table 1": {
+      "tag_set": [
+        "Dataset Setup",
+        "Definition"
+      ]
+    },
+    "400 sentences": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "100 sentences": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "300 sentences": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "5M sentences": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "unlabeled data": {
+      "tag_set": [
+        "Dataset Setup",
+        "Result"
+      ]
+    },
+    "user-generated content": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "word2vec": {
+      "tag_set": [
+        "Dataset Setup",
+        "Method"
+      ]
+    },
+    "character embeddings": {
+      "tag_set": [
+        "Dataset Setup",
+        "NER Model Performance",
+        "Property"
+      ]
+    },
+    "Crfsuite": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "BIBREF28": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "dropout": {
+      "tag_set": [
+        "Dataset Setup",
+        "Method"
+      ]
+    },
+    "mini-batch size 128": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "max-epoch iteration 200": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "RMSprop": {
+      "tag_set": [
+        "Dataset Setup",
+        "Method"
+      ]
+    },
+    "learning rate 10^-3": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "l_2-regularization 10^-5": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "drop value 0.2": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "CRF-VT": {
+      "tag_set": [
+        "Comparison",
+        "Dataset Setup",
+        "Model Comparison in NER"
+      ]
+    },
+    "voted version": {
+      "tag_set": [
+        "Dataset Setup"
+      ]
+    },
+    "character level": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "CRF-MA": {
+      "tag_set": [
+        "Definition",
+        "Model Comparison in NER"
+      ]
+    },
+    "BIBREF3 rodrigues2014sequence": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "LSTM-CRF-VT": {
+      "tag_set": [
+        "Definition",
+        "Model Comparison in NER"
+      ]
+    },
+    "LSTM-Crowd": {
+      "tag_set": [
+        "Definition",
+        "Model Comparison in NER",
+        "NER Model Performance"
+      ]
+    },
+    "BIBREF4 nguyen2017aggregating": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "ALCrowd": {
+      "tag_set": [
+        "Comparison",
+        "Model Comparison in NER",
+        "NER Model Performance",
+        "Property",
+        "Result"
+      ]
+    },
+    "F1 improvement": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "neural network": {
+      "tag_set": [
+        "Model Comparison in NER",
+        "Result"
+      ]
+    },
+    "voted corpus": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "ground-truth answers": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "two annotations": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "handcrafted features": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "LSTM-CRF baseline": {
+      "tag_set": [
+        "Model Comparison in NER"
+      ]
+    },
+    "majority-voting": {
+      "tag_set": [
+        "NER Model Performance",
+        "Property",
+        "Result"
+      ]
+    },
+    "crowd-annotation learning": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "random initialized embeddings": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "F1 improvements": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "p-value": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "t-test": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "case studies": {
+      "tag_set": [
+        "Definition",
+        "NER Model Performance"
+      ]
+    },
+    "training set": {
+      "tag_set": [
+        "Definition",
+        "NER Model Performance",
+        "Property"
+      ]
+    },
+    "DL-PS dataset": {
+      "tag_set": [
+        "Example",
+        "NER Model Performance",
+        "Result"
+      ]
+    },
+    "majority-voting strategy": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Xiexie": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Bi-LSTMs": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "crowd annotation": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Table 2": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Grant No. 61572338": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Grant No. 61525205": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Grant No. 61602160": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Alibaba": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Soochow University": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Wenliang": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Collaborative Innovation Center": {
+      "tag_set": [
+        "NER Model Performance"
+      ]
+    },
+    "Named Entity Recognition (NER)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "adversarial training in crowd annotation learning": {
+      "tag_set": [
+        "Innovation"
+      ]
+    },
+    "entity types": {
+      "tag_set": [
+        "Attribute"
+      ]
+    },
+    "chatbot and e-commerce platforms": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "feature sparsity": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "cross-lingual learning": {
+      "tag_set": [
+        "Application",
+        "Related Work"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "this paper": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Baseline: LSTM-CRF": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "vector representation of characters": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "Application",
+        "Definition"
+      ]
+    },
+    "equation (6)": {
+      "tag_set": [
+        "Formula"
+      ]
+    },
+    "CRF transition matrix": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "output scores $\\mathbf{o}_t^{\\text{ner}}$": {
+      "tag_set": [
+        "Formula"
+      ]
+    },
+    "label dependency in NER": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CRF scoring function": {
+      "tag_set": [
+        "Formula"
+      ]
+    },
+    "best-scoring label sequence": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "y": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "mathbf{y}^{\\text{ner}}": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "mathbf{W}^{\\text{ner}}": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "negative log-likelihood objective": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "p(mathbf{\\bar{y}}|mathbf{X})": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "mathbf{\\bar{y}}": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "mathbf{Y}_{mathbf{X}}": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "loss(\u0398, mathbf{X}, mathbf{\\bar{y}})": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "worker annotations": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "perfect worker": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "common crowdsourcing worker": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "common features": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Formula 14": {
+      "tag_set": [
+        "Equation"
+      ]
+    },
+    "looking-up table \\(\\mathbf{E}^L\\)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "neural vector \\(\\mathbf{x'}_t\\)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Bi-LSTM over \\(\\mathbf{x'}_1\\cdots\\mathbf{x'}_n\\)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "concatenated outputs of common Bi-LSTM and label Bi-LSTM": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "max pooling strategy": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "score function \\(\\mathbf{o}^{\\text{worker}}\\)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "worker prediction": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "adversarial training objective": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "argmin_\\Theta R": {
+      "tag_set": [
+        "Objective"
+      ]
+    },
+    "argmax_\\Theta' R": {
+      "tag_set": [
+        "Objective"
+      ]
+    },
+    "Bi-LSTM features": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Dialog domain (DL)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "E-commerce domain (EC)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "annotation process": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "Person-Name and Song-Name": {
+      "tag_set": [
+        "Entity types"
+      ]
+    },
+    "average Kappa value": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "Definition",
+        "Property"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Definition",
+        "Property"
+      ]
+    },
+    "EC-MT and EC-UQ": {
+      "tag_set": [
+        "Labeled data"
+      ]
+    },
+    "Brand, Product, Model, Material, Specification": {
+      "tag_set": [
+        "Entity types"
+      ]
+    },
+    "annotation strategy in EC domain": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "evaluation metrics": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "gold entity": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NE label embeddings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hidden features": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "mini-batch size": {
+      "tag_set": [
+        "Setting"
+      ]
+    },
+    "max-epoch iteration": {
+      "tag_set": [
+        "Setting"
+      ]
+    },
+    "best-epoch model": {
+      "tag_set": [
+        "Selection"
+      ]
+    },
+    "l2-regularization": {
+      "tag_set": [
+        "Setting"
+      ]
+    },
+    "CRF-MA, LSTM-Crowd, ALCrowd": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CRF, CRF-MA, LSTM-CRF, LSTM-Crowd, ALCrowd": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CRF-VT, LSTM-CRF-VT": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "EC-MT dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "EC-UQ dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "CRF-VT and LSTM-CRF-VT": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "character-level voting": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "cost of adding more annotations": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "lost information from majority-voting": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "CRF and LSTM-CRF models": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "crowd-annotation learning systems": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "pretrained character embeddings": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training set inconsistencies": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "proposed model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dialog domain dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "e-commerce domain dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "experimental results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "National Natural Science Foundation of China": {
+      "tag_set": [
+        "Support"
+      ]
+    },
+    "Alibaba and Soochow University": {
+      "tag_set": [
+        "Support"
+      ]
+    },
+    "Collaborative Innovation Center of Novel Software Technology and Industrialization": {
+      "tag_set": [
+        "Support"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nThere has been significant progress on Named Entity Recognition (NER) in recent years",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NER Progress"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "using models based on machine learning algorithms BIBREF0 , BIBREF1 , BIBREF2 . As with other Natural Language Processing (NLP) tasks, building NER systems typically requires a massive amount of labeled training data which are annotated by experts. In real applications, we often need to consider new types of entities in new domains",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NER System Training"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "where we do not have existing annotated data. For such new types of entities, however, it is very hard to find experts to annotate the data within short time limits and hiring experts is costly and non-scalable, both in terms of time and money.\nIn order to quickly obtain new training data, we can use crowdsourcing",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Crowdsourcing for Data Annotation"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "as one alternative way at lower cost in a short time. But as an exchange, crowd annotations from non-experts may be of lower quality than those from experts. It is one biggest challenge to build a powerful NER system on such a low quality annotated data. Although we can obtain high quality annotations for each input sentence by majority voting, it can be a waste of human labors to achieve such a goal, especially for some ambiguous sentences which may require a number of annotations to reach an agreement. Thus majority work directly build models on crowd annotations, trying to model the differences among annotators, for example, some of the annotators may be more trustful BIBREF3 , BIBREF4 .\nHere we focus mainly on the Chinese NER, which is more difficult than NER for other languages such as English for the lack of morphological variations such as capitalization and in particular the uncertainty in word segmentation. The Chinese NE taggers trained on news domain often perform poor in other domains. Although we can alleviate the problem by using character-level tagging to resolve the problem of poor word segmentation performances BIBREF5 , still there exists a large gap when the target domain changes, especially for the texts of social media. Thus, in order to get a good tagger for new domains and also for the conditions of new entity types, we require large amounts of labeled data. Therefore, crowdsourcing is a reasonable solution for these situations.\nIn this paper, we propose an approach to training a Chinese NER system on the crowd-annotated data. Our goal is to extract additional annotator independent features by adversarial training, alleviating the annotation noises of non-experts. The idea of adversarial training in neural networks has been used successfully in several NLP tasks, such as cross-lingual POS tagging BIBREF6 and cross-domain POS tagging BIBREF7 . They use it to reduce",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Chinese NER Crowdsourcing"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "the negative influences of the input divergences among different domains or languages, while we use adversarial training to reduce the negative influences brought by different crowd annotators. To our best knowledge, we are the first to apply adversarial training for crowd annotation learning.\nIn the learning framework, we perform adversarial training between the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Adversarial Training"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "basic NER and an additional worker discriminator. We have a common Bi-LSTM for representing annotator-generic information and a private Bi-LSTM for representing annotator-specific information. We build another label Bi-LSTM by the crowd-annotated NE label sequence which reflects the mind of the crowd annotators who learn entity definitions by reading the annotation guidebook. The common and private Bi-LSTMs are used for NER, while the common and label Bi-LSTMs are used as inputs for the worker discriminator. The parameters of the common Bi-LSTM are learned by adversarial training, maximizing the worker discriminator loss and meanwhile minimizing the NER loss. Thus the resulting features of the common Bi-LSTM are worker invariant and NER sensitive.\nFor evaluation, we create two Chinese NER datasets in two domains: dialog and e-commerce. We require the crowd annotators to label the types of entities, including person, song, brand, product, and so on. Identifying these entities is useful for chatbot and e-commerce platforms BIB",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NER Model Setup"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "REF8 . Then we conduct experiments on the newly created datasets to verify the effectiveness of the proposed adversarial neural network model. The results show that our system outperforms very strong baseline systems. In summary, we make the following contributions:\nRelated Work\nOur work is related to three lines of research: Sequence labeling, Adversarial training, and Crowdsourcing.\nSequence labeling. NER is widely treated as a sequence labeling problem, by assigning a unique label over each sentential word BIBREF9 . Early studies on sequence labeling often use the models of HMM, MEMM, and CRF BIBREF10 based on manually-crafted discrete features, which can suffer the feature sparsity problem and require heavy feature engineering. Recently, neural network models have been successfully applied to sequence labeling BIBREF1 , BIBREF11 , BIBREF2 . Among these work, the model which uses Bi-LSTM for feature extraction and CRF for decoding has achieved state-of-the-art performances BIBREF11 , BIBREF2 , which is exploited as the baseline model in our work.\nAdversarial Training. Adversarial Networks have achieved great success in computer vision such as image generation BIBREF12 , BIBREF13 . In the N",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "LP community, the method is mainly exploited under the settings of domain adaption BIBREF14 , BIBREF7 , cross-lingual BIBREF15 , BIBREF6 and multi-task learning BIBREF16 , BIBREF17 . All these settings involve the feature divergences between the training and test examples, and aim to learn invariant features across the divergences by an additional adversarial discriminator, such as domain discriminator. Our work is similar to these work but is applies on crowdsourcing learning, aiming to find invariant features among different crowdsourcing workers.\nCrowdsourcing. Most NLP tasks require a massive amount of labeled training data which are annotated by experts. However, hiring experts is costly and non-scalable, both in terms of time and money. Instead, crowdsourcing is another solution to obtain labeled data at a lower cost but with relative lower quality than those from experts. BIBREF18 snow2008cheap collected labeled results for several NLP tasks from Amazon Mechanical Turk and demonstrated that non-experts annotations were quite useful for training new systems. In recent years, a series of work have focused on how to use crowdsourcing data efficiently in tasks such as classification BIBREF19 , BIBREF20 ,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Crowdsourcing Learning"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "and compare quality of crowd and expert labels BIBREF21 .\nIn sequence labeling tasks, BIBREF22 dredze2009sequence viewed this task as a multi-label problem while BIBREF3 rodrigues2014sequence took workers identities into account by assuming that each sentential word was tagged correctly by one of the crowdsourcing workers and proposed a CRF-based model with multiple annotators. BIBREF4 nguyen2017aggregating introduced a crowd representation in which the crowd vectors were added into the LSTM-CRF model at train time, but ignored them at",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Crowd Label Aggregation"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "test time. In this paper, we apply adversarial training on crowd annotations on Chinese NER in new domains, and achieve better performances than previous studies on crowdsourcing learning.\nBaseline: LSTM-CRF\nWe use a neural CRF model",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Adversarial Training in NER"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "as the baseline system BIBREF9 , treating NER as a sequence labeling problem over Chinese characters, which has achieved state-of-the-art performances BIBREF5 . To this end, we explore the BIEO schema to convert NER into sequence labeling, following BIBREF2 lample-EtAl:2016:N16-1, where sentential character is assigned with one unique tag. Concretely, we tag the non-entity character by label \u201cO\u201d, the beginning character of an entity by \u201cB-XX\u201d, the ending character of an entity by \u201cE-XX\u201d and the other character of an entity by \u201cI-XX\u201d, where \u201cXX\u201d denotes the entity type.\nWe build high-level neural features from the input character sequence by a bi-directional LSTM BIBREF2 . The resulting features are combined and then are fed into an output CRF layer for decoding. In summary, the baseline model has three main components. First, we make vector representations for sentential characters $\\mathbf {x}_1\\mathbf {x}_2",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NER Sequence Labeling"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "\\cdots \\mathbf {x}_n$ , transforming the discrete inputs into low-dimensional neural inputs. Second, feature extraction is performed to obtain high-level features $\\mathbf {h}_1^{\\text{ner}}\\mathbf {h}_2^{\\text{ner}}\\cdots \\mathbf {h}_n^{\\text{ner}}$ , by using a bi-directional LSTM (Bi-LSTM) structure together with a linear transformation over $\\mathbf {x}_1\\mathbf {x}_2\\cdots \\mathbf {x}_n$ . Third, we apply a CRF tagging module over $\\mathbf {h}_1^{\\text{ner}}\\mathbf {h}_2^{\\text{ner}}\\cdots \\mathbf {h}_n^{\\text{ner}}$ , obtaining the final output NE labels. The overall framework of the baseline model is shown by the right part of Figure 1 .\nVector Representation of Characters\nTo represent Chinese characters, we simply exploit a neural embedding layer to map discrete characters into the low-dimensional vector representations. The goal is achieved by a looking-up table $\\mathbf {E}^W$ , which is a model parameter and will be fine-tuned during training. The looking-up table can be initialized either by random or by using a pretrained embeddings from large scale raw corpus. For a given Chinese character sequence $c_1c_2\\cdots c_n$ , we obtain the vector representation of each sentential character by: $ \\mathbf {x}_t = \\text{look-up}(c_t, \\mathbf {E}^W), \\text{~~~} t \\in [1, n]$ .\nFeature Extraction\nBased on the vector sequence $\\mathbf {x}_1\\mathbf {x}_2\\cdots \\math",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NER Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "bf {x}_n$ , we extract higher-level features $\\mathbf {h}_1^{\\text{ner}}\\mathbf {h}_2^{\\text{ner}}\\cdots \\mathbf {h}_n^{\\text{ner}}$ by using a bidirectional LSTM module and a simple feed-forward neural layer, which are then used for CRF tagging at the next step.\nLSTM is a type of recurrent neural network (RNN), which is designed for solving the exploding and diminishing gradients of basic RNNs BIBREF23 . It has been widely used in a number of NLP tasks, including POS-tagging BIBREF11 , BIBREF24 , parsing BIBREF25 and machine translation BIBREF26 , because of its strong capabilities of modeling natural language sentences.\nBy traversing $\\mathbf {x}_1\\mathbf {x}_2\\cdots \\mathbf {x}_n$ by order and reversely, we obtain the output features $\\mathbf {h}_1^{\\text{private}}\\mathbf {h}_2^{\\text{private}}\\cdots \\mathbf {h}_n^{\\text{private}}$ of the bi-LSTM, where $\\mathbf {h}_t^{\\text{private}} = \\overrightarrow{\\mathbf {h}}_t \\oplus \\overleftarrow{\\mathbf {h}}_t $ . Here we refer",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Bi-LSTM Feature Extraction"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "this Bi-LSTM as private in order to differentiate it with the common Bi-LSTM over the same character inputs which will be introduced in the next section.\nFurther we make an integration of the output vectors of bi-directional LSTM by a linear feed-forward neural layer, resulting in the features $\\mathbf {h}_1^{\\text{ner}}\\mathbf {h}_2^{\\text{ner}}\\cdots \\mathbf {h}_n^{\\text{ner}}$ by equation:\n$$\\mathbf {h}_t^{\\text{ner}} = \\mathbf {W} \\mathbf {",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Bi-LSTM Architecture"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "h}_t^{\\text{private}} + \\mathbf {b},$$   (Eq. 6)\nwhere $\\mathbf {W}$ and $\\mathbf {b}$ are both model parameters.\nCRF Tagging\nFinally we feed the resulting features $\\mathbf {h}_t^{\\text{ner}}, t\\in [1, n]$ into a CRF layer directly for NER decoding. CRF tagging is one globally normalized model, aiming to find the best output sequence considering the dependencies between successive labels. In the sequence labeling setting for NER, the output label of one position has a strong dependency on the label of the previous position. For example, the label before \u201cI-XX\u201d must be either \u201cB-XX\u201d or \u201cI-XX\u201d, where \u201cXX\u201d should be exactly the same.\nCRF involves two parts for prediction. First we should compute the scores for each label based $\\mathbf {h}_t^{\\text{ner}}$ , resulting in $\\mathbf {o}_t^{\\text{ner}}$ , whose dimension is",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "CRF Tagging in NER"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "the number of output labels. The other part is a transition matrix $\\mathbf {T}$ which defines the scores of two successive labels. $\\mathbf {T}$ is also a model parameter. Based on $\\mathbf {o}_t^{\\text{ner}}$ and $\\mathbf {T}$ , we use the Viterbi algorithm to find the best-scoring label sequence.\nWe can formalize the CRF tagging process as follows:\n$$\\begin{split} & \\mathbf {o}_t^{\\text{ner}} = \\mathbf {W}^{\\text{ner}} \\mathbf {h}_t^{\\text{ner}}, \\text{~~~~} t \\in [1,n] \\\\ & \\text{score}(\\mathbf {X}, \\mathbf {y}) = \\sum _{t = 1}^{n}(\\mathbf {o}_{t,y_t} + T_{y_{t-1},y_t}) \\\\ & \\mathbf {y}^{\\text{ner}} = \\mathop {arg~max}_{\\mathbf {y}}\\big (\\text{score}(\\",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "CRF Labeling Process"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "mathbf {X}, \\math",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Mathematical Notation"
+      ],
+      "topic_links": []
+    },
+    "e18": {
+      "text": "bf {y}))\\big ), \\\\ \\end{split}$$ (Eq. 8) where $\\text{score}(\\cdot )$ is the scoring function for a given output label sequence $\\mathbf {y} = y_1y_2 \\cdots y_n$ based on input $\\mathbf {X}$ , $\\mathbf {y}^{\\text{ner}}$ is the resulting label sequence, $\\mathbf {W}^{\\text{ner}}$ is a model parameter. Training To train model parameters, we exploit a negative log-likelihood objective as the loss function. We apply softmax over all candidate output label sequences, thus the probability of the crowd-annotated label sequence is computed by: $$p(\\mathbf {\\bar{y}}|\\mathbf {X}) = \\frac{\\exp \\big (\\text{score}(\\mathbf {X}, \\mathbf {\\bar{y}})\\big )}{\\sum _{\\mathbf {y} \\in \\mathbf {Y}_{\\mathbf {X}}} \\exp \\big (\\text{score}(\\mathbf {X}, \\mathbf {y})\\big )},$$ (Eq. 10) where $\\mathbf {\\bar{y}}$ is the crowd-annotated label sequences and $\\mathbf {Y}_{\\mathbf {X}}$ is all candidate label sequence of input $\\mathbf {X}$ . Based on the above formula, the loss function of our baseline model is: $$\\text{loss}(\\Theta , \\mathbf {X}, \\mathbf {\\bar{y}}) = -\\log p(\\mathbf {\\bar{y}}|\\mathbf {X}),$$ (Eq. 11) where $\\Theta $ is the set of all model parameters. We use standard back-propagation method to minimize the loss function of the baseline CRF model. Worker Adversarial Adversarial learning has been an effective mechanism to resolve the problem of the input features between the training and test examples having large divergences BIBREF27 , BIBREF13 . It has been successfully applied on domain adaption BIBREF7 , cross-lingual learning BIBREF15 and multi-task learning BIBREF17 . All settings involve feature shifting between the training and testing. In this paper, our setting is different. We are using the annotations from non-experts, which are noise and can influence the final performances if they are not properly processed. Directly learning based on the resulting corpus may adapt the neural feature extraction into the biased annotations. In this work, we assume that individual workers have their own guidelines in mind after short training. For example, a perfect worker can annotate highly consistently with an expert, while common crowdsourcing workers may be confused and have different understandings on certain contexts. Based on the assumption, we make an adaption for the original adversarial neural network to our setting. Our adaption is very simple. Briefly speaking, the original adversarial learning adds an additional discriminator to classify the type of source inputs, for example, the domain category in the domain adaption setting, while we add a discriminator to classify the annotation workers. Solely the features from the input sentence is not enough for worker classification. The annotation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training with Worker Adversarial Learning"
+      ],
+      "topic_links": []
+    },
+    "e19": {
+      "text": "result of the worker is also required. Thus the inputs of our discriminator are different. Here we exploit both the source sentences and the crowd-annotated NE labels as basic inputs for the worker discrimination. In the following, we describe the proposed adversarial learning module, including both the submodels and the training method. As shown by the left part of Figure 1 , the submodel consists of four parts: (1) a common Bi-LSTM over input characters; (2) an additional Bi-LSTM to encode crowd-annotated NE label sequence; (3) a convolutional neural network (CNN) to extract features for worker discriminator; (4) output and prediction. Common Bi-LSTM over Characters To build the adversarial part, first we create a new bi-directional LSTM, named by the common Bi-LSTM: $$\\mathbf {h}_1^{\\text{\\tiny common}} \\mathbf {h}_2^{\\text{\\tiny common}} \\cdots \\mathbf {h}_n^{\\text{\\tiny common}} = \\text{Bi-LSTM}(\\mathbf {x}_1\\mathbf {x}_2\\cdots \\mathbf {x}_n).$$ (Eq. 13) As shown in Figure 1 , this Bi-LSTM is constructed over the same input character representations of the private Bi-LSTM, in order to extract worker independent features. The resulting features of the common Bi-LSTM are used for both NER and the worker discriminator, different with the features of private Bi-LSTM which are used for NER only. As shown in Figure 1 , we concatenate the outputs of the common and private Bi-LSTMs together, and then feed the results into the feed-forward combination layer of the NER part. Thus Formula 6 can be rewritten as: $$\\mathbf {h}_t^{\\text{ner}} = \\mathbf {W} (\\mathbf {h}_t^{\\text{common}} \\oplus \\mathbf {h}_t^{\\text{private}}) + \\mathbf {b},$$ (Eq. 14) where $\\mathbf {W}$ is wider than the original combination because the newly-added $\\mathbf {h}_t^{\\text{common}}$ . Noticeably, although the resulting common features are used for the worker discriminator, they actually have no capability to distinguish the workers. Because this part is exploited to maximize the loss of the worker discriminator, it will be interpreted in the later training subsection. These features are invariant among different workers, thus they can have less noises for NER. This is the goal of adversarial learning, and we hope the NER being able to find useful features from these worker independent features. Additional Bi-LSTM over Annotated NER Labels In order to incorporate the annotated NE labels to predict the exact worker, we build another bi-directional LSTM (named by label Bi-LSTM) based on the crowd-annotated NE label sequence. This Bi-LSTM is used for worker discriminator only. During the decoding of the testing phase, we will never have this",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Adversarial Learning Module"
+      ],
+      "topic_links": []
+    },
+    "e20": {
+      "text": "Bi-LSTM, because the worker discriminator is no longer required. Assuming the crowd-annotated NE label sequence annotated by one worker is $\\mathbf {\\bar{y}} = \\bar{y}_1\\bar{y}_2 \\cdots \\bar{y}_n$ , we exploit a looking-up table $\\mathbf {E}^{L}$ to obtain the corresponding sequence of their vector representations $\\mathbf {x^{\\prime }}_1\\mathbf {x^{\\prime }}_2\\cdots \\mathbf {x^{\\prime }}_n$ , similar to the method that maps characters into their neural representations. Concretely, for one NE label $\\bar{y}_t$ ( $t \\in [1, n]$ ), we obtain its neural vector by: $\\mathbf {x^{\\prime }}_t = \\text{look-up}(\\bar{y}_t, \\mathbf {E}^L)$ . Next step we apply bi-directional LSTM over the sequence $\\mathbf {x^{\\prime }}_1\\mathbf {x^{\\prime }}_2\\cdots \\mathbf {x^{\\prime }}_n$ , which can be formalized as: $$\\mathbf {h}_1^{\\text{label}} \\mathbf {h}_2^{\\text{label}} \\cdots \\mathbf {h}_n^{\\text{label}} = \\text{Bi-LSTM}(\\mathbf {x^{\\prime }}_1\\mathbf {x^{\\prime }}_2\\cdots \\mathbf {x^{\\prime }}_n).$$ (Eq. 16) The resulting feature sequence is concatenated with the outputs of the common Bi-LSTM, and further be used for worker classification. CNN Following, we add a convolutional neural network (CNN) module based on the concatenated outputs of the common Bi-LSTM and the label Bi-LSTM, to produce the final features for worker discriminator. A convolutional operator with window size 5 is used, and then max pooling strategy is applied over the convolution sequence to obtain the final fixed-dimensional feature vector. The whole process can be described by the following equations: $$\\begin{split} &\\mathbf {h}_t^{\\text{worker}} = \\mathbf {h}_t^{\\text{common}} \\oplus \\mathbf {h}_t^{\\text{label}} \\\\ &\\mathbf {\\tilde{h}}_t^{\\text{worker}} = \\tanh (\\mathbf {W}^{\\text{cnn}}[\\mathbf {h}_{t-2}^{\\text{worker}}, \\mathbf {h}_{t-1}^{\\text{worker}}, \\cdots , \\mathbf {h}_{t+2}^{\\text{worker}}]) \\\\ &\\mathbf {h}^{\\text{worker}} = \\text{max-pooling}(\\mathbf {\\tilde{h}}_1^{\\text{worker}}\\mathbf {\\tilde{h}}_2^{\\text{worker}} \\cdots \\mathbf {\\tilde{h}}_n^{\\text{worker}}) \\\\ \\end{split}$$ (Eq. 18) where $t \\in [1,n]$ and $\\mathbf {W}^{\\text{cnn}}$ is one model parameter. We exploit zero vector to paddle the out-of-index vectors. Output and Prediction After obtaining the final feature vector for the worker discriminator, we use it to compute the output vector, which scores all the annotation workers. The score function is defined by: $$\\mathbf {o}^{\\text{worker}} = \\mathbf {W}^{\\text{worker}} \\mathbf {h}^{\\text{worker}},$$ (Eq. 20) where $\\mathbf {W}^{\\text{worker}}$ is one model parameter and the output dimension equals the number of total non-expert annotators. The prediction is to find the worker which is responsible for this annotation. Adversarial Training The training objective with adversarial neural network is different from the baseline model, as it includes the extra worker discriminator. Thus the new objective includes two parts, one being the negative log-likelihood from NER which is the same as the baseline, and the other being the negative the log-likelihood from",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e21": {
+      "text": "the worker discriminator. In order to obtain the negative log-likelihood of the worker discriminator, we use softmax to compute the probability of the actual worker $\\bar{z}$ as well, which is defined by: $$p(\\bar{z}|\\mathbf {X}, \\mathbf {\\bar{y}}) = \\frac{\\exp (\\mathbf {o}^{\\text{worker}}_{\\bar{z}})}{\\sum _{z} \\exp (\\mathbf {o}^{\\text{worker}}_z)},$$ (Eq. 22) where $z$ should enumerate all workers. Based on the above definition of probability, our new objective is defined as follows: $$\\begin{split} \\text{R}(\\Theta , \\Theta ^{\\prime }, \\mathbf {X}, \\mathbf {\\bar{y}}, \\bar{z}) &= \\text{loss}(\\Theta , \\mathbf {X}, \\mathbf {\\bar{y}}) - \\text{loss}(\\Theta , \\Theta ^{\\prime }, \\mathbf {X}) \\\\ \\text{~~~~~~} &= -\\log p(\\mathbf {\\bar{y}}|\\mathbf {X}) + \\log p(\\bar{z}|\\mathbf {X}, \\mathbf {\\bar{y}}), \\end{split}$$ (Eq. 23) where $\\Theta $ is the set of all model parameters related to NER, and $\\Theta ^{\\prime }$ is the set of the remaining parameters which are only related to the worker discriminator, $\\mathbf {X}$ , $\\mathbf {\\bar{y}}$ and $\\bar{z}$ are the input sentence, the crowd-annotated NE labels and the corresponding annotator for this annotation, respectively. It is worth noting that the parameters of the common Bi-LSTM are included in the set of $\\Theta $ by definition. In particular, our goal is not to simply minimize the new objective. Actually, we aim for a saddle point, finding the parameters $\\Theta $ and $\\Theta ^{\\prime }$ satisfying the following conditions: $$\\begin{split} \\hat{\\Theta } &= \\mathop {arg~min}_{\\Theta }\\text{R}(\\Theta , \\Theta ^{\\prime }, \\mathbf {X}, \\mathbf {\\bar{y}}, \\bar{z}) \\\\ \\hat{\\Theta }^{\\prime } &= \\mathop {arg~max}_{\\Theta ^{\\prime }}\\text{R}(\\hat{\\Theta }, \\Theta ^{\\prime }, \\mathbf {X}, \\mathbf {\\bar{y}}, \\bar{z}) \\\\ \\end{split}$$ (Eq. 24) where the first equation aims to find one $\\Theta $ that minimizes our new objective $\\text{R}(\\cdot )$ , and the second equation aims to find one $\\Theta ^{\\prime }$ maximizing the same objective. Intuitively, the first equation of Formula 24 tries to minimize the NER loss, but at the same time maximize the worker discriminator loss by the shared parameters of the common Bi-LSTM. Thus the resulting features of common Bi-LSTM actually attempt to hurt the worker discriminator, which makes these features worker independent since they are unable to distinguish different workers. The second equation tries to minimize the worker discriminator loss by its own parameter $\\Theta ^{\\prime }$ . We use the standard back-propagation method to train the model parameters, the same as the baseline model. In order to incorporate the term of the argmax part of Formula 24 , we follow the previous work",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Worker Discriminator Objective"
+      ],
+      "topic_links": []
+    },
+    "e22": {
+      "text": "of adversarial training BIBREF13 , BIBREF15 , BIBREF17 , by introducing a gradient reverse layer between the common Bi-LSTM and the CNN module, whose forward does nothing but the backward simply negates the gradients. Data Sets With the purpose of obtaining evaluation datasets from crowd annotators, we collect the sentences from two domains: Dialog and E-commerce domain. We hire undergraduate students to annotate the sentences. They are required to identify the predefined types of entities in the sentences. Together with the guideline document, the annotators are educated some tips in fifteen minutes and also provided with 20 exemplifying sentences. Labeled Data: DL-PS. In Dialog domain (DL), we collect raw sentences from a chatbot application. And then we randomly select 20K sentences as our pool and hire 43 students to annotate the sentences. We ask the annotators to label two types of entities: Person-Name and Song-Name. The annotators label the sentences independently. In particular, each sentence is assigned to three annotators for this data. Although the setting can be wasteful of labor, we can use the resulting dataset to test several well-known baselines such as majority voting. After annotation, we remove some illegal sentences reported by the annotators. Finally, we have 16,948 sentences annotated by the students. Table 1 shows the information of annotated data. The average Kappa value among the annotators is 0.6033, indicating that the crowd annotators have moderate agreement on identifying entities on this data. In order to evaluate the system performances, we create a set of corpus with gold annotations. Concretely, we randomly select 1,000 sentences from the final dataset and let two experts generate the gold annotations. Among them, we use 300 sentences as the development set and the remaining 700 as the test set. The rest sentences with only student annotations are used as the training set. Labeled data: EC-MT and EC-UQ. In E-commerce domain (EC), we collect raw sentences from two types of texts: one is titles of merchandise entries (EC-MT) and another is user queries (EC-UQ). The annotators label five types of entities: Brand, Product, Model, Material, and Specification. These five types of entities are very important for E-commerce platform, for example building knowledge graph of merchandises. Five students participate the annotations for this domain since the number of sentences is small. We use the similar strategy as DL-PS to annotate the sentences, except that only two annotators are assigned for each sentence,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Annotation"
+      ],
+      "topic_links": []
+    },
+    "e23": {
+      "text": "because we aim to test the system performances under very small duplicated annotations. Finally, we obtain 2,337 sentences for EC-MT and 2,300 for EC-UQ. Table 1 shows the information of annotated results. Similarly, we produce the development and test datasets for system evaluation, by randomly selecting 400 sentences and letting two experts to generate the groundtruth annotations. Among them, we use 100 sentences as the development set and the remaining 300 as the test set. The rest sentences with only crowdsourcing annotations are used as the training set. Unlabeled data. The vector representations of characters are basic inputs of our baseline and proposed models, which are obtained by the looking-up table $\\mathbf {E}^W$ . As introduced before, we can use pretrained embeddings from large-scale raw corpus to initialize the table. In order to pretrain the character embeddings, we use one large-scale unlabeled data from the user-generated content in Internet. Totally, we obtain a number of 5M sentences. Finally, we use the tool word2vec to pretrain the character embeddings based on the unlabeled dataset in our experiments. Settings For evaluation, we use the entity-level metrics of Precision (P), Recall (R), and their F1 value in our experiments, treating one tagged entity as correct only when it matches the gold entity exactly. There are several hyper-parameters in the baseline LSTM-CRF and our final models. We set them empirically by the development performances. Concretely, we set the dimension size of the character embeddings by 100, the dimension size of the NE label embeddings by 50, and the dimension sizes of all the other hidden features by 200. We exploit online training with a mini-batch size 128 to learn model parameters. The max-epoch iteration is set by 200, and the best-epoch model is chosen according to the development performances. We use RMSprop BIBREF28 with a learning rate $10^{-3}$ to update model parameters, and use $l_2$ -regularization by a parameter $10^{-5}$ . We adopt the dropout technique to avoid overfitting by a drop value of $0.2$ . Comparison Systems The proposed approach (henceforward referred to as \u201cALCrowd\u201d) is compared with the following systems: CRF: We use the Crfsuite tool to train a model on the crowdsourcing labeled data. As for the feature settings, we use the supervised version of BIBREF0 zhao2008unsupervised. CRF-VT: We use the same settings of the CRF system, except that the training data is the voted version, whose groundtruths are produced by",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Setup"
+      ],
+      "topic_links": []
+    },
+    "e24": {
+      "text": "majority voting at the character level for each annotated sentence. CRF-MA: The CRF model proposed by BIBREF3 rodrigues2014sequence, which uses a prior distributation to model multiple crowdsourcing annotators. We use the source code provided by the authors. LSTM-CRF: Our baseline system trained on the crowdsourcing labeled data. LSTM-CRF-VT: Our baseline system trained on the voted corpus, which is the same as CRF-VT. LSTM-Crowd: The LSTM-CRF model with crowd annotation learning proposed by BIBREF4 nguyen2017aggregating. We use the source code provided by the authors. The first three systems are based on the CRF model using traditional handcrafted features, and the last three systems are based on the neural LSTM-CRF model. Among them, CRF-MA, LSTM-Crowd and our system with adversarial learning (ALCrowd) are based on crowd annotation learning that directly trains the model on the crowd-annotations. Five systems, including CRF, CRF-MA, LSTM-CRF, LSTM-Crowd, and ALCrowd, are trained on the original version of labeled data, while CRF-VT and LSTM-CRF-VT are trained on the voted version. Since CRF-VT, CRF-MA and LSTM-CRF-VT all require ground-truth answers for each training sentence, which are difficult to be produced with only two annotations, we do not apply the three models on the two EC datasets. Main Results In this section, we show the model performances of our proposed crowdsourcing learning system (ALCrowd), and meanwhile compare it with the other systems mentioned above. Table 2 shows the experimental results on the DL-PS datasets and Table 3 shows the experiment results on the EC-MT and EC-UQ datasets, respectively. The results of CRF and LSTM-CRF mean that the crowd annotation is an alternative solution with low cost for labeling data that could be used for training a NER system even there are some inconsistencies. Compared with CRF, LSTM-CRF achieves much better performances on all the three data, showing +6.12 F1 improvement on DL-PS, +4.51 on EC-MT, and +9.19 on EC-UQ. This indicates that LSTM-CRF is a very strong baseline system, demonstrating the effectiveness of neural network. Interestingly, when compared with CRF and LSTM-CRF, CRF-VT and LSTM-CRF-VT trained on the voted version perform worse in the DL-PS dataset. This trend is also mentioned in BIBREF4 nguyen2017aggregating. This fact shows that the majority voting method might be unsuitable for our task. There are two possible reasons accounting for the observation. On the one hand, simple character-level voting based on three annotations for each sentence may be still not enough. In the DL-PS dataset,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Comparison in NER"
+      ],
+      "topic_links": []
+    },
+    "e25": {
+      "text": "even with only two predefined entity types, one character can have nine NE labels. Thus the majority-voting may be incapable of handling some cases. While the cost by adding more annotations for each sentence would be greatly increased. On the other hand, the lost information produced by majority-voting may be important, at least the ambiguous annotations denote that the input sentence is difficult for NER. The normal CRF and LSTM-CRF models without discard any annotations can differentiate these difficult contexts through learning. Three crowd-annotation learning systems provide better performances than their counterpart systems, (CRF-MA VS CRF) and (LSTM-Crowd/ALCrowd VS LSTM-CRF). Compared with the strong baseline LSTM-CRF, ALCrowd shows its advantage with +1.08 F1 improvements on DL-PS, +1.24 on EC-MT, and +2.38 on EC-UQ, respectively. This indicates that adding the crowd-annotation learning is quite useful for building NER systems. In addition, ALCrowd also outperforms LSTM-Crowd on all the datasets consistently, demonstrating the high effectiveness of ALCrowd in extracting worker independent features. Among all the systems, ALCrowd performs the best, and significantly better than all the other models (the p-value is below $10^{-5}$ by using t-test). The results indicate that with the help of adversarial training, our system can learn a better feature representation from crowd annotation. Discussion Impact of Character Embeddings. First, we investigate the effect of the pretrained character embeddings in our proposed crowdsourcing learning model. The comparison results are shown in Figure 2 , where Random refers to the random initialized character embeddings, and Pretrained refers to the embeddings pretrained on the unlabeled data. According to the results, we find that our model with the pretrained embeddings significantly outperforms that using the random embeddings, demonstrating that the pretrained embeddings successfully provide useful information. Case Studies. Second, we present several case studies in order to study the differences between our baseline and the worker adversarial models. We conduct a closed test on the training set, the results of which can be regarded as modifications of the training corpus, since there exist inconsistent annotations for each training sentence among the different workers. Figure 3 shows the two examples from the DL-PS dataset, which compares the outputs of the baseline and our final models, as well as the majority-voting strategy. In the first case, none of the annotations get the correct NER result, but our proposed model can capture it. The result of LSTM-CRF is the same as majority-voting. In the second",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NER Model Performance"
+      ],
+      "topic_links": []
+    },
+    "e26": {
+      "text": "example, the output of majority-voting is the worst, which can account for the reason why the same model trained on the voted corpus performs so badly, as shown in Table 2 . The model of LSTM-CRF fails to recognize the named entity \u201cXiexie\u201d because of not trusting the second annotation, treating it as one noise annotation. Our proposed model is able to recognize it, because of its ability of extracting worker independent features. Conclusions In this paper, we presented an approach to performing crowd annotation learning based on the idea of adversarial training for Chinese Named Entity Recognition (NER). In our approach, we use a common and private Bi-LSTMs for representing annotator-generic and -specific information, and learn a label Bi-LSTM from the crowd-annotated NE label sequences. Finally, the proposed approach adopts a LSTM-CRF model to perform tagging. In our experiments, we create two data sets for Chinese NER tasks in the dialog and e-commerce domains. The experimental results show that the proposed approach outperforms strong baseline systems. Acknowledgments This work is supported by the National Natural Science Foundation of China (Grant No. 61572338, 61525205, and 61602160). This work is also partially supported by the joint research project of Alibaba and Soochow University. Wenliang is also partially supported by Collaborative Innovation Center of Novel Software Technology and Industrialization.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NER Model Performance"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Named Entity Recognition is a natural language processing task that involves identifying and classifying named entities in text into predefined categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Machine learning algorithms have been widely used in recent years to advance Named Entity Recognition performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Building NER systems typically requires a large amount of labeled training data annotated by experts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Crowdsourcing is used as a cost-effective and time-efficient alternative to expert annotation for obtaining training data in new domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Alternative"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Crowd annotations from non-experts are generally of lower quality compared to expert annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "High-quality annotations can be achieved through majority voting, but this method is inefficient for ambiguous sentences requiring multiple annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Adversarial training is used to reduce the negative impact of annotation noise from different crowd annotators in Chinese NER systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Chinese NER is more difficult than English NER due to the lack of morphological variations and uncertainty in word segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Chinese NER models trained on the news domain often perform poorly in other domains such as social media.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Character-level tagging is used to improve word segmentation performance in Chinese NER, especially in domains with poor segmentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Adversarial training has been successfully applied in cross-lingual POS tagging to reduce domain or language input divergences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Task"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Adversarial training has been used in cross-domain POS tagging to mitigate input divergences between domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Task"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The paper presents the first application of adversarial training specifically for learning from crowd-annotated data in Chinese NER.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Innovation"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "A Bi-LSTM is a bidirectional long short-term memory network used for sequence modeling and feature extraction in NER tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The common Bi-LSTM represents annotator-generic information and is used in NER and as input to the worker discriminator.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The private Bi-LSTM represents annotator-specific information and is used in NER.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "A label Bi-LSTM is built from crowd-annotated NE label sequences to reflect the crowd annotators' understanding of entity definitions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The worker discriminator takes inputs from the common and label Bi-LSTMs to distinguish between different annotators and learns to detect worker-specific patterns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Adversarial training is used to maximize the worker discriminator loss while minimizing the NER loss, resulting in worker-invariant and NER-sensitive features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Two Chinese NER datasets were created in dialog and e-commerce domains for evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The entity types identified include person, song, brand, and product.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Identifying entity types is useful for improving chatbot functionality and e-commerce platform performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The baseline model in the work uses a Bi-LSTM for feature extraction and CRF for decoding, achieving state-of-the-art performance in sequence labeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Crowdsourcing is used as a cost-effective method to obtain labeled data from non-expert annotators, despite lower annotation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Amazon Mechanical Turk was used by BIBREF18 to collect labeled results for NLP tasks from non-expert annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Early sequence labeling models based on manually-crafted features suffer from feature sparsity and require extensive feature engineering.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Adversarial training in domain adaptation aims to learn invariant features across domains using an adversarial discriminator.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Adversarial training in cross-lingual settings aims to learn features invariant across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Adversarial training in multi-task learning aims to learn shared features across different tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The quality of crowd labels is compared to that of expert labels in the study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Dredze2009sequence views sequence labeling tasks as a multi-label problem.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Rodrigues2014sequence proposes a CRF-based model that considers worker identities and assumes each word is tagged correctly by one of the crowdsourcing workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Nguyen2017aggregating introduces a crowd representation where crowd vectors are added to the LSTM-CRF model during training but ignored during testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Adversarial training on crowd annotations for Chinese NER in new domains achieves better performance than previous studies on crowdsourcing learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The baseline system uses a neural CRF model to treat NER as a sequence labeling problem over Chinese characters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The baseline model is based on a neural CRF model that has achieved state-of-the-art performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "A bi-directional LSTM is used to extract high-level features from the input character sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The BIEO schema converts NER into sequence labeling by assigning 'O' to non-entity characters, 'B-XX' to the beginning of an entity, 'E-XX' to the end of an entity, and 'I-XX' to other characters within an entity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "A bi-directional LSTM is used to extract high-level features from the character sequence through a linear transformation of the input vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "A CRF tagging module is applied to the high-level features to produce the final NER labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Chinese characters are represented as low-dimensional vectors using a neural embedding layer with a lookup table that is fine-tuned during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The lookup table for character embeddings can be initialized using pretrained embeddings from large-scale raw corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Feature extraction is performed using a bi-directional LSTM structure combined with a linear transformation over the input character sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "A bidirectional LSTM module processes input sequences in both forward and reverse directions to capture contextual information from both past and future tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "LSTM is a type of recurrent neural network designed to address the exploding and diminishing gradient problems in basic RNNs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "LSTM has been widely used in NLP tasks such as POS-tagging, parsing, and machine translation due to its strong ability to model natural language sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The private Bi-LSTM computes output features by combining forward and backward LSTM outputs using the operation $\\mathbf{h}_t^\\text{private} = \\overrightarrow{\\mathbf{h}}_t \\oplus \\overleftarrow{\\mathbf{h}}_t$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "A linear feed-forward neural layer is used to integrate the output vectors of the bi-LSTM to produce the features $\\mathbf{h}_t^{\\text{ner}}$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The features $\\mathbf{h}_t^{\\text{ner}}$ are computed as $\\mathbf{h}_t^{\\text{ner}} = \\mathbf{W} \\mathbf{h}_t^{\\text{private}} + \\mathbf{b}$, where $\\mathbf{W}$ and $\\mathbf{b}$ are model parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "CRF tagging is a globally normalized model that finds the best output sequence by considering dependencies between successive labels in sequence labeling tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The transition matrix $\\mathbf{T}$ defines the scores for transitions between successive labels and is a model parameter.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The Viterbi algorithm is used to find the best-scoring label sequence based on the output scores $\\mathbf{o}_t^{\\text{ner}}$ and the transition matrix $\\mathbf{T}$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The output scores are computed as $\\mathbf{o}_t^{\\text{ner}} = \\mathbf{W}^{\\text{ner}} \\mathbf{h}_t^{\\text{ner}}$, where $\\mathbf{W}^{\\text{ner}}$ is a model parameter.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "In NER, the label before 'I-XX' must be either 'B-XX' or 'I-XX', where 'XX' must be the same across both labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The CRF score for a sequence is defined as $\\text{score}(\\mathbf{X}, \\mathbf{y}) = \\sum_{t=1}^n (\\mathbf{o}_{t,y_t} + T_{y_{t-1},y_t})$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The best-scoring label sequence $\\mathbf{y}^{\\text{ner}}$ is obtained by maximizing the CRF scoring function over all possible label sequences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The scoring function evaluates a given output label sequence based on input features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The label sequence y = y1y2\u22efyn represents a sequence of output labels for a given input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The resulting label sequence after applying the named entity recognition model to input data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "A set of model parameters used in the named entity recognition model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The loss function used to train the model by measuring the discrepancy between predicted and actual label sequences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The probability of the crowd-annotated label sequence given input features is computed using the softmax function over all candidate sequences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The crowd-annotated label sequence used as the ground truth in training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The set of all possible candidate label sequences for a given input X.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The loss function defined as the negative log-likelihood of the predicted label sequence given input and annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "A standard optimization technique used to minimize the loss function in the baseline CRF model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "A mechanism that addresses feature divergence between training and test data by introducing a discriminator to classify input types.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Adversarial learning has been successfully applied in domain adaptation to align features across domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Adversarial learning has been used in cross-lingual learning to align representations across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Adversarial learning has been applied in multi-task learning to improve feature consistency across tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Annotations from non-expert workers are considered noisy and can introduce bias if not properly handled.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "A discriminator added in the adversarial framework to classify the annotation workers rather than input domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "It is assumed that individual workers have personal guidelines that influence their annotation behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Assumption"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "A worker who consistently annotates in alignment with expert annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "A worker who may have inconsistent or context-dependent annotations due to confusion or differing interpretations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Features from the input sentence alone are insufficient to classify annotation workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The common Bi-LSTM is a bi-directional LSTM that processes input character representations to extract worker-independent features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The private Bi-LSTM is a bi-directional LSTM that processes input character representations and is used exclusively for NER tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The label Bi-LSTM is a bi-directional LSTM built on crowd-annotated NE label sequences and is used solely for worker discrimination.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The worker discriminator uses features from both the common Bi-LSTM and the label Bi-LSTM to distinguish between different workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The features extracted by the common Bi-LSTM are invariant across workers and are used to reduce noise in NER predictions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The goal of adversarial learning is to enable the NER model to learn useful features from worker-independent representations while simultaneously training the worker discriminator to maximize its loss.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The feed-forward combination layer combines the outputs of the common and private Bi-LSTMs to produce the final NER features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The NER features are computed as \\(\\mathbf{h}_t^{\\text{ner}} = \\mathbf{W} (\\mathbf{h}_t^{\\text{common}} \\oplus \\mathbf{h}_t^{\\text{private}}) + \\mathbf{b}\\), where \\(\\mathbf{W}\\) is wider due to the inclusion of common Bi-LSTM features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Equation"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Crowd-annotated NE labels are used as input to the label Bi-LSTM for worker discrimination.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Input"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "During the testing phase, the label Bi-LSTM is not used in the decoding process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Constraint"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Bi-LSTM is a neural network model used to process sequences by applying bidirectional recurrent layers to capture context from both past and future information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The worker discriminator is no longer required in the proposed method due to the integration of label-based Bi-LSTM and CNN modules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "A sequence of named entity (NE) labels annotated by one worker, denoted as \\(\\mathbf{\\bar{y}} = \\bar{y}_1\\bar{y}_2 \\cdots \\bar{y}_n\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "A lookup table that maps each NE label to its corresponding neural vector representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The neural vector representation of an NE label \\(\\bar{y}_t\\) is obtained via lookup: \\(\\mathbf{x'}_t = \\text{look-up}(\\bar{y}_t, \\mathbf{E}^L)\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Applying Bi-LSTM to the sequence of neural vectors produces a feature sequence \\(\\mathbf{h}_1^{\\text{label}} \\cdots \\mathbf{h}_n^{\\text{label}}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The feature sequence \\(\\mathbf{h}_t^{\\text{worker}}\\) is formed by concatenating the outputs of the common Bi-LSTM and the label Bi-LSTM at each position.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "A convolutional neural network module with a window size of 5 is applied to the concatenated worker features to extract high-level patterns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Max pooling is applied over the convolutional output sequence to obtain a fixed-dimensional final feature vector for the worker discriminator.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The output vector for worker scoring is computed as \\(\\mathbf{o}^{\\text{worker}} = \\mathbf{W}^{\\text{worker}} \\mathbf{h}^{\\text{worker}}\\), where \\(\\mathbf{W}^{\\text{worker}}\\) is a model parameter.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The prediction identifies the annotation worker responsible for a given annotation based on the computed worker scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The training objective includes both the negative log-likelihood from NER and the negative log-likelihood from the worker discriminator, differing from the baseline model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The worker discriminator is a component of the model that evaluates the probability of a specific worker's annotation given input data and crowd-annotated labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The probability of the actual worker \\bar{z} given input sentence \\mathbf{X} and crowd-annotated NE labels \\mathbf{\\bar{y}} is computed using a softmax function over the output scores of the worker discriminator.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The probability of worker \\bar{z} is defined as p(\\bar{z}|\\mathbf{X}, \\mathbf{\\bar{y}}) = exp(\\mathbf{o}^{\\text{worker}}_{\\bar{z}}) / sum_z exp(\\mathbf{o}^{\\text{worker}}_z), where z enumerates all workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The new objective function R is defined as the difference between the negative log-likelihood of the NER loss and the negative log-likelihood of the worker discriminator loss.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The objective R(\\Theta, \\Theta', \\mathbf{X}, \\mathbf{\\bar{y}}, \\bar{z}) is given by -log p(\\mathbf{\\bar{y}}|\\mathbf{X}) + log p(\\bar{z}|\\mathbf{X}, \\mathbf{\\bar{y}}), where \\Theta and \\Theta' are the parameters of the NER and worker discriminator, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Formula"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The set \\Theta includes all model parameters related to NER, including the parameters of the common Bi-LSTM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The set \\Theta' consists of parameters exclusively related to the worker discriminator and is separate from the NER parameters in \\Theta.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The goal is to find a saddle point where \\hat{\\Theta} minimizes R and \\hat{\\Theta}' maximizes R, balancing NER performance and worker discriminator performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The first condition in Eq. 24 aims to find parameters \\Theta that minimize the objective R by reducing the NER loss while increasing the worker discriminator loss through shared Bi-LSTM features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Objective"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The second condition in Eq. 24 aims to find parameters \\Theta' that maximize R by minimizing the worker discriminator loss using its own parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Objective"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The features from the common Bi-LSTM become worker-independent because they are designed to hurt the worker discriminator, making them unable to distinguish between different workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The model parameters are trained using standard back-propagation, similar to the baseline model, to optimize the objective function R.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "Adversarial training involves introducing a gradient reverse layer between a Bi-LSTM and a CNN module, where the forward pass does nothing but the backward pass negates the gradients.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "In the Dialog domain, raw sentences are collected from a chatbot application, and 20K sentences are selected as a pool for annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "In the E-commerce domain, raw sentences are collected from merchandise titles (EC-MT) and user queries (EC-UQ).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The DL-PS dataset consists of 16,948 sentences annotated by students, after removing illegal sentences reported by annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Each sentence in the Dialog domain is assigned to three annotators, and annotators are provided with guidelines, tips, and 20 exemplifying sentences before annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "In the Dialog domain, annotators are required to label two types of entities: Person-Name and Song-Name.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity types"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "The average Kappa value among annotators in the Dialog domain is 0.6033, indicating moderate agreement on entity identification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "A set of corpus with gold annotations is created by randomly selecting 1,000 sentences from the final dataset and having two experts generate annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "300 sentences from the gold-annotated corpus are used as the development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "700 sentences from the gold-annotated corpus are used as the test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The remaining sentences with only student annotations are used as the training set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "The EC-MT and EC-UQ datasets are labeled with five types of entities: Brand, Product, Model, Material, and Specification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Labeled data"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "In the E-commerce domain, five entity types are labeled: Brand, Product, Model, Material, and Specification, which are important for building a merchandise knowledge graph.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity types"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "In the E-commerce domain, only two annotators are assigned per sentence during annotation, unlike the Dialog domain where three annotators are used.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "Five students participate in the annotation process for the E-commerce domain due to the small number of sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "EC-MT has 2,337 sentences in the annotated dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "EC-UQ has 2,300 sentences in the annotated dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "Table 1 shows the information of the annotated results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "The development set consists of 100 sentences randomly selected from the annotated data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The test set consists of 300 sentences randomly selected from the annotated data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The training set consists of the remaining sentences with only crowdsourcing annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "A total of 5M sentences are used as unlabeled data for pretraining character embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "Character embeddings are obtained via a lookup table \\(\\mathbf{E}^W\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "Pretrained embeddings from large-scale raw corpus are used to initialize the lookup table \\(\\mathbf{E}^W\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "Word2vec is used to pretrain character embeddings based on the unlabeled dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "Entity-level metrics of Precision (P), Recall (R), and F1 are used for evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "An entity is considered correct only if it matches the gold entity exactly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "The baseline LSTM-CRF model uses character embeddings of dimension 100.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "The dimension size of NE label embeddings is set to 50.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The dimension size of all other hidden features is set to 200.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "The mini-batch size for online training is set to 128.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setting"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "The maximum number of epoch iterations is set to 200.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setting"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "The best epoch model is chosen based on development set performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Selection"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "RMSprop with a learning rate of \\(10^{-3}\\) is used to update model parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "L2-regularization is applied with a parameter value of \\(10^{-5}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setting"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "Dropout with a drop value of 0.2 is used to prevent overfitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "ALCrowd is the proposed approach compared with CRF and CRF-VT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "CRF is trained using the Crfsuite tool with supervised features from Zhao et al. (2008).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "CRF-VT uses the same settings as CRF but trains on the voted version of the data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "CRF-MA is a CRF model proposed by Rodrigues et al. (2014) that uses a prior distribution to model multiple crowdsourcing annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "LSTM-CRF is a baseline system trained on crowdsourcing labeled data using a neural LSTM-CRF model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "LSTM-CRF-VT is a baseline system trained on a voted corpus, which is the same as CRF-VT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "LSTM-Crowd is an LSTM-CRF model with crowd annotation learning proposed by Nguyen et al. (2017).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "These systems are based on crowd annotation learning and directly train the model on crowd annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "These five systems are trained on the original version of labeled data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "CRF-VT and LSTM-CRF-VT are trained on the voted version of the data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "Majority voting at the character level for each annotated sentence performs worse on the DL-PS dataset compared to models trained on original data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "LSTM-CRF achieves a +6.12 F1 improvement over CRF on the DL-PS dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "LSTM-CRF achieves a +4.51 F1 improvement over CRF on the EC-MT dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "LSTM-CRF achieves a +9.19 F1 improvement over CRF on the EC-UQ dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "CRF-VT and LSTM-CRF-VT perform worse than CRF and LSTM-CRF on the DL-PS dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "Simple character-level voting based on three annotations per sentence may be insufficient for accurate annotation aggregation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "LSTM-CRF demonstrates the effectiveness of neural networks in NER tasks with crowdsourced data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s164": {
+      "text": "Majority-voting may be incapable of handling cases where a single character has nine NE labels with only two predefined entity types.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s165": {
+      "text": "The cost of adding more annotations for each sentence is greatly increased.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s166": {
+      "text": "The lost information from majority-voting is important as ambiguous annotations indicate that the input sentence is difficult for NER.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s167": {
+      "text": "Normal CRF and LSTM-CRF models retain all annotations and can differentiate difficult contexts through learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s168": {
+      "text": "Three crowd-annotation learning systems outperform their counterpart systems (CRF-MA vs CRF) and (LSTM-Crowd/ALCrowd vs LSTM-CRF).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s169": {
+      "text": "ALCrowd shows a +1.08 F1 improvement on DL-PS, +1.24 on EC-MT, and +2.38 on EC-UQ compared to LSTM-CRF.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s170": {
+      "text": "ALCrowd consistently outperforms LSTM-Crowd on all datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s171": {
+      "text": "ALCrowd performs the best among all systems, with a p-value below 10^-5 by t-test, indicating significant superiority.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s172": {
+      "text": "Adversarial training helps the system learn better feature representations from crowd annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s173": {
+      "text": "The model using pretrained character embeddings significantly outperforms the one with randomly initialized embeddings, showing that pretrained embeddings provide useful information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s174": {
+      "text": "Case studies compare the outputs of baseline and worker adversarial models on the training set, highlighting differences in handling inconsistent annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s175": {
+      "text": "In the DL-PS dataset, one case shows that none of the annotations achieve correct NER results, but the proposed model captures it, while LSTM-CRF and majority-voting do not.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s176": {
+      "text": "The training set contains inconsistent annotations among different workers, which serve as a basis for closed testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s177": {
+      "text": "The output of majority-voting is the worst, which explains why a model trained on the voted corpus performs poorly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s178": {
+      "text": "The LSTM-CRF model fails to recognize the named entity 'Xiexie' because it does not trust the second annotation and treats it as noise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s179": {
+      "text": "The proposed model is able to recognize the named entity 'Xiexie' due to its ability to extract worker-independent features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s180": {
+      "text": "The proposed approach uses adversarial training to perform crowd annotation learning for Chinese Named Entity Recognition (NER).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s181": {
+      "text": "A common Bi-LSTM is used to represent annotator-generic information, while a private Bi-LSTM captures annotator-specific information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s182": {
+      "text": "A label Bi-LSTM is learned from crowd-annotated NE label sequences to improve annotation consistency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s183": {
+      "text": "The final tagging is performed using an LSTM-CRF model in the proposed approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s184": {
+      "text": "A dataset for Chinese NER tasks in the dialog domain is created for experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s185": {
+      "text": "A dataset for Chinese NER tasks in the e-commerce domain is created for experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s186": {
+      "text": "The proposed approach outperforms strong baseline systems in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s187": {
+      "text": "The work is supported by Grant Nos. 61572338, 61525205, and 61602160 from the National Natural Science Foundation of China.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Support"
+      ],
+      "topic_links": []
+    },
+    "s188": {
+      "text": "The work is partially supported by a joint research project between Alibaba and Soochow University.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Support"
+      ],
+      "topic_links": []
+    },
+    "s189": {
+      "text": "Wenliang is partially supported by the Collaborative Innovation Center of Novel Software Technology and Industrialization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Support"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1,000 sentences",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "100 sentences",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "16,948 sentences",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "2,300 sentences",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "2,337 sentences",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "20K sentences",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "300 development set",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "300 sentences",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "400 sentences",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "43 students",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "5M sentences",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "700 test set",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "ALCrowd",
+      "Comparison",
+      "s147"
+    ],
+    [
+      "ALCrowd",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "ALCrowd",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "ALCrowd",
+      "Property",
+      "s169"
+    ],
+    [
+      "ALCrowd",
+      "Result",
+      "s170"
+    ],
+    [
+      "ALCrowd",
+      "Result",
+      "s171"
+    ],
+    [
+      "Alibaba",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Alibaba and Soochow University",
+      "Support",
+      "s188"
+    ],
+    [
+      "Amazon Mechanical Turk",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "Amazon Mechanical Turk",
+      "Example",
+      "s25"
+    ],
+    [
+      "B-XX",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "B-XX",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "BIBREF0",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "BIBREF0",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "BIBREF1",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "BIBREF14",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "BIBREF15",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "BIBREF16",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "BIBREF17",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "BIBREF18",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "BIBREF2",
+      "Method",
+      "s37"
+    ],
+    [
+      "BIBREF2",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "BIBREF2",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "BIBREF21",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "BIBREF21",
+      "Result",
+      "s30"
+    ],
+    [
+      "BIBREF22",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "BIBREF22",
+      "Definition",
+      "s31"
+    ],
+    [
+      "BIBREF28",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "BIBREF3",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "BIBREF3",
+      "Method",
+      "s32"
+    ],
+    [
+      "BIBREF3 rodrigues2014sequence",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "BIBREF4",
+      "Method",
+      "s33"
+    ],
+    [
+      "BIBREF4 nguyen2017aggregating",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "BIBREF5",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "BIBREF6",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "BIBREF7",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "BIBREF9",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "BIBREF9",
+      "Reference",
+      "s36"
+    ],
+    [
+      "BIEO schema",
+      "Definition",
+      "s38"
+    ],
+    [
+      "BIEO schema",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "Baseline: LSTM-CRF",
+      "Definition",
+      "s35"
+    ],
+    [
+      "Bi-LSTM",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "Bi-LSTM",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "Bi-LSTM",
+      "Component",
+      "s39"
+    ],
+    [
+      "Bi-LSTM",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "Bi-LSTM",
+      "Definition",
+      "s14"
+    ],
+    [
+      "Bi-LSTM",
+      "Definition",
+      "s181"
+    ],
+    [
+      "Bi-LSTM",
+      "Definition",
+      "s87"
+    ],
+    [
+      "Bi-LSTM",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "Bi-LSTM",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "Bi-LSTM",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "Bi-LSTM",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "Bi-LSTM",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "Bi-LSTM features",
+      "Result",
+      "s109"
+    ],
+    [
+      "Bi-LSTM over \\(\\mathbf{x'}_1\\cdots\\mathbf{x'}_n\\)",
+      "Result",
+      "s92"
+    ],
+    [
+      "Bi-LSTMs",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Brand",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "Brand, Product, Model, Material, Specification",
+      "Entity types",
+      "s123"
+    ],
+    [
+      "CNN",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "CNN",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "CNN module",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "CNN module",
+      "Definition",
+      "s94"
+    ],
+    [
+      "CRF",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "CRF",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "CRF",
+      "Comparison",
+      "s148"
+    ],
+    [
+      "CRF",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "CRF",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "CRF",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "CRF and LSTM-CRF models",
+      "Definition",
+      "s167"
+    ],
+    [
+      "CRF layer",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "CRF model",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "CRF scoring function",
+      "Formula",
+      "s55"
+    ],
+    [
+      "CRF tagging",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "CRF tagging",
+      "Definition",
+      "s50"
+    ],
+    [
+      "CRF tagging module",
+      "Component",
+      "s40"
+    ],
+    [
+      "CRF tagging module",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "CRF transition matrix",
+      "Property",
+      "s51"
+    ],
+    [
+      "CRF, CRF-MA, LSTM-CRF, LSTM-Crowd, ALCrowd",
+      "Property",
+      "s155"
+    ],
+    [
+      "CRF-MA",
+      "Definition",
+      "s150"
+    ],
+    [
+      "CRF-MA",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "CRF-MA, LSTM-Crowd, ALCrowd",
+      "Property",
+      "s154"
+    ],
+    [
+      "CRF-VT",
+      "Comparison",
+      "s149"
+    ],
+    [
+      "CRF-VT",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "CRF-VT",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "CRF-VT and LSTM-CRF-VT",
+      "Result",
+      "s161"
+    ],
+    [
+      "CRF-VT, LSTM-CRF-VT",
+      "Property",
+      "s156"
+    ],
+    [
+      "CRF-based model",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "Chinese NER",
+      "Adversarial Training in NER",
+      "e10"
+    ],
+    [
+      "Chinese NER",
+      "Challenge",
+      "s8"
+    ],
+    [
+      "Chinese NER",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "Chinese NER",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Chinese NER datasets",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "Chinese NER datasets",
+      "Result",
+      "s20"
+    ],
+    [
+      "Chinese characters",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "Chinese characters",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "Collaborative Innovation Center",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Collaborative Innovation Center of Novel Software Technology and Industrialization",
+      "Support",
+      "s189"
+    ],
+    [
+      "Crfsuite",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "DL-PS",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "DL-PS",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "DL-PS",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "DL-PS dataset",
+      "Example",
+      "s175"
+    ],
+    [
+      "DL-PS dataset",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "DL-PS dataset",
+      "Result",
+      "s114"
+    ],
+    [
+      "DL-PS dataset",
+      "Result",
+      "s158"
+    ],
+    [
+      "Dialog domain",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "Dialog domain (DL)",
+      "Property",
+      "s112"
+    ],
+    [
+      "E-XX",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "E-commerce domain",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "E-commerce domain (EC)",
+      "Property",
+      "s113"
+    ],
+    [
+      "EC-MT",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "EC-MT",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "EC-MT",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "EC-MT",
+      "Result",
+      "s126"
+    ],
+    [
+      "EC-MT and EC-UQ",
+      "Labeled data",
+      "s122"
+    ],
+    [
+      "EC-MT dataset",
+      "Result",
+      "s159"
+    ],
+    [
+      "EC-UQ",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "EC-UQ",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "EC-UQ",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "EC-UQ",
+      "Result",
+      "s127"
+    ],
+    [
+      "EC-UQ dataset",
+      "Result",
+      "s160"
+    ],
+    [
+      "E^L",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "Eq. 13",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "Eq. 14",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "Eq. 22",
+      "Formula",
+      "s101"
+    ],
+    [
+      "Eq. 22",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "Eq. 23",
+      "Formula",
+      "s103"
+    ],
+    [
+      "Eq. 23",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "Eq. 24",
+      "Definition",
+      "s106"
+    ],
+    [
+      "Eq. 24",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "F1 improvement",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "F1 improvements",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "Formula 14",
+      "Equation",
+      "s84"
+    ],
+    [
+      "Formula 6",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "Grant No. 61525205",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Grant No. 61572338",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Grant No. 61602160",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "HMM",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "I-XX",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "I-XX",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "Kappa value 0.6033",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "LP community",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "LSTM",
+      "Application",
+      "s46"
+    ],
+    [
+      "LSTM",
+      "Definition",
+      "s45"
+    ],
+    [
+      "LSTM-CRF",
+      "Adversarial Training in NER",
+      "e10"
+    ],
+    [
+      "LSTM-CRF",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "LSTM-CRF",
+      "Definition",
+      "s151"
+    ],
+    [
+      "LSTM-CRF",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "LSTM-CRF",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "LSTM-CRF",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "LSTM-CRF",
+      "Property",
+      "s138"
+    ],
+    [
+      "LSTM-CRF baseline",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "LSTM-CRF model",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "LSTM-CRF model",
+      "Property",
+      "s178"
+    ],
+    [
+      "LSTM-CRF model",
+      "Usage",
+      "s183"
+    ],
+    [
+      "LSTM-CRF-VT",
+      "Definition",
+      "s152"
+    ],
+    [
+      "LSTM-CRF-VT",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "LSTM-Crowd",
+      "Definition",
+      "s153"
+    ],
+    [
+      "LSTM-Crowd",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "LSTM-Crowd",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "MEMM",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "Material",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "Model",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "NE label embeddings",
+      "Property",
+      "s139"
+    ],
+    [
+      "NER",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "NER",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "NER",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "NER",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "NER",
+      "NER Progress",
+      "e1"
+    ],
+    [
+      "NER loss",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "NER systems",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "NLP tasks",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "Named Entity Recognition",
+      "NER Progress",
+      "e1"
+    ],
+    [
+      "Named Entity Recognition (NER)",
+      "Definition",
+      "s1"
+    ],
+    [
+      "National Natural Science Foundation of China",
+      "Support",
+      "s187"
+    ],
+    [
+      "Natural Language Processing",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "Nguyen2017aggregating",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "O",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "POS-tagging",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "Person-Name",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "Person-Name and Song-Name",
+      "Entity types",
+      "s116"
+    ],
+    [
+      "Product",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "R(\\Theta, \\Theta', \\mathbf{X}, \\mathbf{\\bar{y}}, \\bar{z})",
+      "Definition",
+      "s102"
+    ],
+    [
+      "R(\\Theta, \\Theta', \\mathbf{X}, \\mathbf{\\bar{y}}, \\bar{z})",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "RMSprop",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "RMSprop",
+      "Method",
+      "s144"
+    ],
+    [
+      "RNN",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "Song-Name",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "Soochow University",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Specification",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "T",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "Table 1",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "Table 1",
+      "Definition",
+      "s128"
+    ],
+    [
+      "Table 2",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "Viterbi algorithm",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "Viterbi algorithm",
+      "Method",
+      "s52"
+    ],
+    [
+      "W",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "W",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "W^cnn",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "W^ner",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "W^ner",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "W^worker",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "Wenliang",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "XX",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "Xiexie",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "\\Theta",
+      "Property",
+      "s104"
+    ],
+    [
+      "\\Theta",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "\\Theta'",
+      "Property",
+      "s105"
+    ],
+    [
+      "\\Theta'",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "actual worker \\bar{z}",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "adversarial discriminator",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "adversarial learning",
+      "Definition",
+      "s67"
+    ],
+    [
+      "adversarial learning",
+      "Goal",
+      "s82"
+    ],
+    [
+      "adversarial learning",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "adversarial learning",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "adversarial neural network model",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "adversarial training",
+      "Adversarial Training",
+      "e5"
+    ],
+    [
+      "adversarial training",
+      "Adversarial Training in NER",
+      "e10"
+    ],
+    [
+      "adversarial training",
+      "Application",
+      "s7"
+    ],
+    [
+      "adversarial training",
+      "Cause",
+      "s172"
+    ],
+    [
+      "adversarial training",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "adversarial training",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "adversarial training",
+      "Definition",
+      "s111"
+    ],
+    [
+      "adversarial training",
+      "Definition",
+      "s180"
+    ],
+    [
+      "adversarial training",
+      "Method",
+      "s19"
+    ],
+    [
+      "adversarial training",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "adversarial training",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "adversarial training",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "adversarial training",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "adversarial training in crowd annotation learning",
+      "Innovation",
+      "s13"
+    ],
+    [
+      "adversarial training objective",
+      "Definition",
+      "s98"
+    ],
+    [
+      "ambiguous sentences",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "annotated NE label sequence",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "annotated data",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "annotation guidebook",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "annotation process",
+      "Procedure",
+      "s115"
+    ],
+    [
+      "annotation strategy in EC domain",
+      "Procedure",
+      "s124"
+    ],
+    [
+      "annotation workers",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "annotator trustfulness",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "argmax",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "argmax_\\Theta' R",
+      "Objective",
+      "s108"
+    ],
+    [
+      "argmin",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "argmin_\\Theta R",
+      "Objective",
+      "s107"
+    ],
+    [
+      "average Kappa value",
+      "Result",
+      "s117"
+    ],
+    [
+      "b",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "back-propagation",
+      "Method",
+      "s110"
+    ],
+    [
+      "back-propagation",
+      "Method",
+      "s66"
+    ],
+    [
+      "back-propagation",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "baseline",
+      "Adversarial Training in NER",
+      "e10"
+    ],
+    [
+      "baseline model",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "baseline model",
+      "Reference",
+      "s23"
+    ],
+    [
+      "baseline systems",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "best-epoch model",
+      "Selection",
+      "s143"
+    ],
+    [
+      "best-scoring label sequence",
+      "Result",
+      "s56"
+    ],
+    [
+      "bi-directional LSTM",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "biased annotations",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "bidirectional LSTM",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "bidirectional LSTM",
+      "Definition",
+      "s44"
+    ],
+    [
+      "brand",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "candidate label sequence",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "case studies",
+      "Definition",
+      "s174"
+    ],
+    [
+      "case studies",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "character embeddings",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "character embeddings",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "character embeddings",
+      "Property",
+      "s133"
+    ],
+    [
+      "character inputs",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "character level",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "character representations",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "character-level tagging",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "character-level tagging",
+      "Solution",
+      "s10"
+    ],
+    [
+      "character-level voting",
+      "Cause",
+      "s162"
+    ],
+    [
+      "chatbot and e-commerce platforms",
+      "Application",
+      "s22"
+    ],
+    [
+      "classification",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "common Bi-LSTM",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "common Bi-LSTM",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "common Bi-LSTM",
+      "Definition",
+      "s77"
+    ],
+    [
+      "common Bi-LSTM",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "common Bi-LSTM",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "common Bi-LSTM",
+      "Property",
+      "s15"
+    ],
+    [
+      "common crowdsourcing worker",
+      "Definition",
+      "s75"
+    ],
+    [
+      "common features",
+      "Result",
+      "s81"
+    ],
+    [
+      "computer vision",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "concatenated outputs of common Bi-LSTM and label Bi-LSTM",
+      "Property",
+      "s93"
+    ],
+    [
+      "convolutional neural network",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "convolutional neural network",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "cost of adding more annotations",
+      "Cause",
+      "s165"
+    ],
+    [
+      "costly",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "cross-domain POS tagging",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "cross-domain POS tagging",
+      "Related Task",
+      "s12"
+    ],
+    [
+      "cross-lingual",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "cross-lingual POS tagging",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "cross-lingual POS tagging",
+      "Related Task",
+      "s11"
+    ],
+    [
+      "cross-lingual learning",
+      "Application",
+      "s69"
+    ],
+    [
+      "cross-lingual learning",
+      "Related Work",
+      "s28"
+    ],
+    [
+      "crowd annotation",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "crowd annotation learning",
+      "Adversarial Training",
+      "e5"
+    ],
+    [
+      "crowd annotation learning",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "crowd annotations",
+      "Adversarial Training in NER",
+      "e10"
+    ],
+    [
+      "crowd annotations",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "crowd annotations",
+      "Limitation",
+      "s5"
+    ],
+    [
+      "crowd annotators",
+      "Adversarial Training",
+      "e5"
+    ],
+    [
+      "crowd annotators",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "crowd vectors",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "crowd-annotated NE label sequence",
+      "Definition",
+      "s89"
+    ],
+    [
+      "crowd-annotated NE label sequence",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "crowd-annotated NE labels",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "crowd-annotated NE labels",
+      "Input",
+      "s85"
+    ],
+    [
+      "crowd-annotated label sequences",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "crowd-annotation learning",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "crowd-annotation learning systems",
+      "Result",
+      "s168"
+    ],
+    [
+      "crowdsourcing",
+      "Alternative",
+      "s4"
+    ],
+    [
+      "crowdsourcing",
+      "Application",
+      "s24"
+    ],
+    [
+      "crowdsourcing",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "crowdsourcing workers",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "crowdsourcing workers",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "development set",
+      "Definition",
+      "s129"
+    ],
+    [
+      "development set",
+      "Property",
+      "s119"
+    ],
+    [
+      "dialog domain",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "dialog domain",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "dialog domain dataset",
+      "Definition",
+      "s184"
+    ],
+    [
+      "different domains",
+      "Adversarial Training",
+      "e5"
+    ],
+    [
+      "different languages",
+      "Adversarial Training",
+      "e5"
+    ],
+    [
+      "discrete inputs",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "discriminator",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "domain adaptation",
+      "Application",
+      "s68"
+    ],
+    [
+      "domain adaptation",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "domain adaptation",
+      "Related Work",
+      "s27"
+    ],
+    [
+      "domain discriminator",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "domain shift",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "dredze2009sequence",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "drop value 0.2",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "dropout",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "dropout",
+      "Method",
+      "s146"
+    ],
+    [
+      "e-commerce domain",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "e-commerce domain",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "e-commerce domain dataset",
+      "Definition",
+      "s185"
+    ],
+    [
+      "entity types",
+      "Attribute",
+      "s21"
+    ],
+    [
+      "equation",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "equation (6)",
+      "Formula",
+      "s49"
+    ],
+    [
+      "evaluation metrics",
+      "Definition",
+      "s136"
+    ],
+    [
+      "experimental results",
+      "Result",
+      "s186"
+    ],
+    [
+      "expert annotations",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "experts",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "experts",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "experts",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "exploding and diminishing gradients",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "feature divergences",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "feature extraction",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "feature extraction",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "feature extraction",
+      "Process",
+      "s43"
+    ],
+    [
+      "feature sparsity",
+      "Problem",
+      "s26"
+    ],
+    [
+      "features h_1^ner h_2^ner ... h_n^ner",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "feed-forward combination layer",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "feed-forward combination layer",
+      "Definition",
+      "s83"
+    ],
+    [
+      "feed-forward neural layer",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "feed-forward neural layer",
+      "Function",
+      "s48"
+    ],
+    [
+      "five students",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "five students",
+      "Entity",
+      "s125"
+    ],
+    [
+      "global normalization",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "gold annotations",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "gold annotations",
+      "Definition",
+      "s118"
+    ],
+    [
+      "gold entity",
+      "Definition",
+      "s137"
+    ],
+    [
+      "gradient reverse layer",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "ground-truth answers",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "h^worker",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "h_private",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "h_t",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "h_t^ner",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "h_t^ner",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "h_t^ner",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "h_t^private",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "h_t_private",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "handcrafted features",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "hidden features",
+      "Property",
+      "s140"
+    ],
+    [
+      "hiring experts",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "image generation",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "input X",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "input character sequence",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "input divergences",
+      "Adversarial Training",
+      "e5"
+    ],
+    [
+      "input sentence features",
+      "Limitation",
+      "s76"
+    ],
+    [
+      "input sentence features",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "knowledge graph",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "l2-regularization",
+      "Setting",
+      "s145"
+    ],
+    [
+      "l_2-regularization 10^-5",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "label Bi-LSTM",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "label Bi-LSTM",
+      "Definition",
+      "s17"
+    ],
+    [
+      "label Bi-LSTM",
+      "Definition",
+      "s182"
+    ],
+    [
+      "label Bi-LSTM",
+      "Definition",
+      "s79"
+    ],
+    [
+      "label Bi-LSTM",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "label Bi-LSTM",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "label Bi-LSTM",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "label dependencies",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "label dependency in NER",
+      "Property",
+      "s54"
+    ],
+    [
+      "label sequence y",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "labeled training data",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "labeled training data",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "labeled training data",
+      "Requirement",
+      "s3"
+    ],
+    [
+      "lample-EtAl:2016:N16-1",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "learning framework",
+      "Adversarial Training",
+      "e5"
+    ],
+    [
+      "learning rate 10^-3",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "linear feed-forward neural layer",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "look-up table",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "looking-up table",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "looking-up table \\(\\mathbf{E}^L\\)",
+      "Definition",
+      "s90"
+    ],
+    [
+      "loss(\u0398, X, \\bar{y})",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "loss(\u0398, mathbf{X}, mathbf{\\bar{y}})",
+      "Definition",
+      "s65"
+    ],
+    [
+      "lost information from majority-voting",
+      "Result",
+      "s166"
+    ],
+    [
+      "low-dimensional vector representations",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "machine learning algorithms",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "machine learning algorithms",
+      "Property",
+      "s2"
+    ],
+    [
+      "machine translation",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "majority voting",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "majority voting",
+      "Method",
+      "s6"
+    ],
+    [
+      "majority voting",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "majority voting",
+      "Result",
+      "s157"
+    ],
+    [
+      "majority-voting",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "majority-voting",
+      "NER Model Performance",
+      "e26"
+    ],
+    [
+      "majority-voting",
+      "Property",
+      "s164"
+    ],
+    [
+      "majority-voting",
+      "Result",
+      "s177"
+    ],
+    [
+      "majority-voting strategy",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "math",
+      "Mathematical Notation",
+      "e17"
+    ],
+    [
+      "mathbf{W}^{\\text{ner}}",
+      "Definition",
+      "s60"
+    ],
+    [
+      "mathbf{X}",
+      "Mathematical Notation",
+      "e17"
+    ],
+    [
+      "mathbf{Y}_{mathbf{X}}",
+      "Definition",
+      "s64"
+    ],
+    [
+      "mathbf{\\bar{y}}",
+      "Definition",
+      "s63"
+    ],
+    [
+      "mathbf{y}^{\\text{ner}}",
+      "Definition",
+      "s59"
+    ],
+    [
+      "max pooling",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "max pooling strategy",
+      "Method",
+      "s95"
+    ],
+    [
+      "max-epoch iteration",
+      "Setting",
+      "s142"
+    ],
+    [
+      "max-epoch iteration 200",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "mini-batch size",
+      "Setting",
+      "s141"
+    ],
+    [
+      "mini-batch size 128",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "model parameter",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "model parameters \u0398",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "money",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "multi-task learning",
+      "Application",
+      "s70"
+    ],
+    [
+      "multi-task learning",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "multi-task learning",
+      "Related Work",
+      "s29"
+    ],
+    [
+      "multiple annotators",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "n",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "negative log-likelihood",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "negative log-likelihood",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "negative log-likelihood",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "negative log-likelihood objective",
+      "Definition",
+      "s61"
+    ],
+    [
+      "neural CRF model",
+      "Adversarial Training in NER",
+      "e10"
+    ],
+    [
+      "neural embedding layer",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "neural network",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "neural network",
+      "Result",
+      "s163"
+    ],
+    [
+      "neural vector",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "neural vector \\(\\mathbf{x'}_t\\)",
+      "Definition",
+      "s91"
+    ],
+    [
+      "new domains",
+      "Adversarial Training in NER",
+      "e10"
+    ],
+    [
+      "new domains",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "new types of entities",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "new types of entities",
+      "NER System Training",
+      "e2"
+    ],
+    [
+      "newly created datasets",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "news domain",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "news domain",
+      "Performance",
+      "s9"
+    ],
+    [
+      "non-experts",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "non-experts",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "non-scalable",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "o^worker",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "o_t^ner",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "o_t^ner",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "output features",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "output label sequence",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "output labels",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "output scores $\\mathbf{o}_t^{\\text{ner}}$",
+      "Formula",
+      "s53"
+    ],
+    [
+      "output vectors",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "overleftarrow h_t",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "overrightarrow h_t",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "p(\\bar{y}|X)",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "p(\\bar{z}|\\mathbf{X}, \\mathbf{\\bar{y}})",
+      "Definition",
+      "s100"
+    ],
+    [
+      "p(\\bar{z}|\\mathbf{X}, \\mathbf{\\bar{y}})",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "p(mathbf{\\bar{y}}|mathbf{X})",
+      "Result",
+      "s62"
+    ],
+    [
+      "p-value",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "parsing",
+      "Bi-LSTM Feature Extraction",
+      "e13"
+    ],
+    [
+      "perfect worker",
+      "Definition",
+      "s74"
+    ],
+    [
+      "person",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "pretrained character embeddings",
+      "Result",
+      "s173"
+    ],
+    [
+      "pretrained embeddings",
+      "Cause",
+      "s134"
+    ],
+    [
+      "pretrained embeddings",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "pretrained embeddings",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "pretrained embeddings",
+      "Property",
+      "s42"
+    ],
+    [
+      "private Bi-LSTM",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "private Bi-LSTM",
+      "Bi-LSTM Architecture",
+      "e14"
+    ],
+    [
+      "private Bi-LSTM",
+      "Definition",
+      "s47"
+    ],
+    [
+      "private Bi-LSTM",
+      "Definition",
+      "s78"
+    ],
+    [
+      "private Bi-LSTM",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "private Bi-LSTM",
+      "Property",
+      "s16"
+    ],
+    [
+      "product",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "proposed model",
+      "Property",
+      "s179"
+    ],
+    [
+      "random initialized embeddings",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "recent years",
+      "NER Progress",
+      "e1"
+    ],
+    [
+      "rodrigues2014sequence",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "saddle point",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "score function \\(\\mathbf{o}^{\\text{worker}}\\)",
+      "Definition",
+      "s96"
+    ],
+    [
+      "score(X, y)",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "score(\u00b7)",
+      "Definition",
+      "s57"
+    ],
+    [
+      "score(\u00b7)",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "sentential character",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "sentential character",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "sequence labeling",
+      "CRF Tagging in NER",
+      "e15"
+    ],
+    [
+      "sequence labeling",
+      "Model Evaluation",
+      "e7"
+    ],
+    [
+      "sequence labeling",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "short time limits",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "snow2008cheap",
+      "Crowdsourcing Learning",
+      "e8"
+    ],
+    [
+      "social media texts",
+      "Chinese NER Crowdsourcing",
+      "e4"
+    ],
+    [
+      "softmax",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "softmax",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "song",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "source sentences",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "t-test",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "test set",
+      "Definition",
+      "s130"
+    ],
+    [
+      "test set",
+      "Property",
+      "s120"
+    ],
+    [
+      "testing phase",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "testing phase",
+      "Constraint",
+      "s86"
+    ],
+    [
+      "this paper",
+      "Result",
+      "s34"
+    ],
+    [
+      "three annotators",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "time",
+      "Crowdsourcing for Data Annotation",
+      "e3"
+    ],
+    [
+      "train time",
+      "Crowd Label Aggregation",
+      "e9"
+    ],
+    [
+      "training set",
+      "Definition",
+      "s131"
+    ],
+    [
+      "training set",
+      "NER Model Performance",
+      "e25"
+    ],
+    [
+      "training set",
+      "Property",
+      "s121"
+    ],
+    [
+      "training set inconsistencies",
+      "Property",
+      "s176"
+    ],
+    [
+      "transition matrix",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "two annotations",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "undergraduate students",
+      "Dataset Annotation",
+      "e22"
+    ],
+    [
+      "unlabeled data",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "unlabeled data",
+      "Result",
+      "s132"
+    ],
+    [
+      "user-generated content",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "vector representation",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "vector representation of characters",
+      "Method",
+      "s41"
+    ],
+    [
+      "vector representations",
+      "NER Sequence Labeling",
+      "e11"
+    ],
+    [
+      "vector sequence",
+      "NER Model Architecture",
+      "e12"
+    ],
+    [
+      "voted corpus",
+      "Model Comparison in NER",
+      "e24"
+    ],
+    [
+      "voted version",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "window size 5",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "word2vec",
+      "Dataset Setup",
+      "e23"
+    ],
+    [
+      "word2vec",
+      "Method",
+      "s135"
+    ],
+    [
+      "worker annotations",
+      "Property",
+      "s71"
+    ],
+    [
+      "worker discriminator",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "worker discriminator",
+      "Definition",
+      "s72"
+    ],
+    [
+      "worker discriminator",
+      "Definition",
+      "s99"
+    ],
+    [
+      "worker discriminator",
+      "Function",
+      "s18"
+    ],
+    [
+      "worker discriminator",
+      "Model Architecture",
+      "e20"
+    ],
+    [
+      "worker discriminator",
+      "NER Model Setup",
+      "e6"
+    ],
+    [
+      "worker discriminator",
+      "Property",
+      "s80"
+    ],
+    [
+      "worker discriminator",
+      "Property",
+      "s88"
+    ],
+    [
+      "worker discriminator",
+      "Worker Discriminator Objective",
+      "e21"
+    ],
+    [
+      "worker guidelines",
+      "Assumption",
+      "s73"
+    ],
+    [
+      "worker guidelines",
+      "Model Training with Worker Adversarial Learning",
+      "e18"
+    ],
+    [
+      "worker independent features",
+      "Adversarial Learning Module",
+      "e19"
+    ],
+    [
+      "worker prediction",
+      "Result",
+      "s97"
+    ],
+    [
+      "y",
+      "Property",
+      "s58"
+    ],
+    [
+      "y_t",
+      "CRF Labeling Process",
+      "e16"
+    ],
+    [
+      "y_{t-1}",
+      "CRF Labeling Process",
+      "e16"
+    ]
+  ]
+}

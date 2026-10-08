@@ -1,0 +1,5212 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 176,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "document quality assessment": {
+      "tag_set": [
+        "Conclusion",
+        "Definition",
+        "Document Quality Assessment",
+        "Purpose"
+      ]
+    },
+    "Wikipedia document quality classification": {
+      "tag_set": [
+        "Context",
+        "Document Quality Assessment"
+      ]
+    },
+    "conference paper acceptance": {
+      "tag_set": [
+        "Context",
+        "Document Quality Assessment"
+      ]
+    },
+    "essay scoring": {
+      "tag_set": [
+        "Document Quality Assessment",
+        "Property"
+      ]
+    },
+    "job application filtering": {
+      "tag_set": [
+        "Document Quality Assessment",
+        "Property"
+      ]
+    },
+    "community question answering": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "textual features": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment",
+        "Model Performance Analysis"
+      ]
+    },
+    "visual features": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment",
+        "Model Performance Analysis"
+      ]
+    },
+    "Inception V3": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment",
+        "Method",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "biLSTM": {
+      "tag_set": [
+        "Article Quality Features",
+        "Cause",
+        "Document Quality Assessment",
+        "Inception Model Analysis",
+        "Method",
+        "Model Component",
+        "Model Performance Analysis",
+        "Property",
+        "Result",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "hierarchical biLSTM": {
+      "tag_set": [
+        "Document Quality Assessment",
+        "Method"
+      ]
+    },
+    "Figure 1": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "article length": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "number of headings": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "infobox": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "references": {
+      "tag_set": [
+        "Article Quality Features",
+        "Document Quality Assessment",
+        "Inception Model Analysis"
+      ]
+    },
+    "images": {
+      "tag_set": [
+        "Article Quality Features",
+        "Document Quality Assessment",
+        "Inception Model Analysis"
+      ]
+    },
+    "arXiv dataset": {
+      "tag_set": [
+        "Dataset",
+        "Document Quality Assessment"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Document Quality Assessment",
+        "Reference"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Dataset Description",
+        "Document Quality Assessment",
+        "Method"
+      ]
+    },
+    "visual renderings": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment"
+      ]
+    },
+    "implicit quality indicators": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment"
+      ]
+    },
+    "image classifier": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "text classifier": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "state-of-the-art results": {
+      "tag_set": [
+        "Document Quality Assessment",
+        "Model Performance Analysis"
+      ]
+    },
+    "Wikipedia article quality assessment": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment"
+      ]
+    },
+    "academic paper rating": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment"
+      ]
+    },
+    "hand-crafted features": {
+      "tag_set": [
+        "Article Quality Features",
+        "Cause",
+        "Document Quality Assessment"
+      ]
+    },
+    "neural networks": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "article-internal features": {
+      "tag_set": [
+        "Document Quality Assessment",
+        "Property"
+      ]
+    },
+    "meta-data features": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment",
+        "Property"
+      ]
+    },
+    "editors": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "revision history": {
+      "tag_set": [
+        "Article Quality Features",
+        "Document Quality Assessment"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Result",
+        "Writing Styles"
+      ]
+    },
+    "writing styles": {
+      "tag_set": [
+        "Writing Styles"
+      ]
+    },
+    "supporting evidence": {
+      "tag_set": [
+        "Writing Styles"
+      ]
+    },
+    "appropriate terminology": {
+      "tag_set": [
+        "Writing Styles"
+      ]
+    },
+    "binarized": {
+      "tag_set": [
+        "Feature Representation"
+      ]
+    },
+    "character": {
+      "tag_set": [
+        "Feature Representation"
+      ]
+    },
+    "trigram": {
+      "tag_set": [
+        "Feature Representation"
+      ]
+    },
+    "features": {
+      "tag_set": [
+        "Feature Representation"
+      ]
+    },
+    "identify": {
+      "tag_set": [
+        "Feature Representation"
+      ]
+    },
+    "featured": {
+      "tag_set": [
+        "Feature Representation"
+      ]
+    },
+    "headings": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "readability scores": {
+      "tag_set": [
+        "Article Quality Features",
+        "Definition"
+      ]
+    },
+    "difficult words percentage": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "editor interactions": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "number of edits": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "registered editors": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "total number of editors": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "article-editor dependencies": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "editor authority": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "doc2vec": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "four hidden layer neural network": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "sentence representations": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "document-level representation": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "title length": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "outperform": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "state-of-the-art": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "novel": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "abstract embedding": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "logistic regression": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "decision tree": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "random forest": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "hierarchical CNN": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "attention-based CNN": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "attentive pooling": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "softmax layer": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "answer content": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "answerer profile": {
+      "tag_set": [
+        "Article Quality Features"
+      ]
+    },
+    "user interactions": {
+      "tag_set": [
+        "Article Quality Features",
+        "Feature"
+      ]
+    },
+    "content usage": {
+      "tag_set": [
+        "Article Quality Features",
+        "Feature"
+      ]
+    },
+    "answer length": {
+      "tag_set": [
+        "Article Quality Features",
+        "Property"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "ImageNet": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "visual rendering": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "document quality": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "textual embedding": {
+      "tag_set": [
+        "Definition",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "word embedding": {
+      "tag_set": [
+        "Property",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "average-pooling": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "max-pooling": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "feed-forward layer": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "softmax": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "cross-entropy loss": {
+      "tag_set": [
+        "Property",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "document label set": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "Xception": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "ResNet": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "VGG": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "convolution filters": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "3\u00d73 convolution": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "5\u00d75 convolution": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "1\u00d71 convolution": {
+      "tag_set": [
+        "Property",
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "factorizing convolutions": {
+      "tag_set": [
+        "Visual-Textual Embedding Fusion"
+      ]
+    },
+    "Wikipedia": {
+      "tag_set": [
+        "Dataset Description",
+        "Definition",
+        "Inception Model Analysis",
+        "Model Performance Analysis"
+      ]
+    },
+    "arXiv": {
+      "tag_set": [
+        "Dataset Description",
+        "Document Quality Assessment",
+        "Model Performance Analysis",
+        "Result"
+      ]
+    },
+    "Featured Article (FA)": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "Good Article (GA)": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "B-class Article (B)": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "C-class Article (C)": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "Start Article": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "Stub Article": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "Wikipedia grading scheme": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "talk page": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "FA repository": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "https://en.wikipedia.org/wiki/Category:Featured_articles": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "5K FA": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "28K GA": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "212K B": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "533K C": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "2.6M Start": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "3.2M Stub": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "29,794 articles": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "redirect pages": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "wikitext": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "PhantomJS": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "1,000 \u00d7 2,000-pixel screenshot": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "DBLP database": {
+      "tag_set": [
+        "Dataset Description",
+        "Relationship"
+      ]
+    },
+    "ACL": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "EMNLP": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "NAACL": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "EACL": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "cs.ai": {
+      "tag_set": [
+        "Dataset Description",
+        "Field",
+        "Model Performance Analysis"
+      ]
+    },
+    "cs.cl": {
+      "tag_set": [
+        "Dataset Description",
+        "Field",
+        "Model Performance Analysis"
+      ]
+    },
+    "cs.lg": {
+      "tag_set": [
+        "Dataset Description",
+        "Field",
+        "Model Performance Analysis"
+      ]
+    },
+    "accepted paper": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "positive label": {
+      "tag_set": [
+        "Dataset Description"
+      ]
+    },
+    "Inception": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment",
+        "Inception Model Analysis",
+        "Model Component",
+        "Model Performance Analysis",
+        "Property"
+      ]
+    },
+    "Joint": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Property",
+        "Result"
+      ]
+    },
+    "Baseline methods": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "Majority": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Property"
+      ]
+    },
+    "Benchmark": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Property"
+      ]
+    },
+    "Inception_fixed": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Result"
+      ]
+    },
+    "average accuracy": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "standard deviation": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "10 runs": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "random initializations": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "2.9%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "59.4%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "5.3%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "2.4%": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "p<0.05": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "Wilcoxon signed-rank test": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "class imbalance": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "90% rejected": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "equations": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "mathematical presentation": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "high-level representations": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "performance comparison": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "gradient-based class activation map": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "penultimate layer": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "Figure 3": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "FA class prediction": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "GA class prediction": {
+      "tag_set": [
+        "Inception Model Analysis",
+        "Property"
+      ]
+    },
+    "B class prediction": {
+      "tag_set": [
+        "Inception Model Analysis",
+        "Property"
+      ]
+    },
+    "C class prediction": {
+      "tag_set": [
+        "Inception Model Analysis",
+        "Property"
+      ]
+    },
+    "Start class prediction": {
+      "tag_set": [
+        "Inception Model Analysis",
+        "Property"
+      ]
+    },
+    "Stub class prediction": {
+      "tag_set": [
+        "Inception Model Analysis",
+        "Property"
+      ]
+    },
+    "Joint model": {
+      "tag_set": [
+        "Definition",
+        "Document Quality Assessment",
+        "Inception Model Analysis",
+        "Result"
+      ]
+    },
+    "confusion matrix": {
+      "tag_set": [
+        "Inception Model Analysis",
+        "Result"
+      ]
+    },
+    "precision": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "recall": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "F1 score": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "document length": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "table of contents": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "top right corner": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "link bar": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "adjacent quality classes": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "official review": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "structured criteria": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "short articles": {
+      "tag_set": [
+        "Inception Model Analysis"
+      ]
+    },
+    "B quality class": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "C quality class": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "FA articles": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "GA articles": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "Wikipedia contributors": {
+      "tag_set": [
+        "Document Quality Assessment",
+        "Property"
+      ]
+    },
+    "talk pages": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "quality class votes": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "t-SNE plot": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "font choices": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "visual layout": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "textual content": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "2.9% higher accuracy": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "text-only model": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "visual-only model": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "document representations": {
+      "tag_set": [
+        "Document Quality Assessment"
+      ]
+    },
+    "answer selection in community question answering": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Inception V3 model": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "joint model": {
+      "tag_set": [
+        "Definition",
+        "Method",
+        "Model",
+        "Result"
+      ]
+    },
+    "Wikipedia dataset": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "quality label": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "dynamic documents": {
+      "tag_set": [
+        "Context"
+      ]
+    },
+    "inconsistent quality criteria": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "automatic system for author feedback": {
+      "tag_set": [
+        "Benefit"
+      ]
+    },
+    "higher quality article": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "complementing textual features with visual features": {
+      "tag_set": [
+        "Objective"
+      ]
+    },
+    "combined model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "neural network-based approaches": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "higher-quality articles": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "article\u2013editor dependencies": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "content quality assessment in cQA": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "answerer's profile": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "similarity between question and answer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "user data": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CNN-learned representations": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "2-dimensional CNN": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "neural machine translation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "automated essay scoring": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "topic relevance": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "word usage and sentence complexity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "grammar and mechanics": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "CNN and LSTM with attention layer": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "visual embedding": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "bi-directional LSTM": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "average-pooling layer": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "max-pooling layer": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Inception model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "factorized convolutions": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "quality classes": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Featured Article": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "arXiv dataset BIBREF2": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "accepted papers": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "dataset construction": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "training, development, test splits": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "screenshot generation": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "quality indicators": {
+      "tag_set": [
+        "Removal"
+      ]
+    },
+    "TACL": {
+      "tag_set": [
+        "Conference"
+      ]
+    },
+    "NIPS": {
+      "tag_set": [
+        "Conference"
+      ]
+    },
+    "ICML": {
+      "tag_set": [
+        "Conference"
+      ]
+    },
+    "ICLR": {
+      "tag_set": [
+        "Conference"
+      ]
+    },
+    "AAAI": {
+      "tag_set": [
+        "Conference"
+      ]
+    },
+    "rejected": {
+      "tag_set": [
+        "Status"
+      ]
+    },
+    "PDF cropping": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "padding": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "ImageMagick": {
+      "tag_set": [
+        "Tool"
+      ]
+    },
+    "NLTK": {
+      "tag_set": [
+        "Tool"
+      ]
+    },
+    "GloVe": {
+      "tag_set": [
+        "Embedding"
+      ]
+    },
+    "UNK token": {
+      "tag_set": [
+        "Token"
+      ]
+    },
+    "uniform distribution": {
+      "tag_set": [
+        "Embedding Initialization"
+      ]
+    },
+    "LSTM hidden layer size": {
+      "tag_set": [
+        "Parameter"
+      ]
+    },
+    "dropout": {
+      "tag_set": [
+        "Regularization"
+      ]
+    },
+    "data augmentation": {
+      "tag_set": [
+        "Training Technique"
+      ]
+    },
+    "resized screenshot": {
+      "tag_set": [
+        "Image Processing"
+      ]
+    },
+    "input shape": {
+      "tag_set": [
+        "Model Input"
+      ]
+    },
+    "GlobalAveragePooling2D": {
+      "tag_set": [
+        "Layer"
+      ]
+    },
+    "dropout layer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Inception and joint model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hyper-parameters": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Inception weights": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "biLSTM weights": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training epochs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "early stopping": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "evaluation metric": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Majority baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Benchmark baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Doc2Vec baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "biLSTM baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Inception_fixed baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Doc2Vec feed-forward layer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Doc2Vec training epochs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "biLSTM features": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "cs.lg documents": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "textual and visual features": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "class activation map": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "misclassification": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "precision, recall, F1 score": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "FA, GA, Stub articles": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "FA and GA articles": {
+      "tag_set": [
+        "Cause",
+        "Result"
+      ]
+    },
+    "Stub articles": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "B and C quality classes": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "quality labels": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Inception and Joint": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "all models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "neural network models": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "accuracy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "visual and textual representations": {
+      "tag_set": [
+        "Relationship"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction The task of document quality assessment is to automatically assess a document according to some predefined inventory of quality labels. This can take many forms, including essay scoring (quality = language quality, coherence, and relevance to a topic), job application filtering (quality = suitability for role + visual/presentational quality of the application), or answer selection in community question answering (quality = actionability + relevance of the answer to the question). In the case of this paper, we focus on document quality assessment in two contexts: Wikipedia document quality classification, and whether a paper submitted to a conference was accepted or not. Automatic quality assessment has obvious benefits in terms of time savings and tractability in contexts where the volume of documents is large. In the case of dynamic documents (possibly with multiple authors), such as in the case of Wikipedia, it is particularly pertinent, as any edit potentially has implications for the quality label of that document (and around 10 English Wikipedia documents are edited per second). Furthermore, when the quality assessment task is decentralized (as in the case of Wikipedia and academic paper assessment), quality criteria are often applied inconsistently by different people, where an automatic document quality assessment system could potentially reduce inconsistencies and enable immediate author feedback. Current studies on document quality assessment mainly focus on textual features. For example, BIBREF0 examine features such as the article length and the number of headings to predict the quality class of a Wikipedia article. In contrast to these studies, in this paper, we propose to combine text features with visual features, based on a visual rendering of the document. Figure 1 illustrates our intuition, relative to Wikipedia articles. Without being able to read the text, we can tell that the article in Figure 1 has higher quality than Figure 1 , as it has a detailed infobox, extensive references, and a variety of images. Based on this intuition, we aim to answer the following question: can we achieve better accuracy on document quality assessment by complementing textual features with visual features? Our visual model is based on fine-tuning an Inception V3 model BIBREF1 over visual renderings of documents, while our textual model is based on a hierarchical biLSTM. We further combine the two into a joint model. We perform experiments on two datasets: a Wikipedia dataset novel to this paper, and an arXiv dataset provided by BIBREF2 split",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Document Quality Assessment"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "into three sub-parts based on subject category. Experimental results on the visual renderings of documents show that implicit quality indicators, such as images and visual layout, can be captured by an image classifier, at a level comparable to a text classifier. When we combine the two models, we achieve state-of-the-art results over 3/4 of our datasets. This paper makes the following contributions: All code and data associated with this research will be released on publication. Related Work A variety of approaches have been proposed for document quality assessment across different domains: Wikipedia article quality assessment, academic paper rating, content quality assessment in community question answering (cQA), and essay scoring. Among these approaches, some use hand-crafted features while others use neural networks to learn features from documents. For each domain, we first briefly describe feature-based approaches and then review neural network-based approaches. Wikipedia article quality assessment: Quality assessment of Wikipedia articles is a task that assigns a quality class label to a given Wikipedia article, mirroring the quality assessment process that the Wikipedia community carries out manually. Many approaches have been proposed that use features from the article itself, meta-data features (e.g., the editors, and Wikipedia article revision history), or a combination of the two. Article-internal features capture information such as whether an article is properly organized,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Document Quality Assessment"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "with supporting evidence, and with appropriate terminology. For example, BIBREF3 use writing styles",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Writing Styles"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "represented by binarized character trigram features to identify featured",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Feature Representation"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "articles. BIBREF4 and BIBREF0 explore the number of headings, images, and references in the article. BIBREF5 use nine readability scores, such as the percentage of difficult words in the document, to measure the quality of the article. Meta-data features, which are indirect indicators of article quality, are usually extracted from revision history, and the interaction between editors and articles. For example, one heuristic that has been proposed is that higher-quality articles have more edits BIBREF6 , BIBREF7 . BIBREF8 use the percentage of registered editors and the total number of editors of an article. Article\u2013editor dependencies have also been explored. For example, BIBREF9 use the authority of editors to measure the quality of Wikipedia articles, where the authority of editors is determined by the articles they edit. Deep learning approaches to predicting Wikipedia article quality have also been proposed. For example, BIBREF10 use a version of doc2vec BIBREF11 to represent articles, and feed the document embeddings into a four hidden layer neural network. BIBREF12 first obtain sentence representations by averaging words within a sentence, and then apply a biLSTM BIBREF13 to learn a document-level representation, which is combined with hand-crafted features as side information. BIBREF14 exploit two stacked biLSTMs to learn document representations. Academic paper rating: Academic paper rating is a relatively new task in NLP/AI, with the basic formulation being to automatically predict whether to accept or reject a paper. BIBREF2 explore hand-crafted features, such as the length of the title, whether specific words (such as outperform, state-of-the-art, and novel) appear in the abstract, and an embedded representation of the abstract as input to different downstream learners, such as logistic regression, decision tree, and random forest. BIBREF15 exploit a modularized hierarchical convolutional neural network (CNN), where each paper section is treated as a module. For each paper section, they train an attention-based CNN, and an attentive pooling layer is applied to the concatenated representation of each section, which is then fed into a softmax layer. Content quality assessment in cQA: Automatic quality assessment in cQA is the task of determining whether an answer is of high quality, selected as the best answer, or ranked higher than other answers. To measure answer content quality in cQA, researchers have exploited various features from different sources, such as the answer content itself, the answerer's profile, interactions among users, and usage of the content. The most common feature used is the answer length",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Article Quality Features"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "BIBREF16 , BIBREF17 , with other features including: syntactic and semantic features, such as readability scores. BIBREF18 ; similarity between the question and the answer at lexical, syntactic, and semantic levels BIBREF18 , BIBREF19 , BIBREF20 ; or user data (e.g., a user's status points or the number of answers written by the user). There have also been approaches using neural networks. For example, BIBREF21 combine CNN-learned representations with hand-crafted features to predict answer quality. BIBREF22 use a 2-dimensional CNN to learn the semantic relevance of an answer to the question, and apply an LSTM to the answer sequence to model thread context. BIBREF23 and BIBREF24 model the problem similarly to machine translation quality estimation, treating answers as competing translation hypotheses and the question as the reference translation, and apply neural machine translation to the problem. Essay scoring: Automated essay scoring is the task of assigning a score to an essay, usually in the context of assessing the language ability of a language learner. The quality of an essay is affected by the following four primary dimensions: topic relevance, organization and coherence, word usage and sentence complexity, and grammar and mechanics. To measure whether an essay is relevant to its \u201cprompt\u201d (the description of the essay topic), lexical and semantic overlap is commonly used BIBREF25 , BIBREF26 . BIBREF27 explore word features, such as the number of verb formation errors, average word frequency, and average word length, to measure word usage and lexical complexity. BIBREF28 use sentence structure features to measure sentence variety. The effects of grammatical and mechanic errors on the quality of an essay are measured via word and part-of-speech $n$ -gram features and \u201cmechanics\u201d features BIBREF29 (e.g., spelling, capitalization, and punctuation), respectively. BIBREF30 , BIBREF31 , and BIBREF32 use an LSTM to obtain an essay representation, which is used as the basis for classification. Similarly, BIBREF33 utilize a CNN to obtain sentence representation and an LSTM to obtain essay representation, with an attention layer at both the sentence and essay levels. The Proposed Joint Model We treat document quality assessment as a classification problem, i.e., given a document, we predict its quality class (e.g., whether an academic paper should be accepted or rejected). The proposed model is a joint model that integrates visual features learned through Inception V3 with textual features learned through a biLSTM. In this section, we present the details of the visual and textual",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "embeddings, and finally describe how we combine the two. We return to discuss hyper-parameter settings and the experimental configuration in the Experiments section. Visual Embedding Learning A wide range of models have been proposed to tackle the image classification task, such as VGG BIBREF34 , ResNet BIBREF35 , Inception V3 BIBREF1 , and Xception BIBREF36 . However, to the best of our knowledge, there is no existing work that has proposed to use visual renderings of documents to assess document quality. In this paper, we use Inception V3 pretrained on ImageNet (\u201cInception\u201d hereafter) to obtain visual embeddings of documents, noting that any image classifier could be applied to our task. The input to Inception is a visual rendering (screenshot) of a document, and the output is a visual embedding, which we will later integrate with our textual embedding. Based on the observation that it is difficult to decide what types of convolution to apply to each layer (such as 3 $\\times $ 3 or 5 $\\times $ 5), the basic Inception model applies multiple convolution filters in parallel and concatenates the resulting features, which are fed into the next layer. This has the benefit of capturing both local features through smaller convolutions and abstracted features through larger convolutions. Inception is a hybrid of multiple Inception models of different architectures. To reduce computational cost, Inception also modifies the basic model by applying a 1 $\\times $ 1 convolution to the input and factorizing larger convolutions into smaller ones. Textual Embedding Learning We adopt a bi-directional LSTM model to generate textual embeddings for document quality assessment, following the method of BIBREF12 (\u201cbiLSTM\u201d hereafter). The input to biLSTM is a textual document, and the output is a textual embedding, which will later integrate with the visual embedding. For biLSTM, each word is represented as a word embedding BIBREF37 , and an average-pooling layer is applied to the word embeddings to obtain the sentence embedding, which is fed into a bi-directional LSTM to generate the document embedding from the sentence embeddings. Then a max-pooling layer is applied to select the most salient features from the component sentences. The Joint Model The proposed joint model (\u201cJoint\u201d hereafter) combines the visual and textual embeddings (output of Inception and biLSTM) via a simple feed-forward layer and softmax over the document label set, as shown in Figure 2 . We optimize our model based on cross-entropy loss. Experiments",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Visual-Textual Embedding Fusion"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "In this section, we first describe the two datasets used in our experiments: (1) Wikipedia, and (2) arXiv. Then, we report the experimental details and results. Datasets The Wikipedia dataset consists of articles from English Wikipedia, with quality class labels assigned by the Wikipedia community. Wikipedia articles are labelled with one of six quality classes, in descending order of quality: Featured Article (\u201cFA\u201d), Good Article (\u201cGA\u201d), B-class Article (\u201cB\u201d), C-class Article (\u201cC\u201d), Start Article (\u201cStart\u201d), and Stub Article (\u201cStub\u201d). A description of the criteria associated with the different classes can be found in the Wikipedia grading scheme page. The quality class of a Wikipedia article is assigned by Wikipedia reviewers or any registered user, who can discuss through the article's talk page to reach consensus. We constructed the dataset by first crawling all articles from each quality class repository, e.g., we get FA articles by crawling pages from the FA repository: https://en.wikipedia.org/wiki/Category:Featured_articles. This resulted in around 5K FA, 28K GA, 212K B, 533K C, 2.6M Start, and 3.2M Stub articles. We randomly sampled 5,000 articles from each quality class and removed all redirect pages, resulting in a dataset of 29,794 articles. As the wikitext contained in each document contains markup relating to the document category such as {Featured Article} or {geo-stub}, which reveals the label, we remove such information. We additionally randomly partitioned this dataset into training, development, and test splits based on a ratio of 8:1:1. Details of the dataset are summarized in Table 1 . We generate a visual representation of each document via a 1,000 $\\times $ 2,000-pixel screenshot of the article via a PhantomJS script over the rendered version of the article, ensuring that the screenshot and wikitext versions of the article are the same version. Any direct indicators of document quality (such as the FA indicator, which is a bronze star icon in the top right corner of the webpage) are removed from the screenshot. The arXiv dataset BIBREF2 consists of three subsets of academic articles under the arXiv repository of Computer Science (cs), from the three subject areas of: Artificial Intelligence (cs.ai), Computation and Language (cs.cl), and Machine Learning (cs.lg). In line with the original dataset formulation BIBREF2 , a paper is considered to have been accepted (i.e. is positively labeled) if it matches a paper in the DBLP database or is otherwise accepted by any of the following conferences: ACL, EMNLP, NAACL, EACL,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Description"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "TACL, NIPS, ICML, ICLR, or AAAI. Failing this, it is considered to be rejected (noting that some of the papers may not have been submitted to one of these conferences). The median numbers of pages for papers in cs.ai, cs.cl, and cs.lg are 11, 10, and 12, respectively. To make sure each page in the PDF file has the same size in the screenshot, we crop the PDF file of a paper to the first 12; we pad the PDF file with blank pages if a PDF file has less than 12 pages, using the PyPDF2 Python package. We then use ImageMagick to convert the 12-page PDF file to a single 1,000 $\\times $ 2,000 pixel screenshot. Table 2 details this dataset, where the \u201cAccepted\u201d column denotes the percentage of positive instances (accepted papers) in each subset. Experimental Setting As discussed above, our model has two main components \u2014 biLSTM and Inception\u2014 which generate textual and visual representations, respectively. For the biLSTM component, the documents are preprocessed as described in BIBREF12 , where an article is divided into sentences and tokenized using NLTK BIBREF38 . Words appearing more than 20 times are retained when building the vocabulary. All other words are replaced by the special UNK token. We use the pre-trained GloVe BIBREF39 50-dimensional word embeddings to represent words. For words not in GloVe, word embeddings are randomly initialized based on sampling from a uniform distribution $U(-1, 1)$ . All word embeddings are updated in the training process. We set the LSTM hidden layer size to 256. The concatenation of the forward and backward LSTMs thus gives us 512 dimensions for the document embedding. A dropout layer is applied at the sentence and document level, respectively, with a probability of 0.5. For Inception, we adopt data augmentation techniques in the training with a \u201cnearest\u201d filling mode, a zoom range of 0.1, a width shift range of 0.1, and a height shift range of 0.1. As the original screenshots have the size of 1,000 $\\times 2$ ,000 pixels, they are resized to 500 $\\times $ 500 to feed into Inception, where the input shape is (500, 500, 3). A dropout layer is applied with a probability of 0.5. Then, a GlobalAveragePooling2D layer is applied, which produces a 2,048 dimensional representation. For the Joint model, we get a representation of 2,560 dimensions by concatenating the 512 dimensional representation from the biLSTM with",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "the 2,048 dimensional representation from Inception. The dropout layer is applied to the two components with a probability of 0.5. For biLSTM, we use a mini-batch size of 128 and a learning rate of 0.001. For both Inception and joint model, we use a mini-batch size of 16 and a learning rate of 0.0001. All hyper-parameters were set empirically over the development data, and the models were optimized using the Adam optimizer BIBREF40 . In the training phase, the weights in Inception are initialized by parameters pretrained on ImageNet, and the weights in biLSTM are randomly initialized (except for the word embeddings). We train each model for 50 epochs. However, to prevent overfitting, we adopt early stopping, where we stop training the model if the performance on the development set does not improve for 20 epochs. For evaluation, we use (micro-)accuracy, following previous studies BIBREF5 , BIBREF2 . Baseline Approaches We compare our models against the following five baselines: Majority: the model labels all test samples with the majority class of the training data. Benchmark: a benchmark method from the literature. In the case of Wikipedia, this is BIBREF5 , who use structural features and readability scores as features to build a random forest classifier; for arXiv, this is BIBREF2 , who use hand-crafted features, such as the number of references and TF-IDF weighted bag-of-words in abstract, to build a classifier based on the best of logistic regression, multi-layer perception, and AdaBoost. Doc2Vec: doc2vec BIBREF11 to learn document embeddings with a dimension of 500, and a 4-layer feed-forward classification model on top of this, with 2000, 1000, 500, and 200 dimensions, respectively. biLSTM: first derive a sentence representation by averaging across words in a sentence, then feed the sentence representation into a biLSTM and a maxpooling layer over output sequence to learn a document level representation with a dimension of 512, which is used to predict document quality. Inception $_{\\text{fixed}}$ : the frozen Inception model, where only parameters in the last layer are fine-tuned during training. The hyper-parameters of Benchmark, Doc2Vec, and biLSTM are based on the corresponding papers except that: (1) we fine-tune the feed forward layer of Doc2Vec on the development set and train the model 300 epochs on Wikipedia and 50 epochs on arXiv; (2) we do not use hand-crafted features for biLSTM as we want the baselines to be comparable to our models, and the main",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "focus of this paper is not to explore the effects of hand-crafted features (e.g., see BIBREF12 ). Experimental Results Table 3 shows the performance of the different models over our two datasets, in the form of the average accuracy on the test set (along with the standard deviation) over 10 runs, with different random initializations. On Wikipedia, we observe that the performance of biLSTM, Inception, and Joint is much better than that of all four baselines. Inception achieves 2.9% higher accuracy than biLSTM. The performance of Joint achieves an accuracy of 59.4%, which is 5.3% higher than using textual features alone (biLSTM) and 2.4% higher than using visual features alone (Inception). Based on a one-tailed Wilcoxon signed-rank test, the performance of Joint is statistically significant ( $p<0.05$ ). This shows that the textual and visual features complement each other, achieving state-of-the-art results in combination. For arXiv, baseline methods Majority, Benchmark, and Inception $_{\\text{fixed}}$ outperform biLSTM over cs.ai, in large part because of the class imbalance in this dataset (90% of papers are rejected). Surprisingly, Inception $_{\\text{fixed}}$ is better than Majority and Benchmark over the arXiv cs.lg subset, which verifies the usefulness of visual features, even when only the last layer is fine-tuned. Table 3 also shows that Inception and biLSTM achieve similar performance on arXiv, showing that textual and visual representations are equally discriminative: Inception and biLSTM are indistinguishable over cs.cl; biLSTM achieves 1.8% higher accuracy over cs.lg, while Inception achieves 1.3% higher accuracy over cs.ai. Once again, the Joint model achieves the highest accuracy on cs.ai and cs.cl by combining textual and visual representations (at a level of statistical significance for cs.ai). This, again, confirms that textual and visual features complement each other, and together they achieve state-of-the-art results. On arXiv cs.lg, Joint achieves a 0.6% higher accuracy than Inception by combining visual features and textual features, but biLSTM achieves the highest accuracy. One characteristic of cs.lg documents is that they tend to contain more equations than the other two arXiv datasets, and preliminary analysis suggests that the biLSTM is picking up on a correlation between the volume/style of mathematical presentation and the quality of the document. Analysis In this section, we first analyze the performance of Inception and Joint. We also analyze the performance of different models on different quality classes. The high-level representations learned by different models are also visualized and discussed. As the Wikipedia test set",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "is larger and more balanced than that of arXiv, our analysis will focus on Wikipedia. Inception To better understand the performance of Inception, we generated the gradient-based class activation map BIBREF41 , by maximizing the outputs of each class in the penultimate layer, as shown in Figure 3 . From Figure 3 and Figure 3 , we can see that Inception identifies the two most important regions (one at the top corresponding to the table of contents, and the other at the bottom, capturing both document length and references) that contribute to the FA class prediction, and a region in the upper half of the image that contributes to the GA class prediction (capturing the length of the article body). From Figure 3 and Figure 3 , we can see that the most important regions in terms of B and C class prediction capture images (down the left and right of the page, in the case of B and C), and document length/references. From Figure 3 and Figure 3 , we can see that Inception finds that images in the top right corner are the strongest predictor of Start class prediction, and (the lack of) images/the link bar down the left side of the document are the most important for Stub class prediction. Joint Table 4 shows the confusion matrix of Joint on Wikipedia. We can see that more than 50% of documents for each quality class are correctly classified, except for the C class where more documents are misclassified into B. Analysis shows that when misclassified, documents are usually misclassified into adjacent quality classes, which can be explained by the Wikipedia grading scheme, where the criteria for adjacent quality classes are more similar. We also provide a breakdown of precision (\u201c $\\mathcal {P}$ \u201d), recall (\u201c $\\mathcal {R}$ \u201d), and F1 score (\u201c $\\mathcal {F}_{\\beta =1}$ \u201d) for biLSTM, Inception, and Joint across the quality classes in Table 5 . We can see that Joint achieves the highest accuracy in 11 out of 18 cases. It is also worth noting that all models achieve higher scores for FA, GA, and Stub articles than B, C and Start articles. This can be explained in part by the fact that FA and GA articles must pass an official review based on structured criteria, and in part by the fact that Stub articles are usually very short, which is discriminative for Inception,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Inception Model Analysis"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "and Joint. All models perform worst on the B and C quality classes. It is difficult to differentiate B articles from C articles even for Wikipedia contributors. As evidence of this, when we crawled a new dataset including talk pages with quality class votes from Wikipedia contributors, we found that among articles with three or more quality labels, over 20% percent of B and C articles have inconsistent votes from Wikipedia contributors, whereas for FA and GA articles the number is only 0.7%. We further visualize the learned document representations of biLSTM, Inception, and Joint in the form of a t-SNE plot BIBREF42 in Figure 4 . The degree of separation between Start and Stub achieved by Inception is much greater than for biLSTM, with the separation between Start and Stub achieved by Joint being the clearest among the three models. Inception and Joint are better than biLSTM at separating Start and C. Joint achieves slightly better performance than Inception in separating GA and FA. We can also see that it is difficult for all models to separate B and C, which is consistent with the findings of Tables 4 and 5 . Conclusions We proposed to use visual renderings of documents to capture implicit document quality indicators, such as font choices, images, and visual layout, which are not captured in textual content. We applied neural network models to capture visual features given visual renderings of documents. Experimental results show that we achieve a 2.9% higher accuracy than state-of-the-art approaches based on textual features over Wikipedia, and performance competitive with or surpassing state-of-the-art approaches over arXiv. We further proposed a joint model, combining textual and visual representations, to predict the quality of a document. Experimental results show that our joint model outperforms the visual-only model in all cases, and the text-only model on Wikipedia and two subsets of arXiv. These results underline the feasibility of assessing document quality via visual features, and the complementarity of visual and textual document representations for quality assessment.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Document Quality Assessment"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Document quality assessment is the automatic evaluation of a document based on predefined quality labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Essay scoring evaluates document quality based on language quality, coherence, and relevance to a topic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Job application filtering assesses suitability for a role and the visual/presentational quality of the application.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Answer selection in community question answering evaluates the actionability and relevance of an answer to a question.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The paper focuses on document quality assessment in the context of Wikipedia document quality classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Context"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The paper also considers whether a paper submitted to a conference was accepted or not as a context for document quality assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Context"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Textual features include characteristics such as article length and number of headings used to predict document quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "BIBREF0 studies use textual features like article length and number of headings to predict Wikipedia article quality classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Visual features are derived from the visual rendering of a document and include elements like infoboxes, references, and images.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The visual model is based on fine-tuning an Inception V3 model over visual renderings of documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The textual model is based on a hierarchical biLSTM architecture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "The paper combines the textual and visual models into a joint model for document quality assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "A novel Wikipedia dataset is used in the experiments for document quality assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "An arXiv dataset provided by BIBREF2 is used and split for experimentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Visual rendering refers to the graphical representation of a document that can be used to assess quality without reading the text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "A quality label is a predefined category or rating assigned to a document based on its quality attributes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Dynamic documents, such as Wikipedia articles with multiple authors, are particularly suited for automatic quality assessment due to frequent edits.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Context"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "In decentralized settings like Wikipedia or academic paper assessment, quality criteria are often applied inconsistently by different people.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "An automatic document quality assessment system can reduce inconsistencies and provide immediate feedback to authors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "An article with a detailed infobox, extensive references, and a variety of images is perceived as having higher quality than one without these features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The paper aims to improve document quality assessment accuracy by combining textual and visual features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Objective"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Implicit quality indicators such as images and visual layout can be captured by an image classifier at a level comparable to a text classifier.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The combined model achieves state-of-the-art results over 3/4 of the datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Wikipedia article quality assessment is a task that assigns a quality class label to a given Wikipedia article based on the community's manual evaluation process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Article-internal features capture information such as proper organization, supporting evidence, and appropriate terminology in a Wikipedia article.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "BIBREF3 uses binarized character trigram features to identify featured articles based on writing styles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Some document quality assessment approaches use hand-crafted features to extract relevant information from documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Neural network-based approaches learn features from documents using deep learning models instead of relying on hand-crafted features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Meta-data features such as editors and revision history are used in some Wikipedia article quality assessment methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "BIBREF4 explores the number of headings, images, and references in an article as a measure of article features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "BIBREF5 uses nine readability scores, including the percentage of difficult words, to measure article quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Meta-data features are indirect indicators of article quality extracted from revision history and editor-article interactions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Higher-quality articles are associated with a greater number of edits, according to one proposed heuristic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "BIBREF8 use the percentage of registered editors and the total number of editors to assess article quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Article\u2013editor dependencies refer to the relationships between editors and articles, explored to infer article quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "BIBREF9 measure article quality by assessing the authority of editors, which is determined by the articles they edit.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "BIBREF10 use a doc2vec model to represent articles and feed the document embeddings into a four-hidden-layer neural network for quality prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "BIBREF12 obtain sentence representations by averaging word vectors and apply a biLSTM to learn a document-level representation, combined with hand-crafted features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "BIBREF14 use two stacked biLSTMs to learn document representations for predicting article quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Academic paper rating is a new NLP/AI task that involves automatically predicting whether to accept or reject a paper.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "BIBREF2 use hand-crafted features like title length, presence of specific words (e.g., outperform, state-of-the-art), and abstract embeddings to predict paper acceptance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "BIBREF15 use a modularized hierarchical CNN where each paper section is processed with an attention-based CNN, and an attentive pooling layer combines the representations before feeding into a softmax layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Content quality assessment in cQA involves determining if an answer is high quality, selected as the best, or ranked higher than others.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Answer length is the most commonly used feature to measure answer content quality in cQA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The answerer's profile is one of the sources used to assess answer content quality in cQA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Interactions among users are used as a feature to evaluate answer content quality in cQA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The usage of content is one of the sources used to measure answer quality in cQA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Readability scores are syntactic and semantic features used to assess how easy or difficult a text is to read.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Similarity between a question and an answer is evaluated at lexical, syntactic, and semantic levels to measure relevance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "User data such as status points or the number of answers written by a user can be used as features in assessing answer quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "A model combines CNN-learned representations with hand-crafted features to predict answer quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "A 2-dimensional CNN is used to learn the semantic relevance of an answer to a question, with an LSTM modeling thread context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Neural machine translation is applied to model answer quality by treating answers as translation hypotheses and the question as the reference.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Automated essay scoring is the task of assigning a score to an essay, typically to assess language ability in learners.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Topic relevance of an essay is measured using lexical and semantic overlap with its prompt.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Word usage and sentence complexity are measured using features such as verb formation errors, word frequency, word length, and sentence structure variety.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Grammar and mechanics errors are measured using word and part-of-speech n-gram features, as well as features for spelling, capitalization, and punctuation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "An LSTM is used to obtain an essay representation for classification in automated essay scoring.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "A model uses a CNN to obtain sentence-level representations and an LSTM to obtain essay-level representations, with attention mechanisms applied at both levels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Document quality assessment is treated as a classification problem to predict whether a document should be accepted or rejected.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Inception V3 is used to learn visual features in the proposed joint model for document quality assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "A biLSTM is used in the proposed joint model to learn textual features for document quality assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The proposed joint model integrates visual features from Inception V3 and textual features from a biLSTM to assess document quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Inception V3 is a deep learning model pretrained on ImageNet that is used to generate visual embeddings of document screenshots.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "A visual embedding is a vector representation generated by applying Inception V3 to a visual rendering (screenshot) of a document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "A textual embedding is a vector representation generated by a bi-directional LSTM model from the text content of a document.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "A bi-directional LSTM model is used to generate textual embeddings by processing words in both forward and backward directions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Each word in a document is represented as a word embedding before being processed by the bi-directional LSTM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "An average-pooling layer is applied to word embeddings to generate a sentence embedding from the sequence of word embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "A max-pooling layer is applied to select the most salient features from the sentence embeddings to form the final document embedding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The joint model combines visual and textual embeddings using a feed-forward layer followed by a softmax function to predict document labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The joint model is optimized using cross-entropy loss to improve prediction accuracy on document labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The basic Inception model applies multiple convolution filters in parallel and concatenates their outputs to capture both local and abstract features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "Inception modifies the basic model by applying a 1\u00d71 convolution to the input to reduce computational cost.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Larger convolutions in Inception are factorized into smaller convolutions to reduce computational cost and improve efficiency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "The proposed model uses visual and textual embeddings to assess the quality of documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "A visual rendering refers to a screenshot of a document used as input to the Inception model for visual embedding generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The Wikipedia dataset consists of English Wikipedia articles with quality class labels assigned by the Wikipedia community.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Wikipedia articles are labeled with six quality classes in descending order: Featured Article (FA), Good Article (GA), B-class (B), C-class (C), Start Article (Start), and Stub Article (Stub).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "A Featured Article (FA) is a high-quality article on Wikipedia that has undergone rigorous review and is considered a standard of excellence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "A paper in the arXiv dataset is considered accepted if it matches a paper in the DBLP database.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The arXiv dataset BIBREF2 consists of academic papers from Computer Science under the subfields of Artificial Intelligence (cs.ai), Computation and Language (cs.cl), and Machine Learning (cs.lg).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "A paper is considered accepted in the arXiv dataset if it is listed in the DBLP database or accepted by conferences such as ACL, EMNLP, NAACL, or EACL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The Wikipedia dataset was constructed by crawling articles from each quality class repository and randomly sampling 5,000 articles per class, then removing redirects and markup indicating quality labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The Wikipedia dataset is randomly partitioned into training, development, and test sets in an 8:1:1 ratio.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Each Wikipedia document is visualized as a 1,000 \u00d7 2,000-pixel screenshot generated using a PhantomJS script from the rendered article page.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Any direct indicators of document quality, such as the FA bronze star icon, are removed from the generated screenshots.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Removal"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "TACL is one of the conferences where papers in artificial intelligence may be submitted.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conference"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "NIPS is one of the conferences where papers in artificial intelligence may be submitted.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conference"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "ICML is one of the conferences where papers in artificial intelligence may be submitted.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conference"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "ICLR is one of the conferences where papers in artificial intelligence may be submitted.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conference"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "AAAI is one of the conferences where papers in artificial intelligence may be submitted.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conference"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Papers not submitted to any of TACL, NIPS, ICML, ICLR, or AAAI are considered rejected.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Status"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The median number of pages for papers in the cs.ai field is 11.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Field"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The median number of pages for papers in the cs.cl field is 10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Field"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The median number of pages for papers in the cs.lg field is 12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Field"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "To ensure consistent page size in screenshots, PDF files are cropped to the first 12 pages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "PDF files with fewer than 12 pages are padded with blank pages using the PyPDF2 Python package.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "ImageMagick is used to convert a 12-page PDF into a single 1,000 \u00d7 2,000 pixel screenshot.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The biLSTM component generates textual representations of documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Component"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The Inception component generates visual representations of paper screenshots.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Component"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "NLTK is used to tokenize articles into sentences during preprocessing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "Pre-trained 50-dimensional GloVe word embeddings are used to represent words in the biLSTM component.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Embedding"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Words appearing more than 20 times in a document are retained; all other words are replaced with the UNK token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Token"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Word embeddings not in GloVe are initialized from a uniform distribution U(-1, 1).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Embedding Initialization"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The LSTM hidden layer size is set to 256, resulting in a 512-dimensional document embedding after concatenating forward and backward LSTMs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Parameter"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "A dropout layer with probability 0.5 is applied at both the sentence and document levels in the biLSTM component.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Regularization"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Data augmentation techniques with nearest filling, zoom range 0.1, width shift 0.1, and height shift 0.1 are used in training the Inception component.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Technique"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "Original screenshots of size 1,000 \u00d7 2,000 pixels are resized to 500 \u00d7 500 pixels for input to Inception.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Image Processing"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The input shape for the Inception model is (500, 500, 3).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model Input"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "A GlobalAveragePooling2D layer produces a 2,048-dimensional visual representation from the Inception output.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Layer"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The joint model produces a 2,560-dimensional representation by concatenating the 512-dimensional textual embedding from biLSTM with the 2,048-dimensional visual embedding from Inception.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "The Inception model uses a 2048-dimensional representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The dropout layer is applied to two components with a probability of 0.5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "The biLSTM uses a mini-batch size of 128 and a learning rate of 0.001.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Both the Inception and joint models use a mini-batch size of 16 and a learning rate of 0.0001.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "All hyper-parameters were set empirically based on the development data and optimized using the Adam optimizer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "The weights in the Inception model are initialized using ImageNet-pretrained parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "The weights in the biLSTM are randomly initialized, except for the word embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Each model is trained for 50 epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "Training is stopped if the development set performance does not improve for 20 consecutive epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "The models are evaluated using (micro-)accuracy, following previous studies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "The Majority baseline labels all test samples with the majority class from the training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "The Benchmark baseline uses structural features and readability scores (for Wikipedia) or hand-crafted features like reference count and TF-IDF bag-of-words (for arXiv) to build a classifier using logistic regression, multi-layer perception, or AdaBoost.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "Doc2Vec learns document embeddings of dimension 500 and uses a 4-layer feed-forward classification model with dimensions 2000, 1000, 500, and 200.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The biLSTM baseline derives sentence representations by averaging word vectors, feeds them into a biLSTM with a maxpooling layer, and uses the resulting 512-dimensional document-level representation to predict document quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "The Inception_fixed baseline uses a frozen Inception model with only the last layer's parameters fine-tuned during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "The feed-forward layer of Doc2Vec is fine-tuned on the development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "The Doc2Vec model is trained for 300 epochs on Wikipedia and 50 epochs on arXiv.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The biLSTM baseline does not use hand-crafted features to ensure comparability with the proposed models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "biLSTM achieves 2.9% lower accuracy than Inception on Wikipedia.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "Inception achieves 2.9% higher accuracy than biLSTM on Wikipedia.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "Joint achieves 59.4% accuracy on Wikipedia, which is 5.3% higher than biLSTM and 2.4% higher than Inception.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "The performance of Joint is statistically significant (p < 0.05) on Wikipedia, indicating that textual and visual features complement each other.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "Majority outperforms biLSTM on arXiv cs.ai due to class imbalance in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "Benchmark outperforms biLSTM on arXiv cs.ai due to class imbalance in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "Inception_fixed performs better than Majority and Benchmark on arXiv cs.lg, verifying the usefulness of visual features even with only last layer fine-tuning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "Inception and biLSTM achieve similar performance on arXiv cs.cl.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "biLSTM achieves 1.8% higher accuracy than Inception on arXiv cs.lg.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "Inception achieves 1.3% higher accuracy than biLSTM on arXiv cs.ai.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "Joint achieves the highest accuracy on arXiv cs.ai and cs.cl, with statistical significance on cs.ai.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "Joint achieves 0.6% higher accuracy than Inception on arXiv cs.lg, but biLSTM achieves the highest accuracy there.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "cs.lg documents tend to contain more equations than other arXiv datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "biLSTM picks up a correlation between the volume/style of mathematical presentation and document quality in cs.lg documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "The Joint model achieves state-of-the-art results by combining textual and visual features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "Textual and visual features complement each other, leading to improved performance when combined.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "Inception is a model that generates gradient-based class activation maps by maximizing outputs of each class in the penultimate layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "The class activation map generated by Inception highlights the two most important regions contributing to FA class prediction: one at the top (table of contents) and one at the bottom (document length and references).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "The upper half of the image is identified as the region contributing to the GA class prediction, capturing the length of the article body.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "The most important regions for B class prediction are images located down the left and right of the page.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "The most important regions for C class prediction are related to document length and references.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "Images in the top right corner are the strongest predictors for Start class prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "The absence of images and the presence of the link bar down the left side are the most important features for Stub class prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "Joint is a model that achieves the highest accuracy in 11 out of 18 quality class cases, as shown in Table 4.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "More than 50% of documents for each quality class are correctly classified by Joint, except for the C class, where more documents are misclassified into B.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "Documents are usually misclassified into adjacent quality classes due to the similarity in criteria between adjacent quality classes in the Wikipedia grading scheme.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "Joint achieves the highest accuracy in 11 out of 18 cases across quality classes, as detailed in Table 5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "All models achieve higher scores for FA, GA, and Stub articles compared to B, C, and Start articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "FA and GA articles must pass an official review based on structured criteria, which contributes to their higher classification performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "Stub articles are usually very short, which makes them more discriminative for Inception-based models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "All models perform worst on the B and C quality classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "It is difficult to differentiate B articles from C articles even for Wikipedia contributors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "Over 20% of B and C articles with three or more quality labels have inconsistent votes from Wikipedia contributors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s164": {
+      "text": "Only 0.7% of FA and GA articles have inconsistent votes from Wikipedia contributors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s165": {
+      "text": "The Inception model achieves greater separation between Start and Stub than biLSTM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s166": {
+      "text": "The Joint model achieves the clearest separation between Start and Stub among the three models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s167": {
+      "text": "Inception and Joint are better than biLSTM at separating Start and C.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s168": {
+      "text": "Joint achieves slightly better performance than Inception in separating GA and FA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s169": {
+      "text": "All models struggle to separate B and C articles, consistent with findings in Tables 4 and 5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s170": {
+      "text": "Visual renderings of documents capture implicit quality indicators such as font choices, images, and visual layout.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s171": {
+      "text": "Neural network models are applied to capture visual features from document visual renderings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s172": {
+      "text": "The proposed approach achieves 2.9% higher accuracy than state-of-the-art textual feature methods on Wikipedia.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s173": {
+      "text": "The performance on arXiv is competitive with or surpasses state-of-the-art approaches based on textual features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s174": {
+      "text": "The joint model outperforms the visual-only model in all cases and the text-only model on Wikipedia and two subsets of arXiv.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s175": {
+      "text": "The feasibility of assessing document quality via visual features is supported by experimental results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s176": {
+      "text": "Visual and textual document representations are complementary for quality assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1,000 \u00d7 2,000-pixel screenshot",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "10 runs",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "1\u00d71 convolution",
+      "Property",
+      "s74"
+    ],
+    [
+      "1\u00d71 convolution",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "2-dimensional CNN",
+      "Method",
+      "s52"
+    ],
+    [
+      "2.4%",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "2.6M Start",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "2.9%",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "2.9% higher accuracy",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "212K B",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "28K GA",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "29,794 articles",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "3.2M Stub",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "3\u00d73 convolution",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "5.3%",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "533K C",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "59.4%",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "5K FA",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "5\u00d75 convolution",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "90% rejected",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "AAAI",
+      "Conference",
+      "s92"
+    ],
+    [
+      "ACL",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "B and C quality classes",
+      "Property",
+      "s161"
+    ],
+    [
+      "B class prediction",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "B class prediction",
+      "Property",
+      "s150"
+    ],
+    [
+      "B quality class",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "B-class Article (B)",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "BIBREF0",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "BIBREF0",
+      "Reference",
+      "s8"
+    ],
+    [
+      "BIBREF1",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "BIBREF10",
+      "Method",
+      "s37"
+    ],
+    [
+      "BIBREF12",
+      "Method",
+      "s38"
+    ],
+    [
+      "BIBREF14",
+      "Method",
+      "s39"
+    ],
+    [
+      "BIBREF15",
+      "Method",
+      "s42"
+    ],
+    [
+      "BIBREF2",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "BIBREF2",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "BIBREF2",
+      "Method",
+      "s41"
+    ],
+    [
+      "BIBREF3",
+      "Result",
+      "s26"
+    ],
+    [
+      "BIBREF3",
+      "Writing Styles",
+      "e3"
+    ],
+    [
+      "BIBREF4",
+      "Definition",
+      "s30"
+    ],
+    [
+      "BIBREF5",
+      "Definition",
+      "s31"
+    ],
+    [
+      "BIBREF8",
+      "Property",
+      "s34"
+    ],
+    [
+      "BIBREF9",
+      "Method",
+      "s36"
+    ],
+    [
+      "Baseline methods",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Benchmark",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Benchmark",
+      "Property",
+      "s136"
+    ],
+    [
+      "Benchmark baseline",
+      "Definition",
+      "s124"
+    ],
+    [
+      "C class prediction",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "C class prediction",
+      "Property",
+      "s151"
+    ],
+    [
+      "C quality class",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "C-class Article (C)",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "CNN and LSTM with attention layer",
+      "Method",
+      "s59"
+    ],
+    [
+      "CNN-learned representations",
+      "Method",
+      "s51"
+    ],
+    [
+      "DBLP database",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "DBLP database",
+      "Relationship",
+      "s81"
+    ],
+    [
+      "Doc2Vec baseline",
+      "Definition",
+      "s125"
+    ],
+    [
+      "Doc2Vec feed-forward layer",
+      "Property",
+      "s128"
+    ],
+    [
+      "Doc2Vec training epochs",
+      "Property",
+      "s129"
+    ],
+    [
+      "EACL",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "EMNLP",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "F1 score",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "FA and GA articles",
+      "Cause",
+      "s159"
+    ],
+    [
+      "FA and GA articles",
+      "Result",
+      "s164"
+    ],
+    [
+      "FA articles",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "FA class prediction",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "FA repository",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "FA, GA, Stub articles",
+      "Property",
+      "s158"
+    ],
+    [
+      "Featured Article",
+      "Definition",
+      "s80"
+    ],
+    [
+      "Featured Article (FA)",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "Figure 1",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "Figure 3",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "GA articles",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "GA class prediction",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "GA class prediction",
+      "Property",
+      "s149"
+    ],
+    [
+      "GloVe",
+      "Embedding",
+      "s103"
+    ],
+    [
+      "GlobalAveragePooling2D",
+      "Layer",
+      "s111"
+    ],
+    [
+      "Good Article (GA)",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "ICLR",
+      "Conference",
+      "s91"
+    ],
+    [
+      "ICML",
+      "Conference",
+      "s90"
+    ],
+    [
+      "ImageMagick",
+      "Tool",
+      "s99"
+    ],
+    [
+      "ImageNet",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "Inception",
+      "Definition",
+      "s147"
+    ],
+    [
+      "Inception",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "Inception",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "Inception",
+      "Model Component",
+      "s101"
+    ],
+    [
+      "Inception",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Inception",
+      "Property",
+      "s113"
+    ],
+    [
+      "Inception",
+      "Property",
+      "s132"
+    ],
+    [
+      "Inception",
+      "Property",
+      "s138"
+    ],
+    [
+      "Inception",
+      "Property",
+      "s140"
+    ],
+    [
+      "Inception V3",
+      "Definition",
+      "s64"
+    ],
+    [
+      "Inception V3",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "Inception V3",
+      "Method",
+      "s61"
+    ],
+    [
+      "Inception V3",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "Inception V3 model",
+      "Method",
+      "s10"
+    ],
+    [
+      "Inception and Joint",
+      "Result",
+      "s167"
+    ],
+    [
+      "Inception and joint model",
+      "Property",
+      "s116"
+    ],
+    [
+      "Inception model",
+      "Property",
+      "s73"
+    ],
+    [
+      "Inception weights",
+      "Property",
+      "s118"
+    ],
+    [
+      "Inception_fixed",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Inception_fixed",
+      "Result",
+      "s137"
+    ],
+    [
+      "Inception_fixed baseline",
+      "Definition",
+      "s127"
+    ],
+    [
+      "Joint",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Joint",
+      "Property",
+      "s133"
+    ],
+    [
+      "Joint",
+      "Result",
+      "s134"
+    ],
+    [
+      "Joint",
+      "Result",
+      "s141"
+    ],
+    [
+      "Joint",
+      "Result",
+      "s142"
+    ],
+    [
+      "Joint model",
+      "Definition",
+      "s154"
+    ],
+    [
+      "Joint model",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "Joint model",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "Joint model",
+      "Result",
+      "s145"
+    ],
+    [
+      "Joint model",
+      "Result",
+      "s166"
+    ],
+    [
+      "Joint model",
+      "Result",
+      "s168"
+    ],
+    [
+      "LSTM",
+      "Method",
+      "s58"
+    ],
+    [
+      "LSTM hidden layer size",
+      "Parameter",
+      "s106"
+    ],
+    [
+      "Majority",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Majority",
+      "Property",
+      "s135"
+    ],
+    [
+      "Majority baseline",
+      "Definition",
+      "s123"
+    ],
+    [
+      "NAACL",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "NIPS",
+      "Conference",
+      "s89"
+    ],
+    [
+      "NLTK",
+      "Tool",
+      "s102"
+    ],
+    [
+      "PDF cropping",
+      "Process",
+      "s97"
+    ],
+    [
+      "PhantomJS",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "ResNet",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "Start Article",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "Start class prediction",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "Start class prediction",
+      "Property",
+      "s152"
+    ],
+    [
+      "Stub Article",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "Stub articles",
+      "Cause",
+      "s160"
+    ],
+    [
+      "Stub class prediction",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "Stub class prediction",
+      "Property",
+      "s153"
+    ],
+    [
+      "TACL",
+      "Conference",
+      "s88"
+    ],
+    [
+      "UNK token",
+      "Token",
+      "s104"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e10"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e6"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e9"
+    ],
+    [
+      "VGG",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "Wikipedia",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "Wikipedia",
+      "Definition",
+      "s78"
+    ],
+    [
+      "Wikipedia",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "Wikipedia",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Wikipedia article quality assessment",
+      "Definition",
+      "s24"
+    ],
+    [
+      "Wikipedia article quality assessment",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "Wikipedia contributors",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "Wikipedia contributors",
+      "Property",
+      "s162"
+    ],
+    [
+      "Wikipedia dataset",
+      "Dataset",
+      "s13"
+    ],
+    [
+      "Wikipedia document quality classification",
+      "Context",
+      "s5"
+    ],
+    [
+      "Wikipedia document quality classification",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "Wikipedia grading scheme",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "Wilcoxon signed-rank test",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Xception",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "abstract embedding",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "academic paper rating",
+      "Definition",
+      "s40"
+    ],
+    [
+      "academic paper rating",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "accepted paper",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "accepted papers",
+      "Definition",
+      "s83"
+    ],
+    [
+      "accuracy",
+      "Result",
+      "s172"
+    ],
+    [
+      "adjacent quality classes",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "all models",
+      "Result",
+      "s169"
+    ],
+    [
+      "answer content",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "answer length",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "answer length",
+      "Property",
+      "s44"
+    ],
+    [
+      "answer selection in community question answering",
+      "Property",
+      "s4"
+    ],
+    [
+      "answerer profile",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "answerer's profile",
+      "Feature",
+      "s45"
+    ],
+    [
+      "appropriate terminology",
+      "Writing Styles",
+      "e3"
+    ],
+    [
+      "arXiv",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "arXiv",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "arXiv",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "arXiv",
+      "Result",
+      "s173"
+    ],
+    [
+      "arXiv dataset",
+      "Dataset",
+      "s14"
+    ],
+    [
+      "arXiv dataset",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "arXiv dataset BIBREF2",
+      "Definition",
+      "s82"
+    ],
+    [
+      "article length",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "article-editor dependencies",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "article-internal features",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "article-internal features",
+      "Property",
+      "s25"
+    ],
+    [
+      "article\u2013editor dependencies",
+      "Definition",
+      "s35"
+    ],
+    [
+      "attention-based CNN",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "attentive pooling",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "automated essay scoring",
+      "Definition",
+      "s54"
+    ],
+    [
+      "automatic system for author feedback",
+      "Benefit",
+      "s19"
+    ],
+    [
+      "average accuracy",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "average-pooling",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "average-pooling layer",
+      "Definition",
+      "s69"
+    ],
+    [
+      "bi-directional LSTM",
+      "Definition",
+      "s67"
+    ],
+    [
+      "biLSTM",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "biLSTM",
+      "Cause",
+      "s144"
+    ],
+    [
+      "biLSTM",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "biLSTM",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "biLSTM",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "biLSTM",
+      "Method",
+      "s62"
+    ],
+    [
+      "biLSTM",
+      "Model Component",
+      "s100"
+    ],
+    [
+      "biLSTM",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "biLSTM",
+      "Property",
+      "s115"
+    ],
+    [
+      "biLSTM",
+      "Property",
+      "s131"
+    ],
+    [
+      "biLSTM",
+      "Property",
+      "s139"
+    ],
+    [
+      "biLSTM",
+      "Result",
+      "s165"
+    ],
+    [
+      "biLSTM",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "biLSTM baseline",
+      "Definition",
+      "s126"
+    ],
+    [
+      "biLSTM features",
+      "Property",
+      "s130"
+    ],
+    [
+      "biLSTM weights",
+      "Property",
+      "s119"
+    ],
+    [
+      "binarized",
+      "Feature Representation",
+      "e4"
+    ],
+    [
+      "character",
+      "Feature Representation",
+      "e4"
+    ],
+    [
+      "class activation map",
+      "Result",
+      "s148"
+    ],
+    [
+      "class imbalance",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "combined model",
+      "Result",
+      "s23"
+    ],
+    [
+      "community question answering",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "community question answering",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "complementing textual features with visual features",
+      "Objective",
+      "s21"
+    ],
+    [
+      "conference paper acceptance",
+      "Context",
+      "s6"
+    ],
+    [
+      "conference paper acceptance",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "confusion matrix",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "confusion matrix",
+      "Result",
+      "s155"
+    ],
+    [
+      "content quality assessment in cQA",
+      "Definition",
+      "s43"
+    ],
+    [
+      "content usage",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "content usage",
+      "Feature",
+      "s47"
+    ],
+    [
+      "convolution filters",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "cross-entropy loss",
+      "Property",
+      "s72"
+    ],
+    [
+      "cross-entropy loss",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "cs.ai",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "cs.ai",
+      "Field",
+      "s94"
+    ],
+    [
+      "cs.ai",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "cs.cl",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "cs.cl",
+      "Field",
+      "s95"
+    ],
+    [
+      "cs.cl",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "cs.lg",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "cs.lg",
+      "Field",
+      "s96"
+    ],
+    [
+      "cs.lg",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "cs.lg documents",
+      "Property",
+      "s143"
+    ],
+    [
+      "data augmentation",
+      "Training Technique",
+      "s108"
+    ],
+    [
+      "dataset construction",
+      "Process",
+      "s84"
+    ],
+    [
+      "decision tree",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "difficult words percentage",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "doc2vec",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "document label set",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "document length",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "document quality",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "document quality",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "document quality assessment",
+      "Conclusion",
+      "s175"
+    ],
+    [
+      "document quality assessment",
+      "Definition",
+      "s1"
+    ],
+    [
+      "document quality assessment",
+      "Definition",
+      "s60"
+    ],
+    [
+      "document quality assessment",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "document quality assessment",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "document quality assessment",
+      "Purpose",
+      "s76"
+    ],
+    [
+      "document representations",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "document-level representation",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "dropout",
+      "Regularization",
+      "s107"
+    ],
+    [
+      "dropout layer",
+      "Property",
+      "s114"
+    ],
+    [
+      "dynamic documents",
+      "Context",
+      "s17"
+    ],
+    [
+      "early stopping",
+      "Property",
+      "s121"
+    ],
+    [
+      "editor authority",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "editor interactions",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "editors",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "equations",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "essay scoring",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "essay scoring",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "essay scoring",
+      "Property",
+      "s2"
+    ],
+    [
+      "evaluation metric",
+      "Definition",
+      "s122"
+    ],
+    [
+      "factorized convolutions",
+      "Property",
+      "s75"
+    ],
+    [
+      "factorizing convolutions",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "featured",
+      "Feature Representation",
+      "e4"
+    ],
+    [
+      "features",
+      "Feature Representation",
+      "e4"
+    ],
+    [
+      "feed-forward layer",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "font choices",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "four hidden layer neural network",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "gradient-based class activation map",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "grammar and mechanics",
+      "Property",
+      "s57"
+    ],
+    [
+      "hand-crafted features",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "hand-crafted features",
+      "Cause",
+      "s27"
+    ],
+    [
+      "hand-crafted features",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "headings",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "hierarchical CNN",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "hierarchical biLSTM",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "hierarchical biLSTM",
+      "Method",
+      "s11"
+    ],
+    [
+      "high-level representations",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "higher quality article",
+      "Result",
+      "s20"
+    ],
+    [
+      "higher-quality articles",
+      "Cause",
+      "s33"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/Category:Featured_articles",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "hyper-parameters",
+      "Definition",
+      "s117"
+    ],
+    [
+      "identify",
+      "Feature Representation",
+      "e4"
+    ],
+    [
+      "image classifier",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "images",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "images",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "images",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "images",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "implicit quality indicators",
+      "Definition",
+      "s22"
+    ],
+    [
+      "implicit quality indicators",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "inconsistent quality criteria",
+      "Problem",
+      "s18"
+    ],
+    [
+      "infobox",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "input shape",
+      "Model Input",
+      "s110"
+    ],
+    [
+      "job application filtering",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "job application filtering",
+      "Property",
+      "s3"
+    ],
+    [
+      "joint model",
+      "Definition",
+      "s63"
+    ],
+    [
+      "joint model",
+      "Definition",
+      "s71"
+    ],
+    [
+      "joint model",
+      "Method",
+      "s12"
+    ],
+    [
+      "joint model",
+      "Model",
+      "s112"
+    ],
+    [
+      "joint model",
+      "Result",
+      "s174"
+    ],
+    [
+      "link bar",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "logistic regression",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "mathematical presentation",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "max-pooling",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "max-pooling layer",
+      "Definition",
+      "s70"
+    ],
+    [
+      "meta-data features",
+      "Definition",
+      "s32"
+    ],
+    [
+      "meta-data features",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "meta-data features",
+      "Property",
+      "s29"
+    ],
+    [
+      "misclassification",
+      "Cause",
+      "s156"
+    ],
+    [
+      "neural machine translation",
+      "Method",
+      "s53"
+    ],
+    [
+      "neural network models",
+      "Application",
+      "s171"
+    ],
+    [
+      "neural network-based approaches",
+      "Definition",
+      "s28"
+    ],
+    [
+      "neural networks",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "novel",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "number of edits",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "number of headings",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "official review",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "outperform",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "p<0.05",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "padding",
+      "Process",
+      "s98"
+    ],
+    [
+      "penultimate layer",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "performance comparison",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "positive label",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "precision",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "precision, recall, F1 score",
+      "Result",
+      "s157"
+    ],
+    [
+      "quality class votes",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "quality classes",
+      "Property",
+      "s79"
+    ],
+    [
+      "quality indicators",
+      "Removal",
+      "s87"
+    ],
+    [
+      "quality label",
+      "Definition",
+      "s16"
+    ],
+    [
+      "quality labels",
+      "Result",
+      "s163"
+    ],
+    [
+      "random forest",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "random initializations",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "readability scores",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "readability scores",
+      "Definition",
+      "s48"
+    ],
+    [
+      "recall",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "redirect pages",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "references",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "references",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "references",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "registered editors",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "rejected",
+      "Status",
+      "s93"
+    ],
+    [
+      "resized screenshot",
+      "Image Processing",
+      "s109"
+    ],
+    [
+      "revision history",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "revision history",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "screenshot generation",
+      "Process",
+      "s86"
+    ],
+    [
+      "sentence representations",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "short articles",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "similarity between question and answer",
+      "Property",
+      "s49"
+    ],
+    [
+      "softmax",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "softmax layer",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "standard deviation",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "state-of-the-art",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "state-of-the-art results",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "state-of-the-art results",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "structured criteria",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "supporting evidence",
+      "Writing Styles",
+      "e3"
+    ],
+    [
+      "t-SNE plot",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "table of contents",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "talk page",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "talk pages",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "text classifier",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "text-only model",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "textual and visual features",
+      "Relationship",
+      "s146"
+    ],
+    [
+      "textual content",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "textual embedding",
+      "Definition",
+      "s66"
+    ],
+    [
+      "textual embedding",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "textual features",
+      "Definition",
+      "s7"
+    ],
+    [
+      "textual features",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "textual features",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "title length",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "top right corner",
+      "Inception Model Analysis",
+      "e12"
+    ],
+    [
+      "topic relevance",
+      "Property",
+      "s55"
+    ],
+    [
+      "total number of editors",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "training epochs",
+      "Property",
+      "s120"
+    ],
+    [
+      "training, development, test splits",
+      "Property",
+      "s85"
+    ],
+    [
+      "trigram",
+      "Feature Representation",
+      "e4"
+    ],
+    [
+      "uniform distribution",
+      "Embedding Initialization",
+      "s105"
+    ],
+    [
+      "user data",
+      "Property",
+      "s50"
+    ],
+    [
+      "user interactions",
+      "Article Quality Features",
+      "e5"
+    ],
+    [
+      "user interactions",
+      "Feature",
+      "s46"
+    ],
+    [
+      "visual and textual representations",
+      "Relationship",
+      "s176"
+    ],
+    [
+      "visual embedding",
+      "Definition",
+      "s65"
+    ],
+    [
+      "visual features",
+      "Definition",
+      "s9"
+    ],
+    [
+      "visual features",
+      "Document Quality Assessment",
+      "e1"
+    ],
+    [
+      "visual features",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "visual layout",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "visual rendering",
+      "Definition",
+      "s77"
+    ],
+    [
+      "visual rendering",
+      "Property",
+      "s15"
+    ],
+    [
+      "visual rendering",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "visual renderings",
+      "Definition",
+      "s170"
+    ],
+    [
+      "visual renderings",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "visual renderings",
+      "Document Quality Assessment",
+      "e2"
+    ],
+    [
+      "visual-only model",
+      "Document Quality Assessment",
+      "e13"
+    ],
+    [
+      "wikitext",
+      "Dataset Description",
+      "e8"
+    ],
+    [
+      "word embedding",
+      "Property",
+      "s68"
+    ],
+    [
+      "word embedding",
+      "Visual-Textual Embedding Fusion",
+      "e7"
+    ],
+    [
+      "word usage and sentence complexity",
+      "Property",
+      "s56"
+    ],
+    [
+      "writing styles",
+      "Writing Styles",
+      "e3"
+    ]
+  ]
+}

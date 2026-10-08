@@ -1,0 +1,2633 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 8,
+    "n_semantic": 89,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "speculation detection": {
+      "tag_set": [
+        "Definition",
+        "Negation Scope Resolution",
+        "Result",
+        "Speculation Detection"
+      ]
+    },
+    "scope resolution": {
+      "tag_set": [
+        "Definition",
+        "Negation Scope Resolution",
+        "Process",
+        "Result",
+        "Speculation Detection"
+      ]
+    },
+    "speculation cue": {
+      "tag_set": [
+        "Speculation Detection"
+      ]
+    },
+    "uncertainty cue": {
+      "tag_set": [
+        "Speculation Detection"
+      ]
+    },
+    "might": {
+      "tag_set": [
+        "Definition",
+        "Example",
+        "Scope Resolution",
+        "Speculation Detection"
+      ]
+    },
+    "rain tomorrow": {
+      "tag_set": [
+        "Example",
+        "Speculation Detection"
+      ]
+    },
+    "CoNLL-2010": {
+      "tag_set": [
+        "Speculation Detection"
+      ]
+    },
+    "BioScope Corpus": {
+      "tag_set": [
+        "Speculation Detection"
+      ]
+    },
+    "Task 1B": {
+      "tag_set": [
+        "Definition",
+        "Speculation Detection"
+      ]
+    },
+    "Task 1W": {
+      "tag_set": [
+        "Definition",
+        "Speculation Detection"
+      ]
+    },
+    "Task 2": {
+      "tag_set": [
+        "Definition",
+        "Speculation Detection"
+      ]
+    },
+    "BioScope Abstracts": {
+      "tag_set": [
+        "Definition",
+        "Speculation Detection"
+      ]
+    },
+    "BA": {
+      "tag_set": [
+        "Negation Scope Resolution",
+        "Speculation Detection"
+      ]
+    },
+    "BioScope Full Papers": {
+      "tag_set": [
+        "Definition",
+        "Speculation Detection"
+      ]
+    },
+    "BF": {
+      "tag_set": [
+        "Negation Scope Resolution",
+        "Speculation Detection"
+      ]
+    },
+    "SFU Review Corpus": {
+      "tag_set": [
+        "Definition",
+        "Speculation Detection"
+      ]
+    },
+    "SFU": {
+      "tag_set": [
+        "Negation Scope Resolution",
+        "Speculation Detection"
+      ]
+    },
+    "negation detection": {
+      "tag_set": [
+        "Model Training Setup",
+        "Related Task",
+        "Speculation Detection"
+      ]
+    },
+    "linguistic information": {
+      "tag_set": [
+        "Speculation Detection"
+      ]
+    },
+    "rule-based systems": {
+      "tag_set": [
+        "Historical Approach",
+        "Speculation Detection"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "Input Sentence": {
+      "tag_set": [
+        "Input Sentence"
+      ]
+    },
+    "rain": {
+      "tag_set": [
+        "Definition",
+        "Scope Resolution",
+        "Weather Forecast"
+      ]
+    },
+    "tomorrow": {
+      "tag_set": [
+        "Definition",
+        "Model Loss Configuration",
+        "Property",
+        "Scope Resolution",
+        "Weather Forecast"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Definition",
+        "Model Loss Configuration",
+        "Scope Resolution"
+      ]
+    },
+    "XLNet": {
+      "tag_set": [
+        "Definition",
+        "Model Loss Configuration",
+        "Negation Scope Resolution",
+        "Property",
+        "Result",
+        "Scope Resolution"
+      ]
+    },
+    "RoBERTa": {
+      "tag_set": [
+        "Definition",
+        "Model Loss Configuration",
+        "Negation Scope Resolution",
+        "Property",
+        "Scope Resolution"
+      ]
+    },
+    "tokenizer": {
+      "tag_set": [
+        "Scope Resolution"
+      ]
+    },
+    "tokenID": {
+      "tag_set": [
+        "Scope Resolution"
+      ]
+    },
+    "preprocessing": {
+      "tag_set": [
+        "Process",
+        "Scope Resolution"
+      ]
+    },
+    "padding": {
+      "tag_set": [
+        "Scope Resolution"
+      ]
+    },
+    "token[1]": {
+      "tag_set": [
+        "Scope Resolution"
+      ]
+    },
+    "wtt": {
+      "tag_set": [
+        "Definition",
+        "Scope Resolution"
+      ]
+    },
+    "Model (Input) Y = W*X + b": {
+      "tag_set": [
+        "Definition",
+        "Model Loss Configuration"
+      ]
+    },
+    "W matrix": {
+      "tag_set": [
+        "Model Loss Configuration",
+        "Property"
+      ]
+    },
+    "n_hidden": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "num_classes": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "logits": {
+      "tag_set": [
+        "Model Loss Configuration",
+        "Result"
+      ]
+    },
+    "loss function": {
+      "tag_set": [
+        "Model Loss Configuration",
+        "Property"
+      ]
+    },
+    "bert-base-uncased": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "roberta-base": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "xlnet-base-cased": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "class weights": {
+      "tag_set": [
+        "Model Loss Configuration",
+        "Property"
+      ]
+    },
+    "label 4": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "padding token": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "Precision": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "Recall": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "F1": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "word level scores": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "token level input": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "tom": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "##or": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "##row": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "Average method": {
+      "tag_set": [
+        "Method",
+        "Model Loss Configuration"
+      ]
+    },
+    "First Token method": {
+      "tag_set": [
+        "Method",
+        "Model Loss Configuration"
+      ]
+    },
+    "softmax probabilities": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "argmax": {
+      "tag_set": [
+        "Model Loss Configuration"
+      ]
+    },
+    "hyperparameters": {
+      "tag_set": [
+        "Model Loss Configuration",
+        "Property"
+      ]
+    },
+    "finetune": {
+      "tag_set": [
+        "Action",
+        "Model Loss Configuration"
+      ]
+    },
+    "60 epochs": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "early stopping": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "patience of 6": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "F1 score (word level)": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "batch size of 8": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "learning rate of 3e-5": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Categorical Cross Entropy": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Huggingface's Pytorch Transformer": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "Google Colaboratory": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "70-15-15 split": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "5 runs": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "3 runs": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "FIGREF8": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "FIGREF11": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "BF dataset": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "BA dataset": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "SFU dataset": {
+      "tag_set": [
+        "Model Training Setup",
+        "Property"
+      ]
+    },
+    "Sherlock dataset": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "2670 sentences": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "11871 sentences": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "transfer learning": {
+      "tag_set": [
+        "Cause",
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Model Training Setup"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Model Training Setup",
+        "Negation Scope Resolution"
+      ]
+    },
+    "FIGREF14": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "negation cue detection": {
+      "tag_set": [
+        "Negation Scope Resolution",
+        "Result"
+      ]
+    },
+    "F1 points": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "domain specificity": {
+      "tag_set": [
+        "Cause",
+        "Negation Scope Resolution"
+      ]
+    },
+    "sequence labelling tasks": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "pre-training objective": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "base variants": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "large variants": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "Khandelwal": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "Sawant": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "transfer-learning models": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "multiple datasets": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "single dataset training": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "long-term dependencies": {
+      "tag_set": [
+        "Negation Scope Resolution"
+      ]
+    },
+    "CoNLL-2010 Shared Task": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Maximum Entropy Classifiers": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Support Vector Machines": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Recursive Neural Networks": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Convolutional Neural Networks": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Bidirectional Encoder Representation from Transformers (BERT)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Speculation detection and scope resolution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Single dataset training approach": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Multiple dataset training approach": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "GLUE tasks": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "Negation detection and scope resolution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Input Sentence: It might rain tomorrow": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "Annotation schema": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Out-Of-Scope": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "In-Scope": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "\u3008token[1]\u3009": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "true labels": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "output vector": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Precision, Recall, F1": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "word 'tomorrow'": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "cue detection": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Scope Resolution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "initial learning rate": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Huggingface\u2019s Pytorch Transformer library": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "train-validation-test split": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "single-dataset training": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "multiple-dataset training": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "speculation cue detection": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "generalizability": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "multiple datasets training": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "negation cue detection and scope resolution": {
+      "tag_set": [
+        "Task"
+      ]
+    },
+    "BERT results": {
+      "tag_set": [
+        "Source"
+      ]
+    },
+    "XLNet and RoBERTa results": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "negation scope resolution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "multiple dataset training": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "XLNet pre-training objective": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "sentence classification tasks": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "transformer-based architectures": {
+      "tag_set": [
+        "Conclusion"
+      ]
+    },
+    "larger and more general dataset": {
+      "tag_set": [
+        "Future Scope"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nThe task of speculation detection and scope resolution is critical in distinguishing factual information from speculative information. This has multiple use-cases, like systems that determine the veracity of information, and those that involve requirement analysis. This task is particularly important to the biomedical domain, where patient reports and medical articles often use this feature of natural language. This task is commonly broken down into two subtasks: the first subtask, speculation cue detection, is to identify the uncertainty cue in a sentence, while the second subtask: scope resolution, is to identify the scope of that cue. For instance, consider the example:\nIt might rain tomorrow.\nThe speculation cue in the sentence above is \u2018might\u2019 and the scope of the cue \u2018might\u2019 is \u2018rain tomorrow\u2019. Thus, the speculation cue is the word that expresses the speculation, while the words affected by the speculation are in the scope of that cue.\nThis task was the CoNLL-2010 Shared Task (BIBREF0), which had 3 different subtasks. Task 1B was speculation cue detection on the BioScope Corpus, Task 1W was weasel identification from Wikipedia articles, and Task 2 was speculation scope resolution from the BioScope Corpus. For each task, the participants were provided the train and test set, which is henceforth referred to as Task 1B CoNLL and Task 2 CoNLL throughout this paper.\nFor our experimentation, we use the sub corpora of the BioScope Corpus (BIBREF1), namely the BioScope Abstracts sub corpora, which is referred to as BA, and the BioScope Full Papers sub corpora, which is referred to as BF. We also use the SFU Review Corpus (BIBREF2), which is referred to as SFU.\nThis subtask of natural language processing, along with another similar subtask, negation detection and scope resolution, have been the subject of a body of work over the years. The approaches used to solve them have evolved from simple rule-based systems (BIBREF3) based on linguistic information extracted from the sentences,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speculation Detection"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "to modern deep-learning based methods. The Machine Learning techniques used varied from Maximum Entropy Classifiers (BIBREF4) to Support Vector Machines (BIBREF5,BIBREF6,BIBREF7,BIBREF8), while the deep learning approaches included Recursive Neural Networks (BIBREF9,BIBREF10), Convolutional Neural Networks (BIBREF11) and most recently transfer learning-based architectures like Bidirectional Encoder Representation from Transformers (BERT) (BIBREF12). Figures FIGREF1 and FIGREF1 contain a summary of the papers addressing speculation detection and scope resolution (BIBREF13, BIBREF5, BIBREF9, BIBREF3, BIBREF14, BIBREF15, BIBREF16, BIBREF17, BIBREF6, BIBREF11, BIBREF18, BIBREF10, BIBREF19, BIBREF7, BIBREF4, BIBREF8).\nInspired by the most recent approach of applying BERT to negation detection and scope resolution (BIBREF12), we take this approach one step further by performing a comparative analysis of three popular transformer-based architectures: BERT (BIBREF20), XLNet (BIBREF21) and RoBERTa (BIBREF22), applied to speculation detection and scope resolution. We evaluate the performance of each model across all datasets via the single dataset training approach, and report all scores including inter-dataset scores (i.e. train on one dataset, evaluate on another) to test the generalizability of the models. This approach outperforms all existing systems on the task of speculation detection and scope resolution. Further, we jointly train on multiple datasets and obtain improvements over the single dataset training approach on most datasets.\nContrary to results observed on benchmark GLUE tasks, we observe XLNet consistently outperforming RoBERTa. To confirm this observation, we apply these models to the negation detection and scope resolution task, and observe a continuity in this trend, reporting state-of-the-art results on three of four datasets on the negation scope resolution task.\nThe rest of the paper is organized as follows: In Section 2, we provide a detailed description of our methodology and elaborate on the experimentation details. In Section 3, we present our results and analysis on the speculation detection and scope resolution task, using the single dataset and the multiple dataset training approach. In Section 4, we show the results of applying XLNet and RoBERTa on negation detection and scope resolution and propose a few reasons to explain why XLNet performs better than RoBERTa. Finally, the future scope and conclusion is mentioned in Section 5.\nMethodology and Experimental Setup\nWe use the methodology by Khandelwal and Sawant (BIBREF12), and modify it to support experimentation with multiple models.\nFor Speculation Cue Detection:",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "Input Sentence:",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Input Sentence"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "It might rain tomorrow.\nTrue Labels: Not-A-Cue, Cue, Not-A-Cue, Not-A-Cue.\nFirst, this sentence is preprocessed to get the target labels as per the following annotation schema:\n1 \u2013 Normal Cue 2 \u2013 Multiword Cue 3 \u2013 Not a cue 4 \u2013 Pad token\nThus, the preprocessed sequence is as follows:\nInput Sentence: [It,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Weather Forecast"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "might, rain, tomorrow]\nTrue Labels: [3,1,3,3]\nThen, we preprocess the input using the tokenizer for the model being used (BERT, XLNet or RoBERTa): splitting each word into one or more tokens, and converting each token to it\u2019s corresponding tokenID, and padding it to the maximum input length of the model. Thus,\nInput Sentence: [wtt(It), wtt(might), wtt(rain), wtt(tom), wtt(## or), wtt(## row), wtt(\u3008pad \u3009),wtt(\u3008pad \u3009)...]\nTrue Labels: [3,1,3,3,3,3,4,4,4,4,...]\nThe word \u2018tomorrow' has been split into 3 tokens, \u2018tom', \u2018##or' and \u2018##row'. The function to convert the word to tokenID is represented by wtt.\nFor Speculation Scope Resolution:\nIf a sentence has multiple cues, each cue's scope will be resolved individually.\nInput Sentence: It might rain tomorrow.\nTrue Labels: Out-Of-Scope, Out-Of-Scope, In-Scope, In-Scope.\nFirst, this sentence is preprocessed to get the target labels as per the following annotation schema:\n0 \u2013 Out-Of-Scope 1 \u2013 In-Scope\nThus, the preprocessed sequence is as follows:\nTrue Scope Labels: [0,0,1,1]\nAs for cue detection, we preprocess the input using the tokenizer for the model being used. Additionally, we need to indicate which cue's scope we want to find in the input sentence. We do this by inserting a special token representing the token type (according to the cue detection annotation schema) before the cue word whose scope is being resolved. Here, we want to find the scope of the cue \u2018might'. Thus,\nInput Sentence: [wtt(It), wtt(\u3008token[1]\u3009), wtt(might), wtt(rain), wtt(tom), wtt(##or), wtt(##row), wtt(\u3008pad\u3009), wtt(\u3008pad\u3009)...]\nTrue Scope Labels: [0,0,1,1,1,1,0,0,0,0,...]\nNow, the preprocessed input for cue detection and similarly for scope detection is fed as input to our model as follows:\nX =",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Scope Resolution"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "Model (Input) Y = W*X + b The W matrix is a matrix of size n_hidden x num_classes (n_hidden is the size of the representation of a token within the model). These logits are fed to the loss function. We use the following variants of each model: BERT: bert-base-uncaseds3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz (The model used by BIBREF12) RoBERTa: roberta-bases3.amazonaws.com/models.huggingface.co/bert/roberta-base-pytorch_model.bin (RoBERTa-base does not have an uncased variant) XLNet: xlnet-base-caseds3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-pytorch_model.bin (XLNet-base does not have an uncased variant) The output of the model is a vector of probabilities per token. The loss is calculated for each token, by using the output vector and the true label for that token. We use class weights for the loss function, setting the weight for label 4 to 0 and all other labels to 1 (for cue detection only) to avoid training on padding token\u2019s output. We calculate the scores (Precision, Recall, F1) for the model per word of the input sentence, not per token that was fed to the model, as the tokens could be different for different models leading to inaccurate scores. For the above example, we calculate the output label for the word \u2018tomorrow', not for each token it was split into (\u2018tom', \u2018##or' and \u2018##row'). To find the label for each word from the tokens it was split into, we experiment with 2 methods: Average: We average the output vectors (softmax probabilities) for each token that the word was split into by the model's tokenizer. In the example above, we average the output of \u2018tom', \u2018##or' and \u2018##row' to get the output for \u2018tomorrow'. Then, we take an argmax over the resultant vector. This is then compared with the true label for the original word. First Token: Here, we only consider the first token's probability vector (among all tokens the word was split into) as the output for that word, and get the label by an argmax over this vector. In the example above, we would consider the output vector corresponding to the token \u2018tom' as the output for the word \u2018tomorrow'. For cue detection, the results are reported for the Average method only, while we report the scores for both Average and First Token for Scope Resolution. For fair comparison, we use the same hyperparameters for the entire architecture for all 3 models. Only the tokenizer and the model are changed for each model. All other hyperparameters are kept same. We finetune the models for",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Loss Configuration"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "60 epochs, using early stopping with a patience of 6 on the F1 score (word level) on the validation dataset. We use an initial learning rate of 3e-5, with a batch size of 8. We use the Categorical Cross Entropy loss function. We use the Huggingface\u2019s Pytorch Transformer library (BIBREF23) for the models and train all our models on Google Colaboratory. Results: Speculation Cue Detection and Scope Resolution We use a default train-validation-test split of 70-15-15 for each dataset. For the speculation detection and scope resolution subtasks using single-dataset training, we report the results as an average of 5 runs of the model. For training the model on multiple datasets, we perform a 70-15-15 split of each training dataset, after which the train and validation part of the individual datasets are merged while the scores are reported for the test part of the individual datasets, which is not used for training or validation. We report the results as an average of 3 runs of the model. Figure FIGREF8 contains results for speculation cue detection and scope resolution when trained on a single dataset. All models perform the best when trained on the same dataset as they are evaluated on, except for BF, which gets the best results when trained on BA. This is because of the transfer learning capabilities of the models and the fact that BF is a smaller dataset than BA (BF: 2670 sentences, BA: 11871 sentences). For speculation cue detection, there is lesser generalizability for models trained on BF or BA, while there is more generalizability for models trained on SFU. This could be because of the different nature of the biomedical domain. Figure FIGREF11 contains the results for speculation detection and scope resolution for models trained jointly on multiple datasets. We observe that training on multiple datasets helps the performance of all models on each dataset, as the quantity of data available to train the model increases. We also observe that XLNet consistently outperforms BERT and RoBERTa. To confirm this observation, we apply the 2 models to the related task of negation detection and scope resolution Negation Cue Detection and Scope Resolution We use a default train-validation-test split of 70-15-15 for each dataset, and use all 4 datasets (BF, BA, SFU and Sherlock). The results for BERT are taken from BIBREF12. The results for XLNet and RoBERTa are averaged across 5 runs for statistical significance. Figure",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training Setup"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "FIGREF14 contains results for negation cue detection and scope resolution. We report state-of-the-art results on negation scope resolution on BF, BA and SFU datasets. Contrary to popular opinion, we observe that XLNet is better than RoBERTa for the cue detection and scope resolution tasks. A few possible reasons for this trend are: Domain specificity, as both negation and speculation are closely related subtasks. Further experimentation on different tasks is needed to verify this. Most benchmark tasks are sentence classification tasks, whereas the subtasks we experiment on are sequence labelling tasks. Given the pre-training objective of XLNet (training on permutations of the input), it may be able to capture long-term dependencies better, essential for sequence labelling tasks. We work with the base variants of the models, while most results are reported with the large variants of the models. Conclusion and Future Scope In this paper, we expanded on the work of Khandelwal and Sawant (BIBREF12) by looking at alternative transfer-learning models and experimented with training on multiple datasets. On the speculation detection task, we obtained a gain of 0.42 F1 points on BF, 1.98 F1 points on BA and 0.29 F1 points on SFU, while on the scope resolution task, we obtained a gain of 8.06 F1 points on BF, 4.27 F1 points on BA and 11.87 F1 points on SFU, when trained on a single dataset. While training on multiple datasets, we observed a gain of 10.6 F1 points on BF and 1.94 F1 points on BA on the speculation detection task and 2.16 F1 points on BF and 0.25 F1 points on SFU on the scope resolution task over the single dataset training approach. We thus significantly advance the state-of-the-art for speculation detection and scope resolution. On the negation scope resolution task, we applied the XLNet and RoBERTa and obtained a gain of 3.16 F1 points on BF, 0.06 F1 points on BA and 0.3 F1 points on SFU. Thus, we demonstrated the usefulness of transformer-based architectures in the field of negation and speculation detection and scope resolution. We believe that a larger and more general dataset would go a long way in bolstering future research and would help create better systems that are not domain-specific.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Negation Scope Resolution"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Speculation detection is the task of identifying uncertainty cues in a sentence to distinguish factual information from speculative information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Scope resolution is the task of identifying the portion of a sentence affected by a speculation cue.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "In the sentence 'It might rain tomorrow', 'might' serves as the speculation cue.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "In the sentence 'It might rain tomorrow', 'rain tomorrow' is the scope of the speculation cue 'might'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The CoNLL-2010 Shared Task included three subtasks: speculation cue detection, weasel identification, and speculation scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Task 1B of the CoNLL-2010 Shared Task focused on speculation cue detection using the BioScope Corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Task 1W of the CoNLL-2010 Shared Task involved identifying weasel words in Wikipedia articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Task 2 of the CoNLL-2010 Shared Task focused on speculation scope resolution from the BioScope Corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The BioScope Abstracts subcorpus (BA) is a subset of the BioScope Corpus used in experimentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The BioScope Full Papers subcorpus (BF) is a subset of the BioScope Corpus used in experimentation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The SFU Review Corpus (SFU) is used in experimentation as part of the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Negation detection and scope resolution is a related subtask in natural language processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Task"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Early approaches to speculation and negation detection relied on simple rule-based systems using linguistic features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Historical Approach"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Maximum Entropy Classifiers are a type of machine learning technique used in speculation detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Support Vector Machines are a machine learning technique used in speculation detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Recursive Neural Networks are a deep learning approach used in speculation detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Convolutional Neural Networks are a deep learning approach used in speculation detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "BERT is a transfer learning-based architecture used in speculation detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The comparative analysis of BERT, XLNet, and RoBERTa shows that the approach outperforms all existing systems on the task of speculation detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The single dataset training approach involves training a model on one dataset and evaluating it on another to test model generalizability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The multiple dataset training approach involves jointly training models on multiple datasets to achieve improved performance over single dataset training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "XLNet consistently outperforms RoBERTa on the negation detection and scope resolution task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "RoBERTa is outperformed by XLNet in the negation detection and scope resolution task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Contrary to results on benchmark GLUE tasks, XLNet outperforms RoBERTa on the negation scope resolution task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "XLNet achieves state-of-the-art results on three out of four datasets in the negation detection and scope resolution task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The input sentence 'It might rain tomorrow' is used as an example for speculation cue detection with labels: Not-A-Cue, Cue, Not-A-Cue, Not-A-Cue.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The annotation schema for speculation cue detection includes labels: 1 \u2013 Normal Cue, 2 \u2013 Multiword Cue, 3 \u2013 Not a cue, 4 \u2013 Pad token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The word 'might' is a modal verb used to express possibility or speculation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The word 'rain' refers to the natural phenomenon of water falling from the sky.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The word 'tomorrow' refers to the day that follows the current day.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The word 'tomorrow' is split into three tokens: 'tom', '##or', and '##row' during tokenization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The function wtt converts a word into its corresponding token ID using the model's tokenizer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The input sentence is preprocessed by splitting words into tokens and converting each token to a token ID, then padding to the maximum input length.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Scope resolution for multiple cues is performed individually, with each cue's scope being evaluated separately.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "A cue is labeled 'Out-Of-Scope' when its scope does not extend to the relevant part of the sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "A cue is labeled 'In-Scope' when its scope includes the relevant part of the sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "A special token \u3008token[1]\u3009 is inserted before a cue word to indicate that the scope of that cue is being resolved.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The true labels for scope detection are assigned as 0 for Out-Of-Scope and 1 for In-Scope.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The model output Y is computed as the matrix multiplication of the weight matrix W and the input vector X, plus a bias term b.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The W matrix has dimensions n_hidden x num_classes, where n_hidden is the size of the token representation within the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The output of the model before applying softmax is a vector of logits, which are fed into the loss function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "BERT uses the model variant bert-base-uncased, as referenced in BIBREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "RoBERTa uses the roberta-base model, which does not have an uncased variant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "XLNet uses the xlnet-base-cased model, which does not have an uncased variant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The model outputs a vector of probabilities per token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The loss is calculated per token using the output vector and the true label for that token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Class weights are set to 0 for label 4 and 1 for all other labels to avoid training on padding tokens in cue detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Model performance is evaluated using Precision, Recall, and F1 scores per word of the input sentence, not per token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "For the word 'tomorrow', the model splits it into tokens 'tom', '##or', and '##row'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The Average method computes the output for a word by averaging the softmax probability vectors of its constituent tokens and then taking the argmax of the averaged vector.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The First Token method uses only the probability vector of the first token (e.g., 'tom') in the split to determine the label for the word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "For cue detection, results are reported only using the Average method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "For Scope Resolution, scores are reported for both the Average and First Token methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "All hyperparameters are kept the same across the three models, with only the tokenizer and model architecture being changed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The models are fine-tuned using the same hyperparameters for all three models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The model is trained for 60 epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Early stopping is applied with a patience of 6 based on the F1 score at the word level on the validation dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The initial learning rate used during training is 3e-5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The batch size used during training is 8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The Categorical Cross Entropy loss function is used for training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The models are implemented using Huggingface\u2019s Pytorch Transformer library (BIBREF23).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "All models are trained on Google Colaboratory.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "A default 70-15-15 train-validation-test split is used for each dataset in the speculation cue detection and scope resolution subtasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "For single-dataset training, results are reported as the average of 5 model runs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "In multiple-dataset training, each dataset is split 70-15-15, and the train and validation parts are merged, while test parts are used only for evaluation and reported as the average of 3 model runs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The BF dataset contains 2670 sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The BA dataset contains 11871 sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The SFU dataset has a different nature compared to the biomedical domain, contributing to better generalizability when models are trained on it.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Models perform best when trained on the same dataset as they are evaluated on, except for BF, which performs best when trained on BA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The transfer learning capabilities of the models explain why BF performs best when trained on BA, due to BA's larger size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Models trained on SFU show greater generalizability compared to those trained on BF or BA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Training on multiple datasets improves performance across all models on each individual dataset due to increased data availability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "XLNet consistently outperforms both BERT and RoBERTa in speculation cue detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The performance of XLNet and BERT is also evaluated on the related task of negation cue detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The results for BERT in negation cue detection and scope resolution are taken from BIBREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Source"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "The results for XLNet and RoBERTa in negation cue detection and scope resolution are averaged across 5 runs to ensure statistical significance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "XLNet outperforms RoBERTa in negation cue detection on BF, BA, and SFU datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "XLNet achieves better performance than RoBERTa in negation scope resolution on BF, BA, and SFU datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "On the BF dataset, XLNet gains 3.16 F1 points over RoBERTa in negation scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "On the BA dataset, XLNet gains 0.06 F1 points over RoBERTa in negation scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "On the SFU dataset, XLNet gains 0.3 F1 points over RoBERTa in negation scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Training on a single dataset improves speculation detection by 0.42 F1 points on BF, 1.98 F1 points on BA, and 0.29 F1 points on SFU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Training on a single dataset improves scope resolution by 8.06 F1 points on BF, 4.27 F1 points on BA, and 11.87 F1 points on SFU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Training on multiple datasets improves speculation detection by 10.6 F1 points on BF and 1.94 F1 points on BA, and scope resolution by 2.16 F1 points on BF and 0.25 F1 points on SFU.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "XLNet's pre-training on permutations of input enables better capture of long-term dependencies, beneficial for sequence labelling tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Domain specificity of negation and speculation tasks may explain the performance advantage of XLNet over RoBERTa.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Most benchmark tasks are sentence classification tasks, whereas the subtasks studied are sequence labelling tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Transformer-based architectures are shown to be effective for negation and speculation detection and scope resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "A larger and more general dataset is believed to significantly advance future research and improve the generalization of systems beyond domain-specific settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future Scope"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "##or",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "##row",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "11871 sentences",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "2670 sentences",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "3 runs",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "5 runs",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "60 epochs",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "60 epochs",
+      "Property",
+      "s56"
+    ],
+    [
+      "70-15-15 split",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "Annotation schema",
+      "Definition",
+      "s27"
+    ],
+    [
+      "Average method",
+      "Method",
+      "s50"
+    ],
+    [
+      "Average method",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "BA",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "BA",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "BA dataset",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "BA dataset",
+      "Property",
+      "s67"
+    ],
+    [
+      "BA dataset",
+      "Property",
+      "s80"
+    ],
+    [
+      "BERT",
+      "Definition",
+      "s42"
+    ],
+    [
+      "BERT",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "BERT",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "BERT results",
+      "Source",
+      "s75"
+    ],
+    [
+      "BF",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "BF",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "BF dataset",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "BF dataset",
+      "Property",
+      "s66"
+    ],
+    [
+      "BF dataset",
+      "Property",
+      "s79"
+    ],
+    [
+      "BIBREF12",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "BIBREF12",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "BIBREF23",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "Bidirectional Encoder Representation from Transformers (BERT)",
+      "Definition",
+      "s18"
+    ],
+    [
+      "BioScope Abstracts",
+      "Definition",
+      "s9"
+    ],
+    [
+      "BioScope Abstracts",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "BioScope Corpus",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "BioScope Full Papers",
+      "Definition",
+      "s10"
+    ],
+    [
+      "BioScope Full Papers",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "Categorical Cross Entropy",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "CoNLL-2010",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "CoNLL-2010 Shared Task",
+      "Definition",
+      "s5"
+    ],
+    [
+      "Convolutional Neural Networks",
+      "Definition",
+      "s17"
+    ],
+    [
+      "F1",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "F1 points",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "F1 score (word level)",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "FIGREF11",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "FIGREF14",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "FIGREF8",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "First Token method",
+      "Method",
+      "s51"
+    ],
+    [
+      "First Token method",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "GLUE tasks",
+      "Comparison",
+      "s24"
+    ],
+    [
+      "Google Colaboratory",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "Google Colaboratory",
+      "Property",
+      "s62"
+    ],
+    [
+      "Huggingface's Pytorch Transformer",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "Huggingface\u2019s Pytorch Transformer library",
+      "Definition",
+      "s61"
+    ],
+    [
+      "In-Scope",
+      "Result",
+      "s36"
+    ],
+    [
+      "Input Sentence",
+      "Input Sentence",
+      "e3"
+    ],
+    [
+      "Input Sentence: It might rain tomorrow",
+      "Example",
+      "s26"
+    ],
+    [
+      "Khandelwal",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "Maximum Entropy Classifiers",
+      "Definition",
+      "s14"
+    ],
+    [
+      "Model (Input) Y = W*X + b",
+      "Definition",
+      "s39"
+    ],
+    [
+      "Model (Input) Y = W*X + b",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "Multiple dataset training approach",
+      "Method",
+      "s21"
+    ],
+    [
+      "Negation detection and scope resolution",
+      "Result",
+      "s25"
+    ],
+    [
+      "Out-Of-Scope",
+      "Result",
+      "s35"
+    ],
+    [
+      "Precision",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "Precision, Recall, F1",
+      "Result",
+      "s48"
+    ],
+    [
+      "Recall",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "Recursive Neural Networks",
+      "Definition",
+      "s16"
+    ],
+    [
+      "RoBERTa",
+      "Definition",
+      "s43"
+    ],
+    [
+      "RoBERTa",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "RoBERTa",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "RoBERTa",
+      "Property",
+      "s23"
+    ],
+    [
+      "RoBERTa",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "SFU",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "SFU",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "SFU Review Corpus",
+      "Definition",
+      "s11"
+    ],
+    [
+      "SFU Review Corpus",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "SFU dataset",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "SFU dataset",
+      "Property",
+      "s68"
+    ],
+    [
+      "SFU dataset",
+      "Property",
+      "s81"
+    ],
+    [
+      "Sawant",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "Scope Resolution",
+      "Result",
+      "s53"
+    ],
+    [
+      "Sherlock dataset",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "Single dataset training approach",
+      "Method",
+      "s20"
+    ],
+    [
+      "Speculation detection and scope resolution",
+      "Result",
+      "s19"
+    ],
+    [
+      "Support Vector Machines",
+      "Definition",
+      "s15"
+    ],
+    [
+      "Task 1B",
+      "Definition",
+      "s6"
+    ],
+    [
+      "Task 1B",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "Task 1W",
+      "Definition",
+      "s7"
+    ],
+    [
+      "Task 1W",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "Task 2",
+      "Definition",
+      "s8"
+    ],
+    [
+      "Task 2",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e2"
+    ],
+    [
+      "W matrix",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "W matrix",
+      "Property",
+      "s40"
+    ],
+    [
+      "XLNet",
+      "Definition",
+      "s44"
+    ],
+    [
+      "XLNet",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "XLNet",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "XLNet",
+      "Property",
+      "s22"
+    ],
+    [
+      "XLNet",
+      "Result",
+      "s73"
+    ],
+    [
+      "XLNet",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "XLNet and RoBERTa results",
+      "Method",
+      "s76"
+    ],
+    [
+      "XLNet pre-training objective",
+      "Cause",
+      "s85"
+    ],
+    [
+      "argmax",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "base variants",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s59"
+    ],
+    [
+      "batch size of 8",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "bert-base-uncased",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "class weights",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "class weights",
+      "Property",
+      "s47"
+    ],
+    [
+      "cue detection",
+      "Result",
+      "s52"
+    ],
+    [
+      "domain specificity",
+      "Cause",
+      "s86"
+    ],
+    [
+      "domain specificity",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "early stopping",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "early stopping",
+      "Property",
+      "s57"
+    ],
+    [
+      "finetune",
+      "Action",
+      "s55"
+    ],
+    [
+      "finetune",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "generalizability",
+      "Result",
+      "s71"
+    ],
+    [
+      "hyperparameters",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "hyperparameters",
+      "Property",
+      "s54"
+    ],
+    [
+      "initial learning rate",
+      "Property",
+      "s58"
+    ],
+    [
+      "label 4",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "large variants",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "larger and more general dataset",
+      "Future Scope",
+      "s89"
+    ],
+    [
+      "learning rate of 3e-5",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "linguistic information",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "logits",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "logits",
+      "Result",
+      "s41"
+    ],
+    [
+      "long-term dependencies",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "loss function",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "loss function",
+      "Property",
+      "s46"
+    ],
+    [
+      "loss function",
+      "Property",
+      "s60"
+    ],
+    [
+      "might",
+      "Definition",
+      "s28"
+    ],
+    [
+      "might",
+      "Example",
+      "s3"
+    ],
+    [
+      "might",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "might",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "multiple dataset training",
+      "Result",
+      "s84"
+    ],
+    [
+      "multiple datasets",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "multiple datasets training",
+      "Result",
+      "s72"
+    ],
+    [
+      "multiple-dataset training",
+      "Method",
+      "s65"
+    ],
+    [
+      "n_hidden",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "negation cue detection",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "negation cue detection",
+      "Result",
+      "s77"
+    ],
+    [
+      "negation cue detection and scope resolution",
+      "Task",
+      "s74"
+    ],
+    [
+      "negation detection",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "negation detection",
+      "Related Task",
+      "s12"
+    ],
+    [
+      "negation detection",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "negation scope resolution",
+      "Result",
+      "s78"
+    ],
+    [
+      "num_classes",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "output vector",
+      "Result",
+      "s45"
+    ],
+    [
+      "padding",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "padding token",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "patience of 6",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "pre-training objective",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "preprocessing",
+      "Process",
+      "s33"
+    ],
+    [
+      "preprocessing",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "rain",
+      "Definition",
+      "s29"
+    ],
+    [
+      "rain",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "rain",
+      "Weather Forecast",
+      "e4"
+    ],
+    [
+      "rain tomorrow",
+      "Example",
+      "s4"
+    ],
+    [
+      "rain tomorrow",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "roberta-base",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "rule-based systems",
+      "Historical Approach",
+      "s13"
+    ],
+    [
+      "rule-based systems",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "scope resolution",
+      "Definition",
+      "s2"
+    ],
+    [
+      "scope resolution",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "scope resolution",
+      "Process",
+      "s34"
+    ],
+    [
+      "scope resolution",
+      "Result",
+      "s83"
+    ],
+    [
+      "scope resolution",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "sentence classification tasks",
+      "Property",
+      "s87"
+    ],
+    [
+      "sequence labelling tasks",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "single dataset training",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "single-dataset training",
+      "Method",
+      "s64"
+    ],
+    [
+      "softmax probabilities",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "speculation cue",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "speculation cue detection",
+      "Result",
+      "s69"
+    ],
+    [
+      "speculation detection",
+      "Definition",
+      "s1"
+    ],
+    [
+      "speculation detection",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "speculation detection",
+      "Result",
+      "s82"
+    ],
+    [
+      "speculation detection",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "token level input",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "tokenID",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "token[1]",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "tokenizer",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "tom",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "tomorrow",
+      "Definition",
+      "s30"
+    ],
+    [
+      "tomorrow",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "tomorrow",
+      "Property",
+      "s31"
+    ],
+    [
+      "tomorrow",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "tomorrow",
+      "Weather Forecast",
+      "e4"
+    ],
+    [
+      "train-validation-test split",
+      "Property",
+      "s63"
+    ],
+    [
+      "transfer learning",
+      "Cause",
+      "s70"
+    ],
+    [
+      "transfer learning",
+      "Model Training Setup",
+      "e7"
+    ],
+    [
+      "transfer-learning models",
+      "Negation Scope Resolution",
+      "e8"
+    ],
+    [
+      "transformer-based architectures",
+      "Conclusion",
+      "s88"
+    ],
+    [
+      "true labels",
+      "Result",
+      "s38"
+    ],
+    [
+      "uncertainty cue",
+      "Speculation Detection",
+      "e1"
+    ],
+    [
+      "word 'tomorrow'",
+      "Example",
+      "s49"
+    ],
+    [
+      "word level scores",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "wtt",
+      "Definition",
+      "s32"
+    ],
+    [
+      "wtt",
+      "Scope Resolution",
+      "e5"
+    ],
+    [
+      "xlnet-base-cased",
+      "Model Loss Configuration",
+      "e6"
+    ],
+    [
+      "\u3008token[1]\u3009",
+      "Property",
+      "s37"
+    ]
+  ]
+}

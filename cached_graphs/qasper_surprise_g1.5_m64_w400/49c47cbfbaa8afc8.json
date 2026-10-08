@@ -1,0 +1,3298 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 9,
+    "n_semantic": 100,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "one-hot vector encoding": {
+      "tag_set": [
+        "Definition",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "vector space models": {
+      "tag_set": [
+        "Definition",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "semantic similarity": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "word embedding": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "natural language processing": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "question answering": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "reasoning": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "stance detection": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "claim verification": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "recurrent neural network": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "continuous bag-of-words (CBOW)": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "skip-gram model": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "GloVe embeddings": {
+      "tag_set": [
+        "Definition",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "polysemies": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "local contexts": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "global contexts": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "neural probabilistic model": {
+      "tag_set": [
+        "Definition",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "point estimates": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "multiple prototype model": {
+      "tag_set": [
+        "Method",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "EM algorithm": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "non-parametric approach": {
+      "tag_set": [
+        "Method",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "Gaussian distribution": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "expected likelihood kernel": {
+      "tag_set": [
+        "Definition",
+        "Energy Function Approximation",
+        "KL Divergence in Word Modeling",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "multimodal word distribution": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "asymmetric KL divergence": {
+      "tag_set": [
+        "Definition",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "textual entailment": {
+      "tag_set": [
+        "Definition",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "causality": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "hypernymy": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "mosquito": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "malaria": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "dog": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "animal": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "max margin objective": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "KL divergence approximation": {
+      "tag_set": [
+        "Method",
+        "Word Embedding Polysemy"
+      ]
+    },
+    "mixtures of Gaussians": {
+      "tag_set": [
+        "Word Embedding Polysemy"
+      ]
+    },
+    "similarity between words": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "funny": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "hilarious": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "Section 3.1": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "benchmark word similarity": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "entailment datasets": {
+      "tag_set": [
+        "KL Divergence in Word Modeling",
+        "Word Similarity Methodology"
+      ]
+    },
+    "experimental section": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "methodology": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "word representation": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "probabilistic representation": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "polysemy": {
+      "tag_set": [
+        "Property",
+        "Word Similarity Methodology"
+      ]
+    },
+    "corpus V": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "words w": {
+      "tag_set": [
+        "Equation Details",
+        "Word Similarity Methodology"
+      ]
+    },
+    "mixture of Gaussians": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "C components": {
+      "tag_set": [
+        "Word Similarity Methodology"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "KL Divergence in Word Modeling",
+        "Model Initialization and Evaluation",
+        "Word Similarity Methodology"
+      ]
+    },
+    "p_{w,j}": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "\u03bc_{w,j}": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "\u03a3_{w,j}": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "objective function": {
+      "tag_set": [
+        "Energy Function Approximation",
+        "Result"
+      ]
+    },
+    "max-margin objective": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "E_\u03b8(\u00b7,\u00b7)": {
+      "tag_set": [
+        "Definition",
+        "Energy Function Approximation"
+      ]
+    },
+    "positive context c": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "negative context c'": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "threshold m": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "cosine similarity": {
+      "tag_set": [
+        "Energy Function Approximation",
+        "Property"
+      ]
+    },
+    "KL divergence": {
+      "tag_set": [
+        "Definition",
+        "Energy Function Approximation",
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "Gaussian mixtures": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "Monte-Carlo approximation": {
+      "tag_set": [
+        "Energy Function Approximation",
+        "Property"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Energy Function Approximation",
+        "Reference"
+      ]
+    },
+    "BIBREF13": {
+      "tag_set": [
+        "Energy Function Approximation",
+        "Reference"
+      ]
+    },
+    "exponentiated negative KL divergence": {
+      "tag_set": [
+        "Definition",
+        "Energy Function Approximation"
+      ]
+    },
+    "variational approximation": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "product of Gaussian approximation": {
+      "tag_set": [
+        "Energy Function Approximation"
+      ]
+    },
+    "words v": {
+      "tag_set": [
+        "Equation Details"
+      ]
+    },
+    "equation DISPLAY_FORM8": {
+      "tag_set": [
+        "Equation Details"
+      ]
+    },
+    "approximation": {
+      "tag_set": [
+        "Equation Details"
+      ]
+    },
+    "Supplementary Material": {
+      "tag_set": [
+        "Equation Details"
+      ]
+    },
+    "EL_ik": {
+      "tag_set": [
+        "Mathematical Expression"
+      ]
+    },
+    "f_w_i": {
+      "tag_set": [
+        "Mathematical Expression"
+      ]
+    },
+    "f_w_k": {
+      "tag_set": [
+        "Mathematical Expression"
+      ]
+    },
+    "x": {
+      "tag_set": [
+        "Mathematical Expression"
+      ]
+    },
+    "x'": {
+      "tag_set": [
+        "Mathematical Expression"
+      ]
+    },
+    "integral": {
+      "tag_set": [
+        "Mathematical Expression"
+      ]
+    },
+    "Gaussian Mixture": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "word senses": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "bench": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "sling": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "wood": {
+      "tag_set": [
+        "KL Divergence in Word Modeling",
+        "Property"
+      ]
+    },
+    "trees": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "furniture": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "Text8 dataset": {
+      "tag_set": [
+        "KL Divergence in Word Modeling",
+        "Property"
+      ]
+    },
+    "17M words": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "71290 unique words": {
+      "tag_set": [
+        "KL Divergence in Word Modeling",
+        "Property"
+      ]
+    },
+    "w2g": {
+      "tag_set": [
+        "Comparison",
+        "KL Divergence in Word Modeling",
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "w2gm": {
+      "tag_set": [
+        "Comparison",
+        "KL Divergence in Word Modeling",
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "GM_KL": {
+      "tag_set": [
+        "Definition",
+        "KL Divergence in Word Modeling",
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "embedding size": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "50": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "KL Divergence in Word Modeling"
+      ]
+    },
+    "2": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "10": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "128": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "uniform distribution": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "[-\u221a(3/D), \u221a(3/D)]": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "BIBREF16": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "ELMo": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "BIBREF17": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "BIBREF18": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "diagonal covariance": {
+      "tag_set": [
+        "Model Initialization and Evaluation",
+        "Property"
+      ]
+    },
+    "mixture probability": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "0 to 1": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "softmax function": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "0": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "10^-5": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "Adagrad": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "TABREF9": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "SCWS dataset": {
+      "tag_set": [
+        "Definition",
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "2003 word pairs": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "polysemous words": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "homonymous words": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "human scores": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "Spearman correlation": {
+      "tag_set": [
+        "Method",
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "MaxCos": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "AvgCos": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "KL_approx": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "KL_comp": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "TABREF17": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "TABREF18": {
+      "tag_set": [
+        "Model Initialization and Evaluation"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "equation DISPLAY_FORM26": {
+      "tag_set": [
+        "KL Bound Calculation",
+        "Result"
+      ]
+    },
+    "equation DISPLAY_FORM24": {
+      "tag_set": [
+        "KL Bound Calculation",
+        "Result"
+      ]
+    },
+    "equation DISPLAY_FORM27": {
+      "tag_set": [
+        "KL Bound Calculation",
+        "Result"
+      ]
+    },
+    "equation DISPLAY_FORM28": {
+      "tag_set": [
+        "KL Bound Calculation",
+        "Result"
+      ]
+    },
+    "gaussian mixtures": {
+      "tag_set": [
+        "KL Bound Calculation"
+      ]
+    },
+    "KL": {
+      "tag_set": [
+        "KL Bound Calculation"
+      ]
+    },
+    "upper bound": {
+      "tag_set": [
+        "KL Bound Calculation"
+      ]
+    },
+    "lower bound": {
+      "tag_set": [
+        "KL Bound Calculation"
+      ]
+    },
+    "mean": {
+      "tag_set": [
+        "KL Bound Calculation"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Word2Vec": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "modified skip-gram model": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Gaussian distribution per word": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "multi-sense word embedding distributions": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "symmetrical similarity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "benchmark datasets": {
+      "tag_set": [
+        "Evaluation"
+      ]
+    },
+    "p_w,j": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03bc_w,j": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03a3_w,j": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03b8": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "c": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "c'": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "EL_ik(w,w)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "EL_{ij}(w,v)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "chair": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "chair \u22a8 wood": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "minimizing KL divergence": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "bench \u22a8 trees": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "bench \u22a8 furniture": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "sling \u22a8 trees": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "sling \u22a8 furniture": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "maximizing expected likelihood kernel": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "embedding size D": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "KL(f_{w,i}||f_{v,j})": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "diversity in word senses": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "regularization term": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "number of mixtures": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "context window length": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "word embeddings initialization": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "alternative embedding initialization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "mixture probability constraint": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "mixture score initialization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "negative sampling threshold": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "optimizer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "initial learning rate": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "GM_KL performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "MaxCos metric": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "AvgCos metric": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "KL_approx metric": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "KL_comp metric": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "word 'plane'": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "word 'rock'": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "word 'star'": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "word 'phone'": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Table TABREF9": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Table TABREF17": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Table TABREF18": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "GM_KL model": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "MC dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "RW dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "YP dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "entailment pairs dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "crowdsourced dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "distributionally similar nouns dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "KL divergence between Gaussian mixtures": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "product of component Gaussian approximation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "variational approximation method": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "equation DISPLAY_FORM23": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "equation DISPLAY_FORM25": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "entropy term H": {
+      "tag_set": [
+        "Definition"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction Language modelling in its inception had one-hot vector encoding of words. However, it captures only alphabetic ordering but not the word semantic similarity. Vector space models helps to learn word representations in a lower dimensional space and also captures semantic similarity. Learning word embedding aids in natural language processing tasks such as question answering and reasoning BIBREF0, stance detection BIBREF1, claim verification BIBREF2. Recent models BIBREF3, BIBREF4 work on the basis that words with similar context share semantic similarity. BIBREF4 proposes a neural probabilistic model which models the target word probability conditioned on the previous words using a recurrent neural network. Word2Vec models BIBREF3 such as continuous bag-of-words (CBOW) predict the target word given the context, and skip-gram model works in reverse of predicting the context given the target word. While, GloVe embeddings were based on a Global matrix factorization on local contexts BIBREF5. However, the aforementioned models do not handle words with multiple meanings (polysemies). BIBREF6 proposes a neural network approach considering both local and global contexts in learning word embeddings (point estimates). Their multiple prototype model handles polysemous words by providing apriori heuristics about word senses in the dataset. BIBREF7 proposes an alternative to handle polysemous words by a modified skip-gram model and EM algorithm. BIBREF8 presents a non-parametric based alternative to handle polysemies. However, these approaches fail to consider entailment relations among the words. BIBREF9 learn a Gaussian distribution per word using the expected likelihood kernel. However, for polysemous words, this may lead to word distributions with larger variances as it may have to cover various senses. BIBREF10 proposes multimodal word distribution approach. It captures polysemy. However, the energy based objective function fails to consider asymmetry and hence entailment. Textual entailment recognition is necessary to capture lexical inference relations such as causality (for example, mosquito $\\rightarrow $ malaria), hypernymy (for example, dog $\\models $ animal) etc. In this paper, we propose to obtain multi-sense word embedding distributions by using a variant of max margin objective based on the asymmetric KL divergence energy function to capture textual entailment. Multi-sense distributions are advantageous in capturing polysemous nature of words and in reducing the uncertainty per word by distributing it across senses. However, computing KL divergence between mixtures of Gaussians is intractable, and we use a KL divergence approximation based on stricter upper and lower bounds. While capturing textual entailment (asymmetry), we have also not compromised on capturing symmetrical",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word Embedding Polysemy"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "similarity between words (for example, funny and hilarious) which will be elucidated in Section $3.1$. We also show the effectiveness of the proposed approach on the benchmark word similarity and entailment datasets in the experimental section. Methodology ::: Word Representation Probabilistic representation of words helps one model uncertainty in word representation, and polysemy. Given a corpus $V$, containing a list of words each represented as $w$, the probability density for a word $w$ can be represented as a mixture of Gaussians with $C$ components BIBREF10. Here",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word Similarity Methodology"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": ", $p_{w,j}$ represents the probability of word $w$ belonging to the component $j$, $\\operatorname{\\mathbf {\\mu }}_{w,j}$ represents $D$ dimensional word representation corresponding to the $j^{th}$ component sense of the word $w$, and $\\Sigma _{w,j}$ represents the uncertainty in representation for word $w$ belonging to component $j$. Objective function The model parameters (means, covariances and mixture weights) $\\theta $ can be learnt using a variant of max-margin objective BIBREF11. Here $E_\\theta (\\cdot , \\cdot )$ represents an energy function which assigns a score to the pair of words, $w$ is a particular word under consideration, $c$ its positive context (same context), and $c^{\\prime }$ the negative context. The objective aims to push the margin of the difference between the energy function of a word $w$ to its positive context $c$ higher than its negative context $c$ by a threshold of $m$. Thus, word pairs in the same context gets a higher energy than the word pairs in the dissimilar context. BIBREF10 consider the energy function to be an expected likelihood kernel which is defined as follows. This is similar to the cosine similarity metric over vectors and the energy between two words is maximum when they have similar distributions. But, the expected likelihood kernel is a symmetric metric which will not be suitable for capturing ordering among words and hence entailment. Objective function ::: Proposed Energy function As each word is represented by a mixture of Gaussian distributions, KL divergence is a better choice of energy function to capture distance between distributions. Since, KL divergence is minimum when the distributions are similar and maximum when they are dissimilar, energy function is taken as exponentiated negative KL divergence. However, computing KL divergence between Gaussian mixtures is intractable and obtaining exact KL value is not possible. One way of approximating the KL is by Monte-Carlo approximation but it requires large number of samples to get a good approximation and is computationally expensive on high dimensional embedding space. Alternatively, BIBREF12 presents a KL approximation between Gaussian mixtures where they obtain an upper bound through product of Gaussian approximation method and a lower bound through variational approximation method. In BIBREF13, the authors combine the lower and upper bounds from approximation methods of BIBREF12 to provide a stricter bound on KL between Gaussian mixtures. Lets consider Gaussian mixtures for the words $w$ and $v$ as follows. The approximate KL divergence between the Gaussian mixture representations over",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Energy Function Approximation"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "the words $w$ and $v$ is shown in equation DISPLAY_FORM8. More details on approximation is included in the Supplementary Material. where",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Equation Details"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "$EL_{ik}(w,w) = \\int f_{w,i} (\\operatorname{\\mathbf {x}}) f_{w,k} (\\operatorname{\\mathbf {x",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Mathematical Expression"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "}}) d\\operatorname{\\mathbf {x}}$ and $EL_{ij}(w,v) = \\int f_{w,i} (\\operatorname{\\mathbf {x}}) f_{v,k} (\\operatorname{\\mathbf {x}}) d\\operatorname{\\mathbf {x}}$. Note that the expected likelihood kernel appears component wise inside the approximate KL divergence derivation. One advantage of using KL as energy function is that it enables to capture asymmetry in entailment datasets. For eg., let us consider the words 'chair' with two senses as 'bench' and 'sling', and 'wood' with two senses as 'trees' and 'furniture'. The word chair ($w$) is entailed within wood ($v$), i.e. chair $\\models $ wood. Now, minimizing the KL divergence necessitates maximizing $\\log {\\sum _j p_{v,j} \\exp ({-KL(f_{w,i} (\\operatorname{\\mathbf {x}})||f_{v,j}(\\operatorname{\\mathbf {x}}))})}$ which in turn minimizes $KL(f_{w,i}(\\operatorname{\\mathbf {x}})||f_{v,j}(\\operatorname{\\mathbf {x}}))$. This will result in the support of the $i^{th}$ component of $w$ to be within the $j^{th}$ component of $v$, and holds for all component pairs leading to the entailment of $w$ within $v$. Consequently, we can see that bench $\\models $ trees, bench $\\models $ furniture, sling $\\models $ trees, and sling $\\models $ furniture. Thus, it introduces lexical relationship between the senses of child word and that of the parent word. Minimizing the KL also necessitates maximizing $\\log {\\sum _j {p_{v,j}} EL_{ij}(w,v)}$ term for all component pairs among $w$ and $v$. This is similar to maximizing expected likelihood kernel, which brings the means of $f_{w,i}(\\operatorname{\\mathbf {x}})$ and $f_{v,j}(\\operatorname{\\mathbf {x}})$ closer (weighted by their co-variances) as discussed in BIBREF10. Hence, the proposed approach captures the best of both worlds, thereby catering to both word similarity and entailment. We also note that minimizing the KL divergence necessitates minimizing $\\log {\\sum _k p_{w,k} \\exp ({-KL(f_{w,i}||f_{w,k})})}$ which in turn maximizes $KL(f_{w,i}||f_{w,k})$. This prevents the different mixture components of a word converging to single Gaussian and encourages capturing different possible senses of the word. The same is also achieved by minimizing $\\sum _k {p_{w,k}} EL_{ik}(w,w)$ term and act as a regularization term which promotes diversity in learning senses of a word. Experimentation and Results We train our proposed model GM$\\_$KL (Gaussian Mixture using KL Divergence) on the Text8 dataset BIBREF14 which is a pre-processed data of $17M$ words from wikipedia. Of which, 71290 unique and frequent words are chosen using the subsampling trick in BIBREF15. We compare GM$\\_$KL with the previous approaches w2g BIBREF9 ( single Gaussian model) and w2gm BIBREF10 (mixture of Gaussian model with expected likelihood kernel). For all the models used for experimentation, the embedding size ($D$) was set to 50,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "KL Divergence in Word Modeling"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "number of mixtures to 2, context window length to 10, batch size to 128. The word embeddings were initialized using a uniform distribution in the range of $[-\\sqrt{\\frac{3}{D}}$, $\\sqrt{\\frac{3}{D}}]$ such that the expectation of variance is 1 and mean 0 BIBREF16. One could also consider initializing the word embeddings using other contextual representations such as BERT BIBREF17 and ELMo BIBREF18 in the proposed approach. In order to purely analyze the performance of $\\emph {GM\\_KL}$ over the other models, we have chosen initialization using uniform distribution for experiments. For computational benefits, diagonal covariance is used similar to BIBREF10. Each mixture probability is constrained in the range $[0,1]$, summing to 1 by optimizing over unconstrained scores in the range $(-\\infty ,\\infty )$ and converting scores to probability using softmax function. The mixture scores are initialized to 0 to ensure fairness among all the components. The threshold for negative sampling was set to $10^{-5}$, as recommended in BIBREF3. Mini-batch gradient descent with Adagrad optimizer BIBREF19 was used with initial learning rate set to $0.05$. Table TABREF9 shows the qualitative results of GM$\\_$KL. Given a query word and component id, the set of nearest neighbours along with their respective component ids are listed. For eg., the word `plane' in its 0th component captures the `geometry' sense and so are its neighbours, and its 1st component captures `vehicle' sense and so are its corresponding neighbours. Other words such as `rock' captures both the `metal' and `music' senses, `star' captures `celebrity' and `astronomical' senses, and `phone' captures `telephony' and `internet' senses. We quantitatively compare the performance of the GM$\\_$KL, w2g, and w2gm approaches on the SCWS dataset BIBREF6. The dataset consists of 2003 word pairs of polysemous and homonymous words with labels obtained by an average of 10 human scores. The Spearman correlation between the human scores and the model scores are computed. To obtain the model score, the following metrics are used: MaxCos: Maximum cosine similarity among all component pairs of words $w$ and $v$: AvgCos: Average component-wise cosine similarity between the words $w$ and $v$. KL$\\_$approx: Formulated as shown in (DISPLAY_FORM8) between the words $w$ and $v$. KL$\\_$comp: Maximum component-wise negative KL between words $w$ and $v$: Table TABREF17 compares the performance of the approaches on the SCWS dataset. It is evident from Table TABREF17 that GM$\\_$KL achieves better correlation than existing approaches for various metrics on SCWS dataset. Table TABREF18 shows the Spearman",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Initialization and Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "correlation values of GM$\\_$KL model evaluated on the benchmark word similarity datasets: SL BIBREF20, WS, WS-R, WS-S BIBREF21, MEN BIBREF22, MC BIBREF23, RG BIBREF24, YP BIBREF25, MTurk-287 and MTurk-771 BIBREF26, BIBREF27, and RW BIBREF28. The metric used for comparison is 'AvgCos'. It can be seen that for most of the datasets, GM$\\_$KL achieves significantly better correlation score than w2g and w2gm approaches. Other datasets such as MC and RW consist of only a single sense, and hence w2g model performs better and GM$\\_$KL achieves next better performance. The YP dataset have multiple senses but does not contain entailed data and hence could not make use of entailment benefits of GM$\\_$KL. Table TABREF19 shows the evaluation results of GM$\\_$KL model on the entailment datasets such as entailment pairs dataset BIBREF29 created from WordNet with both positive and negative labels, a crowdsourced dataset BIBREF30 of 79 semantic relations labelled as entailed or not and annotated distributionally similar nouns dataset BIBREF31. The 'MaxCos' similarity metric is used for evaluation and the best precision and best F1-score is shown, by picking the optimal threshold. Overall, GM$\\_$KL performs better than both w2g and w2gm approaches. Conclusion We proposed a KL divergence based energy function for learning multi-sense word embedding distributions modelled as Gaussian mixtures. Due to the intractability of the Gaussian mixtures for the KL divergence measure, we use an approximate KL divergence function. We also demonstrated that the proposed GM$\\_$KL approaches performed better than other approaches on the benchmark word similarity and entailment datasets. tocsectionAppendices Approximation for KL divergence between mixtures of gaussians KL between gaussian mixtures $f_{w}(\\operatorname{\\mathbf {x}})$ and $f_{v}(\\operatorname{\\mathbf {x}})$ can be decomposed as: BIBREF12 presents KL approximation between gaussian mixtures using product of gaussian approximation method where KL is approximated using product of component gaussians and variational approximation method where KL is approximated by introducing some variational parameters. The product of component gaussian approximation method using Jensen's inequality provides upper bounds as shown in equations DISPLAY_FORM23 and . The variational approximation method provides lower bounds as shown in equations DISPLAY_FORM24 and DISPLAY_FORM25. where $H$ represents the entropy term and the entropy of $i^{th}$ component of word $w$ with dimension $D$ is given as In BIBREF13, the authors combine the lower and upper bounds from approximation methods of BIBREF12 to formulate a stricter bound on KL between gaussian mixtures. From equations DISPLAY_FORM23 and DISPLAY_FORM25, a stricter lower bound for KL between gaussian",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "mixtures is obtained as shown in equation DISPLAY_FORM26 From equations and DISPLAY_FORM24, a stricter upper bound for KL between gaussian mixtures is obtained as shown in equation DISPLAY_FORM27 Finally, the KL between gaussian mixtures is taken as the mean of KL upper and lower bounds as shown in equation DISPLAY_FORM28.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "KL Bound Calculation"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "One-hot vector encoding represents words as binary vectors where only one element is active, indicating the presence of a specific word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Vector space models learn word representations in a lower-dimensional space that captures semantic similarity between words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Word embeddings improve natural language processing tasks such as question answering, stance detection, and claim verification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Word2Vec is a model that includes two architectures: CBOW, which predicts a target word from context, and skip-gram, which predicts context from a target word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "GloVe embeddings are based on global matrix factorization of local context co-occurrence statistics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Polysemy refers to the phenomenon where a word has multiple related meanings or senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "A neural probabilistic model conditions the probability of a target word on previous words using a recurrent neural network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The multiple prototype model handles polysemous words by using apriori heuristics about word senses in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "A modified skip-gram model combined with the EM algorithm handles polysemous words by learning sense-specific representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "A non-parametric method is proposed to handle polysemy without assuming a fixed number of word senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Each word is modeled as a mixture of Gaussians to capture uncertainty and multiple senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Asymmetric KL divergence is used to model textual entailment relations, capturing asymmetry such as 'mosquito \u2192 malaria' but not necessarily the reverse.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Textual entailment refers to lexical inference relations such as causality (e.g., mosquito \u2192 malaria) and hypernymy (e.g., dog \u2192 animal).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Multi-sense word embedding distributions capture the polysemy of words by distributing uncertainty across different word senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "A KL divergence approximation using stricter upper and lower bounds is used to make computation tractable when dealing with mixtures of Gaussians.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The proposed method preserves symmetrical similarity between words, such as between 'funny' and 'hilarious'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The effectiveness of the proposed approach is evaluated on standard word similarity and entailment benchmark datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The probability of word w belonging to the component j is denoted by p_w,j.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The D-dimensional word representation corresponding to the j-th component sense of word w is denoted by \u03bc_w,j.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The uncertainty in the representation of word w belonging to component j is represented by \u03a3_w,j.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The model parameters including means, covariances, and mixture weights are denoted by \u03b8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The energy function E_\u03b8(\u00b7,\u00b7) assigns a score to a pair of words based on their representations under the model parameters \u03b8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "c represents the positive context of a word w, meaning a word that appears in the same context as w.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "c' represents the negative context of a word w, meaning a word that appears in a dissimilar context to w.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "The objective function aims to maximize the margin between the energy of a word and its positive context c compared to its negative context c' by a threshold m.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The expected likelihood kernel is a symmetric metric used to define the energy between two words based on their distributional similarity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The expected likelihood kernel is similar to cosine similarity over vectors, with maximum energy when word distributions are similar.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "KL divergence is used as the energy function to capture the distance between word distributions, with minimum value when distributions are similar.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The energy function is defined as the exponentiated negative KL divergence between Gaussian mixture representations of words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Monte-Carlo approximation of KL divergence between Gaussian mixtures requires many samples and is computationally expensive in high-dimensional spaces.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "BIBREF12 presents an upper bound on KL divergence between Gaussian mixtures using a product of Gaussian approximation method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "BIBREF13 combines lower and upper bounds from BIBREF12 to provide a stricter bound on the KL divergence between Gaussian mixtures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "EL_ik(w,w) represents the integral of the product of the probability densities f_w,i(x) and f_w,k(x) over the feature space x.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "KL divergence is used as an energy function to capture asymmetry in entailment datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The expected likelihood kernel is defined as EL_{ij}(w,v) = \u222b f_{w,i}(x) f_{v,k}(x) dx.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The word 'chair' has two senses: 'bench' and 'sling'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The word 'wood' has two senses: 'trees' and 'furniture'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The sense of 'chair' is entailed within the sense of 'wood', i.e., chair \u22a8 wood.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Minimizing KL divergence results in the support of the i-th component of w being within the j-th component of v, leading to entailment of w within v.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The sense 'bench' is entailed within the sense 'trees'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The sense 'bench' is entailed within the sense 'furniture'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The sense 'sling' is entailed within the sense 'trees'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The sense 'sling' is entailed within the sense 'furniture'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Maximizing the expected likelihood kernel brings the means of f_{w,i}(x) and f_{v,j}(x) closer, weighted by their co-variances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "GM_KL is a Gaussian Mixture model using KL divergence as the energy function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The Text8 dataset consists of 17M words pre-processed from Wikipedia.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "71290 unique and frequent words are selected using the subsampling trick from the Text8 dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "w2g is a single Gaussian model used for comparison with GM_KL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "w2gm is a mixture of Gaussian model with expected likelihood kernel, used for comparison with GM_KL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The embedding size (D) for all models in the experiment is set to 50.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Minimizing KL(f_{w,i}||f_{v,j}) ensures that the support of the i-th component of w lies within the j-th component of v.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Minimizing KL divergence prevents mixture components of a word from converging to a single Gaussian, encouraging the capture of different word senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The term \u2211_k p_{w,k} EL_{ik}(w,w) acts as a regularization term to promote diversity in learning word senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The number of mixtures is set to 2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The context window length is set to 10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The batch size is set to 128.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Word embeddings are initialized using a uniform distribution in the range $[-\\sqrt{\\frac{3}{D}}$, $\\sqrt{\\frac{3}{D}}]$ to ensure a mean of 0 and variance of 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Word embeddings could alternatively be initialized using contextual representations such as BERT or ELMo.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Each mixture probability is constrained in the range [0,1] and sums to 1 via softmax over unconstrained scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Mixture scores are initialized to 0 to ensure fairness among all components.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The threshold for negative sampling is set to $10^{-5}$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "Mini-batch gradient descent with Adagrad optimizer is used for training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The initial learning rate is set to 0.05.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Diagonal covariance is used for computational efficiency, similar to methods described in BIBREF10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "GM_KL achieves better Spearman correlation than existing approaches (w2g, w2gm) on the SCWS dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The SCWS dataset consists of 2003 word pairs of polysemous and homonymous words, with labels derived from an average of 10 human scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The Spearman correlation is computed between human scores and model scores to evaluate performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "MaxCos is the maximum cosine similarity among all component pairs of words $w$ and $v$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "AvgCos is the average component-wise cosine similarity between words $w$ and $v$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "KL_approx is formulated as shown in (DISPLAY_FORM8) and measures the negative KL divergence between words $w$ and $v$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "KL_comp is the maximum component-wise negative KL divergence between words $w$ and $v$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The word 'plane' in the 0th component captures the 'geometry' sense, and in the 1st component captures the 'vehicle' sense.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The word 'rock' captures both the 'metal' and 'music' senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The word 'star' captures both the 'celebrity' and 'astronomical' senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The word 'phone' captures both the 'telephony' and 'internet' senses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Table TABREF9 shows the qualitative results of GM_KL, listing nearest neighbors and their component ids for a given query word and component id.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Table TABREF17 compares the performance of GM_KL, w2g, and w2gm on the SCWS dataset, showing GM_KL achieves superior correlation across metrics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Table TABREF18 shows the Spearman correlation values for the different approaches on the SCWS dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The GM_KL model is a multi-sense word embedding distribution model based on Gaussian mixtures and a KL divergence-based energy function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The GM_KL model achieves significantly better correlation scores than w2g and w2gm approaches on most benchmark word similarity datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The MC dataset consists of only a single sense, which leads to w2g performing better than GM_KL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The RW dataset consists of only a single sense, which results in w2g outperforming GM_KL.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The YP dataset contains multiple senses but lacks entailed data, preventing GM_KL from leveraging entailment benefits.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The entailment pairs dataset is created from WordNet and includes both positive and negative labels for semantic entailment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The crowdsourced dataset contains 79 semantic relations annotated as entailed or not.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The distributionally similar nouns dataset is annotated to indicate whether nouns are distributionally similar.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "The AvgCos metric is used to evaluate the correlation of the GM_KL model on word similarity datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The MaxCos metric is used to evaluate the GM_KL model on entailment datasets, with the best precision and F1-score determined by optimal threshold selection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The KL divergence between Gaussian mixtures is decomposed into component-wise approximations using product of component Gaussians and variational methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The product of component Gaussian approximation method using Jensen's inequality provides upper bounds for KL divergence between Gaussian mixtures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The variational approximation method provides lower bounds for KL divergence between Gaussian mixtures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Equation DISPLAY_FORM23 shows an upper bound for KL divergence between Gaussian mixtures derived from the product of component Gaussians.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Equation DISPLAY_FORM24 shows a lower bound for KL divergence between Gaussian mixtures from the variational approximation method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Equation DISPLAY_FORM25 shows another lower bound for KL divergence between Gaussian mixtures using variational parameters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Equation DISPLAY_FORM26 presents a stricter lower bound for KL divergence between Gaussian mixtures by combining bounds from BIBREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Equation DISPLAY_FORM27 presents a stricter upper bound for KL divergence between Gaussian mixtures by combining bounds from BIBREF12.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Equation DISPLAY_FORM28 defines the KL divergence between Gaussian mixtures as the mean of the upper and lower bounds for improved approximation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The entropy term H represents the entropy of the i-th component of a word with dimension D in the Gaussian mixture model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "BIBREF12 presents approximation methods for KL divergence between Gaussian mixtures using product of component Gaussians and variational approximation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "BIBREF13 combines lower and upper bounds from BIBREF12 to formulate a stricter bound on KL divergence between Gaussian mixtures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "0 to 1",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "10",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "10^-5",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "128",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "17M words",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "2",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "2003 word pairs",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "50",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "71290 unique words",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "71290 unique words",
+      "Property",
+      "s47"
+    ],
+    [
+      "Adagrad",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "AvgCos",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "AvgCos metric",
+      "Definition",
+      "s69"
+    ],
+    [
+      "AvgCos metric",
+      "Definition",
+      "s87"
+    ],
+    [
+      "BERT",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "BIBREF10",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "BIBREF10",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "BIBREF10",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "BIBREF11",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "BIBREF12",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "BIBREF12",
+      "Reference",
+      "s31"
+    ],
+    [
+      "BIBREF12",
+      "Reference",
+      "s99"
+    ],
+    [
+      "BIBREF13",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "BIBREF13",
+      "Reference",
+      "s100"
+    ],
+    [
+      "BIBREF13",
+      "Reference",
+      "s32"
+    ],
+    [
+      "BIBREF14",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "BIBREF15",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "BIBREF16",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "BIBREF17",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "BIBREF18",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "BIBREF19",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "BIBREF6",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "BIBREF9",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "C components",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "ELMo",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "EL_ik",
+      "Mathematical Expression",
+      "e5"
+    ],
+    [
+      "EL_ik(w,w)",
+      "Definition",
+      "s33"
+    ],
+    [
+      "EL_{ij}(w,v)",
+      "Definition",
+      "s35"
+    ],
+    [
+      "EM algorithm",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "E_\u03b8(\u00b7,\u00b7)",
+      "Definition",
+      "s22"
+    ],
+    [
+      "E_\u03b8(\u00b7,\u00b7)",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "GM_KL",
+      "Definition",
+      "s45"
+    ],
+    [
+      "GM_KL",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "GM_KL",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "GM_KL model",
+      "Definition",
+      "s79"
+    ],
+    [
+      "GM_KL model",
+      "Result",
+      "s80"
+    ],
+    [
+      "GM_KL performance",
+      "Result",
+      "s65"
+    ],
+    [
+      "Gaussian Mixture",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "Gaussian distribution",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "Gaussian distribution per word",
+      "Definition",
+      "s11"
+    ],
+    [
+      "Gaussian mixtures",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "GloVe embeddings",
+      "Definition",
+      "s5"
+    ],
+    [
+      "GloVe embeddings",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "KL",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "KL divergence",
+      "Definition",
+      "s28"
+    ],
+    [
+      "KL divergence",
+      "Definition",
+      "s34"
+    ],
+    [
+      "KL divergence",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "KL divergence",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "KL divergence approximation",
+      "Method",
+      "s15"
+    ],
+    [
+      "KL divergence approximation",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "KL divergence between Gaussian mixtures",
+      "Definition",
+      "s89"
+    ],
+    [
+      "KL(f_{w,i}||f_{v,j})",
+      "Result",
+      "s51"
+    ],
+    [
+      "KL_approx",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "KL_approx metric",
+      "Definition",
+      "s70"
+    ],
+    [
+      "KL_comp",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "KL_comp metric",
+      "Definition",
+      "s71"
+    ],
+    [
+      "MC dataset",
+      "Property",
+      "s81"
+    ],
+    [
+      "MaxCos",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "MaxCos metric",
+      "Definition",
+      "s68"
+    ],
+    [
+      "MaxCos metric",
+      "Definition",
+      "s88"
+    ],
+    [
+      "Monte-Carlo approximation",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "Monte-Carlo approximation",
+      "Property",
+      "s30"
+    ],
+    [
+      "RW dataset",
+      "Property",
+      "s82"
+    ],
+    [
+      "SCWS dataset",
+      "Definition",
+      "s66"
+    ],
+    [
+      "SCWS dataset",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "Section 3.1",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "Spearman correlation",
+      "Method",
+      "s67"
+    ],
+    [
+      "Spearman correlation",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "Supplementary Material",
+      "Equation Details",
+      "e4"
+    ],
+    [
+      "TABREF17",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "TABREF18",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "TABREF9",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "Table TABREF17",
+      "Result",
+      "s77"
+    ],
+    [
+      "Table TABREF18",
+      "Result",
+      "s78"
+    ],
+    [
+      "Table TABREF9",
+      "Result",
+      "s76"
+    ],
+    [
+      "Text8 dataset",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "Text8 dataset",
+      "Property",
+      "s46"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e8"
+    ],
+    [
+      "Word2Vec",
+      "Definition",
+      "s4"
+    ],
+    [
+      "YP dataset",
+      "Property",
+      "s83"
+    ],
+    [
+      "[-\u221a(3/D), \u221a(3/D)]",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "alternative embedding initialization",
+      "Property",
+      "s58"
+    ],
+    [
+      "animal",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "approximation",
+      "Equation Details",
+      "e4"
+    ],
+    [
+      "asymmetric KL divergence",
+      "Definition",
+      "s12"
+    ],
+    [
+      "asymmetric KL divergence",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s56"
+    ],
+    [
+      "bench",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "bench \u22a8 furniture",
+      "Relationship",
+      "s41"
+    ],
+    [
+      "bench \u22a8 trees",
+      "Relationship",
+      "s40"
+    ],
+    [
+      "benchmark datasets",
+      "Evaluation",
+      "s17"
+    ],
+    [
+      "benchmark word similarity",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "c",
+      "Definition",
+      "s23"
+    ],
+    [
+      "c'",
+      "Definition",
+      "s24"
+    ],
+    [
+      "causality",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "chair",
+      "Property",
+      "s36"
+    ],
+    [
+      "chair \u22a8 wood",
+      "Relationship",
+      "s38"
+    ],
+    [
+      "claim verification",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "context window length",
+      "Property",
+      "s55"
+    ],
+    [
+      "continuous bag-of-words (CBOW)",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "corpus V",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "cosine similarity",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "cosine similarity",
+      "Property",
+      "s27"
+    ],
+    [
+      "crowdsourced dataset",
+      "Definition",
+      "s85"
+    ],
+    [
+      "diagonal covariance",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "diagonal covariance",
+      "Property",
+      "s64"
+    ],
+    [
+      "distributionally similar nouns dataset",
+      "Definition",
+      "s86"
+    ],
+    [
+      "diversity in word senses",
+      "Property",
+      "s52"
+    ],
+    [
+      "dog",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "embedding size",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "embedding size D",
+      "Property",
+      "s50"
+    ],
+    [
+      "entailment datasets",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "entailment datasets",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "entailment pairs dataset",
+      "Definition",
+      "s84"
+    ],
+    [
+      "entropy term H",
+      "Definition",
+      "s98"
+    ],
+    [
+      "equation DISPLAY_FORM23",
+      "Result",
+      "s92"
+    ],
+    [
+      "equation DISPLAY_FORM24",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "equation DISPLAY_FORM24",
+      "Result",
+      "s93"
+    ],
+    [
+      "equation DISPLAY_FORM25",
+      "Result",
+      "s94"
+    ],
+    [
+      "equation DISPLAY_FORM26",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "equation DISPLAY_FORM26",
+      "Result",
+      "s95"
+    ],
+    [
+      "equation DISPLAY_FORM27",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "equation DISPLAY_FORM27",
+      "Result",
+      "s96"
+    ],
+    [
+      "equation DISPLAY_FORM28",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "equation DISPLAY_FORM28",
+      "Result",
+      "s97"
+    ],
+    [
+      "equation DISPLAY_FORM8",
+      "Equation Details",
+      "e4"
+    ],
+    [
+      "expected likelihood kernel",
+      "Definition",
+      "s26"
+    ],
+    [
+      "expected likelihood kernel",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "expected likelihood kernel",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "expected likelihood kernel",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "experimental section",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "exponentiated negative KL divergence",
+      "Definition",
+      "s29"
+    ],
+    [
+      "exponentiated negative KL divergence",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "f_w_i",
+      "Mathematical Expression",
+      "e5"
+    ],
+    [
+      "f_w_k",
+      "Mathematical Expression",
+      "e5"
+    ],
+    [
+      "funny",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "furniture",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "gaussian mixtures",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "global contexts",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "hilarious",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "homonymous words",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "human scores",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "hypernymy",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "initial learning rate",
+      "Property",
+      "s63"
+    ],
+    [
+      "integral",
+      "Mathematical Expression",
+      "e5"
+    ],
+    [
+      "local contexts",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "lower bound",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "malaria",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "max margin objective",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "max-margin objective",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "maximizing expected likelihood kernel",
+      "Result",
+      "s44"
+    ],
+    [
+      "mean",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "methodology",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "minimizing KL divergence",
+      "Result",
+      "s39"
+    ],
+    [
+      "mixture of Gaussians",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "mixture probability",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "mixture probability constraint",
+      "Property",
+      "s59"
+    ],
+    [
+      "mixture score initialization",
+      "Property",
+      "s60"
+    ],
+    [
+      "mixtures of Gaussians",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "modified skip-gram model",
+      "Method",
+      "s9"
+    ],
+    [
+      "mosquito",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "multi-sense word embedding distributions",
+      "Result",
+      "s14"
+    ],
+    [
+      "multimodal word distribution",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "multiple prototype model",
+      "Method",
+      "s8"
+    ],
+    [
+      "multiple prototype model",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "natural language processing",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "negative context c'",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "negative sampling threshold",
+      "Property",
+      "s61"
+    ],
+    [
+      "neural probabilistic model",
+      "Definition",
+      "s7"
+    ],
+    [
+      "neural probabilistic model",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "non-parametric approach",
+      "Method",
+      "s10"
+    ],
+    [
+      "non-parametric approach",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "number of mixtures",
+      "Property",
+      "s54"
+    ],
+    [
+      "objective function",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "objective function",
+      "Result",
+      "s25"
+    ],
+    [
+      "one-hot vector encoding",
+      "Definition",
+      "s1"
+    ],
+    [
+      "one-hot vector encoding",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "optimizer",
+      "Property",
+      "s62"
+    ],
+    [
+      "p_w,j",
+      "Definition",
+      "s18"
+    ],
+    [
+      "p_{w,j}",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "point estimates",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "polysemies",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "polysemous words",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "polysemy",
+      "Property",
+      "s6"
+    ],
+    [
+      "polysemy",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "positive context c",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "probabilistic representation",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "product of Gaussian approximation",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "product of component Gaussian approximation",
+      "Property",
+      "s90"
+    ],
+    [
+      "question answering",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "reasoning",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "recurrent neural network",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "regularization term",
+      "Definition",
+      "s53"
+    ],
+    [
+      "semantic similarity",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "similarity between words",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "skip-gram model",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "sling",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "sling \u22a8 furniture",
+      "Relationship",
+      "s43"
+    ],
+    [
+      "sling \u22a8 trees",
+      "Relationship",
+      "s42"
+    ],
+    [
+      "softmax function",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "stance detection",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "symmetrical similarity",
+      "Property",
+      "s16"
+    ],
+    [
+      "textual entailment",
+      "Definition",
+      "s13"
+    ],
+    [
+      "textual entailment",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "threshold m",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "trees",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "uniform distribution",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "upper bound",
+      "KL Bound Calculation",
+      "e9"
+    ],
+    [
+      "variational approximation",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "variational approximation method",
+      "Property",
+      "s91"
+    ],
+    [
+      "vector space models",
+      "Definition",
+      "s2"
+    ],
+    [
+      "vector space models",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "w2g",
+      "Comparison",
+      "s48"
+    ],
+    [
+      "w2g",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "w2g",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "w2gm",
+      "Comparison",
+      "s49"
+    ],
+    [
+      "w2gm",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "w2gm",
+      "Model Initialization and Evaluation",
+      "e7"
+    ],
+    [
+      "wood",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "wood",
+      "Property",
+      "s37"
+    ],
+    [
+      "word 'phone'",
+      "Result",
+      "s75"
+    ],
+    [
+      "word 'plane'",
+      "Result",
+      "s72"
+    ],
+    [
+      "word 'rock'",
+      "Result",
+      "s73"
+    ],
+    [
+      "word 'star'",
+      "Result",
+      "s74"
+    ],
+    [
+      "word embedding",
+      "Word Embedding Polysemy",
+      "e1"
+    ],
+    [
+      "word embeddings",
+      "Result",
+      "s3"
+    ],
+    [
+      "word embeddings initialization",
+      "Definition",
+      "s57"
+    ],
+    [
+      "word representation",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "word senses",
+      "KL Divergence in Word Modeling",
+      "e6"
+    ],
+    [
+      "words v",
+      "Equation Details",
+      "e4"
+    ],
+    [
+      "words w",
+      "Equation Details",
+      "e4"
+    ],
+    [
+      "words w",
+      "Word Similarity Methodology",
+      "e2"
+    ],
+    [
+      "x",
+      "Mathematical Expression",
+      "e5"
+    ],
+    [
+      "x'",
+      "Mathematical Expression",
+      "e5"
+    ],
+    [
+      "\u03a3_w,j",
+      "Definition",
+      "s20"
+    ],
+    [
+      "\u03a3_{w,j}",
+      "Energy Function Approximation",
+      "e3"
+    ],
+    [
+      "\u03b8",
+      "Definition",
+      "s21"
+    ],
+    [
+      "\u03bc_w,j",
+      "Definition",
+      "s19"
+    ],
+    [
+      "\u03bc_{w,j}",
+      "Energy Function Approximation",
+      "e3"
+    ]
+  ]
+}

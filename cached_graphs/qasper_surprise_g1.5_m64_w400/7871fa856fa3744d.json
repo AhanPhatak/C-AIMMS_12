@@ -1,0 +1,4283 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 121,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "NLP": {
+      "tag_set": [
+        "NLP Resources"
+      ]
+    },
+    "English-specific": {
+      "tag_set": [
+        "NLP Resources"
+      ]
+    },
+    "recent efforts": {
+      "tag_set": [
+        "NLP Resources"
+      ]
+    },
+    "multilingual benchmarks": {
+      "tag_set": [
+        "Definition",
+        "Multilingual Benchmarks"
+      ]
+    },
+    "collect data": {
+      "tag_set": [
+        "Multilingual Benchmarks"
+      ]
+    },
+    "annotate data": {
+      "tag_set": [
+        "Multilingual Benchmarks"
+      ]
+    },
+    "multiple languages": {
+      "tag_set": [
+        "Multilingual Benchmarks"
+      ]
+    },
+    "separately": {
+      "tag_set": [
+        "Multilingual Benchmarks"
+      ]
+    },
+    "REF0": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Translation Artifacts in QA"
+      ]
+    },
+    "machine translation": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Translation Artifacts",
+        "Translation Artifacts in QA",
+        "Translation Bias Impact",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "Translate-Test": {
+      "tag_set": [
+        "Cause",
+        "Cross-Lingual NLI Evaluation",
+        "Model Training and Evaluation",
+        "Potential",
+        "Translation Artifacts",
+        "Translation Artifacts in QA",
+        "Translation Bias Impact",
+        "Translation Effects in Cross-lingual Models",
+        "Translation Methods Comparison"
+      ]
+    },
+    "Translate-Train": {
+      "tag_set": [
+        "Analysis",
+        "Cross-Lingual NLI Evaluation",
+        "Definition",
+        "Property",
+        "Translation Artifacts"
+      ]
+    },
+    "Zero-Shot": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Translation Artifacts",
+        "Translation Bias Impact",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "back-translation": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Definition",
+        "Property",
+        "Translation Effects in Cross-lingual Models",
+        "Translation Methods Comparison"
+      ]
+    },
+    "cross-lingual transfer learning": {
+      "tag_set": [
+        "Cause",
+        "Cross-Lingual NLI Evaluation",
+        "Definition",
+        "Scope",
+        "Translation Artifacts",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "Natural Language Inference (NLI)": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Task"
+      ]
+    },
+    "training set": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "lexical overlap": {
+      "tag_set": [
+        "Cause",
+        "Cross-Lingual NLI Evaluation",
+        "Effect",
+        "NLI Stress Tests",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "premise": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Translation Bias Impact"
+      ]
+    },
+    "hypothesis": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation",
+        "Translation Bias Impact"
+      ]
+    },
+    "parallel evaluation sets": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation"
+      ]
+    },
+    "multilingual models": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation"
+      ]
+    },
+    "English datasets": {
+      "tag_set": [
+        "Cross-Lingual NLI Evaluation"
+      ]
+    },
+    "data augmentation": {
+      "tag_set": [
+        "Cause",
+        "Cross-Lingual NLI Evaluation",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Artifacts in QA"
+      ]
+    },
+    "generalization ability": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "XNLI": {
+      "tag_set": [
+        "Evaluation Dataset",
+        "Model Training and Evaluation",
+        "NLI Stress Tests",
+        "Property",
+        "Result",
+        "Translation Artifacts",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Artifacts in QA",
+        "Translation Bias Impact",
+        "Translation Impact on NLI",
+        "Translation Methods Comparison"
+      ]
+    },
+    "PAWS-X": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "XQuAD": {
+      "tag_set": [
+        "Definition",
+        "Evaluation Dataset",
+        "Model Training and Evaluation",
+        "Result",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Artifacts in QA",
+        "Translation Bias Impact"
+      ]
+    },
+    "MLQA": {
+      "tag_set": [
+        "Definition",
+        "Evaluation Dataset",
+        "Model Training and Evaluation",
+        "Result",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Artifacts in QA",
+        "Translation Bias Impact",
+        "Translation Methods Comparison"
+      ]
+    },
+    "TyDi QA": {
+      "tag_set": [
+        "Property",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "MLDoc": {
+      "tag_set": [
+        "Definition",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "Wikiann": {
+      "tag_set": [
+        "Definition",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "SNLI": {
+      "tag_set": [
+        "Property",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "MultiNLI": {
+      "tag_set": [
+        "Definition",
+        "Model Training and Evaluation",
+        "Property",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "translation": {
+      "tag_set": [
+        "Effect",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "entailment": {
+      "tag_set": [
+        "Definition",
+        "NLI Stress Tests",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Bias Impact",
+        "Translation Impact on NLI"
+      ]
+    },
+    "spurious patterns": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "translationese": {
+      "tag_set": [
+        "Definition",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "simplification": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "explicitation": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Definition",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "fine-tuning": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "monolingual corpora": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "parallel data": {
+      "tag_set": [
+        "Property",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "NLI": {
+      "tag_set": [
+        "NLI Stress Tests",
+        "Translation Artifacts",
+        "Translation Artifacts in Multilingual NLP",
+        "Translation Methods Comparison"
+      ]
+    },
+    "QA": {
+      "tag_set": [
+        "Translation Artifacts",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "annotation artifacts": {
+      "tag_set": [
+        "Cause",
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "translation interference": {
+      "tag_set": [
+        "Translation Artifacts in Multilingual NLP"
+      ]
+    },
+    "BLEU": {
+      "tag_set": [
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "Robertas": {
+      "tag_set": [
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "XLM-R": {
+      "tag_set": [
+        "Definition",
+        "Translation Artifacts in QA",
+        "Translation Effects in Cross-lingual Models",
+        "Translation Methods Comparison"
+      ]
+    },
+    "fairseq": {
+      "tag_set": [
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "Translation Effects in Cross-lingual Models",
+        "Translation Impact on NLI"
+      ]
+    },
+    "Spanish": {
+      "tag_set": [
+        "Translation Effects in Cross-lingual Models",
+        "Translation Impact on NLI"
+      ]
+    },
+    "Finnish": {
+      "tag_set": [
+        "Translation Bias Impact",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "Orig": {
+      "tag_set": [
+        "NLI Stress Tests",
+        "Result",
+        "Translation Artifacts in QA",
+        "Translation Bias Impact",
+        "Translation Effects in Cross-lingual Models",
+        "Translation Impact on NLI"
+      ]
+    },
+    "BT-ES": {
+      "tag_set": [
+        "Translation Artifacts in QA",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "BT-FI": {
+      "tag_set": [
+        "NLI Stress Tests",
+        "Property",
+        "Result",
+        "Translation Artifacts in QA",
+        "Translation Bias Impact",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "MT-ES": {
+      "tag_set": [
+        "Translation Effects in Cross-lingual Models",
+        "Translation Impact on NLI"
+      ]
+    },
+    "MT-FI": {
+      "tag_set": [
+        "NLI Stress Tests",
+        "Property",
+        "Result",
+        "Translation Bias Impact",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "human translation": {
+      "tag_set": [
+        "Translation Artifacts",
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "masked language modeling": {
+      "tag_set": [
+        "Translation Effects in Cross-lingual Models"
+      ]
+    },
+    "Transformer model": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "BIBREF29": {
+      "tag_set": [
+        "Definition",
+        "Model Training and Evaluation"
+      ]
+    },
+    "BIBREF30": {
+      "tag_set": [
+        "Model Training and Evaluation",
+        "Property"
+      ]
+    },
+    "SentencePiece": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "32k subwords": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "WMT 2013": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "ParaCrawl v5.0": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "WMT 2019": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "DGT": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "EUbookshop": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "TildeMODEL": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "OPUS": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "langid.py": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "250 tokens": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "1.5 source/target ratio": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "48M sentence pairs": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "7M sentence pairs": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "sampling decoding": {
+      "tag_set": [
+        "Definition",
+        "Model Training and Evaluation"
+      ]
+    },
+    "temperature 0.5": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "beam search": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "2490 development instances": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "5010 test instances": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "15 languages": {
+      "tag_set": [
+        "Model Training and Evaluation"
+      ]
+    },
+    "SQuAD v1.1": {
+      "tag_set": [
+        "Definition",
+        "Model Training and Evaluation"
+      ]
+    },
+    "professional translators": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "document level": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "BT-XX": {
+      "tag_set": [
+        "Result",
+        "Translation Impact on NLI",
+        "Translation Methods Comparison"
+      ]
+    },
+    "MT-XX": {
+      "tag_set": [
+        "Result",
+        "Translation Impact on NLI",
+        "Translation Methods Comparison"
+      ]
+    },
+    "BIBREF39": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "SECREF15": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "SECREF16": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "SECREF17": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "SECREF22": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "SECREF25": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "SECREF30": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "TABREF9": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "ES": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "FI": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "Roberta": {
+      "tag_set": [
+        "Definition",
+        "Translation Methods Comparison"
+      ]
+    },
+    "machine translated English": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "zero-shot": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "human translated": {
+      "tag_set": [
+        "NLI Stress Tests",
+        "Translation Impact on NLI",
+        "Translation Methods Comparison"
+      ]
+    },
+    "target language": {
+      "tag_set": [
+        "Translation Methods Comparison"
+      ]
+    },
+    "CommonCrawl": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "5 websites": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "newspaper": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "economy forum": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "celebrity magazine": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "literature blog": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "consumer magazine": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "2490 examples": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "Gengo": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "machine translation system": {
+      "tag_set": [
+        "Property",
+        "Translation Impact on NLI"
+      ]
+    },
+    "SECREF8": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "TABREF18": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "neutral": {
+      "tag_set": [
+        "NLI Stress Tests",
+        "Translation Impact on NLI"
+      ]
+    },
+    "contradiction": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "machine translated": {
+      "tag_set": [
+        "Translation Impact on NLI"
+      ]
+    },
+    "Stress Tests": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "competence test": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "distraction test": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "noise test": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "negation words": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "spelling errors": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "TABREF23": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "TABREF28": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "translated data": {
+      "tag_set": [
+        "NLI Stress Tests",
+        "Translation Artifacts in QA"
+      ]
+    },
+    "original data": {
+      "tag_set": [
+        "NLI Stress Tests"
+      ]
+    },
+    "logit": {
+      "tag_set": [
+        "Translation Bias Impact"
+      ]
+    },
+    "bias term": {
+      "tag_set": [
+        "Definition",
+        "Translation Bias Impact"
+      ]
+    },
+    "true class distribution": {
+      "tag_set": [
+        "Translation Bias Impact"
+      ]
+    },
+    "translation procedure": {
+      "tag_set": [
+        "Cause",
+        "Translation Bias Impact"
+      ]
+    },
+    "answer spans": {
+      "tag_set": [
+        "Translation Bias Impact"
+      ]
+    },
+    "cross-lingual models": {
+      "tag_set": [
+        "Translation Bias Impact"
+      ]
+    },
+    "parallel contexts": {
+      "tag_set": [
+        "Translation Artifacts in QA"
+      ]
+    },
+    "cross-lingual transfer": {
+      "tag_set": [
+        "Translation Artifacts in QA"
+      ]
+    },
+    "SECREF2": {
+      "tag_set": [
+        "Translation Artifacts in QA"
+      ]
+    },
+    "premises": {
+      "tag_set": [
+        "Translation Artifacts in QA"
+      ]
+    },
+    "hypotheses": {
+      "tag_set": [
+        "Translation Artifacts in QA"
+      ]
+    },
+    "translated premises": {
+      "tag_set": [
+        "Translation Artifacts in QA"
+      ]
+    },
+    "translated hypotheses": {
+      "tag_set": [
+        "Translation Artifacts in QA"
+      ]
+    },
+    "state-of-the-art": {
+      "tag_set": [
+        "Result",
+        "Translation Artifacts"
+      ]
+    },
+    "4.6 points": {
+      "tag_set": [
+        "Translation Artifacts"
+      ]
+    },
+    "0.8 points": {
+      "tag_set": [
+        "Translation Artifacts"
+      ]
+    },
+    "Facebook": {
+      "tag_set": [
+        "Translation Artifacts"
+      ]
+    },
+    "IXA group": {
+      "tag_set": [
+        "Translation Artifacts"
+      ]
+    },
+    "Nora Aranberri": {
+      "tag_set": [
+        "Translation Artifacts"
+      ]
+    },
+    "Uxoa I\u00f1urrieta": {
+      "tag_set": [
+        "Translation Artifacts"
+      ]
+    },
+    "Fellowship": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "Basque Government": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "IT1343-19": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "MINECO": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "UnsupMT TIN2017-91692-EXP MCIU/AEI/FEDER": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "UE": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "Project BigKnowledge": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "Fundaci\u00f3 BBVA": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "Ayudas Fundaci\u00f3 BBVA": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "2018": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "NVIDIA GPU grant program": {
+      "tag_set": [
+        "Research Funding"
+      ]
+    },
+    "translation-based dataset creation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Translate-Test approach": {
+      "tag_set": [
+        "Definition",
+        "Method"
+      ]
+    },
+    "Translate-Train approach": {
+      "tag_set": [
+        "Cause",
+        "Definition"
+      ]
+    },
+    "Zero-Shot approach": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "translation mismatch": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "machine translation artifacts": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "NLI performance improvement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "data augmentation hypothesis": {
+      "tag_set": [
+        "Rejection"
+      ]
+    },
+    "adversarial datasets": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "machine translation evaluation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "training variants": {
+      "tag_set": [
+        "List"
+      ]
+    },
+    "test time procedures": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "duplicate sentences in training set": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "SentencePiece tokenization": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "English-Spanish training": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "English-Finnish training": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sentence filtering": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "final corpus size": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "XNLI annotation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "best epoch checkpoint": {
+      "tag_set": [
+        "Selection Criterion"
+      ]
+    },
+    "Question Answering (QA)": {
+      "tag_set": [
+        "Task"
+      ]
+    },
+    "translation in evaluation": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "BT-ES and BT-FI variants": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "MT-ES and MT-FI systems": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "XNLI development set": {
+      "tag_set": [
+        "Definition",
+        "Property"
+      ]
+    },
+    "Back-translation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Average improvement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "MT-ES and MT-FI performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Training and test data mismatch": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "BT-XX and MT-XX variants": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "new Spanish test set": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "human translated English version": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "machine translated English version": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "original English test set": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "machine translated test set (MT-ES)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "NLI experiments": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "Zero-Shot transfer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "NLI Stress Tests": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Competence test": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Distraction test": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Noise test": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NLI models": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "English test set": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "human-translated test sets": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "BT-FI and MT-FI": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "XNLI test set": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "MT-ES and MT-FI": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BT-ES and BT-FI": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "translation artifacts": {
+      "tag_set": [
+        "Cause",
+        "Definition"
+      ]
+    },
+    "cross-lingual transfer gap on XNLI": {
+      "tag_set": [
+        "Conclusion"
+      ]
+    },
+    "BIBREF4 method": {
+      "tag_set": [
+        "Reconsideration"
+      ]
+    },
+    "original datasets": {
+      "tag_set": [
+        "Alternative View"
+      ]
+    },
+    "future evaluation": {
+      "tag_set": [
+        "Recommendation"
+      ]
+    },
+    "consistent test sets": {
+      "tag_set": [
+        "Solution"
+      ]
+    },
+    "NLI dataset": {
+      "tag_set": [
+        "Release"
+      ]
+    },
+    "translation phenomenon": {
+      "tag_set": [
+        "Scope"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nWhile most NLP resources are English-specific, there have been several recent efforts",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NLP Resources"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "to build multilingual benchmarks. One possibility is to collect and annotate data in multiple languages separately BIB",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multilingual Benchmarks"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "REF0, but most existing datasets have been created through translation BIBREF1, BIBREF2. This approach has two desirable properties: it relies on existing professional translation services rather than requiring expertise in multiple languages, and it results in parallel evaluation sets that offer a meaningful measure of the cross-lingual transfer gap of different models. The resulting multilingual datasets are generally used for evaluation only, relying on existing English datasets for training. Closely related to that, cross-lingual transfer learning aims to leverage large datasets available in one language\u2014typically English\u2014to build multilingual models that can generalize to other languages. Previous work has explored 3 main approaches to that end: machine translating the test set into English and using a monolingual English model (Translate-Test), machine translating the training set into each target language and training the models on their respective languages (Translate-Train), or using English data to fine-tune a multilingual model that is then transferred to the rest of languages (Zero-Shot). The dataset creation and transfer procedures described above result in a mixture of original, human translated and machine translated data when dealing with cross-lingual models. In fact, the type of text a system is trained on does not typically match the type of text it is exposed to at test time: Translate-Test systems are trained on original data and evaluated on machine translated test sets, Zero-Shot systems are trained on original data and evaluated on human translated test sets, and Translate-Train systems are trained on machine translated data and evaluated on human translated test sets. Despite overlooked to date, we show that such mismatch has a notable impact in the performance of existing cross-lingual models. By using back-translation BIBREF3 to paraphrase each training instance, we obtain another English version of the training set that better resembles the test set, obtaining substantial improvements for the Translate-Test and Zero-Shot approaches in cross-lingual Natural Language Inference (NLI). While improvements brought by machine translation have previously been attributed to data augmentation BIBREF4, we reject this hypothesis and show that the phenomenon is only present in translated test sets, but not in original ones. Instead, our analysis reveals that this behavior is caused by subtle artifacts arising from the translation process itself. In particular, we show that translating different parts of each instance separately (e.g. the premise and the hypothesis in NLI) can alter superficial patterns in the data (e.g. the degree of lexical overlap between them), which severely",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Cross-Lingual NLI Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "affects the generalization ability of current models. Based on the gained insights, we improve the state-of-the-art in XNLI, and show that some previous findings need to be reconsidered in the light of this phenomenon. Related work ::: Cross-lingual transfer learning. Current cross-lingual models work by pre-training multilingual representations using some form of language modeling, which are then fine-tuned on the relevant task and transferred to different languages. Some authors leverage parallel data to that end BIBREF5, BIBREF6, but training a model akin to BERT BIBREF7 on the combination of monolingual corpora in multiple languages is also effective BIBREF8. Closely related to our work, BIBREF4 showed that replacing segments of the training data with their translation during fine-tuning is helpful. However, they attribute this behavior to a data augmentation effect, which we believe should be reconsidered given the new evidence we provide. Related work ::: Multilingual benchmarks. Most benchmarks covering a wide set of languages have been created through translation, as it is the case of XNLI BIBREF1 for NLI, PAWS-X BIBREF9 for adversarial paraphrase identification, and XQuAD BIBREF2 and MLQA BIBREF10 for Question Answering (QA). A notable exception is TyDi QA BIBREF0, a contemporaneous QA dataset that was separately annotated in 11 languages. Other cross-lingual datasets leverage existing multilingual resources, as it is the case of MLDoc BIBREF11 for document classification and Wikiann BIBREF12 for named entity recognition. Concurrent to our work, BIBREF13 combine some of these datasets into a single multilingual benchmark, and evaluate some well-known methods on it. Related work ::: Annotation artifacts. Several studies have shown that NLI datasets like SNLI BIBREF14 and MultiNLI BIBREF15 contain spurious patterns that can be exploited to obtain strong results without making real inferential decisions. For instance, BIBREF16 and BIBREF17 showed that a hypothesis-only baseline performs better than chance due to cues on their lexical choice and sentence length. Similarly, BIBREF18 showed that NLI models tend to predict entailment for sentence pairs with a high lexical overlap. Several authors have worked on adversarial datasets to diagnose these issues and provide a more challenging benchmark BIBREF19, BIBREF20, BIBREF21. Besides NLI, other tasks like QA have also been found to be susceptible to annotation artifacts BIBREF22, BIBREF23. While previous work has focused on the monolingual scenario, we show that translation can interfere with these artifacts in multilingual settings. Related work ::: Translationese. Translated texts are known to have unique features like simplification, explicitation,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Artifacts in Multilingual NLP"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "normalization and interference, which are refer to as translationese BIBREF24. This phenomenon has been reported to have a notable impact in machine translation evaluation BIBREF25, BIBREF26. For instance, back-translation brings large BLEU gains for reversed test sets (i.e. when translationese is on the source side and original text is used as reference), but its effect diminishes in the natural direction BIBREF27. While connected, the phenomenon we analyze is different in that it arises from translation inconsistencies due to the lack of context, and affects cross-lingual transfer learning rather than machine translation. Experimental design Our goal is to analyze the effect of both human and machine translation in cross-lingual models. For that purpose, the core idea of our work is to (i) use machine translation to either translate the training set into other languages, or generate English paraphrases of it through back-translation, and (ii) evaluate the resulting systems on original, human translated and machine translated test sets in comparison with systems trained on original data. We next describe the models used in our experiments (\u00a7SECREF6), the specific training variants explored (\u00a7SECREF8), and the evaluation procedure followed (\u00a7SECREF10). Experimental design ::: Models and transfer methods We experiment with two models that are representative of the state-of-the-art in monolingual and cross-lingual pre-training: (i) Roberta BIBREF28, which is an improved version of BERT that uses masked language modeling to pre-train an English Transformer model, and (ii) XLM-R BIBREF8, which is a multilingual extension of the former pre-trained on 100 languages. In both cases, we use the large models released by the authors under the fairseq repository. As discussed next, we explore different variants of the training set to fine-tune each model on different tasks. At test time, we try both machine translating the test set into English (Translate-Test) and, in the case of XLM-R, using the actual test set in the target language (Zero-Shot). Experimental design ::: Training variants We try 3 variants of each training set to fine-tune our models: (i) the original one in English (Orig), (ii) an English paraphrase of it generated through back-translation using Spanish or Finnish as pivot (BT-ES and BT-FI), and (iii) a machine translated version in Spanish or Finnish (MT-ES and MT-FI). For sentences occurring multiple times in the training set (e.g. premises repeated for multiple hypotheses), we use the exact same translation for all occurrences, as our goal is to understand the inherent effect of translation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Effects in Cross-lingual Models"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "rather than its potential application as a data augmentation method. In order to train the machine translation systems for MT-XX and BT-XX, we use the big Transformer model BIBREF29 with the same settings as BIBREF30 and SentencePiece tokenization BIBREF31 with a joint vocabulary of 32k subwords. For English-Spanish, we train for 10 epochs on all parallel data from WMT 2013 BIBREF32 and ParaCrawl v5.0 BIBREF33. For English-Finnish, we train for 40 epochs on Europarl and Wiki Titles from WMT 2019 BIBREF34, ParaCrawl v5.0, and DGT, EUbookshop and TildeMODEL from OPUS BIBREF35. In both cases, we remove sentences longer than 250 tokens, with a source/target ratio exceeding 1.5, or for which langid.py BIBREF36 predicts a different language, resulting in a final corpus size of 48M and 7M sentence pairs, respectively. We use sampling decoding with a temperature of 0.5 for inference, which produces more diverse translations than beam search BIBREF37 and performed better in our preliminary experiments. Experimental design ::: Tasks and evaluation procedure We use the following tasks for our experiments: Experimental design ::: Tasks and evaluation procedure ::: Natural Language Inference (NLI). Given a premise and a hypothesis, the task is to determine whether there is an entailment, neutral or contradiction relation between them. We fine-tune our models on MultiNLI BIBREF15 for 10 epochs using the same settings as BIBREF28. In most of our experiments, we evaluate on XNLI BIBREF1, which comprises 2490 development and 5010 test instances in 15 languages. These were originally annotated in English, and the resulting premises and hypotheses were independently translated into the rest of the languages by professional translators. For the Translate-Test approach, we use the machine translated versions from the authors. Following BIBREF8, we select the best epoch checkpoint according to the average accuracy in the development set. Experimental design ::: Tasks and evaluation procedure ::: Question Answering (QA). Given a context paragraph and a question, the task is to identify the span answering the question in the context. We fine-tune our models on SQuAD v1.1 BIBREF38 for 2 epochs using the same settings as BIBREF28, and report test results for the last epoch. We use two datasets for evaluation: XQuAD BIBREF2, a subset of the SQuAD development set translated into 10 other languages, and MLQA BIBREF10 a dataset consisting of parallel context paragraphs plus the corresponding questions annotated in English and translated into 6 other languages. In both cases, the translation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training and Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "was done by professional translators at the document level (i.e. when translating a question, the text answering it was also shown). For our BT-XX and MT-XX variants, we translate the context paragraph and the questions independently, and map the answer spans using the same procedure as BIBREF39. For the Translate-Test approach, we use the official machine translated versions of MLQA, run inference over them, and map the predicted answer spans back to the target language. Both for NLI and QA, we run each system 5 times with different random seeds and report the average results. Space permitting, we also report the standard deviation across the 5 runs. NLI experiments We next discuss our main results in the XNLI development set (\u00a7SECREF15, \u00a7SECREF16), run additional experiments to better understand the behavior of our different variants (\u00a7SECREF17, \u00a7SECREF22, \u00a7SECREF25), and compare our results to previous work in the XNLI test set (\u00a7SECREF30). NLI experiments ::: Translate-Test results We start by analyzing XNLI development results for Translate-Test. Recall that, in this approach, the test set is machine translated into English, but training is typically done on original English data. Our BT-ES and BT-FI variants close this gap by training on a machine translated English version of the training set generated through back-translation. As shown in Table TABREF9, this brings substantial gains for both Roberta and XLM-R, with an average improvement of 4.6 points in the best case. Quite remarkably, MT-ES and MT-FI also outperform Orig by a substantial margin, and are only 0.8 points below their BT-ES and BT-FI counterparts. Recall that, for these two systems, training is done in machine translated Spanish or Finnish, while inference is done in machine translated English. This shows that the loss of performance when generalizing from original data to machine translated data is substantially larger than the loss of performance when generalizing from one language to another. NLI experiments ::: Zero-Shot results We next analyze the results for the Zero-Shot approach. In this case, inference is done in the test set in each target language which, in the case of XNLI, was human translated from English. As such, different from the Translate-Test approach, neither training on original data (Orig) nor training on machine translated data (BT-XX and MT-XX) makes use of the exact same type of text that the system is exposed to at test time. However, as shown in Table TABREF9, both BT-XX and MT-XX",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Methods Comparison"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "outperform Orig by approximately 2 points, which suggests that our (back-)translated versions of the training set are more similar to the human translated test sets than the original one. This also provides a new perspective on the Translate-Train approach, which was reported to outperform Orig in previous work BIBREF5: while the original motivation was to train the model on the same language that it is tested on, our results show that machine translating the training set is beneficial even when the target language is different. NLI experiments ::: Original vs. translated test sets So as to understand whether the improvements observed so far are limited to translated test sets or apply more generally, we conduct additional experiments comparing translated test sets to original ones. However, to the best of our knowledge, all existing non-English NLI benchmarks were created through translation. For that reason, we build a new test set that mimics XNLI, but is annotated in Spanish rather than English. We first collect the premises from a filtered version of CommonCrawl BIBREF42, taking a subset of 5 websites that represent a diverse set of genres: a newspaper, an economy forum, a celebrity magazine, a literature blog, and a consumer magazine. We then ask native Spanish annotators to generate an entailment, a neutral and a contradiction hypothesis for each premise. We collect a total of 2490 examples using this procedure, which is the same size as the XNLI development set. Finally, we create a human translated and a machine translated English version of the dataset using professional translators from Gengo and our machine translation system described in \u00a7SECREF8, respectively. We report results for the best epoch checkpoint on each set. As shown in Table TABREF18, both BT-XX and MT-XX clearly outperform Orig in all test sets created through translation, which is consistent with our previous results. In contrast, the best results on the original English set are obtained by Orig, and neither BT-XX nor MT-XX obtain any clear improvement on the one in Spanish either. This confirms that the underlying phenomenon is limited to translated test sets. In addition, it is worth mentioning that the results for the machine translated test set in English are slightly better than those for the human translated one, which suggests that the difficulty of the task does not only depend on the translation quality. Finally, it is also interesting that MT-ES is only marginally better",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Impact on NLI"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "than MT-FI in both Spanish test sets, even if it corresponds to the Translate-Train approach, whereas MT-FI needs to Zero-Shot transfer from Finnish into Spanish. This reinforces the idea that it is training on translated data rather than training on the target language that is key in Translate-Train. NLI experiments ::: Stress tests In order to better understand how systems trained on original and translated data differ, we run additional experiments on the NLI Stress Tests BIBREF19, which were designed to test the robustness of NLI models to specific linguistic phenomena in English. The benchmark consists of a competence test, which evaluates the ability to understand antonymy relation and perform numerical reasoning, a distraction test, which evaluates the robustness to shallow patterns like lexical overlap and the presence of negation words, and a noise test, which evaluates robustness to spelling errors. Just as with previous experiments, we report results for the best epoch checkpoint in each test set. As shown in Table TABREF23, Orig outperforms BT-FI and MT-FI on the competence test by a large margin, but the opposite is true on the distraction test. In particular, our results show that BT-FI and MT-FI are less reliant on lexical overlap and the presence of negative words. This feels intuitive, as translating the premise and hypothesis independently\u2014as BT-FI and MT-FI do\u2014is likely to reduce the lexical overlap between them. More generally, the translation process can alter similar superficial patterns in the data, which NLI models are sensitive to (\u00a7SECREF2). This would explain why the resulting models have a different behavior on different stress tests. NLI experiments ::: Output class distribution With the aim to understand the effect of the previous phenomenon in cross-lingual settings, we look at the output class distribution of our different models in the XNLI development set. As shown in Table TABREF28, the predictions of all systems are close to the true class distribution in the case of English. Nevertheless, Orig is strongly biased for the rest of languages, and tends to underpredict entailment and overpredict neutral. This can again be attributed to the fact that the English test set is original, whereas the rest are human translated. In particular, it is well-known that NLI models tend to predict entailment when there is a high lexical overlap between the premise and the hypothesis (\u00a7SECREF2). However, the degree of overlap will be smaller in the human translated test sets",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "NLI Stress Tests"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "given that the premise and the hypothesis were translated independently, which explains why entailment is underpredicted. In contrast, BT-FI and MT-FI are exposed to the exact same phenomenon during training, which explains why they are not that heavily affected. So as to measure the impact of this phenomenon, we explore a simple approach to correct this bias: having fine-tuned each model, we adjust the bias term added to the logit of each class so the model predictions match the true class distribution for each language. As shown in Table TABREF29, this brings large improvements for Orig, but is less effective for BT-FI and MT-FI. This shows that the performance of Orig was considerably hindered by this bias, which BT-FI and MT-FI effectively mitigate. NLI experiments ::: Comparison with the state-of-the-art So as to put our results into perspective, we compare our best variant to previous work on the XNLI test set. As shown in Table TABREF31, our method improves the state-of-the-art for both the Translate-Test and the Zero-Shot approaches by 4.3 and 2.8 points, respectively. It also obtains the best overall results published to date, with the additional advantage that the previous state-of-the-art required a machine translation system between English and each of the 14 target languages, whereas our method uses a single machine translation system between English and Finnish (which is not one of the target languages). While the main goal of our work is not to design better cross-lingual models, but to analyze their behavior in connection to translation, this shows that the phenomenon under study is highly relevant, to the extent that it can be exploited to improve the state-of-the-art. QA experiments So as to understand whether our previous findings apply to other tasks besides NLI, we run additional experiments on QA. As shown in Table TABREF32, BT-FI and BT-ES do indeed outperform Orig for the Translate-Test approach on MLQA. The improvement is modest, but very consistent across different languages, models and runs. The results for MT-ES and MT-FI are less conclusive, presumably because mapping the answer spans across languages might introduce some noise. In contrast, we do not observe any clear improvement for the Zero-Shot approach on this dataset. Our XQuAD results in Table TABREF33 are more positive, but still inconclusive. These results can partly be explained by the translation procedure used to create the different benchmarks: the premises and hypotheses of XNLI were translated independently,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Bias Impact"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "whereas the questions and context paragraphs of XQuAD were translated together. Similarly, MLQA made use of parallel contexts, and translators were shown the sentence containing each answer when translating the corresponding question. As a result, one can expect both QA benchmarks to have more consistent translations than XNLI, which would in turn diminish this phenomenon. In contrast, the questions and context paragraphs are independently translated when using machine translation, which explains why BT-ES and BT-FI outperform Orig for the Translate-Test approach. We conclude that the translation artifacts revealed by our analysis are not exclusive to NLI, as they also show up on QA for the Translate-Test approach, but their actual impact can be highly dependent on the translation procedure used and the nature of the task. Discussion Our analysis prompts to reconsider previous findings in cross-lingual transfer learning as follows: Discussion ::: The cross-lingual transfer gap on XNLI was overestimated. Given the parallel nature of XNLI, accuracy differences across languages are commonly interpreted as the loss of performance when generalizing from English to the rest of languages. However, our work shows that there is another factor that can have a much larger impact: the loss of performance when generalizing from original to translated data. Our results suggest that the real cross-lingual generalization ability of XLM-R is considerably better than what the accuracy numbers in XNLI reflect. Discussion ::: Overcoming the cross-lingual gap is not what makes Translate-Train work. The original motivation for Translate-Train was to train the model on the same language it is tested on. However, we show that it is training on translated data, rather than training on the target language, that is key for this approach to outperform Zero-Shot as reported by previous authors. Discussion ::: Improvements previously attributed to data augmentation should be reconsidered. The method by BIBREF4 combines machine translated premises and hypotheses in different languages (\u00a7SECREF2), resulting in an effect similar to BT-XX and MT-XX. As such, we believe that this method should be analyzed from the point of view of dataset artifacts rather than data augmentation, as the authors do. From this perspective, having the premise and the hypotheses in different languages can reduce the superficial patterns between them, which would explain why this approach is better than using examples in a single language. Discussion ::: The potential of Translate-Test was underestimated. The previous best results for Translate-Test on XNLI lagged behind the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Artifacts in QA"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "state-of-the-art by 4.6 points. Our work reduces this gap to only 0.8 points by addressing the underlying translation artifacts. The reason why Translate-Test is more severely affected by this phenomenon is twofold: (i) the effect is doubled by first using human translation to create the test set and then machine translation to translate it back to English, and (ii) Translate-Train was inadvertently mitigating this issue (see above), but equivalent techniques were never applied to Translate-Test. Discussion ::: Future evaluation should better account for translation artifacts. The evaluation issues raised by our analysis do not have a simple solution. In fact, while we use the term translation artifacts to highlight that they are an unintended effect of translation that impacts final evaluation, one could also argue that it is the original datasets that contain the artifacts, which translation simply alters or even mitigates. In any case, this is a more general issue that falls beyond the scope of cross-lingual transfer learning, so we argue that it should be carefully controlled when evaluating cross-lingual models. In the absence of more robust datasets, we recommend that future multilingual benchmarks should at least provide consistent test sets for English and the rest of languages. This can be achieved by (i) using original annotations in all languages, (ii) using original annotations in a non-English language and translating them into English and other languages, or (iii) if translating from English, doing so at the document level to minimize translation inconsistencies. Conclusions In this paper, we have shown that both human and machine translation can alter superficial patterns in data, which requires reconsidering previous findings in cross-lingual transfer learning. Based on the gained insights, we have improved the state-of-the-art in XNLI for the Translate-Test and Zero-Shot approaches by a substantial margin. Finally, we have shown that the phenomenon is not specific to NLI but also affects QA, although it is less pronounced there thanks to the translation procedure used in the corresponding benchmarks. So as to facilitate similar studies in the future, we release our NLI dataset, which, unlike previous benchmarks, was annotated in a non-English language and human translated into English. Acknowledgments We thank Nora Aranberri and Uxoa I\u00f1urrieta for helpful discussion during the development of this work, as well as the rest of our colleagues from the IXA group that worked as annotators for our NLI dataset. This research was partially funded by a Facebook",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Translation Artifacts"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "Fellowship, the Basque Government excellence research group (IT1343-19), the Spanish MINECO (UnsupMT TIN2017\u201091692\u2010EXP MCIU/AEI/FEDER, UE), Project BigKnowledge (Ayudas Fundaci\u00f3n BBVA a equipos de investigaci\u00f3n cient\u00edfica 2018), and the NVIDIA GPU grant program.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Research Funding"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Multilingual benchmarks are datasets designed to evaluate natural language processing models across multiple languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Most existing multilingual datasets are created by translating data from one language to another, rather than collecting and annotating data in multiple languages separately.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "The Translate-Test approach involves translating the test set into English and using a monolingual English model to evaluate performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The Translate-Train approach involves translating the training set into each target language and training models on the translated data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The Zero-Shot approach uses English data to fine-tune a multilingual model, which is then transferred to perform in other languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Cross-lingual transfer learning leverages large monolingual datasets\u2014typically in English\u2014to build models that can generalize to other languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Back-translation involves paraphrasing training instances in English using machine translation to create a more test-like training set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "There is a mismatch between the type of text used for training and evaluation in cross-lingual models, which negatively impacts performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Subtle artifacts from the translation process, such as altered lexical overlap between premise and hypothesis, cause performance degradation in cross-lingual models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Back-translation leads to substantial improvements in cross-lingual Natural Language Inference (NLI) for the Translate-Test and Zero-Shot approaches.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The previously attributed improvement from machine translation due to data augmentation is rejected; the effect is only observed in translated test sets, not original ones.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Rejection"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Cross-lingual transfer learning involves pre-training multilingual representations using language modeling and then fine-tuning them on specific tasks and transferring them to different languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Some authors leverage parallel data to improve cross-lingual models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "BERT is a pre-trained language model that has been adapted for use in multilingual settings by training on monolingual corpora in multiple languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Replacing segments of training data with their translations during fine-tuning is attributed to a data augmentation effect in previous work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The state-of-the-art in XNLI is improved based on new insights into translation effects in cross-lingual models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Translation can interfere with annotation artifacts in multilingual settings, which was not previously considered.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The SNLI dataset contains spurious patterns that can be exploited to achieve strong results without real inferential decisions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "MultiNLI datasets contain spurious patterns, such as lexical overlap, which lead models to predict entailment incorrectly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Translated texts exhibit unique features such as simplification and explicitation, known as translationese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "TyDi QA is a multilingual QA dataset that was separately annotated in 11 languages, unlike most cross-lingual benchmarks that rely on translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "MLDoc is a multilingual dataset used for document classification that leverages existing multilingual resources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Wikiann is a multilingual dataset used for named entity recognition that leverages existing multilingual resources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Adversarial datasets are created to diagnose annotation artifacts and provide a more challenging benchmark for evaluating models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Annotation artifacts in NLI and QA tasks arise from spurious patterns in datasets, such as lexical cues or sentence length, that can be exploited by models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Translationese refers to normalization and interference effects that arise from translation inconsistencies due to lack of context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Translationese has a notable impact on machine translation evaluation, particularly in scenarios involving back-translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Back-translation brings large BLEU gains for reversed test sets where translationese is on the source side, but its effect diminishes in natural translation directions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The phenomenon of translationese arises from translation inconsistencies due to lack of context and affects cross-lingual transfer learning rather than machine translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Roberta is an improved version of BERT that uses masked language modeling to pre-train an English Transformer model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "XLM-R is a multilingual extension of Roberta, pre-trained on 100 languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The training variants include the original English data (Orig), English paraphrases generated via back-translation using Spanish or Finnish (BT-ES, BT-FI), and machine-translated versions in Spanish or Finnish (MT-ES, MT-FI).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "List"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "At test time, systems are evaluated using either machine translation of the test set into English (Translate-Test) or the actual target-language test set (Zero-Shot) for XLM-R.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "For sentences that occur multiple times in the training set, the same translation is used across all occurrences to isolate the effect of translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The big Transformer model BIBREF29 is used to train machine translation systems for MT-XX and BT-XX.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The training settings for the big Transformer model BIBREF29 are the same as those specified in BIBREF30.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "SentencePiece tokenization BIBREF31 is used with a joint vocabulary of 32k subwords for training MT-XX and BT-XX models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The English-Spanish machine translation model is trained for 10 epochs on parallel data from WMT 2013 and ParaCrawl v5.0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The English-Finnish machine translation model is trained for 40 epochs on Europarl, Wiki Titles from WMT 2019, ParaCrawl v5.0, DGT, EUbookshop, and TildeMODEL from OPUS.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Sentences longer than 250 tokens, with a source/target ratio exceeding 1.5, or incorrectly identified by langid.py are removed from the training corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "After filtering, the final corpus contains 48M and 7M sentence pairs for English-Spanish and English-Finnish, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Sampling decoding with a temperature of 0.5 is used for inference, producing more diverse translations than beam search.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The NLI task involves determining whether a hypothesis is entailed, neutral, or contradicted by a premise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The models are fine-tuned on the MultiNLI dataset for 10 epochs using settings from BIBREF28.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The models are evaluated on XNLI, which includes 2490 development and 5010 test instances in 15 languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Dataset"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The premises and hypotheses in XNLI were originally annotated in English and then independently translated into other languages by professional translators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "In the Translate-Test approach, machine-translated versions from the authors are used for evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The best epoch checkpoint is selected based on the average accuracy in the development set, following BIBREF8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Selection Criterion"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The QA task involves identifying the span in a context paragraph that answers a given question.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The models are fine-tuned on SQuAD v1.1 for 2 epochs using settings from BIBREF28.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "XQuAD is a dataset consisting of SQuAD development set translations into 10 other languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Dataset"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "MLQA consists of parallel context paragraphs and questions annotated in English and translated into 6 other languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Dataset"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "In both XQuAD and MLQA evaluations, the translation of the context and questions is used for assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The Translate-Test approach uses official machine translated versions of MLQA, runs inference over them, and maps predicted answer spans back to the target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "BT-ES and BT-FI variants train on a machine translated English version of the training set generated through back-translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "MT-ES and MT-FI systems train in machine translated Spanish or Finnish and perform inference in machine translated English.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The XNLI development set is used to analyze Translate-Test results and evaluate model performance before testing on the XNLI test set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Back-translation involves generating a machine translated version of the training data in the target language and using it as training data in the source language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Back-translation (BT-ES and BT-FI) brings an average improvement of 4.6 points in the best case for Roberta and XLM-R models on the XNLI development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "MT-ES and MT-FI outperform the original (Orig) system by a substantial margin and are only 0.8 points below their BT-ES and BT-FI counterparts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "In the Zero-Shot approach, inference is performed in the target language using human-translated test data from English.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "In the Zero-Shot approach, neither training on original data nor training on machine translated data uses the exact same type of text as seen at test time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "BT-XX and MT-XX variants train on machine translated data, which differs from the test-time data in the Zero-Shot setting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "BT-XX outperforms the original (Orig) by approximately 2 points on translated test sets, indicating that back-translated training data is more similar to human-translated test sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "MT-XX outperforms the original (Orig) on all translated test sets, consistent with previous findings on the benefits of translation in training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The Translate-Train approach benefits from machine translation of the training set even when the target language differs from the test language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "A newly created NLI test set mimicking XNLI but annotated in Spanish, consisting of 2490 examples derived from filtered CommonCrawl and annotated by native Spanish speakers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The human translated English version of the Spanish test set is created using professional translators from Gengo.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The machine translated English version of the Spanish test set is created using the machine translation system described in \u00a7SECREF8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The original English test set achieves the best performance, with neither BT-XX nor MT-XX showing clear improvement on it.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "MT-ES shows only a marginal improvement over the human translated test set, suggesting that translation quality does not solely determine task difficulty.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The NLI experiments aim to determine whether performance improvements are limited to translated test sets or generalize to original ones.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "MT-FI performs worse than MT-FI in both Spanish test sets, despite using the Translate-Train approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "Translate-Train refers to a training approach where models are trained on translated data rather than on the target language directly.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "MT-FI requires Zero-Shot transfer from Finnish into Spanish during evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "NLI Stress Tests are a benchmark designed to evaluate the robustness of NLI models to linguistic phenomena such as antonymy, lexical overlap, and spelling errors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The competence test in NLI Stress Tests evaluates a model's ability to understand antonymy and perform numerical reasoning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The distraction test in NLI Stress Tests evaluates a model's robustness to shallow patterns like lexical overlap and negation words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The noise test in NLI Stress Tests evaluates a model's robustness to spelling errors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Orig outperforms BT-FI and MT-FI on the competence test of the NLI Stress Tests by a large margin.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "BT-FI performs worse than Orig on the distraction test of the NLI Stress Tests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "MT-FI performs worse than Orig on the distraction test of the NLI Stress Tests.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Translating premises and hypotheses independently reduces lexical overlap between them, which explains the reduced sensitivity of BT-FI and MT-FI to such patterns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "NLI models are sensitive to superficial linguistic patterns such as lexical overlap and negation words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The XNLI development set is used to analyze the output class distribution of NLI models across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Orig is strongly biased toward neutral predictions and underpredicts entailment in non-English test sets of the XNLI development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "The English test set in XNLI is original, while the rest are human-translated, which influences the output class distribution of models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "High lexical overlap between premise and hypothesis tends to cause NLI models to predict entailment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Human-translated test sets have reduced lexical overlap compared to original test sets, leading to different model behaviors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Entailment is underpredicted because the premise and hypothesis were translated independently.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "BT-FI is not heavily affected by the bias in translation due to being exposed to the same phenomenon during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "MT-FI is not heavily affected by the bias in translation due to being exposed to the same phenomenon during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "A bias term is adjusted in the logit of each class to match the true class distribution for each language after fine-tuning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Adjusting the bias term significantly improves the performance of Orig.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The performance of BT-FI and MT-FI is less improved by bias correction, indicating they effectively mitigate the bias.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Our method improves the state-of-the-art on the XNLI test set by 4.3 points for Translate-Test and 2.8 points for Zero-Shot.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Our method uses a single machine translation system between English and Finnish, unlike previous state-of-the-art methods that require translation between English and each of 14 target languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "BT-FI and BT-ES outperform Orig on the Translate-Test approach in MLQA with modest but consistent improvements across languages, models, and runs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The results for MT-ES and MT-FI on MLQA are less conclusive, likely due to noise introduced by mapping answer spans across languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "No clear improvement is observed for the Zero-Shot approach on MLQA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "XQuAD results are more positive but still inconclusive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The translation procedure used to create XNLI benchmarks\u2014translating premises and hypotheses independently\u2014explains the observed performance differences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "XQuAD is a benchmark that includes questions and context paragraphs translated together.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "MLQA uses parallel contexts and shows translators the sentence containing each answer during translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "XNLI has parallel translations, which can lead to more consistent translations compared to independently translated datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "BT-ES and BT-FI outperform Orig in the Translate-Test approach due to independent translation of questions and context paragraphs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Translation artifacts are not exclusive to NLI and also appear in QA benchmarks under the Translate-Test approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The cross-lingual transfer gap on XNLI was overestimated because performance differences are partly due to translation loss rather than true generalization ability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The success of Translate-Train is due to training on translated data, not training on the target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "Improvements from BIBREF4 should be viewed as dataset artifacts rather than data augmentation due to the use of multilingual premises and hypotheses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reconsideration"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The potential of Translate-Test was underestimated, as previous results lagged behind what is achievable.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Potential"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The gap between current performance and state-of-the-art in XNLI for Translate-Test and Zero-Shot approaches was reduced from 4.6 points to 0.8 points.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Translate-Test is more severely affected by translation artifacts because human translation is used to create the test set and then machine translation is applied to convert it back to English, doubling the effect.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Translate-Train inadvertently mitigated translation artifacts, but equivalent techniques were not applied to Translate-Test.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Translation artifacts are unintended effects of translation that impact final evaluation, such as altering superficial patterns in data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Some argue that translation artifacts are not introduced by translation but are inherent in the original datasets, which translation merely alters or mitigates.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Alternative View"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Future multilingual benchmarks should provide consistent test sets for English and other languages to better control translation artifacts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Recommendation"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Consistent test sets can be achieved by using original annotations in all languages, translating non-English annotations into English and other languages, or translating from English at the document level to minimize inconsistencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "The issue of translation artifacts falls beyond the scope of cross-lingual transfer learning and should be carefully controlled in evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Scope"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "The authors released an NLI dataset annotated in a non-English language and human-translated into English, unlike previous benchmarks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Release"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The phenomenon of translation altering data patterns is not specific to NLI but also affects question answering, though it is less pronounced due to translation procedures in QA benchmarks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Scope"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.8 points",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "1.5 source/target ratio",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "15 languages",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "2018",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "2490 development instances",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "2490 examples",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "250 tokens",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "32k subwords",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "4.6 points",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "48M sentence pairs",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "5 websites",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "5010 test instances",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "7M sentence pairs",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Average improvement",
+      "Result",
+      "s59"
+    ],
+    [
+      "Ayudas Fundaci\u00f3 BBVA",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "BERT",
+      "Definition",
+      "s14"
+    ],
+    [
+      "BERT",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "BERT",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "BIBREF1",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "BIBREF19",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "BIBREF2",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "BIBREF29",
+      "Definition",
+      "s35"
+    ],
+    [
+      "BIBREF29",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "BIBREF3",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "BIBREF30",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "BIBREF30",
+      "Property",
+      "s36"
+    ],
+    [
+      "BIBREF39",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "BIBREF4",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "BIBREF4",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "BIBREF4 method",
+      "Reconsideration",
+      "s110"
+    ],
+    [
+      "BLEU",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "BT-ES",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "BT-ES",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "BT-ES and BT-FI",
+      "Result",
+      "s106"
+    ],
+    [
+      "BT-ES and BT-FI variants",
+      "Definition",
+      "s55"
+    ],
+    [
+      "BT-FI",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "BT-FI",
+      "Property",
+      "s91"
+    ],
+    [
+      "BT-FI",
+      "Result",
+      "s81"
+    ],
+    [
+      "BT-FI",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "BT-FI",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "BT-FI",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "BT-FI and MT-FI",
+      "Result",
+      "s95"
+    ],
+    [
+      "BT-XX",
+      "Result",
+      "s64"
+    ],
+    [
+      "BT-XX",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "BT-XX",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "BT-XX and MT-XX variants",
+      "Property",
+      "s63"
+    ],
+    [
+      "Back-translation",
+      "Definition",
+      "s58"
+    ],
+    [
+      "Basque Government",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "CommonCrawl",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "Competence test",
+      "Definition",
+      "s77"
+    ],
+    [
+      "DGT",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Distraction test",
+      "Definition",
+      "s78"
+    ],
+    [
+      "ES",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "EUbookshop",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "English",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "English",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "English datasets",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "English test set",
+      "Property",
+      "s87"
+    ],
+    [
+      "English-Finnish training",
+      "Result",
+      "s39"
+    ],
+    [
+      "English-Spanish training",
+      "Result",
+      "s38"
+    ],
+    [
+      "English-specific",
+      "NLP Resources",
+      "e1"
+    ],
+    [
+      "FI",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "Facebook",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "Fellowship",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "Finnish",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "Finnish",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "Fundaci\u00f3 BBVA",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "Gengo",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "IT1343-19",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "IXA group",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "MINECO",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "MLDoc",
+      "Definition",
+      "s22"
+    ],
+    [
+      "MLDoc",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "MLQA",
+      "Definition",
+      "s104"
+    ],
+    [
+      "MLQA",
+      "Evaluation Dataset",
+      "s52"
+    ],
+    [
+      "MLQA",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "MLQA",
+      "Result",
+      "s98"
+    ],
+    [
+      "MLQA",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "MLQA",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "MLQA",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "MLQA",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "MT-ES",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "MT-ES",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "MT-ES and MT-FI",
+      "Result",
+      "s99"
+    ],
+    [
+      "MT-ES and MT-FI performance",
+      "Result",
+      "s60"
+    ],
+    [
+      "MT-ES and MT-FI systems",
+      "Definition",
+      "s56"
+    ],
+    [
+      "MT-FI",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "MT-FI",
+      "Property",
+      "s92"
+    ],
+    [
+      "MT-FI",
+      "Result",
+      "s73"
+    ],
+    [
+      "MT-FI",
+      "Result",
+      "s82"
+    ],
+    [
+      "MT-FI",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "MT-FI",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "MT-XX",
+      "Result",
+      "s65"
+    ],
+    [
+      "MT-XX",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "MT-XX",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "MultiNLI",
+      "Definition",
+      "s44"
+    ],
+    [
+      "MultiNLI",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "MultiNLI",
+      "Property",
+      "s19"
+    ],
+    [
+      "MultiNLI",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "NLI",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "NLI",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "NLI",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "NLI",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "NLI Stress Tests",
+      "Definition",
+      "s76"
+    ],
+    [
+      "NLI dataset",
+      "Release",
+      "s120"
+    ],
+    [
+      "NLI experiments",
+      "Purpose",
+      "s72"
+    ],
+    [
+      "NLI models",
+      "Property",
+      "s84"
+    ],
+    [
+      "NLI performance improvement",
+      "Result",
+      "s10"
+    ],
+    [
+      "NLP",
+      "NLP Resources",
+      "e1"
+    ],
+    [
+      "NVIDIA GPU grant program",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "Natural Language Inference (NLI)",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "Natural Language Inference (NLI)",
+      "Task",
+      "s43"
+    ],
+    [
+      "Noise test",
+      "Definition",
+      "s79"
+    ],
+    [
+      "Nora Aranberri",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "OPUS",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Orig",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "Orig",
+      "Result",
+      "s80"
+    ],
+    [
+      "Orig",
+      "Result",
+      "s86"
+    ],
+    [
+      "Orig",
+      "Result",
+      "s94"
+    ],
+    [
+      "Orig",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "Orig",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "Orig",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "Orig",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "PAWS-X",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "ParaCrawl v5.0",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Project BigKnowledge",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "QA",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "QA",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "Question Answering (QA)",
+      "Task",
+      "s49"
+    ],
+    [
+      "REF0",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "Roberta",
+      "Definition",
+      "s30"
+    ],
+    [
+      "Roberta",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "Robertas",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "SECREF15",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "SECREF16",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "SECREF17",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "SECREF2",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "SECREF22",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "SECREF25",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "SECREF30",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "SECREF8",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "SNLI",
+      "Property",
+      "s18"
+    ],
+    [
+      "SNLI",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "SQuAD v1.1",
+      "Definition",
+      "s50"
+    ],
+    [
+      "SQuAD v1.1",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "SentencePiece",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "SentencePiece tokenization",
+      "Definition",
+      "s37"
+    ],
+    [
+      "Spanish",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "Spanish",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "Stress Tests",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "TABREF18",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "TABREF23",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "TABREF28",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "TABREF9",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "TildeMODEL",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Training and test data mismatch",
+      "Property",
+      "s62"
+    ],
+    [
+      "Transformer model",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Translate-Test",
+      "Cause",
+      "s113"
+    ],
+    [
+      "Translate-Test",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "Translate-Test",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Translate-Test",
+      "Potential",
+      "s111"
+    ],
+    [
+      "Translate-Test",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "Translate-Test",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "Translate-Test",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "Translate-Test",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "Translate-Test",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "Translate-Test approach",
+      "Definition",
+      "s3"
+    ],
+    [
+      "Translate-Test approach",
+      "Definition",
+      "s54"
+    ],
+    [
+      "Translate-Test approach",
+      "Method",
+      "s47"
+    ],
+    [
+      "Translate-Train",
+      "Analysis",
+      "s109"
+    ],
+    [
+      "Translate-Train",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "Translate-Train",
+      "Definition",
+      "s74"
+    ],
+    [
+      "Translate-Train",
+      "Property",
+      "s114"
+    ],
+    [
+      "Translate-Train",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "Translate-Train approach",
+      "Cause",
+      "s66"
+    ],
+    [
+      "Translate-Train approach",
+      "Definition",
+      "s4"
+    ],
+    [
+      "TyDi QA",
+      "Property",
+      "s21"
+    ],
+    [
+      "TyDi QA",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "UE",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "UnsupMT TIN2017-91692-EXP MCIU/AEI/FEDER",
+      "Research Funding",
+      "e13"
+    ],
+    [
+      "Uxoa I\u00f1urrieta",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "WMT 2013",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "WMT 2019",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "Wikiann",
+      "Definition",
+      "s23"
+    ],
+    [
+      "Wikiann",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "XLM-R",
+      "Definition",
+      "s31"
+    ],
+    [
+      "XLM-R",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "XLM-R",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "XLM-R",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "XNLI",
+      "Evaluation Dataset",
+      "s45"
+    ],
+    [
+      "XNLI",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "XNLI",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "XNLI",
+      "Property",
+      "s105"
+    ],
+    [
+      "XNLI",
+      "Result",
+      "s16"
+    ],
+    [
+      "XNLI",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "XNLI",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "XNLI",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "XNLI",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "XNLI",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "XNLI",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "XNLI annotation",
+      "Property",
+      "s46"
+    ],
+    [
+      "XNLI development set",
+      "Definition",
+      "s85"
+    ],
+    [
+      "XNLI development set",
+      "Property",
+      "s57"
+    ],
+    [
+      "XNLI test set",
+      "Comparison",
+      "s96"
+    ],
+    [
+      "XQuAD",
+      "Definition",
+      "s103"
+    ],
+    [
+      "XQuAD",
+      "Evaluation Dataset",
+      "s51"
+    ],
+    [
+      "XQuAD",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "XQuAD",
+      "Result",
+      "s101"
+    ],
+    [
+      "XQuAD",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "XQuAD",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "XQuAD",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "Zero-Shot",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "Zero-Shot",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "Zero-Shot",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "Zero-Shot",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "Zero-Shot approach",
+      "Definition",
+      "s5"
+    ],
+    [
+      "Zero-Shot approach",
+      "Definition",
+      "s61"
+    ],
+    [
+      "Zero-Shot approach",
+      "Result",
+      "s100"
+    ],
+    [
+      "Zero-Shot transfer",
+      "Property",
+      "s75"
+    ],
+    [
+      "adversarial datasets",
+      "Purpose",
+      "s24"
+    ],
+    [
+      "annotate data",
+      "Multilingual Benchmarks",
+      "e2"
+    ],
+    [
+      "annotation artifacts",
+      "Cause",
+      "s25"
+    ],
+    [
+      "annotation artifacts",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "answer spans",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "back-translation",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "back-translation",
+      "Definition",
+      "s7"
+    ],
+    [
+      "back-translation",
+      "Property",
+      "s28"
+    ],
+    [
+      "back-translation",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "back-translation",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "beam search",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "best epoch checkpoint",
+      "Selection Criterion",
+      "s48"
+    ],
+    [
+      "bias term",
+      "Definition",
+      "s93"
+    ],
+    [
+      "bias term",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "celebrity magazine",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "collect data",
+      "Multilingual Benchmarks",
+      "e2"
+    ],
+    [
+      "competence test",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "consistent test sets",
+      "Solution",
+      "s118"
+    ],
+    [
+      "consumer magazine",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "contradiction",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "cross-lingual models",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "cross-lingual transfer",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "cross-lingual transfer gap on XNLI",
+      "Conclusion",
+      "s108"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Cause",
+      "s29"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Definition",
+      "s12"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Definition",
+      "s6"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Scope",
+      "s119"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "cross-lingual transfer learning",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "data augmentation",
+      "Cause",
+      "s15"
+    ],
+    [
+      "data augmentation",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "data augmentation",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "data augmentation",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "data augmentation hypothesis",
+      "Rejection",
+      "s11"
+    ],
+    [
+      "distraction test",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "document level",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "duplicate sentences in training set",
+      "Property",
+      "s34"
+    ],
+    [
+      "economy forum",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "entailment",
+      "Definition",
+      "s90"
+    ],
+    [
+      "entailment",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "entailment",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "entailment",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "entailment",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "explicitation",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "fairseq",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "final corpus size",
+      "Result",
+      "s41"
+    ],
+    [
+      "fine-tuning",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "future evaluation",
+      "Recommendation",
+      "s117"
+    ],
+    [
+      "generalization ability",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "human translated",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "human translated",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "human translated",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "human translated English version",
+      "Property",
+      "s68"
+    ],
+    [
+      "human translation",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "human translation",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "human-translated test sets",
+      "Property",
+      "s89"
+    ],
+    [
+      "hypotheses",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "hypothesis",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "hypothesis",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "langid.py",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "lexical overlap",
+      "Cause",
+      "s83"
+    ],
+    [
+      "lexical overlap",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "lexical overlap",
+      "Effect",
+      "s88"
+    ],
+    [
+      "lexical overlap",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "lexical overlap",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "literature blog",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "logit",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "machine translated",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "machine translated English",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "machine translated English version",
+      "Property",
+      "s69"
+    ],
+    [
+      "machine translated test set (MT-ES)",
+      "Result",
+      "s71"
+    ],
+    [
+      "machine translation",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "machine translation",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "machine translation",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "machine translation",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "machine translation",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "machine translation artifacts",
+      "Cause",
+      "s9"
+    ],
+    [
+      "machine translation evaluation",
+      "Result",
+      "s27"
+    ],
+    [
+      "machine translation system",
+      "Property",
+      "s97"
+    ],
+    [
+      "machine translation system",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "masked language modeling",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "monolingual corpora",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "multilingual benchmarks",
+      "Definition",
+      "s1"
+    ],
+    [
+      "multilingual benchmarks",
+      "Multilingual Benchmarks",
+      "e2"
+    ],
+    [
+      "multilingual models",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "multiple languages",
+      "Multilingual Benchmarks",
+      "e2"
+    ],
+    [
+      "negation words",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "neutral",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "neutral",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "new Spanish test set",
+      "Definition",
+      "s67"
+    ],
+    [
+      "newspaper",
+      "Translation Impact on NLI",
+      "e8"
+    ],
+    [
+      "noise test",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "original English test set",
+      "Result",
+      "s70"
+    ],
+    [
+      "original data",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "original datasets",
+      "Alternative View",
+      "s116"
+    ],
+    [
+      "parallel contexts",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "parallel data",
+      "Property",
+      "s13"
+    ],
+    [
+      "parallel data",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "parallel evaluation sets",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "premise",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "premise",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "premises",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "professional translators",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "recent efforts",
+      "NLP Resources",
+      "e1"
+    ],
+    [
+      "sampling decoding",
+      "Definition",
+      "s42"
+    ],
+    [
+      "sampling decoding",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "sentence filtering",
+      "Property",
+      "s40"
+    ],
+    [
+      "separately",
+      "Multilingual Benchmarks",
+      "e2"
+    ],
+    [
+      "simplification",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "spelling errors",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "spurious patterns",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "state-of-the-art",
+      "Result",
+      "s112"
+    ],
+    [
+      "state-of-the-art",
+      "Translation Artifacts",
+      "e12"
+    ],
+    [
+      "target language",
+      "Translation Methods Comparison",
+      "e7"
+    ],
+    [
+      "temperature 0.5",
+      "Model Training and Evaluation",
+      "e6"
+    ],
+    [
+      "test set",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "test set",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "test time procedures",
+      "Method",
+      "s33"
+    ],
+    [
+      "training set",
+      "Cross-Lingual NLI Evaluation",
+      "e3"
+    ],
+    [
+      "training set",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "training variants",
+      "List",
+      "s32"
+    ],
+    [
+      "translated data",
+      "NLI Stress Tests",
+      "e9"
+    ],
+    [
+      "translated data",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "translated hypotheses",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "translated premises",
+      "Translation Artifacts in QA",
+      "e11"
+    ],
+    [
+      "translation",
+      "Effect",
+      "s17"
+    ],
+    [
+      "translation",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "translation artifacts",
+      "Cause",
+      "s107"
+    ],
+    [
+      "translation artifacts",
+      "Definition",
+      "s115"
+    ],
+    [
+      "translation in evaluation",
+      "Procedure",
+      "s53"
+    ],
+    [
+      "translation interference",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "translation mismatch",
+      "Result",
+      "s8"
+    ],
+    [
+      "translation phenomenon",
+      "Scope",
+      "s121"
+    ],
+    [
+      "translation procedure",
+      "Cause",
+      "s102"
+    ],
+    [
+      "translation procedure",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "translation-based dataset creation",
+      "Property",
+      "s2"
+    ],
+    [
+      "translationese",
+      "Definition",
+      "s20"
+    ],
+    [
+      "translationese",
+      "Definition",
+      "s26"
+    ],
+    [
+      "translationese",
+      "Translation Artifacts in Multilingual NLP",
+      "e4"
+    ],
+    [
+      "translationese",
+      "Translation Effects in Cross-lingual Models",
+      "e5"
+    ],
+    [
+      "true class distribution",
+      "Translation Bias Impact",
+      "e10"
+    ],
+    [
+      "zero-shot",
+      "Translation Methods Comparison",
+      "e7"
+    ]
+  ]
+}

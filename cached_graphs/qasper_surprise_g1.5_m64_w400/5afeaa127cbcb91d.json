@@ -1,0 +1,4548 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 11,
+    "n_semantic": 143,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "eye-tracking": {
+      "tag_set": [
+        "Corpus Construction",
+        "Corpus Description",
+        "Definition",
+        "EEG-Eye Tracking Validation",
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "electroencephalography": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "EEG": {
+      "tag_set": [
+        "Corpus Construction",
+        "Corpus Description",
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "reading process": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "cognitive load": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "natural reading": {
+      "tag_set": [
+        "Corpus Description",
+        "Eye-EEG Reading Corpus",
+        "Property",
+        "Result"
+      ]
+    },
+    "task-specific reading": {
+      "tag_set": [
+        "Cause",
+        "EEG-Eye Tracking Validation",
+        "Eye-EEG Reading Corpus",
+        "Result"
+      ]
+    },
+    "annotation": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "sentence processing": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "word boundaries": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "brain activity": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "ZuCo 1.0": {
+      "tag_set": [
+        "Annotation Paradigm",
+        "Comparison",
+        "Corpus Construction",
+        "Corpus Description",
+        "Definition",
+        "EEG Validation in Reading",
+        "EEG-Eye Tracking Validation",
+        "Eye-EEG Reading Corpus",
+        "Reference"
+      ]
+    },
+    "ZuCo 2.0": {
+      "tag_set": [
+        "Annotation Paradigm",
+        "Corpus Construction",
+        "Definition",
+        "Eye-EEG Reading Corpus",
+        "Property"
+      ]
+    },
+    "18 subjects": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "739 English sentences": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "raw data": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "preprocessed data": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "osf.io/2urht": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "barrett2016weakly": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "klerke2016improving": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "hollenstein2019cognival": {
+      "tag_set": [
+        "Corpus Description",
+        "Eye-EEG Reading Corpus",
+        "Reference"
+      ]
+    },
+    "schwartz2019inducing": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "tokunaga2017eye": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "active learning": {
+      "tag_set": [
+        "Application",
+        "Corpus Description",
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "labelled data": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "NLP applications": {
+      "tag_set": [
+        "Eye-EEG Reading Corpus"
+      ]
+    },
+    "psycholinguistic motivation": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "machine learning": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "NLP": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "Dundee corpus": {
+      "tag_set": [
+        "Corpus Description",
+        "Related Work"
+      ]
+    },
+    "Provo corpus": {
+      "tag_set": [
+        "Corpus Description",
+        "Related Work"
+      ]
+    },
+    "GECO corpus": {
+      "tag_set": [
+        "Corpus Description",
+        "EEG Validation in Reading",
+        "Reference",
+        "Related Work"
+      ]
+    },
+    "UCL corpus": {
+      "tag_set": [
+        "Corpus Description",
+        "Related Work"
+      ]
+    },
+    "barrett2018sequence": {
+      "tag_set": [
+        "Corpus Description",
+        "Reference"
+      ]
+    },
+    "hale2018finding": {
+      "tag_set": [
+        "Corpus Description",
+        "Reference"
+      ]
+    },
+    "dimigen2011coregistration": {
+      "tag_set": [
+        "Corpus Description",
+        "EEG Validation in Reading",
+        "EEG-Eye Tracking Validation",
+        "Result"
+      ]
+    },
+    "mishra2016predicting": {
+      "tag_set": [
+        "Corpus Description",
+        "Reference"
+      ]
+    },
+    "joshi2014measuring": {
+      "tag_set": [
+        "Corpus Description",
+        "Reference"
+      ]
+    },
+    "sarcasm detection": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "Hindi word sense annotation": {
+      "tag_set": [
+        "Application",
+        "Corpus Description"
+      ]
+    },
+    "Japanese named entity annotation": {
+      "tag_set": [
+        "Application",
+        "Corpus Description"
+      ]
+    },
+    "coreference resolution": {
+      "tag_set": [
+        "Application",
+        "Corpus Description"
+      ]
+    },
+    "tomanek2010cognitive": {
+      "tag_set": [
+        "Corpus Description",
+        "Reference"
+      ]
+    },
+    "annotation complexity": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "simultaneous recordings": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "word-level brain activity": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "cognitive processing data": {
+      "tag_set": [
+        "Corpus Description"
+      ]
+    },
+    "19 participants": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "18 participants": {
+      "tag_set": [
+        "Corpus Construction",
+        "Result"
+      ]
+    },
+    "mean age = 34": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "SD=8.3": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "10 females": {
+      "tag_set": [
+        "Corpus Construction",
+        "Property"
+      ]
+    },
+    "left-handed": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "glasses": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "Wikipedia corpus": {
+      "tag_set": [
+        "Corpus Construction",
+        "Definition"
+      ]
+    },
+    "culotta2006integrating": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "political_affiliation": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "education": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "founder": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "wife/husband": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "job_title": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "nationality": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "employer": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "739 sentences": {
+      "tag_set": [
+        "Annotation Paradigm",
+        "Corpus Construction",
+        "Property",
+        "Result"
+      ]
+    },
+    "349 sentences": {
+      "tag_set": [
+        "Corpus Construction",
+        "Result"
+      ]
+    },
+    "390 sentences": {
+      "tag_set": [
+        "Corpus Construction",
+        "Result"
+      ]
+    },
+    "normal reading paradigm": {
+      "tag_set": [
+        "Corpus Construction",
+        "Definition"
+      ]
+    },
+    "task-specific reading paradigm": {
+      "tag_set": [
+        "Corpus Construction",
+        "Definition"
+      ]
+    },
+    "Flesch reading ease": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "Table TABREF4": {
+      "tag_set": [
+        "Annotation Paradigm",
+        "Corpus Construction",
+        "Experimental Design"
+      ]
+    },
+    "Table TABREF2": {
+      "tag_set": [
+        "Corpus Construction",
+        "Definition"
+      ]
+    },
+    "Table TABREF3": {
+      "tag_set": [
+        "Corpus Construction",
+        "Definition"
+      ]
+    },
+    "Section SECREF7": {
+      "tag_set": [
+        "Corpus Construction"
+      ]
+    },
+    "63 duplicates": {
+      "tag_set": [
+        "Annotation Paradigm",
+        "Result"
+      ]
+    },
+    "8% of all sentences": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "normal reading": {
+      "tag_set": [
+        "Annotation Paradigm",
+        "Linguistic Evaluation"
+      ]
+    },
+    "task-specific sentences": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "eye-tracking data": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "brain activity data": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "100 normal reading sentences": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "85 task-specific sentences": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "session-specific effects": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "subject-specific effects": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "control pad": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "control questions": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "100 to 180 minutes": {
+      "tag_set": [
+        "Annotation Paradigm"
+      ]
+    },
+    "average reading speed": {
+      "tag_set": [
+        "Annotation Paradigm",
+        "Result"
+      ]
+    },
+    "time": {
+      "tag_set": [
+        "Setup Time"
+      ]
+    },
+    "setup": {
+      "tag_set": [
+        "Setup Time"
+      ]
+    },
+    "calibrate devices": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "personal reading speed": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "14 blocks": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "50 sentences": {
+      "tag_set": [
+        "Experimental Design",
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "normal reading (NR)": {
+      "tag_set": [
+        "Definition",
+        "Experimental Design"
+      ]
+    },
+    "task-specific reading (TSR)": {
+      "tag_set": [
+        "Definition",
+        "Experimental Design"
+      ]
+    },
+    "practice round": {
+      "tag_set": [
+        "Experimental Design",
+        "Property"
+      ]
+    },
+    "comprehension questions": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "single-choice questions": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "12% sentences": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "relation annotation": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "17% control sentences": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "LexTALE test": {
+      "tag_set": [
+        "Definition",
+        "Experimental Design"
+      ]
+    },
+    "88.54% average score": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "sound-attenuated room": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "68cm distance": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "24-inch monitor": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "800x600 resolution": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "FIGREF8": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "control condition": {
+      "tag_set": [
+        "Experimental Design"
+      ]
+    },
+    "chin rest": {
+      "tag_set": [
+        "Definition",
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "motor EEG artifacts": {
+      "tag_set": [
+        "Cause",
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "snacks": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "water": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "black background": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "light grey background": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "20-point Arial": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "0.8 mm letter height": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "MATLAB 2016b": {
+      "tag_set": [
+        "Definition",
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "PsychToolbox": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "EyeLink 1000 Plus": {
+      "tag_set": [
+        "Definition",
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "SR Research": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "500 Hz": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "9-point grid": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "128-channel EEG Geodesic Hydrocel": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "Electrical Geodesics": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "Cz reference": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "head circumference": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition",
+        "Procedure"
+      ]
+    },
+    "impedance": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "40 kOhm": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "every third block": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "30 mins": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "fixations": {
+      "tag_set": [
+        "Definition",
+        "EEG-Eye Tracking Validation",
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "x,y coordinates": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "pixels": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "upper left corner": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "50 pixels": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "100 ms": {
+      "tag_set": [
+        "Eye-EEG Data Acquisition"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "EEG features": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "frequency bands": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "power spectra": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "frontal left-right electrodes": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "artifact rejection": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "90\u03bcV": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "reading speed": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation",
+        "Property"
+      ]
+    },
+    "omission rate": {
+      "tag_set": [
+        "Definition",
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "skipping proportion": {
+      "tag_set": [
+        "Definition",
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "sentence level": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "word level": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "passive reading": {
+      "tag_set": [
+        "Definition",
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "NR": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "TSR": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "Figure FIGREF10": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "Figure FIGREF13": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "Figure FIGREF15": {
+      "tag_set": [
+        "EEG-Eye Tracking Validation"
+      ]
+    },
+    "fixation-related potentials (FRPs)": {
+      "tag_set": [
+        "Definition",
+        "EEG Validation in Reading"
+      ]
+    },
+    "PO8 electrode": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "Cz electrode": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "scalp topographies": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "BIBREF13": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "henderson2013co": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "fixation duration": {
+      "tag_set": [
+        "Cause",
+        "EEG Validation in Reading"
+      ]
+    },
+    "100 ms post-fixation onset": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "time-jittered succeeding fixation": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "single-trial FRPs": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "vertical sliding time-window": {
+      "tag_set": [
+        "EEG Validation in Reading",
+        "Method"
+      ]
+    },
+    "four clusters": {
+      "tag_set": [
+        "EEG Validation in Reading",
+        "Property"
+      ]
+    },
+    "word-level eye-tracking": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "sentence-level eye-tracking": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "cognitively-inspired NLP": {
+      "tag_set": [
+        "EEG Validation in Reading"
+      ]
+    },
+    "neural models": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "psycholinguistic data": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "semantic relation labels": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "annotations": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "reading paradigms": {
+      "tag_set": [
+        "Linguistic Evaluation",
+        "Property"
+      ]
+    },
+    "annotation reading": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "manual labelling": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "supervised machine learning": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "relation extraction": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "classification": {
+      "tag_set": [
+        "Linguistic Evaluation"
+      ]
+    },
+    "electroencephalography (EEG)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "physiological data": {
+      "tag_set": [
+        "Use"
+      ]
+    },
+    "human cognitive language processing": {
+      "tag_set": [
+        "Relevance"
+      ]
+    },
+    "eye-tracking and EEG signals": {
+      "tag_set": [
+        "Potential"
+      ]
+    },
+    "simultaneous eye-tracking and EEG recordings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "natural reading vs. annotation": {
+      "tag_set": [
+        "Gap"
+      ]
+    },
+    "experiment procedure": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "EEG sensitivity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "seven relation types": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Flesch reading ease scores": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "mean age 34 (SD=8.3)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "left-handed participants": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "participants wearing glasses": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "native language": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "data consent": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Ethics Commission of the University of Zurich": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sentence overlap": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "duplicate sentences": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "overlap between ZuCo 1.0 and ZuCo 2.0": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "comparison of recording procedures": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "comparison of subject-specific effects": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "two reading tasks": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "recording session duration": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "experimental design": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "control condition (comprehension questions)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "control condition (relation absence)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "average LexTALE score": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "data acquisition environment": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "monitor setup": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "snacks and water": {
+      "tag_set": [
+        "Action"
+      ]
+    },
+    "sentence presentation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "font size and letter height": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "9-point grid calibration": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "128-channel EEG Geodesic Hydrocel system": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Cz reference electrode": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "electrode impedance": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "impedance checks": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "fixation data": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "monitor coordinates": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "fixations within word boundaries": {
+      "tag_set": [
+        "Filter"
+      ]
+    },
+    "exclusion of non-reading fixations": {
+      "tag_set": [
+        "Filter"
+      ]
+    },
+    "fixations shorter than 100 ms": {
+      "tag_set": [
+        "Exclusion criterion"
+      ]
+    },
+    "gaze duration (GD)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "total reading time (TRT)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "first fixation duration (FFD)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "single fixation duration (SFD)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "go-past time (GPT)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "pupil size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "number of fixations": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "mean pupil size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Automagic": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "105 EEG channels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "9 EOG channels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "14 neck and face channels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "bad channels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Multiple Artifact Rejection Algorithm (MARA)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "MARA effectiveness": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "EEG data synchronization": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "oscillatory power measures": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "theta\u2081 (4\u20136 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "theta\u2082 (6.5\u20138 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "alpha\u2081 (8.5\u201310 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "alpha\u2082 (10.5\u201313 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "beta\u2081 (13.5\u201318 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "beta\u2082 (18.5\u201330 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "gamma\u2081 (30.5\u201340 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "gamma\u2082 (40\u201349.5 Hz)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Hilbert transformation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "EEG feature": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "artifact rejection criterion": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "data validation": {
+      "tag_set": [
+        "Purpose"
+      ]
+    },
+    "fixation pattern": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Figure FIGREF24": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "five components of FRPs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "first positivation peak": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "second positive peak": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "single trial EEG segments clustering": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "FRP peaks consistency": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "new corpus of eye movement and EEG recordings": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NLP and machine learning": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "linguistic phenomena in neural models": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "relation extraction and classification": {
+      "tag_set": [
+        "Application"
+      ]
+    },
+    "manual labeling process": {
+      "tag_set": [
+        "Application"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction How humans process language has become increasingly relevant in natural language processing since physiological data during language understanding is more accessible and recorded with less effort. In this work, we focus on eye-tracking and electroencephalography (EEG) recordings to capture the reading process. On one hand, eye movement data provides millisecond-accurate records about where humans look when they are reading, and is highly correlated with the cognitive load associated with different stages of text processing. On the other hand, EEG records electrical brain activity across the scalp and is a direct measure of physiological processes, including language processing. The combination of both measurement methods enables us to study the language understanding process in a more natural setting, where participants read full sentences at a time, in their own speed. Eye-tracking then permits us to define exact word boundaries in the timeline of a subject reading a sentence, allowing the extraction of brain activity signals for each word. Human cognitive language processing data is immensely useful for NLP: Not only can it be leveraged to improve NLP applications (e.g. barrett2016weakly for part-of-speech tagging or klerke2016improving for sentence compression), but also to evaluate state-of-the-art machine learning systems. For example, hollenstein2019cognival evaluate word embeddings, or schwartz2019inducing fine-tune language models with brain-relevant bias. Additionally, the availability of labelled data plays a crucial role in all supervised machine learning applications. Physiological data can be used to understand and improve the labelling process (e.g. tokunaga2017eye), and, for instance, to build cost models for active learning scenarios BIBREF0. Is it possible to replace this expensive manual work with models trained on physiological activity data recorded from humans while reading? That is to say, can we find and extract relevant aspects of text understanding and annotation directly from the source, i.e. eye-tracking and brain activity signals during reading? Motivated by these questions and our previously released dataset, ZuCo 1.0 BIBREF1, we developed this new corpus, where we specifically aim to collect recordings during natural reading as well as during annotation. We provide the first dataset of simultaneous eye movement and brain activity recordings to analyze and compare normal reading to task-specific reading during annotation. The Zurich Cognitive Language Processing Corpus (ZuCo) 2.0, including raw and preprocessed eye-tracking and electroencephalography (EEG) data of 18 subjects, as well as the recording and preprocessing scripts, is publicly available at https://osf.io/2urht/. It contains physiological data of each subject reading 739 English sentences",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Eye-EEG Reading Corpus"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "from Wikipedia (see example in Figure FIGREF1). We want to highlight the re-use potential of this data. In addition to the psycholinguistic motivation, this corpus is especially tailored for training and evaluating machine learning algorithms for NLP purposes. We conduct a detailed technical validation of the data as proof of the quality of the recordings. Related Work Some eye-tracking corpora of natural reading (e.g. the Dundee BIBREF2, Provo BIBREF3 and GECO corpus BIBREF4), and a few EEG corpora (for example, the UCL corpus BIBREF5) are available. It has been shown that this type of cognitive processing data is useful for improving and evaluating NLP methods (e.g. barrett2018sequence,hollenstein2019cognival, hale2018finding). However, before the Zurich Cognitive Language Processing Corpus (ZuCo 1.0), there was no available data for simultaneous eye-tracking and EEG recordings of natural reading. dimigen2011coregistration studied the linguistic effects of eye movements and EEG co-registration in natural reading and showed that they accurately represent lexical processing. Moreover, the simultaneous recordings are crucial to extract word-level brain activity signals. While the above mentioned studies analyze and leverage natural reading, some NLP work has used eye-tracking during annotation (but, as of yet, not EEG data). mishra2016predicting and joshi2014measuring recorded eye-tracking during binary sentiment annotation (positive/negative). This data was used to determine the annotation complexity of the text passages based on eye movement metrics and for sarcasm detection BIBREF6. Moreover, eye-tracking has been used to analyze the word sense annotation process in Hindi BIBREF7, named entity annotation in Japanese BIBREF8, and to leverage annotator gaze behaviour for coreference resolution BIBREF9. Finally, tomanek2010cognitive used eye-tracking data during entity annotation to build a cost model for active learning. However, until now there is no available data or research that analyzes the differences in the human processing of normal reading versus annotation. Related Work ::: ZuCo1.0 In previous work, we recorded a first dataset of simultaneous eye-tracking and EEG during natural reading BIBREF1. ZuCo",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Corpus Description"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "1.0 consists of three reading tasks, two of which contain very similar reading material and experiments as presented in the current work. However, the main difference and reason for recording ZuCo 2.0, consists in the experiment procedure. For ZuCo 1.0 the normal reading and task-specific reading paradigms were recorded in different sessions on different days. Therefore, the recorded data is not appropriate as a means of comparison between natural reading and annotation, since the differences in the brain activity data might result mostly from the different sessions due to the sensitivity of EEG. This, and extending the dataset with more sentences and more subjects, were the main factors for recording the current corpus. We purposefully maintained an overlap of some sentences between both datasets to allow additional analyses (details are described in Section SECREF7). Corpus Construction In this section we describe the contents and experimental design of the ZuCo 2.0 corpus. Corpus Construction ::: Participants We recorded data from 19 participants and discarded the data of one of them due to technical difficulties with the eye-tracking calibration. Hence, we share the data of 18 participants. All participants are healthy adults (mean age = 34 (SD=8.3), 10 females). Their native language is English, originating from Australia, Canada, UK, USA or South Africa. Two participants are left-handed and three participants wear glasses for reading. Details on subject demographics can be found in Table TABREF4. All participants gave written consent for their participation and the re-use of the data prior to the start of the experiments. The study was approved by the Ethics Commission of the University of Zurich. Corpus Construction ::: Reading materials During the recording session, the participants read 739 sentences that were selected from the Wikipedia corpus provided by culotta2006integrating. This corpus was chosen because it provides annotations of semantic relations. We included seven of the originally defined relation types: political_affiliation, education, founder, wife/husband, job_title, nationality, and employer. The sentences were chosen in the same length range as ZuCo 1.0, and with similar Flesch reading ease scores. The dataset statistics are shown in Table TABREF2. Of the 739 sentences, the participants read 349 sentences in a normal reading paradigm, and 390 sentences in a task-specific reading paradigm, in which they had to determine whether a certain relation type occurred in the sentence or not. Table TABREF3 shows the distribution of the different relation types in the sentences of the task-specific",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Corpus Construction"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "annotation paradigm. Purposefully, there are 63 duplicates between the normal reading and the task-specific sentences (8% of all sentences). The intention of these duplicate sentences is to provide a set of sentences read twice by all participants with a different task in mind. Hence, this enables the comparison of eye-tracking and brain activity data when reading normally and when annotating specific relations (see examples in Section SECREF4). Furthermore, there is also an overlap in the sentences between ZuCo 1.0 and ZuCo 2.0. 100 normal reading and 85 task-specific sentences recorded for this dataset were already recorded in ZuCo 1.0. This allows for comparisons between the different recording procedures (i.e. session-specific effects) and between more participants (subject-specific effects). Corpus Construction ::: Experimental design As mentioned above, we recorded two different reading tasks for the ZuCo 2.0 dataset. During both tasks the participants were able to read in their own speed, using a control pad to move to the next sentence and to answer the control questions, which allowed for natural reading. Since each subject reads at their own personal pace, the reading speed between varies between subjects. Table TABREF4 shows the average reading speed for each task, i.e. the average number of seconds a subject spends per sentence before switching to the next one. All 739 sentences were recorded in a single session for each participant. The duration of the recording sessions was between 100 and 180 minutes, depending on",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Annotation Paradigm"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "the time required to set up and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Setup Time"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "calibrate the devices, and the personal reading speed of the participants. We recorded 14 blocks of approx. 50 sentences, alternating between tasks: 50 sentences of normal reading, followed by 50 sentences of task-specific reading. The order of blocks and sentences within blocks was identical for all subjects. Each sentence block was preceded by a practice round of three sentences. Corpus Construction ::: Experimental design ::: Normal reading (NR) In the first task, participants were instructed to read the sentences naturally, without any specific task other than comprehension. Participants were told to read the sentences normally without any special instructions. Figure FIGREF8 (left) shows an example sentence as it was depicted on the screen during recording. As shown in Figure FIGREF8 (middle), the control condition for this task consisted of single-choice questions about the content of the previous sentence. 12% of randomly selected sentences were followed by such a comprehension question with three answer options on a separate screen. Corpus Construction ::: Experimental design ::: Task-specific reading (TSR) In the second task, the participants were instructed to search for a specific relation in each sentence they read. Instead of comprehension questions, the participants had to decide for each sentence whether it contains the relation or not, i.e. they were actively annotating each sentence. Figure FIGREF8 (right) shows an example screen for this task. 17% of the sentences did not include the relation type and were used as control conditions. All sentences within one block involved the same relation type. The blocks started with a practice round, which described the relation and was followed by three sample sentences, so that the participants would be familiar with the respective relation type. Corpus Construction ::: Linguistic assessment As a linguistic assessment, the vocabulary and language proficiency of the participants was tested with the LexTALE test (Lexical Test for Advanced Learners of English, lemhofer2012introducing). This is an unspeeded lexical decision task designed for intermediate to highly proficient language users. The average LexTALE score over all participants was 88.54%. Moreover, we also report the scores the participants achieved with their answers to the reading comprehension control questions and their relation annotations. The detailed scores for all participants are also presented in Table TABREF4. Corpus Construction ::: Data acquisition Data acquisition took place in a sound-attenuated and dark experiment room. Participants were seated at a distance of 68cm from a 24-inch monitor with a resolution of 800x600",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Experimental Design"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "pixels. A stable head position was ensured via a chin rest. Participants were instructed to stay as still as possible during the tasks to avoid motor EEG artifacts. Participants were also offered snacks and water during the breaks and were encouraged to rest. All sentences were presented at the same position on the screen and could span multiple lines. The sentences were presented in black on a light grey background with font size 20-point Arial, resulting in a letter height of 0.8 mm. The experiment was programmed in MATLAB 2016b BIBREF10, using PsychToolbox BIBREF11. Participants completed the tasks sitting alone in the room, while two research assistants were monitoring their progress in the adjoining room. All recording scripts including detailed participant instructions are available alongside the data. Corpus Construction ::: Data acquisition ::: Eye-tracking acquisition Eye position and pupil size were recorded with an infrared video-based eye tracker (EyeLink 1000 Plus, SR Research) at a sampling rate of 500 Hz. The eye tracker was calibrated with a 9-point grid at the beginning of the session and re-validated before each block of sentences. Corpus Construction ::: Data acquisition ::: EEG acquisition High-density EEG data were recorded at a sampling rate of 500 Hz with a bandpass of 0.1 to 100 Hz, using a 128-channel EEG Geodesic Hydrocel system (Electrical Geodesics). The recording reference was set at electrode Cz. The head circumference of each participant was measured to select an appropriately sized EEG net. To ensure good contact, the impedance of each electrode was checked prior to recording, and was kept below 40 kOhm. Electrode impedance levels were checked after every third block of 50 sentences (approx. every 30 mins) and reduced if necessary. Corpus Construction ::: Preprocessing and feature extraction ::: Eye-tracking The eye-tracking data consists of (x,y) gaze location entries for all individual fixations (Figure FIGREF1b). Coordinates were given in pixels with respect to the monitor coordinates (the upper left corner of the screen was (0,0) and down/right was positive). We provide this raw data as well as various engineered eye-tracking features. For this feature extraction only fixations within the boundaries of each displayed word were extracted. Data points distinctly not associated with reading (minimum distance of 50 pixels to the text) were excluded. Additionally, fixations shorter than 100 ms were excluded from the analyses, because these are unlikely to reflect fixations relevant for reading BIBREF12. On the basis of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Eye-EEG Data Acquisition"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "the GECO and ZuCo 1.0 corpora, we extracted the following features: (i) gaze duration (GD), the sum of all fixations on the current word in the first-pass reading before the eye moves out of the word; (ii) total reading time (TRT), the sum of all fixation durations on the current word, including regressions; (iii) first fixation duration (FFD), the duration of the first fixation on the prevailing word; (iv) single fixation duration (SFD), the duration of the first and only fixation on the current word; and (v) go-past time (GPT), the sum of all fixations prior to progressing to the right of the current word, including regressions to previous words that originated from the current word. For each of these eye-tracking features we additionally computed the pupil size. Furthermore, we extracted the number of fixations and mean pupil size for each word and sentence. Corpus Construction ::: Preprocessing and feature extraction ::: EEG The EEG data shared in this project are available as raw data, but also preprocessed with Automagic (version 1.4.6, pedroni2019automagic), a tool for automatic EEG data cleaning and validation. 105 EEG channels (i.e. electrodes) were used from the scalp recordings. 9 EOG channels were used for artifact removal and additional 14 channels lying mainly on the neck and face were discarded before data analysis. Bad channels were identified and interpolated. We used the Multiple Artifact Rejection Algorithm (MARA), a supervised machine learning algorithm that evaluates ICA components, for automatic artifact rejection. MARA has been trained on manual component classifications, and thus captures a wide range of artifacts. MARA is especially effective at detecting and removing eye and muscle artifact components. The effect of this preprocessing can be seen in Figure FIGREF1d. After preprocessing, we synchronized the EEG and eye-tracking data to enable EEG analyses time-locked to the onsets of fixations. To compute oscillatory power measures, we band-pass filtered the continuous EEG signals across an entire reading task for five different frequency bands resulting in a time-series for each frequency band. The independent frequency bands were determined as follows: theta$_1$ (4\u20136 Hz), theta$_2$ (6.5\u20138 Hz), alpha$_1$ (8.5\u201310 Hz), alpha$_2$ (10.5\u201313 Hz), beta$_1$ (13.5\u201318 Hz), beta$_2$ (18.5\u201330 Hz), gamma$_1$ (30.5\u201340 Hz), and gamma$_2$ (40\u201349.5 Hz). We then applied a Hilbert transformation to each of these time-series. We specifically chose the Hilbert transformation to maintain the temporal information of the amplitude of the frequency bands, to enable the power of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "the different frequencies for time segments defined through the fixations from the eye-tracking recording. Thus, for each eye-tracking feature we computed the corresponding EEG feature in each frequency band. Furthermore, we extracted sentence-level EEG features by calculating the power in each frequency band, and additionally, the difference of the power spectra between frontal left and right homologue electrodes pairs. For each eye-tracking based EEG feature, all channels were subject to an artifact rejection criterion of $90\\mu V$ to exclude trials with transient noise. Data Validation The aim of the technical validation of the data is to guarantee good recording quality and to replicate findings of previous studies investigating co-registration of EEG and eye movement data during natural reading tasks (e.g. dimigen2011coregistration). We also compare the results to ZuCo 1.0 BIBREF1, which allows a more direct comparison due to the analogous recording procedure. Data Validation ::: Eye-tracking We validated the recorded eye-tracking data by analyzing the fixations made by all subjects through their reading speed and omission rate on sentence level. The omission rate is defined as the percentage of words that is not fixated in a sentence. Figure FIGREF10 (middle) shows the mean reading speed over all subjects, measured in seconds per sentence and Figure FIGREF10 (right) shows the mean omission rates aggregated over all subjects for each task. Clearly, the participants made less fixations during the task-specific reading, which lead to faster reading speed. Moreover, we corroborated these sentence-level metrics by visualizing the skipping proportion on word level (Figure FIGREF13). The skipping proportion is the average rate of words being skipped (i.e. not being fixated) in a sentence. As expected, this also increases in the task-specific reading. Although the reading material is from the same source and of the same length range (see Figure FIGREF10 (left)), in the first task (NR) passive reading was recorded, while in the second task (TSR) the subjects had to annotate a specific relation type in each sentence. Thus, the task-specific annotation reading lead to shorter passes because the goal was merely to recognize a relation in the text, but not necessarily to process the every word in each sentence. This distinct reading behavior is shown in Figure FIGREF15, where fixations occur until the end of the sentence during normal reading, while during task-specific reading the fixations stop after the decisive words to detect a given relation type. Finally, we also analyzed the average",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "EEG-Eye Tracking Validation"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "reading times for each of the extracted eye-tracking features. The means and distributions for both tasks are shown in Figure FIGREF21. These results are in line with the recorded data in ZuCo 1.0, as well as with the features extracted in the GECO corpus BIBREF4. Data Validation ::: EEG As a first validation step, we extracted fixation-related potentials (FRPs), where the EEG signal during all fixations of one task are averaged. Figure FIGREF24 shows the time-series of the resulting FRPs for two electrodes (PO8 and Cz), as well as topographies of the voltage distributions across the scalp at selected points in time. The five components (for which the scalp topographies are plotted) are highly similar in the time-course of the chosen electrodes to dimigen2011coregistration as well as to ZuCo 1.0. Moreover, these previous studies were able to show an effect of fixation duration on the resulting FRPs. To show this dependency we followed two approaches. First, for each reading task, all single-trial FRPs were ordered by fixation duration and a vertical sliding time-window was used to smooth the data BIBREF13. Figure FIGREF25 (bottom) shows the resulting plots. In line with this previous work, a first positivation can be identified at 100 ms post-fixation onset. A second positive peak is located dependent on the duration of the fixation, which can be explained by the time-jittered succeeding fixation. The second approach is based on henderson2013co in which single trial EEG segments are clustered by the duration of the current fixation. As shown in Figure FIGREF25 (top), we chose four clusters and averaged the data within each cluster to four distinct FRPs, depending on the fixation duration. Again, the same positivation peaks become apparent. Both findings are consistent with the previous work mentioned and with our findings from ZuCo 1.0. Conclusion We presented a new, freely available corpus of eye movement and electrical brain activity recordings during natural reading as well as during annotation. This is the first dataset that allows for the comparison between these two reading paradigms. We described the materials and experiment design in detail and conducted an extensive validation to ensure the quality of the recorded data. Since this corpus is tailored to cognitively-inspired NLP, the applications and re-use potentials of this data are extensive. The provided word-level and sentence-level eye-tracking and EEG features can be used to improve and evaluate NLP and machine learning methods, for instance, to",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "EEG Validation in Reading"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "evaluate linguistic phenomena in neural models via psycholinguistic data. In addition, because the sentences contains semantic relation labels and the annotations of all participants, it can also be widely used for relation extraction and classification. Finally, the two carefully constructed reading paradigms allow for the comparison between normal reading and reading during annotation, which can be relevant to improve the manual labelling process as well as the quality of the annotations for supervised machine learning.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Linguistic Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Eye-tracking records millisecond-accurate data on where humans look when reading, and is highly correlated with cognitive load during text processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "EEG records electrical brain activity across the scalp and provides a direct measure of physiological processes, including language processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "The Zurich Cognitive Language Processing Corpus 2.0 is a dataset containing simultaneous eye movement and brain activity recordings from 18 subjects reading 739 English sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "ZuCo 2.0 includes raw and preprocessed eye-tracking and EEG data, as well as recording and preprocessing scripts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Natural reading involves participants reading full sentences at their own pace, enabling a more realistic study of language understanding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Task-specific reading occurs during annotation and is compared to normal reading in ZuCo 2.0 to analyze differences in cognitive processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Physiological data can be used to improve NLP applications such as part-of-speech tagging and sentence compression, as well as to evaluate machine learning models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Physiological data can be used to build cost models for active learning scenarios by improving the labelling process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Human cognitive language processing data is valuable for improving and evaluating state-of-the-art machine learning systems in NLP.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relevance"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "It is possible to extract relevant aspects of text understanding and annotation directly from eye-tracking and brain activity signals during reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Potential"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "ZuCo 1.0 is a corpus of simultaneous eye-tracking and EEG recordings during natural reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "The Dundee corpus is an eye-tracking corpus of natural reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The Provo corpus is an eye-tracking corpus of natural reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The GECO corpus is an eye-tracking corpus of natural reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The UCL corpus is an EEG corpus for natural reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The study barrett2018sequence shows that cognitive processing data improves NLP methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The study hollenstein2019cognival demonstrates the utility of cognitive processing data in NLP.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The study hale2018finding shows that cognitive processing data is useful for improving NLP methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "dimigen2011coregistration showed that eye movements and EEG co-registration accurately represent lexical processing in natural reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Simultaneous eye-tracking and EEG recordings are crucial for extracting word-level brain activity signals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "mishra2016predicting recorded eye-tracking during binary sentiment annotation to determine annotation complexity and detect sarcasm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "joshi2014measuring recorded eye-tracking during binary sentiment annotation to assess annotation complexity and sarcasm detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Eye-tracking has been used to analyze the word sense annotation process in Hindi.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Eye-tracking has been used to analyze named entity annotation in Japanese.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Eye-tracking data has been leveraged to improve coreference resolution by analyzing annotator gaze behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "tomanek2010cognitive used eye-tracking data during entity annotation to build a cost model for active learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "There is currently no research analyzing the differences in human processing between normal reading and annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Gap"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "ZuCo 1.0 consists of three reading tasks, two of which contain very similar reading material and experiments as presented in the current work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "ZuCo 2.0 was recorded to address the limitations of ZuCo 1.0, primarily due to differences in experiment procedures and session variability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The main difference between ZuCo 1.0 and ZuCo 2.0 lies in the experiment procedure, which was standardized to improve data comparability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "EEG data is sensitive to differences in recording sessions, which can introduce variability unrelated to reading conditions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The normal reading paradigm involves participants reading sentences without any specific task related to semantic relations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The task-specific reading paradigm requires participants to determine whether a certain semantic relation type occurs in a given sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "A total of 739 sentences were selected from the Wikipedia corpus for inclusion in the ZuCo 2.0 corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The Wikipedia corpus used for sentence selection was provided by culotta2006integrating and includes annotations of semantic relations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The selected sentences include seven semantic relation types: political_affiliation, education, founder, wife/husband, job_title, nationality, and employer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The sentences in ZuCo 2.0 have similar Flesch reading ease scores as those in ZuCo 1.0, ensuring comparable readability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Data from 19 participants was recorded, with one participant's data discarded due to eye-tracking calibration issues, resulting in 18 usable datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The average age of the participants is 34 years with a standard deviation of 8.3 years.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Out of the 18 participants, 10 are female.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Two participants are left-handed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Three participants wear glasses for reading.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "All participants are native English speakers from Australia, Canada, the UK, the USA, or South Africa.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "All participants provided written consent for their participation and the re-use of their data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The study was approved by the Ethics Commission of the University of Zurich.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "There is a deliberate overlap of some sentences between ZuCo 1.0 and ZuCo 2.0 to enable additional comparative analyses.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Table TABREF2 presents the dataset statistics for the 739 sentences in the ZuCo 2.0 corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Table TABREF3 shows the distribution of the seven semantic relation types across the sentences in the task-specific reading paradigm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Participants read 349 sentences in the normal reading paradigm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Participants read 390 sentences in the task-specific reading paradigm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "There are 63 duplicate sentences between normal reading and task-specific sentences, accounting for 8% of all sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The duplicate sentences are designed to allow participants to read the same content twice with different tasks, enabling comparison of eye-tracking and brain activity data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "There is an overlap of 100 normal reading and 85 task-specific sentences between ZuCo 1.0 and ZuCo 2.0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The overlap allows for comparisons between different recording procedures, including session-specific effects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The overlap enables comparisons between participants to assess subject-specific effects.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The ZuCo 2.0 dataset includes two distinct reading tasks: normal reading and task-specific annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Participants read at their own pace and use a control pad to navigate between sentences, allowing for natural reading behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Table TABREF4 presents the average reading speed per sentence for each task, measured in seconds.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "All 739 sentences were recorded in a single session per participant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The duration of each recording session ranged from 100 to 180 minutes, depending on setup and reading time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The experimental design involved 14 blocks of approximately 50 sentences each, alternating between normal reading and task-specific reading tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "In the normal reading task, participants read sentences naturally without any specific task beyond comprehension.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "In the task-specific reading task, participants were instructed to search for a specific relation in each sentence and decide whether it contained that relation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Each sentence block was preceded by a practice round of three sentences to familiarize participants with the task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "12% of sentences in the normal reading task were followed by a comprehension question with three answer options.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "17% of sentences in the task-specific reading task did not include the relation type and were used as control conditions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The LexTALE test is an unspeeded lexical decision task designed for intermediate to highly proficient English language users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The average LexTALE score across all participants was 88.54%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Data acquisition took place in a sound-attenuated and dark experiment room.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Participants were seated 68 cm from a 24-inch monitor with a resolution of 800x600.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "A chin rest was used to ensure a stable head position during the experiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Participants were instructed to stay as still as possible to avoid motor EEG artifacts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Participants were offered snacks and water during breaks and encouraged to rest.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "All sentences were presented at the same position on the screen and could span multiple lines.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Sentences were presented in black on a light grey background with 20-point Arial font, resulting in a letter height of 0.8 mm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "The experiment was programmed in MATLAB 2016b using PsychToolbox.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "An infrared video-based eye tracker (EyeLink 1000 Plus, SR Research) was used to record eye position and pupil size at 500 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The eye tracker was calibrated using a 9-point grid at the beginning of the session and re-validated before each block of sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "High-density EEG data were recorded at 500 Hz with a bandpass of 0.1 to 100 Hz using a 128-channel EEG Geodesic Hydrocel system.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The EEG recording reference was set at electrode Cz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The head circumference of each participant was measured to select an appropriately sized EEG net.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Electrode impedance was checked prior to recording and kept below 40 kOhm.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Electrode impedance levels were checked after every third block of 50 sentences (approximately every 30 minutes) and reduced if necessary.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Eye-tracking data consists of (x,y) gaze location entries for all individual fixations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Coordinates in the eye-tracking data are given in pixels with respect to monitor coordinates, where the upper left corner is (0,0) and down/right is positive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Only fixations within the boundaries of each displayed word were extracted for feature extraction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Filter"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Data points distinctly not associated with reading (minimum distance of 50 pixels to the text) were excluded.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Filter"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Fixations shorter than 100 ms were excluded from analyses as they are unlikely to reflect reading-related fixations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Exclusion criterion"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Gaze duration is the sum of all fixations on the current word in the first-pass reading before the eye moves out of the word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Total reading time is the sum of all fixation durations on the current word, including regressions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "First fixation duration is the duration of the first fixation on the prevailing word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Single fixation duration is the duration of the first and only fixation on the current word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "Go-past time is the sum of all fixations prior to progressing to the right of the current word, including regressions to previous words that originated from the current word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Pupil size was computed for each of the eye-tracking features: gaze duration, total reading time, first fixation duration, single fixation duration, and go-past time.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The number of fixations was extracted for each word and sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Mean pupil size was extracted for each word and sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Automagic (version 1.4.6) is a tool for automatic EEG data cleaning and validation used in this project.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "A total of 105 EEG channels (electrodes) were used from scalp recordings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Nine EOG channels were used for artifact removal.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Fourteen channels located mainly on the neck and face were discarded before data analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "Bad channels were identified and interpolated during preprocessing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "MARA is a supervised machine learning algorithm that evaluates ICA components for automatic artifact rejection, trained on manual component classifications.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "MARA is especially effective at detecting and removing eye and muscle artifact components.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "EEG and eye-tracking data were synchronized to enable EEG analyses time-locked to the onsets of fixations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Oscillatory power measures were computed by band-pass filtering EEG signals across five frequency bands during the entire reading task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Theta\u2081 is a frequency band ranging from 4 to 6 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Theta\u2082 is a frequency band ranging from 6.5 to 8 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Alpha\u2081 is a frequency band ranging from 8.5 to 10 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "Alpha\u2082 is a frequency band ranging from 10.5 to 13 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "Beta\u2081 is a frequency band ranging from 13.5 to 18 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "Beta\u2082 is a frequency band ranging from 18.5 to 30 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Gamma\u2081 is a frequency band ranging from 30.5 to 40 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Gamma\u2082 is a frequency band ranging from 40 to 49.5 Hz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The Hilbert transformation was applied to each time-series to maintain the temporal information of the amplitude of the frequency bands and to enable power computation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Fixations are defined as the periods during which the eye remains stationary on a particular point in the visual field.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Reading speed is measured in seconds per sentence and represents the average time taken by subjects to read a sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "The omission rate is defined as the percentage of words that are not fixated in a given sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "The skipping proportion is the average rate of words being skipped (i.e., not fixated) in a sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Task-specific reading leads to shorter passes because the goal is to recognize a relation type in the text rather than process every word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Passive reading refers to the first task (NR) where subjects read without any specific annotation or processing goal.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "For each eye-tracking feature, the corresponding EEG feature was computed in each frequency band by calculating power and spectral differences between frontal left and right electrode pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "All EEG channels were subject to an artifact rejection criterion of 90 \u03bcV to exclude trials with transient noise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "The aim of data validation is to ensure good recording quality and to replicate findings from previous studies on EEG and eye movement co-registration during natural reading tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "Results are compared to ZuCo 1.0 due to its analogous recording procedure, enabling direct comparison with the current study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "During task-specific reading, fixations stop after the decisive words needed to detect a given relation type, unlike in normal reading where fixations extend to the end of the sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "Fixation-related potentials (FRPs) are averaged EEG signals recorded during all fixations of a reading task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "Figure FIGREF24 shows the time-series of FRPs for electrodes PO8 and Cz, along with scalp topographies at selected time points.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "The five components of FRPs exhibit similar time courses in the PO8 and Cz electrodes compared to dimigen2011coregistration and ZuCo 1.0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "The duration of fixation influences the timing and amplitude of the second positive peak in FRPs due to time-jittered succeeding fixations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "A vertical sliding time-window was applied to smooth single-trial FRPs ordered by fixation duration.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "A first positivation peak in FRPs is identified at 100 ms post-fixation onset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "A second positive peak in FRPs appears and varies depending on fixation duration.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "Single trial EEG segments were clustered by fixation duration to generate distinct FRPs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "Four clusters of fixation durations were identified and averaged to produce four distinct FRPs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "Both clustering and smoothing approaches reveal consistent positivation peaks in FRPs, aligning with prior studies and ZuCo 1.0 findings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "The FRP results are consistent with the features extracted in the ZuCo 1.0 corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "The FRP results are consistent with the features extracted in the GECO corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "A new freely available corpus contains eye movement and electrical brain activity recordings during natural reading and annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "The corpus includes two carefully constructed reading paradigms: normal reading and reading during annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The word-level and sentence-level eye-tracking and EEG features can be used to improve and evaluate NLP and machine learning methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "Psycholinguistic data from the corpus can be used to evaluate linguistic phenomena in neural models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "The semantic relation labels and participant annotations enable use in relation extraction and classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "The comparison between normal reading and annotation reading can improve the manual labeling process and annotation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0.8 mm letter height",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "10 females",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "10 females",
+      "Property",
+      "s40"
+    ],
+    [
+      "100 ms",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "100 ms post-fixation onset",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "100 normal reading sentences",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "100 to 180 minutes",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "105 EEG channels",
+      "Property",
+      "s98"
+    ],
+    [
+      "12% sentences",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "128-channel EEG Geodesic Hydrocel",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "128-channel EEG Geodesic Hydrocel system",
+      "Definition",
+      "s79"
+    ],
+    [
+      "14 blocks",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "14 neck and face channels",
+      "Property",
+      "s100"
+    ],
+    [
+      "17% control sentences",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "18 participants",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "18 participants",
+      "Result",
+      "s38"
+    ],
+    [
+      "18 subjects",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "19 participants",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "20-point Arial",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "24-inch monitor",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "30 mins",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "349 sentences",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "349 sentences",
+      "Result",
+      "s49"
+    ],
+    [
+      "390 sentences",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "390 sentences",
+      "Result",
+      "s50"
+    ],
+    [
+      "40 kOhm",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "50 pixels",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "50 sentences",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "50 sentences",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "500 Hz",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "63 duplicates",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "63 duplicates",
+      "Result",
+      "s51"
+    ],
+    [
+      "68cm distance",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "739 English sentences",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "739 sentences",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "739 sentences",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "739 sentences",
+      "Property",
+      "s59"
+    ],
+    [
+      "739 sentences",
+      "Result",
+      "s34"
+    ],
+    [
+      "8% of all sentences",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "800x600 resolution",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "85 task-specific sentences",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "88.54% average score",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "9 EOG channels",
+      "Property",
+      "s99"
+    ],
+    [
+      "9-point grid",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "9-point grid calibration",
+      "Procedure",
+      "s78"
+    ],
+    [
+      "90\u03bcV",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "Automagic",
+      "Definition",
+      "s97"
+    ],
+    [
+      "BIBREF13",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "BIBREF4",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "Cz electrode",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "Cz reference",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "Cz reference electrode",
+      "Property",
+      "s80"
+    ],
+    [
+      "Dundee corpus",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "Dundee corpus",
+      "Related Work",
+      "s12"
+    ],
+    [
+      "EEG",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "EEG",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "EEG",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "EEG data synchronization",
+      "Process",
+      "s104"
+    ],
+    [
+      "EEG feature",
+      "Result",
+      "s121"
+    ],
+    [
+      "EEG features",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "EEG sensitivity",
+      "Property",
+      "s31"
+    ],
+    [
+      "Electrical Geodesics",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "Ethics Commission of the University of Zurich",
+      "Definition",
+      "s45"
+    ],
+    [
+      "EyeLink 1000 Plus",
+      "Definition",
+      "s77"
+    ],
+    [
+      "EyeLink 1000 Plus",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "FIGREF8",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "FRP peaks consistency",
+      "Result",
+      "s135"
+    ],
+    [
+      "Figure FIGREF10",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "Figure FIGREF13",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "Figure FIGREF15",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "Figure FIGREF24",
+      "Result",
+      "s127"
+    ],
+    [
+      "Flesch reading ease",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "Flesch reading ease scores",
+      "Property",
+      "s37"
+    ],
+    [
+      "GECO corpus",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "GECO corpus",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "GECO corpus",
+      "Reference",
+      "s137"
+    ],
+    [
+      "GECO corpus",
+      "Related Work",
+      "s14"
+    ],
+    [
+      "Hilbert transformation",
+      "Method",
+      "s114"
+    ],
+    [
+      "Hindi word sense annotation",
+      "Application",
+      "s23"
+    ],
+    [
+      "Hindi word sense annotation",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "Japanese named entity annotation",
+      "Application",
+      "s24"
+    ],
+    [
+      "Japanese named entity annotation",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "LexTALE test",
+      "Definition",
+      "s67"
+    ],
+    [
+      "LexTALE test",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "MARA effectiveness",
+      "Result",
+      "s103"
+    ],
+    [
+      "MATLAB 2016b",
+      "Definition",
+      "s76"
+    ],
+    [
+      "MATLAB 2016b",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "Multiple Artifact Rejection Algorithm (MARA)",
+      "Definition",
+      "s102"
+    ],
+    [
+      "NLP",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "NLP and machine learning",
+      "Application",
+      "s140"
+    ],
+    [
+      "NLP applications",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "NR",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "PO8 electrode",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "Provo corpus",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "Provo corpus",
+      "Related Work",
+      "s13"
+    ],
+    [
+      "PsychToolbox",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "SD=8.3",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "SR Research",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "Section SECREF7",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "TSR",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "Table TABREF2",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "Table TABREF2",
+      "Definition",
+      "s47"
+    ],
+    [
+      "Table TABREF3",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "Table TABREF3",
+      "Definition",
+      "s48"
+    ],
+    [
+      "Table TABREF4",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "Table TABREF4",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "Table TABREF4",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "UCL corpus",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "UCL corpus",
+      "Related Work",
+      "s15"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e8"
+    ],
+    [
+      "Wikipedia corpus",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "Wikipedia corpus",
+      "Definition",
+      "s35"
+    ],
+    [
+      "ZuCo 1.0",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "ZuCo 1.0",
+      "Comparison",
+      "s124"
+    ],
+    [
+      "ZuCo 1.0",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "ZuCo 1.0",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "ZuCo 1.0",
+      "Definition",
+      "s11"
+    ],
+    [
+      "ZuCo 1.0",
+      "Definition",
+      "s28"
+    ],
+    [
+      "ZuCo 1.0",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "ZuCo 1.0",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "ZuCo 1.0",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "ZuCo 1.0",
+      "Reference",
+      "s136"
+    ],
+    [
+      "ZuCo 2.0",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "ZuCo 2.0",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "ZuCo 2.0",
+      "Definition",
+      "s29"
+    ],
+    [
+      "ZuCo 2.0",
+      "Definition",
+      "s3"
+    ],
+    [
+      "ZuCo 2.0",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "ZuCo 2.0",
+      "Property",
+      "s4"
+    ],
+    [
+      "active learning",
+      "Application",
+      "s8"
+    ],
+    [
+      "active learning",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "active learning",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "alpha\u2081 (8.5\u201310 Hz)",
+      "Property",
+      "s108"
+    ],
+    [
+      "alpha\u2082 (10.5\u201313 Hz)",
+      "Property",
+      "s109"
+    ],
+    [
+      "annotation",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "annotation complexity",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "annotation reading",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "annotations",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "artifact rejection",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "artifact rejection criterion",
+      "Property",
+      "s122"
+    ],
+    [
+      "average LexTALE score",
+      "Result",
+      "s68"
+    ],
+    [
+      "average reading speed",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "average reading speed",
+      "Result",
+      "s58"
+    ],
+    [
+      "bad channels",
+      "Property",
+      "s101"
+    ],
+    [
+      "barrett2016weakly",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "barrett2018sequence",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "barrett2018sequence",
+      "Reference",
+      "s16"
+    ],
+    [
+      "beta\u2081 (13.5\u201318 Hz)",
+      "Property",
+      "s110"
+    ],
+    [
+      "beta\u2082 (18.5\u201330 Hz)",
+      "Property",
+      "s111"
+    ],
+    [
+      "black background",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "brain activity",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "brain activity data",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "calibrate devices",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "chin rest",
+      "Definition",
+      "s71"
+    ],
+    [
+      "chin rest",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "classification",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "cognitive load",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "cognitive processing data",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "cognitively-inspired NLP",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "comparison of recording procedures",
+      "Purpose",
+      "s54"
+    ],
+    [
+      "comparison of subject-specific effects",
+      "Purpose",
+      "s55"
+    ],
+    [
+      "comprehension questions",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "control condition",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "control condition (comprehension questions)",
+      "Property",
+      "s65"
+    ],
+    [
+      "control condition (relation absence)",
+      "Property",
+      "s66"
+    ],
+    [
+      "control pad",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "control questions",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "coreference resolution",
+      "Application",
+      "s25"
+    ],
+    [
+      "coreference resolution",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "culotta2006integrating",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "data acquisition environment",
+      "Property",
+      "s69"
+    ],
+    [
+      "data consent",
+      "Definition",
+      "s44"
+    ],
+    [
+      "data validation",
+      "Purpose",
+      "s123"
+    ],
+    [
+      "dimigen2011coregistration",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "dimigen2011coregistration",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "dimigen2011coregistration",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "dimigen2011coregistration",
+      "Result",
+      "s19"
+    ],
+    [
+      "duplicate sentences",
+      "Purpose",
+      "s52"
+    ],
+    [
+      "education",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "electrode impedance",
+      "Property",
+      "s82"
+    ],
+    [
+      "electroencephalography",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "electroencephalography (EEG)",
+      "Definition",
+      "s2"
+    ],
+    [
+      "employer",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "every third block",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "exclusion of non-reading fixations",
+      "Filter",
+      "s87"
+    ],
+    [
+      "experiment procedure",
+      "Cause",
+      "s30"
+    ],
+    [
+      "experimental design",
+      "Definition",
+      "s61"
+    ],
+    [
+      "eye-tracking",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "eye-tracking",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "eye-tracking",
+      "Definition",
+      "s1"
+    ],
+    [
+      "eye-tracking",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "eye-tracking",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "eye-tracking and EEG signals",
+      "Potential",
+      "s10"
+    ],
+    [
+      "eye-tracking data",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "first fixation duration (FFD)",
+      "Definition",
+      "s91"
+    ],
+    [
+      "first positivation peak",
+      "Result",
+      "s131"
+    ],
+    [
+      "five components of FRPs",
+      "Property",
+      "s128"
+    ],
+    [
+      "fixation data",
+      "Definition",
+      "s84"
+    ],
+    [
+      "fixation duration",
+      "Cause",
+      "s129"
+    ],
+    [
+      "fixation duration",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "fixation pattern",
+      "Result",
+      "s125"
+    ],
+    [
+      "fixation-related potentials (FRPs)",
+      "Definition",
+      "s126"
+    ],
+    [
+      "fixation-related potentials (FRPs)",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "fixations",
+      "Definition",
+      "s115"
+    ],
+    [
+      "fixations",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "fixations",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "fixations shorter than 100 ms",
+      "Exclusion criterion",
+      "s88"
+    ],
+    [
+      "fixations within word boundaries",
+      "Filter",
+      "s86"
+    ],
+    [
+      "font size and letter height",
+      "Property",
+      "s75"
+    ],
+    [
+      "founder",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "four clusters",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "four clusters",
+      "Property",
+      "s134"
+    ],
+    [
+      "frequency bands",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "frontal left-right electrodes",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "gamma\u2081 (30.5\u201340 Hz)",
+      "Property",
+      "s112"
+    ],
+    [
+      "gamma\u2082 (40\u201349.5 Hz)",
+      "Property",
+      "s113"
+    ],
+    [
+      "gaze duration (GD)",
+      "Definition",
+      "s89"
+    ],
+    [
+      "glasses",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "go-past time (GPT)",
+      "Definition",
+      "s93"
+    ],
+    [
+      "hale2018finding",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "hale2018finding",
+      "Reference",
+      "s18"
+    ],
+    [
+      "head circumference",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "head circumference",
+      "Procedure",
+      "s81"
+    ],
+    [
+      "henderson2013co",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "hollenstein2019cognival",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "hollenstein2019cognival",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "hollenstein2019cognival",
+      "Reference",
+      "s17"
+    ],
+    [
+      "human cognitive language processing",
+      "Relevance",
+      "s9"
+    ],
+    [
+      "impedance",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "impedance checks",
+      "Procedure",
+      "s83"
+    ],
+    [
+      "job_title",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "joshi2014measuring",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "joshi2014measuring",
+      "Reference",
+      "s22"
+    ],
+    [
+      "klerke2016improving",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "labelled data",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "left-handed",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "left-handed participants",
+      "Property",
+      "s41"
+    ],
+    [
+      "light grey background",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "linguistic phenomena in neural models",
+      "Application",
+      "s141"
+    ],
+    [
+      "machine learning",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "manual labeling process",
+      "Application",
+      "s143"
+    ],
+    [
+      "manual labelling",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "mean age 34 (SD=8.3)",
+      "Property",
+      "s39"
+    ],
+    [
+      "mean age = 34",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "mean pupil size",
+      "Property",
+      "s96"
+    ],
+    [
+      "mishra2016predicting",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "mishra2016predicting",
+      "Reference",
+      "s21"
+    ],
+    [
+      "monitor coordinates",
+      "Definition",
+      "s85"
+    ],
+    [
+      "monitor setup",
+      "Property",
+      "s70"
+    ],
+    [
+      "motor EEG artifacts",
+      "Cause",
+      "s72"
+    ],
+    [
+      "motor EEG artifacts",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "nationality",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "native language",
+      "Property",
+      "s43"
+    ],
+    [
+      "natural reading",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "natural reading",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "natural reading",
+      "Property",
+      "s57"
+    ],
+    [
+      "natural reading",
+      "Result",
+      "s5"
+    ],
+    [
+      "natural reading vs. annotation",
+      "Gap",
+      "s27"
+    ],
+    [
+      "neural models",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "new corpus of eye movement and EEG recordings",
+      "Definition",
+      "s138"
+    ],
+    [
+      "normal reading",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "normal reading",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "normal reading (NR)",
+      "Definition",
+      "s62"
+    ],
+    [
+      "normal reading (NR)",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "normal reading paradigm",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "normal reading paradigm",
+      "Definition",
+      "s32"
+    ],
+    [
+      "number of fixations",
+      "Property",
+      "s95"
+    ],
+    [
+      "omission rate",
+      "Definition",
+      "s117"
+    ],
+    [
+      "omission rate",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "oscillatory power measures",
+      "Process",
+      "s105"
+    ],
+    [
+      "osf.io/2urht",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "overlap between ZuCo 1.0 and ZuCo 2.0",
+      "Result",
+      "s53"
+    ],
+    [
+      "participants wearing glasses",
+      "Property",
+      "s42"
+    ],
+    [
+      "passive reading",
+      "Definition",
+      "s120"
+    ],
+    [
+      "passive reading",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "personal reading speed",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "physiological data",
+      "Use",
+      "s7"
+    ],
+    [
+      "pixels",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "political_affiliation",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "power spectra",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "practice round",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "practice round",
+      "Property",
+      "s64"
+    ],
+    [
+      "preprocessed data",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "psycholinguistic data",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "psycholinguistic motivation",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "pupil size",
+      "Property",
+      "s94"
+    ],
+    [
+      "raw data",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "reading paradigms",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "reading paradigms",
+      "Property",
+      "s139"
+    ],
+    [
+      "reading process",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "reading speed",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "reading speed",
+      "Property",
+      "s116"
+    ],
+    [
+      "recording session duration",
+      "Property",
+      "s60"
+    ],
+    [
+      "relation annotation",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "relation extraction",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "relation extraction and classification",
+      "Application",
+      "s142"
+    ],
+    [
+      "sarcasm detection",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "scalp topographies",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "schwartz2019inducing",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "second positive peak",
+      "Result",
+      "s132"
+    ],
+    [
+      "semantic relation labels",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "sentence level",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "sentence overlap",
+      "Definition",
+      "s46"
+    ],
+    [
+      "sentence presentation",
+      "Property",
+      "s74"
+    ],
+    [
+      "sentence processing",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "sentence-level eye-tracking",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "session-specific effects",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "setup",
+      "Setup Time",
+      "e5"
+    ],
+    [
+      "seven relation types",
+      "Property",
+      "s36"
+    ],
+    [
+      "simultaneous eye-tracking and EEG recordings",
+      "Property",
+      "s20"
+    ],
+    [
+      "simultaneous recordings",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "single fixation duration (SFD)",
+      "Definition",
+      "s92"
+    ],
+    [
+      "single trial EEG segments clustering",
+      "Method",
+      "s133"
+    ],
+    [
+      "single-choice questions",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "single-trial FRPs",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "skipping proportion",
+      "Definition",
+      "s118"
+    ],
+    [
+      "skipping proportion",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "snacks",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "snacks and water",
+      "Action",
+      "s73"
+    ],
+    [
+      "sound-attenuated room",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "subject-specific effects",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "supervised machine learning",
+      "Linguistic Evaluation",
+      "e11"
+    ],
+    [
+      "task-specific reading",
+      "Cause",
+      "s119"
+    ],
+    [
+      "task-specific reading",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "task-specific reading",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "task-specific reading",
+      "Result",
+      "s6"
+    ],
+    [
+      "task-specific reading (TSR)",
+      "Definition",
+      "s63"
+    ],
+    [
+      "task-specific reading (TSR)",
+      "Experimental Design",
+      "e6"
+    ],
+    [
+      "task-specific reading paradigm",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "task-specific reading paradigm",
+      "Definition",
+      "s33"
+    ],
+    [
+      "task-specific sentences",
+      "Annotation Paradigm",
+      "e4"
+    ],
+    [
+      "theta\u2081 (4\u20136 Hz)",
+      "Property",
+      "s106"
+    ],
+    [
+      "theta\u2082 (6.5\u20138 Hz)",
+      "Property",
+      "s107"
+    ],
+    [
+      "time",
+      "Setup Time",
+      "e5"
+    ],
+    [
+      "time-jittered succeeding fixation",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "tokunaga2017eye",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "tomanek2010cognitive",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "tomanek2010cognitive",
+      "Reference",
+      "s26"
+    ],
+    [
+      "total reading time (TRT)",
+      "Definition",
+      "s90"
+    ],
+    [
+      "two reading tasks",
+      "Definition",
+      "s56"
+    ],
+    [
+      "upper left corner",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "vertical sliding time-window",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "vertical sliding time-window",
+      "Method",
+      "s130"
+    ],
+    [
+      "water",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ],
+    [
+      "wife/husband",
+      "Corpus Construction",
+      "e3"
+    ],
+    [
+      "word boundaries",
+      "Eye-EEG Reading Corpus",
+      "e1"
+    ],
+    [
+      "word level",
+      "EEG-Eye Tracking Validation",
+      "e9"
+    ],
+    [
+      "word-level brain activity",
+      "Corpus Description",
+      "e2"
+    ],
+    [
+      "word-level eye-tracking",
+      "EEG Validation in Reading",
+      "e10"
+    ],
+    [
+      "x,y coordinates",
+      "Eye-EEG Data Acquisition",
+      "e7"
+    ]
+  ]
+}

@@ -1,0 +1,3146 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 9,
+    "n_semantic": 102,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "five-point scale": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification",
+        "Property"
+      ]
+    },
+    "VeryNegative": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "VeryPositive": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "binary sentiment analysis": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "ternary sentiment analysis": {
+      "tag_set": [
+        "Definition",
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "Amazon": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "TripAdvisor": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "Sebastiani et al.": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "ordinal classification": {
+      "tag_set": [
+        "Definition",
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "feature extraction": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification",
+        "Method"
+      ]
+    },
+    "word membership": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "morpho-syntactic statistics": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "punctuation": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "elongated word counts": {
+      "tag_set": [
+        "Fine-Grained Sentiment Classification"
+      ]
+    },
+    "research perspective": {
+      "tag_set": [
+        "Research Perspective"
+      ]
+    },
+    "sentiment classification": {
+      "tag_set": [
+        "Cause",
+        "Definition",
+        "Multitask Sentiment Learning"
+      ]
+    },
+    "ternary classification": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis",
+        "Multitask Sentiment Learning",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "fine-grained sentiment classification": {
+      "tag_set": [
+        "Definition",
+        "Multitask Sentiment Learning",
+        "Task"
+      ]
+    },
+    "multitask learning": {
+      "tag_set": [
+        "Definition",
+        "Future Research Directions",
+        "Model Performance Analysis",
+        "Multitask Sentiment Learning",
+        "Result",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "Twitter": {
+      "tag_set": [
+        "Multitask Sentiment Learning"
+      ]
+    },
+    "recurrent neural networks": {
+      "tag_set": [
+        "Multitask Sentiment Learning",
+        "Result"
+      ]
+    },
+    "Caruana": {
+      "tag_set": [
+        "Multitask Sentiment Learning",
+        "Property"
+      ]
+    },
+    "distant supervision": {
+      "tag_set": [
+        "Multitask Sentiment Learning"
+      ]
+    },
+    "emoticons": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis",
+        "Multitask Sentiment Learning"
+      ]
+    },
+    "correlated tasks": {
+      "tag_set": [
+        "Cause",
+        "Multitask Sentiment Learning"
+      ]
+    },
+    "shared information": {
+      "tag_set": [
+        "Multitask Sentiment Learning"
+      ]
+    },
+    "state-of-the-art performance": {
+      "tag_set": [
+        "Multitask Sentiment Learning"
+      ]
+    },
+    "binary classification": {
+      "tag_set": [
+        "Definition",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "fine-grained classification": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "sentiment granularity": {
+      "tag_set": [
+        "Property",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "neural networks": {
+      "tag_set": [
+        "Property",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "back-propagation": {
+      "tag_set": [
+        "Cause",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "data representation": {
+      "tag_set": [
+        "Definition",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "distributed embeddings": {
+      "tag_set": [
+        "Definition",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "unsupervised training": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "text BIBREF10": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "RNNs": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "short-range dependencies": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "long-range dependencies": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "bidirectional LSTM": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "biLSTM": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Sentiment Classification Features",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "forward and backward propagation": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "sequence data": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "tokenized tweet": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Input",
+        "Sentiment Classification Features",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "INLINEFORM0": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "INLINEFORM1": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "BIBREF13": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "FIGREF2": {
+      "tag_set": [
+        "Sentiment Classification with BiLSTM"
+      ]
+    },
+    "hidden layers": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "INLINEFORM2": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis",
+        "Sentiment Classification Features"
+      ]
+    },
+    "INLINEFORM3": {
+      "tag_set": [
+        "Definition",
+        "Sentiment Classification Features"
+      ]
+    },
+    "softmax layers": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "INLINEFORM4": {
+      "tag_set": [
+        "Property",
+        "Sentiment Classification Features"
+      ]
+    },
+    "INLINEFORM5": {
+      "tag_set": [
+        "Definition",
+        "Sentiment Classification Features"
+      ]
+    },
+    "sentiment lexicons": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis",
+        "Sentiment Classification Features"
+      ]
+    },
+    "elongated words": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis",
+        "Sentiment Classification Features"
+      ]
+    },
+    "capitalized words": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "Additional Features": {
+      "tag_set": [
+        "Definition",
+        "Sentiment Classification Features"
+      ]
+    },
+    "INLINEFORM6": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "INLINEFORM7": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "fine-grained sentiment": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "ternary sentiment": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "SemEval-2016": {
+      "tag_set": [
+        "Reference",
+        "Sentiment Classification Features"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "BIBREF16": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "TABREF7": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "nbow": {
+      "tag_set": [
+        "Definition",
+        "Feature Augmentation in Sentiment Analysis",
+        "Model Performance Analysis",
+        "Property",
+        "Sentiment Classification Features"
+      ]
+    },
+    "text embeddings": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "training examples": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "negative classes": {
+      "tag_set": [
+        "Sentiment Classification Features"
+      ]
+    },
+    "unbalanced dataset": {
+      "tag_set": [
+        "Property",
+        "Sentiment Classification Features"
+      ]
+    },
+    "average compositional function": {
+      "tag_set": [
+        "Definition",
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "GloVe embeddings": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis",
+        "Property"
+      ]
+    },
+    "nbow+": {
+      "tag_set": [
+        "Definition",
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "1,368 extra features": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "punctuation symbols": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "word membership features": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "SemEval challenges": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "Mean Absolute Error": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "macro-averaged MAE": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "micro-averaged performance": {
+      "tag_set": [
+        "Definition",
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "Support Vector Machines (SVMs)": {
+      "tag_set": [
+        "Definition",
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "linear kernel": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "one-vs-rest": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "Crammer-Singer strategy": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "logistic regression": {
+      "tag_set": [
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "multinomial Logistic Regression": {
+      "tag_set": [
+        "Definition",
+        "Feature Augmentation in Sentiment Analysis"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "Balikas et al.": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis"
+      ]
+    },
+    "2016": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "stochasticity": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "10 times": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "average": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "standard deviation": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "n-grams": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "character-grams": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "unigrams": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "SVMs": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "LRs": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "FIGREF10": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "sentiment": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "tweets": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "paragraph-sized reviews": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "German": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "binary": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "ternary": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "multitask approaches": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "biLSTM networks": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "convolutional neural networks": {
+      "tag_set": [
+        "Future Research Directions",
+        "Suggestion"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Future Research Directions"
+      ]
+    },
+    "CIFRE N 28/2015": {
+      "tag_set": [
+        "Funding",
+        "Future Research Directions"
+      ]
+    },
+    "Amazon and TripAdvisor": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "knowledge transfer": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "Twitter sentiment classification": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "distant supervision with emoticons": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "joint learning of ternary and fine-grained tasks": {
+      "tag_set": [
+        "Benefit"
+      ]
+    },
+    "Recurrent Neural Networks (RNNs)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "traditional information retrieval": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "long short-term memory (LSTM)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "bidirectional LSTM (biLSTM)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "standard LSTM": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "biLSTM architecture": {
+      "tag_set": [
+        "Structure"
+      ]
+    },
+    "Figure FIGREF2": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "biLSTM output": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ternary sentiment classification": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "word embeddings dictionary": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training, development, test splits": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "macro-averaged Mean Absolute Error": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "SVM with linear kernel and one-vs-rest": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "SVM with crammer-singer strategy": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Logistic Regression": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "MaxEnt classifier": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "SVMs and LRs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hyper-parameter INLINEFORM0": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "grid-search": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "class weights": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Scikit-learn": {
+      "tag_set": [
+        "Implementation"
+      ]
+    },
+    "multitask learning architecture": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "biLSTM output dimension": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "activation function": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "weight initialization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Root Mean Square Propagation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "dropout": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Bernoulli trial": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "ternary problem": {
+      "tag_set": [
+        "Task"
+      ]
+    },
+    "error backpropagation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "shared weights": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "5-fold cross-validation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "dropout probability INLINEFORM0": {
+      "tag_set": [
+        "Tuned parameter"
+      ]
+    },
+    "biLSTM parameters": {
+      "tag_set": [
+        "Tuned parameter"
+      ]
+    },
+    "Bernoulli trial probability INLINEFORM4": {
+      "tag_set": [
+        "Tuned parameter"
+      ]
+    },
+    "early stopping": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Table TABREF9": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "upper part of Table TABREF9": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "biLSTM models": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "neural network-based models": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "baseline systems": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "additional features": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "n-grams and character-grams": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "nbow+ representation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "distributed representations": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "biLSTM network": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "INLINEFORM1 and INLINEFORM2": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "ternary and fine-grained classification": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "future research avenues": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "theoretical guarantees of multitask learning": {
+      "tag_set": [
+        "Research Gap"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nAutomatic classification of sentiment has mainly focused on categorizing tweets in either two (binary sentiment analysis) or three (ternary sentiment analysis) categories BIBREF0 . In this work we study the problem of fine-grained sentiment classification where tweets are classified according to a five-point scale ranging from VeryNegative to VeryPositive. To illustrate this, Table TABREF3 presents examples of tweets associated with each of these categories. Five-point scales are widely adopted in review sites like Amazon and TripAdvisor, where a user's sentiment is ordered with respect to its intensity. From a sentiment analysis perspective, this defines a classification problem with five categories. In particular, Sebastiani et al. BIBREF1 defined such classification problems whose categories are explicitly ordered to be ordinal classification problems. To account for the ordering of the categories, learners are penalized according to how far from the true class their predictions are.\nAlthough considering different scales, the various settings of sentiment classification are related. First, one may use the same feature extraction and engineering approaches to represent the text spans such as word membership in lexicons, morpho-syntactic statistics like punctuation or elongated word counts BIBREF2 , BIBREF3 . Second, one would expect that knowledge from one task can be transfered to the others and this would benefit the performance. Knowing that a tweet is \u201cPositive\u201d in the ternary setting narrows the classification decision between the VeryPositive and Positive categories in the fine-grained setting.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Fine-Grained Sentiment Classification"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "From a research perspective this raises the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Research Perspective"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "question of whether and how one may benefit when tackling such related tasks and how one can transfer knowledge from one task to another during the training phase.\nOur focus in this work is to exploit the relation between the sentiment classification settings and demonstrate the benefits stemming from combining them. To this end, we propose to formulate the different classification problems as a multitask learning problem and jointly learn them. Multitask learning BIBREF4 has shown great potential in various domains and its benefits have been empirically validated BIBREF5 , BIBREF6 , BIBREF7 , BIBREF8 using different types of data and learning approaches. An important benefit of multitask learning is that it provides an elegant way to access resources developed for similar tasks. By jointly learning correlated tasks, the amount of usable data increases. For instance, while for ternary classification one can label data using distant supervision with emoticons BIBREF9 , there is no straightforward way to do so for the fine-grained problem. However, the latter can benefit indirectly, if the ternary and fine-grained tasks are learned jointly.\nThe research question that the paper attempts to answer is the following: Can twitter sentiment classification problems, and fine-grained sentiment classification in particular, benefit from multitask learning? To answer the question, the paper brings the following two main contributions: (i) we show how jointly learning the ternary and fine-grained sentiment classification problems in a multitask setting improves the state-of-the-art performance, and (ii) we demonstrate that recurrent neural networks outperform models previously proposed without access to huge corpora while being flexible to incorporate different sources of data.\nMultitask Learning for Twitter Sentiment Classification\nIn his work, Caruana BIBREF4 proposed a multitask approach in which a learner takes advantage of the multiplicity of interdependent tasks while jointly learning them. The intuition is that if the tasks are correlated, the learner can learn a model jointly for them while taking into account the shared information which is expected to improve its generalization ability. People express their opinions online on various subjects (events, products..), on several languages and in several styles (tweets, paragraph-sized reviews..), and it is exactly this variety that motivates the multitask approaches. Specifically for Twitter for instance, the different settings",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multitask Sentiment Learning"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "of classification like binary, ternary and fine-grained are correlated since their difference lies in the sentiment granularity of the classes which increases while moving from binary to fine-grained problems. There are two main decisions to be made in our approach: the learning algorithm, which learns a decision function, and the data representation. With respect to the former, neural networks are particularly suitable as one can design architectures with different properties and arbitrary complexity. Also, as training neural network usually relies on back-propagation of errors, one can have shared parts of the network trained by estimating errors on the joint tasks and others specialized for particular tasks. Concerning the data representation, it strongly depends on the data type available. For the task of sentiment classification of tweets with neural networks, distributed embeddings of words have shown great potential. Embeddings are defined as low-dimensional, dense representations of words that can be obtained in an unsupervised fashion by training on large quantities of text BIBREF10 . Concerning the neural network architecture, we focus on Recurrent Neural Networks (RNNs) that are capable of modeling short-range and long-range dependencies like those exhibited in sequence data of arbitrary length like text. While in the traditional information retrieval paradigm such dependencies are captured using INLINEFORM0 -grams and skip-grams, RNNs learn to capture them automatically BIBREF11 . To circumvent the problems with capturing long-range dependencies and preventing gradients from vanishing, the long short-term memory network (LSTM) was proposed BIBREF12 . In this work, we use an extended version of LSTM called bidirectional LSTM (biLSTM). While standard LSTMs access information only from the past (previous words), biLSTMs capture both past and future information effectively BIBREF13 , BIBREF11 . They consist of two LSTM networks, for propagating text forward and backwards with the goal being to capture the dependencies better. Indeed, previous work on multitask learning showed the effectiveness of biLSTMs in a variety of problems: BIBREF14 tackled sequence prediction, while BIBREF6 and BIBREF15 used biLSTMs for Named Entity Recognition and dependency parsing respectively. Figure FIGREF2 presents the architecture we use for multitask learning. In the top-left of the figure a biLSTM network (enclosed by the dashed line) is fed with embeddings INLINEFORM0 that correspond to the INLINEFORM1 words of a tokenized tweet. Notice, as discussed above, the biLSTM consists of two LSTMs that are fed with the word sequence forward and backwards. On top of the biLSTM network one",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Sentiment Classification with BiLSTM"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "(or more) hidden layers INLINEFORM2 transform its output. The output of INLINEFORM3 is led to the softmax layers for the prediction step. There are INLINEFORM4 softmax layers and each is used for one of the INLINEFORM5 tasks of the multitask setting. In tasks such as sentiment classification, additional features like membership of words in sentiment lexicons or counts of elongated/capitalized words can be used to enrich the representation of tweets before the classification step BIBREF3 . The lower part of the network illustrates how such sources of information can be incorporated to the process. A vector \u201cAdditional Features\u201d for each tweet is transformed from the hidden layer(s) INLINEFORM6 and then is combined by concatenation with the transformed biLSTM output in the INLINEFORM7 layer. Experimental setup Our goal is to demonstrate how multitask learning can be successfully applied on the task of sentiment classification of tweets. The particularities of tweets are to be short and informal text spans. The common use of abbreviations, creative language etc., makes the sentiment classification problem challenging. To validate our hypothesis, that learning the tasks jointly can benefit the performance, we propose an experimental setting where there are data from two different twitter sentiment classification problems: a fine-grained and a ternary. We consider the fine-grained task to be our primary task as it is more challenging and obtaining bigger datasets, e.g. by distant supervision, is not straightforward and, hence we report the performance achieved for this task. Ternary and fine-grained sentiment classification were part of the SemEval-2016 \u201cSentiment Analysis in Twitter\u201d task BIBREF16 . We use the high-quality datasets the challenge organizers released. The dataset for fine-grained classification is split in training, development, development_test and test parts. In the rest, we refer to these splits as train, development and test, where train is composed by the training and the development instances. Table TABREF7 presents an overview of the data. As discussed in BIBREF16 and illustrated in the Table, the fine-grained dataset is highly unbalanced and skewed towards the positive sentiment: only INLINEFORM0 of the training examples are labeled with one of the negative classes. Feature representation We report results using two different feature sets. The first one, dubbed nbow, is a neural bag-of-words that uses text embeddings to generate low-dimensional, dense representations of the tweets. To construct the nbow representation, given the word embeddings dictionary where each word is associated with a vector, we apply the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Sentiment Classification Features"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "average compositional function that averages the embeddings of the words that compose a tweet. Simple compositional functions like average were shown to be robust and efficient in previous work BIBREF17 . Instead of training embeddings from scratch, we use the pre-trained on tweets GloVe embeddings of BIBREF10 . In terms of resources required, using only nbow is efficient as it does not require any domain knowledge. However, previous research on sentiment analysis showed that using extra resources, like sentiment lexicons, can benefit significantly the performance BIBREF3 , BIBREF2 . To validate this and examine at which extent neural networks and multitask learning benefit from such features we evaluate the models using an augmented version of nbow, dubbed nbow+. The feature space of the latter, is augmented using 1,368 extra features consisting mostly of counts of punctuation symbols ('!?#@'), emoticons, elongated words and word membership features in several sentiment lexicons. Due to space limitations, for a complete presentation of these features, we refer the interested reader to BIBREF2 , whose open implementation we used to extract them. Evaluation measure To reproduce the setting of the SemEval challenges BIBREF16 , we optimize our systems using as primary measure the macro-averaged Mean Absolute Error ( INLINEFORM0 ) given by: INLINEFORM1 where INLINEFORM0 is the number of categories, INLINEFORM1 is the set of instances whose true class is INLINEFORM2 , INLINEFORM3 is the true label of the instance INLINEFORM4 and INLINEFORM5 the predicted label. The measure penalizes decisions far from the true ones and is macro-averaged to account for the fact that the data are unbalanced. Complementary to INLINEFORM6 , we report the performance achieved on the micro-averaged INLINEFORM7 measure, which is a commonly used measure for classification. The models To evaluate the multitask learning approach, we compared it with several other models. Support Vector Machines (SVMs) are maximum margin classification algorithms that have been shown to achieve competitive performance in several text classification problems BIBREF16 . SVM INLINEFORM0 stands for an SVM with linear kernel and an one-vs-rest approach for the multi-class problem. Also, SVM INLINEFORM1 is an SVM with linear kernel that employs the crammer-singer strategy BIBREF18 for the multi-class problem. Logistic regression (LR) is another type of linear classification method, with probabilistic motivation. Again, we use two types of Logistic Regression depending on the multi-class strategy: LR INLINEFORM2 that uses an one-vs-rest approach and multinomial Logistic Regression also known as the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Feature Augmentation in Sentiment Analysis"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "MaxEnt classifier that uses a multinomial criterion. Both SVMs and LRs as discussed above treat the problem as a multi-class one, without considering the ordering of the classes. For these four models, we tuned the hyper-parameter INLINEFORM0 that controls the importance of the L INLINEFORM1 regularization part in the optimization problem with grid-search over INLINEFORM2 using 10-fold cross-validation in the union of the training and development data and then retrained the models with the selected values. Also, to account for the unbalanced classification problem we used class weights to penalize more the errors made on the rare classes. These weights were inversely proportional to the frequency of each class. For the four models we used the implementations of Scikit-learn BIBREF19 . For multitask learning we use the architecture shown in Figure FIGREF2 , which we implemented with Keras BIBREF20 . The embeddings are initialized with the 50-dimensional GloVe embeddings while the output of the biLSTM network is set to dimension 50. The activation function of the hidden layers is the hyperbolic tangent. The weights of the layers were initialized from a uniform distribution, scaled as described in BIBREF21 . We used the Root Mean Square Propagation optimization method. We used dropout for regularizing the network. We trained the network using batches of 128 examples as follows: before selecting the batch, we perform a Bernoulli trial with probability INLINEFORM0 to select the task to train for. With probability INLINEFORM1 we pick a batch for the fine-grained sentiment classification problem, while with probability INLINEFORM2 we pick a batch for the ternary problem. As shown in Figure FIGREF2 , the error is backpropagated until the embeddings, that we fine-tune during the learning process. Notice also that the weights of the network until the layer INLINEFORM3 are shared and therefore affected by both tasks. To tune the neural network hyper-parameters we used 5-fold cross validation. We tuned the probability INLINEFORM0 of dropout after the hidden layers INLINEFORM1 and for the biLSTM for INLINEFORM2 , the size of the hidden layer INLINEFORM3 and the probability INLINEFORM4 of the Bernoulli trials from INLINEFORM5 . During training, we monitor the network's performance on the development set and apply early stopping if the performance on the validation set does not improve for 5 consecutive epochs. Experimental results Table TABREF9 illustrates the performance of the models for the different data representations. The upper part of the Table summarizes the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "performance of the baselines. The entry \u201cBalikas et al.\u201d stands for the winning system of the 2016 edition of the challenge BIBREF2 , which to the best of our knowledge holds the state-of-the-art. Due to the stochasticity of training the biLSTM models, we repeat the experiment 10 times and report the average and the standard deviation of the performance achieved. Several observations can be made from the table. First notice that, overall, the best performance is achieved by the neural network architecture that uses multitask learning. This entails that the system makes use of the available resources efficiently and improves the state-of-the-art performance. In conjunction with the fact that we found the optimal probability INLINEFORM0 , this highlights the benefits of multitask learning over single task learning. Furthermore, as described above, the neural network-based models have only access to the training data as the development are hold for early stopping. On the other hand, the baseline systems were retrained on the union of the train and development sets. Hence, even with fewer resources available for training on the fine-grained problem, the neural networks outperform the baselines. We also highlight the positive effect of the additional features that previous research proposed. Adding the features both in the baselines and in the biLSTM-based architectures improves the INLINEFORM1 scores by several points. Lastly, we compare the performance of the baseline systems with the performance of the state-of-the-art system of BIBREF2 . While BIBREF2 uses n-grams (and character-grams) with INLINEFORM0 , the baseline systems (SVMs, LRs) used in this work use the nbow+ representation, that relies on unigrams. Although they perform on par, the competitive performance of nbow highlights the potential of distributed representations for short-text classification. Further, incorporating structure and distributed representations leads to the gains of the biLSTM network, in the multitask and single task setting. Similar observations can be drawn from Figure FIGREF10 that presents the INLINEFORM0 scores. Again, the biLSTM network with multitask learning achieves the best performance. It is also to be noted that although the two evaluation measures are correlated in the sense that the ranking of the models is the same, small differences in the INLINEFORM1 have large effect on the scores of the INLINEFORM2 measure. Conclusion In this paper, we showed that by jointly learning the tasks of ternary and fine-grained classification with a multitask learning model, one can greatly improve the performance on the second.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "This opens several avenues for future research. Since sentiment is expressed in different textual types like tweets and paragraph-sized reviews, in different languages (English, German, ..) and in different granularity levels (binary, ternary,..) one can imagine multitask approaches that could benefit from combining such resources. Also, while we opted for biLSTM networks here, one could use convolutional neural networks or even try to combine different types of networks and tasks to investigate the performance effect of multitask learning. Lastly, while our approach mainly relied on the foundations of BIBREF4 , the internal mechanisms and the theoretical guarantees of multitask learning remain to be better understood. Acknowledgements This work is partially supported by the CIFRE N 28/2015.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Future Research Directions"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Fine-grained sentiment classification involves categorizing tweets on a five-point scale ranging from VeryNegative to VeryPositive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "A five-point scale in sentiment analysis ranges from VeryNegative to VeryPositive and is used to represent the intensity of sentiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Review sites like Amazon and TripAdvisor use a five-point scale to order user sentiment based on intensity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Ordinal classification is a type of sentiment classification where the categories are explicitly ordered, and model predictions are penalized based on their distance from the true class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Ternary sentiment analysis categorizes tweets into three sentiment classes, typically Negative, Neutral, and Positive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Feature extraction in sentiment analysis includes methods such as word membership in lexicons and morpho-syntactic statistics like punctuation or elongated word counts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Knowledge from ternary sentiment classification can be transferred to fine-grained classification, helping narrow the decision space between categories like Positive and VeryPositive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Multitask learning is a machine learning approach where multiple related tasks are learned simultaneously to improve performance through shared information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Sentiment classification is the task of determining the emotional tone or attitude expressed in a piece of text, such as positive, negative, or neutral.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Ternary classification is a sentiment classification setting that involves three possible outcomes, typically positive, negative, and neutral.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Fine-grained sentiment classification involves identifying more specific sentiment nuances, such as strong positive, weak positive, or slightly negative, beyond basic positive, negative, or neutral categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Caruana proposed a multitask learning approach that leverages interdependent tasks to improve generalization by jointly learning shared information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Twitter sentiment classification problems, especially fine-grained ones, can benefit from multitask learning by improving performance through shared task knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Recurrent neural networks outperform previous models in Twitter sentiment classification when trained with access to large corpora and diverse data sources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Distant supervision using emoticons can be used to label data for ternary sentiment classification but is not straightforward for fine-grained classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Jointly learning ternary and fine-grained sentiment classification improves state-of-the-art performance in sentiment classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Correlated tasks in multitask learning allow the model to leverage shared information, leading to improved generalization and performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Binary classification is a type of sentiment classification that involves two classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Ternary classification is a type of sentiment classification that involves three classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Fine-grained classification is a type of sentiment classification with increasing sentiment granularity as compared to binary and ternary classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Sentiment granularity increases as one moves from binary to fine-grained classification problems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Neural networks are particularly suitable for learning decision functions due to their ability to design architectures with arbitrary complexity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Back-propagation of errors enables shared network parts to be trained on joint tasks while specialized parts are trained for specific tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Data representation in sentiment classification depends on the type of available data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Distributed embeddings are low-dimensional, dense word representations learned unsupervised from large text corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "RNNs are capable of modeling both short-range and long-range dependencies in sequence data such as text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Traditional information retrieval captures sequence dependencies using n-grams and skip-grams, whereas RNNs learn these dependencies automatically.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "LSTM is a neural network architecture designed to address the vanishing gradient problem in capturing long-range dependencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "BiLSTM is an extended version of LSTM that captures both past and future information by processing sequences forward and backward.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Standard LSTMs access information only from the past (previous words) in a sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The biLSTM architecture consists of two LSTM networks\u2014one processing the sequence forward and the other backward\u2014to better capture dependencies in text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Structure"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Previous work has shown that biLSTMs are effective in various multitask learning problems such as sequence prediction, Named Entity Recognition, and dependency parsing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Figure FIGREF2 presents the architecture used for multitask learning, featuring a biLSTM network fed with word embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Word embeddings are fed into the biLSTM network as inputs corresponding to tokenized tweet words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Input"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "INLINEFORM2 transforms its output to enable deeper processing in the network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The output of INLINEFORM3 is fed into softmax layers for the prediction step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "There are multiple INLINEFORM4 softmax layers, each dedicated to one of the INLINEFORM5 tasks in a multitask setting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "INLINEFORM5 refers to the set of tasks in a multitask learning framework, including sentiment classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The informal and short nature of tweets, including abbreviations and creative language, makes sentiment classification challenging.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "A vector of additional features for each tweet is derived from hidden layers INLINEFORM6 and concatenated with the biLSTM output in the INLINEFORM7 layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The transformed biLSTM output is combined with additional features in the INLINEFORM7 layer to enrich tweet representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "A challenging sentiment classification task with multiple sentiment classes, which is the primary task in the experimental setup.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "A sentiment classification task with three sentiment classes, used as a secondary task in the multitask setting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The SemEval-2016 'Sentiment Analysis in Twitter' task includes both fine-grained and ternary sentiment classification challenges.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "A neural bag-of-words feature representation that uses text embeddings to generate low-dimensional, dense tweet representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "A dictionary that maps each word to a vector representation used in constructing the nbow feature set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The fine-grained dataset is split into training, development, and test parts, with train combining training and development instances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The fine-grained dataset is highly unbalanced, with only a small fraction of training examples labeled as negative sentiment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The average compositional function computes the average of the word embeddings that compose a tweet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "GloVe embeddings are pre-trained on tweets and used in the model without retraining.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "nbow is an efficient feature representation method that does not require domain knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "nbow+ is an augmented version of nbow that includes 1,368 extra features such as punctuation counts, emoticons, elongated words, and word membership in sentiment lexicons.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The primary evaluation metric used is the macro-averaged Mean Absolute Error, which penalizes predictions far from the true labels and accounts for class imbalance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "A complementary evaluation metric is the micro-averaged performance, commonly used for classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "SVMs are maximum margin classification algorithms that have been shown to achieve competitive performance in text classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "SVM INLINEFORM0 uses a linear kernel and one-vs-rest strategy for multi-class classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "SVM INLINEFORM1 uses a linear kernel and the crammer-singer strategy for multi-class classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Logistic regression is a linear classification method with probabilistic motivation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Multinomial Logistic Regression is a type of logistic regression used for multi-class classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "A MaxEnt classifier is a model that uses a multinomial criterion to classify data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "SVMs and logistic regression models treat multi-class classification problems without considering class ordering.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The hyper-parameter INLINEFORM0 controls the importance of the L1 regularization part in the optimization problem.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "Hyper-parameters were tuned using grid-search over a specified range with 10-fold cross-validation on the union of training and development data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Class weights were used to penalize errors on rare classes, with weights inversely proportional to class frequency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "SVMs and logistic regression models were implemented using Scikit-learn.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Implementation"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The multitask learning architecture shown in Figure FIGREF2 was implemented using Keras.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The embeddings in the model are initialized with 50-dimensional GloVe embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The output dimension of the biLSTM network is set to 50.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The activation function used in the hidden layers is the hyperbolic tangent.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The weights of the layers were initialized from a uniform distribution, scaled as described in BIBREF21.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The Root Mean Square Propagation optimization method was used to train the neural network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Dropout was used to regularize the neural network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The network was trained using batches of 128 examples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "Before selecting a batch, a Bernoulli trial with probability INLINEFORM0 is performed to decide which task to train on.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "With probability INLINEFORM1, a batch is selected for the fine-grained sentiment classification problem.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "With probability INLINEFORM2, a batch is selected for the ternary classification problem.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Error is backpropagated until the embeddings, which are fine-tuned during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The weights of the network up to layer INLINEFORM3 are shared and affected by both tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Neural network hyper-parameters were tuned using 5-fold cross-validation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The probability of dropout after the hidden layers INLINEFORM1 was tuned during hyper-parameter optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tuned parameter"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The parameters of the biLSTM, including its size INLINEFORM2 and hidden layer size INLINEFORM3, were tuned.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tuned parameter"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The probability of the Bernoulli trials from INLINEFORM5 was tuned during hyper-parameter optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tuned parameter"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Early stopping is applied if the validation performance does not improve for 5 consecutive epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Table TABREF9 illustrates the performance of the models across different data representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The upper part of Table TABREF9 summarizes the performance of the models for different data representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Balikas et al. refers to the winning system of the 2016 edition of the BIBREF2 challenge, which is considered to hold the state-of-the-art performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "The performance of biLSTM models is subject to stochasticity during training, so experiments are repeated 10 times to report average and standard deviation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The neural network architecture using multitask learning achieves the best overall performance, indicating efficient use of available resources and improved state-of-the-art results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "INLINEFORM0 refers to the optimal probability found in the experiment that highlights the benefits of multitask learning over single-task learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Neural network-based models have access only to training data, while development data is held out for early stopping.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Baseline systems are retrained on the union of training and development datasets, which provides them with more data than neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Adding previously proposed features improves INLINEFORM1 scores by several points in both baseline and biLSTM-based architectures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The state-of-the-art system BIBREF2 uses n-grams and character-grams with INLINEFORM0 for text representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Baseline systems (SVMs, LRs) use the nbow+ representation, which relies on unigrams rather than n-grams or character-grams.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The competitive performance of nbow+ highlights the potential of distributed representations for short-text classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The biLSTM network with multitask learning achieves the best performance, as shown in both the table and Figure FIGREF10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Although INLINEFORM1 and INLINEFORM2 are correlated in model ranking, small differences in INLINEFORM1 have a large effect on the scores of INLINEFORM2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Jointly learning ternary and fine-grained classification with a multitask learning model significantly improves performance on fine-grained classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Future research can explore multitask approaches that combine resources across different textual types, languages, and granularity levels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Instead of using biLSTM networks, future work could explore convolutional neural networks or hybrid models combining different network types for multitask learning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The internal mechanisms and theoretical guarantees of multitask learning remain poorly understood and require further investigation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Research Gap"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "This work is partially supported by the CIFRE N 28/2015.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1,368 extra features",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "10 times",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "2016",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "5-fold cross-validation",
+      "Method",
+      "s79"
+    ],
+    [
+      "Additional Features",
+      "Definition",
+      "s40"
+    ],
+    [
+      "Additional Features",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "Amazon",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "Amazon and TripAdvisor",
+      "Example",
+      "s3"
+    ],
+    [
+      "BIBREF11",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "BIBREF12",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "BIBREF13",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "BIBREF14",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "BIBREF15",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "BIBREF16",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "BIBREF2",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "BIBREF3",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "BIBREF4",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "BIBREF6",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "Balikas et al.",
+      "Definition",
+      "s86"
+    ],
+    [
+      "Balikas et al.",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "Bernoulli trial",
+      "Method",
+      "s74"
+    ],
+    [
+      "Bernoulli trial probability INLINEFORM4",
+      "Tuned parameter",
+      "s82"
+    ],
+    [
+      "CIFRE N 28/2015",
+      "Funding",
+      "s102"
+    ],
+    [
+      "CIFRE N 28/2015",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "Caruana",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "Caruana",
+      "Property",
+      "s12"
+    ],
+    [
+      "Crammer-Singer strategy",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "English",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "FIGREF10",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "FIGREF2",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "Figure FIGREF2",
+      "Reference",
+      "s33"
+    ],
+    [
+      "German",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "GloVe embeddings",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "GloVe embeddings",
+      "Property",
+      "s50"
+    ],
+    [
+      "GloVe embeddings",
+      "Property",
+      "s67"
+    ],
+    [
+      "INLINEFORM0",
+      "Definition",
+      "s89"
+    ],
+    [
+      "INLINEFORM0",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "INLINEFORM0",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "INLINEFORM1",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "INLINEFORM1",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "INLINEFORM1 and INLINEFORM2",
+      "Relationship",
+      "s97"
+    ],
+    [
+      "INLINEFORM2",
+      "Definition",
+      "s35"
+    ],
+    [
+      "INLINEFORM2",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "INLINEFORM2",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "INLINEFORM3",
+      "Definition",
+      "s36"
+    ],
+    [
+      "INLINEFORM3",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "INLINEFORM4",
+      "Property",
+      "s37"
+    ],
+    [
+      "INLINEFORM4",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "INLINEFORM5",
+      "Definition",
+      "s38"
+    ],
+    [
+      "INLINEFORM5",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "INLINEFORM6",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "INLINEFORM7",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "LRs",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "LSTM",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "Logistic Regression",
+      "Definition",
+      "s58"
+    ],
+    [
+      "MaxEnt classifier",
+      "Definition",
+      "s60"
+    ],
+    [
+      "Mean Absolute Error",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "RNNs",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "Recurrent Neural Networks (RNNs)",
+      "Property",
+      "s26"
+    ],
+    [
+      "Root Mean Square Propagation",
+      "Method",
+      "s71"
+    ],
+    [
+      "SVM with crammer-singer strategy",
+      "Definition",
+      "s57"
+    ],
+    [
+      "SVM with linear kernel and one-vs-rest",
+      "Definition",
+      "s56"
+    ],
+    [
+      "SVMs",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "SVMs and LRs",
+      "Property",
+      "s61"
+    ],
+    [
+      "Scikit-learn",
+      "Implementation",
+      "s65"
+    ],
+    [
+      "Sebastiani et al.",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "SemEval challenges",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "SemEval-2016",
+      "Reference",
+      "s44"
+    ],
+    [
+      "SemEval-2016",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "Support Vector Machines (SVMs)",
+      "Definition",
+      "s55"
+    ],
+    [
+      "Support Vector Machines (SVMs)",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "TABREF7",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "Table TABREF9",
+      "Result",
+      "s84"
+    ],
+    [
+      "TripAdvisor",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "Twitter",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "Twitter sentiment classification",
+      "Result",
+      "s13"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e7"
+    ],
+    [
+      "VeryNegative",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "VeryPositive",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "activation function",
+      "Property",
+      "s69"
+    ],
+    [
+      "additional features",
+      "Result",
+      "s92"
+    ],
+    [
+      "average",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "average compositional function",
+      "Definition",
+      "s49"
+    ],
+    [
+      "average compositional function",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "back-propagation",
+      "Cause",
+      "s23"
+    ],
+    [
+      "back-propagation",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "baseline systems",
+      "Property",
+      "s91"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s73"
+    ],
+    [
+      "biLSTM",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "biLSTM",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "biLSTM",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "biLSTM architecture",
+      "Structure",
+      "s31"
+    ],
+    [
+      "biLSTM models",
+      "Property",
+      "s87"
+    ],
+    [
+      "biLSTM network",
+      "Result",
+      "s96"
+    ],
+    [
+      "biLSTM networks",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "biLSTM output",
+      "Property",
+      "s41"
+    ],
+    [
+      "biLSTM output dimension",
+      "Property",
+      "s68"
+    ],
+    [
+      "biLSTM parameters",
+      "Tuned parameter",
+      "s81"
+    ],
+    [
+      "bidirectional LSTM",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "bidirectional LSTM (biLSTM)",
+      "Definition",
+      "s29"
+    ],
+    [
+      "binary",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "binary classification",
+      "Definition",
+      "s18"
+    ],
+    [
+      "binary classification",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "binary sentiment analysis",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "capitalized words",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "character-grams",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "class weights",
+      "Property",
+      "s64"
+    ],
+    [
+      "convolutional neural networks",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "convolutional neural networks",
+      "Suggestion",
+      "s100"
+    ],
+    [
+      "correlated tasks",
+      "Cause",
+      "s17"
+    ],
+    [
+      "correlated tasks",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "data representation",
+      "Definition",
+      "s24"
+    ],
+    [
+      "data representation",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "distant supervision",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "distant supervision with emoticons",
+      "Property",
+      "s15"
+    ],
+    [
+      "distributed embeddings",
+      "Definition",
+      "s25"
+    ],
+    [
+      "distributed embeddings",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "distributed representations",
+      "Result",
+      "s95"
+    ],
+    [
+      "dropout",
+      "Method",
+      "s72"
+    ],
+    [
+      "dropout probability INLINEFORM0",
+      "Tuned parameter",
+      "s80"
+    ],
+    [
+      "early stopping",
+      "Method",
+      "s83"
+    ],
+    [
+      "elongated word counts",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "elongated words",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "elongated words",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "emoticons",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "emoticons",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "error backpropagation",
+      "Method",
+      "s77"
+    ],
+    [
+      "feature extraction",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "feature extraction",
+      "Method",
+      "s6"
+    ],
+    [
+      "fine-grained classification",
+      "Definition",
+      "s20"
+    ],
+    [
+      "fine-grained classification",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "fine-grained classification",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "fine-grained sentiment",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "fine-grained sentiment classification",
+      "Definition",
+      "s1"
+    ],
+    [
+      "fine-grained sentiment classification",
+      "Definition",
+      "s11"
+    ],
+    [
+      "fine-grained sentiment classification",
+      "Definition",
+      "s42"
+    ],
+    [
+      "fine-grained sentiment classification",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "fine-grained sentiment classification",
+      "Task",
+      "s75"
+    ],
+    [
+      "five-point scale",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "five-point scale",
+      "Property",
+      "s2"
+    ],
+    [
+      "forward and backward propagation",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "future research avenues",
+      "Suggestion",
+      "s99"
+    ],
+    [
+      "grid-search",
+      "Method",
+      "s63"
+    ],
+    [
+      "hidden layers",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "hyper-parameter INLINEFORM0",
+      "Definition",
+      "s62"
+    ],
+    [
+      "joint learning of ternary and fine-grained tasks",
+      "Benefit",
+      "s16"
+    ],
+    [
+      "knowledge transfer",
+      "Relationship",
+      "s7"
+    ],
+    [
+      "linear kernel",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "logistic regression",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "long short-term memory (LSTM)",
+      "Definition",
+      "s28"
+    ],
+    [
+      "long-range dependencies",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "macro-averaged MAE",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "macro-averaged Mean Absolute Error",
+      "Definition",
+      "s53"
+    ],
+    [
+      "micro-averaged performance",
+      "Definition",
+      "s54"
+    ],
+    [
+      "micro-averaged performance",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "morpho-syntactic statistics",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "multinomial Logistic Regression",
+      "Definition",
+      "s59"
+    ],
+    [
+      "multinomial Logistic Regression",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "multitask approaches",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "multitask learning",
+      "Definition",
+      "s8"
+    ],
+    [
+      "multitask learning",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "multitask learning",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "multitask learning",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "multitask learning",
+      "Result",
+      "s32"
+    ],
+    [
+      "multitask learning",
+      "Result",
+      "s88"
+    ],
+    [
+      "multitask learning",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "multitask learning architecture",
+      "Definition",
+      "s66"
+    ],
+    [
+      "n-grams",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "n-grams and character-grams",
+      "Definition",
+      "s93"
+    ],
+    [
+      "nbow",
+      "Definition",
+      "s45"
+    ],
+    [
+      "nbow",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "nbow",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "nbow",
+      "Property",
+      "s51"
+    ],
+    [
+      "nbow",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "nbow+",
+      "Definition",
+      "s52"
+    ],
+    [
+      "nbow+",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "nbow+ representation",
+      "Definition",
+      "s94"
+    ],
+    [
+      "negative classes",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "neural network-based models",
+      "Property",
+      "s90"
+    ],
+    [
+      "neural networks",
+      "Property",
+      "s22"
+    ],
+    [
+      "neural networks",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "one-vs-rest",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "ordinal classification",
+      "Definition",
+      "s4"
+    ],
+    [
+      "ordinal classification",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "paragraph-sized reviews",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "punctuation",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "punctuation symbols",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "recurrent neural networks",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "recurrent neural networks",
+      "Result",
+      "s14"
+    ],
+    [
+      "research perspective",
+      "Research Perspective",
+      "e2"
+    ],
+    [
+      "sentiment",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "sentiment classification",
+      "Cause",
+      "s39"
+    ],
+    [
+      "sentiment classification",
+      "Definition",
+      "s9"
+    ],
+    [
+      "sentiment classification",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "sentiment granularity",
+      "Property",
+      "s21"
+    ],
+    [
+      "sentiment granularity",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "sentiment lexicons",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ],
+    [
+      "sentiment lexicons",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "sequence data",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "shared information",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "shared weights",
+      "Property",
+      "s78"
+    ],
+    [
+      "short-range dependencies",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "softmax layers",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "standard LSTM",
+      "Property",
+      "s30"
+    ],
+    [
+      "standard deviation",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "state-of-the-art performance",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "stochasticity",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "ternary",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "ternary and fine-grained classification",
+      "Result",
+      "s98"
+    ],
+    [
+      "ternary classification",
+      "Definition",
+      "s10"
+    ],
+    [
+      "ternary classification",
+      "Definition",
+      "s19"
+    ],
+    [
+      "ternary classification",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "ternary classification",
+      "Multitask Sentiment Learning",
+      "e3"
+    ],
+    [
+      "ternary classification",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "ternary problem",
+      "Task",
+      "s76"
+    ],
+    [
+      "ternary sentiment",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "ternary sentiment analysis",
+      "Definition",
+      "s5"
+    ],
+    [
+      "ternary sentiment analysis",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "ternary sentiment classification",
+      "Definition",
+      "s43"
+    ],
+    [
+      "text BIBREF10",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "text embeddings",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "theoretical guarantees of multitask learning",
+      "Research Gap",
+      "s101"
+    ],
+    [
+      "tokenized tweet",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "traditional information retrieval",
+      "Comparison",
+      "s27"
+    ],
+    [
+      "training examples",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "training, development, test splits",
+      "Result",
+      "s47"
+    ],
+    [
+      "tweets",
+      "Future Research Directions",
+      "e9"
+    ],
+    [
+      "unbalanced dataset",
+      "Property",
+      "s48"
+    ],
+    [
+      "unbalanced dataset",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "unigrams",
+      "Model Performance Analysis",
+      "e8"
+    ],
+    [
+      "unsupervised training",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "upper part of Table TABREF9",
+      "Result",
+      "s85"
+    ],
+    [
+      "weight initialization",
+      "Property",
+      "s70"
+    ],
+    [
+      "word embeddings",
+      "Input",
+      "s34"
+    ],
+    [
+      "word embeddings",
+      "Sentiment Classification Features",
+      "e5"
+    ],
+    [
+      "word embeddings",
+      "Sentiment Classification with BiLSTM",
+      "e4"
+    ],
+    [
+      "word embeddings dictionary",
+      "Definition",
+      "s46"
+    ],
+    [
+      "word membership",
+      "Fine-Grained Sentiment Classification",
+      "e1"
+    ],
+    [
+      "word membership features",
+      "Feature Augmentation in Sentiment Analysis",
+      "e6"
+    ]
+  ]
+}

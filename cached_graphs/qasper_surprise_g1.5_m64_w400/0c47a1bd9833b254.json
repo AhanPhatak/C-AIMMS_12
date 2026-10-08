@@ -1,0 +1,3031 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 7,
+    "n_semantic": 110,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "word2vec": {
+      "tag_set": [
+        "Definition",
+        "Embedding Hyperparameter Analysis",
+        "Word2Vec Architecture",
+        "Word2Vec Architectures",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "continuous skipgram": {
+      "tag_set": [
+        "Definition",
+        "Word2Vec Architectures"
+      ]
+    },
+    "C": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Architecture",
+        "Word2Vec Architectures"
+      ]
+    },
+    "BoW": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Definition",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "attention mechanisms": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "hierarchical softmax": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Architecture",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "negative sampling": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Architecture",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "skipgram": {
+      "tag_set": [
+        "Definition",
+        "Word2Vec Architecture",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "CBoW": {
+      "tag_set": [
+        "Definition",
+        "Word2Vec Architecture",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "dimension size": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis",
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "training epochs": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "window size": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "vocabulary size": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "English Wiki News Abstract": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "English Wiki Simple (SW) Articles": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "Billion Word (BW)": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "IMDb dataset": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "Groningen Meaning Bank (GMB)": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "25,000 sentences": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "positive sentiments": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "negative sentiments": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "47,959 sentence samples": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "17 labels": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "9 main labels": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "context tags": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "O tokens": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "semantic analogies": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "syntactic analogies": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "sentiment analysis (SA)": {
+      "tag_set": [
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "named entity recognition (NER)": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "intrinsic evaluation": {
+      "tag_set": [
+        "Definition",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "extrinsic evaluation": {
+      "tag_set": [
+        "Definition",
+        "Word2Vec Hyperparameter Optimization"
+      ]
+    },
+    "distributed representations": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "low-dimensional": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "dense representations": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "Google News dataset": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Architecture"
+      ]
+    },
+    "100 billion words": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Word2Vec Architecture"
+      ]
+    },
+    "Python": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "C++": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "log-linear classifier": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Architecture"
+      ]
+    },
+    "phrase representations": {
+      "tag_set": [
+        "Extension",
+        "Word2Vec Architecture"
+      ]
+    },
+    "subsample frequent words": {
+      "tag_set": [
+        "Extension",
+        "Word2Vec Architecture"
+      ]
+    },
+    "NNLM": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "sentiment analysis": {
+      "tag_set": [
+        "Application",
+        "Property",
+        "Word2Vec Architecture"
+      ]
+    },
+    "named entity recognition": {
+      "tag_set": [
+        "Application",
+        "Word2Vec Architecture"
+      ]
+    },
+    "latent dirichlet allocation": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "latent semantic analysis": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "vector space algebra": {
+      "tag_set": [
+        "Property",
+        "Word2Vec Architecture"
+      ]
+    },
+    "King": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "Man": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "Woman": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "Queen": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "capital city": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "country": {
+      "tag_set": [
+        "Word2Vec Architecture"
+      ]
+    },
+    "plural verbs": {
+      "tag_set": [
+        "Syntactic Relationship",
+        "Word2Vec Architecture"
+      ]
+    },
+    "past tense": {
+      "tag_set": [
+        "Syntactic Relationship",
+        "Word2Vec Architecture"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "tiny file size": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Simple Wiki": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Property"
+      ]
+    },
+    "Billion Word corpus": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Property"
+      ]
+    },
+    "BW": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "w8s0h0": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Result"
+      ]
+    },
+    "w8s1h0": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Result"
+      ]
+    },
+    "WordSim": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Spearman correlation": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "TABREF5": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "TABREF6": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "training time": {
+      "tag_set": [
+        "Cause",
+        "Model Performance Comparison"
+      ]
+    },
+    "energy consumption": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "Mikolov model": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Property"
+      ]
+    },
+    "s1h0": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "analogy score": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis",
+        "Model Performance Comparison",
+        "Result"
+      ]
+    },
+    "3,000,000 vocabulary": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "367,811 vocabulary": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "711MB": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "100 dimensions": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "300 dimensions": {
+      "tag_set": [
+        "Model Performance Comparison",
+        "Property"
+      ]
+    },
+    "400 dimensions": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "FIGREF7": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "FIGREF9": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "polynomial interpolation": {
+      "tag_set": [
+        "Method",
+        "Model Performance Comparison"
+      ]
+    },
+    "github": {
+      "tag_set": [
+        "Availability",
+        "Model Performance Comparison"
+      ]
+    },
+    "NER": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis",
+        "Model Performance Comparison"
+      ]
+    },
+    "F1": {
+      "tag_set": [
+        "Model Performance Comparison"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "pytorch embedding": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis",
+        "Result"
+      ]
+    },
+    "SW w8s0h0": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "w4s0h0": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "SA": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "corpus size": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "Vinnova": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "project 2019-02996": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "Spr\u00e5kmodeller f\u00f6r svenska myndigheter": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "downstream tasks": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis",
+        "Property"
+      ]
+    },
+    "hyper-parameters": {
+      "tag_set": [
+        "Definition",
+        "Embedding Hyperparameter Analysis",
+        "Property"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Embedding Hyperparameter Analysis"
+      ]
+    },
+    "English Wiki Simple Articles": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "GMB dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "task-specific embeddings": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "optimal hyper-parameter combinations": {
+      "tag_set": [
+        "Objective"
+      ]
+    },
+    "Python and C++": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "latent dirichlet allocation (LDA)": {
+      "tag_set": [
+        "Alternative Model"
+      ]
+    },
+    "latent semantic analysis (LSA)": {
+      "tag_set": [
+        "Alternative Model"
+      ]
+    },
+    "King - Man + Woman \u2248 Queen": {
+      "tag_set": [
+        "Semantic Relationship"
+      ]
+    },
+    "capital city and country": {
+      "tag_set": [
+        "Semantic Relationship"
+      ]
+    },
+    "Google analogy test set": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "WordSimilarity-353 test set": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Google analogy score": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "WordSimilarity": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "artificial neural network (ANN)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vector dimension size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "epochs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "3,000 dimensions": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "diminishing returns": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "quality improvement": {
+      "tag_set": [
+        "Observation"
+      ]
+    },
+    "optimal hyper-parameter configurations": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "important hyper-parameters": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dataset size": {
+      "tag_set": [
+        "Effect"
+      ]
+    },
+    "Gensim": {
+      "tag_set": [
+        "Tool"
+      ]
+    },
+    "shared cluster": {
+      "tag_set": [
+        "Environment"
+      ]
+    },
+    "Tesla GPU": {
+      "tag_set": [
+        "Hardware"
+      ]
+    },
+    "PyTorch": {
+      "tag_set": [
+        "Framework"
+      ]
+    },
+    "vocabulary filtering": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "Table TABREF2": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "80 runs": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "320 hours": {
+      "tag_set": [
+        "Duration"
+      ]
+    },
+    "711MB SW dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "window 8 + skipgram + hierarchical softmax": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Google semantic and syntactic analogy tests": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "WordSimilarity-353": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NER and SA": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "table TABREF3": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "F1, precision, recall, accuracy": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "default pytorch embedding": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dataset split ratio 70:15:15": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch size of 64": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "experiments conducted four times": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Table TABREF5": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Table TABREF6": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Table TABREF11 and TABREF12": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Figures FIGREF7, FIGREF9, FIGREF10, FIGREF13, FIGREF14": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "skipgram with hierarchical softmax and window size 8": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "poor results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "w4s1h0": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "dimensionality": {
+      "tag_set": [
+        "Trend"
+      ]
+    },
+    "BW w4s1h0 model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "pretrained embeddings": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BIBREF0 model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "SW w8s0h0 model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "w8s0h0 & w4s0h0 combinations": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "hyper-parameter choices": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "smaller corpora": {
+      "tag_set": [
+        "Conclusion"
+      ]
+    },
+    "future work": {
+      "tag_set": [
+        "Recommendation"
+      ]
+    },
+    "Vinnova project 2019-02996": {
+      "tag_set": [
+        "Funding"
+      ]
+    },
+    "BIBREF24 and BIBREF14": {
+      "tag_set": [
+        "Comparison"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nThere have been many implementations of the word2vec model in either of the two architectures it provides: continuous skipgram and C",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word2Vec Architectures"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "BoW (BIBREF0). Similar distributed models of word or subword embeddings (or vector representations) find usage in sota, deep neural networks like BERT and its successors (BIBREF1, BIBREF2, BIBREF3). These deep networks generate contextual representations of words after been trained for extended periods on large corpora, unsupervised, using the attention mechanisms (BIBREF4). It has been observed that various hyper-parameter combinations have been used in different research involving word2vec with the possibility of many of them being sub-optimal (BIBREF5, BIBREF6, BIBREF7). Therefore, the authors seek to address the research question: what is the optimal combination of word2vec hyper-parameters for intrinsic and extrinsic NLP purposes? There are astronomically high numbers of combinations of hyper-parameters possible for neural networks, even with just a few layers. Hence, the scope of our extensive work over three corpora is on dimension size, training epochs, window size and vocabulary size for the training algorithms (hierarchical softmax and negative sampling) of both skipgram and CBoW. The corpora used for word embeddings are English Wiki News Abstract by BIBREF8 of about 15MB, English Wiki Simple (SW) Articles by BIBREF9 of about 711MB and the Billion Word (BW) of 3.9GB by BIBREF10. The corpus used for sentiment analysis is the IMDb dataset of movie reviews by BIBREF11 while that for NER is Groningen Meaning Bank (GMB) by BIBREF12, containing 47,959 sentence samples. The IMDb dataset used has a total of 25,000 sentences with half being positive sentiments and the other half being negative sentiments. The GMB dataset has 17 labels, with 9 main labels and 2 context tags. It is however unbalanced due to the high percentage of tokens with the label 'O'. This skew in the GMB dataset is typical with NER datasets. The objective of this work is to determine the optimal combinations of word2vec hyper-parameters for intrinsic evaluation (semantic and syntactic analogies) and extrinsic evaluation tasks (BIBREF13, BIBREF14), like SA and NER. It is not our objective in this work to record sota results. Some of the main contributions of this research are the empirical establishment of optimal combinations of word2vec hyper-parameters for NLP tasks, discovering the behaviour of quality of vectors viz-a-viz increasing dimensions and the confirmation of embeddings being task-specific for the downstream. The rest of this paper is organised as follows: the literature review that briefly surveys distributed representation of words, particularly word2vec; the methodology employed in this research work; the results obtained and the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word2Vec Hyperparameter Optimization"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "conclusion. Literature Review Breaking away from the non-distributed (high-dimensional, sparse) representations of words, typical of traditional bag-of-words or one-hot-encoding (BIBREF15), BIBREF0 created word2vec. Word2Vec consists of two shallow neural network architectures: continuous skipgram and CBoW. It uses distributed (low-dimensional, dense) representations of words that group similar words. This new model traded the complexity of deep neural network architectures, by other researchers, for more efficient training over large corpora. Its architectures have two training algorithms: negative sampling and hierarchical softmax (BIBREF16). The released model was trained on Google news dataset of 100 billion words. Implementations of the model have been undertaken by researchers in the programming languages Python and C++, though the original was done in C (BIBREF17). Continuous skipgram predicts (by maximizing classification of) words before and after the center word, for a given range. Since distant words are less connected to a center word in a sentence, less weight is assigned to such distant words in training. CBoW, on the other hand, uses words from the history and future in a sequence, with the objective of correctly classifying the target word in the middle. It works by projecting all history or future words within a chosen window into the same position, averaging their vectors. Hence, the order of words in the history or future does not influence the averaged vector. This is similar to the traditional bag-of-words, which is oblivious of the order of words in its sequence. A log-linear classifier is used in both architectures (BIBREF0). In further work, they extended the model to be able to do phrase representations and subsample frequent words (BIBREF16). Being a NNLM, word2vec assigns probabilities to words in a sequence, like other NNLMs such as feedforward networks or recurrent neural networks (BIBREF15). Earlier models like latent dirichlet allocation (LDA) and latent semantic analysis (LSA) exist and effectively achieve low dimensional vectors by matrix factorization (BIBREF18, BIBREF19). It's been shown that word vectors are beneficial for NLP tasks (BIBREF15), such as sentiment analysis and named entity recognition. Besides, BIBREF0 showed with vector space algebra that relationships among words can be evaluated, expressing the quality of vectors produced from the model. The famous, semantic example: vector(\"King\") - vector(\"Man\") + vector(\"Woman\") $\\approx $ vector(\"Queen\") can be verified using cosine distance. Another type of semantic meaning is the relationship between a capital city and its corresponding country. Syntactic relationship examples include plural verbs and past tense,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word2Vec Architecture"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "among others. Combination of both syntactic and semantic analyses is possible and provided (totaling over 19,000 questions) as Google analogy test set by BIBREF0. WordSimilarity-353 test set is another analysis tool for word vectors (BIBREF20). Unlike Google analogy score, which is based on vector space algebra, WordSimilarity is based on human expert-assigned semantic similarity on two sets of English word pairs. Both tools rank from 0 (totally dissimilar) to 1 (very much similar or exact, in Google analogy case). A typical artificial neural network (ANN) has very many hyper-parameters which may be tuned. Hyper-parameters are values which may be manually adjusted and include vector dimension size, type of algorithm and learning rate (BIBREF19). BIBREF0 tried various hyper-parameters with both architectures of their model, ranging from 50 to 1,000 dimensions, 30,000 to 3,000,000 vocabulary sizes, 1 to 3 epochs, among others. In our work, we extended research to 3,000 dimensions. Different observations were noted from the many trials. They observed diminishing returns after a certain point, despite additional dimensions or larger, unstructured training data. However, quality increased when both dimensions and data size were increased together. Although BIBREF16 pointed out that choice of optimal hyper-parameter configurations depends on the NLP problem at hand, they identified the most important factors are architecture, dimension size, subsampling rate, and the window size. In addition, it has been observed that variables like size of datasets improve the quality of word vectors and, potentially, performance on downstream tasks (BIBREF21, BIBREF0). Methodology The models were generated in a shared cluster running Ubuntu 16 with 32 CPUs of 32x Intel Xeon 4110 at 2.1GHz. Gensim (BIBREF17) python library implementation of word2vec was used with parallelization to utilize all 32 CPUs. The downstream experiments were run on a Tesla GPU on a shared DGX cluster running Ubuntu 18. Pytorch deep learning framework was used. Gensim was chosen because of its relative stability, popular support and to minimize the time required in writing and testing a new implementation in python from scratch. To form the vocabulary, words occurring less than 5 times in the corpora were dropped, stop words removed using the natural language toolkit (NLTK) (BIBREF22) and data pre-processing carried out. Table TABREF2 describes most hyper-parameters explored for each dataset. In all, 80 runs (of about 160 minutes) were conducted for the 15MB Wiki Abstract dataset with 80 serialized models totaling 15.136GB while 80 runs (for over 320 hours)",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "were conducted for the 711MB SW dataset, with 80 serialized models totaling over 145GB. Experiments for all combinations for 300 dimensions were conducted on the 3.9GB training set of the BW corpus and additional runs for other dimensions for the window 8 + skipgram + heirarchical softmax combination to verify the trend of quality of word vectors as dimensions are increased. Google (semantic and syntactic) analogy tests and WordSimilarity-353 (with Spearman correlation) by BIBREF20 were chosen for intrinsic evaluations. They measure the quality of word vectors. The analogy scores are averages of both semantic and syntactic tests. NER and SA were chosen for extrinsic evaluations. The GMB dataset for NER was trained in an LSTM network, which had an embedding layer for input. The network diagram is shown in fig. FIGREF4. The IMDb dataset for SA was trained in a BiLSTM network, which also used an embedding layer for input. Its network diagram is given in fig. FIGREF4. It includes an additional hidden linear layer. Hyper-parameter details of the two networks for the downstream tasks are given in table TABREF3. The metrics for extrinsic evaluation include F1, precision, recall and accuracy scores. In both tasks, the default pytorch embedding was tested before being replaced by pre-trained embeddings released by BIBREF0 and ours. In each case, the dataset was shuffled before training and split in the ratio 70:15:15 for training, validation (dev) and test sets. Batch size of 64 was used. For each task, experiments for each embedding was conducted four times and an average value calculated and reported in the next section Results and Discussion Table TABREF5 summarizes key results from the intrinsic evaluations for 300 dimensions. Table TABREF6 reveals the training time (in hours) and average embedding loading time (in seconds) representative of the various models used. Tables TABREF11 and TABREF12 summarize key results for the extrinsic evaluations. Figures FIGREF7, FIGREF9, FIGREF10, FIGREF13 and FIGREF14 present line graph of the eight combinations for different dimension sizes for Simple Wiki, trend of Simple Wiki and Billion Word corpora over several dimension sizes, analogy score comparison for models across datasets, NER mean F1 scores on the GMB dataset and SA mean F1 scores on the IMDb dataset, respectively. Combination of the skipgram using hierarchical softmax and window size of 8 for 300 dimensions outperformed others in analogy scores for the Wiki Abstract. However, its results are so poor, because of the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "tiny file size, they're not worth reporting here. Hence, we'll focus on results from the Simple Wiki and Billion Word corpora. Best combination changes when corpus size increases, as will be noticed from table TABREF5. In terms of analogy score, for 10 epochs, w8s0h0 performs best while w8s1h0 performs best in terms of WordSim and corresponding Spearman correlation. Meanwhile, increasing the corpus size to BW, w4s1h0 performs best in terms of analogy score while w8s1h0 maintains its position as the best in terms of WordSim and Spearman correlation. Besides considering quality metrics, it can be observed from table TABREF6 that comparative ratio of values between the models is not commensurate with the results in intrinsic or extrinsic values, especially when we consider the amount of time and energy spent, since more training time results in more energy consumption (BIBREF23). Information on the length of training time for the released Mikolov model is not readily available. However, it's interesting to note that their presumed best model, which was released is also s1h0. Its analogy score, which we tested and report, is confirmed in their paper. It beats our best models in only analogy score (even for Simple Wiki), performing worse in others. This is inspite of using a much bigger corpus of 3,000,000 vocabulary size and 100 billion words while Simple Wiki had vocabulary size of 367,811 and is 711MB. It is very likely our analogy scores will improve when we use a much larger corpus, as can be observed from table TABREF5, which involves just one billion words. Although the two best combinations in analogy (w8s0h0 & w4s0h0) for SW, as shown in fig. FIGREF7, decreased only slightly compared to others with increasing dimensions, the increased training time and much larger serialized model size render any possible minimal score advantage over higher dimensions undesirable. As can be observed in fig. FIGREF9, from 100 dimensions, scores improve but start to drop after over 300 dimensions for SW and after over 400 dimensions for BW. More becomes worse! This trend is true for all combinations for all tests. Polynomial interpolation may be used to determine the optimal dimension in both corpora. Our models are available for confirmation and source codes are available on github. With regards to NER, most pretrained embeddings outperformed the default pytorch embedding, with our BW w4s1h0 model (which is best in BW analogy score) performing best in F1",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Comparison"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "score and closely followed by BIBREF0 model. On the other hand, with regards to SA, pytorch embedding outperformed the pretrained embeddings but was closely followed by our SW w8s0h0 model (which also had the best SW analogy score). BIBREF0 performed second worst of all, despite originating from a very huge corpus. The combinations w8s0h0 & w4s0h0 of SW performed reasonably well in both extrinsic tasks, just as the default pytorch embedding did. Conclusion This work analyses, empirically, optimal combinations of hyper-parameters for embeddings, specifically for word2vec. It further shows that for downstream tasks, like NER and SA, there's no silver bullet! However, some combinations show strong performance across tasks. Performance of embeddings is task-specific and high analogy scores do not necessarily correlate positively with performance on downstream tasks. This point on correlation is somewhat similar to results by BIBREF24 and BIBREF14. It was discovered that increasing dimension size depreciates performance after a point. If strong considerations of saving time, energy and the environment are made, then reasonably smaller corpora may suffice or even be better in some cases. The on-going drive by many researchers to use ever-growing data to train deep neural networks can benefit from the findings of this work. Indeed, hyper-parameter choices are very important in neural network systems (BIBREF19). Future work that may be investigated are performance of other architectures of word or sub-word embeddings, the performance and comparison of embeddings applied to languages other than English and how embeddings perform in other downstream tasks. In addition, since the actual reason for the changes in best model as corpus size increases is not clear, this will also be suitable for further research. The work on this project is partially funded by Vinnova under the project number 2019-02996 \"Spr\u00e5kmodeller f\u00f6r svenska myndigheter\" Acronyms",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Embedding Hyperparameter Analysis"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Word2vec is a model that generates vector representations of words using either skipgram or continuous bag-of-words (CBoW) architectures.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Skipgram is one of the two architectures in word2vec that predicts surrounding words given a target word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "CBoW (continuous bag-of-words) is a word2vec architecture that predicts a target word based on its surrounding words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "BERT is a deep neural network that generates contextual word representations using attention mechanisms during training on large corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The study focuses on hyper-parameters such as dimension size, training epochs, window size, and vocabulary size in word2vec models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The English Wiki News Abstract corpus is approximately 15MB in size and used in the word2vec experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "The English Wiki Simple Articles corpus is approximately 711MB in size and used in the word2vec experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The Billion Word corpus is 3.9GB in size and used in the word2vec experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The IMDb dataset consists of 25,000 movie review sentences, with half labeled as positive and half as negative for sentiment analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The GMB dataset contains 47,959 sentence samples with 17 labels, including 9 main labels and 2 context tags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The GMB dataset is unbalanced due to a high percentage of tokens labeled 'O'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Intrinsic evaluation of word embeddings involves assessing semantic and syntactic analogies to evaluate the quality of the representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Extrinsic evaluation of word embeddings involves assessing performance on downstream NLP tasks such as sentiment analysis and named entity recognition (NER).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Sentiment analysis is an extrinsic evaluation task used to assess the performance of word embeddings on determining positive or negative sentiments in text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Named entity recognition is an extrinsic evaluation task used to assess the performance of word embeddings in identifying entities such as persons, organizations, and locations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The study confirms that word embeddings are task-specific, meaning their performance varies depending on the downstream NLP task they are applied to.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The primary objective of the research is to determine the optimal combinations of word2vec hyper-parameters for intrinsic and extrinsic NLP tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Objective"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Dimension size is one of the hyper-parameters evaluated in the study to determine its impact on word embedding quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Training epochs is a hyper-parameter evaluated in the study to assess its influence on the performance of word2vec models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Window size is a hyper-parameter evaluated in the study to determine its effect on the context modeling in word2vec.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Vocabulary size is a hyper-parameter evaluated in the study to assess its impact on the embedding space and model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Hierarchical softmax is one of the training algorithms used in word2vec for efficient computation of probability distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Negative sampling is another training algorithm used in word2vec to reduce computational cost during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Word2Vec is a model that uses distributed, low-dimensional, dense representations of words to group similar words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Continuous skipgram is a word2vec architecture that predicts words before and after a center word by maximizing classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "CBoW (Continuous Bag-of-Words) is a word2vec architecture that predicts a target word using averaged vectors from surrounding words in a sequence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Negative sampling is one of the two training algorithms used in word2vec to improve training efficiency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Hierarchical softmax is another training algorithm used in word2vec to reduce computational complexity during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The original word2vec model was trained on a dataset of 100 billion words from Google News.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Implementations of word2vec have been developed in the programming languages Python and C++.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The original word2vec model was implemented in the C programming language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "A log-linear classifier is used in both the continuous skipgram and CBoW architectures of word2vec.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Word2vec was extended to support phrase representations to capture multi-word expressions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Extension"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Word2vec was extended to subsample frequent words to improve training efficiency and reduce bias.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Extension"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Latent Dirichlet Allocation (LDA) is an earlier model that achieves low-dimensional vectors through matrix factorization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Alternative Model"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "Latent Semantic Analysis (LSA) is an earlier model that achieves low-dimensional vectors through matrix factorization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Alternative Model"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Word vectors produced by word2vec have been shown to be beneficial for NLP tasks such as sentiment analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Word vectors produced by word2vec have been shown to be beneficial for NLP tasks such as named entity recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Word2vec enables evaluation of relationships among words using vector space algebra.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The semantic relationship between words can be expressed as vector('King') - vector('Man') + vector('Woman') \u2248 vector('Queen').",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Semantic Relationship"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Word2vec can capture semantic relationships such as those between a capital city and its corresponding country.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Semantic Relationship"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Word2vec can model syntactic relationships such as the connection between plural verbs and their singular counterparts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Syntactic Relationship"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Word2vec can model syntactic relationships such as the connection between past tense and base form verbs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Syntactic Relationship"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The Google analogy test set is a collection of over 19,000 questions that combines syntactic and semantic analyses of word vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The WordSimilarity-353 test set is a tool for evaluating word vectors based on human-assigned semantic similarity scores for English word pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The Google analogy score is based on vector space algebra and ranks similarity from 0 (totally dissimilar) to 1 (very similar or exact).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "WordSimilarity is based on human expert-assigned semantic similarity ratings for pairs of English words, with a ranking from 0 to 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "An artificial neural network has many hyper-parameters that can be manually tuned during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Hyper-parameters are manually adjustable values in a model that include vector dimension size, algorithm type, and learning rate.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "BIBREF0 tested vector dimension sizes ranging from 50 to 1,000 dimensions in their model experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "BIBREF0 explored vocabulary sizes ranging from 30,000 to 3,000,000 in their model trials.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "BIBREF0 tested training epochs ranging from 1 to 3 in their model experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "In the study, research was extended to use 3,000 dimensions for word vector generation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Diminishing returns were observed in model performance after a certain point in increasing dimensions or data size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Model quality increased when both vector dimensions and data size were increased together.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Observation"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The choice of optimal hyper-parameter configurations depends on the specific NLP problem being addressed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The most important hyper-parameters identified are architecture, dimension size, subsampling rate, and window size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Larger dataset sizes improve the quality of word vectors and potentially enhance performance on downstream NLP tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Gensim is a Python library used for implementing word2vec with parallelization to utilize 32 CPUs in a shared cluster.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The models were generated on a shared cluster running Ubuntu 16 with 32 Intel Xeon 4110 CPUs at 2.1GHz.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Environment"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Downstream experiments were run on a Tesla GPU within a shared DGX cluster running Ubuntu 18.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Hardware"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "PyTorch deep learning framework was used for downstream experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Framework"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "Words occurring less than 5 times in the corpus were dropped, and stop words were removed using NLTK for preprocessing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Table TABREF2 describes the hyper-parameters explored for each dataset in the study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "A total of 80 runs were conducted for the 15MB Wiki Abstract dataset, resulting in 80 serialized models totaling 15.136GB.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "80 runs for the Wiki Abstract dataset took over 320 hours to complete.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Duration"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "The 711MB SW dataset was used in experiments involving 80 serialized models totaling over 145GB.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Experiments for 300 dimensions were conducted on the 3.9GB training set of the BW corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "A combination of window size 8, skip-gram, and hierarchical softmax was used to evaluate word vector quality across different dimensions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Google's semantic and syntactic analogy tests were used as intrinsic evaluation methods to assess word vector quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "WordSimilarity-353 with Spearman correlation was used as an intrinsic evaluation metric for word vector quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "NER (Named Entity Recognition) and SA (Sentiment Analysis) were selected for extrinsic evaluations of word vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The GMB dataset was used for NER and was trained using an LSTM network with an embedding layer for input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The IMDb dataset was used for sentiment analysis and was trained using a BiLSTM network with an embedding layer and an additional hidden linear layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Table TABREF3 contains hyper-parameter details for the LSTM and BiLSTM networks used in downstream NER and SA tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "F1, precision, recall, and accuracy scores were used as metrics for extrinsic evaluation in both NER and SA tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The default PyTorch embedding was tested before being replaced by pre-trained embeddings from BIBREF0 and the authors' own model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The dataset was split into training, validation (dev), and test sets in a 70:15:15 ratio before training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "A batch size of 64 was used during training for both NER and SA tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "For each embedding, experiments were conducted four times, and the average value was calculated and reported.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Table TABREF5 summarizes the key results from intrinsic evaluations for 300 dimensions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Table TABREF6 reveals the training time (in hours) and average embedding loading time (in seconds) for various models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Tables TABREF11 and TABREF12 summarize key results from extrinsic evaluations for NER and SA tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Figures FIGREF7, FIGREF9, FIGREF10, FIGREF13, and FIGREF14 present line graphs showing trends in analogy scores, performance across datasets, and F1 scores for NER and SA tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The combination of skip-gram, hierarchical softmax, and window size 8 for 300 dimensions outperformed other combinations in analogy scores for the Wiki Abstract.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Despite outperforming in analogy scores, the skipgram with hierarchical softmax and window size 8 combination showed poor results due to underlying issues.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "w8s0h0 performs best in analogy score for 10 epochs on the Simple Wiki corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "w8s1h0 performs best in WordSim and Spearman correlation for 10 epochs on the Simple Wiki corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "w4s1h0 performs best in analogy score when the corpus size is increased to Billion Word (BW).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Simple Wiki has a vocabulary size of 367,811 and a file size of 711MB.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The Billion Word corpus has a vocabulary size of 3,000,000 and contains 100 billion words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The presumed best model released by Mikolov uses the s1h0 configuration.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The Mikolov model's analogy score, tested and reported, is confirmed in their paper and beats the best models in only analogy score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Increased training time results in higher energy consumption.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "For both Simple Wiki and Billion Word corpora, model performance improves up to a point and then drops after 300 dimensions (SW) and 400 dimensions (BW).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Trend"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Polynomial interpolation can be used to determine the optimal dimension for embeddings in both corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The BW w4s1h0 model performs best in F1 score for Named Entity Recognition (NER).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Most pretrained embeddings outperform the default PyTorch embedding in NER performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The models and source codes are available on GitHub for confirmation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Availability"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The BIBREF0 model performed second worst in downstream tasks despite being trained on a very large corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "Pytorch embedding outperformed pretrained embeddings in sentiment analysis (SA) tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The SW w8s0h0 model achieved the best SW analogy score and performed closely with pytorch embedding in SA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The combinations w8s0h0 & w4s0h0 of SW embeddings performed reasonably well in both extrinsic tasks, similar to the default pytorch embedding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Increasing dimension size depreciates embedding performance after a certain point.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Embedding performance is task-specific and does not necessarily correlate with high analogy scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Hyper-parameter choices are critical in neural network systems and significantly influence model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "In cases where time, energy, and environmental considerations are important, smaller corpora may be sufficient or even better than larger ones.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Conclusion"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Future research should investigate other word or sub-word embedding architectures, performance in non-English languages, and performance in additional downstream tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Recommendation"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The project is partially funded by Vinnova under project number 2019-02996 'Spr\u00e5kmodeller f\u00f6r svenska myndigheter'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "The lack of correlation between analogy scores and downstream task performance is similar to findings reported by BIBREF24 and BIBREF14.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "100 billion words",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "100 billion words",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "100 dimensions",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "17 labels",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "25,000 sentences",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "3,000 dimensions",
+      "Result",
+      "s53"
+    ],
+    [
+      "3,000,000 vocabulary",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "300 dimensions",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "300 dimensions",
+      "Property",
+      "s68"
+    ],
+    [
+      "320 hours",
+      "Duration",
+      "s66"
+    ],
+    [
+      "367,811 vocabulary",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "400 dimensions",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "47,959 sentence samples",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "711MB",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "711MB SW dataset",
+      "Property",
+      "s67"
+    ],
+    [
+      "80 runs",
+      "Result",
+      "s65"
+    ],
+    [
+      "9 main labels",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "BERT",
+      "Definition",
+      "s4"
+    ],
+    [
+      "BERT",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "BIBREF0",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "BIBREF0 model",
+      "Result",
+      "s100"
+    ],
+    [
+      "BIBREF14",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "BIBREF19",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "BIBREF23",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "BIBREF24",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "BIBREF24 and BIBREF14",
+      "Comparison",
+      "s110"
+    ],
+    [
+      "BW",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "BW w4s1h0 model",
+      "Result",
+      "s97"
+    ],
+    [
+      "Billion Word (BW)",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "Billion Word corpus",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "Billion Word corpus",
+      "Property",
+      "s8"
+    ],
+    [
+      "Billion Word corpus",
+      "Property",
+      "s91"
+    ],
+    [
+      "BoW",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "C",
+      "Property",
+      "s31"
+    ],
+    [
+      "C",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "C",
+      "Word2Vec Architectures",
+      "e1"
+    ],
+    [
+      "C++",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "CBoW",
+      "Definition",
+      "s26"
+    ],
+    [
+      "CBoW",
+      "Definition",
+      "s3"
+    ],
+    [
+      "CBoW",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "CBoW",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "English Wiki News Abstract",
+      "Property",
+      "s6"
+    ],
+    [
+      "English Wiki News Abstract",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "English Wiki Simple (SW) Articles",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "English Wiki Simple Articles",
+      "Property",
+      "s7"
+    ],
+    [
+      "F1",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "F1, precision, recall, accuracy",
+      "Property",
+      "s76"
+    ],
+    [
+      "FIGREF7",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "FIGREF9",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "Figures FIGREF7, FIGREF9, FIGREF10, FIGREF13, FIGREF14",
+      "Result",
+      "s84"
+    ],
+    [
+      "GMB dataset",
+      "Property",
+      "s11"
+    ],
+    [
+      "GMB dataset",
+      "Property",
+      "s73"
+    ],
+    [
+      "Gensim",
+      "Tool",
+      "s59"
+    ],
+    [
+      "Google News dataset",
+      "Property",
+      "s29"
+    ],
+    [
+      "Google News dataset",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "Google analogy score",
+      "Property",
+      "s46"
+    ],
+    [
+      "Google analogy test set",
+      "Definition",
+      "s44"
+    ],
+    [
+      "Google semantic and syntactic analogy tests",
+      "Definition",
+      "s70"
+    ],
+    [
+      "Groningen Meaning Bank (GMB)",
+      "Property",
+      "s10"
+    ],
+    [
+      "Groningen Meaning Bank (GMB)",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "IMDb dataset",
+      "Property",
+      "s74"
+    ],
+    [
+      "IMDb dataset",
+      "Property",
+      "s9"
+    ],
+    [
+      "IMDb dataset",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "King",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "King - Man + Woman \u2248 Queen",
+      "Semantic Relationship",
+      "s40"
+    ],
+    [
+      "Man",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "Mikolov model",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "Mikolov model",
+      "Property",
+      "s92"
+    ],
+    [
+      "NER",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "NER",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "NER and SA",
+      "Definition",
+      "s72"
+    ],
+    [
+      "NNLM",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "O tokens",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "PyTorch",
+      "Framework",
+      "s62"
+    ],
+    [
+      "Python",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "Python and C++",
+      "Property",
+      "s30"
+    ],
+    [
+      "Queen",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "SA",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "SW w8s0h0",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "SW w8s0h0 model",
+      "Result",
+      "s102"
+    ],
+    [
+      "Simple Wiki",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "Simple Wiki",
+      "Property",
+      "s90"
+    ],
+    [
+      "Spearman correlation",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "Spr\u00e5kmodeller f\u00f6r svenska myndigheter",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "TABREF5",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "TABREF6",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "Table TABREF11 and TABREF12",
+      "Result",
+      "s83"
+    ],
+    [
+      "Table TABREF2",
+      "Reference",
+      "s64"
+    ],
+    [
+      "Table TABREF5",
+      "Result",
+      "s81"
+    ],
+    [
+      "Table TABREF6",
+      "Result",
+      "s82"
+    ],
+    [
+      "Tesla GPU",
+      "Hardware",
+      "s61"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e4"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e5"
+    ],
+    [
+      "Vinnova",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "Vinnova project 2019-02996",
+      "Funding",
+      "s109"
+    ],
+    [
+      "Woman",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "WordSim",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "WordSimilarity",
+      "Property",
+      "s47"
+    ],
+    [
+      "WordSimilarity-353",
+      "Definition",
+      "s71"
+    ],
+    [
+      "WordSimilarity-353 test set",
+      "Definition",
+      "s45"
+    ],
+    [
+      "analogy score",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "analogy score",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "analogy score",
+      "Result",
+      "s93"
+    ],
+    [
+      "artificial neural network (ANN)",
+      "Property",
+      "s48"
+    ],
+    [
+      "attention mechanisms",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "batch size of 64",
+      "Property",
+      "s79"
+    ],
+    [
+      "capital city",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "capital city and country",
+      "Semantic Relationship",
+      "s41"
+    ],
+    [
+      "context tags",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "continuous skipgram",
+      "Definition",
+      "s25"
+    ],
+    [
+      "continuous skipgram",
+      "Word2Vec Architectures",
+      "e1"
+    ],
+    [
+      "corpus size",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "country",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "dataset size",
+      "Effect",
+      "s58"
+    ],
+    [
+      "dataset split ratio 70:15:15",
+      "Property",
+      "s78"
+    ],
+    [
+      "default pytorch embedding",
+      "Property",
+      "s77"
+    ],
+    [
+      "dense representations",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "dimension size",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "dimension size",
+      "Property",
+      "s104"
+    ],
+    [
+      "dimension size",
+      "Property",
+      "s18"
+    ],
+    [
+      "dimension size",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "dimensionality",
+      "Trend",
+      "s95"
+    ],
+    [
+      "diminishing returns",
+      "Observation",
+      "s54"
+    ],
+    [
+      "distributed representations",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "downstream tasks",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "downstream tasks",
+      "Property",
+      "s105"
+    ],
+    [
+      "energy consumption",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "epochs",
+      "Property",
+      "s52"
+    ],
+    [
+      "experiments conducted four times",
+      "Property",
+      "s80"
+    ],
+    [
+      "extrinsic evaluation",
+      "Definition",
+      "s13"
+    ],
+    [
+      "extrinsic evaluation",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "future work",
+      "Recommendation",
+      "s108"
+    ],
+    [
+      "github",
+      "Availability",
+      "s99"
+    ],
+    [
+      "github",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "hierarchical softmax",
+      "Property",
+      "s22"
+    ],
+    [
+      "hierarchical softmax",
+      "Property",
+      "s28"
+    ],
+    [
+      "hierarchical softmax",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "hierarchical softmax",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "hyper-parameter choices",
+      "Definition",
+      "s106"
+    ],
+    [
+      "hyper-parameters",
+      "Definition",
+      "s49"
+    ],
+    [
+      "hyper-parameters",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "hyper-parameters",
+      "Property",
+      "s5"
+    ],
+    [
+      "important hyper-parameters",
+      "Property",
+      "s57"
+    ],
+    [
+      "intrinsic evaluation",
+      "Definition",
+      "s12"
+    ],
+    [
+      "intrinsic evaluation",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "latent dirichlet allocation",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "latent dirichlet allocation (LDA)",
+      "Alternative Model",
+      "s35"
+    ],
+    [
+      "latent semantic analysis",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "latent semantic analysis (LSA)",
+      "Alternative Model",
+      "s36"
+    ],
+    [
+      "log-linear classifier",
+      "Property",
+      "s32"
+    ],
+    [
+      "log-linear classifier",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "low-dimensional",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "named entity recognition",
+      "Application",
+      "s38"
+    ],
+    [
+      "named entity recognition",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "named entity recognition (NER)",
+      "Property",
+      "s15"
+    ],
+    [
+      "named entity recognition (NER)",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "negative sampling",
+      "Property",
+      "s23"
+    ],
+    [
+      "negative sampling",
+      "Property",
+      "s27"
+    ],
+    [
+      "negative sampling",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "negative sampling",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "negative sentiments",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "optimal hyper-parameter combinations",
+      "Objective",
+      "s17"
+    ],
+    [
+      "optimal hyper-parameter configurations",
+      "Cause",
+      "s56"
+    ],
+    [
+      "past tense",
+      "Syntactic Relationship",
+      "s43"
+    ],
+    [
+      "past tense",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "phrase representations",
+      "Extension",
+      "s33"
+    ],
+    [
+      "phrase representations",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "plural verbs",
+      "Syntactic Relationship",
+      "s42"
+    ],
+    [
+      "plural verbs",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "polynomial interpolation",
+      "Method",
+      "s96"
+    ],
+    [
+      "polynomial interpolation",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "poor results",
+      "Result",
+      "s86"
+    ],
+    [
+      "positive sentiments",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "pretrained embeddings",
+      "Result",
+      "s98"
+    ],
+    [
+      "project 2019-02996",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "pytorch embedding",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "pytorch embedding",
+      "Result",
+      "s101"
+    ],
+    [
+      "quality improvement",
+      "Observation",
+      "s55"
+    ],
+    [
+      "s1h0",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "semantic analogies",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "sentiment analysis",
+      "Application",
+      "s37"
+    ],
+    [
+      "sentiment analysis",
+      "Property",
+      "s14"
+    ],
+    [
+      "sentiment analysis",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "sentiment analysis (SA)",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "shared cluster",
+      "Environment",
+      "s60"
+    ],
+    [
+      "skipgram",
+      "Definition",
+      "s2"
+    ],
+    [
+      "skipgram",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "skipgram",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "skipgram with hierarchical softmax and window size 8",
+      "Result",
+      "s85"
+    ],
+    [
+      "smaller corpora",
+      "Conclusion",
+      "s107"
+    ],
+    [
+      "subsample frequent words",
+      "Extension",
+      "s34"
+    ],
+    [
+      "subsample frequent words",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "syntactic analogies",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "table TABREF3",
+      "Definition",
+      "s75"
+    ],
+    [
+      "task-specific embeddings",
+      "Result",
+      "s16"
+    ],
+    [
+      "tiny file size",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "training epochs",
+      "Property",
+      "s19"
+    ],
+    [
+      "training epochs",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "training time",
+      "Cause",
+      "s94"
+    ],
+    [
+      "training time",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "vector dimension size",
+      "Property",
+      "s50"
+    ],
+    [
+      "vector space algebra",
+      "Property",
+      "s39"
+    ],
+    [
+      "vector space algebra",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "vocabulary filtering",
+      "Method",
+      "s63"
+    ],
+    [
+      "vocabulary size",
+      "Property",
+      "s21"
+    ],
+    [
+      "vocabulary size",
+      "Property",
+      "s51"
+    ],
+    [
+      "vocabulary size",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "w4s0h0",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "w4s1h0",
+      "Result",
+      "s89"
+    ],
+    [
+      "w8s0h0",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "w8s0h0",
+      "Result",
+      "s87"
+    ],
+    [
+      "w8s0h0 & w4s0h0 combinations",
+      "Result",
+      "s103"
+    ],
+    [
+      "w8s1h0",
+      "Model Performance Comparison",
+      "e6"
+    ],
+    [
+      "w8s1h0",
+      "Result",
+      "s88"
+    ],
+    [
+      "window 8 + skipgram + hierarchical softmax",
+      "Definition",
+      "s69"
+    ],
+    [
+      "window size",
+      "Property",
+      "s20"
+    ],
+    [
+      "window size",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ],
+    [
+      "word2vec",
+      "Definition",
+      "s1"
+    ],
+    [
+      "word2vec",
+      "Definition",
+      "s24"
+    ],
+    [
+      "word2vec",
+      "Embedding Hyperparameter Analysis",
+      "e7"
+    ],
+    [
+      "word2vec",
+      "Word2Vec Architecture",
+      "e3"
+    ],
+    [
+      "word2vec",
+      "Word2Vec Architectures",
+      "e1"
+    ],
+    [
+      "word2vec",
+      "Word2Vec Hyperparameter Optimization",
+      "e2"
+    ]
+  ]
+}

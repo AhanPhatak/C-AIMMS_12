@@ -1,0 +1,5963 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 18,
+    "n_semantic": 154,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Transformer architecture": {
+      "tag_set": [
+        "Definition",
+        "Sparse Attention in Transformers",
+        "Transformer Architecture"
+      ]
+    },
+    "BIB": {
+      "tag_set": [
+        "Transformer Architecture"
+      ]
+    },
+    "REF0": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "deep neural networks": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "NLP": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "Neural Machine Translation": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "GPT-2": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "multi-head attention": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Alpha-entmax Jacobian",
+        "Definition",
+        "Property",
+        "Sparse Attention Transformers",
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "softmax": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Alpha-Entmax Properties",
+        "Attention Head Specializations",
+        "Attention Mechanisms",
+        "Attention Sparsity Patterns",
+        "Head Specializations",
+        "Model Training and Analysis",
+        "Property",
+        "Sparse Attention Transformers",
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "sparsemax": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Alpha-Entmax Properties",
+        "Definition",
+        "Sparse Attention Analysis",
+        "Sparse Attention Transformers",
+        "Sparse Attention in Transformers",
+        "entmax Jacobian"
+      ]
+    },
+    "sparse Transformers": {
+      "tag_set": [
+        "Definition",
+        "Sparse Attention Transformers"
+      ]
+    },
+    "adaptive span Transformers": {
+      "tag_set": [
+        "Definition",
+        "Sparse Attention Transformers"
+      ]
+    },
+    "FIGREF1": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "contiguous span": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "sparse set of words": {
+      "tag_set": [
+        "Sparse Attention Transformers"
+      ]
+    },
+    "contributions": {
+      "tag_set": [
+        "Contributions"
+      ]
+    },
+    "following": {
+      "tag_set": [
+        "Missing Content"
+      ]
+    },
+    "sparse attention": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Attention Mechanisms",
+        "Attention Sparsity Patterns",
+        "Cause",
+        "Definition",
+        "Result",
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "scaled dot-product attention": {
+      "tag_set": [
+        "Definition",
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "adaptive sparse attention": {
+      "tag_set": [
+        "Definition",
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "attention head": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "query contexts": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "sequence items": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "input sequence": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "output sequence": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "NMT": {
+      "tag_set": [
+        "Attention Head Specializations",
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "seq2seq model": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "encoder self-attention": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attention Sparsity Patterns",
+        "Head Specializations",
+        "Model Training and Analysis",
+        "Property",
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "context-dependent strategy": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "dynamic information propagation": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "learnable attention shape": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "dense limit case": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "piecewise-linear": {
+      "tag_set": [
+        "Sparse Attention in Transformers"
+      ]
+    },
+    "attention": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "self-attention": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Attention Mechanisms"
+      ]
+    },
+    "input words": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "output sentence fragment": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "Equation DISPLAY_FORM8": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "exp": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "weighted average": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "time step": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "contextualized flow": {
+      "tag_set": [
+        "Attention Mechanisms"
+      ]
+    },
+    "alpha-entmax": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Alpha-Entmax Transformations",
+        "Alpha-entmax Jacobian",
+        "Attention Head Specializations",
+        "entmax Jacobian"
+      ]
+    },
+    "BIBREF18": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Alpha-Entmax Transformations",
+        "Attention Head Specializations"
+      ]
+    },
+    "BIBREF20": {
+      "tag_set": [
+        "Alpha-Entmax Transformations",
+        "Attention Head Specializations"
+      ]
+    },
+    "BIBREF21": {
+      "tag_set": [
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "BIBREF22": {
+      "tag_set": [
+        "Alpha-Entmax Transformations",
+        "Attention Head Specializations"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Alpha-Entmax Transformations",
+        "Reference"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Alpha-Entmax Transformations",
+        "Attention Head Specializations",
+        "Reference"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "probability simplex": {
+      "tag_set": [
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "Tsallis entropies": {
+      "tag_set": [
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "Shannon entropy": {
+      "tag_set": [
+        "Alpha-Entmax Properties",
+        "Alpha-Entmax Transformations",
+        "Definition",
+        "Head Specializations",
+        "entmax Jacobian"
+      ]
+    },
+    "Gini entropy": {
+      "tag_set": [
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "alpha = 1": {
+      "tag_set": [
+        "Alpha-Entmax Properties",
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "alpha = 2": {
+      "tag_set": [
+        "Alpha-Entmax Properties",
+        "Alpha-Entmax Transformations"
+      ]
+    },
+    "alpha": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Alpha-Entmax Properties",
+        "Attention Head Specializations"
+      ]
+    },
+    "entmax": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Alpha-Entmax Properties",
+        "Attention Head Specializations",
+        "Attention Sparsity Patterns",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "alpha > 1": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "ReLU": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "positive part": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "Lagrange multiplier": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "tau": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "sum p_i = 1": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "convex optimization": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "optimality conditions": {
+      "tag_set": [
+        "Alpha-Entmax Properties"
+      ]
+    },
+    "threshold tau": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "bisection algorithm": {
+      "tag_set": [
+        "Alpha-entmax Jacobian",
+        "Method",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "alpha = 1.5": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "neural network": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "Jacobian w.r.t. z": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "Jacobian w.r.t. alpha": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "hyper-parameter alpha": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "sparse attention weights": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "adaptive alpha per head": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "stochastic gradients": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "argmin differentiation": {
+      "tag_set": [
+        "Alpha-entmax Jacobian",
+        "Concept"
+      ]
+    },
+    "closed-form expression": {
+      "tag_set": [
+        "Alpha-entmax Jacobian"
+      ]
+    },
+    "Jacobian": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Jacobian of \u03b1-entmax",
+        "Property",
+        "entmax Jacobian"
+      ]
+    },
+    "Proposition 1": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "Equation DISPLAY_FORM14": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "Appendix SECREF10": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "Proposition UNKREF22": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "neural machine translation": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "1.5-entmax": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attention Head Specializations",
+        "Attention Sparsity Patterns",
+        "Head Specializations",
+        "Model Training and Analysis",
+        "Result"
+      ]
+    },
+    "context attention": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attention Sparsity Patterns",
+        "Model Training and Analysis",
+        "Property"
+      ]
+    },
+    "decoder self-attention": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attention Sparsity Patterns",
+        "Head Specializations",
+        "Model Training and Analysis",
+        "Property",
+        "Result"
+      ]
+    },
+    "IWSLT 2017 German \u2192 English": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attribute"
+      ]
+    },
+    "KFTT Japanese \u2192 English": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attribute"
+      ]
+    },
+    "WMT 2016 Romanian \u2192 English": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attribute"
+      ]
+    },
+    "WMT 2014 English \u2192 German": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Attribute"
+      ]
+    },
+    "byte-pair preprocessing": {
+      "tag_set": [
+        "Adaptive Entmax Transformers",
+        "Property"
+      ]
+    },
+    "adaptive Transformer": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "sigmoid": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "alpha_{i,j}^t": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "learned alpha": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "200K sentence pairs": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "300K sentence pairs": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "600K sentence pairs": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "4.5M sentence pairs": {
+      "tag_set": [
+        "Adaptive Entmax Transformers"
+      ]
+    },
+    "BIBREF31": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "BIBREF32": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "TABREF27": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "FIGREF37": {
+      "tag_set": [
+        "Attention Head Specializations",
+        "Model Training and Analysis"
+      ]
+    },
+    "Transformer-Base": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "L=6": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "H=8": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "mini-batch size 8192": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "20k steps": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "inverse square root schedule": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "validation accuracy": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "ro\u2192en": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "en\u2192de": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "de\u2192en": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "ja\u2192en": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "75% speed": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "90% speed": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "\u03b1-entmax": {
+      "tag_set": [
+        "Definition",
+        "Jacobian of \u03b1-entmax",
+        "Model Training and Analysis",
+        "Property",
+        "Result",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "WMT 2014 English\u2192German": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "\u03b1 parameters": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "\u03b1=1.3": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "\u03b1\u22482": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "sparsity": {
+      "tag_set": [
+        "Attention Head Specializations",
+        "Head Specializations",
+        "Model Training and Analysis"
+      ]
+    },
+    "head 8": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "layer 2": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "learning trajectories": {
+      "tag_set": [
+        "Model Training and Analysis"
+      ]
+    },
+    "\u03b1 values": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "convergence": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "dense attention": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "\u03b1 \u2192 2": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "fixed \u03b1 = 1.5": {
+      "tag_set": [
+        "Attention Sparsity Patterns",
+        "Result"
+      ]
+    },
+    "attention weight density": {
+      "tag_set": [
+        "Attention Sparsity Patterns",
+        "Definition"
+      ]
+    },
+    "non-zero attention": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "head diversity": {
+      "tag_set": [
+        "Attention Sparsity Patterns",
+        "Definition"
+      ]
+    },
+    "Jensen-Shannon divergence": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "Figure FIGREF38": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "Figure FIGREF40": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "Figure FIGREF41": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "re-scalings": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "auto-regressive": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "past tokens": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "full sentence": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "layer-specific sparsity": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "average density": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "sorted density": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "attention weight vectors": {
+      "tag_set": [
+        "Attention Sparsity Patterns"
+      ]
+    },
+    "head": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "JS": {
+      "tag_set": [
+        "Head Specializations",
+        "Property"
+      ]
+    },
+    "validation set": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "sparse Transformer": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "BIBREF33": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Head Specializations"
+      ]
+    },
+    "FIGREF44": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "FIGREF47": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "FIGREF51": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "position -1": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "position +1": {
+      "tag_set": [
+        "Head Specializations",
+        "Result"
+      ]
+    },
+    "positional head": {
+      "tag_set": [
+        "Attention Head Specializations",
+        "Definition",
+        "Head Specializations"
+      ]
+    },
+    "attention weight": {
+      "tag_set": [
+        "Head Specializations",
+        "Property"
+      ]
+    },
+    "confidence": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "93.5%": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "94.4%": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "95.9%": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "95.4%": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "adaptive model": {
+      "tag_set": [
+        "Head Specializations",
+        "Result"
+      ]
+    },
+    "\u03b1 = 1.18": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "\u03b1 = 1.91": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "\u03b1 = 1.96": {
+      "tag_set": [
+        "Head Specializations"
+      ]
+    },
+    "BPE-merging head": {
+      "tag_set": [
+        "Definition",
+        "Head Specializations"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "layer 1": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "head 4": {
+      "tag_set": [
+        "Attention Head Specializations",
+        "Function",
+        "Property",
+        "Result"
+      ]
+    },
+    "head 3": {
+      "tag_set": [
+        "Attention Head Specializations",
+        "Result"
+      ]
+    },
+    "FIGREF52": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Attention Head Specializations"
+      ]
+    },
+    "FIGREF55": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "BPE cluster": {
+      "tag_set": [
+        "Attention Head Specializations",
+        "Definition"
+      ]
+    },
+    "hyphenated words": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "offset 0": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "attention mass": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "80%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "83.3%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "85.6%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "88.5%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "89.8%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "98.5%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "97.0%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "99.5%": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "interrogative": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "question mark": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "BIBREF34": {
+      "tag_set": [
+        "Attention Head Specializations"
+      ]
+    },
+    "fixed \u03b1": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "dynamic curvature": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "dynamic sparsity": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "continuous \u03b1 parameter": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Property"
+      ]
+    },
+    "Transformer model": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "static sparsity patterns": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "BIBREF35": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "adaptive attention span": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Definition"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "attention heads": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Property",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "last layers": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "first layers": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "BERT BIBREF3": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "head redundancy": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Definition"
+      ]
+    },
+    "regularization term": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "BIBREF36": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "adversarial attack": {
+      "tag_set": [
+        "Adaptive Sparse Attention"
+      ]
+    },
+    "interpretability": {
+      "tag_set": [
+        "Adaptive Sparse Attention",
+        "Result"
+      ]
+    },
+    "Transformers": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "sparse attention mappings": {
+      "tag_set": [
+        "Definition",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "translation accuracy": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "model interpretability": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "adaptive sparsity": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "gradient-based optimization": {
+      "tag_set": [
+        "Method",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "regularized Fenchel-Young prediction functions": {
+      "tag_set": [
+        "Definition",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "strictly convex regularization function": {
+      "tag_set": [
+        "Property",
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Euclidean projection": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "European Research Council": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "ERC StG DeepSPIN 758969": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Funda\u00e7\u00e3oo para a Ci\u00eancia e Tecnologia": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "UID/EEA/50008/2019": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "CMUPERI/TIC/0046/2014": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Ben Peters": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Erick Fonseca": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Marcos Treviso": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Pedro Martins": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Tsvetomila Mihaylova": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "Mathieu Blondel": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "anonymous reviewers": {
+      "tag_set": [
+        "Sparse Attention Analysis"
+      ]
+    },
+    "threshold \\tau": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "Tsallis entropy": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "shape parameter \\alpha": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "KKT conditions": {
+      "tag_set": [
+        "Property",
+        "entmax Jacobian"
+      ]
+    },
+    "Lagrange multipliers": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "normalization constraint": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "implicit condition": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "implicit differentiation": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "generalized Jacobian": {
+      "tag_set": [
+        "Result",
+        "entmax Jacobian"
+      ]
+    },
+    "non-differentiable points": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "coordinate-wise solution": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "p_i^*": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "z_i": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "Z": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "Equation DISPLAY_FORM85": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "Equation DISPLAY_FORM92": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "Equation DISPLAY_FORM98": {
+      "tag_set": [
+        "entmax Jacobian"
+      ]
+    },
+    "UID22": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax",
+        "entmax Jacobian"
+      ]
+    },
+    "shape parameter \u03b1": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "p\u22c6": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "tilde p(\u03b1)": {
+      "tag_set": [
+        "Definition",
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "\u03c4\u22c6": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "\u03b1": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "L'H\u00f4pital's rule": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax",
+        "Method"
+      ]
+    },
+    "DISPLAY_FORM97": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM98": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM101": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM103": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM104": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM107": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM111": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM112": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "DISPLAY_FORM113": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "support of p\u22c6": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "coordinate i": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "non-zero coordinate": {
+      "tag_set": [
+        "Jacobian of \u03b1-entmax"
+      ]
+    },
+    "multi-head attention mechanisms": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "softmax normalizing transform": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "adaptive Transformer model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "attention distribution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "accuracy gains": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "\u03b1 = 1": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "\u03b1 > 1": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "\u03b1 = 2": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "\u03b1 increases": {
+      "tag_set": [
+        "Trend"
+      ]
+    },
+    "threshold \u03c4": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ReLU function": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "vector of all ones": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Jacobian w.r.t. \u03b1": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "adaptive \u03b1 per head": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "adaptive sparse transformers": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03b1 = 1.5": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "Section SECREF3": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "Section SECREF35": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "sparse entmax": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "adaptive \u03b1-entmax": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03b1_{i,j}^t": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Transformer with sparse entmax attention": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Transformer-Base model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "learning rate warm-up": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training convergence": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "evaluation frequency": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "computational overhead": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "BLEU performance with entmax": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sparsity benefit": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "\u03b1 parameter learning trajectory": {
+      "tag_set": [
+        "Analysis"
+      ]
+    },
+    "\u03b1 parameter sparsity shift": {
+      "tag_set": [
+        "Analysis"
+      ]
+    },
+    "head 8 in encoder self-attention layer 2": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "\u03b1 parameter initialization": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "WMT 2014 English\u2192German dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "attention analysis levels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "interpretability analysis": {
+      "tag_set": [
+        "Analysis"
+      ]
+    },
+    "\u03b1 values at convergence": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "encoder self-attention blocks": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "decoder self-attention and context attention": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "learned \u03b1 values": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "decoder auto-regressive nature": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "layer-wise sparsity patterns": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sparse Transformer variants": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "middle layers of encoder self-attention": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "softmax model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "1.5-entmax model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "adaptive model (position +1)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Figure FIGREF44": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Figure FIGREF47": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Figure FIGREF51": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Appendix SECREF8": {
+      "tag_set": [
+        "Location"
+      ]
+    },
+    "\u03b1 value": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "attention score": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "interrogation-detecting head": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "attention weight on question mark": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "sparsity in head": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "sparse attention mechanisms": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "entmax function": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "single attention mechanism": {
+      "tag_set": [
+        "Related Work"
+      ]
+    },
+    "adaptively-sparse Transformer": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "fixed sparsity patterns": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sparsity pattern": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "attention heads in last layers": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "lower layers attention span": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Transformer interpretability": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "multi-head attention pruning": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "head disagreement regularization": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "softmax attention vulnerability": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "sparse attention mitigation": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "adaptively sparse Transformer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "\u03b1-entmax code": {
+      "tag_set": [
+        "Credit"
+      ]
+    },
+    "near-deterministic positional heads": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "subword joining head": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Euclidean projection onto the simplex": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "unique solution": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Jacobian of \u03b1-entmax": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Lagrange multiplier \u03c4": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "complementary slackness": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "curvature in \u03b1-entmax": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Jacobian of \u03b1-entmax w.r.t. \u03b1": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "p\u22c6_i > 0": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "\u03b1 \u2192 1\u207a": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "derivative of tilde p_i(\u03b1) w.r.t. \u03b1": {
+      "tag_set": [
+        "Calculation"
+      ]
+    },
+    "Jacobian of \u03b1-entmax w.r.t. z": {
+      "tag_set": [
+        "Relationship"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nThe Transformer architecture BIB",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Transformer Architecture"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "REF0 for deep neural networks has quickly risen to prominence in NLP through its efficiency and performance, leading to improvements in the state of the art of Neural Machine Translation BIBREF1, BIBREF2, as well as inspiring other powerful general-purpose models like BERT BIBREF3 and GPT-2 BIBREF4. At the heart of the Transformer lie multi-head attention mechanisms: each word is represented by multiple different weighted averages of its relevant context. As suggested by recent works on interpreting attention head roles, separate attention heads may learn to look for various relationships between tokens BIBREF5, BIBREF6, BIBREF7, BIBREF8, BIBREF9.\nThe attention distribution of each head is predicted typically using the softmax normalizing transform. As a result, all context words have non-zero attention weight. Recent work on single attention architectures suggest that using sparse normalizing transforms in attention mechanisms such as sparsemax \u2013 which can yield exactly zero probabilities for irrelevant words \u2013 may improve performance and interpretability BIBREF12, BIBREF13, BIBREF14. Qualitative analysis of attention heads BIBREF0 suggests that, depending on what phenomena they capture, heads tend to favor flatter or more peaked distributions.\nRecent works have proposed sparse Transformers BIBREF10 and adaptive span Transformers BIBREF11. However, the \u201csparsity\" of those models only limits the attention to a contiguous span of past tokens, while in this work we propose a highly adaptive Transformer model that is capable of attending to a sparse set of words that are not necessarily contiguous. Figure FIGREF1 shows the relationship of these methods with ours.\nOur",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Sparse Attention Transformers"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "contributions are the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Contributions"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "following:",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Missing Content"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "We introduce sparse attention into the Transformer architecture, showing that it eases interpretability and leads to slight accuracy gains.\nWe propose an adaptive version of sparse attention, where the shape of each attention head is learnable and can vary continuously and dynamically between the dense limit case of softmax and the sparse, piecewise-linear sparsemax case.\nWe make an extensive analysis of the added interpretability of these models, identifying both crisper examples of attention head behavior observed in previous work, as well as novel behaviors unraveled thanks to the sparsity and adaptivity of our proposed model.\nBackground ::: The Transformer\nIn NMT, the Transformer BIBREF0 is a sequence-to-sequence (seq2seq) model which maps an input sequence to an output sequence through hierarchical multi-head attention mechanisms, yielding a dynamic, context-dependent strategy for propagating information within and across sentences. It contrasts with previous seq2seq models, which usually rely either on costly gated recurrent operations BIBREF15, BIBREF16 or static convolutions BIBREF17.\nGiven $n$ query contexts and $m$ sequence items under consideration, attention mechanisms compute, for each query, a weighted representation of the items. The particular attention mechanism used in BIBREF0 is called scaled dot-product attention, and it is computed in the following way:\nwhere $\\mathbf {Q} \\in \\mathbb {R}^{n \\times d}$ contains representations of the queries, $\\mathbf {K}, \\mathbf {V} \\in \\mathbb {R}^{m \\times d}$ are the keys and values of the items attended over, and $d$ is the dimensionality of these representations. The $\\mathbf {\\pi }$ mapping normalizes row-wise using softmax, $\\mathbf {\\pi }(\\mathbf {Z})_{ij} = \\operatornamewithlimits{\\mathsf {softmax}}(\\mathbf {z}_i)_j$, where\nIn words, the keys are used to compute a relevance score between each item and query. Then, normalized attention weights are computed using softmax, and these are used to weight the values of each item at each query context.\nHowever, for complex tasks, different parts of a sequence may be relevant in different ways, motivating multi-head attention in Transformers. This is simply the application of Equation DISPLAY_FORM7 in parallel $H$ times, each with a different, learned linear transformation that allows specialization:\nIn the Transformer, there are three separate multi-head attention mechanisms for distinct purposes:\nEncoder self-attention: builds rich, layered representations of each input word, by attending on the entire input sentence.\nContext",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Sparse Attention in Transformers"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "attention: selects a representative weighted average of the encodings of the input words, at each time step of the decoder.\nDecoder self-attention: attends over the partial output sentence fragment produced so far.\nTogether, these mechanisms enable the contextualized flow of information between the input sentence and the sequential decoder.\nBackground ::: Sparse Attention\nThe softmax mapping (Equation DISPLAY_FORM8) is elementwise proportional to $\\exp $, therefore it can never assign a weight of exactly zero. Thus, unnecessary items are still taken into consideration to some extent. Since its output sums to one, this invariably means less weight is assigned to the relevant items, potentially harming performance and interpret",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Attention Mechanisms"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "ability BIBREF18. This has motivated a line of research on learning networks with sparse mappings BIBREF19, BIBREF20, BIBREF21, BIBREF22. We focus on a recently-introduced flexible family of transformations, $\\alpha $-entmax BIBREF23, BIBREF14, defined as:\nwhere $\\triangle ^d \\lbrace \\mathbf {p}\\in \\mathbb {R}^d:\\sum _{i} p_i = 1\\rbrace $ is the probability simplex, and, for $\\alpha \\ge 1$, $\\mathsf {H}^{\\textsc {T}}_\\alpha $ is the Tsallis continuous family of entropies BIBREF24:\nThis family contains the well-known Shannon and Gini entropies, corresponding to the cases $\\alpha =1$ and $\\alpha =2$, respectively.\nEquation DISPLAY_FORM1",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Alpha-Entmax Transformations"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "4 involves a convex optimization subproblem. Using the definition of $\\mathsf {H}^{\\textsc {T}}_\\alpha $, the optimality conditions may be used to derive the following form for the solution (Appendix SECREF83):\nwhere $[\\cdot ]_+$ is the positive part (ReLU) function, $\\mathbf {1}$ denotes the vector of all ones, and $\\tau $ \u2013 which acts like a threshold \u2013 is the Lagrange multiplier corresponding to the $\\sum _i p_i=1$ constraint.\nBackground ::: Sparse Attention ::: Properties of @!START@$\\alpha $@!END@-entmax.\nThe appeal of $\\alpha $-entmax for attention rests on the following properties. For $\\alpha =1$ (i.e., when $\\mathsf {H}^{\\textsc {T}}_\\alpha $ becomes the Shannon entropy), it exactly recovers the softmax mapping (We provide a short derivation in Appendix SECREF89.). For all $\\alpha >1$ it permits sparse solutions, in stark contrast to softmax. In particular, for $\\alpha =2$, it recovers the sparsemax mapping BIBREF19, which is piecewise linear. In-between, as $\\alpha $ increases, the mapping continuously gets sparser as its",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Alpha-Entmax Properties"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "curvature changes. To compute the value of $\\alpha $-entmax, one must find the threshold $\\tau $ such that the r.h.s. in Equation DISPLAY_FORM16 sums to one. BIBREF23 propose a general bisection algorithm. BIBREF14 introduce a faster, exact algorithm for $\\alpha =1.5$, and enable using $\\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}$ with fixed $\\alpha $ within a neural network by showing that the $\\alpha $-entmax Jacobian w.r.t. $\\mathbf {z}$ for $\\mathbf {p}^\\star = \\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}(\\mathbf {z})$ is Our work furthers the study of $\\alpha $-entmax by providing a derivation of the Jacobian w.r.t. the hyper-parameter $\\alpha $ (Section SECREF3), thereby allowing the shape and sparsity of the mapping to be learned automatically. This is particularly appealing in the context of multi-head attention mechanisms, where we shall show in Section SECREF35 that different heads tend to learn different sparsity behaviors. Adaptively Sparse Transformers with @!START@$\\alpha $@!END@-entmax We now propose a novel Transformer architecture wherein we simply replace softmax with $\\alpha $-entmax in the attention heads. Concretely, we replace the row normalization $\\mathbf {\\pi }$ in Equation DISPLAY_FORM7 by This change leads to sparse attention weights, as long as $\\alpha >1$; in particular, $\\alpha =1.5$ is a sensible starting point BIBREF14. Adaptively Sparse Transformers with @!START@$\\alpha $@!END@-entmax ::: Different @!START@$\\alpha $@!END@ per head. Unlike LSTM-based seq2seq models, where $\\alpha $ can be more easily tuned by grid search, in a Transformer, there are many attention heads in multiple layers. Crucial to the power of such models, the different heads capture different linguistic phenomena, some of them isolating important words, others spreading out attention across phrases BIBREF0. This motivates using different, adaptive $\\alpha $ values for each attention head, such that some heads may learn to be sparser, and others may become closer to softmax. We propose doing so by treating the $\\alpha $ values as neural network parameters, optimized via stochastic gradients along with the other weights. Adaptively Sparse Transformers with @!START@$\\alpha $@!END@-entmax ::: Derivatives w.r.t. @!START@$\\alpha $@!END@. In order to optimize $\\alpha $ automatically via gradient methods, we must compute the Jacobian of the entmax output w.r.t. $\\alpha $. Since entmax is defined through an optimization problem, this is non-trivial and cannot be simply handled through automatic differentiation; it falls within the domain of argmin differentiation, an active research topic in optimization BIBREF25, BIBREF26. One of our key contributions is the derivation of a closed-form expression",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Alpha-entmax Jacobian"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "for this Jacobian. The next proposition provides such an expression, enabling entmax layers with adaptive $\\alpha $. To the best of our knowledge, ours is the first neural network module that can automatically, continuously vary in shape away from softmax and toward sparse mappings like sparsemax. Proposition 1 Let $\\mathbf {p}^\\star \\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}(\\mathbf {z})$ be the solution of Equation DISPLAY_FORM14. Denote the distribution $\\tilde{p}_i {(p_i^\\star )^{2 - \\alpha }}{ \\sum _j(p_j^\\star )^{2-\\alpha }}$ and let $h_i -p^\\star _i \\log p^\\star _i$. The $i$th component of the Jacobian $\\mathbf {g} \\frac{\\partial \\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}(\\mathbf {z})}{\\partial \\alpha }$ is proof uses implicit function differentiation and is given in Appendix SECREF10. Proposition UNKREF22 provides the remaining missing piece needed for training adaptively sparse Transformers. In the following section, we evaluate this strategy on neural machine translation, and analyze the behavior of the learned attention heads. Experiments We apply our adaptively sparse Transformers on four machine translation tasks. For comparison, a natural baseline is the standard Transformer architecture using the softmax transform in its multi-head attention mechanisms. We consider two other model variants in our experiments that make use of different normalizing transformations: 1.5-entmax: a Transformer with sparse entmax attention with fixed $\\alpha =1.5$ for all heads. This is a novel model, since 1.5-entmax had only been proposed for RNN-based NMT models BIBREF14, but never in Transformers, where attention modules are not just one single component of the seq2seq model but rather an integral part of all of the model components. $\\alpha $-entmax: an adaptive Transformer with sparse entmax attention with a different, learned $\\alpha _{i,j}^t$ for each head. The adaptive model has an additional scalar parameter per attention head per layer for each of the three attention mechanisms (encoder self-attention, context attention, and decoder self-attention), i.e., and we set $\\alpha _{i,j}^t = 1 + \\operatornamewithlimits{\\mathsf {sigmoid}}(a_{i,j}^t) \\in ]1, 2[$. All or some of the $\\alpha $ values can be tied if desired, but we keep them independent for analysis purposes. Experiments ::: Datasets. Our models were trained on 4 machine translation datasets of different training sizes: [itemsep=.5ex,leftmargin=2ex] IWSLT 2017 German $\\rightarrow $ English BIBREF27: 200K sentence pairs. KFTT Japanese $\\rightarrow $ English BIBREF28: 300K sentence pairs. WMT 2016 Romanian $\\rightarrow $ English BIBREF29: 600K sentence pairs. WMT 2014 English $\\rightarrow $ German BIBREF30: 4.5M sentence pairs. All of these datasets were preprocessed with byte-pair",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Adaptive Entmax Transformers"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "encoding BIBREF31, using joint segmentations of 32k merge operations. Experiments ::: Training. We follow the dimensions of the Transformer-Base model of BIBREF0: The number of layers is $L=6$ and number of heads is $H=8$ in the encoder self-attention, the context attention, and the decoder self-attention. We use a mini-batch size of 8192 tokens and warm up the learning rate linearly until 20k steps, after which it decays according to an inverse square root schedule. All models were trained until convergence of validation accuracy, and evaluation was done at each 10k steps for ro$\\rightarrow $en and en$\\rightarrow $de and at each 5k steps for de$\\rightarrow $en and ja$\\rightarrow $en. The end-to-end computational overhead of our methods, when compared to standard softmax, is relatively small; in training tokens per second, the models using $\\alpha $-entmax and $1.5$-entmax are, respectively, $75\\%$ and $90\\%$ the speed of the softmax model. Experiments ::: Results. We report test set tokenized BLEU BIBREF32 results in Table TABREF27. We can see that replacing softmax by entmax does not hurt performance in any of the datasets; indeed, sparse attention Transformers tend to have slightly higher BLEU, but their sparsity leads to a better potential for analysis. In the next section, we make use of this potential by exploring the learned internal mechanics of the self-attention heads. Analysis We conduct an analysis for the higher-resource dataset WMT 2014 English $\\rightarrow $ German of the attention in the sparse adaptive Transformer model ($\\alpha $-entmax) at multiple levels: we analyze high-level statistics as well as individual head behavior. Moreover, we make a qualitative analysis of the interpretability capabilities of our models. Analysis ::: High-Level Statistics ::: What kind of @!START@$\\alpha $@!END@ values are learned? Figure FIGREF37 shows the learning trajectories of the $\\alpha $ parameters of a selected subset of heads. We generally observe a tendency for the randomly-initialized $\\alpha $ parameters to decrease initially, suggesting that softmax-like behavior may be preferable while the model is still very uncertain. After around one thousand steps, some heads change direction and become sparser, perhaps as they become more confident and specialized. This shows that the initialization of $\\alpha $ does not predetermine its sparsity level or the role the head will have throughout. In particular, head 8 in the encoder self-attention layer 2 first drops to around $\\alpha =1.3$ before becoming one of the sparsest heads, with $\\alpha \\approx 2$. The overall distribution of",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training and Analysis"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "$\\alpha $ values at convergence can be seen in Figure FIGREF38. We can observe that the encoder self-attention blocks learn to concentrate the $\\alpha $ values in two modes: a very sparse one around $\\alpha \\rightarrow 2$, and a dense one between softmax and 1.5-entmax . However, the decoder self and context attention only learn to distribute these parameters in a single mode. We show next that this is reflected in the average density of attention weight vectors as well. Analysis ::: High-Level Statistics ::: Attention weight density when translating. For any $\\alpha >1$, it would still be possible for the weight matrices in Equation DISPLAY_FORM9 to learn re-scalings so as to make attention sparser or denser. To visualize the impact of adaptive $\\alpha $ values, we compare the empirical attention weight density (the average number of tokens receiving non-zero attention) within each module, against sparse Transformers with fixed $\\alpha =1.5$. Figure FIGREF40 shows that, with fixed $\\alpha =1.5$, heads tend to be sparse and similarly-distributed in all three attention modules. With learned $\\alpha $, there are two notable changes: (i) a prominent mode corresponding to fully dense probabilities, showing that our models learn to combine sparse and dense attention, and (ii) a distinction between the encoder self-attention \u2013 whose background distribution tends toward extreme sparsity \u2013 and the other two modules, who exhibit more uniform background distributions. This suggests that perhaps entirely sparse Transformers are suboptimal. The fact that the decoder seems to prefer denser attention distributions might be attributed to it being auto-regressive, only having access to past tokens and not the full sentence. We speculate that it might lose too much information if it assigned weights of zero to too many tokens in the self-attention, since there are fewer tokens to attend to in the first place. Teasing this down into separate layers, Figure FIGREF41 shows the average (sorted) density of each head for each layer. We observe that $\\alpha $-entmax is able to learn different sparsity patterns at each layer, leading to more variance in individual head behavior, to clearly-identified dense and sparse heads, and overall to different tendencies compared to the fixed case of $\\alpha =1.5$. Analysis ::: High-Level Statistics ::: Head diversity. To measure the overall disagreement between attention heads, as a measure of head diversity, we use the following generalization of the Jensen-Shannon divergence: where $\\mathbf {p}_j$ is the vector of attention weights",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Attention Sparsity Patterns"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "assigned by head $j$ to each word in the sequence, and $\\mathsf {H}^\\textsc {S}$ is the Shannon entropy, base-adjusted based on the dimension of $\\mathbf {p}$ such that $JS \\le 1$. We average this measure over the entire validation set. The higher this metric is, the more the heads are taking different roles in the model. Figure FIGREF44 shows that both sparse Transformer variants show more diversity than the traditional softmax one. Interestingly, diversity seems to peak in the middle layers of the encoder self-attention and context attention, while this is not the case for the decoder self-attention. The statistics shown in this section can be found for the other language pairs in Appendix SECREF8. Analysis ::: Identifying Head Specializations Previous work pointed out some specific roles played by different heads in the softmax Transformer model BIBREF33, BIBREF5, BIBREF9. Identifying the specialization of a head can be done by observing the type of tokens or sequences that the head often assigns most of its attention weight; this is facilitated by sparsity. Analysis ::: Identifying Head Specializations ::: Positional heads. One particular type of head, as noted by BIBREF9, is the positional head. These heads tend to focus their attention on either the previous or next token in the sequence, thus obtaining representations of the neighborhood of the current time step. In Figure FIGREF47, we show attention plots for such heads, found for each of the studied models. The sparsity of our models allows these heads to be more confident in their representations, by assigning the whole probability distribution to a single token in the sequence. Concretely, we may measure a positional head's confidence as the average attention weight assigned to the previous token. The softmax model has three heads for position $-1$, with median confidence $93.5\\%$. The $1.5$-entmax model also has three heads for this position, with median confidence $94.4\\%$. The adaptive model has four heads, with median confidences $95.9\\%$, the lowest-confidence head being dense with $\\alpha =1.18$, while the highest-confidence head being sparse ($\\alpha =1.91$). For position $+1$, the models each dedicate one head, with confidence around $95\\%$, slightly higher for entmax. The adaptive model sets $\\alpha =1.96$ for this head. Analysis ::: Identifying Head Specializations ::: BPE-merging head. Due to the sparsity of our models, we are able to identify other head specializations, easily identifying which heads should be further analysed. In Figure FIGREF51 we show one such",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Head Specializations"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "head where the $\\alpha $ value is particularly high (in the encoder, layer 1, head 4 depicted in Figure FIGREF37). We found that this head most often looks at the current time step with high confidence, making it a positional head with offset 0. However, this head often spreads weight sparsely over 2-3 neighboring tokens, when the tokens are part of the same BPE cluster or hyphenated words. As this head is in the first layer, it provides a useful service to the higher layers by combining information evenly within some BPE clusters. For each BPE cluster or cluster of hyphenated words, we computed a score between 0 and 1 that corresponds to the maximum attention mass assigned by any token to the rest of the tokens inside the cluster in order to quantify the BPE-merging capabilities of these heads. There are not any attention heads in the softmax model that are able to obtain a score over $80\\%$, while for $1.5$-entmax and $\\alpha $-entmax there are two heads in each ($83.3\\%$ and $85.6\\%$ for $1.5$-entmax and $88.5\\%$ and $89.8\\%$ for $\\alpha $-entmax). Analysis ::: Identifying Head Specializations ::: Interrogation head. On the other hand, in Figure FIGREF52 we show a head for which our adaptively sparse model chose an $\\alpha $ close to 1, making it closer to softmax (also shown in encoder, layer 1, head 3 depicted in Figure FIGREF37). We observe that this head assigns a high probability to question marks at the end of the sentence in time steps where the current token is interrogative, thus making it an interrogation-detecting head. We also observe this type of heads in the other models, which we also depict in Figure FIGREF52. The average attention weight placed on the question mark when the current token is an interrogative word is $98.5\\%$ for softmax, $97.0\\%$ for $1.5$-entmax, and $99.5\\%$ for $\\alpha $-entmax. Furthermore, we can examine sentences where some tendentially sparse heads become less so, thus identifying sources of ambiguity where the head is less confident in its prediction. An example is shown in Figure FIGREF55 where sparsity in the same head differs for sentences of similar length. Related Work ::: Sparse attention. Prior work has developed sparse attention mechanisms, including applications to NMT BIBREF19, BIBREF12, BIBREF20, BIBREF22, BIBREF34. BIBREF14 introduced the entmax function this work builds upon. In their work, there is a single attention mechanism which is controlled",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Attention Head Specializations"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "by a fixed $\\alpha $. In contrast, this is the first work to allow such attention mappings to dynamically adapt their curvature and sparsity, by automatically adjusting the continuous $\\alpha $ parameter. We also provide the first results using sparse attention in a Transformer model. Related Work ::: Fixed sparsity patterns. Recent research improves the scalability of Transformer-like networks through static, fixed sparsity patterns BIBREF10, BIBREF35. Our adaptively-sparse Transformer can dynamically select a sparsity pattern that finds relevant words regardless of their position (e.g., Figure FIGREF52). Moreover, the two strategies could be combined. In a concurrent line of research, BIBREF11 propose an adaptive attention span for Transformer language models. While their work has each head learn a different contiguous span of context tokens to attend to, our work finds different sparsity patterns in the same span. Interestingly, some of their findings mirror ours \u2013 we found that attention heads in the last layers tend to be denser on average when compared to the ones in the first layers, while their work has found that lower layers tend to have a shorter attention span compared to higher layers. Related Work ::: Transformer interpretability. The original Transformer paper BIBREF0 shows attention visualizations, from which some speculation can be made of the roles the several attention heads have. BIBREF7 study the syntactic abilities of the Transformer self-attention, while BIBREF6 extract dependency relations from the attention weights. BIBREF8 find that the self-attentions in BERT BIBREF3 follow a sequence of processes that resembles a classical NLP pipeline. Regarding redundancy of heads, BIBREF9 develop a method that is able to prune heads of the multi-head attention module and make an empirical study of the role that each head has in self-attention (positional, syntactic and rare words). BIBREF36 also aim to reduce head redundancy by adding a regularization term to the loss that maximizes head disagreement and obtain improved results. While not considering Transformer attentions, BIBREF18 show that traditional attention mechanisms do not necessarily improve interpretability since softmax attention is vulnerable to an adversarial attack leading to wildly different model predictions for the same attention weights. Sparse attention may mitigate these issues; however, our work focuses mostly on a more mechanical aspect of interpretation by analyzing head behavior, rather than on explanations for predictions. Conclusion and Future Work We contribute a novel strategy for adaptively sparse attention, and, in particular, for adaptively sparse Transformers. We present the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Adaptive Sparse Attention"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "first empirical analysis of Transformers with sparse attention mappings (i.e., entmax), showing potential in both translation accuracy as well as in model interpretability. In particular, we analyzed how the attention heads in the proposed adaptively sparse Transformer can specialize more and with higher confidence. Our adaptivity strategy relies only on gradient-based optimization, side-stepping costly per-head hyper-parameter searches. Further speed-ups are possible by leveraging more parallelism in the bisection algorithm for computing $\\alpha $-entmax. Finally, some of the automatically-learned behaviors of our adaptively sparse Transformers \u2013 for instance, the near-deterministic positional heads or the subword joining head \u2013 may provide new ideas for designing static variations of the Transformer. Acknowledgments This work was supported by the European Research Council (ERC StG DeepSPIN 758969), and by the Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia through contracts UID/EEA/50008/2019 and CMUPERI/TIC/0046/2014 (GoLocal). We are grateful to Ben Peters for the $\\alpha $-entmax code and Erick Fonseca, Marcos Treviso, Pedro Martins, and Tsvetomila Mihaylova for insightful group discussion. We thank Mathieu Blondel for the idea to learn $\\alpha $. We would also like to thank the anonymous reviewers for their helpful feedback. Supplementary Material Background ::: Regularized Fenchel-Young prediction functions Definition 1 (BIBREF23) Let $\\Omega \\colon \\triangle ^d \\rightarrow {\\mathbb {R}}\\cup \\lbrace \\infty \\rbrace $ be a strictly convex regularization function. We define the prediction function $\\mathbf {\\pi }_{\\Omega }$ as Background ::: Characterizing the @!START@$\\alpha $@!END@-entmax mapping Lemma 1 (BIBREF14) For any $\\mathbf {z}$, there exists a unique $\\tau ^\\star $ such that Proof: From the definition of $\\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}$, we may easily identify it with a regularized prediction function (Def. UNKREF81): We first note that for all $\\mathbf {p}\\in \\triangle ^d$, From the constant invariance and scaling properties of $\\mathbf {\\pi }_{\\Omega }$ BIBREF23, Using BIBREF23, noting that $g^{\\prime }(t) = t^{\\alpha - 1}$ and $(g^{\\prime })^{-1}(u) = u^{{1}{\\alpha -1}}$, yields Since $\\mathsf {H}^{\\textsc {T}}_\\alpha $ is strictly convex on the simplex, $\\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}$ has a unique solution $\\mathbf {p}^\\star $. Equation DISPLAY_FORM88 implicitly defines a one-to-one mapping between $\\mathbf {p}^\\star $ and $\\tau ^\\star $ as long as $\\mathbf {p}^\\star \\in \\triangle $, therefore $\\tau ^\\star $ is also unique. Background ::: Connections to softmax and sparsemax The Euclidean projection onto the simplex, sometimes referred to, in the context of neural attention, as sparsemax BIBREF19, is defined as The solution can be characterized",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Sparse Attention Analysis"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "through the unique threshold $\\tau $ such that $\\sum _i \\operatornamewithlimits{\\mathsf {sparsemax}}(\\mathbf {z})_i = 1$ and BIBREF38 Thus, each coordinate of the sparsemax solution is a piecewise-linear function. Visibly, this expression is recovered when setting $\\alpha =2$ in the $\\alpha $-entmax expression (Equation DISPLAY_FORM85); for other values of $\\alpha $, the exponent induces curvature. On the other hand, the well-known softmax is usually defined through the expression which can be shown to be the unique solution of the optimization problem where $\\mathsf {H}^\\textsc {S}(\\mathbf {p}) -\\sum _i p_i \\log p_i$ is the Shannon entropy. Indeed, setting the gradient to 0 yields the condition $\\log p_i = z_j - \\nu _i - \\tau - 1$, where $\\tau $ and $\\nu > 0$ are Lagrange multipliers for the simplex constraints $\\sum _i p_i = 1$ and $p_i \\ge 0$, respectively. Since the l.h.s. is only finite for $p_i>0$, we must have $\\nu _i=0$ for all $i$, by complementary slackness. Thus, the solution must have the form $p_i = {\\exp (z_i)}{Z}$, yielding Equation DISPLAY_FORM92. Jacobian of @!START@$\\alpha $@!END@-entmax w.r.t. the shape parameter @!START@$\\alpha $@!END@: Proof of Proposition @!START@UID22@!END@ Recall that the entmax transformation is defined as: where $\\alpha \\ge 1$ and $\\mathsf {H}^{\\textsc {T}}_{\\alpha }$ is the Tsallis entropy, and $\\mathsf {H}^\\textsc {S}(\\mathbf {p}):= -\\sum _j p_j \\log p_j$ is the Shannon entropy. In this section, we derive the Jacobian of $\\operatornamewithlimits{\\mathsf {entmax }}$ with respect to the scalar parameter $\\alpha $. Jacobian of @!START@$\\alpha $@!END@-entmax w.r.t. the shape parameter @!START@$\\alpha $@!END@: Proof of Proposition @!START@UID22@!END@ ::: General case of @!START@$\\alpha >1$@!END@ From the KKT conditions associated with the optimization problem in Eq. DISPLAY_FORM85, we have that the solution $\\mathbf {p}^{\\star }$ has the following form, coordinate-wise: where $\\tau ^{\\star }$ is a scalar Lagrange multiplier that ensures that $\\mathbf {p}^{\\star }$ normalizes to 1, i.e., it is defined implicitly by the condition: For general values of $\\alpha $, Eq. DISPLAY_FORM98 lacks a closed form solution. This makes the computation of the Jacobian non-trivial. Fortunately, we can use the technique of implicit differentiation to obtain this Jacobian. The Jacobian exists almost everywhere, and the expressions we derive expressions yield a generalized Jacobian BIBREF37 at any non-differentiable points that may occur for certain ($\\alpha $, $\\mathbf {z}$) pairs. We begin by noting that $\\frac{\\partial p_i^{\\star }}{\\partial \\alpha } = 0$ if $p_i^{\\star } = 0$, because increasing $\\alpha $ keeps sparse coordinates sparse. Therefore",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "entmax Jacobian"
+      ],
+      "topic_links": []
+    },
+    "e18": {
+      "text": "we need to worry only about coordinates that are in the support of $\\mathbf {p}^\\star $. We will assume hereafter that the $i$th coordinate of $\\mathbf {p}^\\star $ is non-zero. We have: We can see that this Jacobian depends on $\\frac{\\partial \\tau ^{\\star }}{\\partial \\alpha }$, which we now compute using implicit differentiation. Let $\\mathcal {S} = \\lbrace i: p^\\star _i > 0 \\rbrace $). By differentiating both sides of Eq. DISPLAY_FORM98, re-using some of the steps in Eq. DISPLAY_FORM101, and recalling Eq. DISPLAY_FORM97, we get from which we obtain: Finally, plugging Eq. DISPLAY_FORM103 into Eq. DISPLAY_FORM101, we get: where we denote by The distribution $\\tilde{\\mathbf {p}}(\\alpha )$ can be interpreted as a \u201cskewed\u201d distribution obtained from $\\mathbf {p}^{\\star }$, which appears in the Jacobian of $\\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}(\\mathbf {z})$ w.r.t. $\\mathbf {z}$ as well BIBREF14. Jacobian of @!START@$\\alpha $@!END@-entmax w.r.t. the shape parameter @!START@$\\alpha $@!END@: Proof of Proposition @!START@UID22@!END@ ::: Solving the indetermination for @!START@$\\alpha =1$@!END@ We can write Eq. DISPLAY_FORM104 as When $\\alpha \\rightarrow 1^+$, we have $\\tilde{\\mathbf {p}}(\\alpha ) \\rightarrow \\mathbf {p}^{\\star }$, which leads to a $\\frac{0}{0}$ indetermination. To solve this indetermination, we will need to apply L'H\u00f4pital's rule twice. Let us first compute the derivative of $\\tilde{p}_i(\\alpha )$ with respect to $\\alpha $. We have therefore Differentiating the numerator and denominator in Eq. DISPLAY_FORM107, we get: with and When $\\alpha \\rightarrow 1^+$, $B$ becomes again a $\\frac{0}{0}$ indetermination, which we can solve by applying again L'H\u00f4pital's rule. Differentiating the numerator and denominator in Eq. DISPLAY_FORM112: Finally, summing Eq. DISPLAY_FORM111 and Eq. DISPLAY_FORM113, we get Jacobian of @!START@$\\alpha $@!END@-entmax w.r.t. the shape parameter @!START@$\\alpha $@!END@: Proof of Proposition @!START@UID22@!END@ ::: Summary To sum up, we have the following expression for the Jacobian of $\\mathop {\\mathsf {\\alpha }\\textnormal {-}\\mathsf {entmax }}$ with respect to $\\alpha $:",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Jacobian of \u03b1-entmax"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "The Transformer architecture is a deep neural network model that has gained prominence in natural language processing due to its efficiency and performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Multi-head attention mechanisms in the Transformer allow each word to be represented by multiple weighted averages of its relevant context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Separate attention heads in the Transformer may learn to detect different relationships between tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The softmax normalizing transform is typically used to predict the attention distribution of each attention head, ensuring all context words have non-zero attention weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Sparsemax is a sparse normalizing transform that can assign exactly zero probabilities to irrelevant words in attention mechanisms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Sparse Transformers are models that limit attention to a contiguous span of past tokens, introducing sparsity in attention patterns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Adaptive span Transformers are models that restrict attention to a contiguous span of past tokens, adapting the span dynamically.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The proposed adaptive Transformer model can attend to a sparse set of non-contiguous words, enabling greater flexibility and sparsity in attention.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Qualitative analysis shows that attention heads tend to favor flatter or more peaked distributions depending on the phenomena they capture.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Using sparse normalizing transforms like sparsemax can improve both the performance and interpretability of attention mechanisms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Sparse attention is a variant of the attention mechanism in Transformers that uses sparse mappings to assign exactly zero weights to irrelevant items, improving interpretability and reducing noise in attention weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Scaled dot-product attention computes a weighted representation of sequence items for each query using a dot product between query and key vectors, normalized with softmax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Multi-head attention applies the same attention mechanism in parallel across multiple heads, each with a different learned linear transformation, allowing the model to specialize in different aspects of the input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Encoder self-attention builds rich, layered representations of each input word by attending to the entire input sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Context attention computes a representative weighted average of input word encodings at each decoder time step.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Decoder self-attention allows the model to attend over the partial output sentence fragment produced so far during decoding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "Softmax assigns non-zero weights to all items due to its exponential nature, which can reduce interpretability and performance by including irrelevant items.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "\u03b1-entmax is a flexible family of sparse attention transformations parameterized by \u03b1, which generalizes softmax and sparsemax, with \u03b1=1 corresponding to Shannon entropy and \u03b1=2 to Gini entropy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Adaptive sparse attention allows the shape of each attention head to be learnable and dynamically vary between dense softmax and sparse piecewise-linear sparsemax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Sparse attention improves model interpretability by enabling crisper, more focused attention patterns and revealing both previously observed and novel behaviors in attention head dynamics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "The introduction of sparse attention leads to slight accuracy gains in sequence-to-sequence models such as NMT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "\u03b1-entmax is a sparse attention mechanism defined through a convex optimization problem that generalizes softmax and allows for adaptive sparsity based on the parameter \u03b1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "When \u03b1 equals 1, \u03b1-entmax exactly recovers the softmax mapping.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "For all \u03b1 greater than 1, \u03b1-entmax permits sparse solutions, in contrast to softmax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "When \u03b1 equals 2, \u03b1-entmax recovers the sparsemax mapping, which is piecewise linear.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "As \u03b1 increases beyond 1, the \u03b1-entmax mapping becomes increasingly sparse and its curvature changes continuously.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Trend"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The threshold \u03c4 in \u03b1-entmax is the Lagrange multiplier associated with the constraint that the sum of attention weights equals one.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The positive part function [\u00b7]_+ is also known as the ReLU function and is used in the formulation of \u03b1-entmax to enforce non-negativity of attention weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The vector of all ones, denoted by 1, is used in the formulation of \u03b1-entmax to represent the normalization constraint.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "BIBREF14 introduces a faster, exact algorithm for computing \u03b1-entmax when \u03b1 = 1.5 and enables the use of \u03b1-entmax within neural networks by deriving its Jacobian with respect to the input vector z.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "BIBREF23 proposes a general bisection algorithm to find the threshold \u03c4 such that the right-hand side of Equation DISPLAY_FORM16 sums to one.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The Jacobian of the \u03b1-entmax output with respect to the hyperparameter \u03b1 is required to enable gradient-based optimization of \u03b1 within a neural network.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Different attention heads in a Transformer can learn different \u03b1 values, allowing some heads to be sparser and others to approach softmax behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "In multi-head attention, different heads capture distinct linguistic phenomena, such as isolating important words or spreading attention across phrases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Adaptively Sparse Transformers are a novel Transformer architecture that replaces softmax with \u03b1-entmax in attention heads to enable sparse and adaptive attention weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "\u03b1 = 1.5 is considered a sensible starting point for \u03b1-entmax in practice due to its balance between sparsity and computational efficiency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Computing the Jacobian of entmax with respect to \u03b1 falls within the domain of argmin differentiation, a research area in optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Concept"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "Section SECREF3 provides a closed-form derivation of the Jacobian of \u03b1-entmax with respect to \u03b1, enabling automatic learning of the mapping's shape and sparsity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Section SECREF35 shows that different attention heads in a Transformer tend to learn different sparsity behaviors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "The \u03b1-entmax operation is the solution to Equation DISPLAY_FORM14, representing a generalization of softmax that continuously varies toward sparse mappings like sparsemax as \u03b1 increases.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The i-th component of the Jacobian \u2202(\u03b1-entmax(z))/\u2202\u03b1 is derived using implicit function differentiation and is provided in Appendix SECREF10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The 1.5-entmax model is a novel Transformer architecture that uses sparse entmax attention with a fixed \u03b1 = 1.5 across all heads.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The adaptive \u03b1-entmax model learns a different \u03b1 value \u03b1_{i,j}^t for each attention head and layer, with \u03b1_{i,j}^t = 1 + sigmoid(a_{i,j}^t) \u2208 (1, 2).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Each \u03b1_{i,j}^t is a learned scalar parameter per attention head and layer, used to control the sparsity of the attention distribution in the Transformer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The \u03b1-entmax model enables adaptive, learned sparsity in attention mechanisms, allowing the network to shift continuously from softmax to sparse mappings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The IWSLT 2017 German-to-English dataset contains 200K sentence pairs and is used in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The KFTT Japanese-to-English dataset contains 300K sentence pairs and is used in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The WMT 2016 Romanian-to-English dataset contains 600K sentence pairs and is used in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The WMT 2014 English-to-German dataset contains 4.5M sentence pairs and is used in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "All datasets were preprocessed using byte-pair encoding before training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The Transformer-Base model has 6 layers (L=6) and 8 heads (H=8) in encoder self-attention, context attention, and decoder self-attention.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The training uses a mini-batch size of 8192 tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The learning rate is warmed up linearly until 20k steps, after which it decays according to an inverse square root schedule.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "All models are trained until validation accuracy converges.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Evaluation is performed every 10k steps for ro\u2192en and en\u2192de, and every 5k steps for de\u2192en and ja\u2192en.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Models using \u03b1-entmax and 1.5-entmax have 75% and 90% of the speed of softmax, respectively, in training tokens per second.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "Replacing softmax with entmax does not hurt performance and results in slightly higher BLEU scores in sparse attention Transformers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The sparsity in sparse attention Transformers improves potential for analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Initially, randomly initialized \u03b1 parameters tend to decrease, suggesting softmax-like behavior during early training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "After about 1,000 training steps, some heads become sparser, indicating increased confidence and specialization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Head 8 in encoder self-attention layer 2 drops to \u03b1 \u2248 1.3 and later becomes one of the sparsest heads with \u03b1 \u2248 2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The initialization of \u03b1 does not predetermine the sparsity level or the role of a head throughout training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The analysis of the sparse adaptive Transformer model (\u03b1-entmax) is conducted on the WMT 2014 English\u2192German dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The analysis of attention includes high-level statistics and individual head behavior.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "A qualitative analysis of the interpretability capabilities of the models is performed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Analysis"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The \u03b1 values at convergence are visualized in Figure FIGREF38 and show two distinct modes: a sparse one around \u03b1 \u2192 2 and a dense one between softmax and 1.5-entmax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Encoder self-attention blocks learn to concentrate \u03b1 values in two modes: a very sparse one near \u03b1 \u2192 2 and a dense one between softmax and 1.5-entmax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Decoder self-attention and context attention learn to distribute \u03b1 parameters in a single mode only.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Attention weight density refers to the average number of tokens receiving non-zero attention within each module.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "With fixed \u03b1 = 1.5, attention heads tend to be sparse and similarly distributed across all three attention modules.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "With learned \u03b1 values, there is a prominent mode of fully dense probabilities, indicating that models learn to combine sparse and dense attention.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The encoder self-attention module tends to have a background distribution that approaches extreme sparsity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "The decoder self-attention module exhibits a more uniform background distribution of attention weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The decoder's preference for denser attention distributions is likely due to its auto-regressive nature, which limits access to future tokens and risks information loss from zero weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "\u03b1-entmax enables the learning of different sparsity patterns at each layer, resulting in greater variance in head behavior and clearly identifiable sparse and dense heads.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Head diversity is measured using a generalized Jensen-Shannon divergence based on the attention weight vectors of each head.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The Shannon entropy, base-adjusted based on the dimension of the probability vector p, is used to measure the diversity of attention weights assigned by each head in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The JS metric is bounded above by 1, indicating that the diversity of head behaviors is capped at this value.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Both sparse Transformer variants show greater diversity in head attention compared to the traditional softmax model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Diversity in head attention peaks in the middle layers of the encoder self-attention and context attention.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Diversity in head attention does not peak in the decoder self-attention layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "A positional head that focuses its attention on either the previous or next token in the sequence to capture neighborhood information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The confidence of a positional head is measured as the average attention weight assigned to the previous token.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The softmax model has three heads for position -1 with a median confidence of 93.5%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The 1.5-entmax model has three heads for position -1 with a median confidence of 94.4%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The adaptive model has four heads for position -1, with median confidences ranging from 95.9% (lowest at \u03b1=1.18) to 95.9% (highest at \u03b1=1.91).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Each model dedicates one head to position +1, with confidence around 95%, slightly higher for the entmax model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The adaptive model sets \u03b1=1.96 for the head assigned to position +1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "A head that specializes in processing BPE-merging operations, identified due to the sparsity of the models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Figure FIGREF44 illustrates that sparse Transformer variants exhibit higher head diversity than the traditional softmax model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Figure FIGREF47 displays attention plots for positional heads in each studied model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "Figure FIGREF51 shows an example of a BPE-merging head identified through sparsity in the models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The statistics presented in this section for other language pairs are available in Appendix SECREF8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Location"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "The \u03b1 value is particularly high in the encoder, layer 1, head 4, as depicted in Figure FIGREF37.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Head 4 in the encoder, layer 1, most often looks at the current time step with high confidence, indicating it is a positional head with offset 0.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Head 4 spreads attention sparsely over 2-3 neighboring tokens when those tokens are part of the same BPE cluster or hyphenated words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Head 4 provides a useful service to higher layers by combining information evenly within BPE clusters in the first layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "A BPE cluster refers to a group of tokens that are merged during BPE tokenization or form hyphenated words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The attention score for a BPE cluster is the maximum attention mass assigned by any token to the rest of the tokens within the cluster.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "No attention heads in the softmax model achieve an attention score over 80% for BPE-merging capabilities.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "Two heads in the 1.5-entmax model achieve a BPE-merging score of 83.3%.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Two heads in the \u03b1-entmax model achieve a BPE-merging score of 88.5% and 89.8% respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "Head 3 in the encoder, layer 1, has an \u03b1 value close to 1, making it closer to the softmax model as shown in Figure FIGREF37.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "An interrogation-detecting head assigns high probability to question marks at the end of a sentence when the current token is interrogative.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The average attention weight placed on the question mark when the current token is interrogative is 98.5% for softmax, 97.0% for 1.5-entmax, and 99.5% for \u03b1-entmax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Sparsity in a head can decrease in sentences of similar length, indicating sources of ambiguity where the head is less confident in its prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "Prior work has developed sparse attention mechanisms, including applications in NMT, such as in BIBREF19, BIBREF12, BIBREF20, BIBREF22, BIBREF34.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The entmax function was introduced by BIBREF14 and is the foundation upon which this work builds.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "In prior work, there is a single attention mechanism controlled by a global parameter.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Work"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "An adaptively-sparse Transformer is a model that dynamically adjusts its sparsity pattern based on input context, allowing relevant words to be selected regardless of their position.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The continuous \u03b1 parameter in adaptively-sparse attention controls the curvature and sparsity of attention mappings, and is automatically adjusted during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Fixed sparsity patterns are static, pre-defined sparsity structures used in Transformer-like networks to improve scalability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Adaptive attention span refers to a strategy where each attention head learns a different contiguous range of context tokens to attend to.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The adaptively-sparse Transformer dynamically selects a sparsity pattern that varies across input contexts and attention heads.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Attention heads in the last layers of the Transformer tend to be denser on average compared to those in the first layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Lower layers in the Transformer tend to have a shorter attention span compared to higher layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Sparse attention has been used in a Transformer model for the first time in this work, enabling more efficient and context-aware attention mechanisms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Transformer interpretability refers to the ability to understand and analyze how attention mechanisms in Transformers contribute to model decisions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Multi-head attention pruning is a method that removes redundant attention heads based on their functional roles, such as positional, syntactic, or rare word detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Head disagreement regularization is a technique that improves model performance by adding a loss term that maximizes disagreement among attention heads.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "Softmax attention is vulnerable to adversarial attacks, which can lead to drastically different model predictions for the same attention weights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "Sparse attention may reduce the vulnerability of attention mechanisms to adversarial attacks, thereby improving interpretability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "Head redundancy refers to the phenomenon where multiple attention heads perform similar or overlapping functions in a Transformer model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "Sparse attention mappings refer to a method in Transformers where attention heads operate with sparsity, using entmax to select a subset of relevant inputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "An adaptively sparse Transformer specializes attention heads with higher confidence and greater adaptability through gradient-based optimization.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The adaptivity strategy in the proposed sparse Transformer relies solely on gradient-based optimization, avoiding costly per-head hyper-parameter searches.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "The bisection algorithm can be used to compute the \u03b1-entmax parameter \u03b1 with increased parallelism, enabling further speed-ups in inference.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "\u03b1-entmax is a regularized prediction function that generalizes softmax and sparsemax, defined through a strictly convex regularization function on the probability simplex.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "Ben Peters provided the \u03b1-entmax implementation used in the study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Credit"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "Some automatically learned behaviors in the adaptively sparse Transformer include near-deterministic positional heads, which may inspire static Transformer designs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The subword joining head, a learned behavior in the adaptively sparse Transformer, suggests new design principles for static Transformer variants.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "Regularized Fenchel-Young prediction functions are defined as functions derived from strictly convex regularization functions on the probability simplex.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "Sparsemax is the Euclidean projection onto the simplex and is used in neural attention to produce sparse attention distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "The Euclidean projection onto the simplex is a method to enforce sparsity in attention distributions, known as sparsemax in neural attention contexts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "The \u03b1-entmax mapping is based on a strictly convex regularization function, ensuring a unique solution for the attention distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "The \u03b1-entmax mapping has a unique solution for any input vector, ensuring deterministic and stable attention outputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "The sparsemax function is defined such that the sum of its coordinates equals 1, and each coordinate is a piecewise-linear function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "The \u03b1-entmax transformation is defined for \u03b1 \u2265 1 using the Tsallis entropy H^T_\u03b1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "The Shannon entropy is defined as H^S(p) = -\u2211_j p_j log p_j.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The KKT conditions for the optimization problem in Equation DISPLAY_FORM85 yield the coordinate-wise form of the solution for \u03b1-entmax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "The Jacobian of the \u03b1-entmax transformation with respect to the shape parameter \u03b1 exists almost everywhere and can be derived using implicit differentiation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "The scalar Lagrange multiplier \u03c4^\u22c6 ensures that the solution vector p^\u22c6 normalizes to 1, defined implicitly by the condition \u2211_i p^\u22c6_i = 1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "Complementary slackness implies that \u03bd_i = 0 for all i, leading to the softmax solution p_i = exp(z_i)/Z.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "A generalized Jacobian exists at non-differentiable points for certain (\u03b1, z) pairs, derived via implicit differentiation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "Setting \u03b1 = 2 in the \u03b1-entmax expression recovers the sparsemax solution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "For values of \u03b1 other than 2, the exponent in the \u03b1-entmax expression introduces curvature into the solution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "The Jacobian of \u03b1-entmax with respect to the shape parameter \u03b1 is derived using implicit differentiation and L'H\u00f4pital's rule to resolve indeterminate forms as \u03b1 approaches 1 from above.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "The \u03b1-entmax function has a Jacobian that depends on the derivative of \u03c4\u22c6 with respect to \u03b1, computed via implicit differentiation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "The distribution tilde p(\u03b1) is a 'skewed' distribution derived from p\u22c6 and appears in the Jacobian of \u03b1-entmax with respect to z.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "The set S = {i: p\u22c6_i > 0} defines the coordinates of p\u22c6 that are strictly positive and are considered in the analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "L'H\u00f4pital's rule is applied twice to resolve the 0/0 indetermination that arises when \u03b1 \u2192 1\u207a in the limit of tilde p(\u03b1).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "As \u03b1 approaches 1 from above, tilde p(\u03b1) converges to p\u22c6, leading to a 0/0 indeterminate form in the Jacobian expression.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "The derivative of tilde p_i(\u03b1) with respect to \u03b1 is computed as part of the process to evaluate the limit as \u03b1 \u2192 1\u207a.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Calculation"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "The distribution tilde p(\u03b1) appears in the Jacobian of \u03b1-entmax with respect to z, indicating a shared structural dependency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1.5-entmax",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "1.5-entmax",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "1.5-entmax",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "1.5-entmax",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "1.5-entmax",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "1.5-entmax",
+      "Result",
+      "s101"
+    ],
+    [
+      "1.5-entmax model",
+      "Result",
+      "s85"
+    ],
+    [
+      "200K sentence pairs",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "20k steps",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "300K sentence pairs",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "4.5M sentence pairs",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "600K sentence pairs",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "75% speed",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "80%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "83.3%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "85.6%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "88.5%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "89.8%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "90% speed",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "93.5%",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "94.4%",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "95.4%",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "95.9%",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "97.0%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "98.5%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "99.5%",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "Appendix SECREF10",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "Appendix SECREF8",
+      "Location",
+      "s93"
+    ],
+    [
+      "BERT",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "BERT BIBREF3",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIB",
+      "Transformer Architecture",
+      "e1"
+    ],
+    [
+      "BIBREF10",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF11",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF12",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "BIBREF14",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF14",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "BIBREF14",
+      "Reference",
+      "s30"
+    ],
+    [
+      "BIBREF18",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF18",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF19",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF19",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "BIBREF20",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF20",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "BIBREF21",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF22",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF22",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "BIBREF23",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF23",
+      "Reference",
+      "s31"
+    ],
+    [
+      "BIBREF24",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "BIBREF31",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "BIBREF32",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "BIBREF33",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "BIBREF34",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "BIBREF35",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF36",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF5",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "BIBREF6",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF7",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF8",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF9",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "BIBREF9",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "BLEU performance with entmax",
+      "Result",
+      "s57"
+    ],
+    [
+      "BPE cluster",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "BPE cluster",
+      "Definition",
+      "s98"
+    ],
+    [
+      "BPE-merging head",
+      "Definition",
+      "s89"
+    ],
+    [
+      "BPE-merging head",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "Ben Peters",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "CMUPERI/TIC/0046/2014",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "DISPLAY_FORM101",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM103",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM104",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM107",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM111",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM112",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM113",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM97",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "DISPLAY_FORM98",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "ERC StG DeepSPIN 758969",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "Equation DISPLAY_FORM14",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "Equation DISPLAY_FORM8",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "Equation DISPLAY_FORM85",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "Equation DISPLAY_FORM92",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "Equation DISPLAY_FORM98",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "Erick Fonseca",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "Euclidean projection",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "Euclidean projection onto the simplex",
+      "Definition",
+      "s134"
+    ],
+    [
+      "European Research Council",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "FIGREF1",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "FIGREF37",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "FIGREF37",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "FIGREF44",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "FIGREF47",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "FIGREF51",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "FIGREF52",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "FIGREF52",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "FIGREF55",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "Figure FIGREF38",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "Figure FIGREF40",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "Figure FIGREF41",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "Figure FIGREF44",
+      "Result",
+      "s90"
+    ],
+    [
+      "Figure FIGREF47",
+      "Result",
+      "s91"
+    ],
+    [
+      "Figure FIGREF51",
+      "Result",
+      "s92"
+    ],
+    [
+      "Funda\u00e7\u00e3oo para a Ci\u00eancia e Tecnologia",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "GPT-2",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "Gini entropy",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "H=8",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "IWSLT 2017 German \u2192 English",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "IWSLT 2017 German \u2192 English",
+      "Attribute",
+      "s46"
+    ],
+    [
+      "JS",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "JS",
+      "Property",
+      "s78"
+    ],
+    [
+      "Jacobian",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "Jacobian",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "Jacobian",
+      "Property",
+      "s41"
+    ],
+    [
+      "Jacobian",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "Jacobian of \u03b1-entmax",
+      "Result",
+      "s141"
+    ],
+    [
+      "Jacobian of \u03b1-entmax w.r.t. z",
+      "Relationship",
+      "s154"
+    ],
+    [
+      "Jacobian of \u03b1-entmax w.r.t. \u03b1",
+      "Definition",
+      "s147"
+    ],
+    [
+      "Jacobian w.r.t. alpha",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "Jacobian w.r.t. z",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "Jacobian w.r.t. \u03b1",
+      "Property",
+      "s32"
+    ],
+    [
+      "Jensen-Shannon divergence",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "KFTT Japanese \u2192 English",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "KFTT Japanese \u2192 English",
+      "Attribute",
+      "s47"
+    ],
+    [
+      "KKT conditions",
+      "Property",
+      "s140"
+    ],
+    [
+      "KKT conditions",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "L'H\u00f4pital's rule",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "L'H\u00f4pital's rule",
+      "Method",
+      "s151"
+    ],
+    [
+      "L=6",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "Lagrange multiplier",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "Lagrange multiplier \u03c4",
+      "Property",
+      "s142"
+    ],
+    [
+      "Lagrange multipliers",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "Marcos Treviso",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "Mathieu Blondel",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "NLP",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "NMT",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "NMT",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "Neural Machine Translation",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "Pedro Martins",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "Proposition 1",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "Proposition UNKREF22",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "REF0",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "ReLU",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "ReLU function",
+      "Definition",
+      "s28"
+    ],
+    [
+      "Section SECREF3",
+      "Reference",
+      "s38"
+    ],
+    [
+      "Section SECREF35",
+      "Reference",
+      "s39"
+    ],
+    [
+      "Shannon entropy",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "Shannon entropy",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "Shannon entropy",
+      "Definition",
+      "s139"
+    ],
+    [
+      "Shannon entropy",
+      "Definition",
+      "s77"
+    ],
+    [
+      "Shannon entropy",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "Shannon entropy",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "TABREF27",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "Transformer architecture",
+      "Definition",
+      "s1"
+    ],
+    [
+      "Transformer architecture",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "Transformer architecture",
+      "Transformer Architecture",
+      "e1"
+    ],
+    [
+      "Transformer interpretability",
+      "Definition",
+      "s118"
+    ],
+    [
+      "Transformer model",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "Transformer with sparse entmax attention",
+      "Result",
+      "s45"
+    ],
+    [
+      "Transformer-Base",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "Transformer-Base model",
+      "Definition",
+      "s51"
+    ],
+    [
+      "Transformers",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "Tsallis entropies",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "Tsallis entropy",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "Tsvetomila Mihaylova",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "UID/EEA/50008/2019",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "UID22",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "UID22",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "WMT 2014 English \u2192 German",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "WMT 2014 English \u2192 German",
+      "Attribute",
+      "s49"
+    ],
+    [
+      "WMT 2014 English\u2192German",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "WMT 2014 English\u2192German dataset",
+      "Definition",
+      "s63"
+    ],
+    [
+      "WMT 2016 Romanian \u2192 English",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "WMT 2016 Romanian \u2192 English",
+      "Attribute",
+      "s48"
+    ],
+    [
+      "Z",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "accuracy gains",
+      "Result",
+      "s21"
+    ],
+    [
+      "adaptive Transformer",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "adaptive Transformer model",
+      "Definition",
+      "s8"
+    ],
+    [
+      "adaptive alpha per head",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "adaptive attention span",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "adaptive attention span",
+      "Definition",
+      "s113"
+    ],
+    [
+      "adaptive model",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "adaptive model",
+      "Result",
+      "s86"
+    ],
+    [
+      "adaptive model (position +1)",
+      "Property",
+      "s88"
+    ],
+    [
+      "adaptive span Transformers",
+      "Definition",
+      "s7"
+    ],
+    [
+      "adaptive span Transformers",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "adaptive sparse attention",
+      "Definition",
+      "s19"
+    ],
+    [
+      "adaptive sparse attention",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "adaptive sparse transformers",
+      "Definition",
+      "s35"
+    ],
+    [
+      "adaptive sparsity",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "adaptive \u03b1 per head",
+      "Property",
+      "s33"
+    ],
+    [
+      "adaptive \u03b1-entmax",
+      "Definition",
+      "s43"
+    ],
+    [
+      "adaptively sparse Transformer",
+      "Property",
+      "s125"
+    ],
+    [
+      "adaptively-sparse Transformer",
+      "Definition",
+      "s110"
+    ],
+    [
+      "adversarial attack",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "alpha",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "alpha",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "alpha",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "alpha = 1",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "alpha = 1",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "alpha = 1.5",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "alpha = 2",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "alpha = 2",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "alpha > 1",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "alpha-entmax",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "alpha-entmax",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "alpha-entmax",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "alpha-entmax",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "alpha-entmax",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "alpha_{i,j}^t",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "anonymous reviewers",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "argmin differentiation",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "argmin differentiation",
+      "Concept",
+      "s37"
+    ],
+    [
+      "attention",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "attention analysis levels",
+      "Property",
+      "s64"
+    ],
+    [
+      "attention distribution",
+      "Result",
+      "s9"
+    ],
+    [
+      "attention head",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "attention heads",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "attention heads",
+      "Property",
+      "s3"
+    ],
+    [
+      "attention heads",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "attention heads in last layers",
+      "Result",
+      "s115"
+    ],
+    [
+      "attention mass",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "attention score",
+      "Definition",
+      "s99"
+    ],
+    [
+      "attention weight",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "attention weight",
+      "Property",
+      "s83"
+    ],
+    [
+      "attention weight density",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "attention weight density",
+      "Definition",
+      "s69"
+    ],
+    [
+      "attention weight on question mark",
+      "Property",
+      "s105"
+    ],
+    [
+      "attention weight vectors",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "auto-regressive",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "average density",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "bisection algorithm",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "bisection algorithm",
+      "Method",
+      "s127"
+    ],
+    [
+      "bisection algorithm",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "byte-pair preprocessing",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "byte-pair preprocessing",
+      "Property",
+      "s50"
+    ],
+    [
+      "closed-form expression",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "complementary slackness",
+      "Property",
+      "s143"
+    ],
+    [
+      "computational overhead",
+      "Result",
+      "s56"
+    ],
+    [
+      "confidence",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "context attention",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "context attention",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "context attention",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "context attention",
+      "Property",
+      "s15"
+    ],
+    [
+      "context-dependent strategy",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "contextualized flow",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "contiguous span",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "continuous \u03b1 parameter",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "continuous \u03b1 parameter",
+      "Property",
+      "s111"
+    ],
+    [
+      "contributions",
+      "Contributions",
+      "e3"
+    ],
+    [
+      "convergence",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "convex optimization",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "coordinate i",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "coordinate-wise solution",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "curvature in \u03b1-entmax",
+      "Property",
+      "s146"
+    ],
+    [
+      "decoder",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "decoder auto-regressive nature",
+      "Cause",
+      "s74"
+    ],
+    [
+      "decoder self-attention",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "decoder self-attention",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "decoder self-attention",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "decoder self-attention",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "decoder self-attention",
+      "Property",
+      "s16"
+    ],
+    [
+      "decoder self-attention",
+      "Property",
+      "s73"
+    ],
+    [
+      "decoder self-attention",
+      "Result",
+      "s81"
+    ],
+    [
+      "decoder self-attention and context attention",
+      "Property",
+      "s68"
+    ],
+    [
+      "deep neural networks",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "dense attention",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "dense limit case",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "derivative of tilde p_i(\u03b1) w.r.t. \u03b1",
+      "Calculation",
+      "s153"
+    ],
+    [
+      "de\u2192en",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "dynamic curvature",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "dynamic information propagation",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "dynamic sparsity",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "encoder",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "encoder self-attention",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "encoder self-attention",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "encoder self-attention",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "encoder self-attention",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "encoder self-attention",
+      "Property",
+      "s14"
+    ],
+    [
+      "encoder self-attention",
+      "Property",
+      "s72"
+    ],
+    [
+      "encoder self-attention",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "encoder self-attention blocks",
+      "Property",
+      "s67"
+    ],
+    [
+      "entmax",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "entmax",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "entmax",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "entmax",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "entmax",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "entmax function",
+      "Definition",
+      "s108"
+    ],
+    [
+      "en\u2192de",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "evaluation frequency",
+      "Property",
+      "s55"
+    ],
+    [
+      "exp",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "first layers",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "fixed sparsity patterns",
+      "Definition",
+      "s112"
+    ],
+    [
+      "fixed \u03b1",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "fixed \u03b1 = 1.5",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "fixed \u03b1 = 1.5",
+      "Result",
+      "s70"
+    ],
+    [
+      "following",
+      "Missing Content",
+      "e4"
+    ],
+    [
+      "full sentence",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "generalized Jacobian",
+      "Result",
+      "s144"
+    ],
+    [
+      "generalized Jacobian",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "gradient-based optimization",
+      "Method",
+      "s126"
+    ],
+    [
+      "gradient-based optimization",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "head",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "head 3",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "head 3",
+      "Result",
+      "s103"
+    ],
+    [
+      "head 4",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "head 4",
+      "Function",
+      "s97"
+    ],
+    [
+      "head 4",
+      "Property",
+      "s96"
+    ],
+    [
+      "head 4",
+      "Result",
+      "s95"
+    ],
+    [
+      "head 8",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "head 8 in encoder self-attention layer 2",
+      "Result",
+      "s61"
+    ],
+    [
+      "head disagreement regularization",
+      "Definition",
+      "s120"
+    ],
+    [
+      "head diversity",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "head diversity",
+      "Definition",
+      "s76"
+    ],
+    [
+      "head redundancy",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "head redundancy",
+      "Definition",
+      "s123"
+    ],
+    [
+      "hyper-parameter alpha",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "hyphenated words",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "implicit condition",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "implicit differentiation",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "input sequence",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "input words",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "interpretability",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "interpretability",
+      "Result",
+      "s20"
+    ],
+    [
+      "interpretability analysis",
+      "Analysis",
+      "s65"
+    ],
+    [
+      "interrogation-detecting head",
+      "Definition",
+      "s104"
+    ],
+    [
+      "interrogative",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "inverse square root schedule",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "ja\u2192en",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "last layers",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "layer 1",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "layer 2",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "layer-specific sparsity",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "layer-wise sparsity patterns",
+      "Result",
+      "s75"
+    ],
+    [
+      "learnable attention shape",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "learned alpha",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "learned \u03b1 values",
+      "Result",
+      "s71"
+    ],
+    [
+      "learning rate warm-up",
+      "Property",
+      "s53"
+    ],
+    [
+      "learning trajectories",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "lower layers attention span",
+      "Result",
+      "s116"
+    ],
+    [
+      "middle layers of encoder self-attention",
+      "Result",
+      "s80"
+    ],
+    [
+      "mini-batch size 8192",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "model interpretability",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "multi-head attention",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "multi-head attention",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "multi-head attention",
+      "Definition",
+      "s13"
+    ],
+    [
+      "multi-head attention",
+      "Property",
+      "s34"
+    ],
+    [
+      "multi-head attention",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "multi-head attention",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "multi-head attention mechanisms",
+      "Definition",
+      "s2"
+    ],
+    [
+      "multi-head attention pruning",
+      "Definition",
+      "s119"
+    ],
+    [
+      "near-deterministic positional heads",
+      "Result",
+      "s130"
+    ],
+    [
+      "neural machine translation",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "neural network",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "non-differentiable points",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "non-zero attention",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "non-zero coordinate",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "normalization constraint",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "offset 0",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "optimality conditions",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "output sentence fragment",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "output sequence",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "p_i^*",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "past tokens",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "piecewise-linear",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "position +1",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "position +1",
+      "Result",
+      "s87"
+    ],
+    [
+      "position -1",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "positional head",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "positional head",
+      "Definition",
+      "s82"
+    ],
+    [
+      "positional head",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "positive part",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "probability simplex",
+      "Alpha-Entmax Transformations",
+      "e7"
+    ],
+    [
+      "p\u22c6",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "p\u22c6_i > 0",
+      "Property",
+      "s150"
+    ],
+    [
+      "query contexts",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "question mark",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "re-scalings",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "regularization term",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "regularized Fenchel-Young prediction functions",
+      "Definition",
+      "s132"
+    ],
+    [
+      "regularized Fenchel-Young prediction functions",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "ro\u2192en",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "scaled dot-product attention",
+      "Definition",
+      "s12"
+    ],
+    [
+      "scaled dot-product attention",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "self-attention",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "self-attention",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "seq2seq model",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "sequence items",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "shape parameter \\alpha",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "shape parameter \u03b1",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "sigmoid",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "single attention mechanism",
+      "Related Work",
+      "s109"
+    ],
+    [
+      "softmax",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "softmax",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "softmax",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "softmax",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "softmax",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "softmax",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "softmax",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "softmax",
+      "Property",
+      "s17"
+    ],
+    [
+      "softmax",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "softmax",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "softmax attention vulnerability",
+      "Property",
+      "s121"
+    ],
+    [
+      "softmax model",
+      "Result",
+      "s100"
+    ],
+    [
+      "softmax model",
+      "Result",
+      "s84"
+    ],
+    [
+      "softmax normalizing transform",
+      "Definition",
+      "s4"
+    ],
+    [
+      "sorted density",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "sparse Transformer",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "sparse Transformer variants",
+      "Result",
+      "s79"
+    ],
+    [
+      "sparse Transformers",
+      "Definition",
+      "s6"
+    ],
+    [
+      "sparse Transformers",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "sparse attention",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "sparse attention",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "sparse attention",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "sparse attention",
+      "Cause",
+      "s10"
+    ],
+    [
+      "sparse attention",
+      "Definition",
+      "s11"
+    ],
+    [
+      "sparse attention",
+      "Result",
+      "s117"
+    ],
+    [
+      "sparse attention",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "sparse attention mappings",
+      "Definition",
+      "s124"
+    ],
+    [
+      "sparse attention mappings",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "sparse attention mechanisms",
+      "Related Work",
+      "s107"
+    ],
+    [
+      "sparse attention mitigation",
+      "Cause",
+      "s122"
+    ],
+    [
+      "sparse attention weights",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "sparse entmax",
+      "Result",
+      "s42"
+    ],
+    [
+      "sparse set of words",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "sparsemax",
+      "Adaptive Entmax Transformers",
+      "e10"
+    ],
+    [
+      "sparsemax",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "sparsemax",
+      "Definition",
+      "s133"
+    ],
+    [
+      "sparsemax",
+      "Definition",
+      "s137"
+    ],
+    [
+      "sparsemax",
+      "Definition",
+      "s5"
+    ],
+    [
+      "sparsemax",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "sparsemax",
+      "Sparse Attention Transformers",
+      "e2"
+    ],
+    [
+      "sparsemax",
+      "Sparse Attention in Transformers",
+      "e5"
+    ],
+    [
+      "sparsemax",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "sparsity",
+      "Attention Head Specializations",
+      "e14"
+    ],
+    [
+      "sparsity",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "sparsity",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "sparsity benefit",
+      "Property",
+      "s58"
+    ],
+    [
+      "sparsity in head",
+      "Result",
+      "s106"
+    ],
+    [
+      "sparsity pattern",
+      "Result",
+      "s114"
+    ],
+    [
+      "static sparsity patterns",
+      "Adaptive Sparse Attention",
+      "e15"
+    ],
+    [
+      "stochastic gradients",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "strictly convex regularization function",
+      "Property",
+      "s135"
+    ],
+    [
+      "strictly convex regularization function",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "subword joining head",
+      "Result",
+      "s131"
+    ],
+    [
+      "sum p_i = 1",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "support of p\u22c6",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "tau",
+      "Alpha-Entmax Properties",
+      "e8"
+    ],
+    [
+      "threshold \\tau",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "threshold tau",
+      "Alpha-entmax Jacobian",
+      "e9"
+    ],
+    [
+      "threshold \u03c4",
+      "Property",
+      "s27"
+    ],
+    [
+      "tilde p(\u03b1)",
+      "Definition",
+      "s149"
+    ],
+    [
+      "tilde p(\u03b1)",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "time step",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "training batch size",
+      "Property",
+      "s52"
+    ],
+    [
+      "training convergence",
+      "Result",
+      "s54"
+    ],
+    [
+      "translation accuracy",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "unique solution",
+      "Result",
+      "s136"
+    ],
+    [
+      "validation accuracy",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "validation set",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "vector of all ones",
+      "Definition",
+      "s29"
+    ],
+    [
+      "weighted average",
+      "Attention Mechanisms",
+      "e6"
+    ],
+    [
+      "z_i",
+      "entmax Jacobian",
+      "e17"
+    ],
+    [
+      "\u03b1",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "\u03b1 = 1",
+      "Result",
+      "s23"
+    ],
+    [
+      "\u03b1 = 1.18",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "\u03b1 = 1.5",
+      "Suggestion",
+      "s36"
+    ],
+    [
+      "\u03b1 = 1.91",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "\u03b1 = 1.96",
+      "Head Specializations",
+      "e13"
+    ],
+    [
+      "\u03b1 = 2",
+      "Result",
+      "s145"
+    ],
+    [
+      "\u03b1 = 2",
+      "Result",
+      "s25"
+    ],
+    [
+      "\u03b1 > 1",
+      "Property",
+      "s24"
+    ],
+    [
+      "\u03b1 increases",
+      "Trend",
+      "s26"
+    ],
+    [
+      "\u03b1 parameter initialization",
+      "Property",
+      "s62"
+    ],
+    [
+      "\u03b1 parameter learning trajectory",
+      "Analysis",
+      "s59"
+    ],
+    [
+      "\u03b1 parameter sparsity shift",
+      "Analysis",
+      "s60"
+    ],
+    [
+      "\u03b1 parameters",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "\u03b1 value",
+      "Property",
+      "s94"
+    ],
+    [
+      "\u03b1 values",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "\u03b1 values at convergence",
+      "Definition",
+      "s66"
+    ],
+    [
+      "\u03b1 \u2192 1\u207a",
+      "Result",
+      "s152"
+    ],
+    [
+      "\u03b1 \u2192 2",
+      "Attention Sparsity Patterns",
+      "e12"
+    ],
+    [
+      "\u03b1-entmax",
+      "Definition",
+      "s128"
+    ],
+    [
+      "\u03b1-entmax",
+      "Definition",
+      "s138"
+    ],
+    [
+      "\u03b1-entmax",
+      "Definition",
+      "s18"
+    ],
+    [
+      "\u03b1-entmax",
+      "Definition",
+      "s22"
+    ],
+    [
+      "\u03b1-entmax",
+      "Definition",
+      "s40"
+    ],
+    [
+      "\u03b1-entmax",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ],
+    [
+      "\u03b1-entmax",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "\u03b1-entmax",
+      "Property",
+      "s148"
+    ],
+    [
+      "\u03b1-entmax",
+      "Result",
+      "s102"
+    ],
+    [
+      "\u03b1-entmax",
+      "Sparse Attention Analysis",
+      "e16"
+    ],
+    [
+      "\u03b1-entmax code",
+      "Credit",
+      "s129"
+    ],
+    [
+      "\u03b1=1.3",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "\u03b1_{i,j}^t",
+      "Property",
+      "s44"
+    ],
+    [
+      "\u03b1\u22482",
+      "Model Training and Analysis",
+      "e11"
+    ],
+    [
+      "\u03c4\u22c6",
+      "Jacobian of \u03b1-entmax",
+      "e18"
+    ]
+  ]
+}

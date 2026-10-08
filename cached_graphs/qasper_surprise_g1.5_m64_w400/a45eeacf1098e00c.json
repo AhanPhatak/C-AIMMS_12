@@ -1,0 +1,5038 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 15,
+    "n_semantic": 142,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Introduction": {
+      "tag_set": [
+        "Introduction"
+      ]
+    },
+    "biomedicine": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine",
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "natural language": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "training corpora": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "annotated examples": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "Amazon Mechanical Turk": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "MTurk": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "crowdsourcing": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine",
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "lay annotators": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "expert annotators": {
+      "tag_set": [
+        "Annotation Difficulty",
+        "Annotation Difficulty in Biomedicine",
+        "Property",
+        "Proposal",
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "EBM-NLP corpus": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine",
+        "Definition",
+        "Instance Difficulty in RCT Annotation",
+        "Training Data Adjustment"
+      ]
+    },
+    "medical literature": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "annotation difficulty": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine",
+        "Definition",
+        "Expert Annotation Strategy",
+        "Property"
+      ]
+    },
+    "inter-annotator agreement": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine",
+        "Property",
+        "Result"
+      ]
+    },
+    "automated model": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine"
+      ]
+    },
+    "domain knowledge": {
+      "tag_set": [
+        "Annotation Difficulty in Biomedicine",
+        "Cause",
+        "Expert Annotation Strategy"
+      ]
+    },
+    "predictions": {
+      "tag_set": [
+        "Prediction Training"
+      ]
+    },
+    "training": {
+      "tag_set": [
+        "Prediction Training"
+      ]
+    },
+    "information extraction models": {
+      "tag_set": [
+        "Prediction Training",
+        "Result"
+      ]
+    },
+    "expert annotations": {
+      "tag_set": [
+        "Annotation Routing",
+        "Definition",
+        "Expert Annotation Strategy",
+        "Expert vs Lay Annotations",
+        "Instance Difficulty in RCT Annotation",
+        "Result"
+      ]
+    },
+    "lay annotations": {
+      "tag_set": [
+        "Expert vs Lay Annotations",
+        "Result"
+      ]
+    },
+    "precision": {
+      "tag_set": [
+        "Annotation Routing",
+        "Expert Annotation Strategy",
+        "Expert vs Lay Annotations",
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "recall": {
+      "tag_set": [
+        "Annotation Routing",
+        "Expert Annotation Strategy",
+        "Expert vs Lay Annotations",
+        "Re-weighting by Difficulty",
+        "Result"
+      ]
+    },
+    "new data": {
+      "tag_set": [
+        "Expert vs Lay Annotations"
+      ]
+    },
+    "domain experts": {
+      "tag_set": [
+        "Expert vs Lay Annotations",
+        "Property",
+        "Re-weighting by Difficulty",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "lay workers": {
+      "tag_set": [
+        "Expert vs Lay Annotations"
+      ]
+    },
+    "task difficulty": {
+      "tag_set": [
+        "Expert vs Lay Annotations",
+        "Property"
+      ]
+    },
+    "inter-worker agreement": {
+      "tag_set": [
+        "Expert vs Lay Annotations"
+      ]
+    },
+    "biomedical information extraction": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Expert vs Lay Annotations"
+      ]
+    },
+    "universal sentence encoder": {
+      "tag_set": [
+        "Expert vs Lay Annotations",
+        "Property"
+      ]
+    },
+    "pre-trained sentence encoder": {
+      "tag_set": [
+        "Expert vs Lay Annotations"
+      ]
+    },
+    "task routing": {
+      "tag_set": [
+        "Cause",
+        "Definition",
+        "Expert vs Lay Annotations",
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "model performance": {
+      "tag_set": [
+        "Annotation Routing",
+        "Expert vs Lay Annotations"
+      ]
+    },
+    "crowdsourcing annotation": {
+      "tag_set": [
+        "Crowdsourcing Annotation",
+        "Definition"
+      ]
+    },
+    "annotation noise": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "aggregation models": {
+      "tag_set": [
+        "Crowdsourcing Annotation",
+        "Definition"
+      ]
+    },
+    "expert annotated data": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "crowd annotated data": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "Dumitrache": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "2018": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "CGT": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "3152889": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF10": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "BIBREF13": {
+      "tag_set": [
+        "Crowdsourcing Annotation"
+      ]
+    },
+    "annotators": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "medical students": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "advanced medical degrees": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "randomized controlled trials (RCTs)": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "5k instances": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "300 examples": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "heterogeneous labelers": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "Participants (p)": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "Interventions (i)": {
+      "tag_set": [
+        "Annotation Difficulty",
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "Outcome (o)": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "spacy": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "sentence level": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "complicated structure": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "jargon": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "4,741 abstracts": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "191 abstracts": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "consensus reference label": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation"
+      ]
+    },
+    "easy examples": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation",
+        "Property"
+      ]
+    },
+    "difficult examples": {
+      "tag_set": [
+        "Instance Difficulty in RCT Annotation",
+        "Property",
+        "Routing Strategy Performance"
+      ]
+    },
+    "57,505": {
+      "tag_set": [
+        "Result",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "2,428": {
+      "tag_set": [
+        "Result",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "crowd workers": {
+      "tag_set": [
+        "Annotation Difficulty",
+        "Expert Annotation Strategy",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "ground truth": {
+      "tag_set": [
+        "Definition",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "Eq. 3": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "Spearman's correlation": {
+      "tag_set": [
+        "Annotation Difficulty",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "LSTM-CRF-Pattern": {
+      "tag_set": [
+        "Definition",
+        "Re-weighting by Difficulty",
+        "Task Difficulty Quantification",
+        "Training Data Adjustment"
+      ]
+    },
+    "Patel et al. 2018": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "10-fold validation": {
+      "tag_set": [
+        "Method",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "training set": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "Population": {
+      "tag_set": [
+        "Ensemble Model Setup",
+        "Property",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "Intervention": {
+      "tag_set": [
+        "Ensemble Model Setup",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "Outcome": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "Pearson's correlation": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "0.57": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "0.71": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "0.68": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "51%": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "42%": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "36%": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "manual annotations": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "predicted annotations": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "maximally easy": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "maximally difficult": {
+      "tag_set": [
+        "Task Difficulty Quantification"
+      ]
+    },
+    "medical jargon": {
+      "tag_set": [
+        "Cause",
+        "Task Difficulty Quantification"
+      ]
+    },
+    "Figure 1": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "Population (p)": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "Outcomes (o)": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "LSTM-CRF-Pattern model": {
+      "tag_set": [
+        "Annotation Difficulty",
+        "Expert Annotation Strategy",
+        "Model",
+        "Property"
+      ]
+    },
+    "PICO spans": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "Pearson's r": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "RNN": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "universal sentence encoder (USE)": {
+      "tag_set": [
+        "Annotation Difficulty",
+        "Definition"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "Annotation Difficulty",
+        "Aspect"
+      ]
+    },
+    "test data": {
+      "tag_set": [
+        "Annotation Difficulty"
+      ]
+    },
+    "ensemble model": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Model Setup",
+        "Expert Annotation Strategy"
+      ]
+    },
+    "universal representations": {
+      "tag_set": [
+        "Ensemble Model Setup",
+        "Property"
+      ]
+    },
+    "task-specific representations": {
+      "tag_set": [
+        "Ensemble Model Setup",
+        "Property"
+      ]
+    },
+    "regression layer": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "GloVe embeddings": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "300d": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "common crawl data": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "Adam optimizer": {
+      "tag_set": [
+        "Ensemble Model Setup",
+        "Training Data Adjustment"
+      ]
+    },
+    "learning rate 0.001": {
+      "tag_set": [
+        "Ensemble Model Setup",
+        "Training Data Adjustment"
+      ]
+    },
+    "decay 0.99": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "batch size 16": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "transformer": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "Vizier": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "10-fold cross validation": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "F1": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "Support-Vector Regression": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "n-gram features": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "Pearson correlation": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "RNN model": {
+      "tag_set": [
+        "Definition",
+        "Ensemble Model Setup",
+        "Result"
+      ]
+    },
+    "CNN variants": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "USE representations": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "Outcomes": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "difficulty distributions": {
+      "tag_set": [
+        "Ensemble Model Setup"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Reference",
+        "Training Data Adjustment"
+      ]
+    },
+    "decay 0.9": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "batch size 20": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "dropout 0.5": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "GloVe vectors": {
+      "tag_set": [
+        "Definition",
+        "Training Data Adjustment"
+      ]
+    },
+    "200d GloVe": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "100d hidden char representations": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "300 dimensions": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "hidden size 100": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "hidden size 200": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "15 epochs": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "nested development set": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "F1 score": {
+      "tag_set": [
+        "Annotation Routing",
+        "Expert Annotation Strategy",
+        "Property",
+        "Training Data Adjustment"
+      ]
+    },
+    "cross-fold approach": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "9/10ths of data": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "1/10th data": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "sentence difficulty scores": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "removing difficult sentences": {
+      "tag_set": [
+        "Result",
+        "Training Data Adjustment"
+      ]
+    },
+    "random removal (i.i.d.)": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "inverse inter-annotator agreement": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "annotation agreement": {
+      "tag_set": [
+        "Definition",
+        "Training Data Adjustment"
+      ]
+    },
+    "Figure 3": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "4% data removed": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "6% data removed": {
+      "tag_set": [
+        "Training Data Adjustment"
+      ]
+    },
+    "F1 scores": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Re-weighting by Difficulty",
+        "Result"
+      ]
+    },
+    "difficult sentences": {
+      "tag_set": [
+        "Definition",
+        "Property",
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "medical IE model": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "re-weighting": {
+      "tag_set": [
+        "Re-weighting by Difficulty",
+        "Result"
+      ]
+    },
+    "sentence i": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "difficulty score": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "tau": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "a parameter": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "top 20th percentile": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "0.8": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "0.5": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "down-sampling": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "crowd annotators": {
+      "tag_set": [
+        "Re-weighting by Difficulty",
+        "Routing Strategy Performance"
+      ]
+    },
+    "i.i.d. random sample": {
+      "tag_set": [
+        "Re-weighting by Difficulty"
+      ]
+    },
+    "re-annotate": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "experts": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Routing Strategy Performance"
+      ]
+    },
+    "difficult instances": {
+      "tag_set": [
+        "Definition",
+        "Expert Annotation Strategy"
+      ]
+    },
+    "random instances": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "top 5 percentile": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Property"
+      ]
+    },
+    "2000 abstracts": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "1000 top-ranked": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "1000 random": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "$3,000": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "Up-work": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "medical experts": {
+      "tag_set": [
+        "Entity",
+        "Expert Annotation Strategy"
+      ]
+    },
+    "BRAT toolkit": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Tool"
+      ]
+    },
+    "interventions": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "Table 5": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "crowd annotation": {
+      "tag_set": [
+        "Definition",
+        "Expert Annotation Strategy"
+      ]
+    },
+    "i.i.d. random": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "annotation quality": {
+      "tag_set": [
+        "Annotation Routing",
+        "Cause",
+        "Expert Annotation Strategy"
+      ]
+    },
+    "5k abstracts": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "crowd model": {
+      "tag_set": [
+        "Annotation Routing",
+        "Property"
+      ]
+    },
+    "difficult subset": {
+      "tag_set": [
+        "Annotation Routing"
+      ]
+    },
+    "random subset": {
+      "tag_set": [
+        "Annotation Routing"
+      ]
+    },
+    "abstracts": {
+      "tag_set": [
+        "Annotation Routing"
+      ]
+    },
+    "Table 6": {
+      "tag_set": [
+        "Annotation Routing"
+      ]
+    },
+    "D+R model": {
+      "tag_set": [
+        "Annotation Routing",
+        "Result"
+      ]
+    },
+    "D+Other": {
+      "tag_set": [
+        "Annotation Routing"
+      ]
+    },
+    "R+Other": {
+      "tag_set": [
+        "Annotation Routing"
+      ]
+    },
+    "D+R+Other": {
+      "tag_set": [
+        "Annotation Routing"
+      ]
+    },
+    "mixed annotations": {
+      "tag_set": [
+        "Annotation Routing",
+        "Benefit"
+      ]
+    },
+    "limited budget": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "medical IE": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "one thousand most difficult instances": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Result"
+      ]
+    },
+    "600 most-difficult articles": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "1000 random articles": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "68.1%": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "neural models": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "Pearson\u2019s correlation coefficients": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "universal and task specific feature sentence vectors": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "10% of sentences": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "re-weighting sentences": {
+      "tag_set": [
+        "Expert Annotation Strategy",
+        "Result"
+      ]
+    },
+    "routing system": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "consecutive batches": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "performance gain": {
+      "tag_set": [
+        "Expert Annotation Strategy"
+      ]
+    },
+    "random selection": {
+      "tag_set": [
+        "Routing Strategy Performance"
+      ]
+    },
+    "expert annotation": {
+      "tag_set": [
+        "Routing Strategy Performance"
+      ]
+    },
+    "crowd annotations": {
+      "tag_set": [
+        "Result",
+        "Routing Strategy Performance"
+      ]
+    },
+    "instance difficulty": {
+      "tag_set": [
+        "Routing Strategy Performance"
+      ]
+    },
+    "budget-quality trade-off": {
+      "tag_set": [
+        "Future Work",
+        "Routing Strategy Performance"
+      ]
+    },
+    "NSF1748771": {
+      "tag_set": [
+        "Routing Strategy Performance"
+      ]
+    },
+    "NIH/NLM R01LM012086": {
+      "tag_set": [
+        "Funding",
+        "Routing Strategy Performance"
+      ]
+    },
+    "Wallace": {
+      "tag_set": [
+        "Routing Strategy Performance"
+      ]
+    },
+    "expert and lay annotations": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "cost and availability of domain experts": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "item difficulty prediction": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "biomedicine crowdsourcing": {
+      "tag_set": [
+        "Survey"
+      ]
+    },
+    "expert vs. crowd annotated training data": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "Dumitrache et al. (2018)": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "RCT abstracts": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Participants (p), Interventions (i), Outcome (o)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sentence-level analysis": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "reference label": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sentences with fewer than two tokens": {
+      "tag_set": [
+        "Filter"
+      ]
+    },
+    "crowd workers and domain experts": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "Difficulty_{ti}": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "scoring function f": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Spearman's correlation coefficient": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sentences with no labels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "sentences with only crowd or expert labels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LSTM-CRF-Pattern sequence tagger": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "predicted spans": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "difficulty scores normalized to [0,1]": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Pearson's correlation coefficients": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "51%, 42%, 36%": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "distribution of automatically labeled scores": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Population (p) sentence scores": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Interventions and Outcomes": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "P, i, o content types": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "difficulty prediction": {
+      "tag_set": [
+        "Method",
+        "Purpose",
+        "Task"
+      ]
+    },
+    "CNN model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "model architecture": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Definition",
+        "Property"
+      ]
+    },
+    "optimizer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "batch size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "pretrained sentence encoder": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "hyperparameters": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "baseline model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Pearson correlation coefficients": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "RNN and USE combination": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Intervention and Outcomes": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "character representations": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "LSTM hidden size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training configuration": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training epochs": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "random removal": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "disagreement-based removal": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "re-weighting by difficulty": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "sentence weighting formula": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "\u03c4": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "a": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "F1 differences": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "recall improvement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "random sample of data": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "re-annotation": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "abstracts ranked by difficult sentence count": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "2000 abstracts re-annotated": {
+      "tag_set": [
+        "Quantity"
+      ]
+    },
+    "re-annotation cost": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "30 re-annotated abstracts": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "random data": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "i.i.d. random sampling": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "expert vs. crowd annotations": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "all 5k abstracts with crowd annotations": {
+      "tag_set": [
+        "Model"
+      ]
+    },
+    "routing to experts or crowd": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "D+Other model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "D+R+Other model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "difficulty-based routing": {
+      "tag_set": [
+        "Benefit"
+      ]
+    },
+    "annotation quality for difficult instances": {
+      "tag_set": [
+        "Hypothesis"
+      ]
+    },
+    "F1 score improvement": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "false positives": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "routing scenario": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Pearson\u2019s correlation coefficient": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "routing strategy": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "NSF1748771 grant": {
+      "tag_set": [
+        "Funding"
+      ]
+    },
+    "up to 10% of sentences": {
+      "tag_set": [
+        "Result"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Introduction"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "Assembling training corpora of annotated natural language examples in specialized domains such as biomedicine poses considerable challenges. Experts with the requisite domain knowledge to perform high-quality annotation tend to be expensive, while lay annotators may not have the necessary knowledge to provide high-quality annotations. A practical approach for collecting a sufficiently large corpus would be to use crowdsourcing platforms like Amazon Mechanical Turk (MTurk). However, crowd workers in general are likely to provide noisy annotations BIBREF0 , BIBREF1 , BIBREF2 , an issue exacerbated by the technical nature of specialized content. Some of this noise may reflect worker quality and can be modeled BIBREF0 , BIBREF1 , BIBREF3 , BIBREF4 , but for some instances lay people may simply lack the domain knowledge to provide useful annotation.\nIn this paper we report experiments on the EBM-NLP corpus comprising crowdsourced annotations of medical literature BIBREF5 . We operationalize the concept of annotation difficulty and show how it can be exploited during training to improve information extraction models. We then obtain expert annotations for the abstracts predicted to be most difficult, as well as for a similar number of randomly selected abstracts. The annotation of highly specialized data and the use of lay and expert annotators allow us to examine the following key questions related to lay and expert annotations in specialized domains:\nCan we predict item difficulty? We define a training instance as difficult if a lay annotator or an automated model disagree on its labeling. We show that difficulty can be predicted, and that it is distinct from inter-annotator",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Annotation Difficulty in Biomedicine"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "agreement. Further, such predictions can be used during training to improve information extraction models",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Prediction Training"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": ".\nAre there systematic differences between expert and lay annotations? We observe decidedly lower agreement between lay workers as compared to domain experts. Lay annotations have high precision but low recall with respect to expert annotations in the new data that we collected. More generally, we expect lay annotations to be lower quality, which may translate to lower precision, recall, or both, compared to expert annotations. Can one rely solely on lay annotations? Reasonable models can be trained using lay annotations alone, but similar performance can be achieved using markedly less expert data. This suggests that the optimal ratio of expert to crowd annotations for specialized tasks will depend on the cost and availability of domain experts. Expert annotations are preferable whenever its collection is practical. But in real-world settings, a combination of expert and lay annotations is better than using lay data alone.\nDoes it matter what data is annotated by experts? We demonstrate that a system trained on combined data achieves better predictive performance when experts annotate difficult examples rather than instances selected at i.i.d. random.\nOur contributions in this work are summarized as follows. We define a task difficulty prediction task and show how this is related to, but distinct from, inter-worker agreement. We introduce a new model for difficulty prediction combining learned representations induced via a pre-trained `universal' sentence encoder BIBREF6 , and a sentence encoder learned from scratch for this task. We show that predicting annotation difficulty can be used to improve the task routing and model performance for a biomedical information extraction task. Our results open up a new",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Expert vs Lay Annotations"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "direction for ensuring corpus quality. We believe that item difficulty prediction will likely be useful in other, non-specialized tasks as well, and that the most effective data collection in specialized domains requires research addressing the fundamental questions we examine here.\nRelated Work\nCrowdsourcing annotation is now a well-studied problem BIBREF7 , BIBREF0 , BIBREF1 , BIBREF2 . Due to the noise inherent in such annotations, there have also been considerable efforts to develop aggregation models that minimize noise BIBREF0 , BIBREF1 , BIBREF3 , BIBREF4 .\nThere are also several surveys of crowdsourcing in biomedicine specifically BIBREF8 , BIBREF9 , BIBREF10 . Some work in this space has contrasted model performance achieved using expert vs. crowd annotated training data BIBREF11 , BIBREF12 , BIBREF13 . Dumitrache et al. Dumitrache:2018:CGT:3232718.3152889 concluded that performance is similar under these supervision types, finding no clear advantage from using expert",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Crowdsourcing Annotation"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "annotators. This differs from our findings, perhaps owing to differences in design. The experts we used already hold advanced medical degrees, for instance, while those in prior work were medical students. Furthermore, the task considered here would appear to be of greater difficulty: even a system trained on $\\sim $ 5k instances performs reasonably, but far from perfect. By contrast, in some of the prior work where experts and crowd annotations were deemed equivalent, a classifier trained on 300 examples can achieve very high accuracy BIBREF12 . More relevant to this paper, prior work has investigated methods for `task routing' in active learning scenarios in which supervision is provided by heterogeneous labelers with varying levels of expertise BIBREF14 , BIBREF15 , BIBREF16 , BIBREF17 , BIBREF14 . The related question of whether effort is better spent collecting additional annotations for already labeled (but potentially noisily so) examples or novel instances has also been addressed BIBREF18 . What distinguishes the work here is our focus on providing an operational definition of instance difficulty, showing that this can be predicted, and then using this to inform task routing. Application Domain Our specific application concerns annotating abstracts of articles that describe the conduct and results of randomized controlled trials (RCTs). Experimentation in this domain has become easy with the recent release of the EBM-NLP BIBREF5 corpus, which includes a reasonably large training dataset annotated via crowdsourcing, and a modest test set labeled by individuals with advanced medical training. More specifically, the training set comprises 4,741 medical article abstracts with crowdsourced annotations indicating snippets (sequences) that describe the Participants (p), Interventions (i), and Outcome (o) elements of the respective RCT, and the test set is composed of 191 abstracts with p, i, o sequence annotations from three medical experts. Table 1 shows an example of difficult and easy examples according to our definition of difficulty. The underlined text demarcates the (consensus) reference label provided by domain experts. In the difficult examples, crowd workers marked text distinct from these reference annotations; whereas in the easy cases they reproduced them with reasonable fidelity. The difficult sentences usually exhibit complicated structure and feature jargon. An abstract may contain some `easy' and some `difficult' sentences. We thus perform our analysis at the sentence level. We split abstracts into sentences using spaCy. We excluded sentences that comprise fewer than two tokens, as these are likely an artifact of errors",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Instance Difficulty in RCT Annotation"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "in sentence splitting. In total, this resulted in 57,505 and 2,428 sentences in the train and test set abstracts, respectively. Quantifying Task Difficulty The test set includes annotations from both crowd workers and domain experts. We treat the latter as ground truth and then define the difficulty of sentences in terms of the observed agreement between expert and lay annotators. Formally, for annotation task $t$ and instance $i$ : $$\\text{Difficulty}_{ti} = \\frac{\\sum _{j=1}^n{f(\\text{label}_{ij}, y_i})}{n}$$ (Eq. 3) where $f$ is a scoring function that measures the quality of the label from worker $j$ for sentence $i$ , as compared to a ground truth annotation, $y_i$ . The difficulty score of sentence $i$ is taken as an average over the scores for all $n$ layworkers. We use Spearmans' correlation coefficient as a scoring function. Specifically, for each sentence we create two vectors comprising counts of how many times each token was annotated by crowd and expert workers, respectively, and calculate the correlation between these. Sentences with no labels are treated as maximally easy; those with only either crowd worker or expert label(s) are assumed maximally difficult. The training set contains only crowdsourced annotations. To label the training data, we use a 10-fold validation like setting. We iteratively retrain the LSTM-CRF-Pattern sequence tagger of Patel et al. patel2018syntactic on 9 folds of the training data and use that trained model to predict labels for the 10th. In this way we obtain predictions on the full training set. We then use predicted spans as proxy `ground truth' annotations to calculate the difficulty score of sentences as described above; we normalize these to the [ $0, 1$ ] interval. We validate this approximation by comparing the proxy scores against reference scores over the test set, the Pearson's correlation coefficients are 0.57 for Population, 0.71 for Intervention and 0.68 for Outcome. There exist many sentences that contain neither manual nor predicted annotations. We treat these as maximally easy sentences (with difficulty scores of 0). Such sentences comprise 51%, 42% and 36% for Population, Interventions and Outcomes data respectively, indicating that it is easier to identify sentences that have no Population spans, but harder to identify sentences that have no Interventions or Outcomes spans. This is intuitive as descriptions of the latter two tend to be more technical and dense with medical jargon. We show the distribution of the automatically labeled scores for sentences that do contain",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Task Difficulty Quantification"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "spans in Figure 1 . The mean of the Population (p) sentence scores is significantly lower than that for other types of sentences (i and o), again indicating that they are easier on average to annotate. This aligns with a previous finding that annotating Interventions and Outcomes is more difficult than annotating Participants BIBREF5 . Many sentences contain spans tagged by the LSTM-CRF-Pattern model, but missed by all crowd workers, resulting in a maximally difficult score (1). Inspection of such sentences revealed that some are truly difficult examples, but others are tagging model errors. In either case, such sentences have confused workers and/or the model, and so we retain them all as `difficult' sentences. Content describing the p, i and o, respectively, is quite different. As such, one sentence usually contains (at most) only one of these three content types. We thus treat difficulty prediction for the respective label types as separate tasks. Difficulty is not Worker Agreement Our definition of difficulty is derived from agreement between expert and crowd annotations for the test data, and agreement between a predictive model and crowd annotations in the training data. It is reasonable to ask if these measures are related to inter-annotator agreement, a metric often used in language technology research to identify ambiguous or difficult items. Here we explicitly verify that our definition of difficulty only weakly correlates with inter-annotator agreement. We calculate inter-worker agreement between crowd and expert annotators using Spearman's correlation coefficient. As shown in Table 2 , average agreement between domain experts are considerably higher than agreements between crowd workers for all three label types. This is a clear indication that the crowd annotations are noisier. Furthermore, we compare the correlation between inter-annotator agreement and difficulty scores in the training data. Given that the majority of sentences do not contain a PICO span, we only include in these calculations those that contain a reference label. Pearson's r are 0.34, 0.30 and 0.31 for p, i and o, respectively, confirming that inter-worker agreement and our proposed difficulty score are quite distinct. Predicting Annotation Difficulty We treat difficulty prediction as a regression problem, and propose and evaluate neural model variants for the task. We first train RNN BIBREF19 and CNN BIBREF20 models. We also use the universal sentence encoder (USE) BIBREF6 to induce sentence representations, and train a model using these as features. Following BIBREF6 , we then experiment with",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Annotation Difficulty"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "an ensemble model that combines the `universal' and task-specific representations to predict annotation difficulty. We expect these universal embeddings to capture general, high-level semantics, and the task specific representations to capture more granular information. Figure 2 depicts the model architecture. Sentences are fed into both the universal sentence encoder and, separately, a task specific neural encoder, yielding two representations. We concatenate these and pass the combined vector to the regression layer. Experimental Setup and Results We trained models for each label type separately. Word embeddings were initialized to 300d GloVe vectors BIBREF21 trained on common crawl data; these are fine-tuned during training. We used the Adam optimizer BIBREF22 with learning rate and decay set to 0.001 and 0.99, respectively. We used batch sizes of 16. We used the large version of the universal sentence encoder with a transformer BIBREF23 . We did not update the pretrained sentence encoder parameters during training. All hyperparamaters for all models (including hidden layers, hidden sizes, and dropout) were tuned using Vizier BIBREF24 via 10-fold cross validation on the training set maximizing for F1. As a baseline, we also trained a linear Support-Vector Regression BIBREF25 model on $n$ -gram features ( $n$ ranges from 1 to 3). Table 3 reports Pearson correlation coefficients between the predictions with each of the neural models and the ground truth difficulty scores. Rows 1-4 correspond to individual models, and row 5 reports the ensemble performance. Columns correspond to label type. Results from all models outperform the baseline SVR model: Pearson's correlation coefficients range from 0.550 to 0.622. The regression correlations are the lowest. The RNN model realizes the strongest performance among the stand-alone (non-ensemble) models, outperforming variants that exploit CNN and USE representations. Combining the RNN and USE further improves results. We hypothesize that this is due to complementary sentence information encoded in universal representations. For all models, correlations for Intervention and Outcomes are higher than for Population, which is expected given the difficulty distributions in Figure 1 . In these, the sentences are more uniformly distributed, with a fair number of difficult and easier sentences. By contrast, in Population there are a greater number of easy sentences and considerably fewer difficult sentences, which makes the difficulty ranking task particularly challenging. Better IE with Difficulty Prediction We next present experiments in which we attempt to use the predicted difficulty during training to improve models for information extraction of descriptions",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Ensemble Model Setup"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "of Population, Interventions and Outcomes from medical article abstracts. We investigate two uses: (1) simply removing the most difficult sentences from the training set, and, (2) re-weighting the most difficult sentences. We again use LSTM-CRF-Pattern as the base model and experimenting on the EBM-NLP corpus BIBREF5 . This is trained on either (1) the training set with difficult sentences removed, or (2) the full training set but with instances re-weighted in proportion to their predicted difficulty score. Following BIBREF5 , we use the Adam optimizer with learning rate of 0.001, decay 0.9, batch size 20 and dropout 0.5. We use pretrained 200d GloVe vectors BIBREF21 to initialize word embeddings, and use 100d hidden char representations. Each word is thus represented with 300 dimensions in total. The hidden size is 100 for the LSTM in the character representation component, and 200 for the LSTM in the information extraction component. We train for 15 epochs, saving parameters that achieve the best F1 score on a nested development set. Removing Difficult Examples We first evaluate changes in performance induced by training the sequence labeling model using less data by removing difficult sentences prior to training. The hypothesis here is that these difficult instances are likely to introduce more noise than signal. We used a cross-fold approach to predict sentence difficulties, training on 9/10ths of the data and scoring the remaining 1/10th at a time. We then sorted sentences by predicted difficulty scores, and experimented with removing increasing numbers of these (in order of difficulty) prior to training the LSTM-CRF-Pattern model. Figure 3 shows the results achieved by the LSTM-CRF-Pattern model after discarding increasing amounts of the training data: the $x$ and $y$ axes correspond to the the percentage of data removed and F1 scores, respectively. We contrast removing sentences predicted to be difficult with removing them (a) randomly (i.i.d.), and, (b) in inverse order of predicted inter-annotator agreement. The agreement prediction model is trained exactly the same like difficult prediction model, with simply changing the difficult score to annotation agreement. F1 scores actually improve (marginally) when we remove the most difficult sentences, up until we drop 4% of the data for Population and Interventions, and 6% for Outcomes. Removing training points at i.i.d. random degrades performance, as expected. Removing sentences in order of disagreement seems to have similar effect as removing them by difficulty score when removing small amount of the data, but",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Training Data Adjustment"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "the F1 scores drop much faster when removing more data. These findings indicate that sentences predicted to be difficult are indeed noisy, to the extent that they do not seem to provide the model useful signal. Re-weighting by Difficulty We showed above that removing a small number of the most difficult sentences does not harm, and in fact modestly improves, medical IE model performance. However, using the available data we are unable to test if this will be useful in practice, as we would need additional data to determine how many difficult sentences should be dropped. We instead explore an alternative, practical means of exploiting difficulty predictions: we re-weight sentences during training inversely to their predicted difficulty. Formally, we weight sentence $i$ with difficulty scores above $\\tau $ according to: $1-a\\cdot (d_i-\\tau )/(1-\\tau )$ , where $d_i$ is the difficulty score for sentence $i$ , and $a$ is a parameter codifying the minimum weight value. We set $\\tau $ to 0.8 so as to only re-weight sentences with difficulty in the top 20th percentile, and we set $a$ to 0.5. The re-weighting is equivalent to down-sampling the difficult sentences. LSTM-CRF-Pattern is our base model. Table 4 reports the precision, recall and F1 achieved both with and without sentence re-weighting. Re-weighting improves all metrics modestly but consistently. All F1 differences are statistically significant under a sign test ( $p<0.01$ ). The model with best precision is different for Patient, Intervention and Outcome labels. However re-weighting by difficulty does consistently yield the best recall for all three extraction types, with the most notable improvement for i and o, where recall improved by 10 percentage points. This performance increase translated to improvements in F1 across all types, as compared to the base model and to re-weighting by agreement. Involving Expert Annotators The preceding experiments demonstrate that re-weighting difficult sentences annotated by the crowd generally improves the extraction models. Presumably the performance is influenced by the annotation quality. We now examine the possibility that the higher quality and more consistent annotations of domain experts on the difficult instances will benefit the extraction model. This simulates an annotation strategy in which we route difficult instances to domain experts and easier ones to crowd annotators. We also contrast the value of difficult data to that of an i.i.d. random sample of the same size, both annotated by experts. Expert annotations of Random and Difficult Instances We",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Re-weighting by Difficulty"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "re-annotate by experts a subset of most difficult instances and the same number of random instances. As collecting annotations from experts is slow and expensive, we only re-annotate the difficult instances for the interventions extraction task. We re-annotate the abstracts which cover the sentences with predicted difficulty scores in the top 5 percentile. We rank the abstracts from the training set by the count of difficult sentences, and re-annotate the abstracts that contain the most difficult sentences. Constrained by time and budget, we select only 2000 abstracts for re-annotation; 1000 of these are top-ranked, and 1000 are randomly sampled. This re-annotation cost $3,000. We have released the new annotation data at: https://github.com/bepnye/EBM-NLP. Following BIBREF5 , we recruited five medical experts via Up-work with advanced medical training and strong technical reading/writing skills. The expert annotator were asked to read the entire abstract and highlight, using the BRAT toolkit BIBREF26 , all spans describing medical Interventions. Each abstract is only annotated by one expert. We examined 30 re-annotated abstracts to ensure the annotation quality before hiring the annotator. Table 5 presents the results of LSTM-CRF-Pattern model trained on the reannotated difficult subset and the random subset. The first two rows show the results for models trained with expert annotations. The model trained on random data has a slightly better F1 than that trained on the same amount of difficult data. The model trained on random data has higher precision but lower recall. Rows 3 and 4 list the results for models trained on the same data but with crowd annotation. Models trained with expert-annotated data are clearly superior to those trained with crowd labels with respect to F1, indicating that the experts produced higher quality annotations. For crowdsourced annotations, training the model with data sampled at i.i.d. random achieves 2% higher F1 than when difficult instances are used. When expert annotations are used, this difference is less than 1%. This trend in performance may be explained by differences in annotation quality: the randomly sampled set was more consistently annotated by both experts and crowd because the difficult set is harder. However, in both cases expert annotations are better, with a bigger difference between the expert and crowd models on the difficult set. The last row is the model trained on all 5k abstracts with crowd annotations. Its F1 score is lower than either expert model trained on only 20% of data, suggesting",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Expert Annotation Strategy"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "that expert annotations should be collected whenever possible. Again the crowd model on complete data has higher precision than expert models but its recall is much lower. Routing To Experts or Crowd So far a system was trained on one type of data, either labeled by crowd or experts. We now examine the performance of a system trained on data that was routed to either experts or crowd annotators depending on their predicted difficult. Given the results presented so far mixing annotators may be beneficial given their respective trade-offs of precision and recall. We use the annotations from experts for an abstract if it exists otherwise use crowd annotations. The results are presented in Table 6 . Rows 1 and 2 repeat the performance of the models trained on difficult subset and random subset with expert annotations only respectively. The third row is the model trained by combining difficult and random subsets with expert annotations. There are around 250 abstracts in the overlap of these two sets, so there are total 1.75k abstracts used for training the D+R model. Rows 4 to 6 are the models trained on all 5k abstracts with mixed annotations, where Other means the rest of the abstracts with crowd annotation only. The results show adding more training data with crowd annotation still improves at least 1 point F1 score in all three extraction tasks. The improvement when the difficult subset with expert annotations is mixed with the remaining crowd annotation is 3.5 F1 score, much larger than when a random set of expert annotations are added. The model trained with re-annotating the difficult subset (D+Other) also outperforms the model with re-annotating the random subset (R+Other) by 2 points in F1. The model trained with re-annotating both of difficult and random subsets (D+R+Other), however, achieves only marginally higher F1 than the model trained with the re-annotated difficult subset (D+Other). In sum, the results clearly indicate that mixing expert and crowd annotations leads to better models than using solely crowd data, and better than using expert data alone. More importantly, there is greater gain in performance when instances are routed according to difficulty, as compared to randomly selecting the data for expert annotators. These findings align with our motivating hypothesis that annotation quality for difficult instances is important for final model performance. They also indicate that mixing annotations from expert and crowd could be an effective way",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Annotation Routing"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "to achieve acceptable model performance given a limited budget. How Many Expert Annotations? We established that crowd annotation are still useful in supplementing expert annotations for medical IE. Obtaining expert annotations for the one thousand most difficult instances greatly improved the model performance. However the choice of how many difficult instances to annotate was an uninformed choice. Here we check if less expert data would have yielded similar gains. Future work will need to address how best to choose this parameter for a routing system. We simulate a routing scenario in which we send consecutive batches of the most difficult examples to the experts for annotation. We track changes in performance as we increase the number of most-difficult-articles sent to domain experts. As shown in Figure 4 , adding expert annotations for difficult articles consistently increases F1 scores. The performance gain is mostly from increased recall; the precision changes only a bit with higher quality annotation. This observation implies that crowd workers often fail to mark target tokens, but do not tend to produce large numbers of false positives. We suspect such failures to identify relevant spans/tokens are due to insufficient domain knowledge possessed by crowd workers. The F1 score achieved after re-annotating the 600 most-difficult articles reaches 68.1%, which is close to the performance when re-annotating 1000 random articles. This demonstrates the effectiveness of recognizing difficult instances. The trend when we use up all expert data is still upward, so adding even more expert data is likely to further improve performance. Unfortunately we exhausted our budget and were not able to obtain additional expert annotations. It is likely that as the size of the expert annotations increases, the value of crowd annotations will diminish. This investigation is left for future work. Conclusions We have introduced the task of predicting annotation difficulty for biomedical information extraction (IE). We trained neural models using different learned representations to score texts in terms of their difficulty. Results from all models were strong with Pearson\u2019s correlation coefficients higher than 0.45 in almost all evaluations, indicating the feasibility of this task. An ensemble model combining universal and task specific feature sentence vectors yielded the best results. Experiments on biomedical IE tasks show that removing up to $\\sim $ 10% of the sentences predicted to be most difficult did not decrease model performance, and that re-weighting sentences inversely to their difficulty score during training improves predictive",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Expert Annotation Strategy"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "performance. Simulations in which difficult examples are routed to experts and other instances to crowd annotators yields the best results, outperforming the strategy of randomly selecting data for expert annotation, and substantially improving upon the approach of relying exclusively on crowd annotations. In future work, routing strategies based on instance difficulty could be further investigated for budget-quality trade-off. Acknowledgements This work has been partially supported by NSF1748771 grant. Wallace was support in part by NIH/NLM R01LM012086.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Routing Strategy Performance"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Annotation difficulty is defined as a training instance being difficult if a lay annotator or an automated model disagrees on its labeling.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Annotation difficulty can be predicted using learned representations from a pre-trained universal sentence encoder and a task-specific sentence encoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Inter-annotator agreement is distinct from annotation difficulty, as difficulty arises from disagreement between lay annotators or automated models, not just among human annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Lay annotations exhibit high precision but low recall compared to expert annotations in new data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Expert annotations show decidedly higher agreement than lay annotations and are generally of higher quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Predicting annotation difficulty improves task routing by directing expert annotations to the most difficult instances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Models trained using difficulty-predicted data achieve better performance when experts annotate difficult examples rather than randomly selected instances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "A combination of expert and lay annotations yields better performance than relying solely on lay annotations in specialized domains.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The optimal ratio of expert to crowd annotations depends on the cost and availability of domain experts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The EBM-NLP corpus is a collection of crowdsourced annotations of medical literature.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Item difficulty prediction refers to the ability to assess the level of challenge associated with a given annotation task or instance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Crowdsourcing annotation is a method of gathering labeled data from a large group of non-expert contributors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Aggregation models are techniques designed to combine noisy annotations from multiple sources to produce a more accurate and reliable final label.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "There are several surveys that specifically examine crowdsourcing practices in the field of biomedicine.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Survey"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Some studies have compared the performance of machine learning models trained on data annotated by experts versus data annotated by crowds.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Dumitrache et al. found no significant performance difference between models trained on expert-annotated and crowd-annotated data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The experts used in this study hold advanced medical degrees, unlike some prior studies that used medical students as annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The task in this study is considered more difficult than those in prior work, as even a system trained on 5,000 instances performs only reasonably well.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Task routing refers to the strategy of assigning labeling tasks to different annotators based on their expertise or the difficulty of the task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The EBM-NLP corpus is a dataset of medical article abstracts that includes both crowdsourced and expert-annotated data on randomized controlled trials.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Randomized controlled trial (RCT) abstracts are summaries of studies that describe the participants, interventions, and outcomes of clinical trials.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "In RCT abstracts, the elements Participants (p), Interventions (i), and Outcome (o) refer to the groups involved, treatments applied, and results observed in the trial.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The study performs analysis at the sentence level by splitting abstracts into sentences using spaCy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Difficult examples in the study are characterized by complex sentence structure and the use of specialized medical jargon.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Easy examples are those where crowd workers accurately reproduce the reference annotations provided by medical experts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The reference label is the consensus annotation provided by domain experts, used as a ground truth for evaluating crowd annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Sentences with fewer than two tokens are excluded from analysis due to their likelihood of being errors or artifacts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Filter"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "The train set abstracts contain 57,505 sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The test set abstracts contain 2,428 sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The test set includes annotations from both crowd workers and domain experts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Annotations from domain experts are treated as ground truth in the difficulty assessment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The difficulty of sentence i in task t is defined as the average score of worker annotations compared to ground truth.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The scoring function f measures the quality of a worker's label relative to the ground truth annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Spearman's correlation is used as the scoring function to compute agreement between crowd and expert annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "Sentences with no labels are assigned a difficulty score of 0, indicating they are maximally easy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "Sentences with only crowd worker or expert labels are considered maximally difficult.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "A 10-fold validation setting is used to generate predicted labels for the training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The LSTM-CRF-Pattern model by Patel et al. is used to predict labels on the training set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Predicted spans from the LSTM-CRF-Pattern model are used as proxy ground truth annotations for difficulty scoring.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Difficulty scores are normalized to the [0,1] interval.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "The Pearson correlation coefficients between proxy and reference difficulty scores are 0.57 for Population, 0.71 for Intervention, and 0.68 for Outcome.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "51% of Population sentences, 42% of Intervention sentences, and 36% of Outcome sentences have no manual or predicted annotations and are treated as maximally easy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The higher proportion of sentences without annotations for Interventions and Outcomes is due to their more technical and dense nature with medical jargon.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The distribution of automatically labeled difficulty scores is shown for sentences that contain annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The mean score of Population (p) sentence scores is significantly lower than that for other types of sentences (i and o), indicating they are easier to annotate on average.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Annotating Interventions and Outcomes is more difficult than annotating Participants, as previously found.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The LSTM-CRF-Pattern model identifies sentence spans that are missed by all crowd workers, resulting in a maximally difficult score (1).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "Sentences that are either truly difficult or contain tagging model errors are retained as 'difficult' sentences because they confuse workers and/or the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Content describing Population (p), Interventions (i), and Outcomes (o) is quite different, such that one sentence usually contains at most one of these three content types.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Difficulty prediction is treated as a regression problem with neural model variants evaluated for performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "An RNN model is trained and used for difficulty prediction, as part of the neural model variants evaluated.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "A CNN model is trained and used for difficulty prediction, as part of the neural model variants evaluated.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The universal sentence encoder (USE) is used to induce sentence representations for training a difficulty prediction model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Inter-annotator agreement between crowd and expert annotators is weakly correlated with the difficulty scores, with Pearson's r values of 0.34, 0.30, and 0.31 for p, i, and o respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Domain experts show considerably higher agreement than crowd workers for all three label types, indicating that crowd annotations are noisier.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Difficulty scores in the training data are derived from agreement between a predictive model and crowd annotations, not from inter-annotator agreement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Aspect"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "An ensemble model combines universal and task-specific representations to predict annotation difficulty.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Universal embeddings capture general, high-level semantics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Task-specific representations capture more granular information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The model architecture involves feeding sentences into both a universal sentence encoder and a task-specific neural encoder, then concatenating their outputs before passing to a regression layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Word embeddings are initialized with 300-dimensional GloVe vectors trained on Common Crawl data and are fine-tuned during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The Adam optimizer is used with a learning rate of 0.001 and decay of 0.99.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The batch size used during training is 16.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The large version of the universal sentence encoder based on a transformer is used in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The parameters of the pretrained sentence encoder are not updated during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "All hyperparameters, including hidden layers, sizes, and dropout, are tuned using Vizier via 10-fold cross-validation on the training set to maximize F1 score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "A linear Support-Vector Regression model is trained on n-gram features (n from 1 to 3) as a baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The Pearson correlation coefficients between neural model predictions and ground truth difficulty scores range from 0.550 to 0.622, with all models outperforming the baseline SVR model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The RNN model achieves the strongest performance among standalone non-ensemble models, outperforming CNN and USE-based variants.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Combining the RNN and USE representations improves model performance due to complementary sentence information in universal representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Correlations for Intervention and Outcomes are higher than for Population, which is expected due to more balanced difficulty distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Population has a greater number of easy sentences and fewer difficult ones, making the difficulty ranking task more challenging.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Predicted difficulty is used during training to improve information extraction models for descriptions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Purpose"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "LSTM-CRF-Pattern is a sequence labeling model used for information extraction from medical article abstracts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The EBM-NLP corpus is a dataset used for training and evaluating models in medical natural language processing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "BIBREF5 refers to a specific corpus or benchmark used in the evaluation of medical information extraction models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Pretrained 200-dimensional GloVe vectors are used to initialize word embeddings in the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Each word is represented with 100-dimensional hidden character representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Each word is represented with 300 dimensions in total, combining 200d GloVe vectors and 100d character representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The LSTM in the character representation component has a hidden size of 100, while the LSTM in the information extraction component has a hidden size of 200.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The model is trained using the Adam optimizer with a learning rate of 0.001, decay of 0.9, batch size of 20, and dropout of 0.5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The model is trained for 15 epochs, with parameters saved when the best F1 score is achieved on a nested development set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Sentence difficulty is predicted using a cross-fold approach, training on 9/10 of the data and scoring the remaining 1/10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "F1 scores improve marginally when the most difficult sentences are removed, up to 4% of data for Population and Interventions and 6% for Outcomes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Random removal of training points (i.i.d.) degrades model performance as expected.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Removing sentences in order of low inter-annotator agreement has a similar effect to removing by difficulty when small amounts of data are removed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Annotation agreement is used as a proxy for sentence reliability, and is predicted similarly to difficulty using the same model structure.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "F1 scores drop more rapidly when removing more data, indicating that difficult sentences are noisy and do not provide useful signal to the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Sentences predicted to be difficult are noisy and do not contribute useful signal to the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Re-weighting by difficulty involves assigning lower weights to sentences with high predicted difficulty during training, inversely proportional to their difficulty scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The weight for sentence i with difficulty score above \u03c4 is given by 1 - a\u00b7(d_i - \u03c4)/(1 - \u03c4), where d_i is the difficulty score, a is the minimum weight parameter, and \u03c4 is set to 0.8.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The threshold \u03c4 is set to 0.8, meaning only sentences in the top 20th percentile of difficulty are re-weighted.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The parameter a is set to 0.5, representing the minimum weight value for difficult sentences after re-weighting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Re-weighting improves precision, recall, and F1 scores modestly but consistently across all metrics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "All F1 improvements from re-weighting are statistically significant under a sign test with p < 0.01.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Re-weighting by difficulty consistently yields the best recall for all three label types, with a 10 percentage point improvement for i and o labels.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "LSTM-CRF-Pattern is the base model used in the experiments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "The study explores the use of domain expert annotations for difficult sentences to improve model performance, simulating a strategy where difficult instances are routed to experts and easier ones to crowd annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Proposal"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The value of difficult data is compared to that of an i.i.d. random sample of the same size, both annotated by experts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "Re-annotation was conducted on a subset of abstracts to improve the quality of intervention extraction annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "Difficult instances are abstracts containing sentences with predicted difficulty scores in the top 5 percentile.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "Sentences with difficulty scores in the top 5 percentile are considered difficult and are prioritized for re-annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "Abstracts were ranked by the number of difficult sentences and the top-ranked ones were selected for re-annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "A total of 2000 abstracts were re-annotated, including 1000 top-ranked and 1000 randomly sampled.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Quantity"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The re-annotation process cost $3,000.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "Five medical experts with advanced training and strong technical reading/writing skills were recruited via Up-work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Entity"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The BRAT toolkit was used by experts to highlight spans describing medical interventions in abstracts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Tool"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Thirty re-annotated abstracts were examined to ensure annotation quality before hiring annotators.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "The LSTM-CRF-Pattern model was trained on both re-annotated difficult and random subsets of data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "Models trained on expert annotations achieved higher F1 scores than those trained on crowd annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "Models trained on crowd annotations had lower F1 scores compared to those trained on expert annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "The model trained on random data achieved slightly higher precision but lower recall than the one trained on difficult data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Training with data sampled i.i.d. at random achieved 2% higher F1 than training with difficult instances in crowd-annotated data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "The difference in model performance between random and difficult data may be due to differences in annotation quality, with random data being more consistently annotated.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Expert annotations consistently outperformed crowd annotations, with a larger performance gap on the difficult set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "A model trained on all 5k abstracts using crowd annotations had a lower F1 score than expert models trained on only 20% of the data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "The crowd model on complete data has higher precision than expert models but much lower recall.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Expert annotations are used for abstracts when they exist; otherwise, crowd annotations are used.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Data is routed to experts or crowd annotators based on predicted difficulty to optimize annotation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "The model trained on difficult and random subsets with expert annotations achieves an F1 score improvement of 3.5 points over models with only crowd annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "The model trained with re-annotating the difficult subset and mixing with crowd annotations (D+Other) outperforms the model with random expert annotations (R+Other) by 2 points in F1 score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "The model trained with re-annotating both difficult and random subsets (D+R+Other) achieves only a marginal F1 improvement over the D+Other model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "Mixing expert and crowd annotations leads to better model performance than using solely crowd or expert data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "Routing annotations based on difficulty yields greater performance gains than randomly selecting data for expert annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Benefit"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "The findings support the hypothesis that annotation quality for difficult instances is critical to final model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Hypothesis"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "Adding crowd annotations to training data improves F1 score by at least 1 point across all three extraction tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "Crowd annotation refers to the process of labeling data using non-expert workers, often used to supplement expert annotations in medical information extraction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "Expert annotations are labels provided by domain experts, which are more accurate and reliable than crowd annotations in medical information extraction tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "Annotating the one thousand most difficult instances significantly improved model performance in medical information extraction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The F1 score after re-annotating the 600 most-difficult articles reached 68.1%, which is close to the performance achieved with 1000 randomly selected articles.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The performance gain from expert annotations is primarily due to increased recall, with only minor changes in precision.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "Crowd workers tend to fail in identifying relevant spans or tokens but do not produce large numbers of false positives.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "The failure of crowd workers to identify relevant spans or tokens is likely due to insufficient domain knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "A routing scenario involves sending batches of the most difficult examples to experts for annotation while assigning other instances to crowd workers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "An ensemble model combining universal and task-specific feature sentence vectors achieved the best results in predicting annotation difficulty.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "All models used to predict annotation difficulty achieved Pearson\u2019s correlation coefficients higher than 0.45, indicating strong predictive feasibility.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "Re-weighting sentences inversely to their difficulty score during training improves predictive performance in biomedical IE tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "Routing difficult examples to experts and less difficult ones to crowd annotators outperforms random selection and exclusive reliance on crowd annotations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "Future work will investigate routing strategies based on instance difficulty to optimize the balance between budget and annotation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future Work"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The work was partially supported by the NSF1748771 grant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "Wallace received partial support from the NIH/NLM R01LM012086 grant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Funding"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "Removing up to approximately 10% of sentences predicted to be most difficult does not decrease model performance in biomedical IE tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "$3,000",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "0.5",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "0.57",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "0.68",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "0.71",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "0.8",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "1/10th data",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "10% of sentences",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "10-fold cross validation",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "10-fold validation",
+      "Method",
+      "s37"
+    ],
+    [
+      "10-fold validation",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "1000 random",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "1000 random articles",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "1000 top-ranked",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "100d hidden char representations",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "15 epochs",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "191 abstracts",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "2,428",
+      "Result",
+      "s29"
+    ],
+    [
+      "2,428",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "2000 abstracts",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "2000 abstracts re-annotated",
+      "Quantity",
+      "s104"
+    ],
+    [
+      "200d GloVe",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "2018",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "30 re-annotated abstracts",
+      "Process",
+      "s108"
+    ],
+    [
+      "300 dimensions",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "300 examples",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "300d",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "3152889",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "36%",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "4% data removed",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "4,741 abstracts",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "42%",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "51%",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "51%, 42%, 36%",
+      "Result",
+      "s42"
+    ],
+    [
+      "57,505",
+      "Result",
+      "s28"
+    ],
+    [
+      "57,505",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "5k abstracts",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "5k instances",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "6% data removed",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "600 most-difficult articles",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "68.1%",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "9/10ths of data",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "Adam optimizer",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Adam optimizer",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "Amazon Mechanical Turk",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "BIBREF0",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF1",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF10",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF11",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF12",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF13",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF2",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF3",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF4",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF5",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "BIBREF5",
+      "Reference",
+      "s76"
+    ],
+    [
+      "BIBREF5",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "BIBREF7",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF8",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BIBREF9",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "BRAT toolkit",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "BRAT toolkit",
+      "Tool",
+      "s107"
+    ],
+    [
+      "CGT",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "CNN",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "CNN model",
+      "Definition",
+      "s52"
+    ],
+    [
+      "CNN variants",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "D+Other",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "D+Other model",
+      "Result",
+      "s121"
+    ],
+    [
+      "D+R model",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "D+R model",
+      "Result",
+      "s120"
+    ],
+    [
+      "D+R+Other",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "D+R+Other model",
+      "Result",
+      "s122"
+    ],
+    [
+      "Difficulty_{ti}",
+      "Definition",
+      "s32"
+    ],
+    [
+      "Dumitrache",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "Dumitrache et al. (2018)",
+      "Result",
+      "s16"
+    ],
+    [
+      "EBM-NLP corpus",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "EBM-NLP corpus",
+      "Definition",
+      "s10"
+    ],
+    [
+      "EBM-NLP corpus",
+      "Definition",
+      "s20"
+    ],
+    [
+      "EBM-NLP corpus",
+      "Definition",
+      "s75"
+    ],
+    [
+      "EBM-NLP corpus",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "EBM-NLP corpus",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "Eq. 3",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "F1",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "F1 differences",
+      "Result",
+      "s95"
+    ],
+    [
+      "F1 score",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "F1 score",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "F1 score",
+      "Property",
+      "s130"
+    ],
+    [
+      "F1 score",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "F1 score improvement",
+      "Result",
+      "s126"
+    ],
+    [
+      "F1 scores",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "F1 scores",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "F1 scores",
+      "Result",
+      "s88"
+    ],
+    [
+      "Figure 1",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "Figure 3",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "GloVe embeddings",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "GloVe vectors",
+      "Definition",
+      "s77"
+    ],
+    [
+      "GloVe vectors",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "Intervention",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Intervention",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "Intervention and Outcomes",
+      "Property",
+      "s71"
+    ],
+    [
+      "Interventions (i)",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "Interventions (i)",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "Interventions and Outcomes",
+      "Definition",
+      "s46"
+    ],
+    [
+      "Introduction",
+      "Introduction",
+      "e1"
+    ],
+    [
+      "LSTM hidden size",
+      "Property",
+      "s80"
+    ],
+    [
+      "LSTM-CRF-Pattern",
+      "Definition",
+      "s74"
+    ],
+    [
+      "LSTM-CRF-Pattern",
+      "Definition",
+      "s97"
+    ],
+    [
+      "LSTM-CRF-Pattern",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "LSTM-CRF-Pattern",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "LSTM-CRF-Pattern",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "LSTM-CRF-Pattern model",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "LSTM-CRF-Pattern model",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "LSTM-CRF-Pattern model",
+      "Model",
+      "s109"
+    ],
+    [
+      "LSTM-CRF-Pattern model",
+      "Property",
+      "s47"
+    ],
+    [
+      "LSTM-CRF-Pattern sequence tagger",
+      "Definition",
+      "s38"
+    ],
+    [
+      "MTurk",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "NIH/NLM R01LM012086",
+      "Funding",
+      "s141"
+    ],
+    [
+      "NIH/NLM R01LM012086",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "NSF1748771",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "NSF1748771 grant",
+      "Funding",
+      "s140"
+    ],
+    [
+      "Outcome",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "Outcome (o)",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "Outcomes",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Outcomes (o)",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "P, i, o content types",
+      "Property",
+      "s49"
+    ],
+    [
+      "PICO spans",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "Participants (p)",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "Participants (p), Interventions (i), Outcome (o)",
+      "Definition",
+      "s22"
+    ],
+    [
+      "Patel et al. 2018",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "Pearson correlation",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Pearson correlation coefficients",
+      "Result",
+      "s68"
+    ],
+    [
+      "Pearson's correlation",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "Pearson's correlation coefficients",
+      "Result",
+      "s41"
+    ],
+    [
+      "Pearson's r",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "Pearson\u2019s correlation coefficient",
+      "Property",
+      "s136"
+    ],
+    [
+      "Pearson\u2019s correlation coefficients",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "Population",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Population",
+      "Property",
+      "s72"
+    ],
+    [
+      "Population",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "Population (p)",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "Population (p) sentence scores",
+      "Result",
+      "s45"
+    ],
+    [
+      "R+Other",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "RCT abstracts",
+      "Definition",
+      "s21"
+    ],
+    [
+      "RNN",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "RNN and USE combination",
+      "Result",
+      "s70"
+    ],
+    [
+      "RNN model",
+      "Definition",
+      "s51"
+    ],
+    [
+      "RNN model",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "RNN model",
+      "Result",
+      "s69"
+    ],
+    [
+      "Spearman's correlation",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "Spearman's correlation",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "Spearman's correlation coefficient",
+      "Definition",
+      "s34"
+    ],
+    [
+      "Support-Vector Regression",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Table 5",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "Table 6",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "USE representations",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Up-work",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "Vizier",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "Wallace",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "a",
+      "Property",
+      "s93"
+    ],
+    [
+      "a parameter",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "abstracts",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "abstracts ranked by difficult sentence count",
+      "Process",
+      "s103"
+    ],
+    [
+      "advanced medical degrees",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "aggregation models",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "aggregation models",
+      "Definition",
+      "s13"
+    ],
+    [
+      "all 5k abstracts with crowd annotations",
+      "Model",
+      "s116"
+    ],
+    [
+      "annotated examples",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "annotation agreement",
+      "Definition",
+      "s87"
+    ],
+    [
+      "annotation agreement",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "annotation difficulty",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "annotation difficulty",
+      "Definition",
+      "s1"
+    ],
+    [
+      "annotation difficulty",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "annotation difficulty",
+      "Property",
+      "s2"
+    ],
+    [
+      "annotation noise",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "annotation quality",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "annotation quality",
+      "Cause",
+      "s114"
+    ],
+    [
+      "annotation quality",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "annotation quality for difficult instances",
+      "Hypothesis",
+      "s125"
+    ],
+    [
+      "annotators",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "automated model",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "baseline model",
+      "Definition",
+      "s67"
+    ],
+    [
+      "batch size",
+      "Property",
+      "s63"
+    ],
+    [
+      "batch size 16",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "batch size 20",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "biomedical information extraction",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "biomedical information extraction",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "biomedicine",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "biomedicine",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "biomedicine crowdsourcing",
+      "Survey",
+      "s14"
+    ],
+    [
+      "budget-quality trade-off",
+      "Future Work",
+      "s139"
+    ],
+    [
+      "budget-quality trade-off",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "character representations",
+      "Property",
+      "s78"
+    ],
+    [
+      "common crawl data",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "complicated structure",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "consecutive batches",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "consensus reference label",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "cost and availability of domain experts",
+      "Cause",
+      "s9"
+    ],
+    [
+      "cross-fold approach",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "crowd annotated data",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "crowd annotation",
+      "Definition",
+      "s127"
+    ],
+    [
+      "crowd annotation",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "crowd annotation",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "crowd annotations",
+      "Result",
+      "s111"
+    ],
+    [
+      "crowd annotations",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "crowd annotators",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "crowd annotators",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "crowd model",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "crowd model",
+      "Property",
+      "s117"
+    ],
+    [
+      "crowd workers",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "crowd workers",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "crowd workers",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "crowd workers and domain experts",
+      "Relationship",
+      "s30"
+    ],
+    [
+      "crowdsourcing",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "crowdsourcing",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "crowdsourcing annotation",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "crowdsourcing annotation",
+      "Definition",
+      "s12"
+    ],
+    [
+      "decay 0.9",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "decay 0.99",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "difficult examples",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "difficult examples",
+      "Property",
+      "s24"
+    ],
+    [
+      "difficult examples",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "difficult instances",
+      "Definition",
+      "s101"
+    ],
+    [
+      "difficult instances",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "difficult sentences",
+      "Definition",
+      "s48"
+    ],
+    [
+      "difficult sentences",
+      "Property",
+      "s89"
+    ],
+    [
+      "difficult sentences",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "difficult subset",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "difficulty distributions",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "difficulty prediction",
+      "Method",
+      "s83"
+    ],
+    [
+      "difficulty prediction",
+      "Purpose",
+      "s73"
+    ],
+    [
+      "difficulty prediction",
+      "Task",
+      "s50"
+    ],
+    [
+      "difficulty score",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "difficulty scores normalized to [0,1]",
+      "Property",
+      "s40"
+    ],
+    [
+      "difficulty-based routing",
+      "Benefit",
+      "s124"
+    ],
+    [
+      "disagreement-based removal",
+      "Result",
+      "s86"
+    ],
+    [
+      "distribution of automatically labeled scores",
+      "Result",
+      "s44"
+    ],
+    [
+      "domain experts",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "domain experts",
+      "Property",
+      "s55"
+    ],
+    [
+      "domain experts",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "domain experts",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "domain knowledge",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "domain knowledge",
+      "Cause",
+      "s133"
+    ],
+    [
+      "domain knowledge",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "down-sampling",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "dropout 0.5",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "easy examples",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "easy examples",
+      "Property",
+      "s25"
+    ],
+    [
+      "ensemble model",
+      "Definition",
+      "s135"
+    ],
+    [
+      "ensemble model",
+      "Definition",
+      "s57"
+    ],
+    [
+      "ensemble model",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "ensemble model",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "expert and lay annotations",
+      "Relationship",
+      "s8"
+    ],
+    [
+      "expert annotated data",
+      "Crowdsourcing Annotation",
+      "e5"
+    ],
+    [
+      "expert annotation",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "expert annotations",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "expert annotations",
+      "Definition",
+      "s118"
+    ],
+    [
+      "expert annotations",
+      "Definition",
+      "s128"
+    ],
+    [
+      "expert annotations",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "expert annotations",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "expert annotations",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "expert annotations",
+      "Result",
+      "s110"
+    ],
+    [
+      "expert annotations",
+      "Result",
+      "s5"
+    ],
+    [
+      "expert annotators",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "expert annotators",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "expert annotators",
+      "Property",
+      "s17"
+    ],
+    [
+      "expert annotators",
+      "Proposal",
+      "s98"
+    ],
+    [
+      "expert annotators",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "expert vs. crowd annotated training data",
+      "Comparison",
+      "s15"
+    ],
+    [
+      "expert vs. crowd annotations",
+      "Comparison",
+      "s115"
+    ],
+    [
+      "experts",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "experts",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "false positives",
+      "Property",
+      "s132"
+    ],
+    [
+      "ground truth",
+      "Definition",
+      "s31"
+    ],
+    [
+      "ground truth",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "heterogeneous labelers",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "hidden size 100",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "hidden size 200",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "hyperparameters",
+      "Definition",
+      "s66"
+    ],
+    [
+      "i.i.d. random",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "i.i.d. random sample",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "i.i.d. random sampling",
+      "Method",
+      "s113"
+    ],
+    [
+      "information extraction models",
+      "Prediction Training",
+      "e3"
+    ],
+    [
+      "information extraction models",
+      "Result",
+      "s7"
+    ],
+    [
+      "instance difficulty",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "inter-annotator agreement",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "inter-annotator agreement",
+      "Property",
+      "s3"
+    ],
+    [
+      "inter-annotator agreement",
+      "Result",
+      "s54"
+    ],
+    [
+      "inter-worker agreement",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "interventions",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "inverse inter-annotator agreement",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "item difficulty prediction",
+      "Definition",
+      "s11"
+    ],
+    [
+      "jargon",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "lay annotations",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "lay annotations",
+      "Result",
+      "s4"
+    ],
+    [
+      "lay annotators",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "lay workers",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "learning rate 0.001",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "learning rate 0.001",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "limited budget",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "manual annotations",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "maximally difficult",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "maximally easy",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "medical IE",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "medical IE model",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "medical experts",
+      "Entity",
+      "s106"
+    ],
+    [
+      "medical experts",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "medical jargon",
+      "Cause",
+      "s43"
+    ],
+    [
+      "medical jargon",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "medical literature",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "medical students",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "mixed annotations",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "mixed annotations",
+      "Benefit",
+      "s123"
+    ],
+    [
+      "model architecture",
+      "Definition",
+      "s60"
+    ],
+    [
+      "model performance",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "model performance",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "n-gram features",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "natural language",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "nested development set",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "neural models",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "new data",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "one thousand most difficult instances",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "one thousand most difficult instances",
+      "Result",
+      "s129"
+    ],
+    [
+      "optimizer",
+      "Property",
+      "s62"
+    ],
+    [
+      "performance gain",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "pre-trained sentence encoder",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "precision",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "precision",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "precision",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "precision",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "precision",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "predicted annotations",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "predicted spans",
+      "Definition",
+      "s39"
+    ],
+    [
+      "predictions",
+      "Prediction Training",
+      "e3"
+    ],
+    [
+      "pretrained sentence encoder",
+      "Property",
+      "s65"
+    ],
+    [
+      "random data",
+      "Result",
+      "s112"
+    ],
+    [
+      "random instances",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "random removal",
+      "Result",
+      "s85"
+    ],
+    [
+      "random removal (i.i.d.)",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "random sample of data",
+      "Comparison",
+      "s99"
+    ],
+    [
+      "random selection",
+      "Routing Strategy Performance",
+      "e15"
+    ],
+    [
+      "random subset",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "randomized controlled trials (RCTs)",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "re-annotate",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "re-annotation",
+      "Process",
+      "s100"
+    ],
+    [
+      "re-annotation cost",
+      "Result",
+      "s105"
+    ],
+    [
+      "re-weighting",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "re-weighting",
+      "Result",
+      "s94"
+    ],
+    [
+      "re-weighting by difficulty",
+      "Definition",
+      "s90"
+    ],
+    [
+      "re-weighting sentences",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "re-weighting sentences",
+      "Result",
+      "s137"
+    ],
+    [
+      "recall",
+      "Annotation Routing",
+      "e13"
+    ],
+    [
+      "recall",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "recall",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "recall",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "recall",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "recall",
+      "Result",
+      "s131"
+    ],
+    [
+      "recall improvement",
+      "Result",
+      "s96"
+    ],
+    [
+      "reference label",
+      "Definition",
+      "s26"
+    ],
+    [
+      "regression layer",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "removing difficult sentences",
+      "Result",
+      "s84"
+    ],
+    [
+      "removing difficult sentences",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "routing scenario",
+      "Definition",
+      "s134"
+    ],
+    [
+      "routing strategy",
+      "Result",
+      "s138"
+    ],
+    [
+      "routing system",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "routing to experts or crowd",
+      "Cause",
+      "s119"
+    ],
+    [
+      "scoring function f",
+      "Definition",
+      "s33"
+    ],
+    [
+      "sentence difficulty scores",
+      "Training Data Adjustment",
+      "e10"
+    ],
+    [
+      "sentence i",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "sentence level",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "sentence weighting formula",
+      "Definition",
+      "s91"
+    ],
+    [
+      "sentence-level analysis",
+      "Method",
+      "s23"
+    ],
+    [
+      "sentences with fewer than two tokens",
+      "Filter",
+      "s27"
+    ],
+    [
+      "sentences with no labels",
+      "Property",
+      "s35"
+    ],
+    [
+      "sentences with only crowd or expert labels",
+      "Property",
+      "s36"
+    ],
+    [
+      "spacy",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "task difficulty",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "task difficulty",
+      "Property",
+      "s18"
+    ],
+    [
+      "task routing",
+      "Cause",
+      "s6"
+    ],
+    [
+      "task routing",
+      "Definition",
+      "s19"
+    ],
+    [
+      "task routing",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "task routing",
+      "Instance Difficulty in RCT Annotation",
+      "e6"
+    ],
+    [
+      "task-specific representations",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "task-specific representations",
+      "Property",
+      "s59"
+    ],
+    [
+      "tau",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "test data",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "test set",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "top 20th percentile",
+      "Re-weighting by Difficulty",
+      "e11"
+    ],
+    [
+      "top 5 percentile",
+      "Expert Annotation Strategy",
+      "e12"
+    ],
+    [
+      "top 5 percentile",
+      "Property",
+      "s102"
+    ],
+    [
+      "training",
+      "Prediction Training",
+      "e3"
+    ],
+    [
+      "training configuration",
+      "Property",
+      "s81"
+    ],
+    [
+      "training corpora",
+      "Annotation Difficulty in Biomedicine",
+      "e2"
+    ],
+    [
+      "training data",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "training data",
+      "Aspect",
+      "s56"
+    ],
+    [
+      "training epochs",
+      "Property",
+      "s82"
+    ],
+    [
+      "training set",
+      "Task Difficulty Quantification",
+      "e7"
+    ],
+    [
+      "transformer",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "universal and task specific feature sentence vectors",
+      "Expert Annotation Strategy",
+      "e14"
+    ],
+    [
+      "universal representations",
+      "Ensemble Model Setup",
+      "e9"
+    ],
+    [
+      "universal representations",
+      "Property",
+      "s58"
+    ],
+    [
+      "universal sentence encoder",
+      "Expert vs Lay Annotations",
+      "e4"
+    ],
+    [
+      "universal sentence encoder",
+      "Property",
+      "s64"
+    ],
+    [
+      "universal sentence encoder (USE)",
+      "Annotation Difficulty",
+      "e8"
+    ],
+    [
+      "universal sentence encoder (USE)",
+      "Definition",
+      "s53"
+    ],
+    [
+      "up to 10% of sentences",
+      "Result",
+      "s142"
+    ],
+    [
+      "word embeddings",
+      "Definition",
+      "s61"
+    ],
+    [
+      "word embeddings",
+      "Property",
+      "s79"
+    ],
+    [
+      "\u03c4",
+      "Property",
+      "s92"
+    ]
+  ]
+}

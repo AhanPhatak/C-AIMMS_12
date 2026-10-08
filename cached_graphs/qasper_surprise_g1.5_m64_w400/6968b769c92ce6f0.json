@@ -1,0 +1,2880 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 8,
+    "n_semantic": 87,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "abusive language": {
+      "tag_set": [
+        "Abusive Language Detection",
+        "Definition",
+        "Related Terms"
+      ]
+    },
+    "offensive language": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "cyberbullying": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "hate speech": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "social media companies": {
+      "tag_set": [
+        "Abusive Language Detection",
+        "Action"
+      ]
+    },
+    "Facebook": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "Twitter": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "artificial intelligence": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "human reviewers": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "user reporting processes": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "subjectivity": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "context-dependent characteristics": {
+      "tag_set": [
+        "Abusive Language Detection",
+        "Property"
+      ]
+    },
+    "deep learning models": {
+      "tag_set": [
+        "Abusive Language Detection",
+        "Limitation"
+      ]
+    },
+    "traditional machine learning": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "Founta et al.": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "Hate and Abusive Speech on Twitter": {
+      "tag_set": [
+        "Abusive Language Detection",
+        "Dataset",
+        "Model Performance Analysis"
+      ]
+    },
+    "100K tweets": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "cross-validated labels": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "machine learning classifiers": {
+      "tag_set": [
+        "Abusive Language Detection"
+      ]
+    },
+    "neural network models": {
+      "tag_set": [
+        "Abusive Language Detection",
+        "Abusive Language Detection Methods",
+        "Comparison",
+        "Limitation",
+        "Model Performance Analysis"
+      ]
+    },
+    "ensemble models": {
+      "tag_set": [
+        "Abusive Language Detection",
+        "Model Ensemble Methods",
+        "Model Performance Analysis",
+        "Potential Improvement",
+        "Suggestion"
+      ]
+    },
+    "Naive Bayes": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Model Implementations"
+      ]
+    },
+    "Support Vector Machine": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Method",
+        "Model Implementations"
+      ]
+    },
+    "SVM": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Model Performance Analysis"
+      ]
+    },
+    "Latent Dirichlet Allocation": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Method"
+      ]
+    },
+    "word-level features": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Property"
+      ]
+    },
+    "distributed word representations": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Continuous Bag Of Words": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Method"
+      ]
+    },
+    "paragraph2vec": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Gradient Boosted Decision Trees": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Method"
+      ]
+    },
+    "character-level representations": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Effect",
+        "Method",
+        "Model Performance Analysis",
+        "Property"
+      ]
+    },
+    "Convolutional Neural Networks": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Method",
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "Recurrent Neural Networks": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Method",
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "Logistic Regression": {
+      "tag_set": [
+        "Abusive Language Detection Methods",
+        "Method",
+        "Model Implementations"
+      ]
+    },
+    "Djuric et al.": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Badjatiya et al.": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Xiang et al.": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Razavi2010": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Warner and Hirschberg": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Warner2012": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Xiang2012": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "BIBREF13": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "BIBREF16": {
+      "tag_set": [
+        "Abusive Language Detection Methods"
+      ]
+    },
+    "Bag Of Words": {
+      "tag_set": [
+        "Method",
+        "Model Implementations"
+      ]
+    },
+    "TF-IDF": {
+      "tag_set": [
+        "Method",
+        "Model Implementations",
+        "Model Performance Analysis"
+      ]
+    },
+    "n-grams": {
+      "tag_set": [
+        "Model Implementations",
+        "Property"
+      ]
+    },
+    "character-level features": {
+      "tag_set": [
+        "Cause",
+        "Model Implementations",
+        "Property"
+      ]
+    },
+    "Multinomial NB": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "additive smoothing constant 1": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "L2 regularization": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "limited-memory BFGS": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "linear SVM": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "logistic loss function": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "Random Forests": {
+      "tag_set": [
+        "Method",
+        "Model Implementations"
+      ]
+    },
+    "10 randomized decision trees": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "Gradient Boosted Trees": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "learning rate 1": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "neural network based models": {
+      "tag_set": [
+        "Method",
+        "Model Implementations"
+      ]
+    },
+    "abusive language detection": {
+      "tag_set": [
+        "Cause",
+        "Challenge",
+        "Model Evaluation in Abusive Language Detection",
+        "Model Implementations"
+      ]
+    },
+    "data preprocessing": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "feature engineering": {
+      "tag_set": [
+        "Model Implementations"
+      ]
+    },
+    "In particular": {
+      "tag_set": [
+        "Incomplete Passage"
+      ]
+    },
+    "HybridCNN": {
+      "tag_set": [
+        "Definition",
+        "Model Evaluation in Abusive Language Detection",
+        "Performance",
+        "Result"
+      ]
+    },
+    "GloVe BIBREF17": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "Kim's kim2014convolutional": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "ReLU activation": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "max-pooling layer": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "character-level CNN": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection",
+        "Property"
+      ]
+    },
+    "6 convolutional filters": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "dimension of 1024": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "Park and Fung park2017one": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "cross entropy with softmax": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "Adam BIBREF18": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "bidirectional RNN BIBREF19": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "GRU BIBREF20": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "50 dimensional hidden states": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "input dropout probability of 0.3": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "cross entropy with sigmoid": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "self-matching attention mechanism BIBREF21": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "Latent Topic Clustering (LTC) BIBREF22": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "context tweets": {
+      "tag_set": [
+        "Definition",
+        "Effect",
+        "Model Evaluation in Abusive Language Detection",
+        "Model Performance Analysis"
+      ]
+    },
+    "vulgar language": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "tweet context": {
+      "tag_set": [
+        "Model Evaluation in Abusive Language Detection"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "precision": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "recall": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "F1 scores": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "normal": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "spam": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "hateful": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "abusive": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "feature engineering based models": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "NB": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "LR": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "RNN": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "LTC modules": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "GBT": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "RF": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "bidirectional GRU": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "data insufficiency": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "label imbalance": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "variant models": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "features": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "K. Jung": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Department of Electrical and Computer Engineering": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "ASRI": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Seoul National University": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Seoul": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Korea": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "National Research Foundation of Korea (NRF)": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Korea government (MSIT)": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "No. 2016M3C4A7952632": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Technology Innovation Program": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Ministry of Trade, Industry & Energy (MOTIE, Korea)": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Yongkeun Hwang": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "Ji Ho Park": {
+      "tag_set": [
+        "Model Ensemble Methods"
+      ]
+    },
+    "online harassment": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "existing datasets": {
+      "tag_set": [
+        "Size"
+      ]
+    },
+    "machine learning methods": {
+      "tag_set": [
+        "Usage"
+      ]
+    },
+    "learning models": {
+      "tag_set": [
+        "Evaluation"
+      ]
+    },
+    "baseline results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Na\u00efve Bayes": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "large-scale datasets": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "Convolutional Neural Networks (CNN)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Recurrent Neural Networks (RNN)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "GloVe": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Kim's kim2014convolutional implementation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "word-level CNN": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "loss function": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "optimizer": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "bidirectional RNN": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "GRU cell": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "RNN model configuration": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "RNN loss function": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "self-matching attention mechanism": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Latent Topic Clustering (LTC)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "tweet (1)": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "tweet (2)": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "as**ole": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "context tweet (3)": {
+      "tag_set": [
+        "Role"
+      ]
+    },
+    "abusive tweet (4)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Huang et al. huang2016modeling": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "meta-information": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "text sequences of context tweets": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "baseline LSTM model": {
+      "tag_set": [
+        "Model"
+      ]
+    },
+    "CNN baseline model": {
+      "tag_set": [
+        "Architecture"
+      ]
+    },
+    "RNN model": {
+      "tag_set": [
+        "Architecture"
+      ]
+    },
+    "Dataset Hate and Abusive Speech on Twitter": {
+      "tag_set": [
+        "Classification"
+      ]
+    },
+    "70,904 tweets": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "user IDs, URLs, emojis": {
+      "tag_set": [
+        "Preprocessing"
+      ]
+    },
+    "hashtags": {
+      "tag_set": [
+        "Preprocessing"
+      ]
+    },
+    "one-hot encoded vectors": {
+      "tag_set": [
+        "Representation"
+      ]
+    },
+    "TF-IDF values": {
+      "tag_set": [
+        "Preprocessing"
+      ]
+    },
+    "unknown tokens": {
+      "tag_set": [
+        "Preprocessing"
+      ]
+    },
+    "10-fold cross validation": {
+      "tag_set": [
+        "Evaluation"
+      ]
+    },
+    "85:5:10 data split": {
+      "tag_set": [
+        "Evaluation"
+      ]
+    },
+    "weighted evaluation": {
+      "tag_set": [
+        "Metric"
+      ]
+    },
+    "LR model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "traditional machine learning models": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "RNN with LTC modules": {
+      "tag_set": [
+        "Performance"
+      ]
+    },
+    "CNN and RNN models": {
+      "tag_set": [
+        "Effect"
+      ]
+    },
+    "CNN with context tweets": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "RNN models with context tweets": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "traditional machine learning classifiers": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "RNN-LTC model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "bidirectional GRU networks with LTC": {
+      "tag_set": [
+        "Performance"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nAbusive language refers to any type of insult, vulgarity, or profanity that debases the target; it also can be anything that causes aggravation BIBREF0 , BIBREF1 . Abusive language is often reframed as, but not limited to, offensive language BIBREF2 , cyberbullying BIBREF3 , othering language BIBREF4 , and hate speech BIBREF5 .\nRecently, an increasing number of users have been subjected to harassment, or have witnessed offensive behaviors online BIBREF6 . Major social media companies (i.e. Facebook, Twitter) have utilized multiple resources\u2014artificial intelligence, human reviewers, user reporting processes, etc.\u2014in effort to censor offensive language, yet it seems nearly impossible to successfully resolve the issue BIBREF7 , BIBREF8 .\nThe major reason of the failure in abusive language detection comes from its subjectivity and context-dependent characteristics BIBREF9 . For instance, a message can be regarded as harmless on its own, but when taking previous threads into account it may be seen as abusive, and vice versa. This aspect makes detecting abusive language extremely laborious even for human annotators; therefore it is difficult to build a large and reliable dataset BIBREF10 .\nPreviously, datasets openly available in abusive language detection research on Twitter ranged from 10K to 35K in size BIBREF9 , BIBREF11 . This quantity is not sufficient to train the significant number of parameters in deep learning models. Due to this reason, these datasets have been mainly studied by traditional machine learning methods. Most recently, Founta et al. founta2018large introduced Hate and Abusive Speech on Twitter, a dataset containing 100K tweets with cross-validated labels. Although this corpus has great potential in training deep models with its significant size, there are no baseline reports to date.\nThis paper investigates the efficacy of different learning models in detecting abusive language. We compare accuracy using the most frequently studied machine learning classifiers as well as recent neural network models. Reliable baseline results are presented with the first comparative study on this dataset. Additionally, we demonstrate the effect of different features and variants, and describe the possibility for further improvements with the use of ensemble models.\nRelated Work\nThe research community introduced various approaches on abusive language detection. Raz",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Abusive Language Detection"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "avi et al. razavi2010offensive applied Na\u00efve Bayes, and Warner and Hirschberg warner2012detecting used Support Vector Machine (SVM), both with word-level features to classify offensive language. Xiang et al. xiang2012detecting generated topic distributions with Latent Dirichlet Allocation BIBREF12 , also using word-level features in order to classify offensive tweets.\nMore recently, distributed word representations and neural network models have been widely applied for abusive language detection. Djuric et al. djuric2015hate used the Continuous Bag Of Words model with paragraph2vec algorithm BIBREF13 to more accurately detect hate speech than that of the plain Bag Of Words models. Badjatiya et al. badjatiya2017deep implemented Gradient Boosted Decision Trees classifiers using word representations trained by deep learning models. Other researchers have investigated character-level representations and their effectiveness compared to word-level representations BIBREF14 , BIBREF15 .\nAs traditional machine learning methods have relied on feature engineering, (i.e. n-grams, POS tags, user information) BIBREF1 , researchers have proposed neural-based models with the advent of larger datasets. Convolutional Neural Networks and Recurrent Neural Networks have been applied to detect abusive language, and they have outperformed traditional machine learning classifiers such as Logistic Regression and SVM BIBREF15 , BIBREF16 . However, there are no studies investigating the efficiency of neural models with large-scale datasets over 100K.\nMethodology\nThis section illustrates our",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Abusive Language Detection Methods"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "implementations on traditional machine learning classifiers and neural network based models in detail. Furthermore, we describe additional features and variant models investigated.\nTraditional Machine Learning Models\nWe implement five feature engineering based machine learning classifiers that are most often used for abusive language detection. In data preprocessing, text sequences are converted into Bag Of Words (BOW) representations, and normalized with Term Frequency-Inverse Document Frequency (TF-IDF) values. We experiment with word-level features using n-grams ranging from 1 to 3, and character-level features from 3 to 8-grams. Each classifier is implemented with the following specifications:\nNa\u00efve Bayes (NB): Multinomial NB with additive smoothing constant 1\nLogistic Regression (LR): Linear LR with L2 regularization constant 1 and limited-memory BFGS optimization\nSupport Vector Machine (SVM): Linear SVM with L2 regularization constant 1 and logistic loss function\nRandom Forests (RF): Averaging probabilistic predictions of 10 randomized decision trees\nGradient Boosted Trees (GBT): Tree boosting with learning rate 1 and logistic loss function\nNeural Network based Models\nAlong with traditional machine learning approaches, we investigate neural network based models to evaluate their efficacy within a larger dataset.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Implementations"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "In particular,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Incomplete Passage"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "we explore Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and their variant models. A pre-trained GloVe BIBREF17 representation is used for word-level features. CNN: We adopt Kim's kim2014convolutional implementation as the baseline. The word-level CNN models have 3 convolutional filters of different sizes [1,2,3] with ReLU activation, and a max-pooling layer. For the character-level CNN, we use 6 convolutional filters of various sizes [3,4,5,6,7,8], then add max-pooling layers followed by 1 fully-connected layer with a dimension of 1024. Park and Fung park2017one proposed a HybridCNN model which outperformed both word-level and character-level CNNs in abusive language detection. In order to evaluate the HybridCNN for this dataset, we concatenate the output of max-pooled layers from word-level and character-level CNN, and feed this vector to a fully-connected layer in order to predict the output. All three CNN models (word-level, character-level, and hybrid) use cross entropy with softmax as their loss function and Adam BIBREF18 as the optimizer. RNN: We use bidirectional RNN BIBREF19 as the baseline, implementing a GRU BIBREF20 cell for each recurrent unit. From extensive parameter-search experiments, we chose 1 encoding layer with 50 dimensional hidden states and an input dropout probability of 0.3. The RNN models use cross entropy with sigmoid as their loss function and Adam as the optimizer. For a possible improvement, we apply a self-matching attention mechanism on RNN baseline models BIBREF21 so that they may better understand the data by retrieving text sequences twice. We also investigate a recently introduced method, Latent Topic Clustering (LTC) BIBREF22 . The LTC method extracts latent topic information from the hidden states of RNN, and uses it for additional information in classifying the text data. Feature Extension While manually analyzing the raw dataset, we noticed that looking at the tweet one has replied to or has quoted, provides significant contextual information. We call these, \u201ccontext tweets\". As humans can better understand a tweet with the reference of its context, our assumption is that computers also benefit from taking context tweets into account in detecting abusive language. As shown in the examples below, (2) is labeled abusive due to the use of vulgar language. However, the intention of the user can be better understood with its context tweet (1). (1) I hate when I'm sitting in front of the bus and somebody with a wheelchair get on. INLINEFORM0 (2) I hate it when I'm trying to board a bus",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Evaluation in Abusive Language Detection"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "and there's already an as**ole on it. Similarly, context tweet (3) is important in understanding the abusive tweet (4), especially in identifying the target of the malice. (3) Survivors of #Syria Gas Attack Recount `a Cruel Scene'. INLINEFORM0 (4) Who the HELL is \u201cLIKE\" ING this post? Sick people.... Huang et al. huang2016modeling used several attributes of context tweets for sentiment analysis in order to improve the baseline LSTM model. However, their approach was limited because the meta-information they focused on\u2014author information, conversation type, use of the same hashtags or emojis\u2014are all highly dependent on data. In order to avoid data dependency, text sequences of context tweets are directly used as an additional feature of neural network models. We use the same baseline model to convert context tweets to vectors, then concatenate these vectors with outputs of their corresponding labeled tweets. More specifically, we concatenate max-pooled layers of context and labeled tweets for the CNN baseline model. As for RNN, the last hidden states of context and labeled tweets are concatenated. Dataset Hate and Abusive Speech on Twitter BIBREF10 classifies tweets into 4 labels, \u201cnormal\", \u201cspam\", \u201chateful\" and \u201cabusive\". We were only able to crawl 70,904 tweets out of 99,996 tweet IDs, mainly because the tweet was deleted or the user account had been suspended. Table shows the distribution of labels of the crawled data. Data Preprocessing In the data preprocessing steps, user IDs, URLs, and frequently used emojis are replaced as special tokens. Since hashtags tend to have a high correlation with the content of the tweet BIBREF23 , we use a segmentation library BIBREF24 for hashtags to extract more information. For character-level representations, we apply the method Zhang et al. zhang2015character proposed. Tweets are transformed into one-hot encoded vectors using 70 character dimensions\u201426 lower-cased alphabets, 10 digits, and 34 special characters including whitespace. Training and Evaluation In training the feature engineering based machine learning classifiers, we truncate vector representations according to the TF-IDF values (the top 14,000 and 53,000 for word-level and character-level representations, respectively) to avoid overfitting. For neural network models, words that appear only once are replaced as unknown tokens. Since the dataset used is not split into train, development, and test sets, we perform 10-fold cross validation, obtaining the average of 5 tries; we divide the dataset randomly by a ratio of 85:5:10, respectively. In order to evaluate the overall performance, we calculate the weighted",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "average of precision, recall, and F1 scores of all four labels, \u201cnormal\u201d, \u201cspam\u201d, \u201chateful\u201d, and \u201cabusive\u201d. Empirical Results As shown in Table , neural network models are more accurate than feature engineering based models (i.e. NB, SVM, etc.) except for the LR model\u2014the best LR model has the same F1 score as the best CNN model. Among traditional machine learning models, the most accurate in classifying abusive language is the LR model followed by ensemble models such as GBT and RF. Character-level representations improve F1 scores of SVM and RF classifiers, but they have no positive effect on other models. For neural network models, RNN with LTC modules have the highest accuracy score, but there are no significant improvements from its baseline model and its attention-added model. Similarly, HybridCNN does not improve the baseline CNN model. For both CNN and RNN models, character-level features significantly decrease the accuracy of classification. The use of context tweets generally have little effect on baseline models, however they noticeably improve the scores of several metrics. For instance, CNN with context tweets score the highest recall and F1 for \u201chateful\" labels, and RNN models with context tweets have the highest recall for \u201cabusive\" tweets. Discussion and Conclusion While character-level features are known to improve the accuracy of neural network models BIBREF16 , they reduce classification accuracy for Hate and Abusive Speech on Twitter. We conclude this is because of the lack of labeled data as well as the significant imbalance among the different labels. Unlike neural network models, character-level features in traditional machine learning classifiers have positive results because we have trained the models only with the most significant character elements using TF-IDF values. Variants of neural network models also suffer from data insufficiency. However, these models show positive performances on \u201cspam\" (14%) and \u201chateful\" (4%) tweets\u2014the lower distributed labels. The highest F1 score for \u201cspam\" is from the RNN-LTC model (0.551), and the highest for \u201chateful\" is CNN with context tweets (0.309). Since each variant model excels in different metrics, we expect to see additional improvements with the use of ensemble models of these variants in future works. In this paper, we report the baseline accuracy of different learning models as well as their variants on the recently introduced dataset, Hate and Abusive Speech on Twitter. Experimental results show that bidirectional GRU networks with LTC provide the most accurate results in detecting abusive language.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "Additionally, we present the possibility of using ensemble models of variant models and features for further improvements. Acknowledgments K. Jung is with the Department of Electrical and Computer Engineering, ASRI, Seoul National University, Seoul, Korea. This work was supported by the National Research Foundation of Korea (NRF) funded by the Korea government (MSIT) (No. 2016M3C4A7952632), the Technology Innovation Program (10073144) funded by the Ministry of Trade, Industry & Energy (MOTIE, Korea). We would also like to thank Yongkeun Hwang and Ji Ho Park for helpful discussions and their valuable insights.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Ensemble Methods"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Abusive language refers to any type of insult, vulgarity, or profanity that debases the target and can also cause aggravation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Abusive language is often reframed as offensive language, cyberbullying, othering language, or hate speech.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Related Terms"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "An increasing number of users have been subjected to harassment or have witnessed offensive behaviors online.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Major social media companies such as Facebook and Twitter have used artificial intelligence, human reviewers, and user reporting processes to censor offensive language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Action"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The failure in abusive language detection primarily stems from its subjectivity and context-dependent characteristics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "A message may be harmless in isolation but perceived as abusive when considered in the context of previous threads, and vice versa.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Previously available datasets for abusive language detection on Twitter ranged from 10K to 35K in size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Size"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Founta et al. introduced a dataset containing 100K tweets with cross-validated labels for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The size of existing datasets is insufficient to train the significant number of parameters in deep learning models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Existing datasets have been mainly studied using traditional machine learning methods due to the limitations of deep learning models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "This paper investigates the efficacy of different learning models in detecting abusive language, comparing machine learning classifiers and neural network models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "The paper presents reliable baseline results with the first comparative study on the Hate and Abusive Speech on Twitter dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "The paper demonstrates the possibility of further improvements in abusive language detection using ensemble models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Potential Improvement"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Na\u00efve Bayes is a traditional machine learning classifier used for offensive language detection with word-level features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Support Vector Machine is a traditional machine learning classifier used for offensive language detection with word-level features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Latent Dirichlet Allocation is used to generate topic distributions for classifying offensive tweets with word-level features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The Continuous Bag Of Words model with paragraph2vec algorithm is used to detect hate speech more accurately than plain Bag Of Words models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "Gradient Boosted Decision Trees classifiers are implemented using word representations trained by deep learning models for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "Character-level representations have been investigated as an alternative to word-level representations for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "Word-level features are commonly used in traditional machine learning models for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "N-grams ranging from 1 to 3 are used as word-level features in traditional machine learning models for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Character-level features ranging from 3 to 8-grams are used in traditional machine learning models for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Text sequences are converted into Bag Of Words representations during preprocessing for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "Bag Of Words representations are normalized using Term Frequency-Inverse Document Frequency (TF-IDF) values.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Convolutional Neural Networks are applied to detect abusive language and outperform traditional machine learning classifiers like Logistic Regression and SVM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Recurrent Neural Networks are applied to detect abusive language and outperform traditional machine learning classifiers like Logistic Regression and SVM.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Logistic Regression with L2 regularization and limited-memory BFGS optimization is used in traditional machine learning models for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Random Forests use averaging of probabilistic predictions from 10 randomized decision trees for abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "Neural network based models are investigated to evaluate their efficacy in abusive language detection on large-scale datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "There are no studies investigating the efficiency of neural models on large-scale datasets with over 100K samples.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Convolutional Neural Networks (CNN) are a type of deep learning model used for processing sequential and structured data, such as text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Recurrent Neural Networks (RNN) are a type of neural network designed to handle sequential data by maintaining a hidden state across time steps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "GloVe is a pre-trained word embedding model that captures semantic relationships between words based on co-occurrence statistics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "Kim's 2014 convolutional implementation is a baseline model for word-level CNNs in text classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The word-level CNN model uses three convolutional filters of sizes [1,2,3] with ReLU activation and a max-pooling layer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The character-level CNN model uses six convolutional filters of sizes [3,4,5,6,7,8], followed by max-pooling layers and a fully-connected layer with 1024 dimensions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "HybridCNN is a model proposed by Park and Fung that combines word-level and character-level CNN outputs to improve performance in abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The HybridCNN model outperformed both word-level and character-level CNNs in abusive language detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "All CNN models use cross-entropy with softmax as their loss function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "All CNN models use Adam as their optimizer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Bidirectional RNNs process input sequences in both forward and backward directions to capture context from both past and future tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "A GRU (Gated Recurrent Unit) cell is a type of recurrent unit used in RNNs that simplifies the gating mechanism for better training and performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The RNN baseline uses one encoding layer with 50-dimensional hidden states and an input dropout probability of 0.3.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "RNN models use cross-entropy with sigmoid as their loss function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "A self-matching attention mechanism is applied to RNN models to improve understanding by retrieving and matching text sequences twice.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Latent Topic Clustering (LTC) is a method that extracts latent topic information from RNN hidden states to enhance text classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Context tweets are tweets that a user has replied to or quoted, which provide additional contextual information for understanding the intent behind a tweet.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The inclusion of context tweets improves abusive language detection by helping models better understand user intent.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Tweet (1) expresses frustration about wheelchair users boarding a bus, providing context for the user's emotional state.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Tweet (2) is labeled abusive due to the use of vulgar language, and its intent is better understood when viewed in context with tweet (1).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "An as**ole refers to a derogatory or offensive term used to describe someone in a disrespectful manner.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Context tweet (3) helps identify the target of malice in abusive tweet (4) by providing background information about the event described.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Role"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Abusive tweet (4) expresses hostility and malice toward a specific individual, questioning their identity and calling them 'sick people'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "Huang et al. used attributes of context tweets to improve a baseline LSTM model for sentiment analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Meta-information such as author details, conversation type, and shared hashtags or emojis are highly dependent on data availability.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "Text sequences of context tweets are directly used as additional features in neural network models to avoid data dependency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The baseline LSTM model is used to convert context tweets into vectors for integration with labeled tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "In the CNN baseline model, the max-pooled layers of context and labeled tweets are concatenated to form the final representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Architecture"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "In the RNN model, the last hidden states of context and labeled tweets are concatenated to form the final representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Architecture"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The dataset classifies tweets into four labels: normal, spam, hateful, and abusive.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "Only 70,904 tweets were successfully crawled from the dataset of 99,996 tweet IDs due to deletions or account suspensions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "During data preprocessing, user IDs, URLs, and frequently used emojis are replaced with special tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preprocessing"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "Hashtags are segmented using a dedicated library to extract more content-related information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preprocessing"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Character-level representations are generated using a method proposed by Zhang et al. zhang2015character.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Tweets are transformed into one-hot encoded vectors using 70 character dimensions including letters, digits, and special characters.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Representation"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Vector representations are truncated based on TF-IDF values, selecting the top 14,000 (word-level) and 53,000 (character-level) terms to prevent overfitting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preprocessing"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Words appearing only once in the dataset are replaced with unknown tokens in neural network models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Preprocessing"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "The dataset is evaluated using 10-fold cross validation with five trials to ensure robust performance estimation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The dataset is randomly divided into training, development, and test sets in an 85:5:10 ratio.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Overall performance is evaluated using a weighted metric to account for class imbalance in the dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Metric"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Neural network models are more accurate than feature engineering based models (e.g., NB, SVM) except for the LR model, which has the same F1 score as the best CNN model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The best LR model has the same F1 score as the best CNN model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Among traditional machine learning models, the LR model is the most accurate in classifying abusive language, followed by ensemble models such as GBT and RF.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "Character-level representations improve F1 scores of SVM and RF classifiers but have no positive effect on other models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "RNN with LTC modules have the highest accuracy score among neural network models, but there are no significant improvements from its baseline or attention-added model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "HybridCNN does not improve the baseline CNN model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Character-level features significantly decrease the accuracy of classification for both CNN and RNN models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The use of context tweets has little effect on baseline models but noticeably improves several metrics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Effect"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "CNN with context tweets achieves the highest recall and F1 score for the 'hateful' label.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "RNN models with context tweets have the highest recall for 'abusive' tweets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Character-level features reduce classification accuracy for hate and abusive speech on Twitter due to lack of labeled data and label imbalance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Character-level features in traditional machine learning classifiers have positive results because models are trained with only the most significant character elements using TF-IDF values.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Variants of neural network models suffer from data insufficiency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The RNN-LTC model achieves the highest F1 score for 'spam' tweets at 0.551.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "CNN with context tweets achieves the highest F1 score for 'hateful' tweets at 0.309.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "Ensemble models of variant models and features are expected to yield additional improvements in future work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Bidirectional GRU networks with LTC provide the most accurate results in detecting abusive language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Performance"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "10 randomized decision trees",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "10-fold cross validation",
+      "Evaluation",
+      "s68"
+    ],
+    [
+      "100K tweets",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "50 dimensional hidden states",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "6 convolutional filters",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "70,904 tweets",
+      "Result",
+      "s61"
+    ],
+    [
+      "85:5:10 data split",
+      "Evaluation",
+      "s69"
+    ],
+    [
+      "ASRI",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Adam BIBREF18",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "BIBREF12",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "BIBREF13",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "BIBREF14",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "BIBREF15",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "BIBREF16",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Badjatiya et al.",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Bag Of Words",
+      "Method",
+      "s23"
+    ],
+    [
+      "Bag Of Words",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "CNN",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "CNN and RNN models",
+      "Effect",
+      "s77"
+    ],
+    [
+      "CNN baseline model",
+      "Architecture",
+      "s58"
+    ],
+    [
+      "CNN with context tweets",
+      "Result",
+      "s79"
+    ],
+    [
+      "CNN with context tweets",
+      "Result",
+      "s85"
+    ],
+    [
+      "Continuous Bag Of Words",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Continuous Bag Of Words",
+      "Method",
+      "s17"
+    ],
+    [
+      "Convolutional Neural Networks",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Convolutional Neural Networks",
+      "Method",
+      "s25"
+    ],
+    [
+      "Convolutional Neural Networks",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "Convolutional Neural Networks (CNN)",
+      "Definition",
+      "s31"
+    ],
+    [
+      "Dataset Hate and Abusive Speech on Twitter",
+      "Classification",
+      "s60"
+    ],
+    [
+      "Department of Electrical and Computer Engineering",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Djuric et al.",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "F1 scores",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "Facebook",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "Founta et al.",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "GBT",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "GRU BIBREF20",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "GRU cell",
+      "Definition",
+      "s42"
+    ],
+    [
+      "GloVe",
+      "Definition",
+      "s33"
+    ],
+    [
+      "GloVe BIBREF17",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "Gradient Boosted Decision Trees",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Gradient Boosted Decision Trees",
+      "Method",
+      "s18"
+    ],
+    [
+      "Gradient Boosted Trees",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "Hate and Abusive Speech on Twitter",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "Hate and Abusive Speech on Twitter",
+      "Dataset",
+      "s8"
+    ],
+    [
+      "Hate and Abusive Speech on Twitter",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "Huang et al. huang2016modeling",
+      "Method",
+      "s54"
+    ],
+    [
+      "HybridCNN",
+      "Definition",
+      "s37"
+    ],
+    [
+      "HybridCNN",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "HybridCNN",
+      "Performance",
+      "s76"
+    ],
+    [
+      "HybridCNN",
+      "Result",
+      "s38"
+    ],
+    [
+      "In particular",
+      "Incomplete Passage",
+      "e4"
+    ],
+    [
+      "Ji Ho Park",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "K. Jung",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Kim's kim2014convolutional",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "Kim's kim2014convolutional implementation",
+      "Definition",
+      "s34"
+    ],
+    [
+      "Korea",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Korea government (MSIT)",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "L2 regularization",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "LR",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "LR model",
+      "Property",
+      "s72"
+    ],
+    [
+      "LTC modules",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "Latent Dirichlet Allocation",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Latent Dirichlet Allocation",
+      "Method",
+      "s16"
+    ],
+    [
+      "Latent Topic Clustering (LTC)",
+      "Definition",
+      "s46"
+    ],
+    [
+      "Latent Topic Clustering (LTC) BIBREF22",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "Logistic Regression",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Logistic Regression",
+      "Method",
+      "s27"
+    ],
+    [
+      "Logistic Regression",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "Ministry of Trade, Industry & Energy (MOTIE, Korea)",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Multinomial NB",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "NB",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "Naive Bayes",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Naive Bayes",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "National Research Foundation of Korea (NRF)",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Na\u00efve Bayes",
+      "Method",
+      "s14"
+    ],
+    [
+      "No. 2016M3C4A7952632",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Park and Fung park2017one",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "RF",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "RNN",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "RNN loss function",
+      "Property",
+      "s44"
+    ],
+    [
+      "RNN model",
+      "Architecture",
+      "s59"
+    ],
+    [
+      "RNN model configuration",
+      "Property",
+      "s43"
+    ],
+    [
+      "RNN models with context tweets",
+      "Result",
+      "s80"
+    ],
+    [
+      "RNN with LTC modules",
+      "Performance",
+      "s75"
+    ],
+    [
+      "RNN-LTC model",
+      "Result",
+      "s84"
+    ],
+    [
+      "Random Forests",
+      "Method",
+      "s28"
+    ],
+    [
+      "Random Forests",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "Razavi2010",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "ReLU activation",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "Recurrent Neural Networks",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Recurrent Neural Networks",
+      "Method",
+      "s26"
+    ],
+    [
+      "Recurrent Neural Networks",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "Recurrent Neural Networks (RNN)",
+      "Definition",
+      "s32"
+    ],
+    [
+      "SVM",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "SVM",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "Seoul",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Seoul National University",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Support Vector Machine",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Support Vector Machine",
+      "Method",
+      "s15"
+    ],
+    [
+      "Support Vector Machine",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "TF-IDF",
+      "Method",
+      "s24"
+    ],
+    [
+      "TF-IDF",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "TF-IDF",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "TF-IDF values",
+      "Preprocessing",
+      "s66"
+    ],
+    [
+      "Technology Innovation Program",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "Twitter",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e6"
+    ],
+    [
+      "Warner and Hirschberg",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Warner2012",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Xiang et al.",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Xiang2012",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "Yongkeun Hwang",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "abusive",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "abusive language",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "abusive language",
+      "Definition",
+      "s1"
+    ],
+    [
+      "abusive language",
+      "Related Terms",
+      "s2"
+    ],
+    [
+      "abusive language detection",
+      "Cause",
+      "s48"
+    ],
+    [
+      "abusive language detection",
+      "Challenge",
+      "s5"
+    ],
+    [
+      "abusive language detection",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "abusive language detection",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "abusive tweet (4)",
+      "Definition",
+      "s53"
+    ],
+    [
+      "additive smoothing constant 1",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "artificial intelligence",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "as**ole",
+      "Definition",
+      "s51"
+    ],
+    [
+      "baseline LSTM model",
+      "Model",
+      "s57"
+    ],
+    [
+      "baseline results",
+      "Result",
+      "s12"
+    ],
+    [
+      "bidirectional GRU",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "bidirectional GRU networks with LTC",
+      "Performance",
+      "s87"
+    ],
+    [
+      "bidirectional RNN",
+      "Definition",
+      "s41"
+    ],
+    [
+      "bidirectional RNN BIBREF19",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "character-level CNN",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "character-level CNN",
+      "Property",
+      "s36"
+    ],
+    [
+      "character-level features",
+      "Cause",
+      "s81"
+    ],
+    [
+      "character-level features",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "character-level features",
+      "Property",
+      "s22"
+    ],
+    [
+      "character-level representations",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "character-level representations",
+      "Effect",
+      "s74"
+    ],
+    [
+      "character-level representations",
+      "Method",
+      "s64"
+    ],
+    [
+      "character-level representations",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "character-level representations",
+      "Property",
+      "s19"
+    ],
+    [
+      "context tweet (3)",
+      "Role",
+      "s52"
+    ],
+    [
+      "context tweets",
+      "Definition",
+      "s47"
+    ],
+    [
+      "context tweets",
+      "Effect",
+      "s78"
+    ],
+    [
+      "context tweets",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "context tweets",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "context-dependent characteristics",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "context-dependent characteristics",
+      "Property",
+      "s6"
+    ],
+    [
+      "cross entropy with sigmoid",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "cross entropy with softmax",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "cross-validated labels",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "cyberbullying",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "data insufficiency",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "data preprocessing",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "deep learning models",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "deep learning models",
+      "Limitation",
+      "s9"
+    ],
+    [
+      "dimension of 1024",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "distributed word representations",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "ensemble models",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "ensemble models",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "ensemble models",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "ensemble models",
+      "Potential Improvement",
+      "s13"
+    ],
+    [
+      "ensemble models",
+      "Suggestion",
+      "s86"
+    ],
+    [
+      "existing datasets",
+      "Size",
+      "s7"
+    ],
+    [
+      "feature engineering",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "feature engineering based models",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "features",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "hashtags",
+      "Preprocessing",
+      "s63"
+    ],
+    [
+      "hate speech",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "hateful",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "human reviewers",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "input dropout probability of 0.3",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "label imbalance",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "large-scale datasets",
+      "Limitation",
+      "s30"
+    ],
+    [
+      "learning models",
+      "Evaluation",
+      "s11"
+    ],
+    [
+      "learning rate 1",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "limited-memory BFGS",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "linear SVM",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "logistic loss function",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "loss function",
+      "Property",
+      "s39"
+    ],
+    [
+      "machine learning classifiers",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "machine learning methods",
+      "Usage",
+      "s10"
+    ],
+    [
+      "max-pooling layer",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "meta-information",
+      "Property",
+      "s55"
+    ],
+    [
+      "n-grams",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "n-grams",
+      "Property",
+      "s21"
+    ],
+    [
+      "neural network based models",
+      "Method",
+      "s29"
+    ],
+    [
+      "neural network based models",
+      "Model Implementations",
+      "e3"
+    ],
+    [
+      "neural network models",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "neural network models",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "neural network models",
+      "Comparison",
+      "s71"
+    ],
+    [
+      "neural network models",
+      "Limitation",
+      "s83"
+    ],
+    [
+      "neural network models",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "normal",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "offensive language",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "one-hot encoded vectors",
+      "Representation",
+      "s65"
+    ],
+    [
+      "online harassment",
+      "Definition",
+      "s3"
+    ],
+    [
+      "optimizer",
+      "Property",
+      "s40"
+    ],
+    [
+      "paragraph2vec",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "precision",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "recall",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "self-matching attention mechanism",
+      "Definition",
+      "s45"
+    ],
+    [
+      "self-matching attention mechanism BIBREF21",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "social media companies",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "social media companies",
+      "Action",
+      "s4"
+    ],
+    [
+      "spam",
+      "Model Performance Analysis",
+      "e7"
+    ],
+    [
+      "subjectivity",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "text sequences of context tweets",
+      "Feature",
+      "s56"
+    ],
+    [
+      "traditional machine learning",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "traditional machine learning classifiers",
+      "Property",
+      "s82"
+    ],
+    [
+      "traditional machine learning models",
+      "Performance",
+      "s73"
+    ],
+    [
+      "tweet (1)",
+      "Example",
+      "s49"
+    ],
+    [
+      "tweet (2)",
+      "Example",
+      "s50"
+    ],
+    [
+      "tweet context",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "unknown tokens",
+      "Preprocessing",
+      "s67"
+    ],
+    [
+      "user IDs, URLs, emojis",
+      "Preprocessing",
+      "s62"
+    ],
+    [
+      "user reporting processes",
+      "Abusive Language Detection",
+      "e1"
+    ],
+    [
+      "variant models",
+      "Model Ensemble Methods",
+      "e8"
+    ],
+    [
+      "vulgar language",
+      "Model Evaluation in Abusive Language Detection",
+      "e5"
+    ],
+    [
+      "weighted evaluation",
+      "Metric",
+      "s70"
+    ],
+    [
+      "word-level CNN",
+      "Property",
+      "s35"
+    ],
+    [
+      "word-level features",
+      "Abusive Language Detection Methods",
+      "e2"
+    ],
+    [
+      "word-level features",
+      "Property",
+      "s20"
+    ]
+  ]
+}

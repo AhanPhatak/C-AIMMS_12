@@ -1,0 +1,3740 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 13,
+    "n_semantic": 99,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Creative Commons Attribution 4.0 International Licence": {
+      "tag_set": [
+        "Definition",
+        "Facebook Emotion Detection"
+      ]
+    },
+    "February 2016": {
+      "tag_set": [
+        "Facebook Emotion Detection",
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Facebook reaction feature": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "joy": {
+      "tag_set": [
+        "Definition",
+        "Emotion Mapping and Page Selection",
+        "Facebook Emotion Detection"
+      ]
+    },
+    "surprise": {
+      "tag_set": [
+        "Definition",
+        "Emotion Mapping and Page Selection",
+        "Facebook Emotion Detection"
+      ]
+    },
+    "like": {
+      "tag_set": [
+        "Emotion Labeling",
+        "Facebook Emotion Detection"
+      ]
+    },
+    "targeted advertising": {
+      "tag_set": [
+        "Application",
+        "Facebook Emotion Detection"
+      ]
+    },
+    "social monitoring": {
+      "tag_set": [
+        "Application",
+        "Facebook Emotion Detection"
+      ]
+    },
+    "health care": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "education": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "automatic detection": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "manually annotated datasets": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "supervised models": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "unsupervised methods": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "lexica": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "distant supervision": {
+      "tag_set": [
+        "Definition",
+        "Facebook Emotion Detection"
+      ]
+    },
+    "emoticons": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "Twitter hashtags": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "Hashtag Emotion Lexicon": {
+      "tag_set": [
+        "Facebook Emotion Detection",
+        "Result"
+      ]
+    },
+    "mohammad2015using": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "hallsmarmulti": {
+      "tag_set": [
+        "Facebook Emotion Detection"
+      ]
+    },
+    "Support Vector Machine models": {
+      "tag_set": [
+        "Facebook Emotion Detection",
+        "Method"
+      ]
+    },
+    "Facebook reactions": {
+      "tag_set": [
+        "Definition",
+        "Emotion Classification Model",
+        "Facebook Emotion Detection",
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Facebook": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Facebook API": {
+      "tag_set": [
+        "Facebook Emotion Labels",
+        "Property"
+      ]
+    },
+    "Facebook-sdk": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Like": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Love": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Haha": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Wow": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Sad": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Angry": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "thankful": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Mother's Day": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "May 2016": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "FoxNews": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "Emotion Classification in Headlines",
+        "Facebook Emotion Labels"
+      ]
+    },
+    "ESPN": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "New York Times": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Time magazine": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Huffington Post Weird News": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "The Guardian": {
+      "tag_set": [
+        "Facebook Emotion Labels",
+        "Feature Selection"
+      ]
+    },
+    "Cartoon Network": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Cooking Light": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Home Cooking Adventure": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Justin Bieber": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Nickelodeon": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Spongebob": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "Disney": {
+      "tag_set": [
+        "Facebook Emotion Labels",
+        "Feature Selection",
+        "Property"
+      ]
+    },
+    "1000 posts": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "public pages": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "domain-adaptation": {
+      "tag_set": [
+        "Facebook Emotion Labels",
+        "Result"
+      ]
+    },
+    "emotion labels": {
+      "tag_set": [
+        "Facebook Emotion Labels",
+        "Property"
+      ]
+    },
+    "evaluation datasets": {
+      "tag_set": [
+        "Facebook Emotion Labels"
+      ]
+    },
+    "2016": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "reaction vector": {
+      "tag_set": [
+        "Definition",
+        "Emotion Labeling"
+      ]
+    },
+    "frequency values": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "timestamp": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "post": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "emotion label": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "sad": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "284": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "FIGREF3": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "emotion vectors": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "entropy-based selection": {
+      "tag_set": [
+        "Emotion Labeling"
+      ]
+    },
+    "Affective Text dataset": {
+      "tag_set": [
+        "Dataset Overview",
+        "Definition",
+        "Method",
+        "Property",
+        "Result",
+        "Use"
+      ]
+    },
+    "Fairy Tales dataset": {
+      "tag_set": [
+        "Dataset Overview",
+        "Definition",
+        "Property",
+        "Use"
+      ]
+    },
+    "ISEAR dataset": {
+      "tag_set": [
+        "Dataset Overview",
+        "Definition",
+        "Property",
+        "Result",
+        "Use"
+      ]
+    },
+    "emotion detection systems": {
+      "tag_set": [
+        "Dataset Overview"
+      ]
+    },
+    "emotions": {
+      "tag_set": [
+        "Dataset Overview",
+        "Emotion Classification in Headlines",
+        "Feature Selection"
+      ]
+    },
+    "distribution": {
+      "tag_set": [
+        "Dataset Overview"
+      ]
+    },
+    "Facebook posts": {
+      "tag_set": [
+        "Dataset Overview"
+      ]
+    },
+    "Section SECREF7": {
+      "tag_set": [
+        "Dataset Overview"
+      ]
+    },
+    "Table TABREF8": {
+      "tag_set": [
+        "Dataset Overview",
+        "Emotion Mapping and Page Selection",
+        "Result"
+      ]
+    },
+    "development portion": {
+      "tag_set": [
+        "Dataset Overview"
+      ]
+    },
+    "Section SECREF4": {
+      "tag_set": [
+        "Dataset Overview"
+      ]
+    },
+    "benchmark evaluation": {
+      "tag_set": [
+        "Dataset Overview"
+      ]
+    },
+    "1": {
+      "tag_set": [
+        "Invalid Input"
+      ]
+    },
+    "SemEval 2007": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Emotion Classification in Headlines",
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "valence": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "news headlines": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Google News": {
+      "tag_set": [
+        "Emotion Classification in Headlines",
+        "Feature Selection"
+      ]
+    },
+    "The New York Times": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "BBC News": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Anger": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Disgust": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Fear": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Joy": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Sadness": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Surprise": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "Ekman's standard": {
+      "tag_set": [
+        "Emotion Classification in Headlines"
+      ]
+    },
+    "model": {
+      "tag_set": [
+        "Model Reference"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Model Reference"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "Facebook data": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "anger": {
+      "tag_set": [
+        "Definition",
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "sadness": {
+      "tag_set": [
+        "Definition",
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "Figure FIGREF9": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection",
+        "Result"
+      ]
+    },
+    "Section SECREF2": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "Section SECREF5": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "Section SECREF6": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "Affective data set": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "SemEval's 2007 Task 14": {
+      "tag_set": [
+        "Definition",
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "250 annotated sentences": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "Affective development": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "test set": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "cooking": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "tv-shows": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "news": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "posts": {
+      "tag_set": [
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "majority emotion": {
+      "tag_set": [
+        "Emotion Classification Model",
+        "Emotion Mapping and Page Selection"
+      ]
+    },
+    "SVM": {
+      "tag_set": [
+        "Definition",
+        "Feature Selection"
+      ]
+    },
+    "bag-of-words": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "Scikit-learn": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "development data": {
+      "tag_set": [
+        "Emotion Detection Ambiguity",
+        "Feature Selection"
+      ]
+    },
+    "Time": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "Joy class": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "NRC10 Lexicon": {
+      "tag_set": [
+        "Definition",
+        "Embedding Retrofiting",
+        "Feature Selection"
+      ]
+    },
+    "tf-idf": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "ngrams": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "negation words": {
+      "tag_set": [
+        "Feature",
+        "Feature Selection"
+      ]
+    },
+    "punctuation": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "Word Embeddings": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "skip-gram": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "300-dimensional vectors": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "3 million words": {
+      "tag_set": [
+        "Feature Selection"
+      ]
+    },
+    "Facebook embeddings": {
+      "tag_set": [
+        "Definition",
+        "Embedding Retrofiting"
+      ]
+    },
+    "20,000 sentences": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "gensim library": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "window size of 5": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "learning rate of 0.01": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "dimensionality of 100": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "frequency lower than 2": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "Retrofitted embeddings": {
+      "tag_set": [
+        "Definition",
+        "Embedding Retrofiting"
+      ]
+    },
+    "emotion-similar words": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "Google embeddings": {
+      "tag_set": [
+        "Definition",
+        "Embedding Retrofiting",
+        "Property"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "Embedding Retrofiting",
+        "Emotion Classification Model"
+      ]
+    },
+    "micro-average f-score": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "tf-idf bag-of-words": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "BIBREF16": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "BIBREF17": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "BIBREF18": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "TABREF20": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "TABREF26": {
+      "tag_set": [
+        "Embedding Retrofiting"
+      ]
+    },
+    "B-M model": {
+      "tag_set": [
+        "Definition",
+        "Emotion Classification Model"
+      ]
+    },
+    "Facebook pages": {
+      "tag_set": [
+        "Emotion Classification Model",
+        "Property"
+      ]
+    },
+    "emotion distribution": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "feature set": {
+      "tag_set": [
+        "Definition",
+        "Emotion Classification Model"
+      ]
+    },
+    "Google-based embeddings": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "lexicon": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "distant supervised setting": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "continuous vector representations": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "domain adaptation": {
+      "tag_set": [
+        "Emotion Classification Model",
+        "Property"
+      ]
+    },
+    "Tang:14": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "Iacobacci2015sensembed": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "FB-embeddings": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "external lexicon": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "training instances": {
+      "tag_set": [
+        "Emotion Classification Model",
+        "Suggestion"
+      ]
+    },
+    "post length": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "quotes": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "captions": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "linked HTML pages": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "entropy-based measure": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "strong emotion": {
+      "tag_set": [
+        "Emotion Classification Model"
+      ]
+    },
+    "Copa America": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "Chile": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "Colombia": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "Fox News": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "The Late Night Show": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "BIBREF24": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "personal traits": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "audience": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "label distribution": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "vocabulary overlap": {
+      "tag_set": [
+        "Emotion Detection Ambiguity",
+        "Suggestion"
+      ]
+    },
+    "single models": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "multi-label task": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "Lucia Passaro": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "Barbara Plank": {
+      "tag_set": [
+        "Emotion Detection Ambiguity"
+      ]
+    },
+    "social media messages": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "emotion lexica": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "distributed vector representations": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Facebook reactions as proxies for emotion labels": {
+      "tag_set": [
+        "Innovation"
+      ]
+    },
+    "manual annotation of emotion data": {
+      "tag_set": [
+        "Challenge"
+      ]
+    },
+    "training data selection": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "thankful reaction": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "emotion vector to label conversion": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "post collection method": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Emotion labels in Affective Text dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Emotion labels in Fairy Tales dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Emotion labels in ISEAR dataset": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Emotion mapping": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "news pages": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "cooking pages": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "tv-shows pages": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Affective development set": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "page selection": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "feature selection": {
+      "tag_set": [
+        "Decision",
+        "Method"
+      ]
+    },
+    "interaction between pages and features": {
+      "tag_set": [
+        "Future Work"
+      ]
+    },
+    "bag-of-words model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "development dataset": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "best model (B-M)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Time and The Guardian": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "affective development set": {
+      "tag_set": [
+        "Usage"
+      ]
+    },
+    "tf-idf bag-of-words feature": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "word (2-3) and character (2-5) ngrams": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "punctuation usage": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Feature"
+      ]
+    },
+    "Facebook embeddings training parameters": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Facebook embeddings filtering": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Retrofitting method": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "NRC Lexicon": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Retrofitting effect on Google embeddings": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Retrofitting effect on Facebook embeddings": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "tf-idf performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "class score variation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "feature combination performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "removal of Lexicon feature": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "f-score calculation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "emotion classification": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "emotion-aware embeddings": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "retrofitting FB-embeddings": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "entropy-based post selection": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "Facebook page selection": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "Chile vs. Colombia football match": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "Fox News vs. The Late Night Show": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "emotion detection task": {
+      "tag_set": [
+        "Theoretical Issue"
+      ]
+    },
+    "multi-label emotion modeling": {
+      "tag_set": [
+        "Suggestion"
+      ]
+    },
+    "Lucia Passaro and Barbara Plank": {
+      "tag_set": [
+        "Acknowledgement"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction This work is licenced under a Creative Commons Attribution 4.0 International Licence. Licence details: http://creativecommons.org/licenses/by/4.0/ In the spirit of the brevity of social media's messages and reactions, people have got used to express feelings minimally and symbolically, as with hashtags on Twitter and Instagram. On Facebook, people tend to be more wordy, but posts normally receive more simple \u201clikes\u201d than longer comments. Since February 2016, Facebook users can express specific emotions in response to a post thanks to the newly introduced reaction feature (see Section SECREF2 ), so that now a post can be wordlessly marked with an expression of say \u201cjoy\" or \u201csurprise\" rather than a generic \u201clike\u201d. It has been observed that this new feature helps Facebook to know much more about their users and exploit this information for targeted advertising BIBREF0 , but interest in people's opinions and how they feel isn't limited to commercial reasons, as it invests social monitoring, too, including health care and education BIBREF1 . However, emotions and opinions are not always expressed this explicitly, so that there is high interest in developing systems towards their automatic detection. Creating manually annotated datasets large enough to train supervised models is not only costly, but also\u2014especially in the case of opinions and emotions\u2014difficult, due to the intrinsic subjectivity of the task BIBREF2 , BIBREF3 . Therefore, research has focused on unsupervised methods enriched with information derived from lexica, which are manually created BIBREF3 , BIBREF4 . Since go2009twitter have shown that happy and sad emoticons can be successfully used as signals for sentiment labels, distant supervision, i.e. using some reasonably safe signals as proxies for automatically labelling training data BIBREF5 , has been used also for emotion recognition, for example exploiting both emoticons and Twitter hashtags BIBREF6 , but mainly towards creating emotion lexica. mohammad2015using use hashtags, experimenting also with highly fine-grained emotion sets (up to almost 600 emotion labels), to create the large Hashtag Emotion Lexicon. Emoticons are used as proxies also by hallsmarmulti, who use distributed vector representations to find which words are interchangeable with emoticons but also which emoticons are used in a similar context. We take advantage of distant supervision by using Facebook reactions as proxies for emotion labels, which to the best of our knowledge hasn't been done yet, and we train a set of Support Vector Machine models for emotion recognition. Our models, differently from existing ones, exploit",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Facebook Emotion Detection"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "information which is acquired entirely automatically, and achieve competitive or even state-of-the-art results for some of the emotion labels on existing, standard evaluation datasets. For explanatory purposes, related work is discussed further and more in detail when we describe the benchmarks for evaluation (Section SECREF3 ) and when we compare our models to existing ones (Section SECREF5 ). We also explore and discuss how choosing different sets of Facebook pages as training data provides an intrinsic domain-adaptation method. Facebook reactions as labels For years, on Facebook people could leave comments to posts, and also \u201clike\u201d them, by using a thumbs-up feature to explicitly express a generic, rather underspecified, approval. A \u201clike\u201d could thus mean \u201cI like what you said\", but also \u201cI like that you bring up such topic (though I find the content of the article you linked annoying)\". In February 2016, after a short trial, Facebook made a more explicit reaction feature available world-wide. Rather than allowing for the underspecified \u201clike\u201d as the only wordless response to a post, a set of six more specific reactions was introduced, as shown in Figure FIGREF1 : Like, Love, Haha, Wow, Sad and Angry. We use such reactions as proxies for emotion labels associated to posts. We collected Facebook posts and their corresponding reactions from public pages using the Facebook API, which we accessed via the Facebook-sdk python library. We chose different pages (and therefore domains and stances), aiming at a balanced and varied dataset, but we did so mainly based on intuition (see Section SECREF4 ) and with an eye to the nature of the datasets available for evaluation (see Section SECREF5 ). The choice of which pages to select posts from is far from trivial, and we believe this is actually an interesting aspect of our approach, as by using different Facebook pages one can intrinsically tackle the domain-adaptation problem (See Section SECREF6 for further discussion on this). The final collection of Facebook pages for the experiments described in this paper is as follows: FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney. Note that thankful was only available during specific time spans related to certain events, as Mother's Day in May 2016. For each page, we downloaded the latest 1000 posts, or the maximum available if there are fewer, from February",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Facebook Emotion Labels"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "2016, retrieving the counts of reactions for each post. The output is a JSON file containing a list of dictionaries with a timestamp, the post and a reaction vector with frequency values, which indicate how many users used that reaction in response to the post (Figure FIGREF3 ). The resulting emotion vectors must then be turned into an emotion label. In the context of this experiment, we made the simple decision of associating to each post the emotion with the highest count, ignoring like as it is the default and most generic reaction people tend to use. Therefore, for example, to the first post in Figure FIGREF3 , we would associate the label sad, as it has the highest score (284) among the meaningful emotions we consider, though it also has non-zero scores for other emotions. At this stage, we didn't perform any other entropy-based selection of posts, to be investigated in future work. Emotion datasets",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Labeling"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "Three datasets annotated with emotions are commonly used for the development and evaluation of emotion detection systems, namely the Affective Text dataset, the Fairy Tales dataset, and the ISEAR dataset. In order to compare our performance to state-of-the-art results, we have used them as well. In this Section, in addition to a description of each dataset, we provide an overview of the emotions used, their distribution, and how we mapped them to those we obtained from Facebook posts in Section SECREF7 . A summary is provided in Table TABREF8 , which also shows, in the bottom row, what role each dataset has in our experiments: apart from the development portion of the Affective Text, which we used to develop our models (Section SECREF4 ), all three have been used as benchmarks for our evaluation.\nAffective Text dataset\nTask",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Overview"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "1",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Invalid Input"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "4 at SemEval 2007 BIBREF7 was concerned with the classification of emotions and valence in news headlines. The headlines where collected from several news websites including Google news, The New York Times, BBC News and CNN. The used emotion labels were Anger, Disgust, Fear, Joy, Sadness, Surprise, in line with the six basic emotions of Ekman's standard",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Classification in Headlines"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "model BIBREF8 .",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Reference"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "Valence was to be determined as positive or negative. Classification of emotion and valence were treated as separate tasks. Emotion labels were not considered as mututally exclusive, and each emotion was assigned a score from 0 to 100. Training/developing data amounted to 250 annotated headlines (Affective development), while systems were evaluated on another 1000 (Affective test). Evaluation was done using two different methods: a fine-grained evaluation using Pearson's r to measure the correlation between the system scores and the gold standard; and a coarse-grained method where each emotion score was converted to a binary label, and precision, recall, and f-score were computed to assess performance. As it is done in most works that use this dataset BIBREF3 , BIBREF4 , BIBREF9 , we also treat this as a classification problem (coarse-grained). This dataset has been extensively used for the evaluation of various unsupervised methods BIBREF2 , but also for testing different supervised learning techniques and feature portability BIBREF10 . Fairy Tales dataset This is a dataset collected by alm2008affect, where about 1,000 sentences from fairy tales (by B. Potter, H.C. Andersen and Grimm) were annotated with the same six emotions of the Affective Text dataset, though with different names: Angry, Disgusted, Fearful, Happy, Sad, and Surprised. In most works that use this dataset BIBREF3 , BIBREF4 , BIBREF9 , only sentences where all annotators agreed are used, and the labels angry and disgusted are merged. We adopt the same choices. ISEAR The ISEAR (International Survey on Emotion Antecedents and Reactions BIBREF11 , BIBREF12 ) is a dataset created in the context of a psychology project of the 1990s, by collecting questionnaires answered by people with different cultural backgrounds. The main aim of this project was to gather insights in cross-cultural aspects of emotional reactions. Student respondents, both psychologists and non-psychologists, were asked to report situations in which they had experienced all of seven major emotions (joy, fear, anger, sadness, disgust, shame and guilt). In each case, the questions covered the way they had appraised a given situation and how they reacted. The final dataset contains reports by approximately 3000 respondents from all over the world, for a total of 7665 sentences labelled with an emotion, making this the largest dataset out of the three we use. Overview of datasets and emotions We summarise datasets and emotion distribution from two viewpoints. First, because there are different sets of emotions labels in",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "the datasets and Facebook data, we need to provide a mapping and derive a subset of emotions that we are going to use for the experiments. This is shown in Table TABREF8 , where in the \u201cMapped\u201d column we report the final emotions we use in this paper: anger, joy, sadness, surprise. All labels in each dataset are mapped to these final emotions, which are therefore the labels we use for training and testing our models. Second, the distribution of the emotions for each dataset is different, as can be seen in Figure FIGREF9 . In Figure FIGREF9 we also provide the distribution of the emotions anger, joy, sadness, surprise per Facebook page, in terms of number of posts (recall that we assign to a post the label corresponding to the majority emotion associated to it, see Section SECREF2 ). We can observe that for example pages about news tend to have more sadness and anger posts, while pages about cooking and tv-shows have a high percentage of joy posts. We will use this information to find the best set of pages for a given target domain (see Section SECREF5 ). Model There are two main decisions to be taken in developing our model: (i) which Facebook pages to select as training data, and (ii) which features to use to train the model, which we discuss below. Specifically, we first set on a subset of pages and then experiment with features. Further exploration of the interaction between choice of pages and choice of features is left to future work, and partly discussed in Section SECREF6 . For development, we use a small portion of the Affective data set described in Section SECREF4 , that is the portion that had been released as development set for SemEval's 2007 Task 14 BIBREF7 , which contains 250 annotated sentences (Affective development, Section SECREF4 ). All results reported in this section are on this dataset. The test set of Task 14 as well as the other two datasets described in Section SECREF3 will be used to evaluate the final models (Section SECREF4 ). Selecting Facebook pages Although page selection is a crucial ingredient of this approach, which we believe calls for further and deeper, dedicated investigation, for the experiments described here we took a rather simple approach. First, we selected the pages that would provide training data based on intuition and availability, then chose",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Mapping and Page Selection"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "different combinations according to results of a basic model run on development data, and eventually tested feature combinations, still on the development set. For the sake of simplicity and transparency, we first trained an SVM with a simple bag-of-words model and default parameters as per the Scikit-learn implementation BIBREF13 on different combinations of pages. Based on results of the attempted combinations as well as on the distribution of emotions in the development dataset (Figure FIGREF9 ), we selected a best model (B-M), namely the combined set of Time, The Guardian and Disney, which yields the highest results on development data. Time and The Guardian perform well on most emotions but Disney helps to boost the performance for the Joy class. Features In selecting appropriate features, we mainly relied on previous work and intuition. We experimented with different combinations, and all tests were still done on Affective development, using the pages for the best model (B-M) described above as training data. Results are in Table TABREF20 . Future work will further explore the simultaneous selection of features and page combinations. We use a set of basic text-based features to capture the emotion class. These include a tf-idf bag-of-words feature, word (2-3) and character (2-5) ngrams, and features related to the presence of negation words, and to the usage of punctuation. This feature is used in all unsupervised models as a source of information, and we mainly include it to assess its contribution, but eventually do not use it in our final model. We used the NRC10 Lexicon because it performed best in the experiments by BIBREF10 , which is built around the emotions anger, anticipation, disgust, fear, joy, sadness, and surprise, and the valence values positive and negative. For each word in the lexicon, a boolean value indicating presence or absence is associated to each emotion. For a whole sentence, a global score per emotion can be obtained by summing the vectors for all content words of that sentence included in the lexicon, and used as feature. As additional feature, we also included Word Embeddings, namely distributed representations of words in a vector space, which have been exceptionally successful in boosting performance in a plethora of NLP tasks. We use three different embeddings: Google embeddings: pre-trained embeddings trained on Google News and obtained with the skip-gram architecture described in BIBREF14 . This model contains 300-dimensional vectors for 3 million words and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Feature Selection"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "phrases. Facebook embeddings: embeddings that we trained on our scraped Facebook pages for a total of 20,000 sentences. Using the gensim library BIBREF15 , we trained the embeddings with the following parameters: window size of 5, learning rate of 0.01 and dimensionality of 100. We filtered out words with frequency lower than 2 occurrences. Retrofitted embeddings: Retrofitting BIBREF16 has been shown as a simple but efficient way of informing trained embeddings with additional information derived from some lexical resource, rather than including it directly at the training stage, as it's done for example to create sense-aware BIBREF17 or sentiment-aware BIBREF18 embeddings. In this work, we retrofit general embeddings to include information about emotions, so that emotion-similar words can get closer in space. Both the Google as well as our Facebook embeddings were retrofitted with lexical information obtained from the NRC10 Lexicon mentioned above, which provides emotion-similarity for each token. Note that differently from the previous two types of embeddings, the retrofitted ones do rely on handcrafted information in the form of a lexical resource. Results on development set We report precision, recall, and f-score on the development set. The average f-score is reported as micro-average, to better account for the skewed distribution of the classes as well as in accordance to what is usually reported for this task BIBREF19 . From Table TABREF20 we draw three main observations. First, a simple tf-idf bag-of-word mode works already very well, to the point that the other textual and lexicon-based features don't seem to contribute to the overall f-score (0.368), although there is a rather substantial variation of scores per class. Second, Google embeddings perform a lot better than Facebook embeddings, and this is likely due to the size of the corpus used for training. Retrofitting doesn't seem to help at all for the Google embeddings, but it does boost the Facebook embeddings, leading to think that with little data, more accurate task-related information is helping, but corpus size matters most. Third, in combination with embeddings, all features work better than just using tf-idf, but removing the Lexicon feature, which is the only one based on hand-crafted resources, yields even better results. Then our best model (B-M) on development data relies entirely on automatically obtained information, both in terms of training data as well as features. Results In Table TABREF26 we report the results of our model on the three datasets standardly used",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Embedding Retrofiting"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "for the evaluation of emotion classification, which we have described in Section SECREF3 . Our B-M model relies on subsets of Facebook pages for training, which were chosen according to their performance on the development set as well as on the observation of emotions distribution on different pages and in the different datasets, as described in Section SECREF4 . The feature set we use is our best on the development set, namely all the features plus Google-based embeddings, but excluding the lexicon. This makes our approach completely independent of any manual annotation or handcrafted resource. Our model's performance is compared to the following systems, for which results are reported in the referred literature. Please note that no other existing model was re-implemented, and results are those reported in the respective papers. Discussion, conclusions and future work We have explored the potential of using Facebook reactions in a distant supervised setting to perform emotion classification. The evaluation on standard benchmarks shows that models trained as such, especially when enhanced with continuous vector representations, can achieve competitive results without relying on any handcrafted resource. An interesting aspect of our approach is the view to domain adaptation via the selection of Facebook pages to be used as training data. We believe that this approach has a lot of potential, and we see the following directions for improvement. Feature-wise, we want to train emotion-aware embeddings, in the vein of work by tang:14, and iacobacci2015sensembed. Retrofitting FB-embeddings trained on a larger corpus might also be successful, but would rely on an external lexicon. The largest room for yielding not only better results but also interesting insights on extensions of this approach lies in the choice of training instances, both in terms of Facebook pages to get posts from, as well as in which posts to select from the given pages. For the latter, one could for example only select posts that have a certain length, ignore posts that are only quotes or captions to images, or expand posts by including content from linked html pages, which might provide larger and better contexts BIBREF23 . Additionally, and most importantly, one could use an entropy-based measure to select only posts that have a strong emotion rather than just considering the majority emotion as training label. For the former, namely the choice of Facebook pages, which we believe deserves the most investigation, one could explore several avenues, especially",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Classification Model"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "in relation to stance-based issues BIBREF24 . In our dataset, for example, a post about Chile beating Colombia in a football match during the Copa America had very contradictory reactions, depending on which side readers would cheer for. Similarly, the very same political event, for example, would get very different reactions from readers if it was posted on Fox News or The Late Night Show, as the target audience is likely to feel very differently about the same issue. This also brings up theoretical issues related more generally to the definition of the emotion detection task, as it's strongly dependent on personal traits of the audience. Also, in this work, pages initially selected on availability and intuition were further grouped into sets to make training data according to performance on development data, and label distribution. Another criterion to be exploited would be vocabulary overlap between the pages and the datasets. Lastly, we could develop single models for each emotion, treating the problem as a multi-label task. This would even better reflect the ambiguity and subjectivity intrinsic to assigning emotions to text, where content could be at same time joyful or sad, depending on the reader. Acknowledgements In addition to the anonymous reviewers, we want to thank Lucia Passaro and Barbara Plank for insightful discussions, and for providing comments on draft versions of this paper.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Emotion Detection Ambiguity"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "The Creative Commons Attribution 4.0 International Licence allows users to share and adapt the work as long as proper attribution is given.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Social media messages are often brief and expressed minimally using symbolic elements such as hashtags.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Facebook reactions are specific emotional expressions (e.g., joy, surprise) that users can select in response to a post, replacing generic 'likes'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Distant supervision is a method that uses reasonably safe signals, such as emoticons or hashtags, to automatically label training data without manual annotation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "Emotion lexica are manually created collections of words or phrases associated with specific emotions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "The Hashtag Emotion Lexicon contains up to nearly 600 emotion labels, created by using hashtags and fine-grained emotion sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Distributed vector representations are used to identify words that are interchangeable with emoticons or used in similar contexts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Using Facebook reactions as proxies for emotion labels is a novel approach that has not been previously explored in emotion recognition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Innovation"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The study trains Support Vector Machine models for emotion recognition using Facebook reactions as emotional signals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Creating manually annotated datasets for emotion and opinion detection is costly and difficult due to the subjective nature of human emotions and opinions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Challenge"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Facebook uses emotion data to improve targeted advertising by understanding user emotional states.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "Emotion and opinion detection is used in social monitoring for areas such as healthcare and education.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Facebook reactions are six specific emotional responses introduced in February 2016, including Like, Love, Haha, Wow, Sad, and Angry, used as proxies for emotion labels in posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Emotion labels are derived from the reaction counts in Facebook posts, with the label assigned to the reaction having the highest count, excluding 'Like' as a default generic reaction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The Facebook API was used to collect Facebook posts and their corresponding reaction counts from public pages via the Facebook-sdk python library.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "Choosing different sets of Facebook pages as training data provides an intrinsic domain-adaptation method by exposing models to diverse domains and stances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "These are the Facebook pages from which posts were collected for the emotion dataset, selected for balanced and varied content across domains and public interest.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The 'thankful' reaction was only available during specific time spans, such as Mother's Day in May 2016, and was not available throughout the dataset period.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "A reaction vector contains frequency values indicating how many users used each reaction in response to a post.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The emotion vector is converted to a single emotion label by selecting the reaction with the highest count, ignoring the 'Like' reaction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Using different Facebook pages as training data enables intrinsic domain-adaptation, allowing models to generalize across diverse content and user behaviors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "The latest 1000 posts (or fewer if available) from each page were downloaded from February 2016, with reaction counts recorded for each post.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The Affective Text dataset is a collection of news headlines from sources such as Google News, The New York Times, BBC News, and CNN, annotated with six basic emotions: Anger, Disgust, Fear, Joy, Sadness, and Surprise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "The Affective Text dataset includes 250 annotated headlines for training and development, and 1000 headlines for evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Emotion and valence in the Affective Text dataset are classified as separate tasks, with emotions scored from 0 to 100 and valence labeled as positive or negative.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Evaluation of the Affective Text dataset uses both fine-grained (Pearson's r correlation) and coarse-grained (precision, recall, f-score) methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "The Fairy Tales dataset consists of approximately 1,000 sentences from fairy tales by B. Potter, H.C. Andersen, and Grimm, annotated with six emotions: Angry, Disgusted, Fearful, Happy, Sad, and Surprised.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "In the Fairy Tales dataset, only sentences where all annotators agreed are used, and the labels 'angry' and 'disgusted' are merged.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The ISEAR dataset is derived from questionnaires collected from approximately 3000 respondents worldwide, reporting emotional experiences in 7665 sentences across seven major emotions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The ISEAR dataset includes reports on seven major emotions: joy, fear, anger, sadness, disgust, shame, and guilt.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The ISEAR dataset contains 7665 sentences labeled with emotions, making it the largest of the three datasets used in the study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The development portion of the Affective Text dataset was used to train and develop the models in the study.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The Fairy Tales dataset was used as a benchmark for evaluating the performance of emotion detection systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The ISEAR dataset was used as a benchmark for evaluating the performance of emotion detection systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Use"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The emotion labels in the Affective Text dataset are Anger, Disgust, Fear, Joy, Sadness, and Surprise, aligning with Ekman's six basic emotions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The emotion labels in the Fairy Tales dataset are Angry, Disgusted, Fearful, Happy, Sad, and Surprised, which correspond to the same six emotions as the Affective Text dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The ISEAR dataset includes seven major emotions: joy, fear, anger, sadness, disgust, shame, and guilt.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The emotions from the three datasets were mapped to those obtained from Facebook posts in Section SECREF7.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "Anger is one of the four primary emotions used in the experiments, mapped from various datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "Joy is one of the four primary emotions used in the experiments, mapped from various datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Sadness is one of the four primary emotions used in the experiments, mapped from various datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "Surprise is one of the four primary emotions used in the experiments, mapped from various datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "Table TABREF8 reports the final emotions used in the paper: anger, joy, sadness, and surprise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "Figure FIGREF9 shows the distribution of emotions anger, joy, sadness, and surprise per Facebook page in terms of number of posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Pages about news tend to have more sadness and anger posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "Pages about cooking have a high percentage of joy posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "Pages about tv-shows have a high percentage of joy posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The Affective development set contains 250 annotated sentences released as the development set for SemEval's 2007 Task 14.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "SemEval's 2007 Task 14 is a benchmark task for affective text analysis, with a development set of 250 annotated sentences used for model development.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "Page selection is a crucial ingredient in the approach, though a simple intuitive approach is used in the experiments described.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "Training data is selected based on intuition and availability of Facebook pages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "The choice of features to use in training the model is one of the two main decisions in developing the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Decision"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "Further exploration of the interaction between choice of pages and choice of features is left for future work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Future Work"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "A support vector machine is used with a simple bag-of-words model and default parameters from Scikit-learn's implementation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The bag-of-words model is used with default parameters as per Scikit-learn implementation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The development dataset shows a distribution of emotions, which is used to guide model selection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The best model (B-M) consists of the combined set of Time, The Guardian, and Disney pages and achieves the highest performance on development data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Time and The Guardian perform well across most emotion classes in the development data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Disney specifically boosts performance in the Joy emotion class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "Feature selection is based on previous work and intuitive analysis of performance results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "All feature combination tests are conducted on the affective development set using the best model (B-M) as training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "A tf-idf bag-of-words feature is included to capture emotion class information in all unsupervised models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "Word and character n-grams of lengths 2 to 3 and 2 to 5, respectively, are used as text-based features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "Features related to the presence of negation words are included to capture sentiment nuances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "Features based on punctuation usage are included to enhance emotion detection.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "The NRC10 Lexicon is used because it performed best in prior experiments and includes emotions such as joy, sadness, fear, and valence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Word embeddings are used as additional features to boost model performance in NLP tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Google embeddings are pre-trained skip-gram models trained on Google News with 300-dimensional vectors for 3 million words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Facebook embeddings are trained on 20,000 sentences scraped from Facebook pages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "Facebook embeddings were trained with a window size of 5, a learning rate of 0.01, and a dimensionality of 100.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Words with frequency lower than 2 occurrences were filtered out during the training of Facebook embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Retrofitted embeddings are trained embeddings enhanced with lexical information from external resources without including it during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Retrofitting is used to incorporate emotion-similarity information from the NRC Lexicon into embeddings to bring emotion-similar words closer in space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The NRC Lexicon provides emotion-similarity scores for each token and is used to retrofit both Google and Facebook embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "Google embeddings perform better than Facebook embeddings, likely due to the larger size of the training corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Retrofitting does not improve Google embeddings, indicating that corpus size is more important than task-specific lexical information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Retrofitting improves Facebook embeddings, suggesting that with limited data, task-related lexical information helps compensate for data scarcity.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "A simple tf-idf bag-of-words model achieves a high f-score of 0.368, indicating that it performs well and other features do not significantly improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "There is substantial variation in f-scores across different classes, despite the overall high performance of tf-idf.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Combining embeddings with other features improves performance over using only tf-idf.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Removing the Lexicon feature, which is based on hand-crafted resources, leads to even better results than using it.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The best model (B-M) on the development set relies entirely on automatically obtained information, including training data and features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The average f-score on the development set is reported as micro-average to account for class imbalance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The B-M model is a emotion classification model that uses subsets of Facebook pages for training, selected based on development set performance and emotion distribution observations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Facebook pages are selected for training based on their performance on the development set and the observed emotion distribution across pages and datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The feature set used in the model includes all features plus Google-based embeddings, excluding lexicon-based features, making the approach independent of manual annotation or handcrafted resources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Models trained with Facebook reactions in a distant supervised setting, especially when enhanced with continuous vector representations, achieve competitive results without relying on handcrafted resources.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The approach employs domain adaptation through the selection of Facebook pages as training data, which has potential for improvement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Training emotion-aware embeddings, inspired by tang:14 and iacobacci2015sensembed, is a proposed feature-wise improvement to the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Retrofitting Facebook embeddings trained on a larger corpus could be successful but would require an external lexicon.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The selection of training instances\u2014such as posts of specific lengths or those from linked HTML pages\u2014can be improved to provide richer context and better training data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "An entropy-based measure can be used to select posts with strong emotions, rather than only using the majority emotion as a training label.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The choice of Facebook pages for training deserves significant investigation, especially in relation to stance-based issues and audience-specific reactions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "A post about Chile beating Colombia in the Copa America received contradictory reactions depending on which side of the match fans supported.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The same political event elicits different reactions on Fox News and The Late Night Show due to differences in audience perspectives.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The emotion detection task is strongly dependent on the personal traits and perspectives of the audience, raising theoretical questions about its definition.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Theoretical Issue"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "Vocabulary overlap between Facebook pages and datasets could be used as a criterion for selecting training pages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Developing single models for each emotion, treating the problem as a multi-label task, would better reflect the ambiguity and subjectivity in emotion assignment.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Suggestion"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Lucia Passaro and Barbara Plank are thanked for their insightful discussions and comments on draft versions of the paper.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Acknowledgement"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "1",
+      "Invalid Input",
+      "e5"
+    ],
+    [
+      "1000 posts",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "20,000 sentences",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "2016",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "250 annotated sentences",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "284",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "3 million words",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "300-dimensional vectors",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Affective Text dataset",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "Affective Text dataset",
+      "Definition",
+      "s23"
+    ],
+    [
+      "Affective Text dataset",
+      "Method",
+      "s26"
+    ],
+    [
+      "Affective Text dataset",
+      "Property",
+      "s24"
+    ],
+    [
+      "Affective Text dataset",
+      "Result",
+      "s25"
+    ],
+    [
+      "Affective Text dataset",
+      "Use",
+      "s32"
+    ],
+    [
+      "Affective data set",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Affective development",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Affective development set",
+      "Definition",
+      "s48"
+    ],
+    [
+      "Anger",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "Angry",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "B-M model",
+      "Definition",
+      "s84"
+    ],
+    [
+      "B-M model",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "BBC News",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "BIBREF15",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "BIBREF16",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "BIBREF17",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "BIBREF18",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "BIBREF19",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "BIBREF24",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "BIBREF7",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "BIBREF7",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "BIBREF8",
+      "Model Reference",
+      "e7"
+    ],
+    [
+      "Barbara Plank",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "CNN",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "CNN",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Cartoon Network",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Chile",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "Chile vs. Colombia football match",
+      "Example",
+      "s94"
+    ],
+    [
+      "Colombia",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "Cooking Light",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Copa America",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "Creative Commons Attribution 4.0 International Licence",
+      "Definition",
+      "s1"
+    ],
+    [
+      "Creative Commons Attribution 4.0 International Licence",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "Disgust",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "Disney",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Disney",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Disney",
+      "Property",
+      "s59"
+    ],
+    [
+      "ESPN",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Ekman's standard",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "Emotion labels in Affective Text dataset",
+      "Definition",
+      "s35"
+    ],
+    [
+      "Emotion labels in Fairy Tales dataset",
+      "Definition",
+      "s36"
+    ],
+    [
+      "Emotion labels in ISEAR dataset",
+      "Definition",
+      "s37"
+    ],
+    [
+      "Emotion mapping",
+      "Process",
+      "s38"
+    ],
+    [
+      "FB-embeddings",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "FIGREF3",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "Facebook",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Facebook API",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Facebook API",
+      "Property",
+      "s15"
+    ],
+    [
+      "Facebook data",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Facebook embeddings",
+      "Definition",
+      "s69"
+    ],
+    [
+      "Facebook embeddings",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "Facebook embeddings filtering",
+      "Property",
+      "s71"
+    ],
+    [
+      "Facebook embeddings training parameters",
+      "Property",
+      "s70"
+    ],
+    [
+      "Facebook page selection",
+      "Suggestion",
+      "s93"
+    ],
+    [
+      "Facebook pages",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "Facebook pages",
+      "Property",
+      "s85"
+    ],
+    [
+      "Facebook posts",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "Facebook reaction feature",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "Facebook reactions",
+      "Definition",
+      "s13"
+    ],
+    [
+      "Facebook reactions",
+      "Definition",
+      "s3"
+    ],
+    [
+      "Facebook reactions",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "Facebook reactions",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "Facebook reactions",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Facebook reactions as proxies for emotion labels",
+      "Innovation",
+      "s8"
+    ],
+    [
+      "Facebook-sdk",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Fairy Tales dataset",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "Fairy Tales dataset",
+      "Definition",
+      "s27"
+    ],
+    [
+      "Fairy Tales dataset",
+      "Property",
+      "s28"
+    ],
+    [
+      "Fairy Tales dataset",
+      "Use",
+      "s33"
+    ],
+    [
+      "Fear",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "February 2016",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "February 2016",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Figure FIGREF9",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Figure FIGREF9",
+      "Result",
+      "s44"
+    ],
+    [
+      "Fox News",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "Fox News vs. The Late Night Show",
+      "Example",
+      "s95"
+    ],
+    [
+      "FoxNews",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney",
+      "Definition",
+      "s17"
+    ],
+    [
+      "Google News",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "Google News",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Google embeddings",
+      "Definition",
+      "s68"
+    ],
+    [
+      "Google embeddings",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "Google embeddings",
+      "Property",
+      "s75"
+    ],
+    [
+      "Google-based embeddings",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "Haha",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Hashtag Emotion Lexicon",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "Hashtag Emotion Lexicon",
+      "Result",
+      "s6"
+    ],
+    [
+      "Home Cooking Adventure",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Huffington Post Weird News",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "ISEAR dataset",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "ISEAR dataset",
+      "Definition",
+      "s29"
+    ],
+    [
+      "ISEAR dataset",
+      "Property",
+      "s30"
+    ],
+    [
+      "ISEAR dataset",
+      "Result",
+      "s31"
+    ],
+    [
+      "ISEAR dataset",
+      "Use",
+      "s34"
+    ],
+    [
+      "Iacobacci2015sensembed",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "Joy",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "Joy class",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Justin Bieber",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Like",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Love",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Lucia Passaro",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "Lucia Passaro and Barbara Plank",
+      "Acknowledgement",
+      "s99"
+    ],
+    [
+      "May 2016",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Mother's Day",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "NRC Lexicon",
+      "Definition",
+      "s74"
+    ],
+    [
+      "NRC10 Lexicon",
+      "Definition",
+      "s66"
+    ],
+    [
+      "NRC10 Lexicon",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "NRC10 Lexicon",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "New York Times",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Nickelodeon",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Retrofitted embeddings",
+      "Definition",
+      "s72"
+    ],
+    [
+      "Retrofitted embeddings",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "Retrofitting effect on Facebook embeddings",
+      "Result",
+      "s77"
+    ],
+    [
+      "Retrofitting effect on Google embeddings",
+      "Result",
+      "s76"
+    ],
+    [
+      "Retrofitting method",
+      "Cause",
+      "s73"
+    ],
+    [
+      "SVM",
+      "Definition",
+      "s54"
+    ],
+    [
+      "SVM",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Sad",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Sadness",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "Scikit-learn",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Section SECREF2",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Section SECREF4",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "Section SECREF5",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Section SECREF6",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Section SECREF7",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "SemEval 2007",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "SemEval's 2007 Task 14",
+      "Definition",
+      "s49"
+    ],
+    [
+      "SemEval's 2007 Task 14",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Spongebob",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Support Vector Machine models",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "Support Vector Machine models",
+      "Method",
+      "s9"
+    ],
+    [
+      "Surprise",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "TABREF20",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "TABREF26",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "Table TABREF8",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "Table TABREF8",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "Table TABREF8",
+      "Result",
+      "s43"
+    ],
+    [
+      "Tang:14",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "The Guardian",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "The Guardian",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "The Late Night Show",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "The New York Times",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "Time",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Time and The Guardian",
+      "Property",
+      "s58"
+    ],
+    [
+      "Time magazine",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "Twitter hashtags",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e8"
+    ],
+    [
+      "Word Embeddings",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "Wow",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "affective development set",
+      "Usage",
+      "s61"
+    ],
+    [
+      "anger",
+      "Definition",
+      "s39"
+    ],
+    [
+      "anger",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "audience",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "automatic detection",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "bag-of-words",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "bag-of-words model",
+      "Property",
+      "s55"
+    ],
+    [
+      "benchmark evaluation",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "best model (B-M)",
+      "Definition",
+      "s57"
+    ],
+    [
+      "best model (B-M)",
+      "Definition",
+      "s82"
+    ],
+    [
+      "captions",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "class score variation",
+      "Property",
+      "s79"
+    ],
+    [
+      "continuous vector representations",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "cooking",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "cooking pages",
+      "Property",
+      "s46"
+    ],
+    [
+      "development data",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "development data",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "development dataset",
+      "Result",
+      "s56"
+    ],
+    [
+      "development portion",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "development set",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "development set",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "dimensionality of 100",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "distant supervised setting",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "distant supervision",
+      "Definition",
+      "s4"
+    ],
+    [
+      "distant supervision",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "distributed vector representations",
+      "Definition",
+      "s7"
+    ],
+    [
+      "distribution",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "domain adaptation",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "domain adaptation",
+      "Property",
+      "s88"
+    ],
+    [
+      "domain-adaptation",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "domain-adaptation",
+      "Result",
+      "s21"
+    ],
+    [
+      "education",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "emoticons",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "emotion classification",
+      "Result",
+      "s87"
+    ],
+    [
+      "emotion detection systems",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "emotion detection task",
+      "Theoretical Issue",
+      "s96"
+    ],
+    [
+      "emotion distribution",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "emotion label",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "emotion labels",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "emotion labels",
+      "Property",
+      "s14"
+    ],
+    [
+      "emotion lexica",
+      "Definition",
+      "s5"
+    ],
+    [
+      "emotion vector to label conversion",
+      "Process",
+      "s20"
+    ],
+    [
+      "emotion vectors",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "emotion-aware embeddings",
+      "Suggestion",
+      "s89"
+    ],
+    [
+      "emotion-similar words",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "emotions",
+      "Dataset Overview",
+      "e4"
+    ],
+    [
+      "emotions",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "emotions",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "entropy-based measure",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "entropy-based post selection",
+      "Suggestion",
+      "s92"
+    ],
+    [
+      "entropy-based selection",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "evaluation datasets",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "external lexicon",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "f-score calculation",
+      "Property",
+      "s83"
+    ],
+    [
+      "feature combination performance",
+      "Result",
+      "s80"
+    ],
+    [
+      "feature selection",
+      "Decision",
+      "s52"
+    ],
+    [
+      "feature selection",
+      "Method",
+      "s60"
+    ],
+    [
+      "feature set",
+      "Definition",
+      "s86"
+    ],
+    [
+      "feature set",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "frequency lower than 2",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "frequency values",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "gensim library",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "hallsmarmulti",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "health care",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "interaction between pages and features",
+      "Future Work",
+      "s53"
+    ],
+    [
+      "joy",
+      "Definition",
+      "s40"
+    ],
+    [
+      "joy",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "joy",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "label distribution",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "learning rate of 0.01",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "lexica",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "lexicon",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "like",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "like",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "linked HTML pages",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "majority emotion",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "majority emotion",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "manual annotation of emotion data",
+      "Challenge",
+      "s10"
+    ],
+    [
+      "manually annotated datasets",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "micro-average f-score",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "model",
+      "Model Reference",
+      "e7"
+    ],
+    [
+      "mohammad2015using",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "multi-label emotion modeling",
+      "Suggestion",
+      "s98"
+    ],
+    [
+      "multi-label task",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "negation words",
+      "Feature",
+      "s64"
+    ],
+    [
+      "negation words",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "news",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "news headlines",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "news pages",
+      "Property",
+      "s45"
+    ],
+    [
+      "ngrams",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "page selection",
+      "Cause",
+      "s50"
+    ],
+    [
+      "personal traits",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "post",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "post collection method",
+      "Process",
+      "s22"
+    ],
+    [
+      "post length",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "posts",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "public pages",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "punctuation",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "punctuation usage",
+      "Feature",
+      "s65"
+    ],
+    [
+      "quotes",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "reaction vector",
+      "Definition",
+      "s19"
+    ],
+    [
+      "reaction vector",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "removal of Lexicon feature",
+      "Result",
+      "s81"
+    ],
+    [
+      "retrofitting FB-embeddings",
+      "Suggestion",
+      "s90"
+    ],
+    [
+      "sad",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "sadness",
+      "Definition",
+      "s41"
+    ],
+    [
+      "sadness",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "single models",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "skip-gram",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "social media messages",
+      "Property",
+      "s2"
+    ],
+    [
+      "social monitoring",
+      "Application",
+      "s12"
+    ],
+    [
+      "social monitoring",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "strong emotion",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "supervised models",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "surprise",
+      "Definition",
+      "s42"
+    ],
+    [
+      "surprise",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "surprise",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "targeted advertising",
+      "Application",
+      "s11"
+    ],
+    [
+      "targeted advertising",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "test set",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "tf-idf",
+      "Feature Selection",
+      "e10"
+    ],
+    [
+      "tf-idf bag-of-words",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "tf-idf bag-of-words feature",
+      "Feature",
+      "s62"
+    ],
+    [
+      "tf-idf performance",
+      "Result",
+      "s78"
+    ],
+    [
+      "thankful",
+      "Facebook Emotion Labels",
+      "e2"
+    ],
+    [
+      "thankful reaction",
+      "Property",
+      "s18"
+    ],
+    [
+      "timestamp",
+      "Emotion Labeling",
+      "e3"
+    ],
+    [
+      "training data",
+      "Result",
+      "s51"
+    ],
+    [
+      "training data selection",
+      "Cause",
+      "s16"
+    ],
+    [
+      "training instances",
+      "Emotion Classification Model",
+      "e12"
+    ],
+    [
+      "training instances",
+      "Suggestion",
+      "s91"
+    ],
+    [
+      "tv-shows",
+      "Emotion Mapping and Page Selection",
+      "e9"
+    ],
+    [
+      "tv-shows pages",
+      "Property",
+      "s47"
+    ],
+    [
+      "unsupervised methods",
+      "Facebook Emotion Detection",
+      "e1"
+    ],
+    [
+      "valence",
+      "Emotion Classification in Headlines",
+      "e6"
+    ],
+    [
+      "vocabulary overlap",
+      "Emotion Detection Ambiguity",
+      "e13"
+    ],
+    [
+      "vocabulary overlap",
+      "Suggestion",
+      "s97"
+    ],
+    [
+      "window size of 5",
+      "Embedding Retrofiting",
+      "e11"
+    ],
+    [
+      "word (2-3) and character (2-5) ngrams",
+      "Feature",
+      "s63"
+    ],
+    [
+      "word embeddings",
+      "Feature",
+      "s67"
+    ]
+  ]
+}

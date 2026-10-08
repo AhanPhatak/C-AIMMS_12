@@ -1,0 +1,5647 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 14,
+    "n_semantic": 148,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Creative Commons Attribution 4.0 International License": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification",
+        "Definition"
+      ]
+    },
+    "deep neural networks": {
+      "tag_set": [
+        "Application",
+        "Deep Neural Networks in Text Classification"
+      ]
+    },
+    "text classification": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification"
+      ]
+    },
+    "convolutional neural networks (CNN)": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification",
+        "Model"
+      ]
+    },
+    "recursive neural networks": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification",
+        "Model"
+      ]
+    },
+    "BIBREF0": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification"
+      ]
+    },
+    "BIBREF1": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification"
+      ]
+    },
+    "BIBREF2": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification"
+      ]
+    },
+    "BIBREF3": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification"
+      ]
+    },
+    "BIBREF4": {
+      "tag_set": [
+        "Deep Neural Networks in Text Classification"
+      ]
+    },
+    "social media": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "Facebook": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "Twitter": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "post authorship": {
+      "tag_set": [
+        "Classification Factor",
+        "Post Stance Classification"
+      ]
+    },
+    "likes": {
+      "tag_set": [
+        "Classification Factor",
+        "Post Stance Classification"
+      ]
+    },
+    "comments": {
+      "tag_set": [
+        "Classification Factor",
+        "Embedding Composition",
+        "Extra-Linguistic Stance Features",
+        "Post Stance Classification",
+        "Usage"
+      ]
+    },
+    "user attitudes": {
+      "tag_set": [
+        "Post Stance Classification",
+        "Relationship"
+      ]
+    },
+    "stance labeling": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "women's rights": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "unwanted babies": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "abortion": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features",
+        "Post Stance Classification"
+      ]
+    },
+    "marijuana": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "medicine usage": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "crime": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "nuclear power": {
+      "tag_set": [
+        "Post Stance Classification",
+        "UTCNN Model Performance"
+      ]
+    },
+    "green energy": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "radiation": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "air pollution": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "forum-style platforms": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "UTCNN": {
+      "tag_set": [
+        "Definition",
+        "Embedding Composition",
+        "Model Performance Analysis",
+        "Post Stance Classification",
+        "Property",
+        "Result",
+        "UTCNN Model Performance",
+        "UTCNN Model Setup",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "user embeddings": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Feature",
+        "Model Baselines",
+        "Model Performance Analysis",
+        "Post Stance Classification",
+        "Result",
+        "UTCNN Model Performance",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "topic model": {
+      "tag_set": [
+        "Method",
+        "Post Stance Classification"
+      ]
+    },
+    "post content": {
+      "tag_set": [
+        "Post Stance Classification"
+      ]
+    },
+    "extra-linguistic features": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "stance classification": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Extra-Linguistic Stance Features",
+        "UTCNN Model Performance"
+      ]
+    },
+    "text features": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features",
+        "Limitation",
+        "Model Performance Analysis",
+        "UTCNN Model Performance"
+      ]
+    },
+    "Hasan and Ng": {
+      "tag_set": [
+        "Definition",
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "Thomas et al.": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "user-interaction constraints": {
+      "tag_set": [
+        "Definition",
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "ideology constraints": {
+      "tag_set": [
+        "Definition",
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "gay rights": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "conservative": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "hidden Markov models (HMMs)": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features",
+        "Method"
+      ]
+    },
+    "Burfoot et al.": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "probabilistic soft logic (PSL)": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features",
+        "Method"
+      ]
+    },
+    "collaborative filtering": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "Facebook dataset": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "post stance": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features",
+        "Model Performance Analysis"
+      ]
+    },
+    "recursive neural network": {
+      "tag_set": [
+        "Application",
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "adaptive layer": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "Twitter sentiment analysis": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "windows 7": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "taylor swift": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "recursive neural tensor networks (RNTNs)": {
+      "tag_set": [
+        "Application",
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "sentence parse trees": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "movie reviews": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features"
+      ]
+    },
+    "Le and Mikolov": {
+      "tag_set": [
+        "Extra-Linguistic Stance Features",
+        "Method"
+      ]
+    },
+    "paragraph vectors": {
+      "tag_set": [
+        "Definition",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "RNTN": {
+      "tag_set": [
+        "Property",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "UWCVM": {
+      "tag_set": [
+        "Definition",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "UPNN": {
+      "tag_set": [
+        "Definition",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "product embeddings": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "sentiment words": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "user-specific strength": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "product-word composition": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "comment information": {
+      "tag_set": [
+        "Model Baselines",
+        "Model Performance Analysis",
+        "Property",
+        "Result",
+        "UTCNN Model Performance",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "post stance classification": {
+      "tag_set": [
+        "Task",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "multiple users": {
+      "tag_set": [
+        "Property",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "likers": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "author": {
+      "tag_set": [
+        "UTCNN Model Performance",
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "reviewer": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "deep learning model": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "text stance classification": {
+      "tag_set": [
+        "User-Embedded Stance Modeling"
+      ]
+    },
+    "CNN": {
+      "tag_set": [
+        "CNN Document Composition",
+        "Model Performance Analysis",
+        "Property",
+        "UTCNN Model Setup"
+      ]
+    },
+    "document composition": {
+      "tag_set": [
+        "CNN Document Composition",
+        "Embedding Composition",
+        "UTCNN Model Setup"
+      ]
+    },
+    "user-dependent": {
+      "tag_set": [
+        "CNN Document Composition"
+      ]
+    },
+    "topic-dependent": {
+      "tag_set": [
+        "CNN Document Composition"
+      ]
+    },
+    "document-level": {
+      "tag_set": [
+        "CNN Document Composition"
+      ]
+    },
+    "semantic representation": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "word representations": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "user-topic-comment neural network": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "engaged user": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "topic": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "composite words": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "word embedding": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "UTCNN Model Setup"
+      ]
+    },
+    "vector dimension": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "dot operations": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "user reading preference": {
+      "tag_set": [
+        "Definition",
+        "UTCNN Model Setup"
+      ]
+    },
+    "topic semantics": {
+      "tag_set": [
+        "Definition",
+        "UTCNN Model Setup"
+      ]
+    },
+    "user-dependent representation": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "topic-dependent representation": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "convolutional layers": {
+      "tag_set": [
+        "Property",
+        "UTCNN Model Setup"
+      ]
+    },
+    "unigram": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "bigram": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "trigram": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "maximum pooling": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "average pooling": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "window size": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "convolutional filter": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "output length": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "bias": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "user matrix embedding": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "Figure FIGREF4": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "Figure FIGREF10": {
+      "tag_set": [
+        "UTCNN Model Setup"
+      ]
+    },
+    "vector embedding layer": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "moderator matrix embedding": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "moderator vector embedding": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "semantic transformation": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "moderator stance preference": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "latent user stance": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "topic matrix embedding": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "topic vector embedding": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "joint topic matrix embedding": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "joint topic vector embedding": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "topic stance tendency": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "latent topic stance": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "comment representation": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "commenter vector embedding": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "maximum pooling layer": {
+      "tag_set": [
+        "Embedding Composition",
+        "Process"
+      ]
+    },
+    "comment stance": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "post": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "softmax": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "FIGREF4": {
+      "tag_set": [
+        "Embedding Composition"
+      ]
+    },
+    "FBFans": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Definition"
+      ]
+    },
+    "CreateDebate": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Definition"
+      ]
+    },
+    "anti-nuclear-power": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Chinese": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "unbalanced": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "balanced": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "September 2013": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "August 2014": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "2,496 authors": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "505,137 likers": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "33,686 commenters": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "505,412 unique users": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "supportive (Sup)": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "neutral (Neu)": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "unsupportive (Uns)": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "Cohen\u2019s Kappa": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Result"
+      ]
+    },
+    "0.91": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "0.58": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "0.84": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "development set": {
+      "tag_set": [
+        "Dataset Characteristics",
+        "Model Performance Analysis"
+      ]
+    },
+    "testing set": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "161.1 users per post": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "23,297": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "1": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "3 comments per post": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "1,092": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "0": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "same stance likes": {
+      "tag_set": [
+        "Dataset Characteristics"
+      ]
+    },
+    "FBFans dataset": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Definition",
+        "Model Baselines",
+        "Model Performance Analysis",
+        "Property",
+        "UTCNN Model Performance"
+      ]
+    },
+    "CreateDebate dataset": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Definition",
+        "Model Baselines",
+        "Model Performance Analysis",
+        "Property"
+      ]
+    },
+    "Sup stance": {
+      "tag_set": [
+        "Dataset Analysis",
+        "UTCNN Model Performance"
+      ]
+    },
+    "Neu stance": {
+      "tag_set": [
+        "Dataset Analysis",
+        "UTCNN Model Performance"
+      ]
+    },
+    "Uns stance": {
+      "tag_set": [
+        "Dataset Analysis",
+        "UTCNN Model Performance"
+      ]
+    },
+    "32,595 posts": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "normalized numbers": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "Table TABREF13": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Definition"
+      ]
+    },
+    "neutral posts": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Result"
+      ]
+    },
+    "abortion (ABO)": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "gay rights (GAY)": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "Obama (OBA)": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "marijuana (MAR)": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "F for for": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "A for against": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "977 unique users": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Property"
+      ]
+    },
+    "five-fold cross-validation": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Method"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "GloVe BIBREF21": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "50-dimensional word embeddings": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "AdaGrad": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "cross-entropy": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "learning rate 0.03": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "topic embeddings": {
+      "tag_set": [
+        "Dataset Analysis",
+        "Model Performance Analysis"
+      ]
+    },
+    "random initialization": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "[-0.1 to 0.1]": {
+      "tag_set": [
+        "Dataset Analysis"
+      ]
+    },
+    "LDA topic model": {
+      "tag_set": [
+        "Definition",
+        "Model Baselines"
+      ]
+    },
+    "250-dimensional embeddings": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "10-dimensional embeddings": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "100 latent topics": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "top three topics": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "macro-average f-score": {
+      "tag_set": [
+        "Model Baselines",
+        "UTCNN Model Performance"
+      ]
+    },
+    "average precision": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "average recall": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "SVM with unigram": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "SVM with bigram": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "SVM with trigram": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "SVM with average word embedding": {
+      "tag_set": [
+        "Baseline",
+        "Model Baselines"
+      ]
+    },
+    "SVM with average transformed word embeddings": {
+      "tag_set": [
+        "Baseline",
+        "Model Baselines"
+      ]
+    },
+    "CNN model": {
+      "tag_set": [
+        "Baseline",
+        "Model Baselines"
+      ]
+    },
+    "RCNN model": {
+      "tag_set": [
+        "Baseline",
+        "Model Baselines"
+      ]
+    },
+    "UTCNN without user information": {
+      "tag_set": [
+        "Baseline",
+        "Model Baselines",
+        "Result"
+      ]
+    },
+    "UTCNN without LDA model": {
+      "tag_set": [
+        "Baseline",
+        "Model Baselines"
+      ]
+    },
+    "UTCNN without comments": {
+      "tag_set": [
+        "Baseline",
+        "Model Baselines"
+      ]
+    },
+    "user matrix": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "hyperparameters": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "training set": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "fine-tuned": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "linear kernel": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "RBF kernel": {
+      "tag_set": [
+        "Model Baselines"
+      ]
+    },
+    "oversampling": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "SVMs": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "RCNN": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "Majority": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Result"
+      ]
+    },
+    "Neu": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "Sup": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "Uns": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "n-gram feature": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "transformed word embedding": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "large scale social media dataset": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "user information": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Property",
+        "UTCNN Model Performance"
+      ]
+    },
+    "topic information": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Result",
+        "UTCNN Model Performance"
+      ]
+    },
+    "LDA": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "Result"
+      ]
+    },
+    "17.5% improvement": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "4.9% performance gain": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "4.8% improvement": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "UTCNN Model Performance"
+      ]
+    },
+    "content information": {
+      "tag_set": [
+        "Model Performance Analysis",
+        "UTCNN Model Performance"
+      ]
+    },
+    "stance labels": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "minor class": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "training data": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "f-scores": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "biased dataset": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "minority class": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "commenter": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "shared user embedding": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "full model": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "2.5% improvement": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "CreateDebate Dataset": {
+      "tag_set": [
+        "Property",
+        "Result",
+        "UTCNN Model Performance"
+      ]
+    },
+    "integer linear programming (ILP)": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "linear-chain conditional random fields (CRFs)": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "author/liker": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "commenter role": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "solar power": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "evacuation plan": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "past politicians": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "user-interaction": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "embedding": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "social media text": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "SVM": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "n-gram": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "ILP": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "CRF": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "PSL": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "author constraint": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis"
+      ]
+    },
+    "ideology constraint": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis"
+      ]
+    },
+    "user-interaction constraint": {
+      "tag_set": [
+        "Definition",
+        "Model Performance Analysis"
+      ]
+    },
+    "reply links": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "POS-dependencies": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF12": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "BIBREF23": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "TABREF22": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "TABREF24": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "data skewness": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "21% improvement": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "author stance": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "joint stance/disagreement model": {
+      "tag_set": [
+        "Model Performance Analysis"
+      ]
+    },
+    "11.2% improvement": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "3.4% improvement": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "Table TABREF22": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "Table TABREF24": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "social media texts": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "minimum active degree": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "MOST 104-2221-E-001-024-MY2": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "Ministry of Science and Technology, Taiwan": {
+      "tag_set": [
+        "UTCNN Model Performance"
+      ]
+    },
+    "social media posts": {
+      "tag_set": [
+        "User Role"
+      ]
+    },
+    "positive posts": {
+      "tag_set": [
+        "Influence"
+      ]
+    },
+    "topic influence": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "abortion topic": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "marijuana topic": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "nuclear power topic": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "user-topic-comment neural network (UTCNN)": {
+      "tag_set": [
+        "Model"
+      ]
+    },
+    "contributions of the paper": {
+      "tag_set": [
+        "List"
+      ]
+    },
+    "proposed method": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "extra-linguistic constraints": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "iterative classification": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "CNN-based document composition": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "dot operation": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "user-dependent word vector": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "topic-dependent word vector": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "concatenated transformed word vector": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "average pooling layer": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "unigram, bigram, trigram": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "user matrix embedding layer": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "FBNFans dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "post stance labels": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "data skew": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "average users per post": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "average comments per post": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "stance labeling assumption": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "Sup, Neu, Uns stances": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "like statistics": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "posts with stances": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "abortion (ABO), gay rights (GAY), Obama (OBA), marijuana (MAR)": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "posts annotated as for (F) and against (A)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "replies in CreateDebate dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Table TABREF12": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "CreateDebate dataset balance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "annotation results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "FBFans dataset functions": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CreateDebate dataset features": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "UTCNN training process": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "GloVe word embeddings": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "word embeddings in FBFans": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "word embeddings in CreateDebate": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "word embeddings fixed": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "learning rate": {
+      "tag_set": [
+        "Setting"
+      ]
+    },
+    "user and topic embeddings": {
+      "tag_set": [
+        "Setting"
+      ]
+    },
+    "Matrix embeddings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Vector embeddings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Latent topics": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "Topic assignment": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Topic labels": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Class-based f-scores": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Macro-average f-score": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Evaluation metric": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Accuracy": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "SVM with unigram, bigram, and trigram features": {
+      "tag_set": [
+        "Baseline"
+      ]
+    },
+    "SVM models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "transformed word embedding feature": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "CNN and RCNN models": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "adding comment information": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "UTCNN variations": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "user role": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "integer linear programming (ILP) and CRFs": {
+      "tag_set": [
+        "Alternative Approach"
+      ]
+    },
+    "SVM with n-gram or average word embedding": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "SVM with transformed word embedding": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "CNN and RCNN": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "UTCNN user embeddings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ideology constraint in UTCNN": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "text features in UTCNN": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "UTCNN performance": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "PSL model": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "PSL model best AD setting": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "UTCNN vs PSL model": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "UTCNN on posts": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "user information in stance classification": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "topic information in stance classification": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "UTCNN performance across datasets": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "future work of UTCNN": {
+      "tag_set": [
+        "Plan"
+      ]
+    },
+    "research support": {
+      "tag_set": [
+        "Attribute"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nThis work is licenced under a Creative Commons Attribution 4.0 International License. License details: http://creativecommons.org/licenses/by/4.0/ Deep neural networks have been widely used in text classification and have achieved promising results BIBREF0 , BIBREF1 , BIBREF2 . Most focus on content information and use models such as convolutional neural networks (CNN) BIBREF3 or recursive neural networks BIBREF4 . However",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Deep Neural Networks in Text Classification"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": ", for user-generated posts on social media like Facebook or Twitter, there is more information that should not be ignored. On social media platforms, a user can act either as the author of a post or as a reader who expresses his or her comments about the post. In this paper, we classify posts taking into account post authorship, likes, topics, and comments. In particular, users and their \u201clikes\u201d hold strong potential for text mining. For example, given a set of posts that are related to a specific topic, a user's likes and dislikes provide clues for stance labeling. From a user point of view, users with positive attitudes toward the issue leave positive comments on the posts with praise or even just the post's content; from a post point of view, positive posts attract users who hold positive stances. We also investigate the influence of topics: different topics are associated with different stance labeling tendencies and word usage. For example we discuss women's rights and unwanted babies on the topic of abortion, but we criticize medicine usage or crime when on the topic of marijuana BIBREF5 . Even for posts on a specific topic like nuclear power, a variety of arguments are raised: green energy, radiation, air pollution, and so on. As for comments, we treat them as additional text information. The arguments in the comments and the commenters (the users who leave the comments) provide hints on the post's content and further facilitate stance classification. In this paper, we propose the user-topic-comment neural network (UTCNN), a deep learning model that utilizes user, topic, and comment information. We attempt to learn user and topic representations which encode user interactions and topic influences to further enhance text classification, and we also incorporate comment information. We evaluate this model on a post stance classification task on forum-style social media platforms. The contributions of this paper are as follows: 1. We propose UTCNN, a neural network for text in modern social media channels as well as legacy social media, forums, and message boards \u2014 anywhere that reveals users, their tastes, as well as their replies to posts. 2. When classifying social media post stances, we leverage users, including authors and likers. User embeddings can be generated even for users who have never posted anything. 3. We incorporate a topic model to automatically assign topics to each post in a single topic dataset.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Post Stance Classification"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "4. We show that overall, the proposed method achieves the highest performance in all instances, and that all of the information extracted, whether users, topics, or comments, still has its contributions. Extra-Linguistic Features for Stance Classification In this paper we aim to use text as well as other features to see how they complement each other in a deep learning model. In the stance classification domain, previous work has showed that text features are limited, suggesting that adding extra-linguistic constraints could improve performance BIBREF6 , BIBREF7 , BIBREF8 . For example, Hasan and Ng as well as Thomas et al. require that posts written by the same author have the same stance BIBREF9 , BIBREF10 . The addition of this constraint yields accuracy improvements of 1\u20137% for some models and datasets. Hasan and Ng later added user-interaction constraints and ideology constraints BIBREF7 : the former models the relationship among posts in a sequence of replies and the latter models inter-topic relationships, e.g., users who oppose abortion could be conservative and thus are likely to oppose gay rights. For work focusing on online forum text, since posts are linked through user replies, sequential labeling methods have been used to model relationships between posts. For example, Hasan and Ng use hidden Markov models (HMMs) to model dependent relationships to the preceding post BIBREF9 ; Burfoot et al. use iterative classification to repeatedly generate new estimates based on the current state of knowledge BIBREF11 ; Sridhar et al. use probabilistic soft logic (PSL) to model reply links via collaborative filtering BIBREF12 . In the Facebook dataset we study, we use comments instead of reply links. However, as the ultimate goal in this paper is predicting not comment stance but post stance, we treat comments as extra information for use in predicting post stance. Deep Learning on Extra-Linguistic Features In recent years neural network models have been applied to document sentiment classification BIBREF13 , BIBREF4 , BIBREF14 , BIBREF15 , BIBREF2 . Text features can be used in deep networks to capture text semantics or sentiment. For example, Dong et al. use an adaptive layer in a recursive neural network for target-dependent Twitter sentiment analysis, where targets are topics such as windows 7 or taylor swift BIBREF16 , BIBREF17 ; recursive neural tensor networks (RNTNs) utilize sentence parse trees to capture sentence-level sentiment for movie reviews BIBREF4 ; Le and Mikolov predict sentiment by",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Extra-Linguistic Stance Features"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "using paragraph vectors to model each paragraph as a continuous representation BIBREF18 . They show that performance can thus be improved by more delicate text models. Others have suggested using extra-linguistic features to improve the deep learning model. The user-word composition vector model (UWCVM) BIBREF19 is inspired by the possibility that the strength of sentiment words is user-specific; to capture this they add user embeddings in their model. In UPNN, a later extension, they further add a product-word composition as product embeddings, arguing that products can also show different tendencies of being rated or reviewed BIBREF20 . Their addition of user information yielded 2\u201310% improvements in accuracy as compared to the above-mentioned RNTN and paragraph vector methods. We also seek to inject user information into the neural network model. In comparison to the research of Tang et al. on sentiment classification for product reviews, the difference is two-fold. First, we take into account multiple users (one author and potentially many likers) for one post, whereas only one user (the reviewer) is involved in a review. Second, we add comment information to provide more features for post stance classification. None of these two factors have been considered previously in a deep learning model for text stance classification. Therefore, we propose UTCNN, which generates and utilizes user embeddings for all users \u2014 even for those who have not authored any posts \u2014 and incorporates comments to further improve performance. Method",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "User-Embedded Stance Modeling"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "In this section, we first describe CNN-based document composition, which captures user- and topic-dependent document-level",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "CNN Document Composition"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "semantic representation from word representations. Then we show how to add comment information to construct the user-topic-comment neural network (UTCNN). User- and Topic-dependent Document Composition As shown in Figure FIGREF4 , we use a general CNN BIBREF3 and two semantic transformations for document composition . We are given a document with an engaged user INLINEFORM0 , a topic INLINEFORM1 , and its composite INLINEFORM2 words, each word INLINEFORM3 of which is associated with a word embedding INLINEFORM4 where INLINEFORM5 is the vector dimension. For each word embedding INLINEFORM6 , we apply two dot operations as shown in Equation EQREF6 : DISPLAYFORM0 where INLINEFORM0 models the user reading preference for certain semantics, and INLINEFORM1 models the topic semantics; INLINEFORM2 and INLINEFORM3 are the dimensions of transformed user and topic embeddings respectively. We use INLINEFORM4 to model semantically what each user prefers to read and/or write, and use INLINEFORM5 to model the semantics of each topic. The dot operation of INLINEFORM6 and INLINEFORM7 transforms the global representation INLINEFORM8 to a user-dependent representation. Likewise, the dot operation of INLINEFORM9 and INLINEFORM10 transforms INLINEFORM11 to a topic-dependent representation. After the two dot operations on INLINEFORM0 , we have user-dependent and topic-dependent word vectors INLINEFORM1 and INLINEFORM2 , which are concatenated to form a user- and topic-dependent word vector INLINEFORM3 . Then the transformed word embeddings INLINEFORM4 are used as the CNN input. Here we apply three convolutional layers on the concatenated transformed word embeddings INLINEFORM5 : DISPLAYFORM0 where INLINEFORM0 is the index of words; INLINEFORM1 is a non-linear activation function (we use INLINEFORM2 ); INLINEFORM5 is the convolutional filter with input length INLINEFORM6 and output length INLINEFORM7 , where INLINEFORM8 is the window size of the convolutional operation; and INLINEFORM9 and INLINEFORM10 are the output and bias of the convolution layer INLINEFORM11 , respectively. In our experiments, the three window sizes INLINEFORM12 in the three convolution layers are one, two, and three, encoding unigram, bigram, and trigram semantics accordingly. After the convolutional layer, we add a maximum pooling layer among convolutional outputs to obtain the unigram, bigram, and trigram n-gram representations. This is succeeded by an average pooling layer for an element-wise average of the three maximized convolution outputs. UTCNN Model Description Figure FIGREF10 illustrates the UTCNN model. As more than one user may interact with a given post, we first add a maximum pooling layer after the user matrix embedding layer and user",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "UTCNN Model Setup"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "vector embedding layer to form a moderator matrix embedding INLINEFORM0 and a moderator vector embedding INLINEFORM1 for moderator INLINEFORM2 respectively, where INLINEFORM3 is used for the semantic transformation in the document composition process, as mentioned in the previous section. The term moderator here is to denote the pseudo user who provides the overall semantic/sentiment of all the engaged users for one document. The embedding INLINEFORM4 models the moderator stance preference, that is, the pattern of the revealed user stance: whether a user is willing to show his preference, whether a user likes to show impartiality with neutral statements and reasonable arguments, or just wants to show strong support for one stance. Ideally, the latent user stance is modeled by INLINEFORM5 for each user. Likewise, for topic information, a maximum pooling layer is added after the topic matrix embedding layer and topic vector embedding layer to form a joint topic matrix embedding INLINEFORM6 and a joint topic vector embedding INLINEFORM7 for topic INLINEFORM8 respectively, where INLINEFORM9 models the semantic transformation of topic INLINEFORM10 as in users and INLINEFORM11 models the topic stance tendency. The latent topic stance is also modeled by INLINEFORM12 for each topic. As for comments, we view them as short documents with authors only but without likers nor their own comments. Therefore we apply document composition on comments although here users are commenters (users who comment). It is noticed that the word embeddings INLINEFORM0 for the same word in the posts and comments are the same, but after being transformed to INLINEFORM1 in the document composition process shown in Figure FIGREF4 , they might become different because of their different engaged users. The output comment representation together with the commenter vector embedding INLINEFORM2 and topic vector embedding INLINEFORM3 are concatenated and a maximum pooling layer is added to select the most important feature for comments. Instead of requiring that the comment stance agree with the post, UTCNN simply extracts the most important features of the comment contents; they could be helpful, whether they show obvious agreement or disagreement. Therefore when combining comment information here, the maximum pooling layer is more appropriate than other pooling or merging layers. Indeed, we believe this is one reason for UTCNN's performance gains. Finally, the pooled comment representation, together with user vector embedding INLINEFORM0 , topic vector embedding INLINEFORM1 , and document representation are fed to a fully connected network, and softmax is",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Embedding Composition"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "applied to yield the final stance label prediction for the post. Experiment We start with the experimental dataset and then describe the training process as well as the implementation of the baselines. We also implement several variations to reveal the effects of features: authors, likers, comment, and commenters. In the results section we compare our model with related work. Dataset We tested the proposed UTCNN on two different datasets: FBFans and CreateDebate. FBFans is a privately-owned, single-topic, Chinese, unbalanced, social media dataset, and CreateDebate is a public, multiple-topic, English, balanced, forum dataset. Results using these two datasets show the applicability and superiority for different topics, languages, data distributions, and platforms. The FBFans dataset contains data from anti-nuclear-power Chinese Facebook fan groups from September 2013 to August 2014, including posts and their author and liker IDs. There are a total of 2,496 authors, 505,137 likers, 33,686 commenters, and 505,412 unique users. Two annotators were asked to take into account only the post content to label the stance of the posts in the whole dataset as supportive, neutral, or unsupportive (hereafter denoted as Sup, Neu, and Uns). Sup/Uns posts were those in support of or against anti-reconstruction; Neu posts were those evincing a neutral standpoint on the topic, or were irrelevant. Raw agreement between annotators is 0.91, indicating high agreement. Specifically, Cohen\u2019s Kappa for Neu and not Neu labeling is 0.58 (moderate), and for Sup or Uns labeling is 0.84 (almost perfect). Posts with inconsistent labels were filtered out, and the development and testing sets were randomly selected from what was left. Posts in the development and testing sets involved at least one user who appeared in the training set. The number of posts for each stance is shown on the left-hand side of Table TABREF12 . About twenty percent of the posts were labeled with a stance, and the number of supportive (Sup) posts was much larger than that of the unsupportive (Uns) ones: this is thus highly skewed data, which complicates stance classification. On average, 161.1 users were involved in one post. The maximum was 23,297 and the minimum was one (the author). For comments, on average there were 3 comments per post. The maximum was 1,092 and the minimum was zero. To test whether the assumption of this paper \u2013 posts attract users who hold the same stance to like them \u2013 is reliable, we examine the likes from",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Characteristics"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "authors of different stances. Posts in FBFans dataset are used for this analysis. We calculate the like statistics of each distinct author from these 32,595 posts. As the numbers of authors in the Sup, Neu and Uns stances are largely imbalanced, these numbers are normalized by the number of users of each stance. Table TABREF13 shows the results. Posts with stances (i.e., not neutral) attract users of the same stance. Neutral posts also attract both supportive and neutral users, like what we observe in supportive posts, but just the neutral posts can attract even more neutral likers. These results do suggest that users prefer posts of the same stance, or at least posts of no obvious stance which might cause annoyance when reading, and hence support the user modeling in our approach. The CreateDebate dataset was collected from an English online debate forum discussing four topics: abortion (ABO), gay rights (GAY), Obama (OBA), and marijuana (MAR). The posts are annotated as for (F) and against (A). Replies to posts in this dataset are also labeled with stance and hence use the same data format as posts. The labeling results are shown in the right-hand side of Table TABREF12 . We observe that the dataset is more balanced than the FBFans dataset. In addition, there are 977 unique users in the dataset. To compare with Hasan and Ng's work, we conducted five-fold cross-validation and present the annotation results as the average number of all folds BIBREF9 , BIBREF5 . The FBFans dataset has more integrated functions than the CreateDebate dataset; thus our model can utilize all linguistic and extra-linguistic features. For the CreateDebate dataset, on the other hand, the like and comment features are not available (as there is a stance label for each reply, replies are evaluated as posts as other previous work) but we still implemented our model using the content, author, and topic information. Settings In the UTCNN training process, cross-entropy was used as the loss function and AdaGrad as the optimizer. For FBFans dataset, we learned the 50-dimensional word embeddings on the whole dataset using GloVe BIBREF21 to capture the word semantics; for CreateDebate dataset we used the publicly available English 50-dimensional word embeddings, pre-trained also using GloVe. These word embeddings were fixed in the training process. The learning rate was set to 0.03. All user and topic embeddings were randomly initialized in the range of [-0.1",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Analysis"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "0.1]. Matrix embeddings for users and topics were sized at 250 ( INLINEFORM0 ); vector embeddings for users and topics were set to length 10. We applied the LDA topic model BIBREF22 on the FBFans dataset to determine the latent topics with which to build topic embeddings, as there is only one general known topic: nuclear power plants. We learned 100 latent topics and assigned the top three topics for each post. For the CreateDebate dataset, which itself constitutes four topics, the topic labels for posts were used directly without additionally applying LDA. For the FBFans data we report class-based f-scores as well as the macro-average f-score ( INLINEFORM0 ) shown in equation EQREF19 . DISPLAYFORM0 where INLINEFORM0 and INLINEFORM1 are the average precision and recall of the three class. We adopted the macro-average f-score as the evaluation metric for the overall performance because (1) the experimental dataset is severely imbalanced, which is common for contentious issues; and (2) for stance classification, content in minor-class posts is usually more important for further applications. For the CreateDebate dataset, accuracy was adopted as the evaluation metric to compare the results with related work BIBREF7 , BIBREF9 , BIBREF12 . Baselines We pit our model against the following baselines: 1) SVM with unigram, bigram, and trigram features, which is a standard yet rather strong classifier for text features; 2) SVM with average word embedding, where a document is represented as a continuous representation by averaging the embeddings of the composite words; 3) SVM with average transformed word embeddings (the INLINEFORM0 in equation EQREF6 ), where a document is represented as a continuous representation by averaging the transformed embeddings of the composite words; 4) two mature deep learning models on text classification, CNN BIBREF3 and Recurrent Convolutional Neural Networks (RCNN) BIBREF0 , where the hyperparameters are based on their work; 5) the above SVM and deep learning models with comment information; 6) UTCNN without user information, representing a pure-text CNN model where we use the same user matrix and user embeddings INLINEFORM1 and INLINEFORM2 for each user; 7) UTCNN without the LDA model, representing how UTCNN works with a single-topic dataset; 8) UTCNN without comments, in which the model predicts the stance label given only user and topic information. All these models were trained on the training set, and parameters as well as the SVM kernel selections (linear or RBF) were fine-tuned on the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Baselines"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "development set. Also, we adopt oversampling on SVMs, CNN and RCNN because the FBFans dataset is highly imbalanced. Results on FBFans Dataset In Table TABREF22 we show the results of UTCNN and the baselines on the FBFans dataset. Here Majority yields good performance on Neu since FBFans is highly biased to the neutral class. The SVM models perform well on Sup and Neu but perform poorly for Uns, showing that content information in itself is insufficient to predict stance labels, especially for the minor class. With the transformed word embedding feature, SVM can achieve comparable performance as SVM with n-gram feature. However, the much fewer feature dimension of the transformed word embedding makes SVM with word embeddings a more efficient choice for modeling the large scale social media dataset. For the CNN and RCNN models, they perform slightly better than most of the SVM models but still, the content information is insufficient to achieve a good performance on the Uns posts. As to adding comment information to these models, since the commenters do not always hold the same stance as the author, simply adding comments and post contents together merely adds noise to the model. Among all UTCNN variations, we find that user information is most important, followed by topic and comment information. UTCNN without user information shows results similar to SVMs \u2014 it does well for Sup and Neu but detects no Uns. Its best f-scores on both Sup and Neu among all methods show that with enough training data, content-based models can perform well; at the same time, the lack of user information results in too few clues for minor-class posts to either predict their stance directly or link them to other users and posts for improved performance. The 17.5% improvement when adding user information suggests that user information is especially useful when the dataset is highly imbalanced. All models that consider user information predict the minority class successfully. UCTNN without topic information works well but achieves lower performance than the full UTCNN model. The 4.9% performance gain brought by LDA shows that although it is satisfactory for single topic datasets, adding that latent topics still benefits performance: even when we are discussing the same topic, we use different arguments and supporting evidence. Lastly, we get 4.8% improvement when adding comment information and it achieves comparable performance to UTCNN without topic information, which shows that comments also benefit",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "performance. For platforms where user IDs are pixelated or otherwise hidden, adding comments to a text model still improves performance. In its integration of user, content, and comment information, the full UTCNN produces the highest f-scores on all Sup, Neu, and Uns stances among models that predict the Uns class, and the highest macro-average f-score overall. This shows its ability to balance a biased dataset and supports our claim that UTCNN successfully bridges content and user, topic, and comment information for stance classification on social media text. Another merit of UTCNN is that it does not require a balanced training data. This is supported by its outperforming other models though no oversampling technique is applied to the UTCNN related experiments as shown in this paper. Thus we can conclude that the user information provides strong clues and it is still rich even in the minority class. We also investigate the semantic difference when a user acts as an author/liker or a commenter. We evaluated a variation in which all embeddings from the same user were forced to be identical (this is the UTCNN shared user embedding setting in Table TABREF22 ). This setting yielded only a 2.5% improvement over the model without comments, which is not statistically significant. However, when separating authors/likers and commenters embeddings (i.e., the UTCNN full model), we achieved much greater improvements (4.8%). We attribute this result to the tendency of users to use different wording for different roles (for instance author vs commenter). This is observed when the user, acting as an author, attempts to support her argument against nuclear power by using improvements in solar power; when acting as a commenter, though, she interacts with post contents by criticizing past politicians who supported nuclear power or by arguing that the proposed evacuation plan in case of a nuclear accident is ridiculous. Based on this finding, in the final UTCNN setting we train two user matrix embeddings for one user: one for the author/liker role and the other for the commenter role. Results on CreateDebate Dataset Table TABREF24 shows the results of UTCNN, baselines as we implemented on the FBFans datset and related work on the CreateDebate dataset. We do not adopt oversampling on these models because the CreateDebate dataset is almost balanced. In previous work, integer linear programming (ILP) or linear-chain conditional random fields (CRFs) were proposed to integrate text features, author, ideology, and user-interaction",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "UTCNN Model Performance"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "constraints, where text features are unigram, bigram, and POS-dependencies; the author constraint tends to require that posts from the same author for the same topic hold the same stance; the ideology constraint aims to capture inferences between topics for the same author; the user-interaction constraint models relationships among posts via user interactions such as replies BIBREF7 , BIBREF9 . The SVM with n-gram or average word embedding feature performs just similar to the majority. However, with the transformed word embedding, it achieves superior results. It shows that the learned user and topic embeddings really capture the user and topic semantics. This finding is not so obvious in the FBFans dataset and it might be due to the unfavorable data skewness for SVM. As for CNN and RCNN, they perform slightly better than most SVMs as we found in Table TABREF22 for FBFans. Compared to the ILP BIBREF7 and CRF BIBREF9 methods, the UTCNN user embeddings encode author and user-interaction constraints, where the ideology constraint is modeled by the topic embeddings and text features are modeled by the CNN. The significant improvement achieved by UTCNN suggests the latent representations are more effective than overt model constraints. The PSL model BIBREF12 jointly labels both author and post stance using probabilistic soft logic (PSL) BIBREF23 by considering text features and reply links between authors and posts as in Hasan and Ng's work. Table TABREF24 reports the result of their best AD setting, which represents the full joint stance/disagreement collective model on posts and is hence more relevant to UTCNN. In contrast to their model, the UTCNN user embeddings represent relationships between authors, but UTCNN models do not utilize link information between posts. Though the PSL model has the advantage of being able to jointly label the stances of authors and posts, its performance on posts is lower than the that for the ILP or CRF models. UTCNN significantly outperforms these models on posts and has the potential to predict user stances through the generated user embeddings. For the CreateDebate dataset, we also evaluated performance when not using topic embeddings or user embeddings; as replies in this dataset are viewed as posts, the setting without comment embeddings is not available. Table TABREF24 shows the same findings as Table TABREF22 : the 21% improvement in accuracy demonstrates that user information is the most vital. This finding also supports the results in the related work: user",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance Analysis"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "constraints are useful and can yield 11.2% improvement in accuracy BIBREF7 . Further considering topic information yields 3.4% improvement, suggesting that knowing the subject of debates provides useful information. In sum, Table TABREF22 together with Table TABREF24 show that UTCNN achieves promising performance regardless of topic, language, data distribution, and platform. Conclusion We have proposed UTCNN, a neural network model that incorporates user, topic, content and comment information for stance classification on social media texts. UTCNN learns user embeddings for all users with minimum active degree, i.e., one post or one like. Topic information obtained from the topic model or the pre-defined labels further improves the UTCNN model. In addition, comment information provides additional clues for stance classification. We have shown that UTCNN achieves promising and balanced results. In the future we plan to explore the effectiveness of the UTCNN user embeddings for author stance classification. Acknowledgements Research of this paper was partially supported by Ministry of Science and Technology, Taiwan, under the contract MOST 104-2221-E-001-024-MY2.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "UTCNN Model Performance"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "The work is licensed under the Creative Commons Attribution 4.0 International License, which allows redistribution and reuse of the material as long as proper attribution is given.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Deep neural networks have been widely used in text classification and have achieved promising results.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "Convolutional neural networks (CNN) are one of the models used in text classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "Recursive neural networks are used in text classification tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "On social media platforms, users can act as either authors of posts or readers who leave comments.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "User Role"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Post authorship is considered in the classification of posts to improve stance prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification Factor"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Likes are used as a signal in stance classification, as users' likes and dislikes provide clues about their attitudes toward a post.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification Factor"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Comments are treated as additional text information that provides hints about a post's content and helps in stance classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Classification Factor"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Users with positive attitudes toward a topic leave positive comments, praising the post or simply engaging with its content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "Positive posts attract users who hold positive stances toward the content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Influence"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "Different topics are associated with different stance labeling tendencies and word usage patterns.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "On the topic of abortion, discussions about women's rights and unwanted babies are common, while criticism of medicine usage or crime is also observed.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "On the topic of marijuana, users may criticize medicine usage or crime, indicating topic-specific stance tendencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "Posts on nuclear power raise various arguments such as green energy, radiation, and air pollution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "UTCNN is a deep learning model that integrates user, topic, and comment information for post stance classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Model"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "User embeddings can be generated even for users who have never posted anything, enabling representation of user interactions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Feature"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "A topic model is used to automatically assign topics to each post in a single topic dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The paper evaluates the model on a post stance classification task using forum-style social media platforms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Task"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The paper's contributions include proposing UTCNN for use in modern and legacy social media, leveraging user data (including non-posting users), and using a topic model to assign topics automatically.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "List"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The proposed method achieves the highest performance in all instances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "Text features are limited in the stance classification domain.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Adding extra-linguistic constraints improves performance in stance classification by 1\u20137% for some models and datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "Hasan and Ng require that posts written by the same author have the same stance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "User-interaction constraints model the relationship among posts in a sequence of replies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "Ideology constraints model inter-topic relationships, such as users who oppose abortion being likely to oppose gay rights.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "Hasan and Ng use hidden Markov models to model dependent relationships between posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Burfoot et al. use iterative classification to repeatedly generate new estimates based on the current state of knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "Sridhar et al. use probabilistic soft logic to model reply links via collaborative filtering.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "In the Facebook dataset, comments are used as extra information for predicting post stance rather than directly for comment stance prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Usage"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "Dong et al. use an adaptive layer in a recursive neural network for target-dependent Twitter sentiment analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "Recursive neural tensor networks utilize sentence parse trees to capture sentence-level sentiment for movie reviews.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "Le and Mikolov predict sentiment using deep learning models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "Paragraph vectors are a method used to model each paragraph as a continuous representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "RNTN is a deep learning model for sentiment classification that serves as a baseline for comparison with paragraph vectors and user-word composition vector models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The user-word composition vector model (UWCVM) is a model that incorporates user-specific sentiment word strengths by adding user embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "UPNN is an extension of UWCVM that includes product-word composition as product embeddings to capture product-specific rating tendencies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "Adding user embeddings to neural network models improves accuracy by 2\u201310% compared to RNTN and paragraph vector methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "UTCNN is a proposed model that generates user embeddings for all users, including those who have not authored posts, and incorporates comment information to improve post stance classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "UTCNN considers multiple users\u2014such as one author and many likers\u2014for a single post, unlike traditional review models that consider only one reviewer.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "UTCNN incorporates comment information to provide additional features for post stance classification, a factor not previously considered in deep learning models for text stance classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "CNN-based document composition is a method used to capture user- and topic-dependent document-level features in text analysis.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "UTCNN is a user-topic-comment neural network that models user and topic-dependent document composition using word embeddings and semantic transformations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "A general CNN is used in UTCNN to process transformed word embeddings after user- and topic-dependent semantic transformations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "User reading preference is modeled by a user embedding that captures the semantics a user prefers to read or write.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "Topic semantics is modeled by a topic embedding that captures the semantic content associated with a specific topic.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "A dot operation is applied between a word embedding and either a user or topic embedding to produce user-dependent or topic-dependent word vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The dot operation between a word embedding and a user embedding results in a user-dependent word vector that reflects the user's reading preferences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The dot operation between a word embedding and a topic embedding results in a topic-dependent word vector that reflects the topic's semantic content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "User-dependent and topic-dependent word vectors are concatenated to form a user- and topic-dependent word vector used as input to the CNN.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "UTCNN applies three convolutional layers with window sizes one, two, and three to extract unigram, bigram, and trigram n-gram semantics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "A maximum pooling layer is applied to the convolutional outputs to obtain n-gram representations for each window size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "An average pooling layer computes the element-wise average of the maximized convolution outputs to produce a final document-level representation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "The convolutional layers in UTCNN extract unigram, bigram, and trigram semantics to capture local word patterns in documents.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "A maximum pooling layer is applied after the user matrix embedding layer to aggregate user interactions with a post.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "FBFans is a privately-owned, single-topic, Chinese, unbalanced social media dataset containing posts from anti-nuclear-power Facebook fan groups from September 2013 to August 2014, including post content, author IDs, and liker IDs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "CreateDebate is a public, multiple-topic, English, balanced forum dataset used to evaluate the applicability and performance of the UTCNN model across different topics, languages, and data distributions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "The FBFans dataset contains 2,496 authors, 505,137 likers, 33,686 commenters, and 505,412 unique users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Two annotators labeled posts as supportive (Sup), neutral (Neu), or unsupportive (Uns) based solely on post content, with a raw agreement of 0.91.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "Cohen\u2019s Kappa for Neu and not Neu labeling is 0.58 (moderate), and for Sup or Uns labeling is 0.84 (almost perfect), indicating strong inter-annotator agreement.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "About twenty percent of the posts were labeled with a stance, and supportive posts are significantly more numerous than unsupportive ones, resulting in a highly skewed dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "On average, 161.1 users were involved in one post, with a maximum of 23,297 and a minimum of one (the author).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "On average, there were 3 comments per post, with a maximum of 1,092 and a minimum of zero.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The assumption that posts attract users with the same stance to like them is tested by examining the likes associated with posts in the FBFans dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The FBFans dataset consists of 32,595 posts used for analyzing author stances.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The number of authors in the Sup, Neu, and Uns stances is largely imbalanced.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Like statistics are calculated for each distinct author in the FBFans dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Table TABREF13 shows the normalized like statistics across stances in the FBFans dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Posts with stances attract users of the same stance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Neutral posts attract both supportive and neutral users, and can attract more neutral likers than supportive posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "The CreateDebate dataset is collected from an English online debate forum discussing abortion, gay rights, Obama, and marijuana.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "The CreateDebate dataset covers four topics: abortion, gay rights, Obama, and marijuana.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Posts in the CreateDebate dataset are annotated as either for (F) or against (A).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Replies to posts in the CreateDebate dataset are labeled with stance and follow the same data format as posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The right-hand side of Table TABREF12 shows the labeling results for the CreateDebate dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The CreateDebate dataset is more balanced than the FBFans dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "The CreateDebate dataset contains 977 unique users.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "Five-fold cross-validation was conducted to compare with Hasan and Ng's work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Annotation results are presented as the average number of all folds in five-fold cross-validation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The FBFans dataset has more integrated functions than the CreateDebate dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "The CreateDebate dataset does not include like and comment features, as replies are evaluated as posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "Cross-entropy loss and AdaGrad optimizer are used in the UTCNN training process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "50-dimensional word embeddings are used in both datasets, pre-trained using GloVe.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "For the FBFans dataset, 50-dimensional word embeddings are learned on the whole dataset using GloVe.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "For the CreateDebate dataset, publicly available 50-dimensional GloVe pre-trained word embeddings are used.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "The word embeddings are fixed during the training process.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The learning rate is set to 0.03.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setting"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "User and topic embeddings are randomly initialized in the range of [-0.1, 0.1].",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Setting"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Matrix embeddings for users and topics were sized at 250.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Vector embeddings for users and topics were set to length 10.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "The LDA topic model was applied on the FBFans dataset to determine latent topics for building topic embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "100 latent topics were learned from the FBFans dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The top three topics were assigned to each post in the FBFans dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The CreateDebate dataset consists of four topics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "For the CreateDebate dataset, topic labels for posts were used directly without applying LDA.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "For the FBFans dataset, class-based f-scores and the macro-average f-score were reported.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The macro-average f-score is the average precision and recall of the three classes, as shown in equation EQREF19.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The macro-average f-score was adopted as the evaluation metric for overall performance due to severe class imbalance and the importance of minor-class content.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Accuracy was adopted as the evaluation metric for the CreateDebate dataset to compare results with related work.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "A baseline model using SVM with unigram, bigram, and trigram features was included.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "A baseline model using SVM with average word embedding was included.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "A baseline model using SVM with average transformed word embeddings was included.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "A CNN model was included as a deep learning baseline for text classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "A Recurrent Convolutional Neural Networks (RCNN) model was included as a deep learning baseline for text classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "UTCNN without user information represents a pure-text CNN model using the same user matrix and embeddings for each user.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "UTCNN without the LDA model represents the model's performance on a single-topic dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "UTCNN without comments predicts stance labels using only user and topic information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Baseline"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The FBFans dataset is highly imbalanced.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "Majority yields good performance on Neu due to the dataset's bias toward the neutral class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "SVM models perform well on Sup and Neu but poorly on Uns, indicating that content alone is insufficient to predict stance labels, especially for minority classes.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "SVM with transformed word embedding achieves performance comparable to SVM with n-gram features but with fewer features, making it more efficient for large-scale social media datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "CNN and RCNN perform slightly better than most SVM models but still fail to achieve good performance on Uns posts, showing content information is insufficient for minority class prediction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Adding comment information to models introduces noise because commenters do not always hold the same stance as the post authors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Among UTCNN variations, user information is most important, followed by topic and comment information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "UTCNN without user information performs similarly to SVMs, achieving good results on Sup and Neu but detecting no Uns posts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Adding user information leads to a 17.5% improvement and enables all models to successfully predict the minority class, especially in highly imbalanced datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "UTCNN without topic information works well but achieves lower performance than the full UTCNN model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Adding LDA-based latent topics provides a 4.9% performance gain, showing that even within the same topic, different arguments and evidence can improve model performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Adding comment information yields a 4.8% performance improvement and achieves performance comparable to UTCNN without topic information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "UTCNN is a model that integrates user, content, and comment information for stance classification on social media text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "The full UTCNN achieves the highest f-scores on all Sup, Neu, and Uns stances among models predicting the Uns class and the highest macro-average f-score overall.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "UTCNN does not require balanced training data and outperforms other models without applying oversampling techniques.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "The UTCNN shared user embedding setting, where all embeddings from the same user are forced to be identical, yields only a 2.5% improvement over the model without comments, which is not statistically significant.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "When separating author/liker and commenter embeddings, the UTCNN full model achieves a 4.8% improvement, which is significantly greater than the shared embedding setting.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "Users tend to use different wording when acting as an author/liker versus a commenter, which explains the performance gain from separating embeddings by role.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "Results on the CreateDebate Dataset show the performance of UTCNN, baselines implemented on the FBFans dataset, and related work on the CreateDebate dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The CreateDebate dataset is almost balanced, so no oversampling is adopted in the models evaluated on it.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "Previous work has proposed integer linear programming (ILP) or linear-chain conditional random fields (CRFs) to integrate text features, author, ideology, and user-interaction.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Alternative Approach"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "The author constraint requires that posts from the same author on the same topic hold the same stance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "The ideology constraint captures inferences between topics for the same author.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The user-interaction constraint models relationships among posts via user interactions such as replies.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "SVM with n-gram or average word embedding features performs similarly to the majority of models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "SVM with transformed word embedding achieves superior results, indicating that learned user and topic embeddings capture user and topic semantics.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "CNN and RCNN perform slightly better than most SVMs, as shown in Table TABREF22 for the FBFans dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "UTCNN is a neural network model that incorporates user, topic, content, and comment information for stance classification on social media texts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "UTCNN user embeddings encode author and user-interaction constraints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "The ideology constraint in UTCNN is modeled by topic embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "Text features in UTCNN are modeled by CNN.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "UTCNN achieves significant improvement over ILP and CRF methods, suggesting that latent representations are more effective than overt model constraints.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "The PSL model jointly labels author and post stances using probabilistic soft logic by considering text features and reply links.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The best AD setting of the PSL model represents a full joint stance/disagreement collective model on posts and is more relevant to UTCNN.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "Although the PSL model can jointly label author and post stances, its performance on posts is lower than that of ILP or CRF models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "UTCNN significantly outperforms other models on posts and has potential to predict user stances through generated user embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "In the CreateDebate dataset, replies are treated as posts, so the setting without comment embeddings is not available.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "The 21% accuracy improvement in CreateDebate shows that user information is the most vital for stance classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "Adding topic information yields a 3.4% improvement in accuracy, indicating that knowing the debate subject provides useful information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "UTCNN achieves promising and balanced performance regardless of topic, language, data distribution, and platform.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "Future work plans to explore the effectiveness of UTCNN user embeddings for author stance classification.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Plan"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "The research was partially supported by the Ministry of Science and Technology, Taiwan, under contract MOST 104-2221-E-001-024-MY2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Attribute"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "0",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "0.58",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "0.84",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "0.91",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "1",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "1,092",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "10-dimensional embeddings",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "100 latent topics",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "11.2% improvement",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "161.1 users per post",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "17.5% improvement",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "2,496 authors",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "2.5% improvement",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "21% improvement",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "23,297",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "250-dimensional embeddings",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "3 comments per post",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "3.4% improvement",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "32,595 posts",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "33,686 commenters",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "4.8% improvement",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "4.8% improvement",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "4.9% performance gain",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "50-dimensional word embeddings",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "505,137 likers",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "505,412 unique users",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "977 unique users",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "977 unique users",
+      "Property",
+      "s76"
+    ],
+    [
+      "A for against",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "Accuracy",
+      "Definition",
+      "s98"
+    ],
+    [
+      "AdaGrad",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "August 2014",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "BIBREF0",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "BIBREF1",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "BIBREF12",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "BIBREF2",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "BIBREF23",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "BIBREF3",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "BIBREF4",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "BIBREF5",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "BIBREF7",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "BIBREF9",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "BIBREF9",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "Burfoot et al.",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "CNN",
+      "CNN Document Composition",
+      "e5"
+    ],
+    [
+      "CNN",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "CNN",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "CNN",
+      "Property",
+      "s43"
+    ],
+    [
+      "CNN",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "CNN and RCNN",
+      "Result",
+      "s133"
+    ],
+    [
+      "CNN and RCNN models",
+      "Result",
+      "s111"
+    ],
+    [
+      "CNN model",
+      "Baseline",
+      "s102"
+    ],
+    [
+      "CNN model",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "CNN-based document composition",
+      "Definition",
+      "s41"
+    ],
+    [
+      "CRF",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "Chinese",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "Class-based f-scores",
+      "Definition",
+      "s95"
+    ],
+    [
+      "Cohen\u2019s Kappa",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "Cohen\u2019s Kappa",
+      "Result",
+      "s59"
+    ],
+    [
+      "CreateDebate",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "CreateDebate",
+      "Definition",
+      "s56"
+    ],
+    [
+      "CreateDebate Dataset",
+      "Property",
+      "s126"
+    ],
+    [
+      "CreateDebate Dataset",
+      "Result",
+      "s125"
+    ],
+    [
+      "CreateDebate Dataset",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "CreateDebate dataset",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "CreateDebate dataset",
+      "Definition",
+      "s70"
+    ],
+    [
+      "CreateDebate dataset",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "CreateDebate dataset",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "CreateDebate dataset",
+      "Property",
+      "s143"
+    ],
+    [
+      "CreateDebate dataset",
+      "Property",
+      "s93"
+    ],
+    [
+      "CreateDebate dataset balance",
+      "Result",
+      "s75"
+    ],
+    [
+      "CreateDebate dataset features",
+      "Limitation",
+      "s80"
+    ],
+    [
+      "Creative Commons Attribution 4.0 International License",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "Creative Commons Attribution 4.0 International License",
+      "Definition",
+      "s1"
+    ],
+    [
+      "English",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "Evaluation metric",
+      "Property",
+      "s97"
+    ],
+    [
+      "F for for",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "FBFans",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "FBFans",
+      "Definition",
+      "s55"
+    ],
+    [
+      "FBFans dataset",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "FBFans dataset",
+      "Definition",
+      "s64"
+    ],
+    [
+      "FBFans dataset",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "FBFans dataset",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "FBFans dataset",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "FBFans dataset",
+      "Property",
+      "s107"
+    ],
+    [
+      "FBFans dataset",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "FBFans dataset functions",
+      "Property",
+      "s79"
+    ],
+    [
+      "FBNFans dataset",
+      "Property",
+      "s57"
+    ],
+    [
+      "FIGREF4",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "Facebook",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "Facebook dataset",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "Figure FIGREF10",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "Figure FIGREF4",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "GloVe BIBREF21",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "GloVe word embeddings",
+      "Definition",
+      "s82"
+    ],
+    [
+      "Hasan and Ng",
+      "Definition",
+      "s23"
+    ],
+    [
+      "Hasan and Ng",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "ILP",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "LDA",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "LDA",
+      "Result",
+      "s117"
+    ],
+    [
+      "LDA topic model",
+      "Definition",
+      "s90"
+    ],
+    [
+      "LDA topic model",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "Latent topics",
+      "Result",
+      "s91"
+    ],
+    [
+      "Le and Mikolov",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "Le and Mikolov",
+      "Method",
+      "s32"
+    ],
+    [
+      "MOST 104-2221-E-001-024-MY2",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "Macro-average f-score",
+      "Definition",
+      "s96"
+    ],
+    [
+      "Majority",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Majority",
+      "Result",
+      "s108"
+    ],
+    [
+      "Matrix embeddings",
+      "Property",
+      "s88"
+    ],
+    [
+      "Ministry of Science and Technology, Taiwan",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "Neu",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Neu stance",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "Neu stance",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "Obama (OBA)",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "POS-dependencies",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "PSL",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "PSL model",
+      "Definition",
+      "s139"
+    ],
+    [
+      "PSL model best AD setting",
+      "Result",
+      "s140"
+    ],
+    [
+      "RBF kernel",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "RCNN",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "RCNN",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "RCNN model",
+      "Baseline",
+      "s103"
+    ],
+    [
+      "RCNN model",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "RNTN",
+      "Property",
+      "s34"
+    ],
+    [
+      "RNTN",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "SVM",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "SVM models",
+      "Result",
+      "s109"
+    ],
+    [
+      "SVM with average transformed word embeddings",
+      "Baseline",
+      "s101"
+    ],
+    [
+      "SVM with average transformed word embeddings",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "SVM with average word embedding",
+      "Baseline",
+      "s100"
+    ],
+    [
+      "SVM with average word embedding",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "SVM with bigram",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "SVM with n-gram or average word embedding",
+      "Result",
+      "s131"
+    ],
+    [
+      "SVM with transformed word embedding",
+      "Result",
+      "s132"
+    ],
+    [
+      "SVM with trigram",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "SVM with unigram",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "SVM with unigram, bigram, and trigram features",
+      "Baseline",
+      "s99"
+    ],
+    [
+      "SVMs",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "September 2013",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "Sup",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Sup stance",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "Sup stance",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "Sup, Neu, Uns stances",
+      "Property",
+      "s65"
+    ],
+    [
+      "TABREF22",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "TABREF24",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "Table TABREF12",
+      "Definition",
+      "s74"
+    ],
+    [
+      "Table TABREF13",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "Table TABREF13",
+      "Definition",
+      "s67"
+    ],
+    [
+      "Table TABREF22",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "Table TABREF24",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "Thomas et al.",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "Topic assignment",
+      "Process",
+      "s92"
+    ],
+    [
+      "Topic labels",
+      "Process",
+      "s94"
+    ],
+    [
+      "Twitter",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "Twitter sentiment analysis",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "UPNN",
+      "Definition",
+      "s36"
+    ],
+    [
+      "UPNN",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "UTCNN",
+      "Definition",
+      "s119"
+    ],
+    [
+      "UTCNN",
+      "Definition",
+      "s134"
+    ],
+    [
+      "UTCNN",
+      "Definition",
+      "s38"
+    ],
+    [
+      "UTCNN",
+      "Definition",
+      "s42"
+    ],
+    [
+      "UTCNN",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "UTCNN",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "UTCNN",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "UTCNN",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "UTCNN",
+      "Property",
+      "s121"
+    ],
+    [
+      "UTCNN",
+      "Result",
+      "s120"
+    ],
+    [
+      "UTCNN",
+      "Result",
+      "s122"
+    ],
+    [
+      "UTCNN",
+      "Result",
+      "s123"
+    ],
+    [
+      "UTCNN",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "UTCNN",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "UTCNN",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "UTCNN",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "UTCNN on posts",
+      "Result",
+      "s142"
+    ],
+    [
+      "UTCNN performance",
+      "Result",
+      "s138"
+    ],
+    [
+      "UTCNN performance across datasets",
+      "Result",
+      "s146"
+    ],
+    [
+      "UTCNN training process",
+      "Method",
+      "s81"
+    ],
+    [
+      "UTCNN user embeddings",
+      "Property",
+      "s135"
+    ],
+    [
+      "UTCNN variations",
+      "Result",
+      "s113"
+    ],
+    [
+      "UTCNN vs PSL model",
+      "Comparison",
+      "s141"
+    ],
+    [
+      "UTCNN without LDA model",
+      "Baseline",
+      "s105"
+    ],
+    [
+      "UTCNN without LDA model",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "UTCNN without comments",
+      "Baseline",
+      "s106"
+    ],
+    [
+      "UTCNN without comments",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "UTCNN without user information",
+      "Baseline",
+      "s104"
+    ],
+    [
+      "UTCNN without user information",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "UTCNN without user information",
+      "Result",
+      "s114"
+    ],
+    [
+      "UWCVM",
+      "Definition",
+      "s35"
+    ],
+    [
+      "UWCVM",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "Uns",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "Uns stance",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "Uns stance",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "Vector embeddings",
+      "Property",
+      "s89"
+    ],
+    [
+      "[-0.1 to 0.1]",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "abortion",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "abortion",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "abortion (ABO)",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "abortion (ABO), gay rights (GAY), Obama (OBA), marijuana (MAR)",
+      "Property",
+      "s71"
+    ],
+    [
+      "abortion topic",
+      "Example",
+      "s12"
+    ],
+    [
+      "adaptive layer",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "adding comment information",
+      "Cause",
+      "s112"
+    ],
+    [
+      "air pollution",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "annotation results",
+      "Result",
+      "s78"
+    ],
+    [
+      "anti-nuclear-power",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "author",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "author",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "author constraint",
+      "Definition",
+      "s128"
+    ],
+    [
+      "author constraint",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "author stance",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "author/liker",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "average comments per post",
+      "Property",
+      "s62"
+    ],
+    [
+      "average pooling",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "average pooling layer",
+      "Process",
+      "s52"
+    ],
+    [
+      "average precision",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "average recall",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "average users per post",
+      "Property",
+      "s61"
+    ],
+    [
+      "balanced",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "bias",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "biased dataset",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "bigram",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "collaborative filtering",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "comment information",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "comment information",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "comment information",
+      "Property",
+      "s40"
+    ],
+    [
+      "comment information",
+      "Result",
+      "s118"
+    ],
+    [
+      "comment information",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "comment information",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "comment representation",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "comment stance",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "commenter",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "commenter role",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "commenter vector embedding",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "comments",
+      "Classification Factor",
+      "s8"
+    ],
+    [
+      "comments",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "comments",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "comments",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "comments",
+      "Usage",
+      "s29"
+    ],
+    [
+      "composite words",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "concatenated transformed word vector",
+      "Result",
+      "s49"
+    ],
+    [
+      "conservative",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "content information",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "content information",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "contributions of the paper",
+      "List",
+      "s19"
+    ],
+    [
+      "convolutional filter",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "convolutional layers",
+      "Property",
+      "s50"
+    ],
+    [
+      "convolutional layers",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "convolutional neural networks (CNN)",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "convolutional neural networks (CNN)",
+      "Model",
+      "s3"
+    ],
+    [
+      "crime",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "cross-entropy",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "data skew",
+      "Property",
+      "s60"
+    ],
+    [
+      "data skewness",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "deep learning model",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "deep neural networks",
+      "Application",
+      "s2"
+    ],
+    [
+      "deep neural networks",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "development set",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "development set",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "document composition",
+      "CNN Document Composition",
+      "e5"
+    ],
+    [
+      "document composition",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "document composition",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "document-level",
+      "CNN Document Composition",
+      "e5"
+    ],
+    [
+      "dot operation",
+      "Process",
+      "s46"
+    ],
+    [
+      "dot operations",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "embedding",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "engaged user",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "evacuation plan",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "extra-linguistic constraints",
+      "Cause",
+      "s22"
+    ],
+    [
+      "extra-linguistic features",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "f-scores",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "fine-tuned",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "five-fold cross-validation",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "five-fold cross-validation",
+      "Method",
+      "s77"
+    ],
+    [
+      "forum-style platforms",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "full model",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "future work of UTCNN",
+      "Plan",
+      "s147"
+    ],
+    [
+      "gay rights",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "gay rights (GAY)",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "green energy",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "hidden Markov models (HMMs)",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "hidden Markov models (HMMs)",
+      "Method",
+      "s26"
+    ],
+    [
+      "hyperparameters",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "ideology constraint",
+      "Definition",
+      "s129"
+    ],
+    [
+      "ideology constraint",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "ideology constraint in UTCNN",
+      "Property",
+      "s136"
+    ],
+    [
+      "ideology constraints",
+      "Definition",
+      "s25"
+    ],
+    [
+      "ideology constraints",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "integer linear programming (ILP)",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "integer linear programming (ILP) and CRFs",
+      "Alternative Approach",
+      "s127"
+    ],
+    [
+      "iterative classification",
+      "Method",
+      "s27"
+    ],
+    [
+      "joint stance/disagreement model",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "joint topic matrix embedding",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "joint topic vector embedding",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "large scale social media dataset",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "latent topic stance",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "latent user stance",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "learning rate",
+      "Setting",
+      "s86"
+    ],
+    [
+      "learning rate 0.03",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "like statistics",
+      "Result",
+      "s66"
+    ],
+    [
+      "likers",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "likes",
+      "Classification Factor",
+      "s7"
+    ],
+    [
+      "likes",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "linear kernel",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "linear-chain conditional random fields (CRFs)",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "macro-average f-score",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "macro-average f-score",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "marijuana",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "marijuana (MAR)",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "marijuana topic",
+      "Example",
+      "s13"
+    ],
+    [
+      "maximum pooling",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "maximum pooling layer",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "maximum pooling layer",
+      "Process",
+      "s51"
+    ],
+    [
+      "medicine usage",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "minimum active degree",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "minor class",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "minority class",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "moderator matrix embedding",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "moderator stance preference",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "moderator vector embedding",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "movie reviews",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "multiple users",
+      "Property",
+      "s39"
+    ],
+    [
+      "multiple users",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "n-gram",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "n-gram feature",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "neutral (Neu)",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "neutral posts",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "neutral posts",
+      "Result",
+      "s69"
+    ],
+    [
+      "normalized numbers",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "nuclear power",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "nuclear power",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "nuclear power topic",
+      "Example",
+      "s14"
+    ],
+    [
+      "output length",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "oversampling",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "paragraph vectors",
+      "Definition",
+      "s33"
+    ],
+    [
+      "paragraph vectors",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "past politicians",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "positive posts",
+      "Influence",
+      "s10"
+    ],
+    [
+      "post",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "post authorship",
+      "Classification Factor",
+      "s6"
+    ],
+    [
+      "post authorship",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "post content",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "post stance",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "post stance",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "post stance classification",
+      "Task",
+      "s18"
+    ],
+    [
+      "post stance classification",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "post stance labels",
+      "Result",
+      "s58"
+    ],
+    [
+      "posts annotated as for (F) and against (A)",
+      "Definition",
+      "s72"
+    ],
+    [
+      "posts with stances",
+      "Cause",
+      "s68"
+    ],
+    [
+      "probabilistic soft logic (PSL)",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "probabilistic soft logic (PSL)",
+      "Method",
+      "s28"
+    ],
+    [
+      "product embeddings",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "product-word composition",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "proposed method",
+      "Result",
+      "s20"
+    ],
+    [
+      "radiation",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "random initialization",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "recursive neural network",
+      "Application",
+      "s30"
+    ],
+    [
+      "recursive neural network",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "recursive neural networks",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "recursive neural networks",
+      "Model",
+      "s4"
+    ],
+    [
+      "recursive neural tensor networks (RNTNs)",
+      "Application",
+      "s31"
+    ],
+    [
+      "recursive neural tensor networks (RNTNs)",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "replies in CreateDebate dataset",
+      "Property",
+      "s73"
+    ],
+    [
+      "reply links",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "research support",
+      "Attribute",
+      "s148"
+    ],
+    [
+      "reviewer",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "same stance likes",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "semantic representation",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "semantic transformation",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "sentence parse trees",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "sentiment words",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "shared user embedding",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "social media",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "social media posts",
+      "User Role",
+      "s5"
+    ],
+    [
+      "social media text",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "social media texts",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "softmax",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "solar power",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "stance classification",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "stance classification",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "stance classification",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "stance classification",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "stance labeling",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "stance labeling assumption",
+      "Cause",
+      "s63"
+    ],
+    [
+      "stance labels",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "supportive (Sup)",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "taylor swift",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "testing set",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "text classification",
+      "Deep Neural Networks in Text Classification",
+      "e1"
+    ],
+    [
+      "text features",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "text features",
+      "Limitation",
+      "s21"
+    ],
+    [
+      "text features",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "text features",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "text features in UTCNN",
+      "Property",
+      "s137"
+    ],
+    [
+      "text stance classification",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "top three topics",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "topic",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "topic embeddings",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "topic embeddings",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "topic influence",
+      "Property",
+      "s11"
+    ],
+    [
+      "topic information",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "topic information",
+      "Result",
+      "s116"
+    ],
+    [
+      "topic information",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "topic information in stance classification",
+      "Result",
+      "s145"
+    ],
+    [
+      "topic matrix embedding",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "topic model",
+      "Method",
+      "s17"
+    ],
+    [
+      "topic model",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "topic semantics",
+      "Definition",
+      "s45"
+    ],
+    [
+      "topic semantics",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "topic stance tendency",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "topic vector embedding",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "topic-dependent",
+      "CNN Document Composition",
+      "e5"
+    ],
+    [
+      "topic-dependent representation",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "topic-dependent word vector",
+      "Result",
+      "s48"
+    ],
+    [
+      "training data",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "training set",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "transformed word embedding",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "transformed word embedding",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "transformed word embedding feature",
+      "Result",
+      "s110"
+    ],
+    [
+      "trigram",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "unbalanced",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "unigram",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "unigram, bigram, trigram",
+      "Result",
+      "s53"
+    ],
+    [
+      "unsupportive (Uns)",
+      "Dataset Characteristics",
+      "e8"
+    ],
+    [
+      "unwanted babies",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "user and topic embeddings",
+      "Setting",
+      "s87"
+    ],
+    [
+      "user attitudes",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "user attitudes",
+      "Relationship",
+      "s9"
+    ],
+    [
+      "user embeddings",
+      "Dataset Analysis",
+      "e9"
+    ],
+    [
+      "user embeddings",
+      "Feature",
+      "s16"
+    ],
+    [
+      "user embeddings",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "user embeddings",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "user embeddings",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "user embeddings",
+      "Result",
+      "s37"
+    ],
+    [
+      "user embeddings",
+      "UTCNN Model Performance",
+      "e14"
+    ],
+    [
+      "user embeddings",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "user information",
+      "Model Performance Analysis",
+      "e11"
+    ],
+    [
+      "user information",
+      "Property",
+      "s115"
+    ],
+    [
+      "user information",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "user information in stance classification",
+      "Result",
+      "s144"
+    ],
+    [
+      "user matrix",
+      "Model Baselines",
+      "e10"
+    ],
+    [
+      "user matrix embedding",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "user matrix embedding layer",
+      "Process",
+      "s54"
+    ],
+    [
+      "user reading preference",
+      "Definition",
+      "s44"
+    ],
+    [
+      "user reading preference",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "user role",
+      "Cause",
+      "s124"
+    ],
+    [
+      "user-dependent",
+      "CNN Document Composition",
+      "e5"
+    ],
+    [
+      "user-dependent representation",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "user-dependent word vector",
+      "Result",
+      "s47"
+    ],
+    [
+      "user-interaction",
+      "UTCNN Model Performance",
+      "e12"
+    ],
+    [
+      "user-interaction constraint",
+      "Definition",
+      "s130"
+    ],
+    [
+      "user-interaction constraint",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "user-interaction constraints",
+      "Definition",
+      "s24"
+    ],
+    [
+      "user-interaction constraints",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "user-specific strength",
+      "User-Embedded Stance Modeling",
+      "e4"
+    ],
+    [
+      "user-topic-comment neural network",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "user-topic-comment neural network (UTCNN)",
+      "Model",
+      "s15"
+    ],
+    [
+      "vector dimension",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "vector embedding layer",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "window size",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "windows 7",
+      "Extra-Linguistic Stance Features",
+      "e3"
+    ],
+    [
+      "women's rights",
+      "Post Stance Classification",
+      "e2"
+    ],
+    [
+      "word embedding",
+      "Model Performance Analysis",
+      "e13"
+    ],
+    [
+      "word embedding",
+      "UTCNN Model Setup",
+      "e6"
+    ],
+    [
+      "word embeddings",
+      "Embedding Composition",
+      "e7"
+    ],
+    [
+      "word embeddings fixed",
+      "Property",
+      "s85"
+    ],
+    [
+      "word embeddings in CreateDebate",
+      "Method",
+      "s84"
+    ],
+    [
+      "word embeddings in FBFans",
+      "Method",
+      "s83"
+    ],
+    [
+      "word representations",
+      "UTCNN Model Setup",
+      "e6"
+    ]
+  ]
+}

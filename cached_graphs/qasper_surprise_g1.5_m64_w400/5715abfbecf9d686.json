@@ -1,0 +1,3826 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 11,
+    "n_semantic": 109,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "word embeddings": {
+      "tag_set": [
+        "Definition",
+        "Word Embeddings"
+      ]
+    },
+    "numerical form": {
+      "tag_set": [
+        "Word Embeddings"
+      ]
+    },
+    "vectors": {
+      "tag_set": [
+        "Vector Input",
+        "Word Embeddings"
+      ]
+    },
+    "hundred dimensions": {
+      "tag_set": [
+        "Word Embeddings"
+      ]
+    },
+    "machine learning models": {
+      "tag_set": [
+        "Vector Input"
+      ]
+    },
+    "deep neural networks": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "embedding vectors": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "word2vec": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Definition",
+        "ELMo Model Architecture",
+        "Limitation"
+      ]
+    },
+    "GloVe": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Definition",
+        "ELMo Model Architecture"
+      ]
+    },
+    "FastText": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Definition",
+        "ELMo Model Architecture"
+      ]
+    },
+    "ELMo": {
+      "tag_set": [
+        "Application",
+        "Contextual Word Embeddings",
+        "Definition",
+        "ELMo Model Architecture",
+        "ELMo NER Evaluation",
+        "Named Entity Recognition",
+        "Result",
+        "Word Analogy Method"
+      ]
+    },
+    "BERT": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Definition"
+      ]
+    },
+    "monolingual corpora": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Definition"
+      ]
+    },
+    "semantic relations": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "polysemy": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Problem"
+      ]
+    },
+    "contextual embeddings": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Definition",
+        "ELMo Model Architecture"
+      ]
+    },
+    "Slovenian": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "ELMo NER Evaluation",
+        "Property",
+        "Training Data Sources"
+      ]
+    },
+    "Croatian": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Dataset Composition",
+        "ELMo NER Evaluation",
+        "Limitation",
+        "Property",
+        "Training Data Sources"
+      ]
+    },
+    "Finnish": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "ELMo NER Evaluation",
+        "Property",
+        "Training Data Sources"
+      ]
+    },
+    "Estonian": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "ELMo NER Evaluation",
+        "Training Data Sources"
+      ]
+    },
+    "Latvian": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "ELMo NER Evaluation",
+        "Named Entity Recognition",
+        "Training Data Sources"
+      ]
+    },
+    "Lithuanian": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "ELMo NER Evaluation",
+        "Property",
+        "Training Data Sources"
+      ]
+    },
+    "Swedish": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "ELMo NER Evaluation",
+        "Training Data Sources"
+      ]
+    },
+    "question answering": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "named entity extraction": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "sentiment analysis": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "textual entailment": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "semantic role labeling": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "coreference resolution": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "training corpus": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "word senses": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "rare meanings": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "sentence-wise context": {
+      "tag_set": [
+        "Contextual Word Embeddings"
+      ]
+    },
+    "downstream machine learning": {
+      "tag_set": [
+        "Contextual Word Embeddings",
+        "Requirement"
+      ]
+    },
+    "CNN layer": {
+      "tag_set": [
+        "ELMo Model Architecture"
+      ]
+    },
+    "biLM layer": {
+      "tag_set": [
+        "Definition",
+        "ELMo Model Architecture"
+      ]
+    },
+    "LSTM": {
+      "tag_set": [
+        "ELMo Model Architecture",
+        "Named Entity Recognition"
+      ]
+    },
+    "character level": {
+      "tag_set": [
+        "ELMo Model Architecture"
+      ]
+    },
+    "polysemous words": {
+      "tag_set": [
+        "ELMo Model Architecture"
+      ]
+    },
+    "one billion word corpus": {
+      "tag_set": [
+        "ELMo Model Architecture"
+      ]
+    },
+    "800,000 word vocabulary": {
+      "tag_set": [
+        "ELMo Model Architecture"
+      ]
+    },
+    "CoNLL 2017 Shared Task": {
+      "tag_set": [
+        "Definition",
+        "ELMo Model Architecture"
+      ]
+    },
+    "Wikipedia": {
+      "tag_set": [
+        "ELMo Model Architecture"
+      ]
+    },
+    "ELMoForManyLangs": {
+      "tag_set": [
+        "Definition",
+        "ELMo Latvian Embeddings",
+        "ELMo Model Architecture",
+        "Training Data Sources"
+      ]
+    },
+    "20-million-words dataset": {
+      "tag_set": [
+        "ELMo Model Architecture"
+      ]
+    },
+    "wikidump": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "common crawl": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "280 million tokens": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "word analogy task": {
+      "tag_set": [
+        "Dataset Composition",
+        "Training Data Sources"
+      ]
+    },
+    "FIGREF16": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "SECREF5": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "Clarim repository": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "hrWaC 2.1": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "Riznica": {
+      "tag_set": [
+        "Definition",
+        "Training Data Sources"
+      ]
+    },
+    "Styria media house": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "24sata": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "Ekspress Meedia": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "2009 to 2019": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "CoNLL 2017": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "STT": {
+      "tag_set": [
+        "Dataset Composition",
+        "Definition",
+        "Training Data Sources"
+      ]
+    },
+    "1992 to 2018": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "Ylilauta": {
+      "tag_set": [
+        "Definition",
+        "Training Data Sources"
+      ]
+    },
+    "news articles": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "general web crawl": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "preprocessed": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "deduplicated": {
+      "tag_set": [
+        "Training Data Sources"
+      ]
+    },
+    "2012": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "2014": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "2018": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "Latvian dataset": {
+      "tag_set": [
+        "Composition",
+        "Dataset Composition"
+      ]
+    },
+    "ConLL 2017": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "Lithuanian Wikipedia": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "DGT-UD": {
+      "tag_set": [
+        "Dataset Composition",
+        "Definition"
+      ]
+    },
+    "LtTenTen": {
+      "tag_set": [
+        "Dataset Composition",
+        "Definition"
+      ]
+    },
+    "Slovene dataset": {
+      "tag_set": [
+        "Composition",
+        "Dataset Composition"
+      ]
+    },
+    "Gigafida 2.0": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "Swedish dataset": {
+      "tag_set": [
+        "Composition",
+        "Dataset Composition"
+      ]
+    },
+    "Finnish news agency": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "1992": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "2017": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "NLTK library": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "Slovene tokenizer": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "Onion tool": {
+      "tag_set": [
+        "Dataset Composition",
+        "Process"
+      ]
+    },
+    "9-grams": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "duplicate content threshold 0.9": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "one million most common tokens": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "n=15 to 25": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "punctuation marks": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "ELMo models": {
+      "tag_set": [
+        "Dataset Composition",
+        "Definition"
+      ]
+    },
+    "named entity recognition (NER) task": {
+      "tag_set": [
+        "Dataset Composition"
+      ]
+    },
+    "mikolov2013distributed": {
+      "tag_set": [
+        "Definition",
+        "Word Analogy Method"
+      ]
+    },
+    "term x": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "term y": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "a : b": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Finland": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Helsinki": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Sweden": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Stockholm": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "long": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "longer": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "dark": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "darker": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "vector space": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "vector arithmetic": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "nearest neighbours": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "BIBREF14": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "BIBREF15": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Slovene": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Rome": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Italy": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "Paris": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "France": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "contextual models": {
+      "tag_set": [
+        "Limitation",
+        "Word Analogy Method"
+      ]
+    },
+    "noun case": {
+      "tag_set": [
+        "Word Analogy Method"
+      ]
+    },
+    "cosine distance": {
+      "tag_set": [
+        "Definition",
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "d": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "w4": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "w2-w1+w3": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "CSLS metric": {
+      "tag_set": [
+        "Definition",
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "BIBREF16": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "accuracy@5": {
+      "tag_set": [
+        "Definition",
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "CoNLL 2017 corpora": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "Latvian ELMo": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "Estonian ELMo": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "20 million tokens": {
+      "tag_set": [
+        "ELMo Latvian Embeddings",
+        "Property"
+      ]
+    },
+    "270 million tokens": {
+      "tag_set": [
+        "ELMo Latvian Embeddings",
+        "Property"
+      ]
+    },
+    "Figure FIGREF16": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "Table TABREF17": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "first LSTM layer": {
+      "tag_set": [
+        "ELMo Latvian Embeddings",
+        "Result"
+      ]
+    },
+    "non-contextual CNN layer": {
+      "tag_set": [
+        "ELMo Latvian Embeddings",
+        "Result"
+      ]
+    },
+    "second LSTM layer": {
+      "tag_set": [
+        "ELMo Latvian Embeddings",
+        "Result"
+      ]
+    },
+    "semantic categories": {
+      "tag_set": [
+        "ELMo Latvian Embeddings",
+        "Named Entity Recognition",
+        "Property"
+      ]
+    },
+    "syntactic categories": {
+      "tag_set": [
+        "ELMo Latvian Embeddings",
+        "Named Entity Recognition",
+        "Property"
+      ]
+    },
+    "morphology": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "syntax": {
+      "tag_set": [
+        "ELMo Latvian Embeddings"
+      ]
+    },
+    "English": {
+      "tag_set": [
+        "ELMo NER Evaluation",
+        "Named Entity Recognition",
+        "Property"
+      ]
+    },
+    "opposite adjective": {
+      "tag_set": [
+        "Cause",
+        "Named Entity Recognition"
+      ]
+    },
+    "Named Entity Recognition (NER)": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "person - PER": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "location - LOC": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "organization - ORG": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "O (other)": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "128 LSTM cells": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "10% dropout": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "ADAM optimiser": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "learning rate 0.01": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "10^-5 learning rate decay": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "categorical cross-entropy": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "3 epochs": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "Macro F1 score": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "Table TABREF19": {
+      "tag_set": [
+        "Named Entity Recognition"
+      ]
+    },
+    "fastText": {
+      "tag_set": [
+        "ELMo NER Evaluation"
+      ]
+    },
+    "NER": {
+      "tag_set": [
+        "ELMo NER Evaluation"
+      ]
+    },
+    "300 dimensional": {
+      "tag_set": [
+        "ELMo NER Evaluation"
+      ]
+    },
+    "5 epochs": {
+      "tag_set": [
+        "ELMo NER Evaluation",
+        "Property"
+      ]
+    },
+    "5 times training and evaluation": {
+      "tag_set": [
+        "ELMo NER Evaluation"
+      ]
+    },
+    "TABREF21": {
+      "tag_set": [
+        "ELMo NER Evaluation"
+      ]
+    },
+    "CLARIN repository": {
+      "tag_set": [
+        "Definition",
+        "ELMo NER Evaluation"
+      ]
+    },
+    "ARRS P6-0411": {
+      "tag_set": [
+        "ELMo NER Evaluation"
+      ]
+    },
+    "Horizon 2020": {
+      "tag_set": [
+        "ELMo NER Evaluation"
+      ]
+    },
+    "innovation programme": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "grant agreement No 825153": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "project EMBEDDIA": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "Cross-Lingual Embeddings": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "less-Represented Languages": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "European News Media": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "EU Commission": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "publication": {
+      "tag_set": [
+        "Project Grant Details"
+      ]
+    },
+    "paper": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "context disambiguation": {
+      "tag_set": [
+        "Mechanism"
+      ]
+    },
+    "ELMo architecture": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CNN layer in ELMo": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ELMo embeddings": {
+      "tag_set": [
+        "Cause",
+        "Result"
+      ]
+    },
+    "weighted average in ELMo": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "fine-tuning of ELMo": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ELMo vocabulary": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "original ELMo training data": {
+      "tag_set": [
+        "Fact"
+      ]
+    },
+    "ELMoForManyLangs training data": {
+      "tag_set": [
+        "Fact"
+      ]
+    },
+    "Latvian model": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "wikidump + common crawl": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "seven languages": {
+      "tag_set": [
+        "List"
+      ]
+    },
+    "hrWaC 2.1 corpus": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "Styria dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Ekspress Meedia dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CoNLL 2017 Shared Task corpus": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "STT news articles": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "training data preprocessing": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Clarins repository": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Lithuanian dataset": {
+      "tag_set": [
+        "Composition"
+      ]
+    },
+    "Preprocessing": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "CoNLL 2017, DGT-UD, LtTenTen": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Deduplication threshold": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "Vocabulary file": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ELMo model training": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Evaluation tasks": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "semantic relationship": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "syntactic relationship": {
+      "tag_set": [
+        "Example"
+      ]
+    },
+    "vector space analogy": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "analogy dataset": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "English-centered bias": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "sentence construction": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "embedding generation": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "Latvian ELMo embeddings": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "Estonian ELMo embeddings": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "corpus size": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "Named Entity Recognition": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NER labels": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "NER evaluation method": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "NER model architecture": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "NER training": {
+      "tag_set": [
+        "Procedure"
+      ]
+    },
+    "NER evaluation metric": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training data size": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "fastText embeddings": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "NER task": {
+      "tag_set": [
+        "Definition",
+        "Result"
+      ]
+    },
+    "EMBEDDIA project": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training set size": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "analogy task": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "precomputed ELMo embeddings": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "neural network initialization": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "random component": {
+      "tag_set": [
+        "Cause"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nWord embeddings are representations of words in numerical form, as vectors of typically several hundred dimensions",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word Embeddings"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": ". The vectors are used as an input to machine learning models;",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Vector Input"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "for complex language processing tasks these are typically deep neural networks. The embedding vectors are obtained from specialized learning tasks, based on neural networks, e.g., word2vec BIBREF0, GloVe BIBREF1, FastText BIBREF2, ELMo BIBREF3, and BERT BIBREF4. For training, the embeddings algorithms use large monolingual corpora that encode important information about word meaning as distances between vectors. In order to enable downstream machine learning on text understanding tasks, the embeddings shall preserve semantic relations between words, and this is true even across languages. Probably the best known word embeddings are produced by the word2vec method BIBREF5. The problem with word2vec embeddings is their failure to express polysemous words. During training of an embedding, all senses of a given word (e.g., paper as a material, as a newspaper, as a scientific work, and as an exam) contribute relevant information in proportion to their frequency in the training corpus. This causes the final vector to be placed somewhere in the weighted middle of all words' meanings. Consequently, rare meanings of words are poorly expressed with word2vec and the resulting vectors do not offer good semantic representations. For example, none of the 50 closest vectors of the word paper is related to science. The idea of contextual embeddings is to generate a different vector for each context a word appears in and the context is typically defined sentence-wise. To a large extent, this solves the problems with word polysemy, i.e. the context of a sentence is typically enough to disambiguate different meanings of a word for humans and so it is for the learning algorithms. In this work, we describe high-quality models for contextual embeddings, called ELMo BIBREF3, precomputed for seven morphologically rich, less-resourced languages: Slovenian, Croatian, Finnish, Estonian, Latvian, Lithuanian, and Swedish. ELMo is one of the most successful approaches to contextual word embeddings. At time of its creation, ELMo has been shown to outperform previous word embeddings BIBREF3 like word2vec and GloVe on many NLP tasks, e.g., question answering, named entity extraction, sentiment analysis, textual entailment, semantic role labeling, and coreference resolution. This report is split into further five sections. In section SECREF2, we describe the contextual embeddings ELMo. In Section SECREF3, we describe the datasets used and in Section SECREF4 we describe preprocessing and training of the embeddings. We describe the methodology for evaluation of created vectors and results in Section SECREF5. We present conclusion in Section SECREF6 where we also",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Contextual Word Embeddings"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "outline plans for further work. ELMo Typical word embeddings models or representations, such as word2vec BIBREF0, GloVe BIBREF1, or FastText BIBREF2, are fast to train and have been pre-trained for a number of different languages. They do not capture the context, though, so each word is always given the same vector, regardless of its context or meaning. This is especially problematic for polysemous words. ELMo (Embeddings from Language Models) embedding BIBREF3 is one of the state-of-the-art pretrained transfer learning models, that remedies the problem and introduces a contextual component. ELMo model`s architecture consists of three neural network layers. The output of the model after each layer gives one set of embeddings, altogether three sets. The first layer is a CNN layer, which operates on a character level. It is context independent, so each word always gets the same embedding, regardless of its context. It is followed by two biLM layers. A biLM layer consists of two concatenated LSTMs. In the first LSTM, we try to predict the following word, based on the given past words, where each word is represented by the embeddings from the CNN layer. In the second LSTM, we try to predict the preceding word, based on the given following words. It is equivalent to the first LSTM, just reading the text in reverse. In NLP tasks, any set of these embeddings may be used; however, a weighted average is usually used. The weights of the average are learned during the training of the model for the specific task. Additionally, an entire ELMo model can be fine-tuned on a specific end task. Although ELMo is trained on character level and is able to handle out-of-vocabulary words, a vocabulary file containing most common tokens is used for efficiency during training and embedding generation. The original ELMo model was trained on a one billion word large English corpus, with a given vocabulary file of about 800,000 words. Later, ELMo models for other languages were trained as well, but limited to larger languages with many resources, like German and Japanese. ELMo ::: ELMoForManyLangs Recently, ELMoForManyLangs BIBREF6 project released pre-trained ELMo models for a number of different languages BIBREF7. These models, however, were trained on a significantly smaller datasets. They used 20-million-words data randomly sampled from the raw text released by the CoNLL 2017 Shared Task - Automatically Annotated Raw Texts and Word Embeddings BIBREF8, which is a combination of Wikipedia",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "ELMo Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "dump and common crawl. The quality of these models is questionable. For example, we compared the Latvian model by ELMoForManyLangs with a model we trained on a complete (wikidump + common crawl) Latvian corpus, which has about 280 million tokens. The difference of each model on the word analogy task is shown in Figure FIGREF16 in Section SECREF5. As the results of the ELMoForManyLangs embeddings are significantly worse than using the full corpus, we can conclude that these embeddings are not of sufficient quality. For that reason, we computed ELMo embeddings for seven languages on much larger corpora. As this effort requires access to large amount of textual data and considerable computational resources, we made the precomputed models publicly available by depositing them to Clarin repository. Training Data We trained ELMo models for seven languages: Slovenian, Croatian, Finnish, Estonian, Latvian, Lithuanian and Swedish. To obtain high-quality embeddings, we used large monolingual corpora from various sources for each language. Some corpora are available online under permissive licences, others are available only for research purposes or have limited availability. The corpora used in training datasets are a mix of news articles and general web crawl, which we preprocessed and deduplicated. Below we shortly describe the used corpora in alphabetical order of the involved languages. Their names and sizes are summarized in Table TABREF3. Croatian dataset include hrWaC 2.1 corpus BIBREF9, Riznica BIBREF10, and articles of Croatian branch of Styria media house, made available to us through partnership in a joint project. hrWaC was built by crawling the .hr internet domain in 2011 and 2014. Riznica is composed of Croatian fiction and non-fiction prose, poetry, drama, textbooks, manuals, etc. The Styria dataset consists of 570,219 news articles published on the Croatian 24sata news portal and niche portals related to 24sata. Estonian dataset contains texts from two sources, CoNLL 2017 Shared Task - Automatically Annotated Raw Texts and Word Embeddings BIBREF8, and news articles made available to us by Ekspress Meedia due to partnership in the project. Ekspress Meedia dataset is composed of Estonian news articles between years 2009 and 2019. The CoNLL 2017 corpus is composed of Estonian Wikipedia and webcrawl. Finnish dataset contains articles by Finnish news agency STT, Finnish part of the CoNLL 2017 dataset, and Ylilauta downloadable version BIBREF11. STT news articles were published between years 1992 and 2018. Ylilauta is a Finnish online discussion board; the corpus contains parts",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Training Data Sources"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "of the discussions from 2012 to 2014. Latvian dataset consists only of the Latvian portion of the ConLL 2017 corpus. Lithuanian dataset is composed of Lithuanian Wikipedia articles from 2018, DGT-UD corpus, and LtTenTen. DGT-UD is a parallel corpus of 23 official languages of the EU, composed of JRC DGT translation memory of European law, automatically annotated with UD-Pipe 1.2. LtTenTen is Lithuanian web corpus made up of texts collected from the internet in April 2014 BIBREF12. Slovene dataset is formed from the Gigafida 2.0 corpus BIBREF13. It is a general language corpus composed of various sources, mostly newspapers, internet pages, and magazines, but also fiction and non-fiction prose, textbooks, etc. Swedish dataset is composed of STT Swedish articles and Swedish part of CoNLL 2017. The Finnish news agency STT publishes some of its articles in Swedish language. They were made available to us through partnership in a joint project. The corpus contains those articles from 1992 to 2017. Preprocessing and Training Prior to training the ELMo models, we sentence and word tokenized all the datasets. The text was formatted in such a way that each sentence was in its own line with tokens separated by white spaces. CoNLL 2017, DGT-UD and LtTenTen14 corpora were already pre-tokenized. We tokenized the others using the NLTK library and its tokenizers for each of the languages. There is no tokenizer for Croatian in NLTK library, so we used Slovene tokenizer instead. After tokenization, we deduplicated the datasets for each language separately, using the Onion (ONe Instance ONly) tool for text deduplication. We applied the tool on paragraph level for corpora that did not have sentences shuffled and on sentence level for the rest. We considered 9-grams with duplicate content threshold of 0.9. For each language we prepared a vocabulary file, containing roughly one million most common tokens, i.e. tokens that appear at least $n$ times in the corpus, where $n$ is between 15 and 25, depending on the dataset size. We included the punctuation marks among the tokens. We trained each ELMo model using default values used to train the original English ELMo (large) model. Evaluation We evaluated the produced ELMo models for all languages using two evaluation tasks: a word analogy task and named entity recognition (NER) task. Below, we first shortly describe each task, followed by the evaluation results. Evaluation ::: Word Analogy Task The word analogy task was popularized by",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Dataset Composition"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "mikolov2013distributed. The goal is to find a term $y$ for a given term $x$ so that the relationship between $x$ and $y$ best resembles the given relationship $a : b$. There are two main groups of categories: 5 semantic and 10 syntactic. To illustrate a semantic relationship, consider for example that the word pair $a : b$ is given as \u201cFinland : Helsinki\u201d. The task is to find the term $y$ corresponding to the relationship \u201cSweden : $y$\u201d, with the expected answer being $y=$ Stockholm. In syntactic categories, the two words in a pair have a common stem (in some cases even same lemma), with all the pairs in a given category having the same morphological relationship. For example, given the word pair \u201clong : longer\u201d, we see that we have an adjective in its base form and the same adjective in a comparative form. That task is then to find the term $y$ corresponding to the relationship \u201cdark : $y$\u201d, with the expected answer being $y=$ darker, that is a comparative form of the adjective dark. In the vector space, the analogy task is transformed into vector arithmetic and search for nearest neighbours, i.e. we compute the distance between vectors: d(vec(Finland), vec(Helsinki)) and search for word $y$ which would give the closest result in distance d(vec(Sweden), vec($y$)). In the analogy dataset the analogies are already pre-specified, so we are measuring how close are the given pairs. In the evaluation below, we use analogy datasets for all tested languages based on the English dataset by BIBREF14 . Due to English-centered bias of this dataset, we used a modified dataset which was first written in Slovene language and then translated into other languages BIBREF15. As each instance of analogy contains only four words, without any context, the contextual models (such as ELMo) do not have enough context to generate sensible embeddings. We therefore used some additional text to form simple sentences using the four analogy words, while taking care that their noun case stays the same. For example, for the words \"Rome\", \"Italy\", \"Paris\" and \"France\" (forming the analogy Rome is to Italy as Paris is to $x$, where the correct answer is $x=$France), we formed the sentence \"If the word Rome corresponds to the word Italy, then the word Paris corresponds to the word France\". We generated embeddings for those four words in the constructed sentence, substituted the last word",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Word Analogy Method"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "with each word in our vocabulary and generated the embeddings again. As typical for non-contextual analogy task, we measure the cosine distance ($d$) between the last word ($w_4$) and the combination of the first three words ($w_2-w_1+w_3$). We use the CSLS metric BIBREF16 to find the closest candidate word ($w_4$). If we find the correct word among the five closest words, we consider that entry as successfully identified. The proportion of correctly identified words forms a statistic called accuracy@5, which we report as the result. We first compare existing Latvian ELMo embeddings from ELMoForManyLangs project with our Latvian embeddings, followed by the detailed analysis of our ELMo embeddings. We trained Latvian ELMo using only CoNLL 2017 corpora. Since this is the only language, where we trained the embedding model on exactly the same corpora as ELMoForManyLangs models, we chose it for comparison between our ELMo model with ELMoForManyLangs. In other languages, additional or other corpora were used, so a direct comparison would also reflect the quality of the corpora used for training. In Latvian, however, only the size of the training dataset is different. ELMoForManyLangs uses only 20 million tokens and we use the whole corpus of 270 million tokens. The Latvian ELMo model from ELMoForManyLangs project performs significantly worse than EMBEDDIA ELMo Latvian model on all categories of word analogy task (Figure FIGREF16). We also include the comparison with our Estonian ELMo embeddings in the same figure. This comparison shows that while differences between our Latvian and Estonian embeddings can be significant for certain categories, the accuracy score of ELMoForManyLangs is always worse than either of our models. The comparison of Estonian and Latvian models leads us to believe that a few hundred million tokens is a sufficiently large corpus to train ELMo models (at least for word analogy task), but 20-million token corpora used in ELMoForManyLangs are too small. The results for all languages and all ELMo layers, averaged over semantic and syntactic categories, are shown in Table TABREF17. The embeddings after the first LSTM layer perform best in semantic categories. In syntactic categories, the non-contextual CNN layer performs the best. Syntactic categories are less context dependent and much more morphology and syntax based, so it is not surprising that the non-contextual layer performs well. The second LSTM layer embeddings perform the worst in syntactic categories, though still outperforming CNN layer embeddings in semantic categories. Latvian ELMo performs",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "ELMo Latvian Embeddings"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "worse compared to other languages we trained, especially in semantic categories, presumably due to smaller training data size. Surprisingly, the original English ELMo performs very poorly in syntactic categories and only outperforms Latvian in semantic categories. The low score can be partially explained by English model scoring $0.00$ in one syntactic category \u201copposite adjective\u201d, which we have not been able to explain. Evaluation ::: Named Entity Recognition For evaluation of ELMo models on a relevant downstream task, we used named entity recognition (NER) task. NER is an information extraction task that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc. To allow comparison of results between languages, we used an adapted version of this task, which uses a reduced set of labels, available in NER datasets for all processed languages. The labels in the used NER datasets are simplified to a common label set of three labels (person - PER, location - LOC, organization - ORG). Each word in the NER dataset is labeled with one of the three mentioned labels or a label 'O' (other, i.e. not a named entity) if it does not fit any of the other three labels. The number of words having each label is shown in Table TABREF19. To measure the performance of ELMo embeddings on the NER task we proceeded as follows. We embedded the text in the datasets sentence by sentence, producing three vectors (one from each ELMo layer) for each token in a sentence. We calculated the average of the three vectors and used it as the input of our recognition model. The input layer was followed by a single LSTM layer with 128 LSTM cells and a dropout layer, randomly dropping 10% of the neurons on both the output and the recurrent branch. The final layer of our model was a time distributed softmax layer with 4 neurons. We used ADAM optimiser BIBREF17 with the learning rate 0.01 and $10^{-5}$ learning rate decay. We used categorical cross-entropy as a loss function and trained the model for 3 epochs. We present the results using the Macro $F_1$ score, that is the average of $F_1$-scores for each of the three NE classes (the class Other is excluded). Since the differences between the tested languages depend more on the properties of the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Named Entity Recognition"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "NER datasets than on the quality of embeddings, we can not directly compare ELMo models. For this reason, we take the non-contextual fastText embeddings as a baseline and predict named entities using them. The architecture of the model using fastText embeddings is the same as the one using ELMo embeddings, except that the input uses 300 dimensional fastText embedding vectors, and the model was trained for 5 epochs (instead of 3 as for ELMo). In both cases (ELMo and fastText) we trained and evaluated the model five times, because there is some random component involved in initialization of the neural network model. By training and evaluating multiple times, we minimise this random component. The results are presented in Table TABREF21. We included the evaluation of the original ELMo English model in the same table. NER models have little difficulty distinguishing between types of named entities, but recognizing whether a word is a named entity or not is more difficult. For languages with the smallest NER datasets, Croatian and Lithuanian, ELMo embeddings show the largest improvement over fastText embeddings. However, we can observe significant improvements with ELMo also on English and Finnish, which are among the largest datasets (English being by far the largest). Only on Slovenian dataset did ELMo perform slightly worse than fastText, on all other EMBEDDIA languages, the ELMo embeddings improve the results. Conclusion We prepared precomputed ELMo contextual embeddings for seven languages: Croatian, Estonian, Finnish, Latvian, Lithuanian, Slovenian, and Swedish. We present the necessary background on embeddings and contextual embeddings, the details of training the embedding models, and their evaluation. We show that the size of used training sets importantly affects the quality of produced embeddings, and therefore the existing publicly available ELMo embeddings for the processed languages are inadequate. We trained new ELMo embeddings on larger training sets and analysed their properties on the analogy task and on the NER task. The results show that the newly produced contextual embeddings produce substantially better results compared to the non-contextual fastText baseline. In future work, we plan to use the produced contextual embeddings on the problems of news media industry. The pretrained ELMo models will be deposited to the CLARIN repository by the time of the final version of this paper. Acknowledgments The work was partially supported by the Slovenian Research Agency (ARRS) core research programme P6-0411. This paper is supported by European Union's Horizon 2020 research and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "ELMo NER Evaluation"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "innovation programme under grant agreement No 825153, project EMBEDDIA (Cross-Lingual Embeddings for Less-Represented Languages in European News Media). The results of this publication reflects only the authors' view and the EU Commission is not responsible for any use that may be made of the information it contains.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Project Grant Details"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Word embeddings are representations of words in numerical form, as vectors of typically several hundred dimensions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "Word2vec is a method for generating word embeddings using neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "GloVe is a method for generating word embeddings based on neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "FastText is a method for generating word embeddings based on neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "ELMo is a model for contextual word embeddings that generates different vectors based on the context in which a word appears.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "BERT is a method for generating word embeddings using deep neural networks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Contextual embeddings generate a different vector for each context a word appears in, typically defined sentence-wise.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "Word2vec embeddings fail to express polysemous words, as they combine all senses of a word in a single vector based on frequency.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "Word2vec embeddings poorly represent rare meanings of words and do not offer good semantic representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The 50 closest vectors of the word 'paper' in word2vec are not related to science.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "ELMo outperforms previous word embeddings like word2vec and GloVe on many NLP tasks such as question answering, named entity extraction, sentiment analysis, textual entailment, semantic role labeling, and coreference resolution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "ELMo models are precomputed for seven morphologically rich, less-resourced languages: Slovenian, Croatian, Finnish, Estonian, Latvian, Lithuanian, and Swedish.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Word embeddings must preserve semantic relations between words to enable downstream machine learning on text understanding tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "The context of a sentence is typically sufficient to disambiguate different meanings of a word for both humans and machine learning algorithms.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Mechanism"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "Word2vec is a typical word embedding model that represents words as fixed vectors regardless of context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "GloVe is a word embedding model that pre-trains word vectors on large corpora but does not capture contextual meaning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "FastText is a word embedding model that uses subword information to improve representation, especially for out-of-vocabulary words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "ELMo (Embeddings from Language Models) is a state-of-the-art pretrained model that captures contextual word embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "The ELMo model consists of three neural network layers: a CNN layer operating at the character level and two biLM layers composed of concatenated LSTMs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The CNN layer in ELMo operates at the character level and produces context-independent word embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "A biLM layer in ELMo consists of two concatenated LSTMs: one predicting the next word and one predicting the previous word.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "ELMo generates three sets of embeddings\u2014one from the CNN layer and two from the biLM layers\u2014each capturing different aspects of word context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "A weighted average of the three ELMo embeddings is typically used, with weights learned during task-specific training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "An entire ELMo model can be fine-tuned on a specific natural language processing task to improve performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "ELMo uses a vocabulary file of about 800,000 words for efficiency during training and embedding generation, despite being trained on character level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "The original ELMo model was trained on a one-billion-word English corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Fact"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "ELMoForManyLangs is a project that released pre-trained ELMo models for multiple languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "ELMoForManyLangs models were trained on a 20-million-word dataset randomly sampled from the CoNLL 2017 Shared Task data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Fact"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The CoNLL 2017 Shared Task includes automatically annotated raw texts and word embeddings used to train ELMoForManyLangs models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "ELMoForManyLangs is a pre-trained language model that provides embeddings for multiple languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The Latvian model trained on a complete wikidump + common crawl corpus outperforms the ELMoForManyLangs model on the word analogy task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "The Latvian corpus used for training contains approximately 280 million tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The poor performance of ELMoForManyLangs embeddings led to the decision to train new ELMo embeddings on larger corpora.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The trained ELMo models cover Slovenian, Croatian, Finnish, Estonian, Latvian, Lithuanian, and Swedish.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "List"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "hrWaC 2.1 is a Croatian corpus built by crawling the .hr internet domain in 2011 and 2014.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "Riznica is a corpus composed of Croatian fiction, non-fiction prose, poetry, drama, textbooks, and manuals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The Styria dataset consists of 570,219 news articles from the Croatian 24sata news portal and related niche portals.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The Ekspress Meedia dataset contains Estonian news articles from 2009 to 2019.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "The CoNLL 2017 Shared Task corpus includes Estonian Wikipedia and web-crawled texts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "STT news articles span from 1992 to 2018 and are part of the Finnish training dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "Ylilauta is a Finnish online discussion board, with a downloadable corpus used in the Finnish ELMo training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The corpora were preprocessed and deduplicated before being used for training ELMo models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "The precomputed ELMo models for seven languages are publicly available in the Clarin repository.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The training datasets consist of large monolingual corpora sourced from various online and research-based collections.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The Latvian dataset consists only of the Latvian portion of the ConLL 2017 corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The Lithuanian dataset is composed of Lithuanian Wikipedia articles from 2018, DGT-UD corpus, and LtTenTen.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "DGT-UD is a parallel corpus of 23 official languages of the EU, composed of JRC DGT translation memory of European law, automatically annotated with UD-Pipe 1.2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "LtTenTen is a Lithuanian web corpus made up of texts collected from the internet in April 2014.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "The Slovene dataset is formed from the Gigafida 2.0 corpus, a general language corpus composed of various sources, mostly newspapers, internet pages, and magazines, but also fiction and non-fiction prose, textbooks, etc.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The Swedish dataset is composed of STT Swedish articles and the Swedish part of CoNLL 2017.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Composition"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The Finnish news agency STT publishes some of its articles in Swedish language and provided them to the project through a partnership.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Before training the ELMo models, all datasets were sentence and word tokenized, with each sentence placed on a separate line and tokens separated by white spaces.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "These corpora were already pre-tokenized.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "There is no tokenizer for Croatian in the NLTK library, so the Slovene tokenizer was used instead.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "The Onion (ONe Instance ONly) tool was used to deduplicate datasets at the paragraph level for corpora without shuffled sentences and at the sentence level for others.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The deduplication process used 9-grams with a duplicate content threshold of 0.9.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "For each language, a vocabulary file was prepared containing roughly one million most common tokens, including punctuation marks, that appear at least n times in the corpus, where n is between 15 and 25 depending on dataset size.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "Each ELMo model was trained using default values from the original English ELMo (large) model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The ELMo models were evaluated using a word analogy task and a named entity recognition (NER) task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The goal of the Mikolov2013 distributed representation model is to find a term y for a given term x such that the relationship between x and y best resembles a given relationship a : b.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The semantic relationship example 'Finland : Helsinki' corresponds to 'Sweden : Stockholm'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The syntactic relationship example 'long : longer' corresponds to 'dark : darker', where both are adjectives in base and comparative forms respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Example"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "The analogy task is transformed into vector arithmetic by computing the distance between vectors, such as d(vec(Finland), vec(Helsinki)) and searching for a word y that minimizes d(vec(Sweden), vec(y)).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "The analogy dataset contains pre-specified word pairs and measures how closely the model's embeddings match the given relationships.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "The original English-based analogy dataset introduces bias, so a modified dataset was created by first writing it in Slovene and then translating it into other languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "Contextual models like ELMo lack sufficient context for four-word analogy tasks without additional text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "To provide context, simple sentences are formed using the four analogy words while preserving noun case, such as 'If the word Rome corresponds to the word Italy, then the word Paris corresponds to the word France'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "Embeddings are generated for the four words in the constructed sentence and then used to substitute the last word in the analogy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "Cosine distance is measured between the last word and the combination of the first three words in a non-contextual analogy task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "CSLS metric is used to find the closest candidate word based on cosine distance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "Accuracy@5 is the proportion of correctly identified words among the five closest candidate words in a word analogy task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "Latvian ELMo embeddings from the ELMoForManyLangs project perform significantly worse than EMBEDDIA's Latvian ELMo model on all word analogy task categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "Estonian ELMo embeddings show significant differences from Latvian embeddings, but ELMoForManyLangs' performance is always worse than both models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "ELMoForManyLangs uses only 20 million tokens for training in Latvian, while the EMBEDDIA model uses 270 million tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The EMBEDDIA Latvian ELMo model is trained on a corpus of 270 million tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Embeddings after the first LSTM layer perform best in semantic categories of word analogy tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The non-contextual CNN layer performs best in syntactic categories of word analogy tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "Embeddings after the second LSTM layer perform the worst in syntactic categories, though they still outperform CNN layer embeddings in semantic categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "Syntactic categories are less context-dependent and more based on morphology and syntax.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "Semantic categories are more context-dependent and rely on meaning-based relationships between words.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "A few hundred million tokens is sufficient to train ELMo models effectively for word analogy tasks, as shown by the performance in Latvian and Estonian.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "The original English ELMo performs very poorly in syntactic categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "The original English ELMo only outperforms Latvian in semantic categories.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "The English ELMo model scores 0.00 in the syntactic category 'opposite adjective'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Named Entity Recognition (NER) is an information extraction task that locates and classifies named entity mentions in unstructured text into pre-defined categories such as person, location, organization, or other.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The NER task uses a simplified label set of three categories: person (PER), location (LOC), organization (ORG), and 'O' for other non-entity tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Text is embedded sentence by sentence, producing three vectors per token, averaged to form a single input vector for each token, then fed into an LSTM model with 128 cells and 10% dropout.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "The NER model includes an LSTM layer with 128 cells, a dropout layer dropping 10% of neurons, and a time-distributed softmax layer with 4 neurons.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "The model is trained using the ADAM optimizer with a learning rate of 0.01 and $10^{-5}$ decay for 3 epochs using categorical cross-entropy loss.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Procedure"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Performance is measured using the Macro $F_1$ score, which is the average of the $F_1$-scores for each of the three named entity classes, excluding the 'Other' class.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "Worse performance in semantic categories is presumably due to smaller training data size compared to other languages.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "ELMo models are contextual embeddings that capture word meanings based on surrounding context.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "fastText embeddings are non-contextual word embeddings that represent words using fixed 300-dimensional vectors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Named Entity Recognition (NER) is the task of identifying and classifying named entities in text, such as people, organizations, and locations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "Croatian is a language with a small NER dataset where ELMo embeddings show the largest improvement over fastText embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "Lithuanian is a language with a small NER dataset where ELMo embeddings show the largest improvement over fastText embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "English has a large NER dataset and shows significant improvement with ELMo embeddings over fastText embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "Finnish shows significant improvement with ELMo embeddings over fastText embeddings, despite having a large NER dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "Slovenian is the only language where ELMo embeddings perform slightly worse than fastText embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The EMBEDDIA project is a European Union Horizon 2020 research initiative focused on cross-lingual embeddings for less-represented languages in European news media.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "The CLARIN repository is a platform where pretrained ELMo models will be deposited for public access.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "The size of the training set significantly affects the quality of produced embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The newly produced contextual embeddings perform better on the analogy task compared to non-contextual fastText embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "The newly produced contextual embeddings produce substantially better results on the NER task compared to the fastText baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "Precomputed ELMo contextual embeddings were prepared for seven languages: Croatian, Estonian, Finnish, Latvian, Lithuanian, Slovenian, and Swedish.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "The random component in neural network initialization is minimized by training and evaluating the model multiple times.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "The model using fastText embeddings was trained for 5 epochs, compared to 3 epochs for ELMo embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "The random component in model initialization is reduced by training and evaluating the model five times.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "ELMo embeddings improve NER performance on all languages except Slovenian.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "10% dropout",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "10^-5 learning rate decay",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "128 LSTM cells",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "1992",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "1992 to 2018",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "20 million tokens",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "20 million tokens",
+      "Property",
+      "s74"
+    ],
+    [
+      "20-million-words dataset",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "2009 to 2019",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "2012",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "2014",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "2017",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "2018",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "24sata",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "270 million tokens",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "270 million tokens",
+      "Property",
+      "s75"
+    ],
+    [
+      "280 million tokens",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "3 epochs",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "300 dimensional",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "5 epochs",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "5 epochs",
+      "Property",
+      "s107"
+    ],
+    [
+      "5 times training and evaluation",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "800,000 word vocabulary",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "9-grams",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "ADAM optimiser",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "ARRS P6-0411",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "BERT",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "BERT",
+      "Definition",
+      "s6"
+    ],
+    [
+      "BIBREF14",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "BIBREF15",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "BIBREF16",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "CLARIN repository",
+      "Definition",
+      "s101"
+    ],
+    [
+      "CLARIN repository",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "CNN layer",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "CNN layer in ELMo",
+      "Property",
+      "s20"
+    ],
+    [
+      "CSLS metric",
+      "Definition",
+      "s70"
+    ],
+    [
+      "CSLS metric",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "Clarim repository",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Clarins repository",
+      "Property",
+      "s43"
+    ],
+    [
+      "CoNLL 2017",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "CoNLL 2017 Shared Task",
+      "Definition",
+      "s29"
+    ],
+    [
+      "CoNLL 2017 Shared Task",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "CoNLL 2017 Shared Task corpus",
+      "Definition",
+      "s39"
+    ],
+    [
+      "CoNLL 2017 corpora",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "CoNLL 2017, DGT-UD, LtTenTen",
+      "Property",
+      "s53"
+    ],
+    [
+      "ConLL 2017",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Croatian",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "Croatian",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Croatian",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Croatian",
+      "Limitation",
+      "s54"
+    ],
+    [
+      "Croatian",
+      "Property",
+      "s95"
+    ],
+    [
+      "Croatian",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Cross-Lingual Embeddings",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "DGT-UD",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "DGT-UD",
+      "Definition",
+      "s47"
+    ],
+    [
+      "Deduplication threshold",
+      "Property",
+      "s56"
+    ],
+    [
+      "ELMo",
+      "Application",
+      "s12"
+    ],
+    [
+      "ELMo",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "ELMo",
+      "Definition",
+      "s18"
+    ],
+    [
+      "ELMo",
+      "Definition",
+      "s5"
+    ],
+    [
+      "ELMo",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "ELMo",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "ELMo",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "ELMo",
+      "Result",
+      "s11"
+    ],
+    [
+      "ELMo",
+      "Result",
+      "s82"
+    ],
+    [
+      "ELMo",
+      "Result",
+      "s83"
+    ],
+    [
+      "ELMo",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "ELMo architecture",
+      "Property",
+      "s19"
+    ],
+    [
+      "ELMo embeddings",
+      "Cause",
+      "s33"
+    ],
+    [
+      "ELMo embeddings",
+      "Result",
+      "s109"
+    ],
+    [
+      "ELMo embeddings",
+      "Result",
+      "s22"
+    ],
+    [
+      "ELMo model training",
+      "Process",
+      "s58"
+    ],
+    [
+      "ELMo models",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "ELMo models",
+      "Definition",
+      "s92"
+    ],
+    [
+      "ELMo vocabulary",
+      "Property",
+      "s25"
+    ],
+    [
+      "ELMoForManyLangs",
+      "Definition",
+      "s27"
+    ],
+    [
+      "ELMoForManyLangs",
+      "Definition",
+      "s30"
+    ],
+    [
+      "ELMoForManyLangs",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "ELMoForManyLangs",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "ELMoForManyLangs",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "ELMoForManyLangs training data",
+      "Fact",
+      "s28"
+    ],
+    [
+      "EMBEDDIA project",
+      "Definition",
+      "s100"
+    ],
+    [
+      "EU Commission",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "Ekspress Meedia",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Ekspress Meedia dataset",
+      "Property",
+      "s38"
+    ],
+    [
+      "English",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "English",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "English",
+      "Property",
+      "s97"
+    ],
+    [
+      "English-centered bias",
+      "Problem",
+      "s65"
+    ],
+    [
+      "Estonian",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "Estonian",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Estonian",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Estonian ELMo",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "Estonian ELMo embeddings",
+      "Comparison",
+      "s73"
+    ],
+    [
+      "European News Media",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "Evaluation tasks",
+      "Definition",
+      "s59"
+    ],
+    [
+      "FIGREF16",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "FastText",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "FastText",
+      "Definition",
+      "s17"
+    ],
+    [
+      "FastText",
+      "Definition",
+      "s4"
+    ],
+    [
+      "FastText",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "Figure FIGREF16",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "Finland",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "Finnish",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "Finnish",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Finnish",
+      "Property",
+      "s98"
+    ],
+    [
+      "Finnish",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Finnish news agency",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "France",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "Gigafida 2.0",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "GloVe",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "GloVe",
+      "Definition",
+      "s16"
+    ],
+    [
+      "GloVe",
+      "Definition",
+      "s3"
+    ],
+    [
+      "GloVe",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "Helsinki",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "Horizon 2020",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Italy",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "LSTM",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "LSTM",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "Latvian",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "Latvian",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Latvian",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "Latvian",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Latvian ELMo",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "Latvian ELMo embeddings",
+      "Comparison",
+      "s72"
+    ],
+    [
+      "Latvian dataset",
+      "Composition",
+      "s45"
+    ],
+    [
+      "Latvian dataset",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Latvian model",
+      "Result",
+      "s31"
+    ],
+    [
+      "Lithuanian",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "Lithuanian",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Lithuanian",
+      "Property",
+      "s96"
+    ],
+    [
+      "Lithuanian",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Lithuanian Wikipedia",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Lithuanian dataset",
+      "Composition",
+      "s46"
+    ],
+    [
+      "LtTenTen",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "LtTenTen",
+      "Definition",
+      "s48"
+    ],
+    [
+      "Macro F1 score",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "NER",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "NER evaluation method",
+      "Procedure",
+      "s87"
+    ],
+    [
+      "NER evaluation metric",
+      "Definition",
+      "s90"
+    ],
+    [
+      "NER labels",
+      "Property",
+      "s86"
+    ],
+    [
+      "NER model architecture",
+      "Property",
+      "s88"
+    ],
+    [
+      "NER task",
+      "Definition",
+      "s94"
+    ],
+    [
+      "NER task",
+      "Result",
+      "s104"
+    ],
+    [
+      "NER training",
+      "Procedure",
+      "s89"
+    ],
+    [
+      "NLTK library",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Named Entity Recognition",
+      "Definition",
+      "s85"
+    ],
+    [
+      "Named Entity Recognition (NER)",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "O (other)",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "Onion tool",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Onion tool",
+      "Process",
+      "s55"
+    ],
+    [
+      "Paris",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "Preprocessing",
+      "Process",
+      "s52"
+    ],
+    [
+      "Riznica",
+      "Definition",
+      "s36"
+    ],
+    [
+      "Riznica",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Rome",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "SECREF5",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "STT",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "STT",
+      "Definition",
+      "s51"
+    ],
+    [
+      "STT",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "STT news articles",
+      "Property",
+      "s40"
+    ],
+    [
+      "Slovene",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "Slovene dataset",
+      "Composition",
+      "s49"
+    ],
+    [
+      "Slovene dataset",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Slovene tokenizer",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "Slovenian",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "Slovenian",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Slovenian",
+      "Property",
+      "s99"
+    ],
+    [
+      "Slovenian",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Stockholm",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "Styria dataset",
+      "Property",
+      "s37"
+    ],
+    [
+      "Styria media house",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Sweden",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "Swedish",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "Swedish",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Swedish",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "Swedish dataset",
+      "Composition",
+      "s50"
+    ],
+    [
+      "Swedish dataset",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "TABREF21",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "Table TABREF17",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "Table TABREF19",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "Vocabulary file",
+      "Definition",
+      "s57"
+    ],
+    [
+      "Wikipedia",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "Ylilauta",
+      "Definition",
+      "s41"
+    ],
+    [
+      "Ylilauta",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "a : b",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "accuracy@5",
+      "Definition",
+      "s71"
+    ],
+    [
+      "accuracy@5",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "analogy dataset",
+      "Property",
+      "s64"
+    ],
+    [
+      "analogy task",
+      "Result",
+      "s103"
+    ],
+    [
+      "biLM layer",
+      "Definition",
+      "s21"
+    ],
+    [
+      "biLM layer",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "categorical cross-entropy",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "character level",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "common crawl",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "context disambiguation",
+      "Mechanism",
+      "s14"
+    ],
+    [
+      "contextual embeddings",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "contextual embeddings",
+      "Definition",
+      "s7"
+    ],
+    [
+      "contextual embeddings",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "contextual models",
+      "Limitation",
+      "s66"
+    ],
+    [
+      "contextual models",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "coreference resolution",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "corpus size",
+      "Claim",
+      "s81"
+    ],
+    [
+      "cosine distance",
+      "Definition",
+      "s69"
+    ],
+    [
+      "cosine distance",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "d",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "dark",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "darker",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "deduplicated",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "deep neural networks",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "downstream machine learning",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "downstream machine learning",
+      "Requirement",
+      "s13"
+    ],
+    [
+      "duplicate content threshold 0.9",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "embedding generation",
+      "Process",
+      "s68"
+    ],
+    [
+      "embedding vectors",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "fastText",
+      "ELMo NER Evaluation",
+      "e10"
+    ],
+    [
+      "fastText embeddings",
+      "Definition",
+      "s93"
+    ],
+    [
+      "fine-tuning of ELMo",
+      "Property",
+      "s24"
+    ],
+    [
+      "first LSTM layer",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "first LSTM layer",
+      "Result",
+      "s76"
+    ],
+    [
+      "general web crawl",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "grant agreement No 825153",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "hrWaC 2.1",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "hrWaC 2.1 corpus",
+      "Definition",
+      "s35"
+    ],
+    [
+      "hundred dimensions",
+      "Word Embeddings",
+      "e1"
+    ],
+    [
+      "innovation programme",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "learning rate 0.01",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "less-Represented Languages",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "location - LOC",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "long",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "longer",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "machine learning models",
+      "Vector Input",
+      "e2"
+    ],
+    [
+      "mikolov2013distributed",
+      "Definition",
+      "s60"
+    ],
+    [
+      "mikolov2013distributed",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "monolingual corpora",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "monolingual corpora",
+      "Definition",
+      "s44"
+    ],
+    [
+      "morphology",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "n=15 to 25",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "named entity extraction",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "named entity recognition (NER) task",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "nearest neighbours",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "neural network initialization",
+      "Cause",
+      "s106"
+    ],
+    [
+      "news articles",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "non-contextual CNN layer",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "non-contextual CNN layer",
+      "Result",
+      "s77"
+    ],
+    [
+      "noun case",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "numerical form",
+      "Word Embeddings",
+      "e1"
+    ],
+    [
+      "one billion word corpus",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "one million most common tokens",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "opposite adjective",
+      "Cause",
+      "s84"
+    ],
+    [
+      "opposite adjective",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "organization - ORG",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "original ELMo training data",
+      "Fact",
+      "s26"
+    ],
+    [
+      "paper",
+      "Example",
+      "s10"
+    ],
+    [
+      "person - PER",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "polysemous words",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "polysemy",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "polysemy",
+      "Problem",
+      "s8"
+    ],
+    [
+      "precomputed ELMo embeddings",
+      "Property",
+      "s105"
+    ],
+    [
+      "preprocessed",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "project EMBEDDIA",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "publication",
+      "Project Grant Details",
+      "e11"
+    ],
+    [
+      "punctuation marks",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "question answering",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "random component",
+      "Cause",
+      "s108"
+    ],
+    [
+      "rare meanings",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "second LSTM layer",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "second LSTM layer",
+      "Result",
+      "s78"
+    ],
+    [
+      "semantic categories",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "semantic categories",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "semantic categories",
+      "Property",
+      "s80"
+    ],
+    [
+      "semantic relations",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "semantic relationship",
+      "Example",
+      "s61"
+    ],
+    [
+      "semantic role labeling",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "sentence construction",
+      "Method",
+      "s67"
+    ],
+    [
+      "sentence-wise context",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "sentiment analysis",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "seven languages",
+      "List",
+      "s34"
+    ],
+    [
+      "syntactic categories",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "syntactic categories",
+      "Named Entity Recognition",
+      "e9"
+    ],
+    [
+      "syntactic categories",
+      "Property",
+      "s79"
+    ],
+    [
+      "syntactic relationship",
+      "Example",
+      "s62"
+    ],
+    [
+      "syntax",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "term x",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "term y",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "textual entailment",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "training corpus",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "training data preprocessing",
+      "Process",
+      "s42"
+    ],
+    [
+      "training data size",
+      "Cause",
+      "s91"
+    ],
+    [
+      "training set size",
+      "Cause",
+      "s102"
+    ],
+    [
+      "vector arithmetic",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "vector space",
+      "Word Analogy Method",
+      "e7"
+    ],
+    [
+      "vector space analogy",
+      "Method",
+      "s63"
+    ],
+    [
+      "vectors",
+      "Vector Input",
+      "e2"
+    ],
+    [
+      "vectors",
+      "Word Embeddings",
+      "e1"
+    ],
+    [
+      "w2-w1+w3",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "w4",
+      "ELMo Latvian Embeddings",
+      "e8"
+    ],
+    [
+      "weighted average in ELMo",
+      "Property",
+      "s23"
+    ],
+    [
+      "wikidump",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "wikidump + common crawl",
+      "Property",
+      "s32"
+    ],
+    [
+      "word analogy task",
+      "Dataset Composition",
+      "e6"
+    ],
+    [
+      "word analogy task",
+      "Training Data Sources",
+      "e5"
+    ],
+    [
+      "word embeddings",
+      "Definition",
+      "s1"
+    ],
+    [
+      "word embeddings",
+      "Word Embeddings",
+      "e1"
+    ],
+    [
+      "word senses",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "word2vec",
+      "Contextual Word Embeddings",
+      "e3"
+    ],
+    [
+      "word2vec",
+      "Definition",
+      "s15"
+    ],
+    [
+      "word2vec",
+      "Definition",
+      "s2"
+    ],
+    [
+      "word2vec",
+      "ELMo Model Architecture",
+      "e4"
+    ],
+    [
+      "word2vec",
+      "Limitation",
+      "s9"
+    ]
+  ]
+}

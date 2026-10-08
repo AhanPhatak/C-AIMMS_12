@@ -1,0 +1,6010 @@
+{
+  "meta": {
+    "source": "document",
+    "n_passages": 17,
+    "n_semantic": 191,
+    "segmentation": "surprise"
+  },
+  "cues": {
+    "Speech-to-Text": {
+      "tag_set": [
+        "Speech-to-Text Translation"
+      ]
+    },
+    "translation": {
+      "tag_set": [
+        "Audio Translation",
+        "Speech-to-Text Translation"
+      ]
+    },
+    "Introduction": {
+      "tag_set": [
+        "Speech-to-Text Translation"
+      ]
+    },
+    "emergency calls": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "foreign language": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "online courses": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "machine translation": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "MT model": {
+      "tag_set": [
+        "Language Translation Methods",
+        "Property"
+      ]
+    },
+    "automatic speech recognition": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "ASR system": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "cascaded method": {
+      "tag_set": [
+        "Definition",
+        "Language Translation Methods"
+      ]
+    },
+    "end-to-end method": {
+      "tag_set": [
+        "Definition",
+        "End-to-End ST Model Limitations",
+        "Language Translation Methods",
+        "Property"
+      ]
+    },
+    "acoustic frames": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "target word sequence": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "final objective": {
+      "tag_set": [
+        "Language Translation Methods"
+      ]
+    },
+    "low latency": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "error propagation": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Problem",
+        "Speech Translation Methods"
+      ]
+    },
+    "large-scale ST dataset": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "multi-task learning": {
+      "tag_set": [
+        "Application",
+        "End-to-End ST Model Limitations",
+        "Method",
+        "Problem",
+        "Speech Translation Methods",
+        "Speech-to-Translation Model",
+        "Strategy",
+        "TCEN Model Design"
+      ]
+    },
+    "ASR dataset": {
+      "tag_set": [
+        "Definition",
+        "End-to-End ST Model Limitations",
+        "Speech Translation Model",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "MT dataset": {
+      "tag_set": [
+        "Definition",
+        "End-to-End ST Model Limitations",
+        "Speech Translation Model",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "pre-training techniques": {
+      "tag_set": [
+        "Application",
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "ASR encoder": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "TCEN Model Design",
+        "Training Objective"
+      ]
+    },
+    "MT decoder": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "ST model": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "multi-task loss": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "pre-training and fine-tuning gap": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Problem",
+        "Speech Translation Methods"
+      ]
+    },
+    "Subnet Waste": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Problem"
+      ]
+    },
+    "Role Mismatch": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Problem"
+      ]
+    },
+    "Non-pre-trained Attention Module": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Problem"
+      ]
+    },
+    "MT encoder": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Pre-training",
+        "TCEN Model Design"
+      ]
+    },
+    "speech encoder": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Model Training Procedure",
+        "Property",
+        "Speech Translation Methods",
+        "Speech Translation Model",
+        "Speech-to-Translation Model",
+        "TCEN Model Architecture",
+        "TCEN Model Design"
+      ]
+    },
+    "semantic features": {
+      "tag_set": [
+        "End-to-End ST Model Limitations",
+        "Model Training Procedure"
+      ]
+    },
+    "linguistic features": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "BIBREF5": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "BIBREF6": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "BIBREF7": {
+      "tag_set": [
+        "End-to-End ST Model Limitations"
+      ]
+    },
+    "Tandem Connectionist Encoding Network": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "TCEN": {
+      "tag_set": [
+        "Definition",
+        "TCEN Model Architecture",
+        "TCEN Model Design",
+        "Training Setting"
+      ]
+    },
+    "text encoder": {
+      "tag_set": [
+        "Advantage",
+        "Model Training Procedure",
+        "Property",
+        "Speech Translation Model",
+        "Structure",
+        "TCEN Model Architecture",
+        "TCEN Model Design"
+      ]
+    },
+    "target text decoder": {
+      "tag_set": [
+        "Component",
+        "TCEN Model Design"
+      ]
+    },
+    "Connectionist Temporal Classification": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "CTC": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "IWSLT18": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "speech translation": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "attention module": {
+      "tag_set": [
+        "Component",
+        "TCEN Model Architecture",
+        "TCEN Model Design"
+      ]
+    },
+    "pre-training": {
+      "tag_set": [
+        "Model Training Procedure",
+        "Requirement",
+        "Speech Translation Methods",
+        "Speech-to-Translation Model",
+        "Strategy",
+        "TCEN Model Architecture",
+        "TCEN Model Design"
+      ]
+    },
+    "fine-tuning": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Model Training Procedure",
+        "TCEN Model Architecture",
+        "TCEN Model Design"
+      ]
+    },
+    "word embeddings": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "projection matrix": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "blank tokens": {
+      "tag_set": [
+        "Property",
+        "TCEN Model Design"
+      ]
+    },
+    "word repetitions": {
+      "tag_set": [
+        "TCEN Model Design"
+      ]
+    },
+    "3.6 BLEU scores": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "2.2 BLEU scores": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "subword-level decoding": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "character-level decoding": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "ST models": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "pre-training process": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "end-to-end speech": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "large-scale public dataset": {
+      "tag_set": [
+        "Model Performance"
+      ]
+    },
+    "audio": {
+      "tag_set": [
+        "Audio Translation"
+      ]
+    },
+    "speech feature sequence": {
+      "tag_set": [
+        "Definition",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "Mel filterbank features": {
+      "tag_set": [
+        "Speech-to-Translation Model"
+      ]
+    },
+    "acoustic features": {
+      "tag_set": [
+        "Speech-to-Translation Model"
+      ]
+    },
+    "transcription sequence": {
+      "tag_set": [
+        "Definition",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "translation sequence": {
+      "tag_set": [
+        "Definition",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "vocabulary V_src": {
+      "tag_set": [
+        "Speech-to-Translation Model"
+      ]
+    },
+    "vocabulary V_trg": {
+      "tag_set": [
+        "Speech-to-Translation Model"
+      ]
+    },
+    "ST dataset": {
+      "tag_set": [
+        "Definition",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "decoder": {
+      "tag_set": [
+        "Definition",
+        "Encoder Decoder",
+        "Function",
+        "Model Training Procedure",
+        "Speech-to-Translation Model",
+        "TCEN Model Architecture"
+      ]
+    },
+    "one-to-many setting": {
+      "tag_set": [
+        "Definition",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "many-to-one setting": {
+      "tag_set": [
+        "Definition",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "many-to-many setting": {
+      "tag_set": [
+        "Definition",
+        "Speech-to-Translation Model"
+      ]
+    },
+    "encoder": {
+      "tag_set": [
+        "Encoder Decoder"
+      ]
+    },
+    "ASR": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "TCEN Model Architecture"
+      ]
+    },
+    "MT": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "TCEN Model Architecture"
+      ]
+    },
+    "ST": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "TCEN Model Architecture"
+      ]
+    },
+    "CNN-BiLSTM": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "convolutional layers": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "max-pooling": {
+      "tag_set": [
+        "Process",
+        "TCEN Model Architecture"
+      ]
+    },
+    "bidirectional LSTM": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "feature vectors": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "T_x": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "d-dimensional": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "h^s": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "TCEN Model Architecture"
+      ]
+    },
+    "h^t": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Definition",
+        "TCEN Model Architecture"
+      ]
+    },
+    "feature maps": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "W^(l)": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "down-sampled feature sequence": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "subnet waste": {
+      "tag_set": [
+        "Issue",
+        "TCEN Model Architecture"
+      ]
+    },
+    "role mismatch": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "non-pre-trained attention": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "semantic inconsistency": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Problem",
+        "TCEN Model Architecture"
+      ]
+    },
+    "length inconsistency": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Model Training Procedure",
+        "Multi-Task Training",
+        "Problem",
+        "TCEN Model Architecture"
+      ]
+    },
+    "FIGREF5": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "BIBREF9": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "Inaguma2018speech": {
+      "tag_set": [
+        "TCEN Model Architecture"
+      ]
+    },
+    "ST task": {
+      "tag_set": [
+        "Definition",
+        "Model Training Procedure",
+        "Process"
+      ]
+    },
+    "MT task": {
+      "tag_set": [
+        "Definition",
+        "Model Training Procedure"
+      ]
+    },
+    "CTC objective": {
+      "tag_set": [
+        "Model Training Procedure",
+        "Property"
+      ]
+    },
+    "dataset A": {
+      "tag_set": [
+        "Model Training Procedure",
+        "Multi-Task Training"
+      ]
+    },
+    "dataset M": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "CTC loss": {
+      "tag_set": [
+        "Method",
+        "Model Training Procedure"
+      ]
+    },
+    "hidden vectors": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "CTC path": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "blank token": {
+      "tag_set": [
+        "Definition",
+        "Model Training Procedure"
+      ]
+    },
+    "RNN step": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "weight matrix": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "source transcription": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "subword representation": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "additive attention": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "LSTM layers": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "conditional probability": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "target sequence": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "context vector": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "hidden state": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "source embedding matrix": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "word embedding representation": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "syntactic features": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "latent space": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "SECREF21": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "TABREF14": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "BIBREF8": {
+      "tag_set": [
+        "Model Training Procedure"
+      ]
+    },
+    "CTC paths": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Definition"
+      ]
+    },
+    "golden sequence y^s": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Definition"
+      ]
+    },
+    "forward-backward algorithm": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Property"
+      ]
+    },
+    "cross-entropy loss": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Definition"
+      ]
+    },
+    "embedding layer W_E^s": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Definition"
+      ]
+    },
+    "enc_t": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Goal",
+        "Property"
+      ]
+    },
+    "enc_s": {
+      "tag_set": [
+        "CTC and Multi-Task Training"
+      ]
+    },
+    "alpha_i": {
+      "tag_set": [
+        "CTC and Multi-Task Training"
+      ]
+    },
+    "BIBREF11": {
+      "tag_set": [
+        "CTC and Multi-Task Training"
+      ]
+    },
+    "Luong2015Multi": {
+      "tag_set": [
+        "CTC and Multi-Task Training"
+      ]
+    },
+    "subnets": {
+      "tag_set": [
+        "CTC and Multi-Task Training"
+      ]
+    },
+    "role consistency": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Property"
+      ]
+    },
+    "shared weights": {
+      "tag_set": [
+        "CTC and Multi-Task Training",
+        "Solution"
+      ]
+    },
+    "CTC path generation": {
+      "tag_set": [
+        "CTC and Multi-Task Training"
+      ]
+    },
+    "seq2seq model": {
+      "tag_set": [
+        "Ablation Study Results",
+        "CTC and Multi-Task Training",
+        "Definition"
+      ]
+    },
+    "Figure FIGREF5": {
+      "tag_set": [
+        "CTC and Multi-Task Training"
+      ]
+    },
+    "multi-task training": {
+      "tag_set": [
+        "Definition",
+        "Multi-Task Training"
+      ]
+    },
+    "hidden features": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "text encoder enc_t": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "embedding representation e^s": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "enc_s output h^s": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "latent spaces": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "regularization": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "space gap": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "weight W_ctc": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "source embedding weights W_E^s": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "CTC path \u03c0": {
+      "tag_set": [
+        "Definition",
+        "Multi-Task Training"
+      ]
+    },
+    "label w_i": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "V_src": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "RNN-based seq2seq model": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "CTC ASR model": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "audio x": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "greedy decoding": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "operation S(\u00b7)": {
+      "tag_set": [
+        "Definition",
+        "Multi-Task Training"
+      ]
+    },
+    "unique tokens u": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "repetition times l": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "dataset P": {
+      "tag_set": [
+        "Multi-Task Training"
+      ]
+    },
+    "denoising MT": {
+      "tag_set": [
+        "Method",
+        "Multi-Task Training"
+      ]
+    },
+    "Unknown": {
+      "tag_set": [
+        "Passage"
+      ]
+    },
+    "ST decoder": {
+      "tag_set": [
+        "Property",
+        "Speech Translation Model"
+      ]
+    },
+    "ASR encoder-decoder": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "ASR decoder": {
+      "tag_set": [
+        "Absence",
+        "Limitation",
+        "Speech Translation Model"
+      ]
+    },
+    "pre-trained ASR model": {
+      "tag_set": [
+        "Initialization",
+        "Speech Translation Model"
+      ]
+    },
+    "Triangle model": {
+      "tag_set": [
+        "Definition",
+        "Speech Translation Model"
+      ]
+    },
+    "multi-task manner": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "ESPnet BIBREF12": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "RNN size d=1024": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "dropout 0.3": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "Adadelta": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "learning rate 1.0": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "10 epochs": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "\u03b1_asr=0.2": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "\u03b1_mt=0.8": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "\u03b1_st=0.6": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "beam size 10": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "length normalization weight 0.2": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "BLEU scores": {
+      "tag_set": [
+        "Result",
+        "Speech Translation Methods",
+        "Speech Translation Model"
+      ]
+    },
+    "many-to-many+pretrain baseline": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "syntactic and semantic knowledge": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "subword-level models": {
+      "tag_set": [
+        "Limitation",
+        "Speech Translation Model"
+      ]
+    },
+    "char-level models": {
+      "tag_set": [
+        "Result",
+        "Speech Translation Model"
+      ]
+    },
+    "speech frames": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "subword units": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "dev set": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "inference": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "alignment between speech frames and subword units": {
+      "tag_set": [
+        "Speech Translation Model"
+      ]
+    },
+    "subword-level alignment": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Definition"
+      ]
+    },
+    "translation quality": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "ablation study": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Method"
+      ]
+    },
+    "MT noise": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "weight sharing": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Property"
+      ]
+    },
+    "CTC classification layer": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "source embedding layer": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "Table TABREF37": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "pretraining": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "BLEU score": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "learning curve": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Result"
+      ]
+    },
+    "Figure FIGREF39": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "vanilla model": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Property"
+      ]
+    },
+    "ASR and MT data": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "cascaded system": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Comparison"
+      ]
+    },
+    "Word error rate (WER)": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "cascaded+re-seg": {
+      "tag_set": [
+        "Ablation Study Results",
+        "Method"
+      ]
+    },
+    "BIBREF19": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "sentence boundaries": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "punctuation": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "Table TABREF41": {
+      "tag_set": [
+        "Ablation Study Results"
+      ]
+    },
+    "cascaded model": {
+      "tag_set": [
+        "Result",
+        "Speech Translation Methods"
+      ]
+    },
+    "sentence re-segment model": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "ASR output lattices": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "MT system": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "HMM": {
+      "tag_set": [
+        "Property",
+        "Speech Translation Methods"
+      ]
+    },
+    "DenseNet": {
+      "tag_set": [
+        "Property",
+        "Speech Translation Methods"
+      ]
+    },
+    "TDNN": {
+      "tag_set": [
+        "Property",
+        "Speech Translation Methods"
+      ]
+    },
+    "RNN with attention": {
+      "tag_set": [
+        "Property",
+        "Speech Translation Methods"
+      ]
+    },
+    "Transformer": {
+      "tag_set": [
+        "Property",
+        "Speech Translation Methods"
+      ]
+    },
+    "noise simulation": {
+      "tag_set": [
+        "Cause",
+        "Speech Translation Methods"
+      ]
+    },
+    "high latency": {
+      "tag_set": [
+        "Problem",
+        "Speech Translation Methods"
+      ]
+    },
+    "acoustic speech to text": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "ST data scarcity": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "curriculum learning": {
+      "tag_set": [
+        "Speech Translation Methods",
+        "Strategy"
+      ]
+    },
+    "attention-passing": {
+      "tag_set": [
+        "Speech Translation Methods",
+        "Strategy"
+      ]
+    },
+    "knowledge distillation": {
+      "tag_set": [
+        "Speech Translation Methods",
+        "Strategy"
+      ]
+    },
+    "ASR and MT model joint training": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "syntactically distant language pairs": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "target decoder": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "source decoder": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "weakly supervised data": {
+      "tag_set": [
+        "Input",
+        "Speech Translation Methods"
+      ]
+    },
+    "TTS synthesis": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "end-to-end MT model": {
+      "tag_set": [
+        "Method",
+        "Speech Translation Methods"
+      ]
+    },
+    "sub-net reuse": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "semantic knowledge": {
+      "tag_set": [
+        "Speech Translation Methods"
+      ]
+    },
+    "Speech-to-Text translation": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ASR model": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "ST model initialization": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "subnet waste issue": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "MT attention module": {
+      "tag_set": [
+        "Reuse"
+      ]
+    },
+    "semantic consistency": {
+      "tag_set": [
+        "Solution"
+      ]
+    },
+    "length consistency": {
+      "tag_set": [
+        "Solution"
+      ]
+    },
+    "IWSLT18 benchmark": {
+      "tag_set": [
+        "Evaluation Dataset"
+      ]
+    },
+    "contribution 1": {
+      "tag_set": [
+        "Contribution"
+      ]
+    },
+    "contribution 2": {
+      "tag_set": [
+        "Contribution"
+      ]
+    },
+    "contribution 3": {
+      "tag_set": [
+        "Contribution"
+      ]
+    },
+    "end-to-end speech translation": {
+      "tag_set": [
+        "Problem Formulation"
+      ]
+    },
+    "end-to-end model": {
+      "tag_set": [
+        "Goal",
+        "Result"
+      ]
+    },
+    "CNN-BiLSTM architecture": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "hidden representation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "pre-training and fine-tuning": {
+      "tag_set": [
+        "Strategy"
+      ]
+    },
+    "disentanglement": {
+      "tag_set": [
+        "Advantage"
+      ]
+    },
+    "h^s and e^s": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "P(y^t|x)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "z_k": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "c_k": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "pre-training stage": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "fine-tuning stage": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "legal CTC path": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "\u03a6_T(y)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "fine-tune stage": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ST loss function": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training ratio \u03b1_i": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "CTC path format input": {
+      "tag_set": [
+        "Solution"
+      ]
+    },
+    "subnet-consistency": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "latent space gap": {
+      "tag_set": [
+        "Problem"
+      ]
+    },
+    "Subnet-Consistency": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "CTC path prediction": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "loss function": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "reversible operation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "dataset \\(\\mathcal{P}\\)": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "noisy MT dataset \\mathcal{M}'": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "training data sampling": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "validation set tuning": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "enc_t robustness": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "IWSLT18 speech translation task": {
+      "tag_set": [
+        "Experiment"
+      ]
+    },
+    "ST-TED corpus": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "dev set and test sets": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "TED-LIUM2 corpus": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "in-domain MT data": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "out-of-domain training data": {
+      "tag_set": [
+        "Dataset"
+      ]
+    },
+    "speech data preprocessing": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "feature normalization": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "utterance filtering": {
+      "tag_set": [
+        "Process"
+      ]
+    },
+    "transcripts in ST-TED": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "transcripts in TED-LIUM2": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "speed perturbation": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "sentence length filtering": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "length ratio filtering": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "word tokenization": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "lowercase": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vocabulary size": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "BIBREF9 inaguma2018speech": {
+      "tag_set": [
+        "Claim"
+      ]
+    },
+    "character level representation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "audio segmentation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "MWER segmentation": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "evaluation metric": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "vanilla ST baseline": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "encoder pre-training": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "decoder pre-training": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "encoder-decoder pre-training": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "many-to-many+pre-training": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "triangle+pre-train": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "ASR encoder-decoder model": {
+      "tag_set": [
+        "Relationship"
+      ]
+    },
+    "fine-tune settings": {
+      "tag_set": [
+        "Training Parameter"
+      ]
+    },
+    "training configuration": {
+      "tag_set": [
+        "Property"
+      ]
+    },
+    "testing procedure": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "inference settings": {
+      "tag_set": [
+        "Parameter"
+      ]
+    },
+    "Experimental Results": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "pre-training vs multi-task learning": {
+      "tag_set": [
+        "Comparison"
+      ]
+    },
+    "triangle+pretrain baseline": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "MT data utilization": {
+      "tag_set": [
+        "Limitation"
+      ]
+    },
+    "text-to-text alignment": {
+      "tag_set": [
+        "Advantage"
+      ]
+    },
+    "Berard et al. (2018)": {
+      "tag_set": [
+        "Reference"
+      ]
+    },
+    "noisy MT input": {
+      "tag_set": [
+        "Cause"
+      ]
+    },
+    "performance degradation": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "pipeline manner": {
+      "tag_set": [
+        "Definition"
+      ]
+    },
+    "joint training": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "faster convergence": {
+      "tag_set": [
+        "Result"
+      ]
+    },
+    "speech encoder pre-training": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "target decoder receives source decoder information": {
+      "tag_set": [
+        "Mechanism"
+      ]
+    },
+    "reusing every sub-net": {
+      "tag_set": [
+        "Method"
+      ]
+    },
+    "empirical studies": {
+      "tag_set": [
+        "Result"
+      ]
+    }
+  },
+  "contents": {
+    "e1": {
+      "text": "Introduction\nSpeech-to-Text translation",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech-to-Text Translation"
+      ],
+      "topic_links": []
+    },
+    "e2": {
+      "text": "(ST) is essential for a wide range of scenarios: for example in emergency calls, where agents have to respond emergent requests in a foreign language BIBREF0; or in online courses, where audiences and speakers use different languages BIBREF1. To tackle this problem, existing approaches can be categorized into cascaded method BIBREF2, BIBREF3, where a machine translation (MT) model translates outputs of an automatic speech recognition (ASR) system into target language, and end-to-end method BIBREF4, BIBREF5, where a single model learns acoustic frames to target word sequence mappings in one step towards the final objective of interest. Although the cascaded model remains the",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Language Translation Methods"
+      ],
+      "topic_links": []
+    },
+    "e3": {
+      "text": "dominant approach due to its better performance, the end-to-end method becomes more and more popular because it has lower latency by avoiding inferences with two models and rectifies the error propagation in theory.\nSince it is hard to obtain a large-scale ST dataset, multi-task learning BIBREF5, BIBREF6 and pre-training techniques BIBREF7 have been applied to end-to-end ST model to leverage large-scale datasets of ASR and MT. A common practice is to pre-train two encoder-decoder models for ASR and MT respectively, and then initialize the ST model with the encoder of the ASR model and the decoder of the MT model. Subsequently, the ST model is optimized with the multi-task learning by weighing the losses of ASR, MT, and ST. This approach, however, causes a huge gap between pre-training and fine-tuning, which are summarized into three folds:\nSubnet Waste: The ST system just reuses the ASR encoder and the MT decoder, while discards other pre-trained subnets, such as the MT encoder. Consequently, valuable semantic information captured by the MT encoder cannot be inherited by the final ST system.\nRole Mismatch: The speech encoder plays different roles in pre-training and fine-tuning. The encoder is a pure acoustic model in pre-training, while it has to extract semantic and linguistic features additionally in fine-tuning, which significantly increases the learning difficulty.\nNon-pre-trained Attention Module: Previous work BIBREF6 trains attention modules for ASR, MT and ST respectively, hence, the attention module of ST does",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "End-to-End ST Model Limitations"
+      ],
+      "topic_links": []
+    },
+    "e4": {
+      "text": "not benefit from the pre-training.\nTo address these issues, we propose a Tandem Connectionist Encoding Network (TCEN), which is able to reuse all subnets in pre-training, keep the roles of subnets consistent, and pre-train the attention module. Concretely, the TCEN consists of three components, a speech encoder, a text encoder, and a target text decoder. Different from the previous work that pre-trains an encoder-decoder based ASR model, we only pre-train an ASR encoder by optimizing the Connectionist Temporal Classification (CTC) BIBREF8 objective function. In this way, the additional decoder of ASR is not required while keeping the ability to read acoustic features into the source language space by the speech encoder. Besides, the text encoder and decoder can be pre-trained on a large MT dataset. After that, we employ common used multi-task learning method to jointly learn ASR, MT and ST tasks.\nCompared to prior works, the encoder of TCEN is a concatenation of an ASR encoder and an MT encoder and our model does not have an ASR decoder, so the subnet waste issue is solved. Furthermore, the two encoders work at tandem, disentangling acoustic feature extraction and linguistic feature extraction, ensuring the role consistency between pre-training and fine-tuning. Moreover, we reuse the pre-trained MT attention module in ST, so we can leverage the alignment information learned in pre-training.\nSince the text encoder consumes word embeddings of plausible texts in MT task but uses speech encoder outputs in ST task, another question is how one guarantees the speech encoder outputs are consistent with the word embeddings. We further modify our model to achieve semantic consistency and length consistency. Specifically, (1) the projection matrix at the CTC classification layer for ASR is shared with the word embedding matrix, ensuring that they are mapped to the same latent space, and (2) the length of the speech encoder output is proportional to the length of the input frame, so it is much longer than a natural sentence. To bridge the length gap, source sentences in MT are lengthened by adding word repetitions and blank tokens to mimic the CTC output sequences.\nWe conduct comprehensive experiments on the IWSLT18 speech translation benchmark BIBREF1, demonstrating the effectiveness of each component. Our",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "TCEN Model Design"
+      ],
+      "topic_links": []
+    },
+    "e5": {
+      "text": "model is significantly better than previous methods by 3.6 and 2.2 BLEU scores for the subword-level decoding and character-level decoding strategies, respectively.\nOur contributions are three-folds: 1) we shed light on why previous ST models cannot sufficiently utilize the knowledge learned from the pre-training process; 2) we propose a new ST model, which alleviates shortcomings in existing methods; and 3) we empirically evaluate the proposed model on a large-scale public dataset.\nBackground ::: Problem Formulation\nEnd-to-end speech",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Performance"
+      ],
+      "topic_links": []
+    },
+    "e6": {
+      "text": "translation aims to translate a piece of audio",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Audio Translation"
+      ],
+      "topic_links": []
+    },
+    "e7": {
+      "text": "into a target-language translation in one step. The raw speech signals are usually converted to sequences of acoustic features, e.g. Mel filterbank features. Here, we define the speech feature sequence as $\\mathbf {x} = (x_1, \\cdots , x_{T_x})$.The transcription and translation sequences are denoted as $\\mathbf {y^{s}} = (y_1^{s}, \\cdots , y_{T_s}^{s})$, and $\\mathbf {y^{t}} = (y_1^{t}, \\cdots , y_{T_t}^{t})$ repectively. Each symbol in $\\mathbf {y^{s}}$ or $\\mathbf {y^{t}}$ is an integer index of the symbol in a vocabulary $V_{src}$ or $V_{trg}$ respectively (e.g. $y^s_i=k, k\\in [0, |V_{src}|-1]$). In this work, we suppose that an ASR dataset, an MT dataset, and a ST dataset are available, denoted as $\\mathcal {A} = \\lbrace (\\mathbf {x_i}, \\mathbf {y^{s}_i})\\rbrace _{i=0}^I$, $\\mathcal {M} =\\lbrace (\\mathbf {y^{s}_j}, \\mathbf {y^{t}_j})\\rbrace _{j=0}^J$ and $ \\mathcal {S} =\\lbrace (\\mathbf {x_l}, \\mathbf {y^{t}_l})\\rbrace _{l=0}^L$ respectively. Given a new piece of audio $\\mathbf {x}$, our goal is to learn an end to end model to generate a translation sentence $\\mathbf {y^{t}}$ without generating an intermediate result $\\mathbf {y^{s}}$.\nBackground ::: Multi-Task Learning and Pre-training for ST\nTo leverage large scale ASR and MT data, multi-task learning and pre-training techniques are widely employed to improve the ST system. As shown in Figure FIGREF4, there are three popular multi-task strategies for ST, including 1) one-to-many setting, in which a speech encoder is shared between ASR and ST tasks; 2) many-to-one setting in which a decoder is shared between MT and ST tasks; and 3) many-to-many setting where both",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech-to-Translation Model"
+      ],
+      "topic_links": []
+    },
+    "e8": {
+      "text": "the encoder and decoder",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Encoder Decoder"
+      ],
+      "topic_links": []
+    },
+    "e9": {
+      "text": "are shared. A many-to-many multi-task model contains two encoders as well as two decoders. It can be jointly trained on ASR, MT, and ST tasks. As the attention module is task-specific, three attentions are defined. Usually, the size of $\\mathcal {A}$ and $\\mathcal {M}$ is much larger than $\\mathcal {S}$. Therefore, the common training practice is to pre-train the model on ASR and MT tasks and then fine-tune it with a multi-task learning manner. However, as aforementioned, this method suffers from subnet waste, role mismatch and non-pre-trained attention issues, which severely limits the end-to-end ST performance. Our method In this section, we first introduce the architecture of TCEN, which consists of two encoders connected in tandem, and one decoder with an attention module. Then we give the pre-training and fine-tuning strategy for TCEN. Finally, we propose our solutions for semantic and length inconsistency problems, which are caused by multi-task learning. Our method ::: TCEN Architecture Figure FIGREF5 sketches the overall architecture of TCEN, including a speech encoder $enc_s$, a text encoder $enc_t$ and a decoder $dec$ with an attention module $att$. During training, the $enc_s$ acts like an acoustic model which reads the input $\\mathbf {x}$ to word or subword representations $\\mathbf {h^s}$, then $enc_t$ learns high-level linguistic knowledge into hidden representations $\\mathbf {h^t}$. Finally, the $dec$ defines a distribution probability over target words. The advantage of our architecture is that two encoders disentangle acoustic feature extraction and linguistic feature extraction, making sure that valuable knowledge learned from ASR and MT tasks can be effectively leveraged for ST training. Besides, every module in pre-training can be utilized in fine-tuning, alleviating the subnet waste problem. Follow BIBREF9 inaguma2018speech, we use CNN-BiLSTM architecture to build our model. Specifically, the input features $\\mathbf {x}$ are organized as a sequence of feature vectors in length $T_x$. Then, $\\mathbf {x}$ is passed into a stack of two convolutional layers followed by max-pooling: where $\\mathbf {v}^{(l-1)}$ is feature maps in last layer and $\\mathbf {W}^{(l)}$ is the filter. The max-pooling layers downsample the sequence in length by a total factor of four. The down-sampled feature sequence is further fed into a stack of five bidirectional $d$-dimensional LSTM layers: where $[;]$ denotes the vector concatenation. The final output representation from the speech encoder is denoted as $\\mathbf {h^s}=(h^s_1, \\cdots , h^s_{\\frac{T_x}{4}})$, where $h_i^s \\in \\mathbb {R}^d$. The text encoder $enc_t$ consists of two bidirectional LSTM layers. In",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "TCEN Model Architecture"
+      ],
+      "topic_links": []
+    },
+    "e10": {
+      "text": "ST task, $enc_t$ accepts speech encoder output $\\mathbf {h}^s$ as input. While in MT, $enc_t$ consumes the word embedding representation $\\mathbf {e^s}$ derived from $\\mathbf {y^s}$, where each element $e^s_i$ is computed by choosing the $y_i^s$-th vector from the source embedding matrix $W_{E^s}$. The goal of $enc_t$ is to extract high-level linguistic features like syntactic features or semantic features from lower level subword representations $\\mathbf {h}^s$ or $\\mathbf {e}^s$. Since $\\mathbf {h}^s$ and $\\mathbf {e}^s$ belong to different latent space and have different lengths, there remain semantic and length inconsistency problems. We will provide our solutions in Section SECREF21. The output sequence of $enc_t$ is denoted as $\\mathbf {h}^t$. The decoder is defined as two unidirectional LSTM layers with an additive attention $att$. It predicts target sequence $\\mathbf {y^{t}}$ by estimating conditional probability $P(\\mathbf {y^{t}}|\\mathbf {x})$: Here, $z_k$ is the the hidden state of the deocder RNN at $k$ step and $c_k$ is a time-dependent context vector computed by the attention $att$. Our method ::: Training Procedure Following previous work, we split the training procedure to pre-training and fine-tuning stages. In pre-training stage, the speech encoder $enc_s$ is trained towards CTC objective using dataset $\\mathcal {A}$, while the text encoder $enc_t$ and the decoder $dec$ are trained on MT dataset $\\mathcal {M}$. In fine-tuning stage, we jointly train the model on ASR, MT, and ST tasks. Our method ::: Training Procedure ::: Pre-training To sufficiently utilize the large dataset $\\mathcal {A}$ and $\\mathcal {M}$, the model is pre-trained on CTC-based ASR task and MT task in the pre-training stage. For ASR task, in order to get rid of the requirement for decoder and enable the $enc_s$ to generate subword representation, we leverage connectionist temporal classification (CTC) BIBREF8 loss to train the speech encoder. Given an input $\\mathbf {x}$, $enc_s$ emits a sequence of hidden vectors $\\mathbf {h^s}$, then a softmax classification layer predicts a CTC path $\\mathbf {\\pi }$, where $\\pi _t \\in V_{src} \\cup $ {`-'} is the observing label at particular RNN step $t$, and `-' is the blank token representing no observed labels: where $W_{ctc} \\in \\mathbb {R}^{d \\times (|V_{src}|+1)}$ is the weight matrix in the classification layer and $T$ is the total length of encoder RNN. A legal CTC path $\\mathbf {\\pi }$ is a variation of the source transcription $\\mathbf {y}^s$ by allowing occurrences of blank tokens and repetitions, as shown in Table TABREF14. For",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Model Training Procedure"
+      ],
+      "topic_links": []
+    },
+    "e11": {
+      "text": "each transcription $\\mathbf {y}$, there exist many legal CTC paths in length $T$. The CTC objective trains the model to maximize the probability of observing the golden sequence $\\mathbf {y}^s$, which is calculated by summing the probabilities of all possible legal paths: where $\\Phi _T(y)$ is the set of all legal CTC paths for sequence $\\mathbf {y}$ with length $T$. The loss can be easily computed using forward-backward algorithm. More details about CTC are provided in supplementary material. For MT task, we use the cross-entropy loss as the training objective. During training, $\\mathbf {y^s}$ is converted to embedding vectors $\\mathbf {e^s}$ through embedding layer $W_{E^s}$, then $enc_t$ consumes $\\mathbf {e^s}$ and pass the output $\\mathbf {h^t}$ to decoder. The objective function is defined as: Our method ::: Training Procedure ::: Fine-tune In fine-tune stage, we jointly update the model on ASR, MT, and ST tasks. The training for ASR and MT follows the same process as it was in pre-training stage. For ST task, the $enc_s$ reads the input $\\mathbf {x}$ and generates $\\mathbf {h^s}$, then $enc_t$ learns high-level linguistic knowledge into $\\mathbf {h^t}$. Finally, the $dec$ predicts the target sentence. The ST loss function is defined as: Following the update strategy proposed by BIBREF11 luong2015multi, we allocate a different training ratio $\\alpha _i$ for each task. When switching between tasks, we select randomly a new task $i$ with probability $\\frac{\\alpha _i}{\\sum _{j}\\alpha _{j}}$. Our method ::: Subnet-Consistency Our model keeps role consistency between pre-training and fine-tuning by connecting two encoders for ST task. However, this leads to some new problems: 1) The text encoder consumes $\\mathbf {e^s}$ during MT training, while it accepts $\\mathbf {h^s}$ during ST training. However, $\\mathbf {e^s}$ and $\\mathbf {h^s}$ may not follow the same distribution, resulting in the semantic inconsistency. 2) Besides, the length of $\\mathbf {h^s}$ is not the same order of magnitude with the length of $\\mathbf {e^s}$, resulting in the length inconsistency. In response to the above two challenges, we propose two countermeasures: 1) We share weights between CTC classification layer and source-end word embedding layer during training of ASR and MT, encouraging $\\mathbf {e^s}$ and $\\mathbf {h^s}$ in the same space. 2)We feed the text encoder source sentences in the format of CTC path, which are generated from a seq2seq model, making it more robust toward long inputs. Our method ::: Subnet-Consistency ::: Semantic Consistency As shown in Figure FIGREF5,",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "CTC and Multi-Task Training"
+      ],
+      "topic_links": []
+    },
+    "e12": {
+      "text": "during multi-task training, two different hidden features will be fed into the text encoder $enc_t$: the embedding representation $\\mathbf {e}^s$ in MT task, and the $enc_s$ output $\\mathbf {h^s}$ in ST task. Without any regularization, they may belong to different latent spaces. Due to the space gap, the $enc_t$ has to compromise between two tasks, limiting its performance on individual tasks. To bridge the space gap, our idea is to pull $\\mathbf {h^s}$ into the latent space where $\\mathbf {e}^s$ belong. Specifically, we share the weight $W_{ctc}$ in CTC classification layer with the source embedding weights $W_{E^s}$, which means $W_{ctc} = W_{E^s}$. In this way, when predicting the CTC path $\\mathbf {\\pi }$, the probability of observing the particular label $w_i \\in V_{src}\\cup ${`-'} at time step $t$, $p(\\pi _t=w_i|\\mathbf {x})$, is computed by normalizing the product of hidden vector $h_t^s$ and the $i$-th vector in $W_{E^s}$: The loss function closes the distance between $h^s_t$ and golden embedding vector, encouraging $\\mathbf {h}^s$ have the same distribution with $\\mathbf {e}^s$. Our method ::: Subnet-Consistency ::: Length Consistency Another existing problem is length inconsistency. The length of the sequence $\\mathbf {h^s}$ is proportional to the length of the input frame $\\mathbf {x}$, which is much longer than the length of $\\mathbf {e^s}$. To solve this problem, we train an RNN-based seq2seq model to transform normal source sentences to noisy sentences in CTC path format, and replace standard MT with denoising MT for multi-tasking. Specifically, we first train a CTC ASR model based on dataset $\\mathcal {A} = \\lbrace (\\mathbf {x}_i, \\mathbf {y}^s_i)\\rbrace _{i=0}^{I}$, and generate a CTC-path $\\mathbf {\\pi }_i$ for each audio $\\mathbf {x}_i$ by greedy decoding. Then we define an operation $S(\\cdot )$, which converts a CTC path $\\mathbf {\\pi }$ to a sequence of the unique tokens $\\mathbf {u}$ and a sequence of repetition times for each token $\\mathbf {l}$, denoted as $S(\\mathbf {\\pi }) = (\\mathbf {u}, \\mathbf {l})$. Notably, the operation is reversible, meaning that $S^{-1} (\\mathbf {u}, \\mathbf {l})=\\mathbf {\\pi }$. We use the example $\\mathbf {\\pi _1}$ in Table TABREF14 and show the corresponding $\\mathbf {u}$ and $\\mathbf {l}$ in Table TABREF24. Then we build a dataset $\\mathcal {P} = \\lbrace (\\mathbf {y^s}_i, \\mathbf {u}_i, \\mathbf {l}_i)\\rbrace _{i=0}^{I}$ by decoding all the audio pieces in $\\mathcal {A}$ and transform the resulting path by the operation $S(\\cdot )$. After that, we train a seq2seq model, as",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Multi-Task Training"
+      ],
+      "topic_links": []
+    },
+    "e13": {
+      "text": "shown in Figure FIGREF25, which takes $ \\mathbf {y^s}_i$ as input and decodes $\\mathbf {u}_i, \\mathbf {l}_i$ as outputs. With the seq2seq model, a noisy MT dataset $\\mathcal {M}^{\\prime }=\\lbrace (\\mathbf {\\pi }_l, \\mathbf {y^t}_l)\\rbrace _{l=0}^{L}$ is obtained by converting every source sentence $\\mathbf {y^s}_i \\in \\mathcal {M}$ to $\\mathbf {\\pi _i}$, where $\\mathbf {\\pi }_i = S^{-1}(\\mathbf {u}_i, \\mathbf {l}_i)$. We did not use the standard seq2seq model which takes $\\mathbf {y^s}$ as input and generates $\\mathbf {\\pi }$ directly, since there are too many blank tokens `-' in $\\mathbf {\\pi }$ and the model tends to generate a long sequence with only blank tokens. During MT training, we randomly sample text pairs from $\\mathcal {M}^{\\prime }$ and $\\mathcal {M}$ according to a hyper-parameter $k$. After tuning on the validation set, about $30\\%$ pairs are sampled from $\\mathcal {M}^{\\prime }$. In this way, the $enc_t$ is more robust toward the longer inputs given by the $enc_s$. Experiments We conduct experiments on the IWSLT18 speech translation task BIBREF1. Since IWSLT participators use different data pre-processing methods, we reproduce several competitive baselines based on the ESPnet BIBREF12 for a fair comparison. Experiments ::: Dataset ::: Speech translation data: The organizer provides a speech translation corpus extracting from the TED talk (ST-TED), which consists of raw English wave files, English transcriptions, and aligned German translations. The corpus contains 272 hours of English speech with 171k segments. We split 2k segments from the corpus as dev set and tst2010, tst2013, tst2014, tst2015 are used as test sets. Speech recognition data: Aside from ST-TED, TED-LIUM2 corpus BIBREF13 is provided as speech recognition data, which contains 207 hours of English speech and 93k transcript sentences. Text translation data: We use transcription and translation pairs in the ST-TED corpus and WIT3 as in-domain MT data, which contains 130k and 200k sentence pairs respectively. WMT2018 is used as out-of-domain training data which consists of 41M sentence pairs. Data preprocessing: For speech data, the utterances are segmented into multiple frames with a 25 ms window size and a 10 ms step size. Then we extract 80-channel log-Mel filter bank and 3-dimensional pitch features using Kaldi BIBREF14, resulting in 83-dimensional input features. We normalize them by the mean and the standard deviation on the whole training set. The utterances with more than 3000 frames are discarded. The transcripts in ST-TED are in true-case with punctuation while in TED-LIUM2, transcripts",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e14": {
+      "text": "are in lower-case and unpunctuated. Thus, we lowercase all the sentences and remove the punctuation to keep consistent. To increase the amount of training data, we perform speed perturbation on the raw signals with speed factors 0.9 and 1.1. For the text translation data, sentences longer than 80 words or shorter than 10 words are removed. Besides, we discard pairs whose length ratio between source and target sentence is smaller than 0.5 or larger than 2.0. Word tokenization is performed using the Moses scripts and both English and German words are in lower-case. We use two different sets of vocabulary for our experiments. For the subword experiments, both English and German vocabularies are generated using sentencepiece BIBREF15 with a fixed size of 5k tokens. BIBREF9 inaguma2018speech show that increasing the vocabulary size is not helpful for ST task. For the character experiments, both English and German sentences are represented in the character level. For evaluation, we segment each audio with the LIUM SpkDiarization tool BIBREF16 and then perform MWER segmentation with RWTH toolkit BIBREF17. We use lowercase BLEU as evaluation metric. Experiments ::: Baseline Models and Implementation We compare our method with following baselines. Vanilla ST baseline: The vanilla ST BIBREF9 has only a speech encoder and a decoder. It is trained from scratch on the ST-TED corpus. Pre-training baselines: We conduct three pre-training baseline experiments: 1) encoder pre-training, in which the ST encoder is initialized from an ASR model; 2) decoder pre-training, in which the ST decoder is initialized from an MT model; and 3) encoder-decoder pre-training, where both the encoder and decoder are pre-trained. The ASR model has the same architecture with vanilla ST model, trained on the mixture of ST-TED and TED-LIUM2 corpus. The MT model has a text encoder and decoder with the same architecture of which in TCEN. It is first trained on WMT data (out-of-domain) and then fine-tuned on in-domain data. Multi-task baselines: We also conduct three multi-task baseline experiments including one-to-many setting, many-to-one setting, and many-to-many setting. In the first two settings, we train the model with $\\alpha _{st}=0.75$ while $\\alpha _{asr}=0.25$ or $\\alpha _{mt}=0.25$. For many-to-many setting, we use $\\alpha _{st}=0.6, \\alpha _{asr}=0.2$ and $\\alpha _{mt}=0.2$.. For MT task, we use only in-domain data. Many-to-many+pre-training: We train a many-to-many multi-task model where the encoders and decoders are derived from pre-trained ASR and MT models. Triangle+pre-train: BIBREF18 DBLP:conf/naacl/AnastasopoulosC18 proposed a triangle multi-task strategy",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Passage"
+      ],
+      "topic_links": []
+    },
+    "e15": {
+      "text": "for speech translation. Their model solves the subnet waste issue by concatenating an ST decoder to an ASR encoder-decoder model. Notably, their ST decoder can consume representations from the speech encoder as well as the ASR decoder. For a fair comparison, the speech encoder and the ASR decoder are initialized from the pre-trained ASR model. The Triangle model is fine-tuned under their multi-task manner. All our baselines as well as TCEN are implemented based on ESPnet BIBREF12, the RNN size is set as $d=1024$ for all models. We use a dropout of 0.3 for embeddings and encoders, and train using Adadelta with initial learning rate of 1.0 for a maximum of 10 epochs. For training of TCEN, we set $\\alpha _{asr}=0.2$ and $\\alpha _{mt}=0.8$ in the pre-training stage, since the MT dataset is much larger than ASR dataset. For fine-tune, we use $\\alpha _{st}=0.6, \\alpha _{asr}=0.2$ and $\\alpha _{mt}=0.2$, same as the `many-to-many' baseline. For testing, we select the model with the best accuracy on speech translation task on dev set. At inference time, we use a beam size of 10, and the beam scores include length normalization with a weight of 0.2. Experiments ::: Experimental Results Table TABREF29 shows the results on four test sets as well as the average performance. Our method significantly outperforms the strong `many-to-many+pretrain' baseline by 3.6 and 2.2 BLEU scores respectively, indicating the proposed method is very effective that substantially improves the translation quality. Besides, both pre-training and multi-task learning can improve translation quality, and the pre-training settings (2nd-4th rows) are more effective compared to multi-task settings (5th-8th rows). We observe a performance degradation in the `triangle+pretrain' baseline. Compared to our method, where the decoder receives higher-level syntactic and semantic linguistic knowledge extracted from text encoder, their ASR decoder can only provide lower word-level linguistic information. Besides, since their model lacks text encoder and the architecture of ST decoder is different from MT decoder, their model cannot utilize the large-scale MT data in all the training stages. Interestingly, we find that the char-level models outperform the subword-level models in all settings, especially in vanilla baseline. A similar phenomenon is observed by BIBREF6 berard2018end. A possible explanation is that learning the alignments between speech frames and subword units in another language is notoriously difficult. Our method can bring more gains in the subword setting since our model is good at learning the text-to-text alignment and",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech Translation Model"
+      ],
+      "topic_links": []
+    },
+    "e16": {
+      "text": "the subword-level alignment is more helpful to the translation quality. Experiments ::: Discussion ::: Ablation Study To better understand the contribution of each component, we perform an ablation study on subword-level experiments. The results are shown in Table TABREF37. In `-MT noise' setting, we do not add noise to source sentences for MT. In `-weight sharing' setting, we use different parameters in CTC classification layer and source embedding layer. These two experiments prove that both weight sharing and using noisy MT input benefit to the final translation quality. Performance degrades more in `-weight sharing', indicating the semantic consistency contributes more to our model. In the `-pretrain' experiment, we remove the pre-training stage and directly update the model on three tasks, leading to a dramatic decrease on BLEU score, indicating the pre-training is an indispensable step for end-to-end ST. Experiments ::: Discussion ::: Learning Curve It is interesting to investigate why our method is superior to baselines. We find that TCEN achieves a higher final result owing to a better start-point in fine-tuning. Figure FIGREF39 provides learning curves of subword accuracy on validation set. The x-axis denotes the fine-tuning training steps. The vanilla model starts at a low accuracy, because its networks are not pre-trained on the ASR and MT data. The trends of our model and `many-to-many+pretrain' are similar, but our model outperforms it about five points in the whole fine-tuning process. It indicates that the gain comes from bridging the gap between pre-training and fine-tuning rather than a better fine-tuning process. Experiments ::: Discussion ::: Compared with a Cascaded System Table TABREF29 compares our model with end-to-end baselines. Here, we compare our model with cascaded systems. We build a cascaded system by combining the ASR model and MT model used in pre-training baseline. Word error rate (WER) of the ASR system and BLEU score of the MT system are reported in the supplementary material. In addition to a simple combination of the ASR and MT systems, we also re-segment the ASR outputs before feeding to the MT system, denoted as cascaded+re-seg. Specifically, we train a seq2seq model BIBREF19 on the MT dataset, where the source side is a no punctuation sentence and the target side is a natural sentence. After that, we use the seq2seq model to add sentence boundaries and punctuation on ASR outputs. Experimental results are shown in Table TABREF41. Our end-to-end model outperforms the simple cascaded",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Ablation Study Results"
+      ],
+      "topic_links": []
+    },
+    "e17": {
+      "text": "model over 2 BLEU scores, and it achieves a comparable performance with the cascaded model combining with a sentence re-segment model. Related Work Early works conduct speech translation in a pipeline manner BIBREF2, BIBREF20, where the ASR output lattices are fed into an MT system to generate target sentences. HMM BIBREF21, DenseNet BIBREF22, TDNN BIBREF23 are commonly used ASR systems, while RNN with attention BIBREF19 and Transformer BIBREF10 are top choices for MT. To enhance the robustness of the NMT model towards ASR errors, BIBREF24 DBLP:conf/eacl/TsvetkovMD14 and BIBREF25 DBLP:conf/asru/ChenHHL17 propose to simulate the noise in training and inference. To avoid error propagation and high latency issues, recent works propose translating the acoustic speech into text in target language without yielding the source transcription BIBREF4. Since ST data is scarce, pre-training BIBREF7, multi-task learning BIBREF4, BIBREF6, curriculum learning BIBREF26, attention-passing BIBREF27, and knowledge distillation BIBREF28, BIBREF29 strategies have been explored to utilize ASR data and MT data. Specifically, BIBREF5 DBLP:conf/interspeech/WeissCJWC17 show improvements of performance by training the ST model jointly with the ASR and the MT model. BIBREF6 berard2018end observe faster convergence and better results due to pre-training and multi-task learning on a larger dataset. BIBREF7 DBLP:conf/naacl/BansalKLLG19 show that pre-training a speech encoder on one language can improve ST quality on a different source language. All of them follow the traditional multi-task training strategies. BIBREF26 DBLP:journals/corr/abs-1802-06003 propose to use curriculum learning to improve ST performance on syntactically distant language pairs. To effectively leverage transcriptions in ST data, BIBREF18 DBLP:conf/naacl/AnastasopoulosC18 augment the multi-task model where the target decoder receives information from the source decoder and they show improvements on low-resource speech translation. Their model just consumes ASR and ST data, in contrast, our work sufficiently utilizes the large-scale MT data to capture the rich semantic knowledge. BIBREF30 DBLP:conf/icassp/JiaJMWCCALW19 use pre-trained MT and text-to-speech (TTS) synthesis models to convert weakly supervised data into ST pairs and demonstrate that an end-to-end MT model can be trained using only synthesised data. Conclusion This paper has investigated the end-to-end method for ST. It has discussed why there is a huge gap between pre-training and fine-tuning in previous methods. To alleviate these issues, we have proposed a method, which is capable of reusing every sub-net and keeping the role of sub-net consistent between pre-training and fine-tuning. Empirical studies have demonstrated that our model significantly outperforms baselines.",
+      "layer": "episodic",
+      "time": null,
+      "tags": [
+        "Speech Translation Methods"
+      ],
+      "topic_links": []
+    },
+    "s1": {
+      "text": "Speech-to-Text translation (ST) is a process that converts spoken language into text in a target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s2": {
+      "text": "The cascaded method in speech-to-text translation involves translating the output of an automatic speech recognition (ASR) system into a target language using a machine translation (MT) model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s3": {
+      "text": "The end-to-end method in speech-to-text translation learns direct mappings from acoustic frames to target word sequences in a single model, avoiding intermediate steps.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s4": {
+      "text": "The end-to-end method has lower latency compared to the cascaded method because it avoids inference with two separate models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s5": {
+      "text": "The end-to-end method theoretically rectifies error propagation that occurs in cascaded systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s6": {
+      "text": "Multi-task learning is applied to end-to-end ST models to leverage large-scale ASR and MT datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s7": {
+      "text": "Pre-training techniques are used in end-to-end ST models to improve performance by utilizing large-scale ASR and MT datasets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Application"
+      ],
+      "topic_links": []
+    },
+    "s8": {
+      "text": "The ASR model is pre-trained to map acoustic frames to word sequences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s9": {
+      "text": "The MT model is pre-trained to translate text from a source language to a target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s10": {
+      "text": "The ST model is initialized using the encoder of the ASR model and the decoder of the MT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s11": {
+      "text": "The ST system discards valuable pre-trained subnets such as the MT encoder, preventing the inheritance of semantic information captured by it.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s12": {
+      "text": "The speech encoder serves as a pure acoustic model during pre-training but must extract semantic and linguistic features during fine-tuning, increasing learning difficulty.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s13": {
+      "text": "Previous work trains separate attention modules for ASR, MT, and ST, resulting in the ST attention module not being pre-trained.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s14": {
+      "text": "TCEN is a Tandem Connectionist Encoding Network that reuses subnets from pre-training, maintains consistent roles for subnets, and pre-trains an attention module.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s15": {
+      "text": "The speech encoder in TCEN extracts acoustic features and maps them into the source language space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s16": {
+      "text": "The text encoder in TCEN is pre-trained on a large machine translation (MT) dataset and processes word embeddings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s17": {
+      "text": "The target text decoder in TCEN is part of the TCEN architecture and works with the text encoder to generate translated text.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s18": {
+      "text": "The ASR encoder in TCEN is pre-trained using the Connectionist Temporal Classification (CTC) objective function.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Objective"
+      ],
+      "topic_links": []
+    },
+    "s19": {
+      "text": "TCEN does not include an ASR decoder, eliminating the need for an additional decoder in ASR tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Absence"
+      ],
+      "topic_links": []
+    },
+    "s20": {
+      "text": "The MT encoder in TCEN is pre-trained on a large machine translation dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Pre-training"
+      ],
+      "topic_links": []
+    },
+    "s21": {
+      "text": "TCEN employs multi-task learning to jointly train ASR, machine translation (MT), and speech translation (ST) tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s22": {
+      "text": "Previous ST models suffer from subnet waste because they do not fully utilize pre-trained subnets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s23": {
+      "text": "The two encoders in TCEN operate in tandem, disentangling acoustic and linguistic feature extraction to ensure consistent roles during pre-training and fine-tuning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s24": {
+      "text": "The pre-trained MT attention module is reused in speech translation (ST) to leverage alignment information learned during pre-training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reuse"
+      ],
+      "topic_links": []
+    },
+    "s25": {
+      "text": "TCEN ensures semantic consistency between speech encoder outputs and word embeddings by sharing the projection matrix at the CTC classification layer with the word embedding matrix.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s26": {
+      "text": "TCEN achieves length consistency by making the speech encoder output proportional to the input frame length and lengthening source sentences in MT with repetitions and blank tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s27": {
+      "text": "Comprehensive experiments on the IWSLT18 speech translation benchmark are conducted to evaluate TCEN's performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Evaluation Dataset"
+      ],
+      "topic_links": []
+    },
+    "s28": {
+      "text": "TCEN achieves a 3.6 BLEU score improvement over previous methods using subword-level decoding and a 2.2 BLEU score improvement using character-level decoding.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s29": {
+      "text": "The first contribution is to explain why previous speech translation models fail to fully utilize pre-training knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contribution"
+      ],
+      "topic_links": []
+    },
+    "s30": {
+      "text": "The second contribution is the proposal of a new speech translation model, TCEN, that addresses shortcomings in existing methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contribution"
+      ],
+      "topic_links": []
+    },
+    "s31": {
+      "text": "The third contribution is the empirical evaluation of TCEN on a large-scale public dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Contribution"
+      ],
+      "topic_links": []
+    },
+    "s32": {
+      "text": "End-to-end speech translation aims to translate a piece of audio directly into a target language.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem Formulation"
+      ],
+      "topic_links": []
+    },
+    "s33": {
+      "text": "The speech feature sequence is defined as \\(\\mathbf{x} = (x_1, \\cdots, x_{T_x})\\), a sequence of acoustic features such as Mel filterbank features.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s34": {
+      "text": "The transcription sequence \\(\\mathbf{y^s} = (y_1^s, \\cdots, y_{T_s}^s)\\) consists of integer indices representing symbols from a source vocabulary \\(V_{src}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s35": {
+      "text": "The translation sequence \\(\\mathbf{y^t} = (y_1^t, \\cdots, y_{T_t}^t)\\) consists of integer indices representing symbols from a target vocabulary \\(V_{trg}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s36": {
+      "text": "The ASR dataset \\(\\mathcal{A} = \\lbrace (\\mathbf{x_i}, \\mathbf{y^s_i})\\rbrace_{i=0}^I\\) consists of audio signals and their corresponding transcriptions.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s37": {
+      "text": "The MT dataset \\(\\mathcal{M} = \\lbrace (\\mathbf{y^s_j}, \\mathbf{y^t_j})\\rbrace_{j=0}^J\\) consists of source transcriptions and their corresponding translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s38": {
+      "text": "The ST dataset \\(\\mathcal{S} = \\lbrace (\\mathbf{x_l}, \\mathbf{y^t_l})\\rbrace_{l=0}^L\\) consists of audio signals and their corresponding translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s39": {
+      "text": "In the one-to-many setting, a shared speech encoder is used for both ASR and ST tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s40": {
+      "text": "In the many-to-one setting, a shared decoder is used for both MT and ST tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s41": {
+      "text": "In the many-to-many setting, both the encoder and decoder are shared between ASR, MT, and ST tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s42": {
+      "text": "The goal is to learn an end-to-end model that directly generates a translation sentence \\(\\mathbf{y^t}\\) from a speech input \\(\\mathbf{x}\\) without producing an intermediate transcription \\(\\mathbf{y^s}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s43": {
+      "text": "TCEN is a multi-task model architecture that consists of a speech encoder, a text encoder, and a decoder with an attention module.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s44": {
+      "text": "The speech encoder reads input speech features to produce word or subword representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s45": {
+      "text": "The text encoder learns high-level linguistic knowledge and produces hidden representations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s46": {
+      "text": "The decoder defines a distribution probability over target words during ST training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Function"
+      ],
+      "topic_links": []
+    },
+    "s47": {
+      "text": "The attention module is part of the decoder and enables task-specific focus during training.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Component"
+      ],
+      "topic_links": []
+    },
+    "s48": {
+      "text": "The speech encoder uses a CNN-BiLSTM architecture with two convolutional layers, max-pooling, and five bidirectional LSTM layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s49": {
+      "text": "Max-pooling downsamples the input feature sequence by a total factor of four.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s50": {
+      "text": "The final output representation from the speech encoder is denoted as $\\mathbf{h^s} = (h^s_1, \\ldots, h^s_{T_x/4})$, where each $h_i^s \\in \\mathbb{R}^d$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s51": {
+      "text": "The text encoder consists of two bidirectional LSTM layers.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Structure"
+      ],
+      "topic_links": []
+    },
+    "s52": {
+      "text": "Traditional multi-task learning suffers from subnet waste, role mismatch, and non-pre-trained attention issues that limit end-to-end ST performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s53": {
+      "text": "TCEN is pre-trained on ASR and MT tasks, then fine-tuned using a multi-task learning approach to leverage learned knowledge for ST.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s54": {
+      "text": "The two encoders in TCEN disentangle acoustic and linguistic feature extraction, enabling effective transfer of knowledge from ASR and MT to ST.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s55": {
+      "text": "Subnet waste occurs in traditional multi-task models where modules trained for one task are not fully utilized in others.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Issue"
+      ],
+      "topic_links": []
+    },
+    "s56": {
+      "text": "The ST task involves the speech encoder $enc_t$ accepting speech encoder output $\\mathbf{h}^s$ as input.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s57": {
+      "text": "In the MT task, $enc_t$ consumes word embedding representation $\\mathbf{e}^s$ derived from $\\mathbf{y}^s$, where each element $e^s_i$ is computed by selecting the $y_i^s$-th vector from the source embedding matrix $W_{E^s}$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s58": {
+      "text": "The goal of $enc_t$ is to extract high-level linguistic features such as syntactic or semantic features from lower-level subword representations $\\mathbf{h}^s$ or $\\mathbf{e}^s$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Goal"
+      ],
+      "topic_links": []
+    },
+    "s59": {
+      "text": "The subword representations $\\mathbf{h}^s$ and $\\mathbf{e}^s$ belong to different latent spaces and have different lengths, leading to semantic and length inconsistency problems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s60": {
+      "text": "The output sequence of $enc_t$ is denoted as $\\mathbf{h}^t$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s61": {
+      "text": "The decoder is defined as two unidirectional LSTM layers with an additive attention mechanism $att$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s62": {
+      "text": "The decoder predicts the target sequence $\\mathbf{y^t}$ by estimating the conditional probability $P(\\mathbf{y^t}|\\mathbf{x})$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s63": {
+      "text": "z_k is the hidden state of the decoder RNN at step k.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s64": {
+      "text": "c_k is a time-dependent context vector computed by the attention mechanism $att$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s65": {
+      "text": "In the pre-training stage, the speech encoder $enc_s$ is trained using the CTC objective on dataset $\\mathcal{A}$, while the text encoder $enc_t$ and decoder $dec$ are trained on the MT dataset $\\mathcal{M}$.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s66": {
+      "text": "In the fine-tuning stage, the model is jointly trained on ASR, MT, and ST tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s67": {
+      "text": "Connectionist Temporal Classification (CTC) loss is used to train the speech encoder $enc_s$ in the ASR task to generate subword representations without requiring a decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s68": {
+      "text": "A CTC path $\\mathbf{\\pi}$ is a sequence of observing labels $\\pi_t \\in V_{src} \\cup \\{\\text{`-'}\\}$ at each RNN step $t$, where `-' represents a blank token indicating no observed label.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s69": {
+      "text": "The blank token `-' in a CTC path represents the absence of an observed label and allows for repetitions and gaps in the transcription.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s70": {
+      "text": "A legal CTC path is a variation of the source transcription $\\mathbf{y}^s$ that allows blank tokens and repetitions, as illustrated in Table TABREF14.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s71": {
+      "text": "CTC paths are sequences of length T that are legally valid for a given transcription y.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s72": {
+      "text": "The golden sequence y^s is the target sequence that the model is trained to maximize the probability of observing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s73": {
+      "text": "\u03a6_T(y) is the set of all legal CTC paths of length T corresponding to transcription y.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s74": {
+      "text": "The CTC objective trains the model to maximize the probability of observing the golden sequence y^s by summing the probabilities of all legal CTC paths.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s75": {
+      "text": "The forward-backward algorithm is used to efficiently compute the CTC loss.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s76": {
+      "text": "Cross-entropy loss is used as the training objective for the machine translation (MT) task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s77": {
+      "text": "The embedding layer W_E^s converts the source sequence y^s into embedding vectors e^s.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s78": {
+      "text": "The encoder enc_t consumes the embedding vectors e^s and passes the output h^t to the decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s79": {
+      "text": "The fine-tune stage involves jointly updating the model on ASR, MT, and ST tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s80": {
+      "text": "In the ST task, the encoder enc_s reads input x to generate h^s, and enc_t learns high-level linguistic knowledge to produce h^t, which is then used by the decoder to predict the target sentence.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s81": {
+      "text": "The ST loss function is defined to measure the performance of the model during the ST task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s82": {
+      "text": "Each task is assigned a different training ratio \u03b1_i, and a new task i is selected with probability \u03b1_i / \u03a3_j \u03b1_j.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s83": {
+      "text": "Semantic inconsistency arises because the text encoder consumes e^s during MT training and h^s during ST training, and e^s and h^s may not follow the same distribution.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s84": {
+      "text": "Length inconsistency occurs because the length of h^s is not on the same order of magnitude as the length of e^s.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s85": {
+      "text": "Shared weights between the CTC classification layer and the source-end word embedding layer encourage e^s and h^s to exist in the same semantic space.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s86": {
+      "text": "The text encoder receives input in the form of CTC paths generated from a seq2seq model, improving robustness to long inputs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Solution"
+      ],
+      "topic_links": []
+    },
+    "s87": {
+      "text": "Subnet-consistency ensures role consistency between pre-training and fine-tuning by connecting two encoders for the ST task.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s88": {
+      "text": "Multi-task training involves feeding two different hidden features\u2014embedding representation \\(\\mathbf{e}^s\\) in MT task and \\(\\mathbf{h}^s\\) in ST task\u2014into the same text encoder \\(enc_t\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s89": {
+      "text": "Without regularization, the hidden features \\(\\mathbf{e}^s\\) and \\(\\mathbf{h}^s\\) may belong to different latent spaces, causing performance compromise in individual tasks.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s90": {
+      "text": "Subnet-Consistency is a method that pulls \\(\\mathbf{h}^s\\) into the latent space of \\(\\mathbf{e}^s\\) by sharing the CTC classification layer weights \\(W_{ctc}\\) with the source embedding weights \\(W_{E^s}\\), such that \\(W_{ctc} = W_{E^s}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s91": {
+      "text": "The probability of observing label \\(w_i\\) at time step \\(t\\) is computed by normalizing the product of hidden vector \\(h_t^s\\) and the \\(i\\)-th vector in \\(W_{E^s}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s92": {
+      "text": "The loss function closes the distance between \\(h_t^s\\) and the golden embedding vector, encouraging \\(\\mathbf{h}^s\\) to have the same distribution as \\(\\mathbf{e}^s\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s93": {
+      "text": "The sequence \\(\\mathbf{h}^s\\) is longer than \\(\\mathbf{e}^s\\) because its length is proportional to the input frame length \\(\\mathbf{x}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s94": {
+      "text": "Length inconsistency is solved by training a seq2seq model to transform source sentences into noisy CTC-path format and replacing standard MT with denoising MT.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s95": {
+      "text": "The operation \\(S(\\cdot)\\) converts a CTC path \\(\\mathbf{\\pi}\\) into a sequence of unique tokens \\(\\mathbf{u}\\) and a sequence of repetition times \\(\\mathbf{l}\\), denoted as \\(S(\\mathbf{\\pi}) = (\\mathbf{u}, \\mathbf{l})\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s96": {
+      "text": "The operation \\(S(\\cdot)\\) is reversible, meaning \\(S^{-1}(\\mathbf{u}, \\mathbf{l}) = \\mathbf{\\pi}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s97": {
+      "text": "The dataset \\(\\mathcal{P} = \\{(\\mathbf{y}^s_i, \\mathbf{u}_i, \\mathbf{l}_i)\\}_{i=0}^{I}\\) is constructed by applying the operation \\(S(\\cdot)\\) to CTC paths generated from audio sequences in dataset \\(\\mathcal{A}\\).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s98": {
+      "text": "A seq2seq model takes input sequence \\mathbf{y^s}_i and decodes outputs \\mathbf{u}_i and \\mathbf{l}_i.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s99": {
+      "text": "The noisy MT dataset \\mathcal{M}' is obtained by converting source sentences \\mathbf{y^s}_i \\in \\mathcal{M} to \\mathbf{\\pi}_i, where \\mathbf{\\pi}_i = S^{-1}(\\mathbf{u}_i, \\mathbf{l}_i).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s100": {
+      "text": "The standard seq2seq model tends to generate long sequences containing only blank tokens '-' due to the presence of many blank tokens in \\mathbf{\\pi}.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s101": {
+      "text": "During MT training, text pairs are randomly sampled from \\mathcal{M}' and \\mathcal{M} according to a hyper-parameter k.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s102": {
+      "text": "After tuning on the validation set, approximately 30% of the sampled pairs come from the noisy dataset \\mathcal{M}'.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s103": {
+      "text": "The encoder \\enc_t becomes more robust to longer inputs provided by \\enc_s due to the inclusion of noisy data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s104": {
+      "text": "Experiments are conducted on the IWSLT18 speech translation task for evaluation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Experiment"
+      ],
+      "topic_links": []
+    },
+    "s105": {
+      "text": "The ST-TED corpus consists of 272 hours of English speech with 171k segments, including raw wave files, English transcriptions, and aligned German translations.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s106": {
+      "text": "2k segments from ST-TED are split into the dev set, and tst2010, tst2013, tst2014, tst2015 are used as test sets.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s107": {
+      "text": "TED-LIUM2 contains 207 hours of English speech and 93k transcript sentences and is used as speech recognition data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s108": {
+      "text": "In-domain MT data includes transcription-translation pairs from ST-TED (130k pairs) and WIT3 (200k pairs).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s109": {
+      "text": "WMT2018 is used as out-of-domain training data and consists of 41M sentence pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Dataset"
+      ],
+      "topic_links": []
+    },
+    "s110": {
+      "text": "Speech utterances are segmented into frames with a 25 ms window and 10 ms step size, and 83-dimensional features (80-channel log-Mel and 3D pitch) are extracted using Kaldi.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s111": {
+      "text": "The extracted features are normalized using the mean and standard deviation computed over the entire training set.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s112": {
+      "text": "Utterances with more than 3000 frames are discarded during preprocessing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Process"
+      ],
+      "topic_links": []
+    },
+    "s113": {
+      "text": "Transcripts in ST-TED are in true-case with punctuation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s114": {
+      "text": "Transcripts in TED-LIUM2 do not have true-case formatting and lack punctuation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s115": {
+      "text": "Speed perturbation is performed on raw signals with speed factors of 0.9 and 1.1.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s116": {
+      "text": "Sentences longer than 80 words or shorter than 10 words are removed from text translation data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s117": {
+      "text": "Pairs whose length ratio between source and target sentences is smaller than 0.5 or larger than 2.0 are discarded.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s118": {
+      "text": "Word tokenization is performed using Moses scripts.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s119": {
+      "text": "Both English and German words are in lowercase.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s120": {
+      "text": "Both English and German vocabularies for subword experiments are generated using sentencepiece with a fixed size of 5k tokens.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s121": {
+      "text": "Increasing the vocabulary size is not helpful for ST task according to BIBREF9 inaguma2018speech.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Claim"
+      ],
+      "topic_links": []
+    },
+    "s122": {
+      "text": "For character experiments, both English and German sentences are represented at the character level.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s123": {
+      "text": "Each audio is segmented using the LIUM SpkDiarization tool.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s124": {
+      "text": "MWER segmentation is performed using the RWTH toolkit.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s125": {
+      "text": "Lowercase BLEU is used as the evaluation metric.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s126": {
+      "text": "The vanilla ST baseline consists of only a speech encoder and a decoder, trained from scratch on the ST-TED corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s127": {
+      "text": "Encoder pre-training initializes the ST encoder from an ASR model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s128": {
+      "text": "Decoder pre-training initializes the ST decoder from an MT model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s129": {
+      "text": "Encoder-decoder pre-training pre-trains both the encoder and decoder of the ST model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s130": {
+      "text": "The ASR model has the same architecture as the vanilla ST model and is trained on a mixture of ST-TED and TED-LIUM2 corpus.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s131": {
+      "text": "The MT model has a text encoder and decoder with the same architecture as TCEN, is first trained on WMT data (out-of-domain), and then fine-tuned on in-domain data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s132": {
+      "text": "In the one-to-many setting, the model is trained with \u03b1_st=0.75 and \u03b1_asr=0.25.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s133": {
+      "text": "In the many-to-one setting, the model is trained with \u03b1_st=0.75 and \u03b1_mt=0.25.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s134": {
+      "text": "In the many-to-many setting, the model is trained with \u03b1_st=0.6, \u03b1_asr=0.2, and \u03b1_mt=0.2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s135": {
+      "text": "A many-to-many multi-task model is trained where encoders and decoders are derived from pre-trained ASR and MT models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s136": {
+      "text": "Triangle+pre-train is a multi-task strategy proposed by DBLP:conf/naacl/AnastasopoulosC18.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s137": {
+      "text": "The ST decoder in the model can consume representations from both the speech encoder and the ASR decoder.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s138": {
+      "text": "The Triangle model is fine-tuned using a multi-task learning approach.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s139": {
+      "text": "The ST decoder is concatenated to the ASR encoder-decoder model to solve the subnet waste issue.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Relationship"
+      ],
+      "topic_links": []
+    },
+    "s140": {
+      "text": "The speech encoder and ASR decoder in the model are initialized from a pre-trained ASR model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Initialization"
+      ],
+      "topic_links": []
+    },
+    "s141": {
+      "text": "In the pre-training stage of TCEN, the weights are set to \u03b1_asr=0.2 and \u03b1_mt=0.8 due to the larger size of the MT dataset.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Setting"
+      ],
+      "topic_links": []
+    },
+    "s142": {
+      "text": "During fine-tuning, TCEN uses \u03b1_st=0.6, \u03b1_asr=0.2, and \u03b1_mt=0.2, matching the 'many-to-many' baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Training Parameter"
+      ],
+      "topic_links": []
+    },
+    "s143": {
+      "text": "All models use an RNN size of d=1024, dropout of 0.3 for embeddings and encoders, and Adadelta with initial learning rate 1.0 for up to 10 epochs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s144": {
+      "text": "The best-performing model on the speech translation task during dev set evaluation is selected for testing.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s145": {
+      "text": "At inference time, a beam size of 10 is used with beam scores including length normalization weighted at 0.2.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Parameter"
+      ],
+      "topic_links": []
+    },
+    "s146": {
+      "text": "The proposed method outperforms the 'many-to-many+pretrain' baseline by 3.6 and 2.2 BLEU scores on two test sets, respectively.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s147": {
+      "text": "Pre-training settings are more effective than multi-task learning settings in improving translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s148": {
+      "text": "The 'triangle+pretrain' baseline shows performance degradation compared to the proposed method.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s149": {
+      "text": "The proposed method benefits from the text encoder providing higher-level syntactic and semantic linguistic knowledge.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s150": {
+      "text": "The ASR decoder in the baseline model only provides lower-level word-level linguistic information.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s151": {
+      "text": "The baseline model lacks a text encoder and has a different ST decoder architecture, preventing full utilization of large-scale MT data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s152": {
+      "text": "Char-level models outperform subword-level models in all settings, especially in the vanilla baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s153": {
+      "text": "Learning alignments between speech frames and subword units in another language is difficult, leading to subword-level performance issues.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Limitation"
+      ],
+      "topic_links": []
+    },
+    "s154": {
+      "text": "The proposed method is effective at learning text-to-text alignment, leading to greater gains in subword-level settings.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Advantage"
+      ],
+      "topic_links": []
+    },
+    "s155": {
+      "text": "A similar phenomenon where char-level models outperform subword-level models was observed by Berard et al. (2018).",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Reference"
+      ],
+      "topic_links": []
+    },
+    "s156": {
+      "text": "Subword-level alignment refers to the method of aligning linguistic units at the subword level, which is more helpful to translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s157": {
+      "text": "An ablation study is performed on subword-level experiments to understand the contribution of each component.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s158": {
+      "text": "Weight sharing is used in the CTC classification layer and source embedding layer, and it benefits translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s159": {
+      "text": "Using noisy MT input improves final translation quality.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s160": {
+      "text": "Performance degrades more in the '-weight sharing' setting, indicating semantic consistency contributes more to the model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s161": {
+      "text": "Pre-training is an indispensable step for end-to-end speech-to-text translation, as removing it leads to a dramatic decrease in BLEU score.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Requirement"
+      ],
+      "topic_links": []
+    },
+    "s162": {
+      "text": "TCEN achieves a higher final result due to a better start-point in fine-tuning, as shown in the learning curves of subword accuracy.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s163": {
+      "text": "The vanilla model starts with low accuracy because its networks are not pre-trained on ASR and MT data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s164": {
+      "text": "A cascaded system is built by combining an ASR model and an MT model from a pre-training baseline.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Comparison"
+      ],
+      "topic_links": []
+    },
+    "s165": {
+      "text": "Cascaded+re-seg involves re-segmenting ASR outputs before feeding them to the MT system using a seq2seq model trained on MT data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s166": {
+      "text": "The end-to-end model outperforms the simple cascaded system in translation performance.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s167": {
+      "text": "The model achieves over 2 BLEU scores.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s168": {
+      "text": "The model achieves comparable performance with a cascaded model combined with a sentence re-segment model.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s169": {
+      "text": "Early works conduct speech translation in a pipeline manner where ASR output lattices are fed into an MT system to generate target sentences.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Definition"
+      ],
+      "topic_links": []
+    },
+    "s170": {
+      "text": "HMM is a commonly used ASR system in early speech translation works.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s171": {
+      "text": "DenseNet is a commonly used ASR system in early speech translation works.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s172": {
+      "text": "TDNN is a commonly used ASR system in early speech translation works.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s173": {
+      "text": "RNN with attention is a top choice for machine translation in speech translation systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s174": {
+      "text": "Transformer is a top choice for machine translation in speech translation systems.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Property"
+      ],
+      "topic_links": []
+    },
+    "s175": {
+      "text": "Noise simulation in training and inference is proposed to enhance the robustness of NMT models against ASR errors.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Cause"
+      ],
+      "topic_links": []
+    },
+    "s176": {
+      "text": "Error propagation is a problem addressed by translating acoustic speech directly into target language without yielding source transcription.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s177": {
+      "text": "High latency is a problem addressed by translating acoustic speech directly into target language without yielding source transcription.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s178": {
+      "text": "Pre-training is explored to leverage ASR and MT data in speech translation due to scarce ST data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s179": {
+      "text": "Multi-task learning is explored to leverage ASR and MT data in speech translation due to scarce ST data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s180": {
+      "text": "Curriculum learning is proposed to improve ST performance on syntactically distant language pairs.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s181": {
+      "text": "Attention-passing is explored to leverage ST data in speech translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s182": {
+      "text": "Knowledge distillation is explored to leverage ST data in speech translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Strategy"
+      ],
+      "topic_links": []
+    },
+    "s183": {
+      "text": "Joint training of ST, ASR, and MT models improves performance, as shown by BIBREF5.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s184": {
+      "text": "Pre-training and multi-task learning lead to faster convergence and better results, as observed by BIBREF6.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    },
+    "s185": {
+      "text": "Pre-training a speech encoder on one language improves ST quality on a different source language, as shown by BIBREF7.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s186": {
+      "text": "The model augments multi-task learning by having the target decoder receive information from the source decoder, improving performance on low-resource speech translation.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Mechanism"
+      ],
+      "topic_links": []
+    },
+    "s187": {
+      "text": "Weakly supervised data is converted into ST pairs using pre-trained MT and TTS models.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Input"
+      ],
+      "topic_links": []
+    },
+    "s188": {
+      "text": "An end-to-end MT model can be trained using only synthesized data from weakly supervised data.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s189": {
+      "text": "There is a significant gap between pre-training and fine-tuning in previous speech translation methods.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Problem"
+      ],
+      "topic_links": []
+    },
+    "s190": {
+      "text": "The proposed method reuses every sub-net to maintain consistent roles between pre-training and fine-tuning.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Method"
+      ],
+      "topic_links": []
+    },
+    "s191": {
+      "text": "Empirical studies demonstrate that the proposed model significantly outperforms baselines.",
+      "layer": "semantic",
+      "time": null,
+      "tags": [
+        "Result"
+      ],
+      "topic_links": []
+    }
+  },
+  "links": [
+    [
+      "10 epochs",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "2.2 BLEU scores",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "3.6 BLEU scores",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "ASR",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "ASR",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "ASR and MT data",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "ASR and MT model joint training",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "ASR dataset",
+      "Definition",
+      "s36"
+    ],
+    [
+      "ASR dataset",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "ASR dataset",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "ASR dataset",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "ASR decoder",
+      "Absence",
+      "s19"
+    ],
+    [
+      "ASR decoder",
+      "Limitation",
+      "s150"
+    ],
+    [
+      "ASR decoder",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "ASR encoder",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "ASR encoder",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "ASR encoder",
+      "Training Objective",
+      "s18"
+    ],
+    [
+      "ASR encoder-decoder",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "ASR encoder-decoder model",
+      "Relationship",
+      "s139"
+    ],
+    [
+      "ASR model",
+      "Property",
+      "s130"
+    ],
+    [
+      "ASR model",
+      "Property",
+      "s8"
+    ],
+    [
+      "ASR output lattices",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "ASR system",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "Adadelta",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "BIBREF11",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "BIBREF19",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "BIBREF5",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "BIBREF6",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "BIBREF7",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "BIBREF8",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "BIBREF9",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "BIBREF9 inaguma2018speech",
+      "Claim",
+      "s121"
+    ],
+    [
+      "BLEU score",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "BLEU scores",
+      "Result",
+      "s167"
+    ],
+    [
+      "BLEU scores",
+      "Result",
+      "s28"
+    ],
+    [
+      "BLEU scores",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "BLEU scores",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "Berard et al. (2018)",
+      "Reference",
+      "s155"
+    ],
+    [
+      "CNN-BiLSTM",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "CNN-BiLSTM architecture",
+      "Definition",
+      "s48"
+    ],
+    [
+      "CTC",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "CTC ASR model",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "CTC classification layer",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "CTC loss",
+      "Method",
+      "s67"
+    ],
+    [
+      "CTC loss",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "CTC objective",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "CTC objective",
+      "Property",
+      "s74"
+    ],
+    [
+      "CTC path",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "CTC path format input",
+      "Solution",
+      "s86"
+    ],
+    [
+      "CTC path generation",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "CTC path prediction",
+      "Property",
+      "s91"
+    ],
+    [
+      "CTC path \u03c0",
+      "Definition",
+      "s68"
+    ],
+    [
+      "CTC path \u03c0",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "CTC paths",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "CTC paths",
+      "Definition",
+      "s71"
+    ],
+    [
+      "Connectionist Temporal Classification",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "DenseNet",
+      "Property",
+      "s171"
+    ],
+    [
+      "DenseNet",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "ESPnet BIBREF12",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "Experimental Results",
+      "Result",
+      "s146"
+    ],
+    [
+      "FIGREF5",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "Figure FIGREF39",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "Figure FIGREF5",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "HMM",
+      "Property",
+      "s170"
+    ],
+    [
+      "HMM",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "IWSLT18",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "IWSLT18 benchmark",
+      "Evaluation Dataset",
+      "s27"
+    ],
+    [
+      "IWSLT18 speech translation task",
+      "Experiment",
+      "s104"
+    ],
+    [
+      "Inaguma2018speech",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "Introduction",
+      "Speech-to-Text Translation",
+      "e1"
+    ],
+    [
+      "LSTM layers",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "Luong2015Multi",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "MT",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "MT",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "MT attention module",
+      "Reuse",
+      "s24"
+    ],
+    [
+      "MT data utilization",
+      "Limitation",
+      "s151"
+    ],
+    [
+      "MT dataset",
+      "Definition",
+      "s37"
+    ],
+    [
+      "MT dataset",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "MT dataset",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "MT dataset",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "MT decoder",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "MT encoder",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "MT encoder",
+      "Pre-training",
+      "s20"
+    ],
+    [
+      "MT encoder",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "MT model",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "MT model",
+      "Property",
+      "s131"
+    ],
+    [
+      "MT model",
+      "Property",
+      "s9"
+    ],
+    [
+      "MT noise",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "MT system",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "MT task",
+      "Definition",
+      "s57"
+    ],
+    [
+      "MT task",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "MWER segmentation",
+      "Method",
+      "s124"
+    ],
+    [
+      "Mel filterbank features",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "Non-pre-trained Attention Module",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "Non-pre-trained Attention Module",
+      "Problem",
+      "s13"
+    ],
+    [
+      "P(y^t|x)",
+      "Definition",
+      "s62"
+    ],
+    [
+      "RNN size d=1024",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "RNN step",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "RNN with attention",
+      "Property",
+      "s173"
+    ],
+    [
+      "RNN with attention",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "RNN-based seq2seq model",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "Role Mismatch",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "Role Mismatch",
+      "Problem",
+      "s12"
+    ],
+    [
+      "SECREF21",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "ST",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "ST",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "ST data scarcity",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "ST dataset",
+      "Definition",
+      "s38"
+    ],
+    [
+      "ST dataset",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "ST decoder",
+      "Property",
+      "s137"
+    ],
+    [
+      "ST decoder",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "ST loss function",
+      "Definition",
+      "s81"
+    ],
+    [
+      "ST model",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "ST model initialization",
+      "Process",
+      "s10"
+    ],
+    [
+      "ST models",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "ST task",
+      "Definition",
+      "s56"
+    ],
+    [
+      "ST task",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "ST task",
+      "Process",
+      "s80"
+    ],
+    [
+      "ST-TED corpus",
+      "Dataset",
+      "s105"
+    ],
+    [
+      "Speech-to-Text",
+      "Speech-to-Text Translation",
+      "e1"
+    ],
+    [
+      "Speech-to-Text translation",
+      "Definition",
+      "s1"
+    ],
+    [
+      "Subnet Waste",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "Subnet Waste",
+      "Problem",
+      "s11"
+    ],
+    [
+      "Subnet-Consistency",
+      "Method",
+      "s90"
+    ],
+    [
+      "TABREF14",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "TCEN",
+      "Definition",
+      "s14"
+    ],
+    [
+      "TCEN",
+      "Definition",
+      "s43"
+    ],
+    [
+      "TCEN",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "TCEN",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "TCEN",
+      "Training Setting",
+      "s141"
+    ],
+    [
+      "TDNN",
+      "Property",
+      "s172"
+    ],
+    [
+      "TDNN",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "TED-LIUM2 corpus",
+      "Dataset",
+      "s107"
+    ],
+    [
+      "TTS synthesis",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "T_x",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "Table TABREF37",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "Table TABREF41",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "Tandem Connectionist Encoding Network",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "Transformer",
+      "Property",
+      "s174"
+    ],
+    [
+      "Transformer",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "Triangle model",
+      "Definition",
+      "s138"
+    ],
+    [
+      "Triangle model",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e13"
+    ],
+    [
+      "Unknown",
+      "Passage",
+      "e14"
+    ],
+    [
+      "V_src",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "W^(l)",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "Word error rate (WER)",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "ablation study",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "ablation study",
+      "Method",
+      "s157"
+    ],
+    [
+      "acoustic features",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "acoustic frames",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "acoustic speech to text",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "additive attention",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "alignment between speech frames and subword units",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "alpha_i",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "attention module",
+      "Component",
+      "s47"
+    ],
+    [
+      "attention module",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "attention module",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "attention-passing",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "attention-passing",
+      "Strategy",
+      "s181"
+    ],
+    [
+      "audio",
+      "Audio Translation",
+      "e6"
+    ],
+    [
+      "audio segmentation",
+      "Method",
+      "s123"
+    ],
+    [
+      "audio x",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "automatic speech recognition",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "beam size 10",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "bidirectional LSTM",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "blank token",
+      "Definition",
+      "s69"
+    ],
+    [
+      "blank token",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "blank tokens",
+      "Property",
+      "s100"
+    ],
+    [
+      "blank tokens",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "c_k",
+      "Definition",
+      "s64"
+    ],
+    [
+      "cascaded method",
+      "Definition",
+      "s2"
+    ],
+    [
+      "cascaded method",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "cascaded model",
+      "Result",
+      "s168"
+    ],
+    [
+      "cascaded model",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "cascaded system",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "cascaded system",
+      "Comparison",
+      "s164"
+    ],
+    [
+      "cascaded+re-seg",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "cascaded+re-seg",
+      "Method",
+      "s165"
+    ],
+    [
+      "char-level models",
+      "Result",
+      "s152"
+    ],
+    [
+      "char-level models",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "character level representation",
+      "Method",
+      "s122"
+    ],
+    [
+      "character-level decoding",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "conditional probability",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "context vector",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "contribution 1",
+      "Contribution",
+      "s29"
+    ],
+    [
+      "contribution 2",
+      "Contribution",
+      "s30"
+    ],
+    [
+      "contribution 3",
+      "Contribution",
+      "s31"
+    ],
+    [
+      "convolutional layers",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "cross-entropy loss",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "cross-entropy loss",
+      "Definition",
+      "s76"
+    ],
+    [
+      "curriculum learning",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "curriculum learning",
+      "Strategy",
+      "s180"
+    ],
+    [
+      "d-dimensional",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "dataset A",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "dataset A",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "dataset M",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "dataset P",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "dataset \\(\\mathcal{P}\\)",
+      "Definition",
+      "s97"
+    ],
+    [
+      "decoder",
+      "Definition",
+      "s61"
+    ],
+    [
+      "decoder",
+      "Encoder Decoder",
+      "e8"
+    ],
+    [
+      "decoder",
+      "Function",
+      "s46"
+    ],
+    [
+      "decoder",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "decoder",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "decoder",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "decoder pre-training",
+      "Definition",
+      "s128"
+    ],
+    [
+      "denoising MT",
+      "Method",
+      "s94"
+    ],
+    [
+      "denoising MT",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "dev set",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "dev set and test sets",
+      "Dataset",
+      "s106"
+    ],
+    [
+      "disentanglement",
+      "Advantage",
+      "s54"
+    ],
+    [
+      "down-sampled feature sequence",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "dropout 0.3",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "embedding layer W_E^s",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "embedding layer W_E^s",
+      "Definition",
+      "s77"
+    ],
+    [
+      "embedding representation e^s",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "emergency calls",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "empirical studies",
+      "Result",
+      "s191"
+    ],
+    [
+      "enc_s",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "enc_s output h^s",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "enc_t",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "enc_t",
+      "Goal",
+      "s58"
+    ],
+    [
+      "enc_t",
+      "Property",
+      "s78"
+    ],
+    [
+      "enc_t robustness",
+      "Result",
+      "s103"
+    ],
+    [
+      "encoder",
+      "Encoder Decoder",
+      "e8"
+    ],
+    [
+      "encoder pre-training",
+      "Definition",
+      "s127"
+    ],
+    [
+      "encoder-decoder pre-training",
+      "Definition",
+      "s129"
+    ],
+    [
+      "end-to-end MT model",
+      "Method",
+      "s188"
+    ],
+    [
+      "end-to-end MT model",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "end-to-end method",
+      "Definition",
+      "s3"
+    ],
+    [
+      "end-to-end method",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "end-to-end method",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "end-to-end method",
+      "Property",
+      "s4"
+    ],
+    [
+      "end-to-end method",
+      "Property",
+      "s5"
+    ],
+    [
+      "end-to-end model",
+      "Goal",
+      "s42"
+    ],
+    [
+      "end-to-end model",
+      "Result",
+      "s166"
+    ],
+    [
+      "end-to-end speech",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "end-to-end speech translation",
+      "Problem Formulation",
+      "s32"
+    ],
+    [
+      "error propagation",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "error propagation",
+      "Problem",
+      "s176"
+    ],
+    [
+      "error propagation",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "evaluation metric",
+      "Property",
+      "s125"
+    ],
+    [
+      "faster convergence",
+      "Result",
+      "s184"
+    ],
+    [
+      "feature maps",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "feature normalization",
+      "Process",
+      "s111"
+    ],
+    [
+      "feature vectors",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "final objective",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "fine-tune settings",
+      "Training Parameter",
+      "s142"
+    ],
+    [
+      "fine-tune stage",
+      "Definition",
+      "s79"
+    ],
+    [
+      "fine-tuning",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "fine-tuning",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "fine-tuning",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "fine-tuning",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "fine-tuning stage",
+      "Process",
+      "s66"
+    ],
+    [
+      "foreign language",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "forward-backward algorithm",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "forward-backward algorithm",
+      "Property",
+      "s75"
+    ],
+    [
+      "golden sequence y^s",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "golden sequence y^s",
+      "Definition",
+      "s72"
+    ],
+    [
+      "greedy decoding",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "h^s",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "h^s",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "h^s and e^s",
+      "Problem",
+      "s59"
+    ],
+    [
+      "h^t",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "h^t",
+      "Definition",
+      "s60"
+    ],
+    [
+      "h^t",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "hidden features",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "hidden representation",
+      "Result",
+      "s50"
+    ],
+    [
+      "hidden state",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "hidden vectors",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "high latency",
+      "Problem",
+      "s177"
+    ],
+    [
+      "high latency",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "in-domain MT data",
+      "Dataset",
+      "s108"
+    ],
+    [
+      "inference",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "inference settings",
+      "Parameter",
+      "s145"
+    ],
+    [
+      "joint training",
+      "Method",
+      "s183"
+    ],
+    [
+      "knowledge distillation",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "knowledge distillation",
+      "Strategy",
+      "s182"
+    ],
+    [
+      "label w_i",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "large-scale ST dataset",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "large-scale public dataset",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "latent space",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "latent space gap",
+      "Problem",
+      "s89"
+    ],
+    [
+      "latent spaces",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "learning curve",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "learning curve",
+      "Result",
+      "s162"
+    ],
+    [
+      "learning rate 1.0",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "legal CTC path",
+      "Property",
+      "s70"
+    ],
+    [
+      "length consistency",
+      "Solution",
+      "s26"
+    ],
+    [
+      "length inconsistency",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "length inconsistency",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "length inconsistency",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "length inconsistency",
+      "Problem",
+      "s84"
+    ],
+    [
+      "length inconsistency",
+      "Problem",
+      "s93"
+    ],
+    [
+      "length inconsistency",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "length normalization weight 0.2",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "length ratio filtering",
+      "Property",
+      "s117"
+    ],
+    [
+      "linguistic features",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "loss function",
+      "Result",
+      "s92"
+    ],
+    [
+      "low latency",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "lowercase",
+      "Property",
+      "s119"
+    ],
+    [
+      "machine translation",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "many-to-many setting",
+      "Definition",
+      "s134"
+    ],
+    [
+      "many-to-many setting",
+      "Definition",
+      "s41"
+    ],
+    [
+      "many-to-many setting",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "many-to-many+pre-training",
+      "Definition",
+      "s135"
+    ],
+    [
+      "many-to-many+pretrain baseline",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "many-to-one setting",
+      "Definition",
+      "s133"
+    ],
+    [
+      "many-to-one setting",
+      "Definition",
+      "s40"
+    ],
+    [
+      "many-to-one setting",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "max-pooling",
+      "Process",
+      "s49"
+    ],
+    [
+      "max-pooling",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "multi-task learning",
+      "Application",
+      "s6"
+    ],
+    [
+      "multi-task learning",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "multi-task learning",
+      "Method",
+      "s21"
+    ],
+    [
+      "multi-task learning",
+      "Problem",
+      "s52"
+    ],
+    [
+      "multi-task learning",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "multi-task learning",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "multi-task learning",
+      "Strategy",
+      "s179"
+    ],
+    [
+      "multi-task learning",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "multi-task loss",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "multi-task manner",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "multi-task training",
+      "Definition",
+      "s88"
+    ],
+    [
+      "multi-task training",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "noise simulation",
+      "Cause",
+      "s175"
+    ],
+    [
+      "noise simulation",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "noisy MT dataset \\mathcal{M}'",
+      "Definition",
+      "s99"
+    ],
+    [
+      "noisy MT input",
+      "Cause",
+      "s159"
+    ],
+    [
+      "non-pre-trained attention",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "one-to-many setting",
+      "Definition",
+      "s132"
+    ],
+    [
+      "one-to-many setting",
+      "Definition",
+      "s39"
+    ],
+    [
+      "one-to-many setting",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "online courses",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "operation S(\u00b7)",
+      "Definition",
+      "s95"
+    ],
+    [
+      "operation S(\u00b7)",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "out-of-domain training data",
+      "Dataset",
+      "s109"
+    ],
+    [
+      "performance degradation",
+      "Result",
+      "s160"
+    ],
+    [
+      "pipeline manner",
+      "Definition",
+      "s169"
+    ],
+    [
+      "pre-trained ASR model",
+      "Initialization",
+      "s140"
+    ],
+    [
+      "pre-trained ASR model",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "pre-training",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "pre-training",
+      "Requirement",
+      "s161"
+    ],
+    [
+      "pre-training",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "pre-training",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "pre-training",
+      "Strategy",
+      "s178"
+    ],
+    [
+      "pre-training",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "pre-training",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "pre-training and fine-tuning",
+      "Strategy",
+      "s53"
+    ],
+    [
+      "pre-training and fine-tuning gap",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "pre-training and fine-tuning gap",
+      "Problem",
+      "s189"
+    ],
+    [
+      "pre-training and fine-tuning gap",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "pre-training process",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "pre-training stage",
+      "Process",
+      "s65"
+    ],
+    [
+      "pre-training techniques",
+      "Application",
+      "s7"
+    ],
+    [
+      "pre-training techniques",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "pre-training vs multi-task learning",
+      "Comparison",
+      "s147"
+    ],
+    [
+      "pretraining",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "projection matrix",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "punctuation",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "regularization",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "repetition times l",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "reusing every sub-net",
+      "Method",
+      "s190"
+    ],
+    [
+      "reversible operation",
+      "Property",
+      "s96"
+    ],
+    [
+      "role consistency",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "role consistency",
+      "Property",
+      "s23"
+    ],
+    [
+      "role mismatch",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "semantic consistency",
+      "Solution",
+      "s25"
+    ],
+    [
+      "semantic features",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "semantic features",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "semantic inconsistency",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "semantic inconsistency",
+      "Problem",
+      "s83"
+    ],
+    [
+      "semantic inconsistency",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "semantic knowledge",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "sentence boundaries",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "sentence length filtering",
+      "Property",
+      "s116"
+    ],
+    [
+      "sentence re-segment model",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "seq2seq model",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "seq2seq model",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "seq2seq model",
+      "Definition",
+      "s98"
+    ],
+    [
+      "shared weights",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "shared weights",
+      "Solution",
+      "s85"
+    ],
+    [
+      "source decoder",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "source embedding layer",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "source embedding matrix",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "source embedding weights W_E^s",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "source transcription",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "space gap",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "speech data preprocessing",
+      "Process",
+      "s110"
+    ],
+    [
+      "speech encoder",
+      "End-to-End ST Model Limitations",
+      "e3"
+    ],
+    [
+      "speech encoder",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "speech encoder",
+      "Property",
+      "s15"
+    ],
+    [
+      "speech encoder",
+      "Property",
+      "s44"
+    ],
+    [
+      "speech encoder",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "speech encoder",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "speech encoder",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "speech encoder",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "speech encoder",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "speech encoder pre-training",
+      "Method",
+      "s185"
+    ],
+    [
+      "speech feature sequence",
+      "Definition",
+      "s33"
+    ],
+    [
+      "speech feature sequence",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "speech frames",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "speech translation",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "speed perturbation",
+      "Property",
+      "s115"
+    ],
+    [
+      "sub-net reuse",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "subnet waste",
+      "Issue",
+      "s55"
+    ],
+    [
+      "subnet waste",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "subnet waste issue",
+      "Problem",
+      "s22"
+    ],
+    [
+      "subnet-consistency",
+      "Definition",
+      "s87"
+    ],
+    [
+      "subnets",
+      "CTC and Multi-Task Training",
+      "e11"
+    ],
+    [
+      "subword representation",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "subword units",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "subword-level alignment",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "subword-level alignment",
+      "Definition",
+      "s156"
+    ],
+    [
+      "subword-level decoding",
+      "Model Performance",
+      "e5"
+    ],
+    [
+      "subword-level models",
+      "Limitation",
+      "s153"
+    ],
+    [
+      "subword-level models",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "syntactic and semantic knowledge",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "syntactic features",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "syntactically distant language pairs",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "target decoder",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "target decoder receives source decoder information",
+      "Mechanism",
+      "s186"
+    ],
+    [
+      "target sequence",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "target text decoder",
+      "Component",
+      "s17"
+    ],
+    [
+      "target text decoder",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "target word sequence",
+      "Language Translation Methods",
+      "e2"
+    ],
+    [
+      "testing procedure",
+      "Method",
+      "s144"
+    ],
+    [
+      "text encoder",
+      "Advantage",
+      "s149"
+    ],
+    [
+      "text encoder",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "text encoder",
+      "Property",
+      "s16"
+    ],
+    [
+      "text encoder",
+      "Property",
+      "s45"
+    ],
+    [
+      "text encoder",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "text encoder",
+      "Structure",
+      "s51"
+    ],
+    [
+      "text encoder",
+      "TCEN Model Architecture",
+      "e9"
+    ],
+    [
+      "text encoder",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "text encoder enc_t",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "text-to-text alignment",
+      "Advantage",
+      "s154"
+    ],
+    [
+      "training configuration",
+      "Property",
+      "s143"
+    ],
+    [
+      "training data sampling",
+      "Process",
+      "s101"
+    ],
+    [
+      "training ratio \u03b1_i",
+      "Property",
+      "s82"
+    ],
+    [
+      "transcription sequence",
+      "Definition",
+      "s34"
+    ],
+    [
+      "transcription sequence",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "transcripts in ST-TED",
+      "Property",
+      "s113"
+    ],
+    [
+      "transcripts in TED-LIUM2",
+      "Property",
+      "s114"
+    ],
+    [
+      "translation",
+      "Audio Translation",
+      "e6"
+    ],
+    [
+      "translation",
+      "Speech-to-Text Translation",
+      "e1"
+    ],
+    [
+      "translation quality",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "translation sequence",
+      "Definition",
+      "s35"
+    ],
+    [
+      "translation sequence",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "triangle+pre-train",
+      "Definition",
+      "s136"
+    ],
+    [
+      "triangle+pretrain baseline",
+      "Limitation",
+      "s148"
+    ],
+    [
+      "unique tokens u",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "utterance filtering",
+      "Process",
+      "s112"
+    ],
+    [
+      "validation set tuning",
+      "Result",
+      "s102"
+    ],
+    [
+      "vanilla ST baseline",
+      "Definition",
+      "s126"
+    ],
+    [
+      "vanilla model",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "vanilla model",
+      "Property",
+      "s163"
+    ],
+    [
+      "vocabulary V_src",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "vocabulary V_trg",
+      "Speech-to-Translation Model",
+      "e7"
+    ],
+    [
+      "vocabulary size",
+      "Property",
+      "s120"
+    ],
+    [
+      "weakly supervised data",
+      "Input",
+      "s187"
+    ],
+    [
+      "weakly supervised data",
+      "Speech Translation Methods",
+      "e17"
+    ],
+    [
+      "weight W_ctc",
+      "Multi-Task Training",
+      "e12"
+    ],
+    [
+      "weight matrix",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "weight sharing",
+      "Ablation Study Results",
+      "e16"
+    ],
+    [
+      "weight sharing",
+      "Property",
+      "s158"
+    ],
+    [
+      "word embedding representation",
+      "Model Training Procedure",
+      "e10"
+    ],
+    [
+      "word embeddings",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "word repetitions",
+      "TCEN Model Design",
+      "e4"
+    ],
+    [
+      "word tokenization",
+      "Method",
+      "s118"
+    ],
+    [
+      "z_k",
+      "Definition",
+      "s63"
+    ],
+    [
+      "\u03a6_T(y)",
+      "Definition",
+      "s73"
+    ],
+    [
+      "\u03b1_asr=0.2",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "\u03b1_mt=0.8",
+      "Speech Translation Model",
+      "e15"
+    ],
+    [
+      "\u03b1_st=0.6",
+      "Speech Translation Model",
+      "e15"
+    ]
+  ]
+}
