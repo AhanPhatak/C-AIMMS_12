@@ -35,6 +35,10 @@ import json
 import os
 from pathlib import Path
 
+# Must be set before torch initialises CUDA. Less fragmentation on a GPU that
+# other users' processes share (the surprise pass needs ~1.2 GB contiguous blocks).
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -67,6 +71,7 @@ SURPRISE_MAX_WORDS = int(os.environ.get("LB_SURPRISE_MAX_WORDS", "400"))
 # Stage-2 KV graph-modularity refinement. 0 = Stage-1 surprise boundaries only
 # (use if the refinement trips over this transformers version's KV-cache format).
 SURPRISE_REFINE = os.environ.get("LB_SURPRISE_REFINE", "1") != "0"
+SURPRISE_CHUNK = 2048  # surprise model forward-pass chunk (tokens); halved on OOM
 # One cache per segmentation (the cache is keyed by document only). "fixed"
 # keeps the original location so existing caches are reused.
 _SEG_SUFFIX = ("" if SEGMENTATION == "fixed"
@@ -149,22 +154,40 @@ def _build_missing_graphs(rows: list, llm) -> None:
         from iterret.doc_segmenter import DocumentSurpriseSegmenter
         segmenter = DocumentSurpriseSegmenter(MODEL_PATH, gamma=SURPRISE_GAMMA,
                                               min_block_size=SURPRISE_MIN_BLOCK,
-                                              similarity_refinement=SURPRISE_REFINE, device="cuda:0")
+                                              similarity_refinement=SURPRISE_REFINE,
+                                              chunk_size=SURPRISE_CHUNK, device="cuda:0")
 
         def segment_fn(text: str):
             return segmenter.segment_document(text, max_words=SURPRISE_MAX_WORDS)
     try:
         for i, r in enumerate(missing):
             try:
-                graph, passages, _ = get_or_build_doc_graph(
-                    r["context"], doc_key(r["context"]), GRAPH_CACHE_DIR, llm,
-                    segment_fn=segment_fn, segmentation=SEGMENTATION)
+                while True:
+                    try:
+                        graph, passages, _ = get_or_build_doc_graph(
+                            r["context"], doc_key(r["context"]), GRAPH_CACHE_DIR, llm,
+                            segment_fn=segment_fn, segmentation=SEGMENTATION)
+                        break
+                    except torch.cuda.OutOfMemoryError:
+                        # Long papers + a shared GPU: halve the surprise model's
+                        # chunk (it only changes how the stream is batched) and retry.
+                        if segmenter is None or segmenter.chunk_size <= 256:
+                            raise
+                        gc.collect()
+                        torch.cuda.empty_cache()
+                        segmenter.chunk_size //= 2
+                        print(f"[graphs] idx={r['idx']} OOM -> retrying with surprise chunk "
+                              f"{segmenter.chunk_size}", flush=True)
+                if segmenter is not None and segmenter.chunk_size != SURPRISE_CHUNK:
+                    segmenter.chunk_size = SURPRISE_CHUNK  # back to default for the next paper
                 words = [len(p.split()) for p in passages]
                 print(f"[graphs] {i + 1}/{len(missing)} idx={r['idx']}: {len(passages)} units "
                       f"(words/unit mean {sum(words) / max(1, len(words)):.0f}, max {max(words, default=0)}), "
                       f"{graph.meta.get('n_semantic', 0)} facts", flush=True)
-            except Exception as exc:  # noqa: BLE001 -- retried in the main loop / next run
+            except Exception as exc:  # noqa: BLE001 -- retried on the next run
                 print(f"[graphs] idx={r['idx']} FAILED: {exc}", flush=True)
+                if segmenter is not None:
+                    segmenter.chunk_size = SURPRISE_CHUNK
     finally:
         if segmenter is not None:
             del segmenter
@@ -199,6 +222,11 @@ def main() -> None:
     consecutive_failures = 0
     for row in todo:
         idx, question = row["idx"], row["question"]
+        if SEGMENTATION != "fixed" and not graph_cache_path(GRAPH_CACHE_DIR, doc_key(row["context"])).exists():
+            # The pre-pass could not build it (e.g. OOM). Building it here would
+            # silently fall back to FIXED chunking inside the surprise cache.
+            print(f"[{idx}] no {SEGMENTATION} graph (pre-pass failed) -- skipped, retried next run", flush=True)
+            continue
         try:
             graph, passages, cached = get_or_build_doc_graph(row["context"], doc_key(row["context"]),
                                                              GRAPH_CACHE_DIR, llm, segmentation=SEGMENTATION)

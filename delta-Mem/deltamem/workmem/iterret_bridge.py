@@ -76,8 +76,18 @@ def get_iterret_evidence(
             stop_reason = "token_budget"
             break
 
-        state = retrieve_node(state, graph, bank, llm)
-        state = reflect_node(state, graph, bank, llm)
+        try:
+            state = retrieve_node(state, graph, bank, llm)
+            state = reflect_node(state, graph, bank, llm)
+        except Exception as exc:  # noqa: BLE001
+            # _approx_tokens (words x 1.35) undercounts dense text -- numbers,
+            # citations, long document passages -- so a later round's reflect
+            # prompt can still exceed the server's context. Keep what earlier
+            # rounds already gathered instead of failing the whole question.
+            if deduped and "maximum context length" in str(exc):
+                stop_reason = "context_overflow"
+                break
+            raise
         rounds += 1
 
         evidence_texts = state.get("accumulated_evidence", [])
