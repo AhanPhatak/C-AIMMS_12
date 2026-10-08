@@ -49,6 +49,7 @@ from deltamem.workmem.longctx_data import (
 )
 from deltamem.workmem.longctx_retrieval import (
     cap_evidence_by_tokens, get_or_build_doc_graph, graph_cache_path, make_backend, retrieve_evidence,
+    select_evidence,
 )
 from deltamem.workmem.osam_workmem import answer_with_modes
 from iterret.llm_client import OpenAICompatibleLLMClient
@@ -84,11 +85,19 @@ MAX_CONSECUTIVE_FAILURES = int(os.environ.get("WORKMEM_MAX_CONSECUTIVE_FAILURES"
 # Set it to the training write budget when comparing a retrained adapter, and
 # use the SAME cap for the released adapter so the comparison stays fair.
 MAX_EVIDENCE_TOKENS = int(os.environ.get("LB_MAX_EVIDENCE_TOKENS", "0"))
+# Evidence presentation ablations (see longctx_retrieval.select_evidence):
+#   LB_EVIDENCE_LAYERS = all (default) | episodic  -- drop LLM-extracted semantic facts
+#   LB_EVIDENCE_ORDER  = relevance (default) | document -- paper order instead of relevance
+EVIDENCE_LAYERS = os.environ.get("LB_EVIDENCE_LAYERS", "all")
+EVIDENCE_ORDER = os.environ.get("LB_EVIDENCE_ORDER", "relevance")
 
 if OSAM_MODE not in ("combined", "hybrid", "vanilla"):
     raise SystemExit(f"[FATAL] unknown WORKMEM_OSAM_MODE={OSAM_MODE!r} (expected combined | hybrid | vanilla)")
 if SEGMENTATION not in ("fixed", "surprise"):
     raise SystemExit(f"[FATAL] unknown LB_SEGMENTATION={SEGMENTATION!r} (expected fixed | surprise)")
+if EVIDENCE_LAYERS not in ("all", "episodic") or EVIDENCE_ORDER not in ("relevance", "document"):
+    raise SystemExit(f"[FATAL] LB_EVIDENCE_LAYERS={EVIDENCE_LAYERS!r} / LB_EVIDENCE_ORDER={EVIDENCE_ORDER!r} "
+                     "(expected all|episodic and relevance|document)")
 if TASK not in MAX_NEW_TOKENS:
     raise SystemExit(f"[FATAL] unsupported LB_TASK={TASK!r}")
 
@@ -123,7 +132,8 @@ def _summary(rows: list) -> None:
     unans = [r for r in rows if any(a.strip().lower() == "unanswerable" for a in r["answers"])]
     ans = [r for r in rows if r not in unans]
     print("=" * 60, flush=True)
-    print(f"{TASK} | mode={OSAM_MODE} | segmentation={SEGMENTATION} | adapter={ADAPTER_DIR}", flush=True)
+    print(f"{TASK} | mode={OSAM_MODE} | segmentation={SEGMENTATION} | evidence={EVIDENCE_LAYERS}/{EVIDENCE_ORDER} "
+          f"| adapter={ADAPTER_DIR}", flush=True)
     print(f"F1 (all {len(rows)}):            {sum(f1) / len(f1):.4f}", flush=True)
     if answered:
         print(f"F1 (answered {len(answered)}):        {sum(r['score'] for r in answered) / len(answered):.4f}", flush=True)
@@ -198,7 +208,8 @@ def _build_missing_graphs(rows: list, llm) -> None:
 def main() -> None:
     print(f"[init] task={TASK} mode={OSAM_MODE} max_samples={MAX_SAMPLES} out={OUTPUT_FILE}", flush=True)
     print(f"[init] adapter={ADAPTER_DIR} graph_cache={GRAPH_CACHE_DIR} "
-          f"max_evidence_tokens={MAX_EVIDENCE_TOKENS or 'off'}", flush=True)
+          f"max_evidence_tokens={MAX_EVIDENCE_TOKENS or 'off'} evidence={EVIDENCE_LAYERS}/{EVIDENCE_ORDER}",
+          flush=True)
     rows = load_longbench(TASK, LB_DATA)
     if MAX_SAMPLES > 0:
         rows = rows[:MAX_SAMPLES]
@@ -238,6 +249,9 @@ def main() -> None:
             evidence = retrieve_evidence(question, graph, backend, llm, diag=diag)
             diag["n_evidence_uncapped"] = len(evidence)
             evidence = cap_evidence_by_tokens(evidence, tokenizer, MAX_EVIDENCE_TOKENS)
+            evidence, diag["final_evidence_ids"] = select_evidence(
+                evidence, diag.get("final_evidence_ids", [])[:len(evidence)], graph,
+                layers=EVIDENCE_LAYERS, order=EVIDENCE_ORDER)
         except Exception as exc:  # noqa: BLE001
             # e.g. vLLM down: NOT "no evidence" -- leave the row for the next run.
             print(f"[{idx}] IterRet FAILED: {exc}", flush=True)
@@ -250,6 +264,7 @@ def main() -> None:
         base = {"idx": idx, "id": row["id"], "task": TASK, "question": question,
                 "answers": row["answers"], "osam_mode": OSAM_MODE, "adapter_dir": ADAPTER_DIR,
                 "segmentation": SEGMENTATION,
+                "evidence_layers": EVIDENCE_LAYERS, "evidence_order": EVIDENCE_ORDER,
                 "max_evidence_tokens": MAX_EVIDENCE_TOKENS,
                 "n_passages": len(passages), "n_evidence": len(evidence), "graph_cached": cached,
                 "retrieval": diag}

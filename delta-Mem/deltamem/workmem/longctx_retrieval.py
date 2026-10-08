@@ -87,9 +87,37 @@ def retrieve_evidence(question: str, graph: CueTagContentGraph, backend: Embeddi
     diag = diag if diag is not None else {}
     evidence = get_iterret_evidence(question, graph, bank, llm,
                                     max_iterations=ITERRET_MAX_ITERATIONS, diag=diag)
+    text_to_id = dict(zip(evidence, diag.get("evidence_ids", [])))
     if evidence:
         evidence = filter_evidence_by_relevance(question, evidence, backend.encode, threshold=0.30)
+    # content id per returned item (the filter re-sorts, so map by text)
+    diag["final_evidence_ids"] = [text_to_id.get(t, "?") for t in evidence]
     return evidence
+
+
+def select_evidence(evidence: List[str], ids: List[str], graph: CueTagContentGraph, *,
+                    layers: str = "all", order: str = "relevance") -> Tuple[List[str], List[str]]:
+    """Post-retrieval presentation ablations (eval only; defaults = no-op).
+
+    layers: "all" | "episodic" -- "episodic" drops the semantic-fact nodes
+            (LLM-extracted sentences) and keeps only the document's own passages.
+    order:  "relevance" (as retrieved) | "document" -- reorder by position in the
+            graph: passages in document order, then semantic facts in extraction
+            order (extraction runs passage by passage, so also roughly document
+            order). Apply AFTER any token cap, so the cap still keeps the most
+            relevant items and only their presentation order changes.
+    """
+    pairs = list(zip(evidence, ids))
+    if layers == "episodic":
+        pairs = [(t, i) for t, i in pairs if i in graph.contents and graph.contents[i].layer == "episodic"]
+    elif layers != "all":
+        raise ValueError(f"unknown evidence layers {layers!r}")
+    if order == "document":
+        position = {cid: n for n, cid in enumerate(graph.contents)}
+        pairs.sort(key=lambda p: position.get(p[1], len(position)))
+    elif order != "relevance":
+        raise ValueError(f"unknown evidence order {order!r}")
+    return [t for t, _ in pairs], [i for _, i in pairs]
 
 
 def cap_evidence_by_tokens(evidence: List[str], tokenizer, max_tokens: int) -> List[str]:

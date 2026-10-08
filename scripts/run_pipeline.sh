@@ -22,7 +22,7 @@ source "${HERE}/../env.sh"
 SMOKE=0
 [ "${1:-}" = "--smoke" ] && SMOKE=1
 
-RUN_ID="$(date +%Y%m%d_%H%M%S)"          # stands in for SLURM_JOB_ID
+RUN_ID="$(date +%Y%m%d_%H%M%S)_$$"       # stands in for SLURM_JOB_ID; PID keeps parallel runs' logs apart
 mkdir -p "${CAIMMS_OUTPUT_DIR}"
 SERVER_LOG="${CAIMMS_OUTPUT_DIR}/server_${RUN_ID}.log"
 RUN_LOG="${CAIMMS_OUTPUT_DIR}/run_${RUN_ID}.log"
@@ -139,7 +139,12 @@ PY
 # -u "$USER": the cluster script's bare pkill was safe inside a private SLURM
 # allocation, but this box is shared -- an unscoped pkill would kill someone
 # else's vLLM.
-pkill -u "$USER" -f "vllm.entrypoints" 2>/dev/null || true
+#
+# Scoped to THIS port: on a multi-GPU box two pipelines can run side by side
+# (VLLM_GPU=0 EVAL_GPU=1 VLLM_PORT=8002 and VLLM_GPU=2 EVAL_GPU=3 VLLM_PORT=8003),
+# and an unscoped pkill would kill the other run's server mid-eval.
+OWN_VLLM_PATTERN="vllm.entrypoints.openai.api_server.*--port ${VLLM_PORT}( |\$)"
+pkill -u "$USER" -f "${OWN_VLLM_PATTERN}" 2>/dev/null || true
 sleep 3
 
 # The bare pkill+sleep above is not enough on its own: if a stale server (ours,
@@ -153,7 +158,7 @@ sleep 3
 echo "Ensuring port ${VLLM_PORT} is free..."
 FREE_WAIT=0
 while curl -sf "http://localhost:${VLLM_PORT}/v1/models" > /dev/null 2>&1; do
-    pkill -9 -u "$USER" -f "vllm.entrypoints" 2>/dev/null || true   # our own stragglers, harder
+    pkill -9 -u "$USER" -f "${OWN_VLLM_PATTERN}" 2>/dev/null || true   # our own stragglers on this port, harder
     sleep 3; FREE_WAIT=$((FREE_WAIT + 3))
     if [ ${FREE_WAIT} -ge 30 ]; then
         echo "ERROR: port ${VLLM_PORT} is still serving after ${FREE_WAIT}s -- a vLLM"
