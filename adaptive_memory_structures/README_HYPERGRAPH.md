@@ -7,6 +7,11 @@ per-session (`EpisodicSession`) architecture. This is a **swap, not an
 addition** — `GraphMemory` no longer exists; every place that used to
 dispatch on `structure_type == "graph"` now dispatches on `"hypergraph"`.
 
+It is also wired into the main LoCoMo delta-Mem eval as an alternative
+retriever to IterRet (`WORKMEM_RETRIEVER=hypermem`) -- see
+**[LoCoMo eval integration](#locomo-eval-integration-workmem_retrieverhypermem)**
+for how, the retrieval redesign that made it competitive, and results.
+
 ## Why
 
 Before this change, "hypergraph" was a dead label — a `0 is hypergraph`
@@ -92,6 +97,8 @@ New, in `adaptive_memory_structures/`:
 | `locomo_loader.py` | Loads a sample from `data/locomo10.json`, converts its turns into `Page`s |
 | `build_locomo_hypergraph.py` / `.sh` | Builds a hypergraph from a real LoCoMo sample, writes `hypergraph_output/<sample_id>.json` (see **Building a hypergraph from real LoCoMo data**) |
 | `hypergraph_visualizer.html` | Interactive topic/episode/fact visualization of a built hypergraph (see **Visualizing it**) |
+| `locomo_hypermem.py` | Whole-conversation hypergraph build + `HyperMemRetriever` (soft hybrid / strict), the eval's `WORKMEM_RETRIEVER=hypermem` backend (see **LoCoMo eval integration**) |
+| `build_locomo_hypermem_cache.py` | Batch-builds the eval's hypergraph cache (`<outputs>/hypermem_cache/sample_<i>.json`) against a running vLLM |
 
 Changed:
 
@@ -118,6 +125,8 @@ whole conversation history.
   hyperedge connectivity filter — no BM25/RRF fusion, no reranker. This repo
   has no `rank_bm25` dependency, and that machinery is retrieval-quality
   plumbing orthogonal to "is it a hypergraph." Can be added later.
+  (This still describes `HypergraphMemory`; the LoCoMo eval's
+  `HyperMemRetriever` does add BM25 fusion -- see **LoCoMo eval integration**.)
 - **Rebuild cost**: like the other structures, `build_index` fully rebuilds
   every time it's called (`memory_layers.py` calls it on every page ingested
   into a session). For `HypergraphMemory` that means re-running segmentation
@@ -262,14 +271,168 @@ episode_id, relation, weights}], pages: [{id, text, episode_id}]}`.
   then 4 episodes as gamma dropped — so this is a tuning question, not a
   bug. Re-tune against real session lengths and the actual Qwen3-4B model
   before trusting the 1.5 default in production.
-- **Never tested against the repo's actual Qwen3-4B model or its own vLLM
-  server.** Testing used a much smaller stand-in model
-  (`Qwen/Qwen2.5-0.5B-Instruct`) loaded in-process, specifically to avoid
-  competing for GPU memory/compute with another user's unrelated job already
-  saturating both GPUs on the shared box this was tested on, and to avoid
-  needing the credentials for the vLLM server already running there for a
-  different pipeline. Fact/topic quality was visibly rough (a small model's
-  weaker instruction-following — e.g. it sometimes extracted a question as
-  a "fact" instead of a declarative claim) — expected from the smaller
-  model, not a sign of a pipeline defect, but worth re-validating against
-  the real model before drawing conclusions about hypergraph *quality*.
+- **Fact/topic extraction has now been run with the repo's Qwen3-4B via
+  vLLM** (2026-10-09; previously only `Qwen/Qwen2.5-0.5B-Instruct`
+  in-process). The 0.5B model's rough output (questions extracted as
+  "facts") is gone: facts are clean declarative claims ("Melanie painted a
+  lake sunrise last year.") and topics are sensible ("Caroline's LGBTQ+
+  Adoption Journey"). Surprise segmentation still uses the 0.5B model in
+  every build so far.
+- **Mean-pooled causal-LM embeddings retrieve poorly.** `QwenClient.embed()`
+  (mean of the last hidden state) is what `HypergraphMemory.retrieve` scores
+  with; on conv-26 it missed "What does Melanie like to paint?" even though
+  the fact was in the graph. The eval integration below scores with MiniLM
+  (IterRet's sentence encoder) instead.
+- **Topics come out very broad on whole conversations.** Streaming topic
+  matching yields 4-11 topics per LoCoMo conversation, one of which often
+  holds a third to half of all episodes (conv 0: 7 topics, one with 26 of
+  54 episodes). A hard top-k topic filter over that is the main reason the
+  strict traversal underperforms (below).
+
+## LoCoMo eval integration (`WORKMEM_RETRIEVER=hypermem`)
+
+The LoCoMo eval (`delta-Mem/deltamem/workmem/eval_locomo_iterret_mock.py`)
+can take its evidence from HyperMem instead of IterRet. **Only the evidence
+source changes**: the relevance filter, the delta-mem OSAM write, the answer
+prompt, the generation settings and the scoring are identical, so the two
+retrievers are directly comparable on the same questions.
+
+```bash
+source env.sh
+# hypergraphs ship pre-built (cached_graphs/hypermem/, ~6h of vLLM calls to rebuild)
+mkdir -p "$CAIMMS_OUTPUT_DIR/hypermem_cache" && cp -n cached_graphs/hypermem/*.json "$CAIMMS_OUTPUT_DIR/hypermem_cache/"
+
+# conv 0 (152 Q), same set as run_pipeline.sh --smoke
+WORKMEM_RETRIEVER=hypermem WORKMEM_MAX_SAMPLES=1 \
+  WORKMEM_OUTPUT_FILE="$CAIMMS_OUTPUT_DIR/workmem_hypermem_n1.jsonl" bash scripts/run_pipeline.sh
+# or: bash scripts/run_everything.sh --smoke --retriever hypermem
+
+# With every hypergraph cached the eval never calls vLLM, so it can also run
+# without run_pipeline.sh, on one GPU or even CPU (WORKMEM_DEVICE=cpu, ~70s/question):
+cd delta-Mem && WORKMEM_RETRIEVER=hypermem WORKMEM_SAMPLES=0 WORKMEM_DEVICE=cpu \
+  WORKMEM_OUTPUT_FILE="$CAIMMS_OUTPUT_DIR/c0_hypermem.jsonl" python3 -m deltamem.workmem.eval_locomo_iterret_mock
+```
+
+### Building the conversation hypergraph (`locomo_hypermem.py`)
+
+`HypergraphMemory.build_index` works on one session; a LoCoMo question can
+need any of a conversation's 19-32 sessions, so the eval builds one
+hypergraph per **conversation**:
+
+- each session's turns are paired into `Page`s (as `locomo_loader.py` does),
+  with relative dates resolved against the session timestamp by IterRet's
+  `time_resolution.resolve_relative_time` -- the same transformation the
+  IterRet graph applies -- and the session date prefixed: `[8 May, 2023] Caroline: ...`
+- **segmentation is per session.** `PageEpisodeSegmenter` does one forward
+  pass over its whole input; a full conversation (~30k tokens x ~150k-vocab
+  logits, ~9GB) does not fit
+- episode summaries, facts and fact hyperedges come from the same
+  `hypergraph_extraction` functions as `build_index`, via Qwen3-4B on vLLM
+- **topics are formed across the whole conversation**: all episodes are
+  streamed through `build_topics_for_session` in temporal order, so a topic
+  can span sessions -- HyperMem's own setting
+
+Defaults: segmenter `Qwen/Qwen2.5-0.5B-Instruct` (`HYPERMEM_SEG_MODEL`,
+`HYPERMEM_SEG_DEVICE`), `gamma=0.5` (`HYPERMEM_GAMMA`), `min_block_size=1`.
+Cost: 20-67 min per conversation (~500 vLLM calls). Built for LoCoMo:
+
+| conv | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| topics | 7 | 4 | 9 | 11 | 10 | 5 | 11 | 7 | 8 | 11 |
+| episodes | 54 | 42 | 79 | 80 | 96 | 96 | 89 | 81 | 71 | 74 |
+| facts | 242 | 184 | 321 | 332 | 359 | 378 | 362 | 337 | 286 | 315 |
+
+Conv 0 was segmented on GPU (bf16), convs 1-9 on CPU (fp32) after the GPUs
+became unavailable; boundaries can differ slightly between the two.
+
+The eval looks for `<outputs>/hypermem_cache/sample_<i>.json` and builds any
+missing one in-process (segmenter on the eval GPU, extraction through the
+vLLM `run_pipeline.sh` starts). To pre-build all of them against a running
+vLLM: `python3 adaptive_memory_structures/build_locomo_hypermem_cache.py --samples 0-9`.
+
+### Retrieval (`HyperMemRetriever`)
+
+**strict** (`HYPERMEM_MODE=strict`) is `HypergraphMemory.retrieve`'s
+coarse-to-fine traversal at conversation scale: top-3 topics -> hard-filtered
+top-8 episodes -> hard-filtered top-20 facts -> those facts' episodes' pages,
+up to 40 turns; dense cosine only. Its failure mode on LoCoMo: when the
+evidence sits under a topic outside the top 3 -- frequent, given one topic
+can hold half the conversation -- it is unreachable.
+
+**soft** (default) keeps the hypergraph but turns the hierarchy from a filter
+into evidence aggregation:
+
+1. every topic, episode, fact and turn is ranked against the question by
+   **hybrid dense + BM25 reciprocal-rank fusion** (MiniLM + a Porter-stemmed
+   BM25). HyperMem's own retrieval is hybrid; the port had dropped the
+   lexical half, which matters for names and dates
+2. hyperedge embedding propagation (alpha 0.5) is still applied on the dense side
+3. an episode's score fuses its own rank, its topic's rank (through the
+   episode hyperedge), its best fact's rank (through the fact hyperedge) and
+   its best turn's rank -- nothing is excluded
+4. turns are ranked individually: own hybrid rank fused with their episode's
+   rank; the top 40 are the evidence
+
+Knobs (env, read when the retriever is built):
+
+| var | default | effect |
+|---|---|---|
+| `HYPERMEM_MODE` | `soft` | `strict` = original traversal |
+| `HYPERMEM_MAX_TURNS` | 40 | evidence budget, in turns (IterRet averages ~36) |
+| `HYPERMEM_FACTS` | 0 | also prepend the top-N extracted facts, dated, as evidence |
+| `HYPERMEM_RRF_K` | 20 | RRF constant (tuned; 60 is the textbook value) |
+| `HYPERMEM_W_EPISODE` / `_TOPIC` / `_FACT` / `_ETURN` | 1 / 0.5 / 1 / 1 | episode-score signal weights |
+| `HYPERMEM_W_TURN` / `_PRIOR` | 1 / 1 | turn score: own rank vs episode prior |
+| `HYPERMEM_PER_EPISODE_CAP` | 0 | max turns from one episode (0 = no cap) |
+| `HYPERMEM_PAGE_EXPAND` | 0 | 1 = take a selected turn's page partner too |
+| `HYPERMEM_TOPIC_TOP_K` / `_EPISODE_TOP_K` / `_FACT_TOP_K` | 3 / 8 / 20 | strict mode only |
+
+### Tuning (held out: conv 0 and convs 4-9)
+
+Tuned **only on convs 1-3**, by gold-evidence recall: the share of
+questions whose LoCoMo gold evidence turns are *all* in the 40 retrieved
+turns (`scripts/hypermem_recall.py`, CPU, minutes). Every single-knob change
+moved recall by <= 0.035 except fusion sharpness; the top combinations were
+within ~0.01 of each other (noise at n=432), so the simplest one was kept:
+the defaults above with `RRF_K` 60 -> 20.
+
+| all gold turns retrieved (40 turns) | convs 1-3 (tuning) | conv 0 (held out) | convs 4-9 (held out, n=950) |
+|---|---|---|---|
+| strict | 0.269 | 0.362 | 0.336 |
+| soft, k=60 | 0.683 | 0.678 | -- |
+| **soft, k=20 (default)** | **0.718** | **0.678** | **0.715** |
+| flat MiniLM over all turns | 0.590 | 0.550 | 0.559 |
+| flat MiniLM + BM25 over all turns | 0.648 | 0.617 | 0.647 |
+
+Soft retrieval beats the same hybrid search without the hypergraph by
+~0.06-0.07 on held-out conversations, so the structure contributes beyond
+the lexical channel. Multi-hop is the weak category (~0.2-0.25 all-gold),
+since its questions need evidence from several sessions at once.
+
+### End-to-end results (conv 0, 152 Q, token-F1)
+
+| category | n | IterRet (original pipeline) | HyperMem strict | **HyperMem soft** |
+|---|---|---|---|---|
+| **Overall** | 152 | 0.4680 | 0.3052 | **0.4555** |
+| Multi-hop | 32 | 0.3946 | 0.2534 | 0.3231 |
+| Temporal | 37 | 0.6901 | 0.3981 | 0.6638 |
+| Open-domain | 13 | 0.1655 | 0.1567 | 0.1421 |
+| Single-hop | 70 | 0.4403 | 0.3073 | 0.4641 |
+
+- soft vs strict: **+0.150** per question, 95% bootstrap CI [+0.09, +0.21];
+  better on 68, worse on 19
+- soft vs IterRet: -0.013, CI [-0.06, +0.03] -- statistically tied; better
+  on 35, worse on 32. Ahead on single-hop, behind on multi-hop
+- all three: 152/152 answered, 0 skipped, delta-mem live on every row;
+  HyperMem used 40 evidence turns/question vs IterRet's ~36
+- IterRet and strict ran on GPU (RTX 4090, bf16). **Soft ran on CPU**
+  (`WORKMEM_DEVICE=cpu`) after a host driver update left CUDA unusable:
+  same weights and greedy decoding, but CPU/GPU numerics can flip a few
+  answers. Not yet re-run on GPU
+- `HYPERMEM_FACTS` (facts as extra evidence) was not evaluated; it is the
+  obvious next lever for multi-hop
+- raw rows: `cached_results/locomo_c0_{iterret,hypermem_strict,hypermem_soft}.jsonl`
+
+Not yet done: a full 10-conversation (1540 Q) comparison -- IterRet takes
+~30h on the shared box; HyperMem skips IterRet's multi-round vLLM loop but
+answering still costs ~20-60s/question -- and a GPU re-run of soft.

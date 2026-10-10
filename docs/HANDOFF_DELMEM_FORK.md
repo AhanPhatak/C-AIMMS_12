@@ -1,7 +1,8 @@
 # del-mem fork — Handoff
 
 **Repo:** `github.com/bm2772/del-mem` (branch pushed to `main`).
-**Last updated:** 2026-09-12.
+**Last updated:** 2026-10-10 (HyperMem retriever, §2.1; earlier sections 2026-09-12).
+Also pushed to `github.com/AhanPhatak/C-AIMMS_12` `main`.
 **Scope:** this is the handoff for the *bm2772/del-mem fork* of the workmem-vertical
 project. It records what THIS fork changed and measured. It does **not** replace
 `docs/HANDOFF.md`, which is the parallel session's handoff (vendored at clone
@@ -59,10 +60,50 @@ end-to-end system** (PE, disclosed ablation).
 Validity of that run was confirmed: rounds/q 4.98, routing majority `explicit`
 (not fail-open), δ_o live on all 1540, evidence 46/q.
 
+### 2.1 Current code, conv 0, and the HyperMem retriever (2026-10-09/10)
+
+Smoke set (conv 0, 152 Q), current `main` (includes relative-date resolution),
+standard prompt, token-F1:
+
+| category | n | IterRet | HyperMem strict | **HyperMem soft** |
+|---|---|---|---|---|
+| **Overall** | 152 | **0.4680** | 0.3052 | **0.4555** |
+| Multi-hop | 32 | 0.3946 | 0.2534 | 0.3231 |
+| Temporal | 37 | 0.6901 | 0.3981 | 0.6638 |
+| Open-domain | 13 | 0.1655 | 0.1567 | 0.1421 |
+| Single-hop | 70 | 0.4403 | 0.3073 | 0.4641 |
+
+- **IterRet 0.4680** vs the 2026-09 conv-0 figure of ~0.371 (§5): the gain is
+  almost all temporal (0.69), the relative-date resolution port. All 152
+  answered, 0 skips, routing 92% `explicit`, δ_o live on every row, 36 ev/q.
+- **HyperMem** (`WORKMEM_RETRIEVER=hypermem`) swaps only the evidence source
+  for a HyperMem topic/episode/fact hypergraph per conversation; filter, OSAM
+  write, prompt and scoring are unchanged. *Strict* (the original
+  coarse-to-fine hard filter) loses 0.16; *soft* (hybrid dense+BM25 fusion,
+  hierarchy as score aggregation, per-turn ranking; tuned on convs 1-3 only)
+  is **tied with IterRet**: −0.013, 95% CI [−0.06, +0.03], 35 better / 32 worse.
+  Full write-up, recall tables and knobs:
+  `adaptive_memory_structures/README_HYPERGRAPH.md` → "LoCoMo eval integration".
+- Caveat: the soft run was on **CPU** (`WORKMEM_DEVICE=cpu`, a host NVIDIA
+  driver/library mismatch made CUDA unusable on 2026-10-10); the other two on
+  GPU. Rows: `cached_results/locomo_c0_*.jsonl`.
+
 ---
 
 ## 3. Changes made in this fork (newest first)
 
+- **HyperMem as an eval retriever (2026-10-09/10).** `WORKMEM_RETRIEVER=hypermem`
+  in `eval_locomo_iterret_mock.py`; builder + `HyperMemRetriever` in
+  `adaptive_memory_structures/locomo_hypermem.py`; batch cache builder
+  `build_locomo_hypermem_cache.py`; 10 pre-built hypergraphs in
+  `cached_graphs/hypermem/`; recall harness `scripts/hypermem_recall.py`.
+  Also `WORKMEM_SAMPLES` (pick conversations) and `WORKMEM_DEVICE` (cpu works).
+- **`scripts/run_everything.sh`** — one-shot env setup → assets → dry run →
+  eval → score (+ `--retriever hypermem`); sizes vLLM's memory to what is free.
+- **HyperMem-style `HypergraphMemory` replaces `GraphMemory`** in
+  `adaptive_memory_structures/` (+ LoCoMo build/visualize tooling) and
+  `run_pipeline.sh` gains `CAIMMS_SINGLE_GPU=1` co-location, merged with
+  upstream's `VLLM_GPU`/`EVAL_GPU` selection.
 - **7239a23 — EM-LLM-style content-graph retrieval (flag-gated, default OFF).**
   Node→node expansion over content nodes, complementing query→node seeding.
   `ctc_graph.py`: `content_similarity_neighbors` (k-NN by embedding cosine,
@@ -121,6 +162,12 @@ Eval / run:
 | `WORKMEM_JUDGE=1` | also score each row with the lenient LLM judge (paraphrase/format-insensitive) as a secondary metric; token-F1 stays primary. One extra graph-LLM call per answered question; writes `judge_correct` per row and prints LLM-JUDGE accuracy (overall + per category) at the end. Robust to judge failures (count False). |
 | `WORKMEM_MAX_SAMPLES=N` | process first N conversations. Via `run_pipeline.sh` this now writes a separate `workmem_iterret_n<N>.jsonl` checkpoint (e.g. =4 → the 584-Q set) |
 | `WORKMEM_OUTPUT_FILE` | eval output path (run_pipeline sets this itself) |
+| `WORKMEM_RETRIEVER` | `iterret` (default) or `hypermem` — evidence source; everything downstream identical. HyperMem knobs (`HYPERMEM_*`): `adaptive_memory_structures/README_HYPERGRAPH.md` |
+| `WORKMEM_SAMPLES` | explicit conversation indices, e.g. `0` or `1,2,3` (on top of `WORKMEM_MAX_SAMPLES`) |
+| `WORKMEM_DEVICE` | answering-model device, default `cuda:0`; `cpu` works (~70 s/question) |
+| `VLLM_GPU` / `EVAL_GPU` | physical GPUs for `run_pipeline.sh` (default 0 / 1) |
+| `CAIMMS_SINGLE_GPU=1` (+ `CAIMMS_GPU_INDEX`) | co-locate vLLM and eval on one card |
+| `CAIMMS_VLLM_GPU_MEM_UTIL` | vLLM `--gpu-memory-utilization` (default 0.85, 0.4 single-GPU) |
 | `VLLM_PORT` | override if 8000 is taken |
 
 Diagnostics now written per row (`retrieval.*`): `fallback_topup_total`,
@@ -202,6 +249,8 @@ pkill -f 'vllm.entrypoints.openai.api_server'; sleep 3; lsof -ti:8000 | xargs -r
 - **Subset 584 (4 conv), guided only:** `WORKMEM_MAX_SAMPLES=4 bash scripts/run_pipeline.sh` → `workmem_iterret_n4.jsonl`
 - **Full (10 conv / 1540 Q, guided only):** `bash scripts/run_pipeline.sh` → `workmem_iterret_full.jsonl`
 - **A/B (guided vs S-only), 4 conv by default:** `N=4 bash scripts/ab_evidence.sh`
+- **HyperMem retriever, conv 0:** `WORKMEM_RETRIEVER=hypermem WORKMEM_MAX_SAMPLES=1 WORKMEM_OUTPUT_FILE=$CAIMMS_OUTPUT_DIR/workmem_hypermem_n1.jsonl bash scripts/run_pipeline.sh` (seed `cached_graphs/hypermem/` into `$CAIMMS_OUTPUT_DIR/hypermem_cache/` first)
+- **Everything from scratch:** `bash scripts/run_everything.sh --smoke [--retriever hypermem]`
 - **Score:** `python3 scripts/score_calculator.py <file>`
 - **Tag/retrieval unit tests (no GPU):** `cd IterRet && python3 -m iterret.tests.test_relevance_ranking`
 
@@ -213,6 +262,12 @@ pkill -f 'vllm.entrypoints.openai.api_server'; sleep 3; lsof -ti:8000 | xargs -r
 3. **A stale vLLM invalidates a run silently** — now guarded, but if you see
    uniform `n_ev=6` / `route_modes` all `fail_open_parse_failed`, the graph LLM
    is dead: kill it and restart.
+4. **vLLM 0.85 does not fit on a shared card.** vLLM's v1 engine counts other
+   users' memory against its `--gpu-memory-utilization` budget, so with ~5GB
+   of someone else's job on the card 0.65 left 0.64 GiB of KV cache and
+   failed; 0.74 worked. On a card already more than half full, the v0 engine
+   (`VLLM_USE_V1=0`) budgets only its own process (0.448 on 11GB free worked).
+   `run_everything.sh` sizes this automatically.
 
 ---
 
@@ -243,3 +298,7 @@ pkill -f 'vllm.entrypoints.openai.api_server'; sleep 3; lsof -ti:8000 | xargs -r
    miss. token-F1 remains the reported primary; judge accuracy is the honest
    "is the retrieval actually finding the answer" number.
 4. **In-domain δ-mem test on Qasper/LongBench** (see §6).
+5. **HyperMem retriever follow-ups** (§2.1): re-run soft on GPU to confirm
+   0.4555; try `HYPERMEM_FACTS=10` (extracted facts as extra evidence — the
+   lever for multi-hop, whose all-gold recall is only ~0.2-0.25); a full
+   1540-Q IterRet vs HyperMem comparison; an IterRet + HyperMem-facts hybrid.

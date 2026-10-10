@@ -33,6 +33,8 @@ DATA_FILE    = os.environ.get("CAIMMS_DATA_FILE",   f"{_ROOT}/workmem-vertical/d
 # Overridable because port 8000 is not guaranteed free on a shared workstation.
 VLLM_BASE_URL   = os.environ.get("CAIMMS_VLLM_BASE_URL", "http://localhost:8000/v1")
 VLLM_MODEL_NAME = "Qwen/Qwen3-4B-Instruct-2507"
+# Device for the answering model. cpu works (slowly) when no GPU is usable.
+DEVICE = os.environ.get("WORKMEM_DEVICE", "cuda:0")
 ITERRET_MAX_ITERATIONS = 5
 
 # Both of these are overridable from the environment so a smoke test can be run
@@ -46,6 +48,10 @@ OUTPUT_FILE = os.environ.get(
     f"{_ROOT}/outputs/workmem_iterret_full.jsonl",
 )
 MAX_SAMPLES = int(os.environ["WORKMEM_MAX_SAMPLES"]) if os.environ.get("WORKMEM_MAX_SAMPLES") else None
+# Optional explicit conversation selection, e.g. WORKMEM_SAMPLES=1 or =0,2,3.
+# Applied on top of MAX_SAMPLES.
+SAMPLES = ({int(x) for x in os.environ["WORKMEM_SAMPLES"].split(",") if x.strip()}
+           if os.environ.get("WORKMEM_SAMPLES") else None)
 
 # Defensive early-abort: a broken/stale vLLM graph server returns unparseable
 # output, so EVERY IterRet round routes via "fail_open_parse_failed" and
@@ -78,6 +84,21 @@ OSAM_MODE = os.environ.get("WORKMEM_OSAM_MODE", "combined")
 if OSAM_MODE not in ("combined", "vanilla", "hybrid"):
     raise SystemExit(f"[FATAL] unknown WORKMEM_OSAM_MODE={OSAM_MODE!r} "
                      "(expected combined | vanilla | hybrid)")
+
+# Which retriever supplies the evidence:
+#   iterret (default): IterRet's cue-tag-content graph, retrieve/reflect loop.
+#   hypermem         : HyperMem topic -> episode -> fact hypergraph
+#                      (adaptive_memory_structures/locomo_hypermem.py), built
+#                      once per conversation and cached in <outputs>/hypermem_cache/.
+# Everything after retrieval (relevance filter, OSAM write, answer prompt,
+# scoring) is identical, so the two are directly comparable.
+RETRIEVER = os.environ.get("WORKMEM_RETRIEVER", "iterret")
+if RETRIEVER not in ("iterret", "hypermem"):
+    raise SystemExit(f"[FATAL] unknown WORKMEM_RETRIEVER={RETRIEVER!r} (expected iterret | hypermem)")
+if RETRIEVER == "hypermem":
+    import sys
+    sys.path.insert(0, str(Path(os.environ.get("CAIMMS_ROOT", ".")) / "adaptive_memory_structures"))
+    from locomo_hypermem import HyperMemRetriever, load_or_build as load_or_build_hypermem
 
 
 
@@ -135,13 +156,13 @@ def gold_answer_of(q: dict) -> str:
 
 
 def main() -> None:
-    print(f"[init] MAX_SAMPLES={MAX_SAMPLES!r}  OUTPUT_FILE={OUTPUT_FILE!r}", flush=True)
+    print(f"[init] MAX_SAMPLES={MAX_SAMPLES!r}  OUTPUT_FILE={OUTPUT_FILE!r}  RETRIEVER={RETRIEVER!r}", flush=True)
     print(f"[init] Loading base model from {MODEL_PATH}", flush=True)
     tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token = tokenizer.eos_token
     model = AutoModelForCausalLM.from_pretrained(
-        MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:0", local_files_only=True,
+        MODEL_PATH, torch_dtype=torch.bfloat16, device_map=DEVICE, local_files_only=True,
     )
     print(f"[init] Attaching Delta-Mem adapter from {ADAPTER_DIR}", flush=True)
     attach_delta_adapter_in_place(model, Path(ADAPTER_DIR))
@@ -179,6 +200,8 @@ def main() -> None:
     for sample_idx, sample in enumerate(samples):
         if MAX_SAMPLES is not None and sample_idx >= MAX_SAMPLES:
             break
+        if SAMPLES is not None and sample_idx not in SAMPLES:
+            continue
 
         torch.cuda.empty_cache()
         gc.collect()
@@ -266,6 +289,25 @@ def main() -> None:
                     completed.add((sample_idx, q_idx))
             continue
 
+        # Outside the try above on purpose: a failed hypergraph build should
+        # stop the run, not checkpoint every question as a skipped score-0 row.
+        hypermem = None
+        if RETRIEVER == "hypermem":
+            if not hasattr(bank.backend, "_model") or bank.backend._model is None:
+                raise SystemExit("[FATAL] hypermem retrieval needs the MiniLM encoder, which failed to load")
+            hm_data = load_or_build_hypermem(
+                str(GRAPH_CACHE_DIR.parent / "hypermem_cache" / f"sample_{sample_idx}.json"),
+                conv_block, VLLM_BASE_URL, VLLM_MODEL_NAME,
+                log=lambda m: print(f"[sample {sample_idx}] {m}", flush=True),
+            )
+            hypermem = HyperMemRetriever(
+                hm_data, bank.backend.encode,
+                encode_batch=lambda texts: bank.backend._model.encode(texts, batch_size=128, show_progress_bar=False),
+            )
+            print(f"[sample {sample_idx}] HyperMem ready ({hypermem.mode}): {len(hypermem.topics)} topics, "
+                  f"{len(hypermem.episodes)} episodes, {len(hypermem.facts)} facts, "
+                  f"max_turns={hypermem.max_turns} facts_in_evidence={hypermem.n_facts}", flush=True)
+
         for q_idx, question in enumerate(questions):
             if (sample_idx, q_idx) in completed:
                 continue
@@ -289,13 +331,16 @@ def main() -> None:
             # handoff's loss attribution stayed unfalsifiable.
             retrieval_diag: dict = {}
             try:
-                evidence = get_iterret_evidence(
-                    q_text, graph, bank, question_llm,
-                    max_iterations=ITERRET_MAX_ITERATIONS,
-                    diag=retrieval_diag,
-                )
+                if hypermem is not None:
+                    evidence = hypermem.retrieve(q_text, diag=retrieval_diag)
+                else:
+                    evidence = get_iterret_evidence(
+                        q_text, graph, bank, question_llm,
+                        max_iterations=ITERRET_MAX_ITERATIONS,
+                        diag=retrieval_diag,
+                    )
             except Exception as exc:
-                print(f"[sample {sample_idx}.{q_idx}] IterRet FAILED: {exc}", flush=True)
+                print(f"[sample {sample_idx}.{q_idx}] {RETRIEVER} retrieval FAILED: {exc}", flush=True)
 
             # Snapshot before filtering: retrieval_diag["evidence_ids"] is
             # index-aligned with THIS list. The filter below both drops items
@@ -343,7 +388,7 @@ def main() -> None:
                 print(f"[sample {sample_idx}.{q_idx}] No evidence, score=0", flush=True)
                 continue
 
-            session = DeltaMemChatSession(model=model, tokenizer=tokenizer, device="cuda:0")
+            session = DeltaMemChatSession(model=model, tokenizer=tokenizer, device=DEVICE)
             session.reset()
             # No fixed OSAM cap here (removed): it bounded total evidence
             # per question regardless of whether each item was a deliberate,
@@ -411,6 +456,7 @@ def main() -> None:
                 "retrieval": retrieval_diag,
                 "osam_contribution": osam_contribution,
                 "graph_dates_resolved": graph_dates_resolved, "osam_mode": OSAM_MODE,
+                "retriever": RETRIEVER,
             }
             # Optional LLM-judge secondary metric. Uses the graph vLLM; a judge
             # failure must never abort the run (the handoff's earlier 500-abort

@@ -5,11 +5,14 @@
 #   bash scripts/run_everything.sh --smoke        # 1 conversation / 152 Q   (~1h)
 #   bash scripts/run_everything.sh --subset 4     # 4 conversations / 584 Q
 #   bash scripts/run_everything.sh --full         # 10 conversations / 1540 Q (~30-35h)
+#   add --retriever hypermem to answer from the HyperMem hypergraph instead of IterRet
 #   add --skip-hypermem / --skip-eval to run only one half
 #
 # Reference token-F1 (docs/HANDOFF_DELMEM_FORK.md): full 0.4142 (standard prompt),
 # 584-set 0.4053, conv-0 (= --smoke) ~0.371. All measured before relative-date
 # resolution (9c6f840) was ported, which upstream measured as a large temporal gain.
+# Current code, conv-0 (--smoke), 2026-10-09/10: IterRet 0.4680, HyperMem 0.4555
+# (adaptive_memory_structures/README_HYPERGRAPH.md, "LoCoMo eval integration").
 #
 # Layout: models/ and outputs/ go in the repo's PARENT dir (override with
 # CAIMMS_WORKSPACE). Conda env name defaults to "workmem" (CONDA_ENV_NAME).
@@ -20,22 +23,25 @@
 # force). vLLM v1 counts other users' memory on the card against its budget, so
 # on a shared card 0.85 fails with "KV cache is needed ... larger than available".
 #
-# NOTE: the HyperMem code (adaptive_memory_structures/) is NOT wired into the
-# LoCoMo eval -- nothing under delta-Mem/ or IterRet/ imports it -- so it cannot
-# change the F1. Step 7 validates it on its own: builds a hypergraph from LoCoMo
-# conv-26 with surprise segmentation (small in-process LM) + fact/topic
-# extraction by Qwen3-4B via vLLM, and runs two retrieval queries.
+# Retriever: --retriever iterret (default) is the original pipeline.
+# --retriever hypermem swaps ONLY the evidence source for the HyperMem hypergraph
+# (WORKMEM_RETRIEVER=hypermem); filter, delta-mem write, prompt and scoring are
+# unchanged. The 10 LoCoMo hypergraphs ship pre-built in cached_graphs/hypermem/
+# (~6h of vLLM calls to rebuild); any missing one is built inside the eval.
+# Step 7 is separate: a small standalone hypergraph build of conv-26 (3 sessions)
+# for hypergraph_visualizer.html.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(cd "${HERE}/.." && pwd)"
 
-MODE=smoke; SUBSET_N=""; DO_EVAL=1; DO_HYPERMEM=1
+MODE=smoke; SUBSET_N=""; DO_EVAL=1; DO_HYPERMEM=1; RETRIEVER=iterret
 while [ $# -gt 0 ]; do
     case "$1" in
         --smoke) MODE=smoke ;;
         --full) MODE=full ;;
         --subset) MODE=subset; SUBSET_N="${2:?--subset needs N}"; shift ;;
+        --retriever) RETRIEVER="${2:?--retriever needs iterret|hypermem}"; shift ;;
         --skip-eval) DO_EVAL=0 ;;
         --skip-hypermem) DO_HYPERMEM=0 ;;
         *) echo "unknown arg: $1"; exit 1 ;;
@@ -65,6 +71,8 @@ cp -n "${CAIMMS_DATA_FILE}" "${ROOT}/data/locomo10.json"
 echo "### [3/7] seeding graph cache"
 mkdir -p "${CAIMMS_OUTPUT_DIR}/graph_cache"
 cp -n "${ROOT}"/cached_graphs/locomo/*.json "${CAIMMS_OUTPUT_DIR}/graph_cache/"
+mkdir -p "${CAIMMS_OUTPUT_DIR}/hypermem_cache"
+cp -n "${ROOT}"/cached_graphs/hypermem/*.json "${CAIMMS_OUTPUT_DIR}/hypermem_cache/"
 
 # ── 4. no-GPU static check ────────────────────────────────────────────────────
 echo "### [4/7] dry run"
@@ -102,16 +110,30 @@ echo "  vLLM on GPU ${VLLM_GPU} (util ${CAIMMS_VLLM_GPU_MEM_UTIL}), eval on GPU 
 
 # ── 6. LoCoMo eval + score ────────────────────────────────────────────────────
 if [ "${DO_EVAL}" = "1" ]; then
-    echo "### [6/7] LoCoMo eval (${MODE})"
-    case "${MODE}" in
-        smoke)  ARGS=(--smoke); OUT="${CAIMMS_OUTPUT_DIR}/smoke_results.jsonl" ;;
-        subset) export WORKMEM_MAX_SAMPLES="${SUBSET_N}"; ARGS=()
-                OUT="${CAIMMS_OUTPUT_DIR}/workmem_iterret_n${SUBSET_N}.jsonl" ;;
-        full)   ARGS=(); OUT="${CAIMMS_OUTPUT_DIR}/workmem_iterret_full.jsonl" ;;
-    esac
+    echo "### [6/7] LoCoMo eval (${MODE}, retriever ${RETRIEVER})"
+    export WORKMEM_RETRIEVER="${RETRIEVER}"
+    if [ "${RETRIEVER}" = "iterret" ]; then
+        case "${MODE}" in
+            smoke)  ARGS=(--smoke); OUT="${CAIMMS_OUTPUT_DIR}/smoke_results.jsonl" ;;
+            subset) export WORKMEM_MAX_SAMPLES="${SUBSET_N}"; ARGS=()
+                    OUT="${CAIMMS_OUTPUT_DIR}/workmem_iterret_n${SUBSET_N}.jsonl" ;;
+            full)   ARGS=(); OUT="${CAIMMS_OUTPUT_DIR}/workmem_iterret_full.jsonl" ;;
+        esac
+    else
+        # run_pipeline.sh hardcodes the IterRet file names for --smoke / full, so
+        # drive every mode through its subset path with an explicit output file.
+        case "${MODE}" in
+            smoke)  N=1 ;;
+            subset) N="${SUBSET_N}" ;;
+            full)   N=10 ;;
+        esac
+        export WORKMEM_MAX_SAMPLES="${N}"; ARGS=()
+        OUT="${CAIMMS_OUTPUT_DIR}/workmem_hypermem_n${N}.jsonl"
+        export WORKMEM_OUTPUT_FILE="${OUT}"
+    fi
     # Full/subset runs RESUME from their checkpoint -- archive it, or you get
     # the previous run's scores back (HANDOFF.md §8 trap 1). Smoke clears its own.
-    if [ "${MODE}" != "smoke" ] && [ -f "${OUT}" ]; then
+    if { [ "${MODE}" != "smoke" ] || [ "${RETRIEVER}" = "hypermem" ]; } && [ -f "${OUT}" ]; then
         mv "${OUT}" "${OUT%.jsonl}_archived_${STAMP}.jsonl"
         echo "  archived previous checkpoint"
     fi
