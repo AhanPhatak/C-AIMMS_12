@@ -22,3 +22,15 @@ arm, doc 16 rows removed) are in `../cached_results/`. Restore both with:
 
 then `LB_SEGMENTATION=surprise ARMS="combined hybrid vanilla" bash scripts/run_longbench.sh`
 answers only the 4 missing docs per arm.
+
+`hypermem/sample_{0..9}.json` -- the LoCoMo conversation hypergraphs for
+`WORKMEM_RETRIEVER=hypermem` (topics / episodes / facts / hyperedges / dated
+turns; see `adaptive_memory_structures/README_HYPERGRAPH.md`). Built
+2026-10-09/10 with Qwen3-4B via vLLM for extraction and Qwen2.5-0.5B for
+surprise segmentation (conv 0 on GPU, 1-9 on CPU); ~6h of vLLM calls to
+rebuild. The eval reads them from `$CAIMMS_OUTPUT_DIR/hypermem_cache/`:
+
+    source env.sh && mkdir -p "$CAIMMS_OUTPUT_DIR/hypermem_cache" && \
+      cp -n cached_graphs/hypermem/*.json "$CAIMMS_OUTPUT_DIR/hypermem_cache/"
+
+The matching conv-0 result rows are `../cached_results/locomo_c0_{iterret,hypermem_strict,hypermem_soft}.jsonl`.
