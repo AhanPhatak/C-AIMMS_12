@@ -261,6 +261,30 @@ class HyperMemRetriever:
         # max turns taken from any one episode (0 = no cap); spreads the budget
         # across episodes, which multi-hop questions need
         self.per_episode_cap = _env_int("HYPERMEM_PER_EPISODE_CAP", 0)
+        # Step 1 (multi-hop, no LLM):
+        #  PRF  -- a second pass whose query is the question expanded with the top
+        #          round-1 facts (dense: Rocchio; lexical: their text + keywords),
+        #          fused with the first pass. Finds the "second hop" that does not
+        #          resemble the question but does resemble what the first hop found.
+        #  LINK -- entity hyperedges: facts sharing a (rare) keyword or name with
+        #          the top facts boost their episodes, so evidence about the same
+        #          entity in other sessions becomes reachable.
+        self.prf = _env_int("HYPERMEM_PRF", 0)
+        self.prf_facts = _env_int("HYPERMEM_PRF_FACTS", 5)
+        self.prf_beta = _env_float("HYPERMEM_PRF_BETA", 0.5)
+        self.w_prf = _env_float("HYPERMEM_W_PRF", 1.0)
+        self.link = _env_int("HYPERMEM_LINK", 0)
+        self.link_seeds = _env_int("HYPERMEM_LINK_SEEDS", 5)
+        self.w_link = _env_float("HYPERMEM_W_LINK", 1.0)
+        # Step 2 (precision): cross-encoder rerank of the top candidates, then an
+        # adaptive cut instead of always filling max_turns.
+        self.rerank = _env_int("HYPERMEM_RERANK", 0)
+        self.rerank_pool = _env_int("HYPERMEM_RERANK_POOL", 80)
+        self.rerank_model = os.environ.get("HYPERMEM_RERANK_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
+        self.w_ce = _env_float("HYPERMEM_W_CE", 1.0)        # CE rank vs hypergraph rank in the final order
+        self.ce_cutoff = os.environ.get("HYPERMEM_CE_CUTOFF")  # None = no cut; else min CE logit kept
+        self.min_turns = _env_int("HYPERMEM_MIN_TURNS", 8)
+        self._ce = None
 
         self._encode1 = encode
         self._encode_batch = encode_batch
@@ -325,6 +349,25 @@ class HyperMemRetriever:
         self.U = U
         self.bm = {"topic": _BM25(topic_txt), "episode": _BM25(ep_txt),
                    "fact": _BM25(fact_txt), "turn": _BM25(self.turns)}
+        self._build_entity_index()
+
+    def _build_entity_index(self) -> None:
+        """Entity hyperedges over facts: stemmed keyword tokens + capitalised names
+        in the fact text, IDF-weighted so generic ones ("support", the two
+        speakers' names) count for little and very common ones not at all."""
+        import re
+        ents: list[set[str]] = []
+        for f in self.fact_list:
+            e = set(_tokenize(" ".join(f.keywords)))
+            e |= {"N:" + w.lower() for w in re.findall(r"\b[A-Z][a-z]{2,}\b", f.content)}
+            ents.append(e)
+        n = max(1, len(ents))
+        df: dict[str, int] = {}
+        for e in ents:
+            for x in e:
+                df[x] = df.get(x, 0) + 1
+        self.ent_idf = {x: float(np.log(n / c)) for x, c in df.items() if c <= 0.2 * n}
+        self.fact_ents = [{x for x in e if x in self.ent_idf} for e in ents]
 
     # -- embedding helpers --------------------------------------------------
     def _embed(self, texts: list[str]) -> np.ndarray:
@@ -370,7 +413,19 @@ class HyperMemRetriever:
             out.append(f"[{date}] (memory) {f.to_text()}" if date else f"(memory) {f.to_text()}")
         return out
 
-    def _retrieve_soft(self, q: np.ndarray, question: str) -> tuple[list[str], dict]:
+    def _link_rank(self, seed_facts) -> np.ndarray:
+        """Rank of every fact by IDF-weighted entity overlap with the seed facts."""
+        seed_ents: set[str] = set()
+        for i in seed_facts:
+            seed_ents |= self.fact_ents[i]
+        score = np.array([sum(self.ent_idf[x] for x in (fe & seed_ents)) for fe in self.fact_ents],
+                         dtype=np.float32)
+        r = _ranks(score)
+        r[score <= 0] = 10 ** 6
+        return r
+
+    def _soft_pass(self, q: np.ndarray, question: str, link_rank: np.ndarray | None):
+        """One scoring pass. Returns (turn_score, ep_rank, r_fact, r_topic)."""
         k, w = self.rrf_k, self.w
         r_topic = self._hybrid("topic", self.T, q, question)
         r_ep = self._hybrid("episode", self.E, q, question)
@@ -379,33 +434,76 @@ class HyperMemRetriever:
 
         n_ep = len(self.episode_list)
         big = 10 ** 6
-        best_fact = np.full(n_ep, big)
-        np.minimum.at(best_fact, self.fact_episode_idx[self.fact_episode_idx >= 0],
-                      r_fact[self.fact_episode_idx >= 0])
-        best_turn = np.full(n_ep, big)
-        np.minimum.at(best_turn, self.turn_episode_idx[self.turn_episode_idx >= 0],
-                      r_turn[self.turn_episode_idx >= 0])
+        fe = self.fact_episode_idx >= 0
+
+        def best_per_episode(rank, idx, mask):
+            out = np.full(n_ep, big)
+            np.minimum.at(out, idx[mask], rank[mask])
+            return out
+
+        best_fact = best_per_episode(r_fact, self.fact_episode_idx, fe)
+        best_turn = best_per_episode(r_turn, self.turn_episode_idx, self.turn_episode_idx >= 0)
         topic_rank = np.where(self.episode_topic_idx >= 0,
                               r_topic[np.maximum(self.episode_topic_idx, 0)] if len(r_topic) else big, big)
 
         ep_score = (w["episode"] / (k + r_ep) + w["topic"] / (k + topic_rank)
                     + w["fact"] / (k + best_fact) + w["eturn"] / (k + best_turn))
+        if link_rank is not None:
+            ep_score = ep_score + self.w_link / (k + best_per_episode(link_rank, self.fact_episode_idx, fe))
         ep_rank = _ranks(ep_score)
 
         turn_score = w["turn"] / (k + r_turn) + w["prior"] / (k + ep_rank[np.maximum(self.turn_episode_idx, 0)])
+        return turn_score, ep_rank, r_fact, r_topic
+
+    def _cross_encoder(self):
+        if self._ce is None:
+            from sentence_transformers import CrossEncoder
+            self._ce = CrossEncoder(self.rerank_model, device=os.environ.get("HYPERMEM_RERANK_DEVICE", "cpu"))
+        return self._ce
+
+    def _retrieve_soft(self, q: np.ndarray, question: str) -> tuple[list[str], dict]:
+        k = self.rrf_k
+        # round 1 (fact ranks seed the entity links and the feedback query)
+        r_fact0 = self._hybrid("fact", self.F, q, question)
+        seeds = np.argsort(r_fact0, kind="stable")
+        link_rank = self._link_rank(seeds[: self.link_seeds]) if self.link else None
+        turn_score, ep_rank, r_fact, r_topic = self._soft_pass(q, question, link_rank)
+
+        if self.prf:
+            top = seeds[: self.prf_facts]
+            q2 = q + self.prf_beta * self.F[top].mean(axis=0)
+            q2 = q2 / max(np.linalg.norm(q2), 1e-9)
+            facts_txt = " ".join(self.fact_list[i].content + " " + " ".join(self.fact_list[i].keywords) for i in top)
+            ts2, _, _, _ = self._soft_pass(q2, question + " " + facts_txt, link_rank)
+            # fuse the two passes by rank
+            turn_score = 1.0 / (k + _ranks(turn_score)) + self.w_prf / (k + _ranks(ts2))
+
         order = np.argsort(-turn_score, kind="stable")
+        ce_scores = None
+        if self.rerank:
+            pool = [int(i) for i in order[: self.rerank_pool]]
+            ce = np.asarray(self._cross_encoder().predict([(question, self.turns[i]) for i in pool],
+                                                          batch_size=64, show_progress_bar=False), dtype=np.float32)
+            fused = 1.0 / (k + np.arange(len(pool))) + self.w_ce / (k + _ranks(ce))
+            perm = np.argsort(-fused, kind="stable")
+            order = [pool[j] for j in perm]
+            ce_scores = {pool[j]: float(ce[j]) for j in range(len(pool))}
 
         chosen: list[int] = []
         seen: set[int] = set()
         per_ep: dict[int, int] = {}
+        cutoff = float(self.ce_cutoff) if (self.ce_cutoff not in (None, "") and ce_scores is not None) else None
         for i in order:
+            i = int(i)
             if len(chosen) >= self.max_turns:
                 break
+            if cutoff is not None and len(chosen) >= self.min_turns and ce_scores.get(i, -1e9) < cutoff:
+                continue
             e = int(self.turn_episode_idx[i])
             if self.per_episode_cap and per_ep.get(e, 0) >= self.per_episode_cap:
                 continue
             per_ep[e] = per_ep.get(e, 0) + 1
-            group = [int(i)]
+            group = [i]
             if self.page_expand:
                 pid = self.turn_page[i]
                 group = [j for j in range(max(0, i - 1), min(len(self.turns), i + 2)) if self.turn_page[j] == pid]
@@ -421,6 +519,7 @@ class HyperMemRetriever:
             "episode_ids": [self.episode_list[i].id for i in np.argsort(ep_rank)[:8]],
             "facts": [self.fact_list[i].content for i in fact_order[:10]],
             "evidence_ids": ["fact"] * min(self.n_facts, len(self.fact_list)) + [self.turn_page[i] for i in chosen],
+            "steps": {"prf": self.prf, "link": self.link, "rerank": self.rerank, "ce_cutoff": self.ce_cutoff},
         }
         return evidence, info
 

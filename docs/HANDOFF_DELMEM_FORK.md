@@ -298,7 +298,11 @@ pkill -f 'vllm.entrypoints.openai.api_server'; sleep 3; lsof -ti:8000 | xargs -r
    miss. token-F1 remains the reported primary; judge accuracy is the honest
    "is the retrieval actually finding the answer" number.
 4. **In-domain δ-mem test on Qasper/LongBench** (see §6).
-5. **HyperMem retriever follow-ups** (§2.1): re-run soft on GPU to confirm
-   0.4555; try `HYPERMEM_FACTS=10` (extracted facts as extra evidence — the
-   lever for multi-hop, whose all-gold recall is only ~0.2-0.25); a full
-   1540-Q IterRet vs HyperMem comparison; an IterRet + HyperMem-facts hybrid.
+5. **HyperMem retriever follow-ups** (§2.1): soft re-run on GPU = 0.4574
+   (confirms 0.4555). Opt-in PRF + cross-encoder rerank (2026-10-12) lifts
+   multi-hop all-gold recall ~0.28 -> ~0.45 and multi-hop F1 +0.04 on
+   held-out conversations, but overall is a tie with soft on the full
+   1540 Q (0.4836 vs 0.4724; single-hop flat/down) -- see
+   README_HYPERGRAPH.md. Still open: `HYPERMEM_FACTS=10`; answer-side
+   losses (gold retrieved but F1 low); a full 1540-Q IterRet run to compare
+   against; an IterRet + HyperMem-facts hybrid.

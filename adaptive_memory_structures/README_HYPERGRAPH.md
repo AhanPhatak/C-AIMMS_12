@@ -386,6 +386,10 @@ Knobs (env, read when the retriever is built):
 | `HYPERMEM_PER_EPISODE_CAP` | 0 | max turns from one episode (0 = no cap) |
 | `HYPERMEM_PAGE_EXPAND` | 0 | 1 = take a selected turn's page partner too |
 | `HYPERMEM_TOPIC_TOP_K` / `_EPISODE_TOP_K` / `_FACT_TOP_K` | 3 / 8 / 20 | strict mode only |
+| `HYPERMEM_PRF` | 0 | 1 = second pass, question expanded with the top round-1 facts (`_PRF_FACTS` 5, `_PRF_BETA` 0.5, `HYPERMEM_W_PRF` 1) |
+| `HYPERMEM_LINK` | 0 | 1 = entity hyperedges: facts sharing rare keywords/names with the top facts boost their episodes (`_LINK_SEEDS` 5, `HYPERMEM_W_LINK` 1) |
+| `HYPERMEM_RERANK` | 0 | 1 = cross-encoder rerank of the top candidates (`_RERANK_POOL` 80, `_RERANK_MODEL` `cross-encoder/ms-marco-MiniLM-L-6-v2`, `_RERANK_DEVICE` cpu, `HYPERMEM_W_CE` 1) |
+| `HYPERMEM_CE_CUTOFF` | unset | with rerank: drop turns whose cross-encoder logit is below this, keeping at least `HYPERMEM_MIN_TURNS` (8) |
 
 ### Tuning (held out: conv 0 and convs 4-9)
 
@@ -396,18 +400,71 @@ moved recall by <= 0.035 except fusion sharpness; the top combinations were
 within ~0.01 of each other (noise at n=432), so the simplest one was kept:
 the defaults above with `RRF_K` 60 -> 20.
 
-| all gold turns retrieved (40 turns) | convs 1-3 (tuning) | conv 0 (held out) | convs 4-9 (held out, n=950) |
+| all gold turns retrieved (40 turns) | convs 1-3 (tuning, n=432) | conv 0 (held out, n=150) | convs 4-9 (held out, n=954) |
 |---|---|---|---|
-| strict | 0.269 | 0.362 | 0.336 |
-| soft, k=60 | 0.683 | 0.678 | -- |
-| **soft, k=20 (default)** | **0.718** | **0.678** | **0.715** |
-| flat MiniLM over all turns | 0.590 | 0.550 | 0.559 |
-| flat MiniLM + BM25 over all turns | 0.648 | 0.617 | 0.647 |
+| strict | 0.282 | 0.433 | 0.358 |
+| soft, k=60 | 0.736 | 0.753 | 0.736 |
+| **soft, k=20 (default)** | **0.773** | **0.767** | **0.777** |
+| flat MiniLM over all turns | 0.632 | 0.627 | 0.609 |
+| flat MiniLM + BM25 over all turns | 0.697 | 0.687 | 0.695 |
+
+These numbers were re-measured after a fix to the harness's gold matching.
+The cached graphs store date-resolved turn text ("tomorrow (20 June,
+2023)"), so a gold turn with a relative date in its first 50 characters
+could never match and was counted as a miss whatever was retrieved (7-27
+questions per conversation). Every row was affected alike: the earlier
+table read 0.05-0.09 lower for soft (0.718 / 0.678 / 0.715) with the same
+ordering, and the tuning decision does not change.
 
 Soft retrieval beats the same hybrid search without the hypergraph by
-~0.06-0.07 on held-out conversations, so the structure contributes beyond
-the lexical channel. Multi-hop is the weak category (~0.2-0.25 all-gold),
+~0.08 on held-out conversations, so the structure contributes beyond
+the lexical channel. Multi-hop is the weak category (~0.27-0.29 all-gold),
 since its questions need evidence from several sessions at once.
+
+### Multi-hop and precision steps (opt-in, no LLM calls)
+
+Three additions on top of soft, all off by default:
+
+- **PRF** (`HYPERMEM_PRF=1`): a second scoring pass whose query is the
+  question expanded with the top round-1 facts (dense: Rocchio; lexical:
+  their text + keywords), rank-fused with the first pass. Reaches the
+  "second hop" that resembles what the first hop found, not the question
+- **LINK** (`HYPERMEM_LINK=1`): entity hyperedges over facts (stemmed
+  keywords + capitalised names, IDF-weighted); facts sharing an entity with
+  the top facts boost their episodes
+- **RERANK** (`HYPERMEM_RERANK=1`): a cross-encoder reranks the top
+  candidate turns, fused with the hypergraph order; `HYPERMEM_CE_CUTOFF`
+  optionally cuts the list short instead of always filling 40 turns
+
+Same protocol as above: configs compared on convs 1-3, then checked on
+the held-out conversations. Cells: all gold turns retrieved, multi-hop
+only in brackets.
+
+| config | convs 1-3 (tuning, n=432) | conv 0 (held out, n=150) | convs 4-9 (held out, n=954) | turns used |
+|---|---|---|---|---|
+| soft (default) | 0.773 [0.29] | 0.767 [0.28] | 0.777 [0.27] | 40 |
+| PRF | 0.796 [0.35] | 0.813 [0.44] | 0.796 [0.33] | 40 |
+| LINK | 0.773 [0.30] | 0.800 [0.34] | 0.791 [0.30] | 40 |
+| PRF + LINK | 0.799 [0.37] | 0.800 [0.38] | 0.804 [0.37] | 40 |
+| RERANK | 0.808 [0.38] | 0.780 [0.31] | 0.798 [0.34] | 40 |
+| PRF + RERANK | 0.826 [0.46] | 0.813 [0.47] | 0.820 [0.43] | 40 |
+| PRF + LINK + RERANK | 0.817 [0.44] | 0.813 [0.47] | 0.816 [0.42] | 40 |
+| **PRF + RERANK, pool 120** | **0.836 [0.49]** | **0.820 [0.47]** | **0.826 [0.43]** | 40 |
+| PRF + LINK + RERANK, cutoff -3 | 0.764 [0.33] | 0.747 [0.38] | 0.744 [0.26] | ~20 |
+| PRF + LINK + RERANK, cutoff 0 | 0.734 [0.30] | 0.700 [0.25] | 0.716 [0.20] | ~13 |
+
+- PRF and RERANK each add ~0.02 on convs 4-9 and stack: PRF + RERANK with
+  a 120-turn pool is +0.05 over soft on all three splits, and multi-hop
+  all-gold recall goes ~0.28 -> 0.43-0.49
+- LINK alone is +0.01 to +0.03 on held-out conversations and 0 on the
+  tuning ones, and adds nothing once PRF + RERANK are on
+- the cutoff halves the evidence (~3x the precision) but loses recall at
+  every value tried (0, -3; -6 and -8 before the matching fix); not
+  evaluated end-to-end
+- rerank pool 80 / 120 / 160 and `W_CE` 1 / 2 were within ~0.01 of each
+  other on the tuning convs (measured before the matching fix)
+- what is left is mostly multi-hop: single-hop and temporal are at
+  0.9+ all-gold recall on most conversations
 
 ### End-to-end results (conv 0, 152 Q, token-F1)
 
@@ -428,11 +485,43 @@ since its questions need evidence from several sessions at once.
 - IterRet and strict ran on GPU (RTX 4090, bf16). **Soft ran on CPU**
   (`WORKMEM_DEVICE=cpu`) after a host driver update left CUDA unusable:
   same weights and greedy decoding, but CPU/GPU numerics can flip a few
-  answers. Not yet re-run on GPU
+  answers. Re-run on GPU on 2026-10-12: 0.4574 (5 of 152 scores differ)
 - `HYPERMEM_FACTS` (facts as extra evidence) was not evaluated; it is the
   obvious next lever for multi-hop
 - raw rows: `cached_results/locomo_c0_{iterret,hypermem_strict,hypermem_soft}.jsonl`
 
-Not yet done: a full 10-conversation (1540 Q) comparison -- IterRet takes
-~30h on the shared box; HyperMem skips IterRet's multi-round vLLM loop but
-answering still costs ~20-60s/question -- and a GPU re-run of soft.
+### End-to-end, all 10 conversations: soft vs PRF + RERANK (1540 Q, token-F1)
+
+`HYPERMEM_PRF=1 HYPERMEM_RERANK=1 HYPERMEM_RERANK_POOL=120` against the
+soft default, both on GPU (RTX 4090, bf16), 40 evidence turns, 0 skipped.
+Convs 1-3 are the ones the retrieval configs were compared on, so the
+held-out column is the one to trust. Diff = paired mean difference with a
+95% bootstrap CI.
+
+| category | n | soft | PRF + RERANK | diff, all 10 | diff, held out (convs 0, 4-9; n=1108) |
+|---|---|---|---|---|---|
+| **Overall** | 1540 | 0.4724 | 0.4836 | +0.011 [+0.000, +0.022] | +0.004 [-0.009, +0.017] |
+| Multi-hop | 282 | 0.3527 | 0.4118 | **+0.059 [+0.029, +0.090]** | **+0.040 [+0.006, +0.075]** |
+| Temporal | 321 | 0.5798 | 0.5974 | +0.018 [-0.004, +0.040] | +0.022 [-0.007, +0.052] |
+| Open-domain | 96 | 0.0899 | 0.1067 | +0.017 [-0.006, +0.045] | +0.010 [-0.010, +0.029] |
+| Single-hop | 841 | 0.5152 | 0.5073 | -0.008 [-0.022, +0.007] | -0.017 [-0.034, +0.001] |
+
+- multi-hop improves, as the recall numbers predicted; single-hop, more
+  than half the questions, does not and may get slightly worse, so overall
+  is a tie on held-out conversations. **The steps stay opt-in**
+- conv 0 alone (152 Q): soft 0.4574, PRF + RERANK 0.4768 (IterRet 0.4680);
+  +0.019 [-0.010, +0.051] vs soft, +0.009 [-0.037, +0.054] vs IterRet
+- per-conversation diff ranges from -0.020 to +0.043 (6 up, 1 flat, 3 down)
+- recall is no longer what limits single-hop and temporal: on conv 0, all
+  gold evidence is retrieved for 67/70 single-hop and 36/37 temporal
+  questions, yet F1 on those is 0.46 and 0.71. The misses there are
+  answer-side (a relative phrase copied instead of the resolved date,
+  "not mentioned" with the evidence present, long answers to two-word
+  golds)
+- HyperMem answers in ~2 s/question on GPU with the graphs cached (no
+  vLLM needed), so the full 1540 Q takes under an hour
+- raw rows are not in git (16 MB): `<outputs>/c0_hm_{soft,prf_rr120}_gpu.jsonl`
+  and `<outputs>/c1-9_hm_{soft,prf_rr120}_gpu.jsonl`
+
+Not yet done: a full 10-conversation IterRet run to compare against (~30h
+on the shared box), and `HYPERMEM_FACTS`.
