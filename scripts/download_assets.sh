@@ -60,5 +60,15 @@ print(f"  MiniLM cached and working (dim={len(v)})")
 PY
 
 echo
+echo "=== ms-marco-MiniLM-L-6-v2 (HyperMem cross-encoder reranker) ==="
+# Used by WORKMEM_RETRIEVER=hypermem (HYPERMEM_RERANK, on by default). The
+# retriever raises rather than falling back if this is missing at run time.
+python - <<'PY'
+from sentence_transformers import CrossEncoder
+m = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+print(f"  cross-encoder cached and working (score={float(m.predict([('warmup', 'warmup')])[0]):.2f})")
+PY
+
+echo
 echo "Assets ready."
 du -sh "${CAIMMS_MODEL_PATH}" "${CAIMMS_ADAPTER_DIR}" 2>/dev/null || true

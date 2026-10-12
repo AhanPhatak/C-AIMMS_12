@@ -371,7 +371,16 @@ into evidence aggregation:
    episode hyperedge), its best fact's rank (through the fact hyperedge) and
    its best turn's rank -- nothing is excluded
 4. turns are ranked individually: own hybrid rank fused with their episode's
-   rank; the top 40 are the evidence
+   rank
+5. a second pass (**PRF**) repeats 1-4 with the question expanded by the
+   top facts of the first pass, and the two passes are rank-fused
+6. a cross-encoder **reranks** the top 120 candidate turns, fused with the
+   hypergraph order; the top 40 are the evidence
+7. the top 10 extracted **facts**, dated, are prepended to those turns
+
+Steps 5-7 are the default since 2026-10-12. "Soft" or "plain soft" in the
+tables below means steps 1-4 only
+(`HYPERMEM_PRF=0 HYPERMEM_RERANK=0 HYPERMEM_FACTS=0`), the earlier default.
 
 Knobs (env, read when the retriever is built):
 
@@ -379,16 +388,16 @@ Knobs (env, read when the retriever is built):
 |---|---|---|
 | `HYPERMEM_MODE` | `soft` | `strict` = original traversal |
 | `HYPERMEM_MAX_TURNS` | 40 | evidence budget, in turns (IterRet averages ~36) |
-| `HYPERMEM_FACTS` | 0 | also prepend the top-N extracted facts, dated, as evidence |
+| `HYPERMEM_FACTS` | 10 (strict: 0) | prepend the top-N extracted facts, dated, as evidence |
 | `HYPERMEM_RRF_K` | 20 | RRF constant (tuned; 60 is the textbook value) |
 | `HYPERMEM_W_EPISODE` / `_TOPIC` / `_FACT` / `_ETURN` | 1 / 0.5 / 1 / 1 | episode-score signal weights |
 | `HYPERMEM_W_TURN` / `_PRIOR` | 1 / 1 | turn score: own rank vs episode prior |
 | `HYPERMEM_PER_EPISODE_CAP` | 0 | max turns from one episode (0 = no cap) |
 | `HYPERMEM_PAGE_EXPAND` | 0 | 1 = take a selected turn's page partner too |
 | `HYPERMEM_TOPIC_TOP_K` / `_EPISODE_TOP_K` / `_FACT_TOP_K` | 3 / 8 / 20 | strict mode only |
-| `HYPERMEM_PRF` | 0 | 1 = second pass, question expanded with the top round-1 facts (`_PRF_FACTS` 5, `_PRF_BETA` 0.5, `HYPERMEM_W_PRF` 1) |
+| `HYPERMEM_PRF` | 1 | second pass, question expanded with the top round-1 facts (`_PRF_FACTS` 5, `_PRF_BETA` 0.5, `HYPERMEM_W_PRF` 1) |
 | `HYPERMEM_LINK` | 0 | 1 = entity hyperedges: facts sharing rare keywords/names with the top facts boost their episodes (`_LINK_SEEDS` 5, `HYPERMEM_W_LINK` 1) |
-| `HYPERMEM_RERANK` | 0 | 1 = cross-encoder rerank of the top candidates (`_RERANK_POOL` 80, `_RERANK_MODEL` `cross-encoder/ms-marco-MiniLM-L-6-v2`, `_RERANK_DEVICE` cpu, `HYPERMEM_W_CE` 1) |
+| `HYPERMEM_RERANK` | 1 | cross-encoder rerank of the top candidates (`_RERANK_POOL` 120, `_RERANK_MODEL` `cross-encoder/ms-marco-MiniLM-L-6-v2`, `_RERANK_DEVICE` cpu, `HYPERMEM_W_CE` 1). The retriever raises if the model cannot be loaded (`scripts/download_assets.sh` fetches it) |
 | `HYPERMEM_CE_CUTOFF` | unset | with rerank: drop turns whose cross-encoder logit is below this, keeping at least `HYPERMEM_MIN_TURNS` (8) |
 
 ### Tuning (held out: conv 0 and convs 4-9)
@@ -404,7 +413,7 @@ the defaults above with `RRF_K` 60 -> 20.
 |---|---|---|---|
 | strict | 0.282 | 0.433 | 0.358 |
 | soft, k=60 | 0.736 | 0.753 | 0.736 |
-| **soft, k=20 (default)** | **0.773** | **0.767** | **0.777** |
+| **soft, k=20** | **0.773** | **0.767** | **0.777** |
 | flat MiniLM over all turns | 0.632 | 0.627 | 0.609 |
 | flat MiniLM + BM25 over all turns | 0.697 | 0.687 | 0.695 |
 
@@ -421,9 +430,10 @@ Soft retrieval beats the same hybrid search without the hypergraph by
 the lexical channel. Multi-hop is the weak category (~0.27-0.29 all-gold),
 since its questions need evidence from several sessions at once.
 
-### Multi-hop and precision steps (opt-in, no LLM calls)
+### Multi-hop and precision steps (no LLM calls)
 
-Three additions on top of soft, all off by default:
+Three additions on top of plain soft. PRF and RERANK (pool 120) are on by
+default; LINK and the cutoff are not:
 
 - **PRF** (`HYPERMEM_PRF=1`): a second scoring pass whose query is the
   question expanded with the top round-1 facts (dense: Rocchio; lexical:
@@ -442,14 +452,14 @@ only in brackets.
 
 | config | convs 1-3 (tuning, n=432) | conv 0 (held out, n=150) | convs 4-9 (held out, n=954) | turns used |
 |---|---|---|---|---|
-| soft (default) | 0.773 [0.29] | 0.767 [0.28] | 0.777 [0.27] | 40 |
+| plain soft | 0.773 [0.29] | 0.767 [0.28] | 0.777 [0.27] | 40 |
 | PRF | 0.796 [0.35] | 0.813 [0.44] | 0.796 [0.33] | 40 |
 | LINK | 0.773 [0.30] | 0.800 [0.34] | 0.791 [0.30] | 40 |
 | PRF + LINK | 0.799 [0.37] | 0.800 [0.38] | 0.804 [0.37] | 40 |
 | RERANK | 0.808 [0.38] | 0.780 [0.31] | 0.798 [0.34] | 40 |
 | PRF + RERANK | 0.826 [0.46] | 0.813 [0.47] | 0.820 [0.43] | 40 |
 | PRF + LINK + RERANK | 0.817 [0.44] | 0.813 [0.47] | 0.816 [0.42] | 40 |
-| **PRF + RERANK, pool 120** | **0.836 [0.49]** | **0.820 [0.47]** | **0.826 [0.43]** | 40 |
+| **PRF + RERANK, pool 120 (default)** | **0.836 [0.49]** | **0.820 [0.47]** | **0.826 [0.43]** | 40 |
 | PRF + LINK + RERANK, cutoff -3 | 0.764 [0.33] | 0.747 [0.38] | 0.744 [0.26] | ~20 |
 | PRF + LINK + RERANK, cutoff 0 | 0.734 [0.30] | 0.700 [0.25] | 0.716 [0.20] | ~13 |
 
@@ -486,14 +496,14 @@ only in brackets.
   (`WORKMEM_DEVICE=cpu`) after a host driver update left CUDA unusable:
   same weights and greedy decoding, but CPU/GPU numerics can flip a few
   answers. Re-run on GPU on 2026-10-12: 0.4574 (5 of 152 scores differ)
-- `HYPERMEM_FACTS` (facts as extra evidence) was not evaluated; it is the
-  obvious next lever for multi-hop
+- these runs predate PRF, rerank and facts-as-evidence (`HYPERMEM_FACTS`
+  was 0); the current default is evaluated two sections below
 - raw rows: `cached_results/locomo_c0_{iterret,hypermem_strict,hypermem_soft}.jsonl`
 
 ### End-to-end, all 10 conversations: soft vs PRF + RERANK (1540 Q, token-F1)
 
-`HYPERMEM_PRF=1 HYPERMEM_RERANK=1 HYPERMEM_RERANK_POOL=120` against the
-soft default, both on GPU (RTX 4090, bf16), 40 evidence turns, 0 skipped.
+`HYPERMEM_PRF=1 HYPERMEM_RERANK=1 HYPERMEM_RERANK_POOL=120` (no facts)
+against plain soft, both on GPU (RTX 4090, bf16), 40 evidence turns, 0 skipped.
 Convs 1-3 are the ones the retrieval configs were compared on, so the
 held-out column is the one to trust. Diff = paired mean difference with a
 95% bootstrap CI.
@@ -508,7 +518,8 @@ held-out column is the one to trust. Diff = paired mean difference with a
 
 - multi-hop improves, as the recall numbers predicted; single-hop, more
   than half the questions, does not and may get slightly worse, so overall
-  is a tie on held-out conversations. **The steps stay opt-in**
+  is a tie on held-out conversations. On their own the two steps were not
+  worth making the default; with the facts added (next section) they are
 - conv 0 alone (152 Q): soft 0.4574, PRF + RERANK 0.4768 (IterRet 0.4680);
   +0.019 [-0.010, +0.051] vs soft, +0.009 [-0.037, +0.054] vs IterRet
 - per-conversation diff ranges from -0.020 to +0.043 (6 up, 1 flat, 3 down)
@@ -523,5 +534,51 @@ held-out column is the one to trust. Diff = paired mean difference with a
 - raw rows are not in git (16 MB): `<outputs>/c0_hm_{soft,prf_rr120}_gpu.jsonl`
   and `<outputs>/c1-9_hm_{soft,prf_rr120}_gpu.jsonl`
 
+### End-to-end: facts as evidence, and the current default (token-F1)
+
+`HYPERMEM_FACTS=10` prepends the 10 best-ranked extracted facts, each with
+its episode's date, to the 40 turns (50 evidence items). First tried on
+convs 1-3 on top of PRF + RERANK, then checked on the held-out
+conversations. All runs on GPU, 0 skipped.
+
+Convs 1-3 (432 Q), variants of PRF + RERANK; diff vs the 40-turn row:
+
+| evidence | overall | multi-hop | temporal | single-hop | diff [95% CI] |
+|---|---|---|---|---|---|
+| 40 turns | 0.498 | 0.450 | 0.639 | 0.494 | -- |
+| 20 turns | 0.475 | 0.396 | 0.629 | 0.473 | -0.023 [-0.043, -0.003] |
+| 12 turns | 0.466 | 0.350 | 0.611 | 0.480 | -0.031 [-0.055, -0.008] |
+| cutoff -3 (~22 turns) | 0.484 | 0.417 | 0.638 | 0.480 | -0.013 [-0.034, +0.008] |
+| **40 turns + 10 facts** | **0.540** | 0.439 | **0.744** | **0.533** | **+0.043 [+0.018, +0.067]** |
+
+Held-out convs 0, 4-9 (1108 Q):
+
+| config | overall | multi-hop | temporal | open-domain | single-hop |
+|---|---|---|---|---|---|
+| plain soft | 0.4746 | 0.3570 | 0.5587 | 0.1090 | 0.5294 |
+| PRF + RERANK | 0.4781 | 0.3971 | 0.5806 | 0.1187 | 0.5127 |
+| plain soft + 10 facts | 0.5202 | 0.3764 | 0.6577 | 0.1621 | 0.5625 |
+| **PRF + RERANK + 10 facts (default)** | **0.5287** | **0.4042** | **0.6652** | 0.1440 | **0.5684** |
+
+- facts over plain soft: +0.046 [+0.029, +0.062]; temporal +0.099,
+  open-domain +0.053, single-hop +0.033, multi-hop +0.019 (n.s.)
+- **default over plain soft: +0.054 [+0.037, +0.071]**, positive on all
+  seven held-out conversations (+0.035 to +0.100)
+- PRF + RERANK on top of the facts: +0.009 [-0.001, +0.019] overall,
+  multi-hop +0.028 [+0.001, +0.055]; the single-hop dip they showed
+  without facts is gone
+- fewer turns is worse, not better: the 4B answerer is not being drowned
+  by 40 turns
+- all 10 conversations (1540 Q; convs 1-3 from the tuning run): plain soft
+  0.4724 -> default **0.5320**, +0.060 [+0.045, +0.074]; multi-hop 0.4139,
+  temporal 0.6880, open-domain 0.1284, single-hop 0.5581
+- conv 0 (152 Q): default 0.4921 vs IterRet 0.4680, +0.024
+  [-0.020, +0.069] -- still a statistical tie; temporal 0.833 vs 0.690,
+  multi-hop 0.363 vs 0.395
+- only 10 facts was tried (not 5 or 20)
+- raw rows, not in git: `<outputs>/ho_{soft,new}_facts10.jsonl` (held out)
+  and `<outputs>/t13_new_{t20,t12,cut-3,facts10}.jsonl` (convs 1-3)
+
 Not yet done: a full 10-conversation IterRet run to compare against (~30h
-on the shared box), and `HYPERMEM_FACTS`.
+on the shared box); other fact counts; keeping the retriever's order
+instead of the eval's MiniLM re-sort of the evidence (`evidence_filter.py`).

@@ -9,7 +9,7 @@ steering its attention via low-rank corrections.
 
 The evidence can alternatively come from a **HyperMem**-style topic/episode/fact
 hypergraph (`WORKMEM_RETRIEVER=hypermem`); on the conv-0 smoke set it ties IterRet
-(0.4555 vs 0.4680 token-F1) -- see
+(0.4921 vs 0.4680 token-F1; 0.5320 on all 1540 questions) -- see
 [`adaptive_memory_structures/README_HYPERGRAPH.md`](adaptive_memory_structures/README_HYPERGRAPH.md).
 
 ## Start here

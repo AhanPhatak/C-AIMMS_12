@@ -299,10 +299,11 @@ pkill -f 'vllm.entrypoints.openai.api_server'; sleep 3; lsof -ti:8000 | xargs -r
    "is the retrieval actually finding the answer" number.
 4. **In-domain δ-mem test on Qasper/LongBench** (see §6).
 5. **HyperMem retriever follow-ups** (§2.1): soft re-run on GPU = 0.4574
-   (confirms 0.4555). Opt-in PRF + cross-encoder rerank (2026-10-12) lifts
-   multi-hop all-gold recall ~0.28 -> ~0.45 and multi-hop F1 +0.04 on
-   held-out conversations, but overall is a tie with soft on the full
-   1540 Q (0.4836 vs 0.4724; single-hop flat/down) -- see
-   README_HYPERGRAPH.md. Still open: `HYPERMEM_FACTS=10`; answer-side
-   losses (gold retrieved but F1 low); a full 1540-Q IterRet run to compare
+   (confirms 0.4555). New default since 2026-10-12: PRF + cross-encoder
+   rerank + the top 10 extracted facts as evidence. Held-out conversations
+   (0, 4-9; 1108 Q): 0.5287 vs 0.4746 for the old soft default, +0.054
+   [+0.037, +0.071]; all 1540 Q: 0.5320; conv 0: 0.4921 (IterRet 0.4680,
+   still a tie) -- see README_HYPERGRAPH.md. The §2.1 table above is the
+   old soft default. Still open: other fact counts; answer-side losses
+   (gold retrieved but F1 low); a full 1540-Q IterRet run to compare
    against; an IterRet + HyperMem-facts hybrid.

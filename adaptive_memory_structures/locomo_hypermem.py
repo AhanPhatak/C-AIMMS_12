@@ -231,8 +231,10 @@ class HyperMemRetriever:
         its best fact's rank (through the fact hyperedge) and its best turn's
         rank. Turns are then ranked individually, by their own hybrid score
         fused with their episode's rank, so a long episode contributes its
-        relevant turns rather than all of them. The top facts, dated, can be
-        prepended as evidence too (HYPERMEM_FACTS).
+        relevant turns rather than all of them. On top of that, on by
+        default: a second pass expanded with the top facts (HYPERMEM_PRF), a
+        cross-encoder rerank of the candidate turns (HYPERMEM_RERANK), and the
+        top facts, dated, prepended as evidence (HYPERMEM_FACTS).
     """
 
     def __init__(
@@ -248,7 +250,10 @@ class HyperMemRetriever:
     ):
         self.mode = mode or os.environ.get("HYPERMEM_MODE", "soft")
         self.max_turns = max_turns if max_turns is not None else _env_int("HYPERMEM_MAX_TURNS", 40)
-        self.n_facts = n_facts if n_facts is not None else _env_int("HYPERMEM_FACTS", 0)
+        # top extracted facts, dated, prepended to the turns (soft mode default 10:
+        # +0.05 token-F1 on held-out conversations, mostly temporal)
+        self.n_facts = n_facts if n_facts is not None else _env_int(
+            "HYPERMEM_FACTS", 10 if self.mode == "soft" else 0)
         # strict-mode knobs
         self.topic_top_k = _env_int("HYPERMEM_TOPIC_TOP_K", 3)
         self.episode_top_k = _env_int("HYPERMEM_EPISODE_TOP_K", 8)
@@ -269,7 +274,7 @@ class HyperMemRetriever:
         #  LINK -- entity hyperedges: facts sharing a (rare) keyword or name with
         #          the top facts boost their episodes, so evidence about the same
         #          entity in other sessions becomes reachable.
-        self.prf = _env_int("HYPERMEM_PRF", 0)
+        self.prf = _env_int("HYPERMEM_PRF", 1)
         self.prf_facts = _env_int("HYPERMEM_PRF_FACTS", 5)
         self.prf_beta = _env_float("HYPERMEM_PRF_BETA", 0.5)
         self.w_prf = _env_float("HYPERMEM_W_PRF", 1.0)
@@ -278,8 +283,8 @@ class HyperMemRetriever:
         self.w_link = _env_float("HYPERMEM_W_LINK", 1.0)
         # Step 2 (precision): cross-encoder rerank of the top candidates, then an
         # adaptive cut instead of always filling max_turns.
-        self.rerank = _env_int("HYPERMEM_RERANK", 0)
-        self.rerank_pool = _env_int("HYPERMEM_RERANK_POOL", 80)
+        self.rerank = _env_int("HYPERMEM_RERANK", 1)
+        self.rerank_pool = _env_int("HYPERMEM_RERANK_POOL", 120)
         self.rerank_model = os.environ.get("HYPERMEM_RERANK_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
         self.w_ce = _env_float("HYPERMEM_W_CE", 1.0)        # CE rank vs hypergraph rank in the final order
         self.ce_cutoff = os.environ.get("HYPERMEM_CE_CUTOFF")  # None = no cut; else min CE logit kept
@@ -458,7 +463,13 @@ class HyperMemRetriever:
     def _cross_encoder(self):
         if self._ce is None:
             from sentence_transformers import CrossEncoder
-            self._ce = CrossEncoder(self.rerank_model, device=os.environ.get("HYPERMEM_RERANK_DEVICE", "cpu"))
+            try:
+                self._ce = CrossEncoder(self.rerank_model, device=os.environ.get("HYPERMEM_RERANK_DEVICE", "cpu"))
+            except Exception as exc:  # noqa: BLE001
+                # no silent fallback: a run without the reranker is a different retriever
+                raise RuntimeError(
+                    f"HyperMem rerank model {self.rerank_model!r} failed to load ({exc}). Run "
+                    "scripts/download_assets.sh, or set HYPERMEM_RERANK=0 to retrieve without it.") from exc
         return self._ce
 
     def _retrieve_soft(self, q: np.ndarray, question: str) -> tuple[list[str], dict]:

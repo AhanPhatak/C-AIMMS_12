@@ -9,7 +9,10 @@ Always reports "strict" (the original traversal) and two flat baselines over the
 same turns (MiniLM only; MiniLM + BM25), plus each NAME:ENV config given.
 
 usage: python3 scripts/hypermem_recall.py <samples, e.g. 1,2,3> [NAME:VAR=val,VAR=val ...]
-  e.g. python3 scripts/hypermem_recall.py 1,2,3 soft:HYPERMEM_MODE=soft k60:HYPERMEM_RRF_K=60
+  e.g. python3 scripts/hypermem_recall.py 1,2,3 default:HYPERMEM_MODE=soft \
+         plain:HYPERMEM_PRF=0,HYPERMEM_RERANK=0,HYPERMEM_FACTS=0
+Each config is the retriever's defaults plus the given overrides ("plain" above
+is soft retrieval without PRF, rerank or facts -- the "soft" rows in the README).
 """
 import json, os, re, sys, logging
 import numpy as np
