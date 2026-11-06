@@ -1,7 +1,8 @@
 # del-mem fork — Handoff
 
 **Repo:** `github.com/bm2772/del-mem` (branch pushed to `main`).
-**Last updated:** 2026-10-10 (HyperMem retriever, §2.1; earlier sections 2026-09-12).
+**Last updated:** 2026-11-06 (HyperMem results: `docs/HYPERGRAPH_RESULTS_2026-11.md`);
+2026-10-10 (HyperMem retriever, §2.1; earlier sections 2026-09-12).
 Also pushed to `github.com/AhanPhatak/C-AIMMS_12` `main`.
 **Scope:** this is the handoff for the *bm2772/del-mem fork* of the workmem-vertical
 project. It records what THIS fork changed and measured. It does **not** replace
@@ -306,6 +307,10 @@ pkill -f 'vllm.entrypoints.openai.api_server'; sleep 3; lsof -ti:8000 | xargs -r
    (0, 4-9; 1108 Q): 0.5287 vs 0.4746 for the old soft default, +0.054
    [+0.037, +0.071]; all 1540 Q: 0.5320; conv 0: 0.4921 (IterRet 0.4680,
    still a tie) -- see README_HYPERGRAPH.md. The §2.1 table above is the
-   old soft default. Still open: other fact counts; answer-side losses
-   (gold retrieved but F1 low); a full 1540-Q IterRet run to compare
-   against; an IterRet + HyperMem-facts hybrid.
+   old soft default. **Since 2026-11-04** the default adds HyperMem's
+   Qwen3-Embedding-4B / Qwen3-Reranker-4B and a speaker boost: all 1540 Q
+   F1 0.559 stemmed (0.543 unstemmed vs this 0.5320), judge 0.804 vs 0.783,
+   multi-hop judge 0.660 -> 0.730. Chain-of-thought, general prompts, paper-style
+   formation and topic-level facts were tested and not adopted. Everything:
+   `docs/HYPERGRAPH_RESULTS_2026-11.md`. Still open: a full 1540-Q IterRet
+   run to compare against; an IterRet + HyperMem-facts hybrid.

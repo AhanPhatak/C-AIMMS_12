@@ -33,4 +33,9 @@ rebuild. The eval reads them from `$CAIMMS_OUTPUT_DIR/hypermem_cache/`:
     source env.sh && mkdir -p "$CAIMMS_OUTPUT_DIR/hypermem_cache" && \
       cp -n cached_graphs/hypermem/*.json "$CAIMMS_OUTPUT_DIR/hypermem_cache/"
 
+These graphs carry no `query_patterns`; that only matters with
+`HYPERMEM_FACT_PATTERNS=1` (off by default). LongBench hypergraphs are not
+cached here: `LB_RETRIEVER=hypermem` rebuilds them (all six QA tasks took about
+2.5h on two GPUs, 2026-11-05).
+
 The matching conv-0 result rows are `../cached_results/locomo_c0_{iterret,hypermem_strict,hypermem_soft}.jsonl`.

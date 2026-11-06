@@ -11,6 +11,8 @@ It is also wired into the main LoCoMo delta-Mem eval as an alternative
 retriever to IterRet (`WORKMEM_RETRIEVER=hypermem`) -- see
 **[LoCoMo eval integration](#locomo-eval-integration-workmem_retrieverhypermem)**
 for how, the retrieval redesign that made it competitive, and results.
+Current results and defaults in one place: `docs/HYPERGRAPH_RESULTS_2026-11.md`
+(LoCoMo all 1540 Q: F1 0.559 stemmed, LLM judge 0.804).
 
 ## Why
 
@@ -281,8 +283,8 @@ episode_id, relation, weights}], pages: [{id, text, episode_id}]}`.
 - **Mean-pooled causal-LM embeddings retrieve poorly.** `QwenClient.embed()`
   (mean of the last hidden state) is what `HypergraphMemory.retrieve` scores
   with; on conv-26 it missed "What does Melanie like to paint?" even though
-  the fact was in the graph. The eval integration below scores with MiniLM
-  (IterRet's sentence encoder) instead.
+  the fact was in the graph. The eval integration below scores with a sentence
+  encoder instead: MiniLM (IterRet's) at first, Qwen3-Embedding-4B since 2026-11-04.
 - **Topics come out very broad on whole conversations.** Streaming topic
   matching yields 4-11 topics per LoCoMo conversation, one of which often
   holds a third to half of all episodes (conv 0: 7 topics, one with 26 of
@@ -308,10 +310,17 @@ WORKMEM_RETRIEVER=hypermem WORKMEM_MAX_SAMPLES=1 \
 # or: bash scripts/run_everything.sh --smoke --retriever hypermem
 
 # With every hypergraph cached the eval never calls vLLM, so it can also run
-# without run_pipeline.sh, on one GPU or even CPU (WORKMEM_DEVICE=cpu, ~70s/question):
-cd delta-Mem && WORKMEM_RETRIEVER=hypermem WORKMEM_SAMPLES=0 WORKMEM_DEVICE=cpu \
+# without run_pipeline.sh. The default retrieval models need a second GPU
+# (answer model on cuda:0, retrieval on the last visible one):
+cd delta-Mem && CUDA_VISIBLE_DEVICES=0,1 WORKMEM_RETRIEVER=hypermem WORKMEM_SAMPLES=0 \
   WORKMEM_OUTPUT_FILE="$CAIMMS_OUTPUT_DIR/c0_hypermem.jsonl" python3 -m deltamem.workmem.eval_locomo_iterret_mock
+# On one GPU or CPU (WORKMEM_DEVICE=cpu, ~70s/question), use the previous retrieval stack:
+#   HYPERMEM_EMBED_MODEL= HYPERMEM_RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2 HYPERMEM_LAYER_RERANK=0
 ```
+
+run_pipeline.sh and run_everything.sh pick that layout themselves (see
+"Paper retrieval models" below). LongBench with `LB_RETRIEVER=hypermem` builds its
+graphs inside the eval, so through run_pipeline.sh it needs the previous stack.
 
 ### Building the conversation hypergraph (`locomo_hypermem.py`)
 
@@ -382,8 +391,8 @@ can hold half the conversation -- it is unreachable.
 into evidence aggregation:
 
 1. every topic, episode, fact and turn is ranked against the question by
-   **hybrid dense + BM25 reciprocal-rank fusion** (MiniLM + a Porter-stemmed
-   BM25). HyperMem's own retrieval is hybrid; the port had dropped the
+   **hybrid dense + BM25 reciprocal-rank fusion** (Qwen3-Embedding-4B, MiniLM
+   before 2026-11-04, + a Porter-stemmed BM25). HyperMem's own retrieval is hybrid; the port had dropped the
    lexical half, which matters for names and dates
 2. hyperedge embedding propagation (alpha 0.5) is still applied on the dense side
 3. an episode's score fuses its own rank, its topic's rank (through the
@@ -393,11 +402,16 @@ into evidence aggregation:
    rank
 5. a second pass (**PRF**) repeats 1-4 with the question expanded by the
    top facts of the first pass, and the two passes are rank-fused
-6. a cross-encoder **reranks** the top 120 candidate turns, fused with the
-   hypergraph order; the top 40 are the evidence
+6. a reranker (Qwen3-Reranker-4B; ms-marco MiniLM before 2026-11-04)
+   **reranks** the top 120 candidate turns, fused with the hypergraph order;
+   the top 40 are the evidence. Since 2026-11-04 each pass also reranks its
+   top 100 topics, episodes and facts (`HYPERMEM_LAYER_RERANK`)
 7. the top 10 extracted **facts**, dated, are prepended to those turns
+8. since 2026-11-04, when the question names exactly one speaker, that
+   speaker's turns are boosted in each pass (`HYPERMEM_SPEAKER_BOOST`)
 
-Steps 5-7 are the default since 2026-10-12. "Soft" or "plain soft" in the
+Steps 5-7 are the default since 2026-10-12, step 8 and the paper models since
+2026-11-04. "Soft" or "plain soft" in the
 tables below means steps 1-4 only
 (`HYPERMEM_PRF=0 HYPERMEM_RERANK=0 HYPERMEM_FACTS=0`), the earlier default.
 
@@ -598,13 +612,17 @@ Held-out convs 0, 4-9 (1108 Q):
 - conv 0 (152 Q): default 0.4921 vs IterRet 0.4680, +0.024
   [-0.020, +0.069] -- still a statistical tie; temporal 0.833 vs 0.690,
   multi-hop 0.363 vs 0.395
-- only 10 facts was tried (not 5 or 20)
+- other fact counts were tried later on convs 1-3 (same unstemmed F1): 5 facts
+  0.540, 20 0.543, 30 0.545 vs 10 0.540 (30 vs 10: +0.004 [-0.014, +0.023]), so 10 stayed
 - raw rows, not in git: `<outputs>/ho_{soft,new}_facts10.jsonl` (held out)
   and `<outputs>/t13_new_{t20,t12,cut-3,facts10}.jsonl` (convs 1-3)
 
-Not yet done: a full 10-conversation IterRet run to compare against (~30h
-on the shared box); other fact counts; keeping the retriever's order
-instead of the eval's MiniLM re-sort of the evidence (`evidence_filter.py`).
+Keeping the retriever's order instead of the eval's MiniLM re-sort of the
+evidence (`WORKMEM_EVIDENCE_ORDER=retriever`, `evidence_filter.py`) was tried
+later too. Held out, unstemmed F1 vs 0.5287: turns by rank, facts first 0.5252
+(-0.004 [-0.017, +0.010]); turns by rank, facts last 0.5367 (+0.008 [-0.006,
++0.022]). Not adopted. Still not done: a full 10-conversation IterRet run to
+compare against (~30h on the shared box).
 
 ### Topic layer: LLM topics vs embedding clusters vs none (recall, 2026-10-25)
 

@@ -8,9 +8,13 @@ online state `S` (OSAM) → the frozen Qwen3-4B backbone generates an answer wit
 steering its attention via low-rank corrections.
 
 The evidence can alternatively come from a **HyperMem**-style topic/episode/fact
-hypergraph (`WORKMEM_RETRIEVER=hypermem`); on the conv-0 smoke set it ties IterRet
-(0.4921 vs 0.4680 token-F1; 0.5320 on all 1540 questions) -- see
+hypergraph (`WORKMEM_RETRIEVER=hypermem`). With its current defaults (HyperMem's
+Qwen3-Embedding-4B and Qwen3-Reranker-4B, plus a speaker boost) it scores F1 0.559
+(Porter-stemmed) and LLM-judge 0.804 on all 1540 LoCoMo questions, against 0.546 / 0.783
+before; on conv 0 IterRet scores 0.492 (stemmed) -- see
+[`docs/HYPERGRAPH_RESULTS_2026-11.md`](docs/HYPERGRAPH_RESULTS_2026-11.md) and
 [`adaptive_memory_structures/README_HYPERGRAPH.md`](adaptive_memory_structures/README_HYPERGRAPH.md).
+Its default retrieval models need a second GPU in place of vLLM; the run scripts handle that.
 
 ## Start here
 
@@ -26,6 +30,7 @@ changes and results (latest: §2.1).
 docs/
   HANDOFF.md                  project state, results, open issues, traps  <- READ FIRST
   HANDOFF_DELMEM_FORK.md      this fork's changes and results
+  HYPERGRAPH_RESULTS_2026-11.md   HyperMem experiments + full LoCoMo/LongBench run
   ENVIRONMENT.md              environment + install notes
   C-AIMMS_Pipeline_Teardown.pdf
 env.sh                        all paths, every machine -- source this first
@@ -62,7 +67,7 @@ bash scripts/run_pipeline.sh             # all 1540, ~30-35h
 
 # or everything from a fresh clone (env, assets, caches, eval, score):
 bash scripts/run_everything.sh --smoke                         # IterRet
-bash scripts/run_everything.sh --smoke --retriever hypermem    # HyperMem
+bash scripts/run_everything.sh --smoke --retriever hypermem    # HyperMem (both GPUs, no vLLM)
 ```
 
 `env.sh` sets `PYTHONPATH` and every path from its own location, so the same tree runs
