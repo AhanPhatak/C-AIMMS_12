@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Fetches the two model assets that are too large to ship in this bundle.
+# Fetches the model assets that are too large to ship in this bundle.
 # The Delta-Mem adapter and the LoCoMo dataset are already here -- only the
-# Qwen base weights and the MiniLM retrieval encoder need downloading.
+# Qwen base weights and the retrieval encoders need downloading.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -60,14 +60,11 @@ print(f"  MiniLM cached and working (dim={len(v)})")
 PY
 
 echo
-echo "=== ms-marco-MiniLM-L-6-v2 (HyperMem cross-encoder reranker) ==="
-# Used by WORKMEM_RETRIEVER=hypermem (HYPERMEM_RERANK, on by default). The
-# retriever raises rather than falling back if this is missing at run time.
-python - <<'PY'
-from sentence_transformers import CrossEncoder
-m = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
-print(f"  cross-encoder cached and working (score={float(m.predict([('warmup', 'warmup')])[0]):.2f})")
-PY
+echo "=== Qwen3-Embedding-4B, Qwen3-Reranker-4B (HyperMem retrieval, ~8GB each) ==="
+# Used by WORKMEM_RETRIEVER=hypermem (HYPERMEM_EMBED_MODEL, HYPERMEM_RERANK_MODEL).
+# The retriever raises rather than falling back if these are missing at run time.
+hf download Qwen/Qwen3-Embedding-4B || huggingface-cli download Qwen/Qwen3-Embedding-4B
+hf download Qwen/Qwen3-Reranker-4B || huggingface-cli download Qwen/Qwen3-Reranker-4B
 
 echo
 echo "Assets ready."

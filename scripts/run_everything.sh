@@ -27,7 +27,9 @@
 # --retriever hypermem swaps ONLY the evidence source for the HyperMem hypergraph
 # (WORKMEM_RETRIEVER=hypermem); filter, delta-mem write, prompt and scoring are
 # unchanged. The 10 LoCoMo hypergraphs ship pre-built in cached_graphs/hypermem/
-# (~6h of vLLM calls to rebuild); any missing one is built inside the eval.
+# (~6h of vLLM calls to rebuild). Its default retrieval models take a second GPU in
+# place of vLLM, so a missing graph stops the run (run_pipeline.sh, header); with
+# HYPERMEM_EMBED_MODEL= any missing one is built inside the eval.
 # Step 7 is separate: a small standalone hypergraph build of conv-26 (3 sessions)
 # for hypergraph_visualizer.html.
 set -euo pipefail

@@ -18,9 +18,10 @@ Build (once per conversation, cached as JSON):
 Retrieve (per question): the same coarse-to-fine traversal as
 HypergraphMemory.retrieve (topic -> hard-filtered episodes -> hard-filtered
 facts -> their pages), with embedding propagation, but
-  - embeddings come from the caller's sentence encoder (the eval passes
-    MiniLM, the encoder IterRet uses), not mean-pooled causal-LM states,
-    which retrieved poorly in testing
+  - embeddings come from Qwen3-Embedding-4B, HyperMem's own encoder
+    (HYPERMEM_EMBED_MODEL; empty = the caller's sentence encoder, which the
+    eval passes as MiniLM), not mean-pooled causal-LM states, which retrieved
+    poorly in testing
   - top-k's are sized for a whole conversation, not one session
   - output is the selected pages' individual turns, rendered
     "[date] Speaker: text" like IterRet's evidence, so everything downstream
@@ -31,6 +32,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 from typing import Any, Callable
@@ -75,6 +77,171 @@ def _pages_for_session(turns: list[dict], session_ts: str) -> list[tuple[Page, l
     return out
 
 
+class _DocPage(Page):
+    """A document passage as a Page: plain text, no User:/Agent: framing."""
+
+    def to_text(self) -> str:
+        return self.user_text
+
+
+def _fact_json(f: FactNode, scope: str = "episode") -> dict:
+    return {"id": f.id, "episode_id": f.episode_id, "content": f.content, "confidence": f.confidence,
+            "temporal": f.temporal, "spatial": f.spatial, "keywords": f.keywords,
+            "query_patterns": f.query_patterns, "scope": scope}
+
+
+def add_topic_facts(data: dict, llm_client: Any, *, replace: bool, workers: int = 1) -> dict:
+    """HyperMem's fact extraction: facts come from all of a topic's episodes read
+    together, on top of (or, with ``replace``, instead of) the per-episode facts.
+    Episodes, topics and pages are unchanged. Returns a new graph dict."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    from hypergraph_extraction import assign_fact_roles, extract_facts_for_topic
+
+    if not data["topics"]:
+        raise ValueError("topic-level facts need LLM topics (HYPERMEM_BUILD_TOPICS=llm)")
+    page_turns = {p["id"]: p["turns"] for p in data["pages"]}
+    episodes = {e["id"]: e for e in data["episodes"]}
+    order = {e["id"]: i for i, e in enumerate(data["episodes"])}
+
+    def extract(topic):
+        ids = sorted((e for e in topic["episode_ids"] if e in episodes), key=order.__getitem__)
+        segments = [(e, "\n".join(t for p in episodes[e]["page_ids"] for t in page_turns[p])) for e in ids]
+        return extract_facts_for_topic(topic["title"], topic["summary"], segments, llm_client)
+
+    def roles(job):
+        eid, ep_facts = job
+        return assign_fact_roles(ep_facts, eid, episodes[eid]["summary"], llm_client)
+
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
+        by_episode: dict[str, list[FactNode]] = {}
+        for facts in pool.map(extract, data["topics"]):
+            for f in facts:
+                by_episode.setdefault(f.episode_id, []).append(f)
+        jobs = sorted(by_episode.items(), key=lambda job: order[job[0]])
+        edges = list(pool.map(roles, jobs))
+
+    new_facts = [_fact_json(f, "topic") for _, facts in jobs for f in facts]
+    new_edges = [{"id": h.id, "episode_id": h.episode_id, "relation": h.relation, "weights": h.weights} for h in edges]
+    return {**data,
+            "facts": new_facts if replace else data["facts"] + new_facts,
+            "fact_hyperedges": new_edges if replace else data["fact_hyperedges"] + new_edges,
+            "params": {**data["params"], "fact_scope": "topic" if replace else "both"}}
+
+
+def _build_hypergraph(
+    sessions: list[tuple[int, str, list[tuple[Page, list[str]]]]],
+    llm_client: Any,
+    seg_model: Any,
+    seg_tokenizer: Any,
+    *,
+    gamma: float,
+    min_block_size: int,
+    topic_match_batch_size: int,
+    log: Callable[[str], None],
+    topics_mode: str = "llm",
+    workers: int = 1,
+) -> dict:
+    """``sessions``: (number, timestamp, [(Page, rendered turns)]) in order. Each
+    is surprise-segmented on its own; topics are streamed over all episodes.
+
+    ``workers`` > 1 runs the per-episode LLM calls (summary, facts, fact roles)
+    for different episodes concurrently; each episode's three calls stay in
+    order, and the output keeps segmentation order. ``topics_mode`` "none"
+    skips the LLM topic stage (the retriever then clusters episodes itself,
+    see HYPERMEM_RETOPIC): it is the serial, most expensive part of the build
+    and measured to add no recall in soft mode (README_HYPERGRAPH.md)."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    from hypergraph_extraction import (
+        assign_fact_roles,
+        build_topics_for_session,
+        extract_facts_for_episode,
+        summarize_episode,
+    )
+    from surprise_episode_segmenter import PageEpisodeSegmenter
+
+    if topics_mode not in ("llm", "none"):
+        raise ValueError(f"topics_mode must be 'llm' or 'none', got {topics_mode!r}")
+    segmenter = PageEpisodeSegmenter(gamma=gamma, min_block_size=min_block_size)
+    t0 = time.time()
+
+    # 1. segment every session (in-process LM, sequential)
+    segmented: list[tuple[int, str, dict, list[list[Page]]]] = []
+    for snum, session_ts, paged in sessions:
+        pages = [p for p, _ in paged]
+        groups = segmenter.segment(pages, seg_model, seg_tokenizer)
+        segmented.append((snum, session_ts, {p.page_id: r for p, r in paged}, groups))
+        log(f"[hypermem] session {snum}: {len(pages)} pages -> {len(groups)} episodes "
+            f"({time.time() - t0:.0f}s)")
+
+    # 2. per-episode LLM extraction, episodes in parallel
+    jobs = [(snum, ts, rendered, group) for snum, ts, rendered, groups in segmented for group in groups]
+
+    def extract(job):
+        group = job[3]
+        subject, summary = summarize_episode(group, llm_client)
+        episode = EpisodeNode(page_ids=[p.page_id for p in group], subject=subject, summary=summary)
+        ep_facts = extract_facts_for_episode(group, episode.id, llm_client)
+        he = assign_fact_roles(ep_facts, episode.id, summary, llm_client)
+        return episode, ep_facts, he
+
+    t1 = time.time()
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
+        results = list(pool.map(extract, jobs))
+
+    pages_out: list[dict] = []
+    episodes: list[EpisodeNode] = []
+    episode_session: dict[str, int] = {}
+    facts: dict[str, FactNode] = {}
+    fact_hyperedges: dict[str, FactHyperedge] = {}
+    for (snum, session_ts, rendered_by_id, group), (episode, ep_facts, he) in zip(jobs, results):
+        episodes.append(episode)
+        episode_session[episode.id] = snum
+        facts.update((f.id, f) for f in ep_facts)
+        fact_hyperedges[he.id] = he
+        for p in group:
+            pages_out.append({
+                "id": p.page_id, "session": snum, "date": session_ts,
+                "turns": rendered_by_id[p.page_id], "episode_id": episode.id,
+            })
+    log(f"[hypermem] extracted {len(episodes)} episodes / {len(facts)} facts in "
+        f"{time.time() - t1:.0f}s ({workers} workers)")
+
+    # 3. topics: streamed over all episodes in temporal order (inherently serial)
+    if topics_mode == "llm":
+        t2 = time.time()
+        topics, episode_hyperedges = build_topics_for_session(
+            episodes, llm_client, batch_size=topic_match_batch_size,
+            strict=_env_int("HYPERMEM_TOPIC_STRICT", 0) == 1,
+        )
+        log(f"[hypermem] topics: {len(topics)} in {time.time() - t2:.0f}s")
+    else:
+        topics, episode_hyperedges = {}, {}
+    log(f"[hypermem] built: {len(topics)} topics, {len(episodes)} episodes, "
+        f"{len(facts)} facts in {time.time() - t0:.0f}s")
+
+    data = {
+        "version": BUILD_VERSION,
+        "params": {"gamma": gamma, "min_block_size": min_block_size, "topics": topics_mode},
+        "topics": [{"id": t.id, "title": t.title, "summary": t.summary, "episode_ids": t.episode_ids}
+                   for t in topics.values()],
+        "episodes": [{"id": e.id, "subject": e.subject, "summary": e.summary, "page_ids": e.page_ids,
+                      "session": episode_session[e.id]} for e in episodes],
+        "facts": [_fact_json(f) for f in facts.values()],
+        "episode_hyperedges": [{"id": h.id, "topic_id": h.topic_id, "relation": h.relation,
+                                "weights": h.weights} for h in episode_hyperedges.values()],
+        "fact_hyperedges": [{"id": h.id, "episode_id": h.episode_id, "relation": h.relation,
+                             "weights": h.weights} for h in fact_hyperedges.values()],
+        "pages": pages_out,
+    }
+    fact_scope = os.environ.get("HYPERMEM_FACT_SCOPE", "episode")  # episode | topic | both
+    if fact_scope != "episode":
+        data = add_topic_facts(data, llm_client, replace=fact_scope == "topic", workers=workers)
+        log(f"[hypermem] {fact_scope} facts: {len(data['facts'])}")
+    return data
+
+
 def build_conversation_hypergraph(
     conv_block: dict,
     llm_client: Any,
@@ -84,75 +251,50 @@ def build_conversation_hypergraph(
     gamma: float = 0.5,
     min_block_size: int = 1,
     topic_match_batch_size: int = 10,
+    topics_mode: str = "llm",
+    workers: int = 1,
     log: Callable[[str], None] = print,
 ) -> dict:
     """Build the whole-conversation hypergraph. Returns a JSON-serialisable dict."""
-    from hypergraph_extraction import (
-        assign_fact_roles,
-        build_topics_for_session,
-        extract_facts_for_episode,
-        summarize_episode,
-    )
-    from surprise_episode_segmenter import PageEpisodeSegmenter
-
-    segmenter = PageEpisodeSegmenter(gamma=gamma, min_block_size=min_block_size)
-    t0 = time.time()
-
-    pages_out: list[dict] = []
-    episodes: list[EpisodeNode] = []
-    episode_session: dict[str, int] = {}
-    facts: dict[str, FactNode] = {}
-    fact_hyperedges: dict[str, FactHyperedge] = {}
-
+    sessions = []
     for snum in _session_nums(conv_block):
         turns = conv_block.get(f"session_{snum}") or []
         if not turns:
             continue
         session_ts = conv_block.get(f"session_{snum}_date_time", f"Session {snum}")
-        paged = _pages_for_session(turns, session_ts)
-        rendered_by_id = {p.page_id: r for p, r in paged}
-        pages = [p for p, _ in paged]
+        sessions.append((snum, session_ts, _pages_for_session(turns, session_ts)))
+    return _build_hypergraph(sessions, llm_client, seg_model, seg_tokenizer, gamma=gamma,
+                             min_block_size=min_block_size,
+                             topic_match_batch_size=topic_match_batch_size,
+                             topics_mode=topics_mode, workers=workers, log=log)
 
-        groups = segmenter.segment(pages, seg_model, seg_tokenizer)
-        for group in groups:
-            subject, summary = summarize_episode(group, llm_client)
-            episode = EpisodeNode(page_ids=[p.page_id for p in group], subject=subject, summary=summary)
-            episodes.append(episode)
-            episode_session[episode.id] = snum
-            ep_facts = extract_facts_for_episode(group, episode.id, llm_client)
-            facts.update((f.id, f) for f in ep_facts)
-            he = assign_fact_roles(ep_facts, episode.id, summary, llm_client)
-            fact_hyperedges[he.id] = he
-            for p in group:
-                pages_out.append({
-                    "id": p.page_id, "session": snum, "date": session_ts,
-                    "turns": rendered_by_id[p.page_id], "episode_id": episode.id,
-                })
-        log(f"[hypermem] session {snum}: {len(pages)} pages -> {len(groups)} episodes "
-            f"({len(episodes)} episodes / {len(facts)} facts so far, {time.time() - t0:.0f}s)")
 
-    topics, episode_hyperedges = build_topics_for_session(
-        episodes, llm_client, batch_size=topic_match_batch_size,
-    )
-    log(f"[hypermem] built: {len(topics)} topics, {len(episodes)} episodes, "
-        f"{len(facts)} facts in {time.time() - t0:.0f}s")
-
-    return {
-        "version": BUILD_VERSION,
-        "params": {"gamma": gamma, "min_block_size": min_block_size},
-        "topics": [{"id": t.id, "title": t.title, "summary": t.summary, "episode_ids": t.episode_ids}
-                   for t in topics.values()],
-        "episodes": [{"id": e.id, "subject": e.subject, "summary": e.summary, "page_ids": e.page_ids,
-                      "session": episode_session[e.id]} for e in episodes],
-        "facts": [{"id": f.id, "episode_id": f.episode_id, "content": f.content,
-                   "confidence": f.confidence, "temporal": f.temporal, "spatial": f.spatial,
-                   "keywords": f.keywords} for f in facts.values()],
-        "episode_hyperedges": [{"id": h.id, "topic_id": h.topic_id, "relation": h.relation,
-                                "weights": h.weights} for h in episode_hyperedges.values()],
-        "fact_hyperedges": [{"id": h.id, "episode_id": h.episode_id, "relation": h.relation,
-                             "weights": h.weights} for h in fact_hyperedges.values()],
-        "pages": pages_out,
-    }
+def build_document_hypergraph(
+    passages: list[str],
+    llm_client: Any,
+    seg_model: Any = None,
+    seg_tokenizer: Any = None,
+    *,
+    gamma: float = 0.5,
+    min_block_size: int = 1,
+    topic_match_batch_size: int = 10,
+    window: int = 16,
+    topics_mode: str = "llm",
+    workers: int = 1,
+    log: Callable[[str], None] = print,
+) -> dict:
+    """The same hypergraph over a DOCUMENT (LongBench): one Page per passage,
+    one "turn" per Page (the passage itself, undated). The passages are
+    surprise-segmented ``window`` at a time, playing the role LoCoMo sessions
+    play for a conversation (the segmenter runs one forward pass per input)."""
+    sessions = []
+    for n, start in enumerate(range(0, len(passages), window)):
+        paged = [(_DocPage(user_text=t), [t]) for t in passages[start:start + window]]
+        sessions.append((n, "", paged))
+    return _build_hypergraph(sessions, llm_client, seg_model, seg_tokenizer, gamma=gamma,
+                             min_block_size=min_block_size,
+                             topic_match_batch_size=topic_match_batch_size,
+                             topics_mode=topics_mode, workers=workers, log=log)
 
 
 def _unit(v: np.ndarray) -> np.ndarray:
@@ -169,11 +311,8 @@ s t don should now""".split())
 
 def _tokenize(text: str) -> list[str]:
     import re
-    try:
-        from nltk.stem import PorterStemmer
-        stem = _tokenize._stem = getattr(_tokenize, "_stem", None) or PorterStemmer().stem
-    except Exception:  # noqa: BLE001
-        stem = lambda w: w  # noqa: E731
+    from nltk.stem import PorterStemmer
+    stem = _tokenize._stem = getattr(_tokenize, "_stem", None) or PorterStemmer().stem
     return [stem(w) for w in re.findall(r"[a-z0-9]+", text.lower()) if w not in _STOP]
 
 
@@ -206,12 +345,123 @@ def _ranks(scores: np.ndarray) -> np.ndarray:
     return r
 
 
+_TURN_SPEAKER = re.compile(r"^\[[^\]]*\] ([^:]+):")  # the "[date] Name:" prefix from _render_turn
+
+
 def _env_int(name: str, default: int) -> int:
     return int(os.environ.get(name, default))
 
 
 def _env_float(name: str, default: float) -> float:
     return float(os.environ.get(name, default))
+
+
+def _retrieval_device(env_name: str) -> str:
+    """The retrieval models don't fit next to the answer model on a 24GB card, so
+    unless told otherwise they go on the last visible GPU (answer model: cuda:0)."""
+    device = os.environ.get(env_name)
+    if device:
+        return device
+    import torch
+    return f"cuda:{torch.cuda.device_count() - 1}" if torch.cuda.is_available() else "cpu"
+
+
+class _Qwen3Reranker:
+    """Yes/no-logit scoring, as on the Qwen3-Reranker model card. Same predict()
+    call as sentence-transformers' CrossEncoder."""
+
+    INSTRUCT = "Given a web search query, retrieve relevant passages that answer the query"
+    SYSTEM = ('Judge whether the Document meets the requirements based on the Query and the Instruct '
+              'provided. Note that the answer can only be "yes" or "no".')
+    MAX_LEN = 2048
+    MAX_BATCH = 16  # a batch of 64 runs a 24GB card out of memory
+
+    def __init__(self, model_name: str, device: str):
+        import torch
+        from transformers import AutoModelForCausalLM, AutoTokenizer
+
+        self.device = device
+        self.tok = AutoTokenizer.from_pretrained(model_name, padding_side="left")
+        dtype = torch.float32 if device == "cpu" else torch.float16
+        self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=dtype).to(device).eval()
+        self.yes = self.tok.convert_tokens_to_ids("yes")
+        self.no = self.tok.convert_tokens_to_ids("no")
+        self.prefix = self.tok.encode(f"<|im_start|>system\n{self.SYSTEM}<|im_end|>\n<|im_start|>user\n",
+                                      add_special_tokens=False)
+        self.suffix = self.tok.encode("<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+                                      add_special_tokens=False)
+
+    def predict(self, pairs: list[tuple[str, str]], batch_size: int = MAX_BATCH, **_ignored: Any) -> np.ndarray:
+        import torch
+
+        out = np.zeros(len(pairs), dtype=np.float32)
+        batch_size = min(batch_size, self.MAX_BATCH)
+        room = self.MAX_LEN - len(self.prefix) - len(self.suffix)
+        with torch.no_grad():
+            for b in range(0, len(pairs), batch_size):
+                texts = [f"<Instruct>: {self.INSTRUCT}\n<Query>: {q}\n<Document>: {d}" for q, d in pairs[b:b + batch_size]]
+                enc = self.tok(texts, padding=False, truncation="longest_first", max_length=room,
+                               return_attention_mask=False)
+                ids = [self.prefix + x + self.suffix for x in enc["input_ids"]]
+                batch = self.tok.pad({"input_ids": ids}, padding=True, return_tensors="pt").to(self.device)
+                # the head on the last position only: full logits are length x ~150k vocab
+                logits = self.model.lm_head(self.model.model(**batch).last_hidden_state[:, -1, :])
+                out[b:b + batch_size] = (logits[:, self.yes] - logits[:, self.no]).float().cpu().numpy()
+        return out
+
+
+# Loaded once per process: these take a minute and ~8GB each, and the eval builds
+# one retriever per conversation.
+_LOADED_MODELS: dict[str, Any] = {}
+
+
+def _sentence_encoder(model_name: str) -> Any:
+    if model_name not in _LOADED_MODELS:
+        import torch
+        from sentence_transformers import SentenceTransformer
+
+        device = _retrieval_device("HYPERMEM_EMBED_DEVICE")
+        kwargs = {} if device == "cpu" else {"model_kwargs": {"torch_dtype": torch.float16}}
+        model = SentenceTransformer(model_name, device=device, processor_kwargs={"padding_side": "left"}, **kwargs)
+        model.max_seq_length = min(model.max_seq_length or 1024, 1024)  # longer texts run out of memory
+        _LOADED_MODELS[model_name] = model
+    return _LOADED_MODELS[model_name]
+
+
+def _reranker(model_name: str) -> Any:
+    if model_name not in _LOADED_MODELS:
+        device = _retrieval_device("HYPERMEM_RERANK_DEVICE")
+        try:
+            if "Qwen3-Reranker" in model_name:
+                _LOADED_MODELS[model_name] = _Qwen3Reranker(model_name, device)
+            else:
+                from sentence_transformers import CrossEncoder
+                _LOADED_MODELS[model_name] = CrossEncoder(model_name, device=device)
+        except Exception as exc:  # noqa: BLE001
+            # no silent fallback: a run without the reranker is a different retriever
+            raise RuntimeError(
+                f"HyperMem rerank model {model_name!r} failed to load ({exc}). Run "
+                "scripts/download_assets.sh, or set HYPERMEM_RERANK=0 to retrieve without it.") from exc
+    return _LOADED_MODELS[model_name]
+
+
+class FlatHybridRetriever:
+    """Control: MiniLM + BM25 rank fusion over the bare turns / passages -- no
+    graph, no LLM. Same interface as HyperMemRetriever.retrieve."""
+
+    def __init__(self, turns: list[str], encode_batch: Callable[[list[str]], Any], *, max_turns: int = 40):
+        self.turns, self.max_turns = list(turns), max_turns
+        self._encode_batch = encode_batch
+        self.U = np.stack([_unit(np.asarray(v, dtype=np.float32)) for v in encode_batch(self.turns)])
+        self.bm = _BM25(self.turns)
+
+    def retrieve(self, question: str, diag: dict | None = None) -> list[str]:
+        q = _unit(np.asarray(self._encode_batch([question])[0], dtype=np.float32))
+        fused = 1 / (60 + _ranks(self.U @ q)) + 1 / (60 + _ranks(self.bm.scores(question)))
+        chosen = [int(i) for i in np.argsort(-fused, kind="stable")[: self.max_turns]]
+        if diag is not None:
+            diag.update({"retriever": "flat-hybrid", "evidence_ids": chosen})
+        return [self.turns[i] for i in chosen]
 
 
 class HyperMemRetriever:
@@ -263,6 +513,9 @@ class HyperMemRetriever:
         self.w = {name: _env_float(f"HYPERMEM_W_{name.upper()}", dflt) for name, dflt in
                   [("episode", 1.0), ("topic", 0.5), ("fact", 1.0), ("eturn", 1.0), ("turn", 1.0), ("prior", 1.0)]}
         self.page_expand = _env_int("HYPERMEM_PAGE_EXPAND", 0)
+        # also index the questions each fact was extracted to answer (HyperMem's
+        # "potential" field), for dense and BM25 search; the evidence shows only the fact
+        self.fact_patterns = _env_int("HYPERMEM_FACT_PATTERNS", 0)
         # max turns taken from any one episode (0 = no cap); spreads the budget
         # across episodes, which multi-hop questions need
         self.per_episode_cap = _env_int("HYPERMEM_PER_EPISODE_CAP", 0)
@@ -281,18 +534,47 @@ class HyperMemRetriever:
         self.link = _env_int("HYPERMEM_LINK", 0)
         self.link_seeds = _env_int("HYPERMEM_LINK_SEEDS", 5)
         self.w_link = _env_float("HYPERMEM_W_LINK", 1.0)
+        # SPEAKER BOOST -- when the question names exactly one speaker, that speaker's
+        # turns get +w/k in each pass. 0 = off. Missed multi-hop gold turns sit deep in
+        # the ranking and are mostly spoken by the person the question names.
+        self.speaker_boost = _env_float("HYPERMEM_SPEAKER_BOOST", 1.0)
         # Step 2 (precision): cross-encoder rerank of the top candidates, then an
         # adaptive cut instead of always filling max_turns.
         self.rerank = _env_int("HYPERMEM_RERANK", 1)
         self.rerank_pool = _env_int("HYPERMEM_RERANK_POOL", 120)
-        self.rerank_model = os.environ.get("HYPERMEM_RERANK_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
+        self.rerank_model = os.environ.get("HYPERMEM_RERANK_MODEL", "Qwen/Qwen3-Reranker-4B")
         self.w_ce = _env_float("HYPERMEM_W_CE", 1.0)        # CE rank vs hypergraph rank in the final order
         self.ce_cutoff = os.environ.get("HYPERMEM_CE_CUTOFF")  # None = no cut; else min CE logit kept
         self.min_turns = _env_int("HYPERMEM_MIN_TURNS", 8)
-        self._ce = None
+        # also rerank each pass's top topics, episodes and facts, HyperMem's own
+        # retrieval (the turn rerank above is this fork's addition)
+        self.layer_rerank = _env_int("HYPERMEM_LAYER_RERANK", 1) if self.rerank else 0
+        self.layer_pool = _env_int("HYPERMEM_LAYER_POOL", 100)
+        self._query = ""
+        self._ce_memo: dict[str, float] = {}
+        # Experimental: the LLM-streamed topics are very uneven on LoCoMo (the
+        # largest holds 23-56% of a conversation's episodes, next to several
+        # singletons). N > 0 regroups the episodes into ~N-episode topics by
+        # embedding similarity (Ward clustering) and uses those instead, for both
+        # the topic signal and the episode-hyperedge propagation. 0 = off.
+        # A graph built without topics (HYPERMEM_BUILD_TOPICS=none) defaults to
+        # ~4-episode clusters, the best of the sizes compared on recall.
+        self.retopic = _env_int("HYPERMEM_RETOPIC", 0 if data.get("topics") else 4)
+        # Order of the returned evidence (only matters when the caller keeps it,
+        # WORKMEM_EVIDENCE_ORDER=retriever): turns by rank or chronologically,
+        # facts before or after the turns.
+        self.turn_order = os.environ.get("HYPERMEM_TURN_ORDER", "rank")    # rank | chrono
+        self.facts_pos = os.environ.get("HYPERMEM_FACTS_POS", "first")     # first | last
 
         self._encode1 = encode
         self._encode_batch = encode_batch
+        self._encode_query = None
+        self.embed_model = os.environ.get("HYPERMEM_EMBED_MODEL", "Qwen/Qwen3-Embedding-4B")
+        if self.embed_model:
+            st = _sentence_encoder(self.embed_model)
+            query_prompt = "query" if "query" in st.prompts else None
+            self._encode_batch = lambda texts: st.encode(texts, batch_size=8, show_progress_bar=False)
+            self._encode_query = lambda text: st.encode([text], prompt_name=query_prompt, show_progress_bar=False)[0]
 
         self.topics = {t["id"]: TopicNode(id=t["id"], title=t["title"], summary=t["summary"],
                                           episode_ids=t["episode_ids"]) for t in data["topics"]}
@@ -300,7 +582,8 @@ class HyperMemRetriever:
                                               summary=e["summary"]) for e in data["episodes"]}
         self.facts = {f["id"]: FactNode(id=f["id"], episode_id=f["episode_id"], content=f["content"],
                                         confidence=f["confidence"], temporal=f.get("temporal"),
-                                        spatial=f.get("spatial"), keywords=f.get("keywords") or [])
+                                        spatial=f.get("spatial"), keywords=f.get("keywords") or [],
+                                        query_patterns=f.get("query_patterns") or [])
                       for f in data["facts"]}
         self.episode_hyperedges = {h["id"]: EpisodeHyperedge(id=h["id"], topic_id=h["topic_id"],
                                                              relation=h["relation"], weights=h["weights"])
@@ -328,6 +611,8 @@ class HyperMemRetriever:
                 self.turns.append(t)
                 self.turn_page.append(p["id"])
                 self.turn_episode.append(p["episode_id"])
+        self.turn_speaker = [m.group(1) if (m := _TURN_SPEAKER.match(t)) else "" for t in self.turns]
+        self.speakers = sorted(set(self.turn_speaker) - {""})
         self.ep_index = {e.id: i for i, e in enumerate(self.episode_list)}
         self.topic_index = {t.id: i for i, t in enumerate(self.topic_list)}
         self.fact_episode_idx = np.array([self.ep_index.get(f.episode_id, -1) for f in self.fact_list])
@@ -337,8 +622,11 @@ class HyperMemRetriever:
 
         topic_txt = [t.to_text() for t in self.topic_list]
         ep_txt = [e.to_text() for e in self.episode_list]
-        fact_txt = [f.to_text() for f in self.fact_list]
+        fact_txt = [f.to_text() + "".join(" " + q for q in f.query_patterns) if self.fact_patterns else f.to_text()
+                    for f in self.fact_list]
         T, E, F, U = (self._embed(x) for x in (topic_txt, ep_txt, fact_txt, self.turns))
+        if self.retopic and len(self.episode_list) > self.retopic:
+            topic_txt, T = self._retopic(E, ep_txt)
         for node, v in zip(self.topic_list, T):
             node.embedding = v
         for node, v in zip(self.episode_list, E):
@@ -355,6 +643,33 @@ class HyperMemRetriever:
         self.bm = {"topic": _BM25(topic_txt), "episode": _BM25(ep_txt),
                    "fact": _BM25(fact_txt), "turn": _BM25(self.turns)}
         self._build_entity_index()
+
+    def _retopic(self, E: np.ndarray, ep_txt: list[str]) -> tuple[list[str], np.ndarray]:
+        """Replace the topics (and their episode hyperedges) with balanced
+        embedding clusters of the episodes. A topic's text is its members' text
+        (for BM25) and its vector their mean."""
+        from sklearn.cluster import AgglomerativeClustering
+        n = len(self.episode_list)
+        labels = AgglomerativeClustering(n_clusters=max(2, round(n / self.retopic)), linkage="ward").fit_predict(E)
+        self.topics, self.episode_hyperedges, self.episode_topic = {}, {}, {}
+        topic_txt, T = [], []
+        for c in sorted(set(labels)):
+            members = [i for i in range(n) if labels[i] == c]
+            ids = [self.episode_list[i].id for i in members]
+            topic = TopicNode(title=f"cluster {c}", summary=" ".join(ep_txt[i] for i in members), episode_ids=ids)
+            he = EpisodeHyperedge(topic_id=topic.id, relation={i: "member" for i in ids},
+                                  weights={i: 1.0 for i in ids})
+            topic.episode_hyperedge_id = he.id
+            self.topics[topic.id] = topic
+            self.episode_hyperedges[he.id] = he
+            self.episode_topic.update({i: topic.id for i in ids})
+            topic_txt.append(topic.summary)
+            v = E[members].mean(axis=0)
+            T.append(v / max(np.linalg.norm(v), 1e-9))
+        self.topic_list = list(self.topics.values())
+        self.topic_index = {t.id: i for i, t in enumerate(self.topic_list)}
+        self.episode_topic_idx = np.array([self.topic_index[self.episode_topic[e.id]] for e in self.episode_list])
+        return topic_txt, np.stack(T).astype(np.float32)
 
     def _build_entity_index(self) -> None:
         """Entity hyperedges over facts: stemmed keyword tokens + capitalised names
@@ -397,11 +712,20 @@ class HyperMemRetriever:
             return np.zeros(0, dtype=np.int64)
         k = self.rrf_k
         fused = 1.0 / (k + _ranks(M @ q)) + 1.0 / (k + _ranks(self.bm[layer].scores(question)))
-        return _ranks(fused)
+        rank = _ranks(fused)
+        if self.layer_rerank and layer != "turn":
+            nodes = {"topic": self.topic_list, "episode": self.episode_list, "fact": self.fact_list}[layer]
+            pool = np.argsort(rank, kind="stable")[: self.layer_pool]
+            ce = self._rerank_scores([nodes[int(i)].to_text() for i in pool])
+            reranked = 1.0 / (k + np.arange(len(pool))) + self.w_ce / (k + _ranks(ce))
+            rank[pool[np.argsort(-reranked, kind="stable")]] = np.arange(len(pool))
+        return rank
 
     # -- retrieval ------------------------------------------------------------
     def retrieve(self, question: str, diag: dict | None = None) -> list[str]:
-        q = self._embed([question])[0]
+        q = _unit(np.asarray(self._encode_query(question), dtype=np.float32)) if self._encode_query \
+            else self._embed([question])[0]
+        self._query, self._ce_memo = question, {}
         if self.mode == "strict":
             evidence, info = self._retrieve_strict(q)
         else:
@@ -429,7 +753,13 @@ class HyperMemRetriever:
         r[score <= 0] = 10 ** 6
         return r
 
-    def _soft_pass(self, q: np.ndarray, question: str, link_rank: np.ndarray | None):
+    def _speaker_mask(self, question: str) -> np.ndarray | None:
+        """Turns by the one speaker the question names; None if it names zero or several."""
+        named = [s for s in self.speakers if re.search(rf"\b{re.escape(s)}\b", question, re.IGNORECASE)]
+        return np.array([s == named[0] for s in self.turn_speaker]) if len(named) == 1 else None
+
+    def _soft_pass(self, q: np.ndarray, question: str, link_rank: np.ndarray | None,
+                   speaker_mask: np.ndarray | None = None):
         """One scoring pass. Returns (turn_score, ep_rank, r_fact, r_topic)."""
         k, w = self.rrf_k, self.w
         r_topic = self._hybrid("topic", self.T, q, question)
@@ -458,19 +788,19 @@ class HyperMemRetriever:
         ep_rank = _ranks(ep_score)
 
         turn_score = w["turn"] / (k + r_turn) + w["prior"] / (k + ep_rank[np.maximum(self.turn_episode_idx, 0)])
+        if speaker_mask is not None:
+            turn_score = turn_score + self.speaker_boost / k * speaker_mask
         return turn_score, ep_rank, r_fact, r_topic
 
-    def _cross_encoder(self):
-        if self._ce is None:
-            from sentence_transformers import CrossEncoder
-            try:
-                self._ce = CrossEncoder(self.rerank_model, device=os.environ.get("HYPERMEM_RERANK_DEVICE", "cpu"))
-            except Exception as exc:  # noqa: BLE001
-                # no silent fallback: a run without the reranker is a different retriever
-                raise RuntimeError(
-                    f"HyperMem rerank model {self.rerank_model!r} failed to load ({exc}). Run "
-                    "scripts/download_assets.sh, or set HYPERMEM_RERANK=0 to retrieve without it.") from exc
-        return self._ce
+    def _rerank_scores(self, texts: list[str]) -> np.ndarray:
+        """Reranker scores against the current question, always the original one:
+        each text is scored once per question, however many passes rank it."""
+        todo = [t for t in dict.fromkeys(texts) if t not in self._ce_memo]
+        if todo:
+            scores = _reranker(self.rerank_model).predict([(self._query, t) for t in todo],
+                                                          batch_size=64, show_progress_bar=False)
+            self._ce_memo.update(zip(todo, (float(x) for x in scores)))
+        return np.array([self._ce_memo[t] for t in texts], dtype=np.float32)
 
     def _retrieve_soft(self, q: np.ndarray, question: str) -> tuple[list[str], dict]:
         k = self.rrf_k
@@ -478,14 +808,15 @@ class HyperMemRetriever:
         r_fact0 = self._hybrid("fact", self.F, q, question)
         seeds = np.argsort(r_fact0, kind="stable")
         link_rank = self._link_rank(seeds[: self.link_seeds]) if self.link else None
-        turn_score, ep_rank, r_fact, r_topic = self._soft_pass(q, question, link_rank)
+        speaker_mask = self._speaker_mask(question) if self.speaker_boost else None
+        turn_score, ep_rank, r_fact, r_topic = self._soft_pass(q, question, link_rank, speaker_mask)
 
-        if self.prf:
+        if self.prf and len(self.fact_list):
             top = seeds[: self.prf_facts]
             q2 = q + self.prf_beta * self.F[top].mean(axis=0)
             q2 = q2 / max(np.linalg.norm(q2), 1e-9)
             facts_txt = " ".join(self.fact_list[i].content + " " + " ".join(self.fact_list[i].keywords) for i in top)
-            ts2, _, _, _ = self._soft_pass(q2, question + " " + facts_txt, link_rank)
+            ts2, _, _, _ = self._soft_pass(q2, question + " " + facts_txt, link_rank, speaker_mask)
             # fuse the two passes by rank
             turn_score = 1.0 / (k + _ranks(turn_score)) + self.w_prf / (k + _ranks(ts2))
 
@@ -493,8 +824,7 @@ class HyperMemRetriever:
         ce_scores = None
         if self.rerank:
             pool = [int(i) for i in order[: self.rerank_pool]]
-            ce = np.asarray(self._cross_encoder().predict([(question, self.turns[i]) for i in pool],
-                                                          batch_size=64, show_progress_bar=False), dtype=np.float32)
+            ce = self._rerank_scores([self.turns[i] for i in pool])
             fused = 1.0 / (k + np.arange(len(pool))) + self.w_ce / (k + _ranks(ce))
             perm = np.argsort(-fused, kind="stable")
             order = [pool[j] for j in perm]
@@ -523,14 +853,21 @@ class HyperMemRetriever:
                     seen.add(j)
                     chosen.append(j)
 
+        if self.turn_order == "chrono":
+            chosen = sorted(chosen)
         fact_order = np.argsort(r_fact, kind="stable")
-        evidence = self._fact_lines(fact_order) + [self.turns[i] for i in chosen]
+        fact_lines, turn_lines = self._fact_lines(fact_order), [self.turns[i] for i in chosen]
+        facts_last = self.facts_pos == "last"
+        evidence = turn_lines + fact_lines if facts_last else fact_lines + turn_lines
         info = {
             "topics": [self.topic_list[i].title for i in np.argsort(r_topic)[:3]],
             "episode_ids": [self.episode_list[i].id for i in np.argsort(ep_rank)[:8]],
             "facts": [self.fact_list[i].content for i in fact_order[:10]],
-            "evidence_ids": ["fact"] * min(self.n_facts, len(self.fact_list)) + [self.turn_page[i] for i in chosen],
-            "steps": {"prf": self.prf, "link": self.link, "rerank": self.rerank, "ce_cutoff": self.ce_cutoff},
+            "evidence_ids": ([self.turn_page[i] for i in chosen] + ["fact"] * len(fact_lines) if facts_last
+                             else ["fact"] * len(fact_lines) + [self.turn_page[i] for i in chosen]),
+            "steps": {"prf": self.prf, "link": self.link, "rerank": self.rerank, "layer_rerank": self.layer_rerank,
+                      "ce_cutoff": self.ce_cutoff,
+                      "speaker_boost": self.speaker_boost},
         }
         return evidence, info
 
@@ -581,17 +918,40 @@ def _date_of(ts: str | None) -> str:
         return ts
 
 
+def load_segmenter(
+    model_name: str = os.environ.get("HYPERMEM_SEG_MODEL", "Qwen/Qwen2.5-0.5B-Instruct"),
+    device: str = os.environ.get("HYPERMEM_SEG_DEVICE", "cuda:0"),
+) -> tuple[Any, Any]:
+    """The small causal LM whose surprise segments pages into episodes."""
+    import torch
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+
+    tok = AutoTokenizer.from_pretrained(model_name)
+    dtype = torch.float32 if device == "cpu" else torch.bfloat16
+    return AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=dtype).to(device).eval(), tok
+
+
 def load_or_build(
     cache_path: str,
-    conv_block: dict,
+    conv_block: dict | None,
     llm_base_url: str,
     llm_model: str,
     *,
+    passages: list[str] | None = None,
+    segmenter: tuple[Any, Any] | None = None,
     seg_model_name: str = os.environ.get("HYPERMEM_SEG_MODEL", "Qwen/Qwen2.5-0.5B-Instruct"),
     seg_device: str = os.environ.get("HYPERMEM_SEG_DEVICE", "cuda:0"),
     gamma: float = float(os.environ.get("HYPERMEM_GAMMA", "0.5")),
+    topics_mode: str = os.environ.get("HYPERMEM_BUILD_TOPICS", "llm"),
+    workers: int = int(os.environ.get("HYPERMEM_BUILD_WORKERS", "8")),
     log: Callable[[str], None] = print,
 ) -> dict:
+    """Cached hypergraph of a LoCoMo conversation (``conv_block``) or, when
+    ``passages`` is given, of a document split into those passages.
+    ``segmenter``: an already loaded (model, tokenizer) to reuse across calls.
+    ``topics_mode``: "llm" (streamed LLM topics) or "none" (skip them; the
+    retriever clusters episodes instead). ``workers``: concurrent episodes
+    during LLM extraction."""
     if os.path.exists(cache_path):
         with open(cache_path) as f:
             data = json.load(f)
@@ -599,20 +959,31 @@ def load_or_build(
             log(f"[hypermem] loaded cached hypergraph {cache_path}")
             return data
 
-    import torch
-    from transformers import AutoModelForCausalLM, AutoTokenizer
     from vllm_llm_client import VLLMClient
 
     log(f"[hypermem] building hypergraph -> {cache_path} (segmenter {seg_model_name})")
-    tok = AutoTokenizer.from_pretrained(seg_model_name)
-    dtype = torch.float32 if seg_device == "cpu" else torch.bfloat16
-    seg = AutoModelForCausalLM.from_pretrained(seg_model_name, torch_dtype=dtype).to(seg_device).eval()
     llm = VLLMClient(base_url=llm_base_url, model=llm_model)
+    # The extraction functions fall back to raw text when an LLM call fails, so
+    # without a server the build "succeeds" with no real summaries or facts and
+    # caches that. Refuse to start instead.
     try:
-        data = build_conversation_hypergraph(_conv_or_self(conv_block), llm, seg, tok, gamma=gamma, log=log)
+        llm.chat("Reply with OK.", max_new_tokens=4)
+    except Exception as exc:  # noqa: BLE001
+        raise RuntimeError(f"HyperMem build needs the extraction LLM at {llm_base_url} ({llm_model}), "
+                           f"which did not answer: {exc}") from exc
+    seg, tok = segmenter or load_segmenter(seg_model_name, seg_device)
+    try:
+        if passages is not None:
+            data = build_document_hypergraph(passages, llm, seg, tok, gamma=gamma,
+                                             topics_mode=topics_mode, workers=workers, log=log)
+        else:
+            data = build_conversation_hypergraph(_conv_or_self(conv_block), llm, seg, tok, gamma=gamma,
+                                                 topics_mode=topics_mode, workers=workers, log=log)
     finally:
-        del seg
-        torch.cuda.empty_cache()
+        if segmenter is None:
+            import torch
+            del seg
+            torch.cuda.empty_cache()
 
     os.makedirs(os.path.dirname(cache_path), exist_ok=True)
     tmp = cache_path + ".tmp"

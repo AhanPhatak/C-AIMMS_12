@@ -15,6 +15,13 @@ Environment (all optional except the paths env.sh already sets):
   LB_TASK              qasper | narrativeqa | multifieldqa_en | hotpotqa | 2wikimqa | musique
   LB_DATA              <task>.jsonl or a dir of them (else the Hub data.zip)
   LB_MAX_SAMPLES       first N rows (default 50; 0 = all)
+  LB_RETRIEVER         iterret (default) | hypermem | flat. hypermem = the HyperMem
+                       hypergraph (adaptive_memory_structures/locomo_hypermem.py)
+                       over the same ~180-word passages, cached per document in
+                       <output dir>/lb_hypermem_cache/<task>; flat = MiniLM + BM25
+                       over the passages, no graph and no LLM (the control). Both
+                       return LB_PASSAGES passages (default 12; IterRet returns
+                       ~12.6 of a Qasper paper's ~18.5), combined mode only.
   WORKMEM_OSAM_MODE    combined | hybrid | vanilla (default combined)
   WORKMEM_OUTPUT_FILE  results JSONL (resumable)
   LB_GRAPH_CACHE_DIR   default <output dir>/lb_graph_cache/<task>
@@ -33,6 +40,7 @@ from __future__ import annotations
 import gc
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 # Must be set before torch initialises CUDA. Less fragmentation on a GPU that
@@ -47,9 +55,10 @@ from deltamem.runtime.session import DeltaMemChatSession
 from deltamem.workmem.longctx_data import (
     MAX_NEW_TOKENS, doc_key, format_query, load_longbench, qa_f1_score,
 )
+from deltamem.workmem.evidence_filter import filter_evidence_by_relevance
 from deltamem.workmem.longctx_retrieval import (
-    cap_evidence_by_tokens, get_or_build_doc_graph, graph_cache_path, make_backend, retrieve_evidence,
-    select_evidence,
+    cap_evidence_by_tokens, chunk_document, get_or_build_doc_graph, graph_cache_path, make_backend,
+    retrieve_evidence, select_evidence,
 )
 from deltamem.workmem.osam_workmem import answer_with_modes
 from iterret.llm_client import OpenAICompatibleLLMClient
@@ -91,6 +100,22 @@ MAX_EVIDENCE_TOKENS = int(os.environ.get("LB_MAX_EVIDENCE_TOKENS", "0"))
 EVIDENCE_LAYERS = os.environ.get("LB_EVIDENCE_LAYERS", "all")
 EVIDENCE_ORDER = os.environ.get("LB_EVIDENCE_ORDER", "relevance")
 
+RETRIEVER = os.environ.get("LB_RETRIEVER", "iterret")
+N_PASSAGES = int(os.environ.get("LB_PASSAGES", "12"))
+HYPERMEM_CACHE_DIR = Path(os.environ.get(
+    "LB_HYPERMEM_CACHE_DIR", str(Path(OUTPUT_FILE).parent / "lb_hypermem_cache" / TASK)))
+HYPERMEM_BUILD_WORKERS = int(os.environ.get("LB_HYPERMEM_BUILD_WORKERS", "4"))
+
+if RETRIEVER not in ("iterret", "hypermem", "flat"):
+    raise SystemExit(f"[FATAL] unknown LB_RETRIEVER={RETRIEVER!r} (expected iterret | hypermem | flat)")
+if RETRIEVER != "iterret":
+    if (OSAM_MODE, SEGMENTATION, EVIDENCE_LAYERS, EVIDENCE_ORDER) != ("combined", "fixed", "all", "relevance"):
+        raise SystemExit(f"[FATAL] LB_RETRIEVER={RETRIEVER} supports only WORKMEM_OSAM_MODE=combined with the "
+                         "default segmentation / evidence layers / evidence order")
+    import sys
+    sys.path.insert(0, str(Path(_ROOT) / "adaptive_memory_structures"))
+    from locomo_hypermem import (FlatHybridRetriever, HyperMemRetriever, load_or_build as load_or_build_hypermem,
+                                 load_segmenter)
 if OSAM_MODE not in ("combined", "hybrid", "vanilla"):
     raise SystemExit(f"[FATAL] unknown WORKMEM_OSAM_MODE={OSAM_MODE!r} (expected combined | hybrid | vanilla)")
 if SEGMENTATION not in ("fixed", "surprise"):
@@ -205,8 +230,41 @@ def _build_missing_graphs(rows: list, llm) -> None:
             torch.cuda.empty_cache()
 
 
+def _hypermem_cache_path(context: str) -> str:
+    return str(HYPERMEM_CACHE_DIR / f"{doc_key(context)}.json")
+
+
+def _build_missing_hypergraphs(rows: list) -> None:
+    """HyperMem counterpart of _build_missing_graphs: every uncached document
+    hypergraph is built (vLLM extraction + the small surprise segmenter) before
+    the delta-mem model is loaded."""
+    missing = list({doc_key(r["context"]): r for r in rows
+                    if not os.path.exists(_hypermem_cache_path(r["context"]))}.values())
+    if not missing:
+        return
+    print(f"[graphs] building {len(missing)} hypergraphs -> {HYPERMEM_CACHE_DIR}", flush=True)
+
+    segmenter = load_segmenter()  # one copy, shared by the worker threads
+
+    def build(r: dict) -> str:
+        try:
+            data = load_or_build_hypermem(
+                _hypermem_cache_path(r["context"]), None, VLLM_BASE_URL, VLLM_MODEL_NAME,
+                passages=chunk_document(r["context"]), segmenter=segmenter, log=lambda m: None)
+            return (f"idx={r['idx']}: {len(data['pages'])} passages, {len(data['episodes'])} episodes, "
+                    f"{len(data['facts'])} facts, {len(data['topics'])} topics")
+        except Exception as exc:  # noqa: BLE001 -- retried on the next run
+            return f"idx={r['idx']} FAILED: {exc}"
+
+    # documents are independent and vLLM batches concurrent requests
+    with ThreadPoolExecutor(max_workers=HYPERMEM_BUILD_WORKERS) as pool:
+        for i, msg in enumerate(pool.map(build, missing)):
+            print(f"[graphs] {i + 1}/{len(missing)} {msg}", flush=True)
+
+
 def main() -> None:
-    print(f"[init] task={TASK} mode={OSAM_MODE} max_samples={MAX_SAMPLES} out={OUTPUT_FILE}", flush=True)
+    print(f"[init] task={TASK} mode={OSAM_MODE} retriever={RETRIEVER} max_samples={MAX_SAMPLES} "
+          f"out={OUTPUT_FILE}", flush=True)
     print(f"[init] adapter={ADAPTER_DIR} graph_cache={GRAPH_CACHE_DIR} "
           f"max_evidence_tokens={MAX_EVIDENCE_TOKENS or 'off'} evidence={EVIDENCE_LAYERS}/{EVIDENCE_ORDER}",
           flush=True)
@@ -220,7 +278,10 @@ def main() -> None:
 
     if todo:
         llm = OpenAICompatibleLLMClient(base_url=VLLM_BASE_URL, model=VLLM_MODEL_NAME)
-        _build_missing_graphs(todo, llm)
+        if RETRIEVER == "iterret":
+            _build_missing_graphs(todo, llm)
+        elif RETRIEVER == "hypermem":
+            _build_missing_hypergraphs(todo)
         tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
         if tokenizer.pad_token_id is None:
             tokenizer.pad_token = tokenizer.eos_token
@@ -230,45 +291,73 @@ def main() -> None:
         model.eval()
         backend = make_backend()
 
+    def encode_batch(texts):
+        return backend._model.encode(texts, batch_size=128, show_progress_bar=False)
+
+    retrievers: dict = {}  # per document; several rows can share one
     consecutive_failures = 0
     for row in todo:
         idx, question = row["idx"], row["question"]
-        if SEGMENTATION != "fixed" and not graph_cache_path(GRAPH_CACHE_DIR, doc_key(row["context"])).exists():
-            # The pre-pass could not build it (e.g. OOM). Building it here would
-            # silently fall back to FIXED chunking inside the surprise cache.
-            print(f"[{idx}] no {SEGMENTATION} graph (pre-pass failed) -- skipped, retried next run", flush=True)
-            continue
-        try:
-            graph, passages, cached = get_or_build_doc_graph(row["context"], doc_key(row["context"]),
-                                                             GRAPH_CACHE_DIR, llm, segmentation=SEGMENTATION)
-        except Exception as exc:  # noqa: BLE001
-            print(f"[{idx}] graph build FAILED: {exc}", flush=True)
-            continue  # not checkpointed -> retried on resume
-        diag: dict = {}
-        try:
-            evidence = retrieve_evidence(question, graph, backend, llm, diag=diag)
+        if RETRIEVER != "iterret":
+            key = doc_key(row["context"])
+            passages = chunk_document(row["context"])
+            if RETRIEVER == "hypermem" and not os.path.exists(_hypermem_cache_path(row["context"])):
+                print(f"[{idx}] no hypergraph (pre-pass failed) -- skipped, retried next run", flush=True)
+                continue
+            if key not in retrievers:
+                retrievers.clear()
+                if RETRIEVER == "flat":
+                    retrievers[key] = FlatHybridRetriever(passages, encode_batch, max_turns=N_PASSAGES)
+                else:
+                    with open(_hypermem_cache_path(row["context"])) as fh:
+                        retrievers[key] = HyperMemRetriever(json.load(fh), backend.encode,
+                                                            encode_batch=encode_batch, max_turns=N_PASSAGES)
+            diag = {}
+            evidence = retrievers[key].retrieve(question, diag=diag)
+            # same two post-steps as the IterRet path (retrieve_evidence)
+            evidence = filter_evidence_by_relevance(question, evidence, backend.encode, threshold=0.30)
             diag["n_evidence_uncapped"] = len(evidence)
             evidence = cap_evidence_by_tokens(evidence, tokenizer, MAX_EVIDENCE_TOKENS)
-            evidence, diag["final_evidence_ids"] = select_evidence(
-                evidence, diag.get("final_evidence_ids", [])[:len(evidence)], graph,
-                layers=EVIDENCE_LAYERS, order=EVIDENCE_ORDER)
-        except Exception as exc:  # noqa: BLE001
-            # e.g. vLLM down: NOT "no evidence" -- leave the row for the next run.
-            print(f"[{idx}] IterRet FAILED: {exc}", flush=True)
-            consecutive_failures += 1
-            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
-                raise SystemExit(f"[FATAL] {consecutive_failures} consecutive failures -- aborting; "
-                                 "check the vLLM server and re-run (finished rows are kept).")
-            continue
+            cached = True
+        else:
+            if SEGMENTATION != "fixed" and not graph_cache_path(GRAPH_CACHE_DIR, doc_key(row["context"])).exists():
+                # The pre-pass could not build it (e.g. OOM). Building it here would
+                # silently fall back to FIXED chunking inside the surprise cache.
+                print(f"[{idx}] no {SEGMENTATION} graph (pre-pass failed) -- skipped, retried next run", flush=True)
+                continue
+            try:
+                graph, passages, cached = get_or_build_doc_graph(row["context"], doc_key(row["context"]),
+                                                                 GRAPH_CACHE_DIR, llm, segmentation=SEGMENTATION)
+            except Exception as exc:  # noqa: BLE001
+                print(f"[{idx}] graph build FAILED: {exc}", flush=True)
+                continue  # not checkpointed -> retried on resume
+            diag: dict = {}
+            try:
+                evidence = retrieve_evidence(question, graph, backend, llm, diag=diag)
+                diag["n_evidence_uncapped"] = len(evidence)
+                evidence = cap_evidence_by_tokens(evidence, tokenizer, MAX_EVIDENCE_TOKENS)
+                evidence, diag["final_evidence_ids"] = select_evidence(
+                    evidence, diag.get("final_evidence_ids", [])[:len(evidence)], graph,
+                    layers=EVIDENCE_LAYERS, order=EVIDENCE_ORDER)
+            except Exception as exc:  # noqa: BLE001
+                # e.g. vLLM down: NOT "no evidence" -- leave the row for the next run.
+                print(f"[{idx}] IterRet FAILED: {exc}", flush=True)
+                consecutive_failures += 1
+                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                    raise SystemExit(f"[FATAL] {consecutive_failures} consecutive failures -- aborting; "
+                                     "check the vLLM server and re-run (finished rows are kept).")
+                continue
 
         base = {"idx": idx, "id": row["id"], "task": TASK, "question": question,
                 "answers": row["answers"], "osam_mode": OSAM_MODE, "adapter_dir": ADAPTER_DIR,
-                "segmentation": SEGMENTATION,
+                "segmentation": SEGMENTATION, "retriever": RETRIEVER,
                 "evidence_layers": EVIDENCE_LAYERS, "evidence_order": EVIDENCE_ORDER,
                 "max_evidence_tokens": MAX_EVIDENCE_TOKENS,
                 "n_passages": len(passages), "n_evidence": len(evidence), "graph_cached": cached,
                 "retrieval": diag}
 
+        if RETRIEVER != "iterret":
+            base["max_passages"] = N_PASSAGES
         if not evidence and OSAM_MODE == "combined":
             _write({**base, "prediction": "", "score": 0.0, "skipped": True, "reason": "no_evidence"})
             print(f"[{idx}] no evidence, skipped", flush=True)

@@ -350,6 +350,25 @@ missing one in-process (segmenter on the eval GPU, extraction through the
 vLLM `run_pipeline.sh` starts). To pre-build all of them against a running
 vLLM: `python3 adaptive_memory_structures/build_locomo_hypermem_cache.py --samples 0-9`.
 
+Build speed (2026-10-26). The build is three stages: segmentation (in-process,
+per session), per-episode extraction (summary, facts, fact roles: 3 calls per
+episode) and topic streaming (a match call per episode plus a topic update
+and hyperedge re-weighting on every match, strictly serial). By call count
+the topic stage is most of the ~500 calls (conv 1: 42 episodes = 126
+extraction calls). Two build knobs:
+
+| var / flag | default | effect |
+|---|---|---|
+| `HYPERMEM_BUILD_WORKERS` / `--workers` | 8 | episodes extracted concurrently against vLLM; output order and content are unchanged (each episode's own calls stay in order) |
+| `HYPERMEM_FACT_SCOPE` | `episode` | `topic` = facts from a topic's episodes read together, in place of per-episode facts; `both` = added to them. Not adopted, see "Topic facts and query patterns" |
+| `HYPERMEM_TOPIC_STRICT` | 0 | 1 = stricter topic matching: separate people's similar subjects stay separate topics. Not adopted |
+| `HYPERMEM_BUILD_TOPICS` / `--topics` | `llm` | `none` skips the LLM topic stage; the retriever then clusters episodes into ~4-episode topics itself (`HYPERMEM_RETOPIC` defaults to 4 for a topic-less graph) |
+
+`--topics none` costs no recall (see "Topic layer" below); it is not the
+default yet because end-to-end F1 on topic-less graphs has not been run.
+Write topic-less builds to their own `--cache-dir`: the cache key is only
+the sample index, so they would otherwise replace the LLM-topic graphs.
+
 ### Retrieval (`HyperMemRetriever`)
 
 **strict** (`HYPERMEM_MODE=strict`) is `HypergraphMemory.retrieve`'s
@@ -397,7 +416,11 @@ Knobs (env, read when the retriever is built):
 | `HYPERMEM_TOPIC_TOP_K` / `_EPISODE_TOP_K` / `_FACT_TOP_K` | 3 / 8 / 20 | strict mode only |
 | `HYPERMEM_PRF` | 1 | second pass, question expanded with the top round-1 facts (`_PRF_FACTS` 5, `_PRF_BETA` 0.5, `HYPERMEM_W_PRF` 1) |
 | `HYPERMEM_LINK` | 0 | 1 = entity hyperedges: facts sharing rare keywords/names with the top facts boost their episodes (`_LINK_SEEDS` 5, `HYPERMEM_W_LINK` 1) |
-| `HYPERMEM_RERANK` | 1 | cross-encoder rerank of the top candidates (`_RERANK_POOL` 120, `_RERANK_MODEL` `cross-encoder/ms-marco-MiniLM-L-6-v2`, `_RERANK_DEVICE` cpu, `HYPERMEM_W_CE` 1). The retriever raises if the model cannot be loaded (`scripts/download_assets.sh` fetches it) |
+| `HYPERMEM_SPEAKER_BOOST` | 1 | w > 0 = when a question names exactly one speaker, their turns get +w/k in each scoring pass; 1 is the tested value (see "Multi-hop retrieval") |
+| `HYPERMEM_RERANK` | 1 | cross-encoder rerank of the top candidates (`_RERANK_POOL` 120, `_RERANK_MODEL` `Qwen/Qwen3-Reranker-4B`, `_RERANK_DEVICE` last visible GPU, `HYPERMEM_W_CE` 1). The retriever raises if the model cannot be loaded (`scripts/download_assets.sh` fetches it) |
+| `HYPERMEM_LAYER_RERANK` | 1 | also rerank each pass's top `HYPERMEM_LAYER_POOL` (100) topics, episodes and facts; off when `HYPERMEM_RERANK=0` |
+| `HYPERMEM_EMBED_MODEL` | `Qwen/Qwen3-Embedding-4B` | retrieval encoder (`HYPERMEM_EMBED_DEVICE` last visible GPU); empty = the caller's encoder (MiniLM in the evals) |
+| `HYPERMEM_FACT_PATTERNS` | 0 | 1 = also index each fact's `query_patterns` for dense and BM25 search (graphs built before 2026-11-05 did not save them; see "Topic facts and query patterns") |
 | `HYPERMEM_CE_CUTOFF` | unset | with rerank: drop turns whose cross-encoder logit is below this, keeping at least `HYPERMEM_MIN_TURNS` (8) |
 
 ### Tuning (held out: conv 0 and convs 4-9)
@@ -582,3 +605,217 @@ Held-out convs 0, 4-9 (1108 Q):
 Not yet done: a full 10-conversation IterRet run to compare against (~30h
 on the shared box); other fact counts; keeping the retriever's order
 instead of the eval's MiniLM re-sort of the evidence (`evidence_filter.py`).
+
+### Topic layer: LLM topics vs embedding clusters vs none (recall, 2026-10-25)
+
+The LLM-streamed topics are very uneven (one topic holds 23-56% of a
+conversation's episodes). `HYPERMEM_RETOPIC=N` swaps them for Ward clusters
+of ~N episodes each; `HYPERMEM_W_TOPIC=0` drops the topic signal from the
+episode score (hyperedge propagation still runs). Same harness and protocol
+as above (`scripts/hypermem_recall.py`, cross-encoder on GPU). Cells: all
+gold turns retrieved, multi-hop only in brackets.
+
+| config | convs 1-3 (n=432) | convs 0, 4-9 (held out, n=1104) |
+|---|---|---|
+| default (LLM topics, `W_TOPIC` 0.5) | 0.836 [0.49] | 0.825 [0.44] |
+| no topic signal (`W_TOPIC=0`) | 0.838 [0.51] | 0.828 [0.45] |
+| LLM topics, `W_TOPIC=1` | 0.838 [0.49] | -- |
+| clusters of ~3 / 4 / 6 episodes | 0.843 / 0.845 / 0.840 | -- / 0.829 [0.44] / -- |
+| clusters of ~8 / 12 / 16 episodes | 0.838 / 0.833 / 0.836 | 0.826 [0.44] / -- / -- |
+| clusters of ~4 / 8, `W_TOPIC=1` | 0.840 / 0.838 | -- |
+| plain soft / no topic / clusters ~4 | 0.773 / 0.769 / 0.769 | 0.775 / 0.774 / 0.777 |
+| graph built with no topics (cached graphs with topics stripped; retriever clusters ~4) | 0.845 [0.52] | 0.829 [0.44] |
+| graph with no topics, no clustering either (`HYPERMEM_RETOPIC=0`) | 0.838 [0.49] | 0.829 [0.45] |
+
+- every variant is within +/-0.01 of the default on both splits (about 4
+  questions on the tuning set): **the topic layer contributes nothing
+  measurable to recall in soft mode**, whether the topics come from the LLM,
+  from balanced clustering, or are left out of the score entirely
+- so better topics are not a lever for recall. What does move it is
+  episode/fact/turn fusion, PRF and the rerank (sections above)
+- the LLM topic stage is the serial, most expensive part of the build
+  (a model call per episode against the existing topics, plus updates and
+  hyperedge re-weighting on every match). Dropping it, or replacing it with
+  the free clustering, loses no recall: the last two rows are the
+  topic-less graphs `HYPERMEM_BUILD_TOPICS=none` produces (with topics
+  stripped from the cached ones, everything else identical). Not yet checked
+  end-to-end on F1
+- raw output: none kept beyond this table (re-run in ~5 min with the command
+  below)
+
+```bash
+python3 scripts/hypermem_recall.py 1,2,3 default: notopic:HYPERMEM_W_TOPIC=0 rt4:HYPERMEM_RETOPIC=4
+```
+
+## Stemming fix, LLM judge and chain-of-thought (2026-11-03)
+
+**Correction: every F1 and recall number above was measured without
+stemming**, even where it says Porter-stemmed. `nltk` was missing from the env
+and the requirements, and both `locomo_protocol.py` and `_tokenize` silently
+fell back to raw tokens. `nltk` is now pinned and required, so a missing install
+fails instead of changing the metric. The tables above are left as measured.
+
+Rescoring saved predictions with the stemmer: all-10-conversation default
+0.5320 -> **0.5460**; conv 0 IterRet 0.4680 -> 0.4873. Recall with stemmed BM25,
+all gold turns, multi-hop in brackets:
+
+| config | convs 1-3 (n=432) | convs 0, 4-9 (held out, n=1104) |
+|---|---|---|
+| default | 0.836 [0.49] -> 0.845 [0.52] | 0.825 [0.44] -> 0.830 [0.46] |
+| plain soft | 0.773 -> 0.792 | 0.775 -> 0.797 |
+| flat MiniLM + BM25 | 0.697 -> 0.748 | ~0.695 -> 0.722 |
+
+Convs 1-3 (n=432), stemmed BM25 and scoring, 4B answerer, no prompt
+engineering. "Judge" is `iterret/llm_judge.py` run on 4B; oracle is gold turns
+only. Diffs are paired with 95% CIs:
+
+| arm | F1 | judge | judge: multi / temp / open / single |
+|---|---|---|---|
+| current (40 turns + 10 facts) | 0.549 | 0.785 | 0.620 / 0.935 / 0.211 / 0.826 |
+| current + CoT | 0.510 | 0.780 | 0.608 / 0.882 / 0.316 / 0.834 |
+| oracle | 0.612 | 0.806 | 0.722 / 0.871 / 0.105 / 0.863 |
+| oracle + CoT | 0.586 | 0.829 | 0.785 / 0.860 / 0.579 / 0.851 |
+
+- CoT on current evidence: F1 -0.039 [-0.065, -0.012], judge -0.005
+  [-0.035, +0.028]. Not adopted
+- oracle over current: F1 +0.063 [+0.031, +0.095], judge +0.021 [-0.019, +0.060];
+  temporal is worse with oracle evidence, F1 -0.077 [-0.136, -0.023]
+- the prompt-engineered t13 run judges 0.817, +0.032 [+0.002, +0.065] over
+  current, above oracle with the standard prompt. Its rows predate the stemmed
+  BM25, and convs 1-3 are the tuning set
+  (`OSAM_PROMPT_ENGINEERING=1` is partly LoCoMo-specific, including "every
+  question here has an answer", so this is not a general gain)
+- all 10 conversations, saved default run (unstemmed BM25): judge 0.783
+- the 4B judge is noisy in both directions when read by hand (accepts "hiked,
+  swam" for "camping", rejects "I joined a gym last week" for "joined a gym"),
+  so it is not comparable to the paper's GPT-4o-mini judge or 92.73
+- raw rows and scripts, not in git: `<outputs>/cot_test_20261103/`
+
+General prompts, held-out convs 0, 4-9 (n=1108), stemmed BM25 and scoring.
+"General" is no first person + yes/no + temporal instructions. "+ answer first"
+also asks for the answer as a short phrase before any elaboration. Neither has
+the "every question has an answer" rule or the worked examples. Prompts live in
+a scratch patch (`arm.py`, saved with the raw rows), not in `osam_workmem.py`:
+
+| prompt | F1 | judge | words | F1 diff [95% CI] | judge diff [95% CI] |
+|---|---|---|---|---|---|
+| standard | 0.541 | 0.781 | 14.3 | -- | -- |
+| general | 0.534 | 0.785 | 10.7 | -0.007 [-0.019, +0.005] | +0.005 [-0.013, +0.022] |
+| general + answer first | 0.557 | 0.768 | 7.2 | +0.015 [+0.002, +0.028] | -0.013 [-0.032, +0.007] |
+
+- neither improves judged accuracy; the F1 gain comes with answers half as long
+  and is confined to single-hop (+0.039 [+0.021, +0.057]; multi-hop -0.023
+  [-0.048, +0.001]), so it looks like format fit rather than better answers
+- not adopted
+
+### Multi-hop retrieval (2026-11-04)
+
+Missed multi-hop gold turns sit deep (median dense rank 211 of 369 turns on convs
+1-3), and 94% are spoken by a person the question names. Two patches were tested;
+only the boost is in `locomo_hypermem.py` (`HYPERMEM_SPEAKER_BOOST=1`, on by default since the section below):
+
+- **speaker boost**: when a question names exactly one speaker, that speaker's
+  turns get +1/k in each scoring pass. No model call
+- **rewritten queries**: 4B writes 4 search queries from the question text alone;
+  each gets its own scoring pass, rank-fused at weight 1. One model call per
+  question; the 38 of 1529 that failed use the original question
+
+Held-out convs 0, 4-9, standard prompt, stemmed BM25 and scoring. Recall is all
+gold turns, n=1104; F1 and judge (4B) are n=1108, diffs paired against default:
+
+| config | recall [multi] | F1 | judge | F1 diff [95% CI] | judge diff [95% CI] |
+|---|---|---|---|---|---|
+| default | 0.830 [0.46] | 0.541 | 0.781 | -- | -- |
+| speaker boost | 0.847 [0.54] | 0.548 | 0.796 | +0.007 [-0.002, +0.015] | +0.015 [+0.002, +0.029] |
+| boost + rewritten | 0.858 [0.54] | 0.551 | 0.794 | +0.009 [+0.000, +0.019] | +0.014 [-0.001, +0.028] |
+
+- rewritten queries add nothing on top of the boost: F1 +0.003 [-0.005, +0.011],
+  judge -0.002 [-0.014, +0.010]
+- multi-hop recall +0.08 gives multi-hop F1 +0.012 to +0.020 and judge +0.020 to
+  +0.034, all within noise: most of the recall gain does not reach the answer
+- on convs 1-3 the same patches gave multi-hop recall 0.52 -> 0.59 (boost) and
+  0.62 (both). Filtering to the speaker, stripping the name, fact-to-turn links
+  and a 200-turn rerank pool did no better
+- raw rows and scripts, not in git: `<outputs>/multihop_20261104/`
+
+### Paper retrieval models (2026-11-04)
+
+Now the default, with the speaker boost: Qwen3-Embedding-4B and Qwen3-Reranker-4B
+in place of MiniLM and ms-marco, and each pass also reranks its top 100 topics,
+episodes and facts (RRF, then rerank, as the paper's text describes). The paper
+also retrieves top-10 topics/10 episodes/30 facts, answers with GPT-4.1-mini + CoT
+and judges with GPT-4o-mini; none of that is copied here. Previous stack:
+`HYPERMEM_EMBED_MODEL= HYPERMEM_RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2 HYPERMEM_LAYER_RERANK=0`.
+
+Held-out convs 0, 4-9, same protocol as the table above:
+
+| config | recall [multi] | F1 | judge | judge, multi-hop |
+|---|---|---|---|---|
+| MiniLM, ms-marco | 0.830 [0.46] | 0.541 | 0.781 | 0.675 |
+| + speaker boost | 0.847 [0.54] | 0.548 | 0.796 | 0.695 |
+| paper models | 0.883 [0.63] | 0.559 | 0.798 | 0.719 |
+| paper models + boost (default) | 0.887 [0.67] | 0.557 | 0.801 | 0.759 |
+| reranker only + boost (`HYPERMEM_EMBED_MODEL=`) | not measured | 0.551 | 0.792 | 0.714 |
+
+- against MiniLM + boost: judge +0.005 [-0.011, +0.021], F1 +0.009 [-0.004, +0.021];
+  multi-hop judge +0.064 [+0.010, +0.123], temporal judge -0.022 [-0.057, +0.013]
+- recall rises far more than answers do, so the 4B answerer now looks like the limit
+- reranker only fits on one GPU with the answer model (~18GB) but does not beat
+  MiniLM + boost: judge -0.005 [-0.021, +0.012], temporal judge -0.035 [-0.070, -0.004]
+
+**GPU memory**: the two models peak near 17GB and do not fit beside the answer
+model (~10GB) on a 24GB card. For `WORKMEM_RETRIEVER=hypermem`, `scripts/run_pipeline.sh`
+and `run_everything.sh` therefore give the eval both cards (answer model on `EVAL_GPU`,
+retrieval on `VLLM_GPU`) and start no vLLM, which needs every graph cached and rules
+out `WORKMEM_JUDGE=1`; they stop at startup if either condition fails, or on one GPU.
+`HYPERMEM_EMBED_MODEL=` restores the original layout, with the previous stack above
+for the "+ speaker boost" row. By hand: `CUDA_VISIBLE_DEVICES=0,1 WORKMEM_DEVICE=cuda:0`.
+
+### Formation models (2026-11-04)
+
+The paper names no formation LLM and uses LLM boundary detection rather than
+surprise. Graphs for convs 1-3 rebuilt in scratch, then scored with the default
+retrieval models above (n=432). "Rebuild" repeats the current recipe, so its gap to
+the existing graphs is rebuild noise (fact extraction samples at temperature 0.2):
+
+| graphs | episodes | recall [multi] | F1 | judge | judge diff vs existing [95% CI] |
+|---|---|---|---|---|---|
+| existing (0.5B surprise) | 201 | 0.887 [0.68] | 0.563 | 0.810 | -- |
+| rebuild (0.5B surprise) | 201 | 0.887 [0.70] | 0.551 | 0.796 | -0.014 [-0.039, +0.012] |
+| Qwen3-4B surprise | 249 | 0.880 [0.68] | 0.557 | 0.810 | +0.000 [-0.032, +0.032] |
+| Qwen3-4B LLM boundaries | 237 | 0.889 [0.71] | 0.567 | 0.803 | -0.007 [-0.037, +0.023] |
+
+No gain beyond rebuild noise, so the segmenter default is unchanged. Convs 1-3 only.
+
+### Topic facts and query patterns (2026-11-05)
+
+The paper extracts facts per topic and indexes the questions each fact answers.
+Neither beat the per-episode facts, so both stay off. Episodes are unchanged in
+every row; answers and judge use the default retrieval models and Qwen3-4B.
+
+Convs 1-3 (n=432), patterns off -> on:
+
+| facts | F1 | judge | multi-hop judge |
+|---|---|---|---|
+| existing graph | 0.563 | 0.810 | 0.658 |
+| re-extracted per-episode | 0.568 -> 0.566 | 0.782 -> 0.799 | 0.570 -> 0.633 |
+| topic, replacing them | 0.508 -> 0.505 | 0.759 -> 0.757 | 0.646 -> 0.671 |
+| both | 0.572 -> 0.581 | 0.794 -> 0.810 | 0.608 -> 0.658 |
+| strict topics, topic facts | 0.548 -> 0.536 | 0.803 -> 0.785 | 0.747 -> 0.671 |
+
+Replacing loses about two-thirds of the facts and leaves 26-45% of episodes with
+none (judge -0.051 [-0.090, -0.012]). Long topics are split between calls, so
+facts combine only episodes in the same part.
+
+Held-out convs 0, 4-9 (n=1108; recall n=1104), the one candidate and its controls:
+
+| facts | recall [multi] | F1 | judge | multi-hop judge |
+|---|---|---|---|---|
+| existing graph | 0.887 [0.67] | 0.557 | 0.801 | 0.759 |
+| re-extracted per-episode | 0.889 [0.67] | 0.564 | 0.813 | 0.754 |
+| both + patterns | 0.892 [0.68] | 0.560 | 0.810 | 0.778 |
+
+- both + patterns vs existing: judge +0.008 [-0.010, +0.026], F1 +0.003 [-0.010, +0.016]
+- both + patterns vs re-extracted: judge -0.004 [-0.020, +0.012], F1 -0.004 [-0.017, +0.007]
+- simply re-extracting moved judge by -0.028 on convs 1-3 and +0.012 here, so
+  gaps under about 0.03 between separately extracted graphs are not evidence

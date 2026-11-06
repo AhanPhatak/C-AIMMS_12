@@ -8,7 +8,7 @@ duck-typed against any client exposing `.chat(user, system=None) -> str`
 
 Two groups of functions:
   - fact layer (per episode): summarise_episode, extract_facts_for_episode,
-    assign_fact_roles.
+    assign_fact_roles; or per topic, as HyperMem does: extract_facts_for_topic.
   - topic layer (per session, streaming): episodes are processed in temporal
     order and LLM-matched against topics formed so far from earlier episodes
     in the same session -- faithfully mirroring HyperMem's live-arrival
@@ -52,14 +52,14 @@ def _parse_json(text: str) -> dict | None:
     return None
 
 
-def _call_llm_json(llm_client, system: str, user: str, retries: int = 1) -> dict | None:
+def _call_llm_json(llm_client, system: str, user: str, retries: int = 1, **chat_kwargs) -> dict | None:
     """Call the LLM and parse its reply as JSON, retrying once with a
     stricter reminder if the first reply doesn't parse. Returns None
     (never raises) if the LLM is unreachable or never produces valid JSON."""
     prompt = user
     for attempt in range(retries + 1):
         try:
-            reply = llm_client.chat(user=prompt, system=system)
+            reply = llm_client.chat(user=prompt, system=system, **chat_kwargs)
         except Exception:
             return None
         parsed = _parse_json(reply)
@@ -101,6 +101,21 @@ def summarize_episode(pages: list[Page], llm_client) -> tuple[str, str]:
     return subject, summary
 
 
+def _fact_from_item(item: dict, episode_id: str) -> FactNode | None:
+    content = str(item.get("content") or "").strip()
+    if not content:
+        return None
+    return FactNode(
+        episode_id=episode_id,
+        content=content,
+        confidence=float(item.get("confidence", 0.8) or 0.8),
+        temporal=item.get("temporal") or None,
+        spatial=item.get("spatial") or None,
+        keywords=[str(k) for k in (item.get("keywords") or [])],
+        query_patterns=[str(q) for q in (item.get("query_patterns") or [])],
+    )
+
+
 def extract_facts_for_episode(pages: list[Page], episode_id: str, llm_client) -> list[FactNode]:
     """LLM-extract atomic, queryable facts from one episode's pages."""
     transcript = _episode_transcript(pages)
@@ -120,24 +135,74 @@ def extract_facts_for_episode(pages: list[Page], episode_id: str, llm_client) ->
     facts: list[FactNode] = []
     if parsed and isinstance(parsed.get("facts"), list):
         for item in parsed["facts"]:
-            if not isinstance(item, dict):
-                continue
-            content = str(item.get("content") or "").strip()
-            if not content:
-                continue
-            facts.append(FactNode(
-                episode_id=episode_id,
-                content=content,
-                confidence=float(item.get("confidence", 0.8) or 0.8),
-                temporal=item.get("temporal") or None,
-                spatial=item.get("spatial") or None,
-                keywords=[str(k) for k in (item.get("keywords") or [])],
-                query_patterns=[str(q) for q in (item.get("query_patterns") or [])],
-            ))
+            fact = _fact_from_item(item, episode_id) if isinstance(item, dict) else None
+            if fact is not None:
+                facts.append(fact)
 
     if not facts:
         # Fallback: one coarse fact so the episode is never unsearchable.
         facts.append(FactNode(episode_id=episode_id, content=transcript[:300].strip(), confidence=0.3))
+    return facts
+
+
+TOPIC_FACT_MAX_CHARS = 16000     # ~4k tokens of transcript per call, in a server limited to 8k in total
+TOPIC_FACT_MAX_NEW_TOKENS = 2500
+
+
+def _topic_fact_call(title: str, summary: str, segments: list[tuple[str, str]], llm_client) -> list[FactNode]:
+    labels = {f"E{i + 1}": eid for i, (eid, _) in enumerate(segments)}
+    text = "\n\n".join(f"[{label}]\n{segments[i][1]}" for i, label in enumerate(labels))
+    system = (
+        "You extract atomic, self-contained facts from the conversation segments that make up one topic. "
+        "Each fact must be understandable on its own, naming people rather than using pronouns. "
+        "Respond with ONLY valid JSON."
+    )
+    user = (
+        f"Topic: {title} -- {summary}\n\nSegments, oldest first:\n{text}\n\n"
+        "Extract what a later question could need: individual events, and also what only becomes clear by "
+        "reading the segments together, such as every instance of something, how many times something "
+        "happened, or how something changed over time.\n\n"
+        "Respond in JSON: {\"facts\": [{\"content\": \"...\", \"confidence\": 0.0-1.0, "
+        "\"temporal\": \"...\" or null, \"spatial\": \"...\" or null, "
+        "\"keywords\": [\"...\"], \"query_patterns\": [\"a question this fact answers\"], "
+        "\"segments\": [\"the segment labels the fact comes from, like E1\"]}]}"
+    )
+    parsed = _call_llm_json(llm_client, system, user, max_new_tokens=TOPIC_FACT_MAX_NEW_TOKENS)
+    if not (parsed and isinstance(parsed.get("facts"), list)):
+        # Usually a reply cut off at the token limit: retry on smaller pieces.
+        if len(segments) > 1:
+            mid = len(segments) // 2
+            return (_topic_fact_call(title, summary, segments[:mid], llm_client)
+                    + _topic_fact_call(title, summary, segments[mid:], llm_client))
+        return [FactNode(episode_id=segments[0][0], content=segments[0][1][:300].strip(), confidence=0.3)]
+
+    facts: list[FactNode] = []
+    for item in parsed["facts"]:
+        if not isinstance(item, dict):
+            continue
+        cited = [labels[x] for x in (item.get("segments") or []) if x in labels]
+        # a fact spanning segments is anchored to the latest, the date it holds as of
+        fact = _fact_from_item(item, cited[-1] if cited else segments[-1][0])
+        if fact is not None:
+            facts.append(fact)
+    return facts
+
+
+def extract_facts_for_topic(title: str, summary: str, segments: list[tuple[str, str]], llm_client) -> list[FactNode]:
+    """LLM-extract facts from a topic's episodes read together. ``segments``:
+    (episode id, transcript) in temporal order. Topics too long for one call are
+    split between episodes, so facts can only combine episodes of the same part."""
+    facts: list[FactNode] = []
+    part: list[tuple[str, str]] = []
+    size = 0
+    for segment in segments:
+        if part and size + len(segment[1]) > TOPIC_FACT_MAX_CHARS:
+            facts.extend(_topic_fact_call(title, summary, part, llm_client))
+            part, size = [], 0
+        part.append((segment[0], segment[1][:TOPIC_FACT_MAX_CHARS]))
+        size += len(part[-1][1])
+    if part:
+        facts.extend(_topic_fact_call(title, summary, part, llm_client))
     return facts
 
 
@@ -188,7 +253,8 @@ def assign_fact_roles(facts: list[FactNode], episode_id: str, episode_summary: s
 # Topic layer (per session, streaming)
 # ---------------------------------------------------------------------------
 
-def llm_match_topics(episode: EpisodeNode, existing_topics: list[TopicNode], llm_client, batch_size: int = 10) -> str | None:
+def llm_match_topics(episode: EpisodeNode, existing_topics: list[TopicNode], llm_client, batch_size: int = 10,
+                     strict: bool = False) -> str | None:
     """Batch-match `episode` against `existing_topics`; return the id of a
     matching topic, or None if none match (mirrors topic_extractor.py's
     batched TOPIC_MATCH_PROMPT)."""
@@ -199,6 +265,12 @@ def llm_match_topics(episode: EpisodeNode, existing_topics: list[TopicNode], llm
         "You decide whether a new conversation episode belongs to any of the given "
         "topics. Respond with ONLY valid JSON."
     )
+    if strict:  # as HyperMem's matching prompt: the same subject is not the same topic
+        system += (
+            " A topic is one specific subject of specific people: two people's separate jobs, projects or "
+            "trips are different topics even when they sound alike, and sharing a broad theme or mood is not "
+            "a match. If in doubt, answer null."
+        )
     for start in range(0, len(existing_topics), batch_size):
         batch = existing_topics[start:start + batch_size]
         topic_lines = "\n".join(f"- {t.id}: {t.title} -- {t.summary}" for t in batch)
@@ -301,6 +373,7 @@ def build_topics_for_session(
     episodes: list[EpisodeNode],
     llm_client,
     batch_size: int = 10,
+    strict: bool = False,
 ) -> tuple[dict[str, TopicNode], dict[str, EpisodeHyperedge]]:
     """
     Stream episodes (in temporal order, i.e. the order they were segmented
@@ -321,7 +394,7 @@ def build_topics_for_session(
             hyperedges[hyperedge.id] = hyperedge
             continue
 
-        matched_id = llm_match_topics(episode, list(topics.values()), llm_client, batch_size=batch_size)
+        matched_id = llm_match_topics(episode, list(topics.values()), llm_client, batch_size=batch_size, strict=strict)
 
         if matched_id is None:
             topic = create_new_topic(episode, llm_client)

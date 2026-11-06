@@ -24,6 +24,8 @@ history. This file only covers the fork's own work and current state.
 
 **Benchmark:** LoCoMo, `data/locomo10.json` — 10 conversations, 1986 QA, **1540
 scored** (category 5 / adversarial excluded). Metric: Porter-stemmed **token-F1**.
+Scores saved before 2026-11-03 were actually unstemmed because `nltk` was missing; see
+`adaptive_memory_structures/README_HYPERGRAPH.md` for the correction.
 The "~584" set some tests use is **the first 4 conversations** (`WORKMEM_MAX_SAMPLES=4`),
 not a different dataset.
 

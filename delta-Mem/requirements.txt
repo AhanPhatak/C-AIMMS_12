@@ -8,6 +8,7 @@ peft
 huggingface-hub
 hjson
 ninja
+nltk
 pydantic
 psutil
 py-cpuinfo

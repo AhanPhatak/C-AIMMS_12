@@ -30,6 +30,13 @@
 #                                  # process's own ~8GB copy + adapter.
 # Example: CAIMMS_SINGLE_GPU=1 CAIMMS_GPU_INDEX=1 bash run_pipeline.sh --smoke
 #
+# WORKMEM_RETRIEVER=hypermem with its default retrieval models (Qwen3-Embedding-4B,
+# Qwen3-Reranker-4B, ~17GB) changes the layout: they do not fit beside the answer
+# model, and nothing on a 24GB card fits beside vLLM and them. The eval takes both
+# cards (answer model on EVAL_GPU, retrieval on VLLM_GPU) and no vLLM is started,
+# so every graph must already be cached and WORKMEM_JUDGE is not available.
+# HYPERMEM_EMBED_MODEL= selects the original layout again.
+#
 # On a 24.5GB card this co-location is genuinely tight (~8GB vLLM weights +
 # ~8GB eval weights + KV-cache/activation overhead for both), unlike the
 # cluster variant's 40GB A100 -- it may still OOM depending on what headroom
@@ -99,12 +106,54 @@ else
     GPU_IDS="${VLLM_GPU},${EVAL_GPU}"
 fi
 
+# Whether the eval takes both cards and runs without vLLM (see the header).
+OLD_STACK_ENV="HYPERMEM_EMBED_MODEL= HYPERMEM_RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2 HYPERMEM_LAYER_RERANK=0"
+RETRIEVAL_ON_VLLM_GPU=0
+if [ -n "${HYPERMEM_EMBED_MODEL-Qwen/Qwen3-Embedding-4B}" ]; then
+    if [ "${LB_RETRIEVER:-}" = "hypermem" ] && [ "${EVAL_MODULE}" != "${LOCOMO_MODULE}" ]; then
+        echo "ERROR: LB_RETRIEVER=hypermem builds its graphs inside the eval, so it needs vLLM"
+        echo "  up, which leaves no room for the default retrieval models. Set: ${OLD_STACK_ENV}"
+        exit 1
+    fi
+    if [ "${WORKMEM_RETRIEVER:-}" = "hypermem" ] && [ "${EVAL_MODULE}" = "${LOCOMO_MODULE}" ]; then
+        RETRIEVAL_ON_VLLM_GPU=1
+        if [ "${SINGLE_GPU}" = "1" ]; then
+            echo "ERROR: the default HyperMem retrieval models and the answer model need two GPUs."
+            echo "  For one GPU, set: ${OLD_STACK_ENV}"
+            exit 1
+        fi
+        if [ "${WORKMEM_JUDGE:-0}" = "1" ]; then
+            echo "ERROR: WORKMEM_JUDGE=1 needs vLLM, which has no room beside the default HyperMem"
+            echo "  retrieval models. Unset it, or set: ${OLD_STACK_ENV}"
+            exit 1
+        fi
+        CACHE_ROOT="$(dirname "${WORKMEM_OUTPUT_FILE}")"
+        if [ -n "${WORKMEM_SAMPLES:-}" ]; then
+            SAMPLE_IDS="${WORKMEM_SAMPLES//,/ }"
+        else
+            SAMPLE_IDS="$(seq 0 $((${WORKMEM_MAX_SAMPLES:-10} - 1)))"
+        fi
+        for i in ${SAMPLE_IDS}; do
+            for g in "hypermem_cache" "graph_cache"; do
+                if [ ! -f "${CACHE_ROOT}/${g}/sample_${i}.json" ]; then
+                    echo "ERROR: ${CACHE_ROOT}/${g}/sample_${i}.json is missing, and building it needs vLLM,"
+                    echo "  which this layout does not start. Copy it from cached_graphs/, or build it"
+                    echo "  first, or set: ${OLD_STACK_ENV}"
+                    exit 1
+                fi
+            done
+        done
+    fi
+fi
+
 echo "=============================================="
 echo "  C-AIMMS ${MODE}"
 echo "  run  : ${RUN_ID} on $(hostname) at $(date)"
 echo "  out  : ${WORKMEM_OUTPUT_FILE}"
 echo "  logs : ${RUN_LOG}"
-if [ "${SINGLE_GPU}" = "1" ]; then
+if [ "${RETRIEVAL_ON_VLLM_GPU}" = "1" ]; then
+    echo "  gpu  : no vLLM -- answer model on device ${EVAL_GPU}, HyperMem retrieval on device ${VLLM_GPU}"
+elif [ "${SINGLE_GPU}" = "1" ]; then
     echo "  gpu  : SINGLE-GPU mode -- both vLLM and eval on device ${GPU_INDEX}"
     echo "         (vLLM --gpu-memory-utilization ${VLLM_GPU_MEM_UTIL})"
 else
@@ -136,8 +185,12 @@ done
 NEED_MIB="${CAIMMS_MIN_FREE_MIB:-12000}"
 BUSY=0
 while read -r idx free; do
-    if [ "${free}" -lt "${NEED_MIB}" ]; then
-        echo "GPU ${idx}: only ${free} MiB free (need >= ${NEED_MIB} MiB)"
+    need="${NEED_MIB}"
+    if [ "${RETRIEVAL_ON_VLLM_GPU}" = "1" ] && [ "${idx}" = "${VLLM_GPU}" ]; then
+        need="${CAIMMS_MIN_FREE_MIB:-18000}"
+    fi
+    if [ "${free}" -lt "${need}" ]; then
+        echo "GPU ${idx}: only ${free} MiB free (need >= ${need} MiB)"
         BUSY=1
     else
         echo "GPU ${idx}: ${free} MiB free -- OK"
@@ -225,6 +278,7 @@ trap cleanup EXIT INT TERM
 
 cd "${CAIMMS_ROOT}/delta-Mem"
 
+if [ "${RETRIEVAL_ON_VLLM_GPU}" = "0" ]; then
 # ── 1. vLLM ───────────────────────────────────────────────────────────────────
 echo "[1/3] Starting vLLM on GPU ${VLLM_GPU} (port ${VLLM_PORT}, util ${VLLM_GPU_MEM_UTIL})..."
 CUDA_VISIBLE_DEVICES="${VLLM_GPU}" python3 -m vllm.entrypoints.openai.api_server \
@@ -275,11 +329,16 @@ if ! printf '%s' "${MODELS_JSON}" | grep -q "Qwen/Qwen3-4B-Instruct-2507"; then
     exit 1
 fi
 echo "      server online (pid ${SERVER_PID}, model verified)."
+else
+    echo "[1/3] [2/3] Skipping vLLM: every graph is cached and HyperMem retrieval needs its card."
+fi
 
 # ── 3. eval ───────────────────────────────────────────────────────────────────
 echo "[3/3] Starting eval on GPU ${EVAL_GPU}..."
 set +e
-CUDA_VISIBLE_DEVICES="${EVAL_GPU}" python3 -u -m "${EVAL_MODULE}" 2>&1 | tee -a "${RUN_LOG}"
+EVAL_DEVICES="${EVAL_GPU}"
+[ "${RETRIEVAL_ON_VLLM_GPU}" = "0" ] || EVAL_DEVICES="${EVAL_GPU},${VLLM_GPU}"
+CUDA_VISIBLE_DEVICES="${EVAL_DEVICES}" python3 -u -m "${EVAL_MODULE}" 2>&1 | tee -a "${RUN_LOG}"
 EVAL_EXIT=${PIPESTATUS[0]}
 set -e
 

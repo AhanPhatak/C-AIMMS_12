@@ -93,6 +93,12 @@ if OSAM_MODE not in ("combined", "vanilla", "hybrid"):
 # Everything after retrieval (relevance filter, OSAM write, answer prompt,
 # scoring) is identical, so the two are directly comparable.
 RETRIEVER = os.environ.get("WORKMEM_RETRIEVER", "iterret")
+# Evidence order going into OSAM / the prompt: "relevance" (default) re-sorts by
+# MiniLM similarity to the question (evidence_filter.py); "retriever" keeps the
+# order the retriever returned.
+EVIDENCE_ORDER = os.environ.get("WORKMEM_EVIDENCE_ORDER", "relevance")
+if EVIDENCE_ORDER not in ("relevance", "retriever"):
+    raise SystemExit(f"[FATAL] unknown WORKMEM_EVIDENCE_ORDER={EVIDENCE_ORDER!r} (expected relevance | retriever)")
 if RETRIEVER not in ("iterret", "hypermem"):
     raise SystemExit(f"[FATAL] unknown WORKMEM_RETRIEVER={RETRIEVER!r} (expected iterret | hypermem)")
 if RETRIEVER == "hypermem":
@@ -349,7 +355,11 @@ def main() -> None:
             pre_filter_evidence = list(evidence)
 
             # --- evidence filter before OSAM write ---
-            if evidence:
+            if evidence and EVIDENCE_ORDER == "retriever":
+                # keep the retriever's own order (HyperMem: reranked / chronological
+                # turns, facts first or last) instead of the MiniLM re-sort
+                pass
+            elif evidence:
                 evidence = filter_evidence_by_relevance(
                     q_text, evidence, bank.backend.encode, threshold=0.30
                 )

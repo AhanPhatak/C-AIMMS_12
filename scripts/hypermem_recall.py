@@ -1,5 +1,6 @@
 """Gold-evidence recall of HyperMem retrieval configs on the cached LoCoMo hypergraphs
-(<outputs>/hypermem_cache/). CPU only, minutes per conversation. Produced the tuning
+(<outputs>/hypermem_cache/). Needs a GPU with ~20GB free for the default retrieval
+models (HYPERMEM_EMBED_MODEL= and a small HYPERMEM_RERANK_MODEL for CPU only). Produced the tuning
 tables in adaptive_memory_structures/README_HYPERGRAPH.md. Run after `source env.sh`.
 
 A question counts as a hit when every LoCoMo gold evidence turn is among the

@@ -12,10 +12,8 @@ try:
 except ImportError:  # pragma: no cover
     import re as re_lib  # type: ignore[no-redef]
 
-try:
-    from nltk.stem import PorterStemmer
-except ImportError:  # pragma: no cover
-    PorterStemmer = None
+# Required, no fallback: scoring without the stemmer is a different metric.
+from nltk.stem import PorterStemmer
 
 
 CATEGORY_NAMES = {
@@ -88,7 +86,7 @@ OFFICIAL_TOP_K = 10
 OFFICIAL_TOP_P = 0.9
 OFFICIAL_TEMPERATURE = 0.4
 
-_STEMMER = PorterStemmer() if PorterStemmer is not None else None
+_STEMMER = PorterStemmer()
 
 
 @dataclass(frozen=True)
@@ -119,10 +117,7 @@ def normalize_answer(text: str) -> str:
 
 
 def _stem_tokens(text: str) -> list[str]:
-    tokens = normalize_answer(text).split()
-    if _STEMMER is None:
-        return tokens
-    return [_STEMMER.stem(token) for token in tokens]
+    return [_STEMMER.stem(token) for token in normalize_answer(text).split()]
 
 
 def single_answer_f1(prediction: str, ground_truth: str) -> float:

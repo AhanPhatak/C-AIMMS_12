@@ -7,6 +7,11 @@ segmentation.
 
     python3 build_locomo_hypermem_cache.py --samples 0-9
     python3 build_locomo_hypermem_cache.py --samples 1,2,3 --base-url http://localhost:8000/v1
+    python3 build_locomo_hypermem_cache.py --samples 0-9 --topics none --cache-dir <dir>
+
+--topics none skips the LLM topic stage (the retriever clusters episodes
+instead; no recall loss measured); --workers sets how many episodes are
+extracted concurrently against vLLM.
 
 Existing cache files are kept (delete one to rebuild it).
 """
@@ -38,6 +43,8 @@ def main() -> None:
     p.add_argument("--cache-dir", default=os.path.join(os.environ.get("CAIMMS_OUTPUT_DIR", "."), "hypermem_cache"))
     p.add_argument("--base-url", default=os.environ.get("CAIMMS_VLLM_BASE_URL", "http://localhost:8000/v1"))
     p.add_argument("--model", default="Qwen/Qwen3-4B-Instruct-2507")
+    p.add_argument("--topics", choices=("llm", "none"), default=os.environ.get("HYPERMEM_BUILD_TOPICS", "llm"))
+    p.add_argument("--workers", type=int, default=int(os.environ.get("HYPERMEM_BUILD_WORKERS", "8")))
     args = p.parse_args()
 
     with open(args.data) as f:
@@ -45,7 +52,7 @@ def main() -> None:
     for i in _parse_samples(args.samples):
         load_or_build(
             os.path.join(args.cache_dir, f"sample_{i}.json"), samples[i]["conversation"],
-            args.base_url, args.model, log=lambda m, i=i: print(f"[sample {i}] {m}", flush=True),
+            args.base_url, args.model, topics_mode=args.topics, workers=args.workers, log=lambda m, i=i: print(f"[sample {i}] {m}", flush=True),
         )
 
 

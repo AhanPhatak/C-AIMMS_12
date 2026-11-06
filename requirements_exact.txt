@@ -104,6 +104,7 @@ narwhals==2.22.1
 nest-asyncio==1.6.0
 networkx==3.6.1
 ninja==1.13.0
+nltk==3.10.4
 numba==0.61.2
 numpy==2.2.6
 nvidia-cublas-cu12==12.4.5.8
