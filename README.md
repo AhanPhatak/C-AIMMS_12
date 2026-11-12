@@ -52,7 +52,7 @@ cached_results/               result rows behind reported numbers
       ab_write_granularity.py       paired A/B harness
   data/locomo10.json          the benchmark
 scripts/                      run_everything.sh (one-shot), run_pipeline.sh, setup_env.sh,
-                              download_assets.sh, dryrun_pipeline.py, score_calculator.py,
+                              download_assets.sh, dryrun_pipeline.py, score_calculator.py, judge_rows.py,
                               hypermem_recall.py, slurm + guardian
 trained_models/               adapter config (weights not in git)
 requirements_exact.txt        authoritative pinned environment

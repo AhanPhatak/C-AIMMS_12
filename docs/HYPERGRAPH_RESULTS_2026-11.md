@@ -20,7 +20,9 @@ throughout, so that results stay comparable with older runs.
   multi-hop judge +0.064 [+0.010, +0.123], for about 17GB of extra GPU memory.
 - Scores stay near 0.80-0.81 whatever changes. Gold evidence reached only 0.806 on
   convs 1-3 with the standard prompt, so the 4B answer model looks like the limit.
-  This is an inference: a larger answer model was deliberately not tested.
+  This is an inference: a larger answer model was deliberately not tested. Gold turns
+  understate the ceiling on temporal questions, and cutting evidence or adding
+  chain-of-thought did not help either (2026-11-12, below).
 
 ## How to read the numbers
 
@@ -157,6 +159,50 @@ speaker boost has nothing to act on in documents. On the first 50 qasper questio
 HyperMem without PRF, rerank and facts scored 0.4275 and flat MiniLM + BM25 0.4048,
 both above this run's 0.3671 (CIs include zero, n=50).
 
+## Evidence size, chain-of-thought and duration questions (2026-11-12, not adopted)
+
+Tested whether the 4B answer model does better with less, cleaner evidence. The
+default retrieval was run once for all 1540 questions and saved with the reranker
+score of every evidence line (it matches the full run's evidence on 1540/1540), then
+each arm replayed a cut of it. Convs 1-3, n=432; the replayed default reproduces the
+full run's answers and judge verdicts on 432/432.
+
+| Evidence | Items | F1 | Judge | Judge vs current [95% CI] | Multi-hop judge |
+|---|---|---|---|---|---|
+| **Current: 10 facts + 40 turns** | 50 | 0.563 | **0.810** | -- | 0.658 |
+| 20 turns | 30 | 0.570 | 0.803 | -0.007 [-0.030, +0.016] | 0.633 |
+| 10 turns | 20 | 0.558 | 0.801 | -0.009 [-0.037, +0.019] | 0.684 |
+| Turns with reranker score >= 0, at least 5 | 28.7 | 0.561 | 0.799 | -0.012 [-0.035, +0.012] | 0.696 |
+| Turns with reranker score >= 2, at least 5 | 22.2 | 0.556 | 0.792 | -0.019 [-0.046, +0.012] | 0.658 |
+| No facts, 40 turns | 40 | 0.517 | 0.750 | -0.060 [-0.093, -0.028] | 0.595 |
+| Current + chain-of-thought | 50 | 0.515 | 0.775 | -0.035 [-0.069, +0.000] | 0.709 |
+| 20 turns + chain-of-thought | 30 | 0.523 | 0.803 | -0.007 [-0.044, +0.030] | 0.671 |
+
+- No cut beats the current evidence, so the extra turns are not what holds the plain
+  answer step back. Facts carry real weight: dropping them costs 6 judge points.
+- Chain-of-thought does better with 20 turns than with 40 (+0.028), which fits the idea
+  that noise hurts reasoning, but it still does not beat the plain answer step.
+  With no arm ahead on the tuning set, nothing was run on held-out.
+
+**Duration questions.** 42 questions match `how long / how old / how many
+days|weeks|months|years` (F1 0.454 on the full run). A one-line instruction after the
+question ("answer with the amount itself, not a date") raised F1 0.440 -> 0.486
+(+0.046 [-0.021, +0.114], n=41 distinct) by shortening answers, but judge fell 0.619 ->
+0.571. The model still cannot turn two dates into a duration, so it was reverted. The
+earlier note that the temporal instruction turns durations into dates applies only to
+the opt-in `OSAM_PROMPT_ENGINEERING=1` prompt; the default prompt has no temporal
+instruction.
+
+**Gold turns on temporal questions.** The gold-only run (convs 1-3) scored temporal F1
+0.635 against 0.712 for retrieved evidence. Of the 12 temporal questions where it was
+clearly worse, 7 have a gold turn that does not mention the event (for "When was
+Joanna's second movie script shown on the big screens?" the gold turn is "Hey Joanna,
+what's been up since we last chatted?") and the model rightly says it is not
+mentioned; 4 more have only a relative date ("I got a puppy two weeks ago") that it
+repeats. So the gold-evidence score understates the ceiling on temporal questions.
+
+Rows, judge files, the saved evidence and scripts: `outputs/evidence_20261112/`.
+
 ## Current defaults
 
 - **On:** `HYPERMEM_SPEAKER_BOOST=1`, `HYPERMEM_EMBED_MODEL=Qwen/Qwen3-Embedding-4B`,
@@ -170,11 +216,12 @@ both above this run's 0.3671 (CIs include zero, n=50).
 
 ## Still open
 
-- `How long` questions trigger the temporal instruction, which can turn a duration into a date.
-- The default HyperMem run has no judge scores, and the separate judging script is not in the repo.
+- The default HyperMem run has no judge scores of its own; judge its rows afterwards
+  with `scripts/judge_rows.py`.
 - The δ-mem adapter has not been re-tested on the new evidence.
 - The IterRet-style gap step (idea 7) is untested and low priority.
-- Why gold turns alone score lower on temporal questions is unexplained.
+- On the first 50 qasper questions HyperMem trails plain MiniLM + BM25; LongBench has
+  not been tuned separately.
 
 ## Where the data is
 
@@ -182,4 +229,5 @@ both above this run's 0.3671 (CIs include zero, n=50).
   test graphs. Every F1 and judge score above from these runs was recomputed from these rows.
 - `outputs/cot_test_20261103/`: chain-of-thought, gold-evidence and general-prompt runs.
 - `outputs/multihop_20261104/`: speaker boost and rewritten-query runs.
+- `outputs/evidence_20261112/`: evidence-size, chain-of-thought and duration runs.
 - `adaptive_memory_structures/README_HYPERGRAPH.md`: method notes and settings.

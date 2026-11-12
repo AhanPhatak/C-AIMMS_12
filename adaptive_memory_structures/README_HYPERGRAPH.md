@@ -786,6 +786,8 @@ model (~10GB) on a 24GB card. For `WORKMEM_RETRIEVER=hypermem`, `scripts/run_pip
 and `run_everything.sh` therefore give the eval both cards (answer model on `EVAL_GPU`,
 retrieval on `VLLM_GPU`) and start no vLLM, which needs every graph cached and rules
 out `WORKMEM_JUDGE=1`; they stop at startup if either condition fails, or on one GPU.
+Judge the rows afterwards with `scripts/judge_rows.py` (any OpenAI-compatible server,
+e.g. vLLM serving Qwen3-4B on port 8007).
 `HYPERMEM_EMBED_MODEL=` restores the original layout, with the previous stack above
 for the "+ speaker boost" row. By hand: `CUDA_VISIBLE_DEVICES=0,1 WORKMEM_DEVICE=cuda:0`.
 

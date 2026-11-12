@@ -162,7 +162,7 @@ Retrieval (`IterRet/iterret/nodes.py`):
 Eval / run:
 | var | effect |
 |---|---|
-| `WORKMEM_JUDGE=1` | also score each row with the lenient LLM judge (paraphrase/format-insensitive) as a secondary metric; token-F1 stays primary. One extra graph-LLM call per answered question; writes `judge_correct` per row and prints LLM-JUDGE accuracy (overall + per category) at the end. Robust to judge failures (count False). |
+| `WORKMEM_JUDGE=1` | also score each row with the lenient LLM judge (paraphrase/format-insensitive) as a secondary metric; token-F1 stays primary. One extra graph-LLM call per answered question; writes `judge_correct` per row and prints LLM-JUDGE accuracy (overall + per category) at the end. Robust to judge failures (count False). Not available on the default HyperMem layout (no vLLM); use `scripts/judge_rows.py <rows.jsonl>` afterwards, which gives the same verdicts. |
 | `WORKMEM_MAX_SAMPLES=N` | process first N conversations. Via `run_pipeline.sh` this now writes a separate `workmem_iterret_n<N>.jsonl` checkpoint (e.g. =4 → the 584-Q set) |
 | `WORKMEM_OUTPUT_FILE` | eval output path (run_pipeline sets this itself) |
 | `WORKMEM_RETRIEVER` | `iterret` (default) or `hypermem` — evidence source; everything downstream identical. HyperMem knobs (`HYPERMEM_*`): `adaptive_memory_structures/README_HYPERGRAPH.md` |
