@@ -624,7 +624,9 @@ Keeping the retriever's order instead of the eval's MiniLM re-sort of the
 evidence (`WORKMEM_EVIDENCE_ORDER=retriever`, `evidence_filter.py`) was tried
 later too. Held out, unstemmed F1 vs 0.5287: turns by rank, facts first 0.5252
 (-0.004 [-0.017, +0.010]); turns by rank, facts last 0.5367 (+0.008 [-0.006,
-+0.022]). Not adopted. Still not done: a full 10-conversation IterRet run to
++0.022]). Not adopted. Re-checked 2026-11-13 on the current retrieval (convs 1-3,
+judge vs 0.810): no order beats the re-sort, facts last -0.021 [-0.049, +0.007]; see
+`docs/HYPERGRAPH_RESULTS_2026-11.md`. Still not done: a full 10-conversation IterRet run to
 compare against (~30h on the shared box).
 
 ### Topic layer: LLM topics vs embedding clusters vs none (recall, 2026-10-25)

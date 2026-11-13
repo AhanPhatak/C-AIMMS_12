@@ -245,6 +245,23 @@ is +0.015 [-0.005, +0.037], so this is moderate evidence, not proof.
 
 Rows, saved retrieval and scripts: `outputs/longbench_evidence_20261112/`.
 
+### Same re-sort on LoCoMo (2026-11-13, not adopted)
+
+The LoCoMo eval runs the same MiniLM re-sort. `WORKMEM_EVIDENCE_ORDER=retriever` keeps
+HyperMem's order instead (`HYPERMEM_TURN_ORDER`, `HYPERMEM_FACTS_POS`). Replayed on the
+saved retrieval, convs 1-3 (n=432), stemmed F1 and judge, vs the default (F1 0.563, judge 0.810):
+
+| Evidence order | F1 | Judge | Judge vs default |
+|---|---|---|---|
+| Reranker order, facts first | 0.563 | 0.812 | +0.002 [-0.023, +0.028] |
+| Reranker order, facts last | 0.570 | 0.789 | -0.021 [-0.049, +0.007] |
+| Chronological, facts first | 0.554 | 0.808 | -0.002 [-0.032, +0.028] |
+| Chronological, facts last | 0.568 | 0.801 | -0.009 [-0.044, +0.025] |
+
+No order beats the re-sort; facts last costs judge accuracy. Unlike LongBench, LoCoMo
+needs the facts (dropping them was -0.060), and conversation turns read out of
+order lose less than document passages do. Rows: `outputs/evidence_20261112/rows/ro_*`.
+
 ## Current defaults
 
 - **On:** `HYPERMEM_SPEAKER_BOOST=1`, `HYPERMEM_EMBED_MODEL=Qwen/Qwen3-Embedding-4B`,
@@ -264,8 +281,6 @@ Rows, saved retrieval and scripts: `outputs/longbench_evidence_20261112/`.
 - The IterRet-style gap step (idea 7) is untested and low priority.
 - LongBench `LB_EVIDENCE_LAYERS=episodic LB_EVIDENCE_ORDER=document` (+0.017) is
   opt-in, not yet the default for `LB_RETRIEVER=hypermem`.
-- On LoCoMo the same relevance filter also re-sorts the HyperMem evidence; its effect
-  there has not been measured.
 
 ## Where the data is
 
