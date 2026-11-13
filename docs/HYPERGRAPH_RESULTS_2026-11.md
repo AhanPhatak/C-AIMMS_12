@@ -203,6 +203,48 @@ repeats. So the gold-evidence score understates the ceiling on temporal question
 
 Rows, judge files, the saved evidence and scripts: `outputs/evidence_20261112/`.
 
+## LongBench evidence (2026-11-12)
+
+HyperMem's LongBench retrieval (repo defaults, paper models) and flat MiniLM + BM25 were
+run once for every question of the six tasks and saved, then replayed through the
+unmodified LongBench eval with different evidence. The replayed default reproduces the
+full run on 1150/1150 answers. The first half of each task (by row order) chose the
+arm; the second half reports it. F1 is LongBench's own; "mean" averages the six tasks.
+
+| Evidence (12 passages unless noted) | Tuning mean | Held-out mean | All 1150 vs default [95% CI] |
+|---|---|---|---|
+| **Default:** 10 facts + passages, re-sorted by the relevance filter | 0.404 | 0.449 | -- |
+| No facts | 0.408 | 0.444 | -0.000 [-0.012, +0.011] |
+| Reranker score >= 0, at least 4 passages | 0.401 | 0.437 | -0.011 (held-out) |
+| Flat MiniLM + BM25 | 0.391 | 0.423 | -0.019 [-0.034, -0.005] |
+| No re-sort (retriever's order) | 0.401 | 0.447 | -0.002 [-0.017, +0.012] |
+| No re-sort, no facts | 0.405 | 0.436 | -0.006 [-0.021, +0.009] |
+| Facts + passages in document order | 0.408 | 0.449 | +0.002 [-0.012, +0.017] |
+| **No facts, passages in document order** | **0.423** | **0.464** | **+0.017 [+0.002, +0.032]** |
+| No facts, 16 passages in document order | 0.424 | 0.452 | +0.012 [-0.004, +0.028] |
+| Flat MiniLM + BM25, no re-sort | 0.385 | 0.425 | -0.021 [-0.037, -0.005] |
+
+Per task, all 1150 (default -> no facts, document order): qasper 0.422 -> 0.459,
+hotpotqa 0.591 -> 0.610, multifieldqa_en 0.498 -> 0.524, 2wikimqa 0.486 -> 0.479,
+musique 0.305 -> 0.330, narrativeqa 0.257 -> 0.257. On the held-out half alone the gain
+is +0.015 [-0.005, +0.037], so this is moderate evidence, not proof.
+
+- `filter_evidence_by_relevance` (MiniLM cosine >= 0.30) dropped almost nothing here,
+  but it re-sorts everything by MiniLM score, so the reranker's order never reached the
+  answer model. Turning the re-sort off alone changes nothing.
+- The gain needs both changes: document order with facts, or no facts in relevance
+  order, are no better than the default. Read as passages of the source in their own
+  order, the evidence keeps the document's flow; facts are short paraphrases that add
+  nothing the passages do not already say.
+- HyperMem does beat flat retrieval on LongBench overall (-0.019 for flat), despite
+  trailing it on qasper (+0.02 for flat). The earlier first-50 qasper result was real
+  but did not generalise to the other tasks.
+- Now available as `LB_EVIDENCE_LAYERS=episodic LB_EVIDENCE_ORDER=document` with
+  `LB_RETRIEVER=hypermem` (previously IterRet only). Checked live on qasper: 199/200
+  answers match the replay, F1 0.459. Not the default yet.
+
+Rows, saved retrieval and scripts: `outputs/longbench_evidence_20261112/`.
+
 ## Current defaults
 
 - **On:** `HYPERMEM_SPEAKER_BOOST=1`, `HYPERMEM_EMBED_MODEL=Qwen/Qwen3-Embedding-4B`,
@@ -220,8 +262,10 @@ Rows, judge files, the saved evidence and scripts: `outputs/evidence_20261112/`.
   with `scripts/judge_rows.py`.
 - The δ-mem adapter has not been re-tested on the new evidence.
 - The IterRet-style gap step (idea 7) is untested and low priority.
-- On the first 50 qasper questions HyperMem trails plain MiniLM + BM25; LongBench has
-  not been tuned separately.
+- LongBench `LB_EVIDENCE_LAYERS=episodic LB_EVIDENCE_ORDER=document` (+0.017) is
+  opt-in, not yet the default for `LB_RETRIEVER=hypermem`.
+- On LoCoMo the same relevance filter also re-sorts the HyperMem evidence; its effect
+  there has not been measured.
 
 ## Where the data is
 
@@ -230,4 +274,5 @@ Rows, judge files, the saved evidence and scripts: `outputs/evidence_20261112/`.
 - `outputs/cot_test_20261103/`: chain-of-thought, gold-evidence and general-prompt runs.
 - `outputs/multihop_20261104/`: speaker boost and rewritten-query runs.
 - `outputs/evidence_20261112/`: evidence-size, chain-of-thought and duration runs.
+- `outputs/longbench_evidence_20261112/`: LongBench evidence runs.
 - `adaptive_memory_structures/README_HYPERGRAPH.md`: method notes and settings.

@@ -97,6 +97,10 @@ MAX_EVIDENCE_TOKENS = int(os.environ.get("LB_MAX_EVIDENCE_TOKENS", "0"))
 # Evidence presentation ablations (see longctx_retrieval.select_evidence):
 #   LB_EVIDENCE_LAYERS = all (default) | episodic  -- drop LLM-extracted semantic facts
 #   LB_EVIDENCE_ORDER  = relevance (default) | document -- paper order instead of relevance
+# Both also apply to LB_RETRIEVER=hypermem | flat. For HyperMem, episodic + document
+# scored F1 0.443 vs 0.426 for the default over all 1150 questions of the six tasks
+# (+0.017 [+0.001, +0.033]; second half of each task alone +0.015 [-0.005, +0.037]):
+# see docs/HYPERGRAPH_RESULTS_2026-11.md.
 EVIDENCE_LAYERS = os.environ.get("LB_EVIDENCE_LAYERS", "all")
 EVIDENCE_ORDER = os.environ.get("LB_EVIDENCE_ORDER", "relevance")
 
@@ -109,9 +113,9 @@ HYPERMEM_BUILD_WORKERS = int(os.environ.get("LB_HYPERMEM_BUILD_WORKERS", "4"))
 if RETRIEVER not in ("iterret", "hypermem", "flat"):
     raise SystemExit(f"[FATAL] unknown LB_RETRIEVER={RETRIEVER!r} (expected iterret | hypermem | flat)")
 if RETRIEVER != "iterret":
-    if (OSAM_MODE, SEGMENTATION, EVIDENCE_LAYERS, EVIDENCE_ORDER) != ("combined", "fixed", "all", "relevance"):
+    if (OSAM_MODE, SEGMENTATION) != ("combined", "fixed"):
         raise SystemExit(f"[FATAL] LB_RETRIEVER={RETRIEVER} supports only WORKMEM_OSAM_MODE=combined with the "
-                         "default segmentation / evidence layers / evidence order")
+                         "default segmentation")
     import sys
     sys.path.insert(0, str(Path(_ROOT) / "adaptive_memory_structures"))
     from locomo_hypermem import (FlatHybridRetriever, HyperMemRetriever, load_or_build as load_or_build_hypermem,
@@ -314,8 +318,14 @@ def main() -> None:
                                                             encode_batch=encode_batch, max_turns=N_PASSAGES)
             diag = {}
             evidence = retrievers[key].retrieve(question, diag=diag)
+            if EVIDENCE_LAYERS == "episodic":  # HyperMem tags its facts "fact"; flat returns none
+                evidence = [e for e, i in zip(evidence, diag.get("evidence_ids", [])) if i != "fact"]
             # same two post-steps as the IterRet path (retrieve_evidence)
             evidence = filter_evidence_by_relevance(question, evidence, backend.encode, threshold=0.30)
+            if EVIDENCE_ORDER == "document":
+                # the filter re-sorts by MiniLM score; put passages back in document order (facts first)
+                where = {p: n for n, p in enumerate(passages)}
+                evidence.sort(key=lambda e: where.get(e, -1))
             diag["n_evidence_uncapped"] = len(evidence)
             evidence = cap_evidence_by_tokens(evidence, tokenizer, MAX_EVIDENCE_TOKENS)
             cached = True

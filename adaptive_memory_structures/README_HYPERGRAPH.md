@@ -321,6 +321,9 @@ cd delta-Mem && CUDA_VISIBLE_DEVICES=0,1 WORKMEM_RETRIEVER=hypermem WORKMEM_SAMP
 run_pipeline.sh and run_everything.sh pick that layout themselves (see
 "Paper retrieval models" below). LongBench with `LB_RETRIEVER=hypermem` builds its
 graphs inside the eval, so through run_pipeline.sh it needs the previous stack.
+On LongBench, `LB_EVIDENCE_LAYERS=episodic LB_EVIDENCE_ORDER=document` (passages only,
+in document order) scored F1 0.443 vs 0.426 for the default over the six tasks
+(+0.017 [+0.002, +0.032]); it is opt-in, see docs/HYPERGRAPH_RESULTS_2026-11.md.
 
 ### Building the conversation hypergraph (`locomo_hypermem.py`)
 
