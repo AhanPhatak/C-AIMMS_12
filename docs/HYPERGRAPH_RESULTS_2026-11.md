@@ -242,6 +242,12 @@ is +0.015 [-0.005, +0.037], so this is moderate evidence, not proof.
 - Now available as `LB_EVIDENCE_LAYERS=episodic LB_EVIDENCE_ORDER=document` with
   `LB_RETRIEVER=hypermem` (previously IterRet only). Checked live on qasper: 199/200
   answers match the replay, F1 0.459. Not the default yet.
+- Judged (2026-11-21, Qwen3-4B judge, every reference answer joined by OR): 0.610 vs
+  0.591 for the default, +0.019 [-0.003, +0.042]; held-out halves +0.014 [-0.017,
+  +0.045]. Per task: qasper +0.065, musique +0.055, hotpotqa +0.015, multifieldqa_en
+  -0.007, 2wikimqa -0.005, narrativeqa -0.015. The gain is the same size as on F1, so
+  it is not answer format (unlike the δ-mem adapter's), but it does not clear zero on
+  the judge. Kept opt-in. 11 judge calls first timed out and were re-judged.
 
 Rows, saved retrieval and scripts: `outputs/longbench_evidence_20261112/`.
 
@@ -310,7 +316,8 @@ Rows and scripts: `outputs/delta_off_20261120/`.
 
 - The default HyperMem run has no judge scores of its own; judge its rows afterwards
   with `scripts/judge_rows.py`.
-- The LongBench passages-only arm has no judge scores; its +0.017 is F1 only.
+- LongBench passages-only: +0.017 F1 (significant) and +0.019 judge (not); opt-in until
+  a second dataset or rerun confirms it.
 - The IterRet-style gap step (idea 7) is untested and low priority.
 - LongBench `LB_EVIDENCE_LAYERS=episodic LB_EVIDENCE_ORDER=document` (+0.017) is
   opt-in, not yet the default for `LB_RETRIEVER=hypermem`.
