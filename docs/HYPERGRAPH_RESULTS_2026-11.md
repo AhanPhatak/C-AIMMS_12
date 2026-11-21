@@ -262,6 +262,39 @@ No order beats the re-sort; facts last costs judge accuracy. Unlike LongBench, L
 needs the facts (dropping them was -0.060), and conversation turns read out of
 order lose less than document passages do. Rows: `outputs/evidence_20261112/rows/ro_*`.
 
+## δ-mem adapter on vs off (2026-11-20)
+
+`OSAM_DELTA_GAIN=0` zeroes both δ-mem corrections (q and o; the adapter has no other
+weights), leaving plain Qwen3-4B on the same evidence and prompt. Rows confirm it:
+`mean_delta_o_ratio` 0.0 vs 0.034 with the adapter on. Replayed on the saved
+retrieval; the LoCoMo control is the full run (`outputs/full_run_20261105/`), which
+the replay reproduces 432/432 on convs 1-3. Only 537 of 1540 LoCoMo answers stay the
+same without the adapter.
+
+| Adapter off minus on | F1 | Judge |
+|---|---|---|
+| LoCoMo, all 1540 (on: F1 0.559, judge 0.804) | -0.031 [-0.040, -0.021] | -0.010 [-0.024, +0.003] |
+| LongBench default, all 1150 (on: F1 0.426) | -0.036 [-0.048, -0.024] | -0.002 [-0.019, +0.015] |
+| LongBench passages only, document order (on: F1 0.443) | -0.041 [-0.054, -0.029] | not judged |
+
+- The adapter raises F1 on both benchmarks, but the judge barely moves: by
+  correctness it is neutral to slightly positive. LoCoMo judge per category, on vs
+  off: open-domain 0.385 vs 0.312, temporal 0.832 vs 0.813, multi-hop 0.734 vs
+  0.727, single-hop 0.864 vs 0.863.
+- On LongBench the gain is answer format. Without the adapter, answers grow longer
+  (musique median 3 -> 16 words, often a full sentence around the answer), which
+  LongBench's F1 penalises and the judge does not. The adapter was trained on Qasper
+  and keeps answers short and extractive.
+- On LoCoMo it is not length: answers are shorter without the adapter (12.7 vs 20.4
+  words) and F1 still drops.
+- So keep the adapter on. Its F1 gains are real, but they are not evidence that it
+  supplies memory the prompt lacks. This agrees with the earlier handoff finding
+  that δ-mem's guidance is about neutral on correctness.
+- The LongBench judge here is Qwen3-4B with every reference answer joined by OR. It is
+  lenient on the long free-form answers of qasper and narrativeqa.
+
+Rows and scripts: `outputs/delta_off_20261120/`.
+
 ## Current defaults
 
 - **On:** `HYPERMEM_SPEAKER_BOOST=1`, `HYPERMEM_EMBED_MODEL=Qwen/Qwen3-Embedding-4B`,
@@ -277,7 +310,7 @@ order lose less than document passages do. Rows: `outputs/evidence_20261112/rows
 
 - The default HyperMem run has no judge scores of its own; judge its rows afterwards
   with `scripts/judge_rows.py`.
-- The δ-mem adapter has not been re-tested on the new evidence.
+- The LongBench passages-only arm has no judge scores; its +0.017 is F1 only.
 - The IterRet-style gap step (idea 7) is untested and low priority.
 - LongBench `LB_EVIDENCE_LAYERS=episodic LB_EVIDENCE_ORDER=document` (+0.017) is
   opt-in, not yet the default for `LB_RETRIEVER=hypermem`.
@@ -290,4 +323,5 @@ order lose less than document passages do. Rows: `outputs/evidence_20261112/rows
 - `outputs/multihop_20261104/`: speaker boost and rewritten-query runs.
 - `outputs/evidence_20261112/`: evidence-size, chain-of-thought and duration runs.
 - `outputs/longbench_evidence_20261112/`: LongBench evidence runs.
+- `outputs/delta_off_20261120/`: δ-mem on vs off (adapter-off rows, LongBench judge rows).
 - `adaptive_memory_structures/README_HYPERGRAPH.md`: method notes and settings.

@@ -231,6 +231,10 @@ Diagnostics now written per row (`retrieval.*`): `fallback_topup_total`,
 - **Gain sweep (`OSAM_DELTA_GAIN` 1/2/4/10)** on the S-only path: `delta_o_ratio`
   scales linearly but F1 does not recover, and at 10× generation degenerates
   ("assistantassistant…"). Test-time scaling cannot make S-only work.
+- **Re-tested 2026-11-20 on the HyperMem evidence** (`OSAM_DELTA_GAIN=0` vs 1, all
+  questions): off is F1 -0.031 on LoCoMo and -0.036 on LongBench (both significant), but
+  judge -0.010 and -0.002 (neither significant). On LongBench the F1 gain is shorter,
+  extractive answers. See `docs/HYPERGRAPH_RESULTS_2026-11.md`.
 - Open, un-run ideas: test in-domain on **Qasper/LongBench** (the adapter's native
   setting) to separate domain-mismatch from mechanism; retrain with
   `--episode-recent-messages 0` (multi-hour GPU job, needs the training data).
